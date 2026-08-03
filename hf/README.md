@@ -21,10 +21,10 @@ configs:
 ## What this is
 
 One prompt, every model, three runs a month, drawn sight-unseen. Each month,
-14 language models are asked — via a single identical user message, with no
-system prompt and no feedback loop — to produce an SVG of a frog with a
-Habsburg jaw. Every attempt is published unedited at
-<https://frogs.vaguespac.es>, and archived here as data.
+the models on the roster (14 in 2026-08; 17 from 2026-09) are asked — via a
+single identical user message, with no system prompt and no feedback loop —
+to produce an SVG of a frog with a Habsburg jaw. Every attempt is published
+unedited at <https://frogs.vaguespac.es>, and archived here as data.
 
 The value is longitudinal and behavioral: the same obscure prompt, on a fixed
 cadence, forever. What changes month to month is the models.
@@ -40,10 +40,22 @@ canonical bytes are in [`prompt.txt`](prompt.txt).)
 
 ## Protocol
 
-- **Models:** the 14 OpenRouter slugs in [`models.yaml`](models.yaml),
-  spanning Anthropic, OpenAI, Google, xAI, DeepSeek, Moonshot, Z.ai, Alibaba,
-  Meta, and Mistral.
-- **Runs:** 3 per model per month, sequential, on the 1st of the month.
+- **Models:** the OpenRouter slugs in [`models.yaml`](models.yaml) — spanning
+  Anthropic, OpenAI, Google, xAI, DeepSeek, Moonshot, Z.ai, Alibaba, Meta,
+  and Mistral. Roster changes are dated in that file; a model's absence in a
+  month means it wasn't on the roster yet, not that it failed.
+- **Runs:** 3 per model per month per prompt arm, sequential, on the 1st of
+  the month.
+- **Prompt arms (halo experiment, from 2026-09):** the same anatomy is
+  requested under three names, in fully independent calls —
+  `habsburg` ("a Habsburg jaw", the canonical arm shown on the site),
+  `clinical` ("mandibular prognathism"), and `plain` ("a heavily protruding
+  lower jaw"). Only the anatomy term differs; the wrapper sentence is
+  identical (canonical bytes in [`prompt.txt`](prompt.txt) and
+  [`prompts/`](prompts/)). The design isolates how much royal imagery the
+  word "Habsburg" itself summons: crowns that appear under one name but not
+  another are contributed by the name. 2026-08 predates the experiment and
+  contains only the `habsburg` arm.
 - **Routing:** OpenRouter `/chat/completions`, provider chosen by OpenRouter's
   default routing. No retries; a failure is recorded as a failure.
 - **Sampling:** `temperature`, `top_p`, and `seed` are **never set** — provider
@@ -117,9 +129,10 @@ Every key present on every row; `null` = not recorded, never estimated.
 | `model` | string | Exact OpenRouter slug, e.g. `anthropic/claude-opus-5` |
 | `provider` | string | e.g. `Anthropic` |
 | `month` | string | `YYYY-MM` |
-| `run_index` | int | 1..3, chronological within (model, month) |
+| `variant` | string | prompt arm: `habsburg` (canonical), `clinical`, `plain` |
+| `run_index` | int | 1..3, chronological within (model, variant, month) |
 | `timestamp` | string | ISO 8601 UTC (`Z`) |
-| `prompt` | string | Full prompt text, repeated per row |
+| `prompt` | string | Full prompt text as sent for this row's arm |
 | `system_prompt` | string \| null | `null` — none is ever sent |
 | `temperature` | float \| null | `null` = provider default, unset |
 | `top_p` | float \| null | ditto |
@@ -148,7 +161,9 @@ python build_dataset.py
 
 # run a fresh month yourself (spends OpenRouter credit)
 export OPENROUTER_API_KEY=sk-or-...
-python run.py --month 2026-09              # all 14 models × 3 runs
+python run.py --month 2026-09              # canonical arm, all models × 3 runs
+python run.py --month 2026-09 --variant clinical
+python run.py --month 2026-09 --variant plain
 python run.py --models grok --runs 1       # or a smaller slice
 python build_dataset.py
 

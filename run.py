@@ -31,8 +31,14 @@ import requests
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent
-PROMPT = (ROOT / "prompt.txt").read_text(encoding="utf-8")
 TIMEOUT_S = 600
+VARIANTS = ("habsburg", "clinical", "plain")
+
+
+def load_prompt(variant: str) -> str:
+    # prompt.txt is the canonical 'habsburg' arm; control arms live in prompts/
+    path = ROOT / "prompt.txt" if variant == "habsburg" else ROOT / "prompts" / f"{variant}.txt"
+    return path.read_text(encoding="utf-8")
 
 SVG_RE = re.compile(r"<svg\b.*?</svg>", re.I | re.S)
 FENCE_RE = re.compile(r"^```[a-z]*\s*$", re.I | re.M)
@@ -70,7 +76,10 @@ def main() -> int:
     ap.add_argument("--models", default=None,
                     help="only models whose slug contains this substring")
     ap.add_argument("--runs", type=int, default=3, help="runs per model (default 3)")
+    ap.add_argument("--variant", choices=VARIANTS, default="habsburg",
+                    help="prompt arm (halo experiment); default: the canonical 'habsburg' arm")
     args = ap.parse_args()
+    prompt = load_prompt(args.variant)
 
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
@@ -100,13 +109,15 @@ def main() -> int:
 
             payload = {
                 "model": m["slug"],
-                "messages": [{"role": "user", "content": PROMPT}],
+                "messages": [{"role": "user", "content": prompt}],
                 **(m.get("params") or {}),
             }
             record = {
                 "run_id": run_id,
                 "model": m["slug"],
                 "provider": m["provider"],
+                "variant": args.variant,
+                "prompt": prompt,
                 "ts": now.isoformat().replace("+00:00", "Z"),
                 "request_params": m.get("params") or {},
                 "timeout_s": TIMEOUT_S,

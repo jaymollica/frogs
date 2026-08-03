@@ -33,7 +33,7 @@ LEGACY_DEFAULT = pathlib.Path("/var/www/frogs/results")
 COMMENT_RE = re.compile(r"<!--.*?-->", re.S)
 
 COLUMNS = [
-    "run_id", "model", "provider", "month", "run_index", "timestamp",
+    "run_id", "model", "provider", "month", "variant", "run_index", "timestamp",
     "prompt", "system_prompt", "temperature", "top_p", "max_tokens", "seed",
     "produced_svg", "svg", "svg_bytes", "duration_s",
     "prompt_tokens", "completion_tokens", "comment_count", "raw_response",
@@ -41,7 +41,8 @@ COLUMNS = [
 
 
 def base_row() -> dict:
-    return {k: None for k in COLUMNS} | {"prompt": PROMPT, "system_prompt": None}
+    return {k: None for k in COLUMNS} | {
+        "prompt": PROMPT, "variant": "habsburg", "system_prompt": None}
 
 
 def finish_svg_fields(row: dict, svg: str | None, stored_bytes=None, run_id=""):
@@ -116,9 +117,10 @@ def rows_from_legacy(month: str, mdir: pathlib.Path) -> list[dict]:
 def rows_from_raw(month: str, mdir: pathlib.Path) -> list[dict]:
     records = [json.loads(p.read_text(encoding="utf-8"))
                for p in sorted((mdir / "raw").glob("*.json"))]
-    order: dict[str, list] = {}
+    # run_index is chronological within (model, variant, month)
+    order: dict[tuple, list] = {}
     for r in sorted(records, key=lambda r: r["ts"]):
-        order.setdefault(r["model"], []).append(r["run_id"])
+        order.setdefault((r["model"], r.get("variant", "habsburg")), []).append(r["run_id"])
 
     rows = []
     for r in records:
@@ -139,7 +141,9 @@ def rows_from_raw(month: str, mdir: pathlib.Path) -> list[dict]:
             model=r["model"],
             provider=r.get("provider"),
             month=month,
-            run_index=order[r["model"]].index(r["run_id"]) + 1,
+            variant=r.get("variant", "habsburg"),
+            prompt=r.get("prompt", PROMPT),
+            run_index=order[(r["model"], r.get("variant", "habsburg"))].index(r["run_id"]) + 1,
             timestamp=r["ts"],
             temperature=params.get("temperature"),
             top_p=params.get("top_p"),
@@ -181,7 +185,7 @@ def main() -> int:
             rows = rows_from_legacy(month, mdir)
         else:
             continue
-        rows.sort(key=lambda r: (r["model"], r["run_index"]))
+        rows.sort(key=lambda r: (r["model"], r["variant"], r["run_index"]))
         with (mdir / "runs.jsonl").open("w", encoding="utf-8") as f:
             for row in rows:
                 assert list(row) == COLUMNS, f"column drift in {row['run_id']}"
