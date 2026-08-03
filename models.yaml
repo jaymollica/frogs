@@ -1,4 +1,9 @@
 # The FROGS roster: exact OpenRouter slugs + display provider.
+#
+# Roster policy: models are added when notable (or by listener request), never
+# removed while OpenRouter still serves them, and retired with a dated note
+# only after the provider delists them. Absence in a month = not on the
+# roster yet, not a failure.
 # `params` are merged into the chat/completions payload for that model only.
 # Everything not listed is left at provider defaults (temperature, top_p,
 # seed, and max_tokens are never set unless shown here).
