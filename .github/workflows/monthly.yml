@@ -1,13 +1,13 @@
 name: monthly-frogs
 on:
-  # NOTE: the cron schedule is intentionally disabled pending owner sign-off —
-  # it spends real OpenRouter credit across all 14 models, and the production
-  # server at frogs.vaguespac.es currently runs its own monthly cron (running
-  # both would double-spend and fork the data). Uncomment after deciding which
-  # runner is canonical.
+  # The schedule is intentionally disabled: the production server at
+  # frogs.vaguespac.es is the canonical monthly runner (owner decision,
+  # 2026-08-03) and pushes results here after each run. Enabling this cron
+  # too would double-spend API credit and fork the data. workflow_dispatch
+  # remains for manual re-runs (set the secrets/vars below first).
   # schedule:
   #   - cron: "0 9 1 * *"     # 09:00 UTC, 1st of each month
-  workflow_dispatch:           # manual runs always available
+  workflow_dispatch:
 
 jobs:
   run:
