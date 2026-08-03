@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="frogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7cfc00" />
+      <stop offset="100%" stop-color="#2e8b57" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.5)" />
+    </filter>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="40" ry="50" fill="url(#frogGradient)" filter="url(#shadow)" />
+
+  <!-- Head -->
+  <circle cx="100" cy="80" r="35" fill="url(#frogGradient)" filter="url(#shadow)" />
+
+  <!-- Eyes -->
+  <circle cx="85" cy="65" r="12" fill="white" filter="url(#shadow)" />
+  <circle cx="115" cy="65" r="12" fill="white" filter="url(#shadow)" />
+  <circle cx="85" cy="65" r="6" fill="black" />
+  <circle cx="115" cy="65" r="6" fill="black" />
+
+  <!-- Habsburg Jaw (Exaggerated Lower Jaw) -->
+  <path d="M60,95 Q100,130 140,95 Q120,110 100,115 Q80,110 60,95" fill="#5d8a3a" filter="url(#shadow)" />
+  <path d="M70,100 Q100,120 130,100" stroke="#3a5a2a" stroke-width="2" fill="none" />
+
+  <!-- Legs -->
+  <path d="M60,140 Q50,160 60,180 Q70,170 80,160" fill="#5d8a3a" filter="url(#shadow)" />
+  <path d="M140,140 Q150,160 140,180 Q130,170 120,160" fill="#5d8a3a" filter="url(#shadow)" />
+  <path d="M70,120 Q50,130 60,140" fill="#5d8a3a" filter="url(#shadow)" />
+  <path d="M130,120 Q150,130 140,140" fill="#5d8a3a" filter="url(#shadow)" />
+
+  <!-- Spots -->
+  <circle cx="90" cy="90" r="3" fill="#3a5a2a" />
+  <circle cx="110" cy="75" r="2" fill="#3a5a2a" />
+  <circle cx="80" cy="110" r="4" fill="#3a5a2a" />
+  <circle cx="120" cy="105" r="3" fill="#3a5a2a" />
+</svg>

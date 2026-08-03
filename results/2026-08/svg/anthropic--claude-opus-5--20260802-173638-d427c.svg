@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd35a"/>
+      <stop offset="1" stop-color="#5aa33c"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ade63"/>
+      <stop offset="1" stop-color="#68b544"/>
+    </linearGradient>
+    <radialGradient id="eyeball" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="1" stop-color="#e8c93f"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="400" height="440" fill="#e9f5ef"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="430" rx="170" ry="90" fill="#4c8f34"/>
+  <ellipse cx="200" cy="438" rx="120" ry="70" fill="#7ec457" opacity="0.5"/>
+
+  <!-- head dome -->
+  <path d="M76,215 C68,108 124,46 200,46 C276,46 332,108 324,215 Z" fill="url(#skin)"/>
+
+  <!-- eye bulges -->
+  <circle cx="140" cy="84" r="44" fill="url(#skin)"/>
+  <circle cx="260" cy="84" r="44" fill="url(#skin)"/>
+
+  <!-- warts -->
+  <circle cx="105" cy="150" r="6" fill="#4f9235" opacity="0.5"/>
+  <circle cx="128" cy="176" r="4.5" fill="#4f9235" opacity="0.5"/>
+  <circle cx="295" cy="150" r="6" fill="#4f9235" opacity="0.5"/>
+  <circle cx="272" cy="176" r="4.5" fill="#4f9235" opacity="0.5"/>
+
+  <!-- nostrils -->
+  <ellipse cx="178" cy="140" rx="5" ry="4" fill="#3c7027"/>
+  <ellipse cx="222" cy="140" rx="5" ry="4" fill="#3c7027"/>
+
+  <!-- upper lip (recessed, tucked behind the jaw) -->
+  <path d="M80,190 Q200,224 320,190" fill="none" stroke="#39281f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M80,190 Q200,224 320,190 L320,200 Q200,236 80,200 Z" fill="#4a3128"/>
+
+  <!-- HABSBURG JAW: massive protruding mandible -->
+  <path d="M64,196 C36,252 52,330 108,364 C150,392 250,392 292,364 C348,330 364,252 336,196
+           C296,168 104,168 64,196 Z" fill="url(#jaw)" stroke="#4f9235" stroke-width="3"/>
+
+  <!-- lower lip highlight -->
+  <path d="M70,199 C110,174 290,174 330,199" fill="none" stroke="#c7f293" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- protruding lower teeth over the upper lip -->
+  <path d="M156,185 L162,158 L170,186 Z" fill="#fffdf2" stroke="#d9d2b8" stroke-width="1.5"/>
+  <path d="M178,183 L185,153 L193,184 Z" fill="#fffdf2" stroke="#d9d2b8" stroke-width="1.5"/>
+  <path d="M201,183 L208,153 L216,184 Z" fill="#fffdf2" stroke="#d9d2b8" stroke-width="1.5"/>
+  <path d="M224,186 L231,159 L238,187 Z" fill="#fffdf2" stroke="#d9d2b8" stroke-width="1.5"/>
+
+  <!-- chin creases -->
+  <path d="M200,330 C186,318 186,300 200,290 C214,300 214,318 200,330" fill="none" stroke="#4f9235" stroke-width="3" opacity="0.7"/>
+  <path d="M96,250 C120,286 140,306 168,320" fill="none" stroke="#4f9235" stroke-width="3" opacity="0.45"/>
+  <path d="M304,250 C280,286 260,306 232,320" fill="none" stroke="#4f9235" stroke-width="3" opacity="0.45"/>
+
+  <!-- eyes -->
+  <circle cx="140" cy="84" r="27" fill="url(#eyeball)" stroke="#3c7027" stroke-width="3"/>
+  <circle cx="260" cy="84" r="27" fill="url(#eyeball)" stroke="#3c7027" stroke-width="3"/>
+  <ellipse cx="140" cy="84" rx="7" ry="19" fill="#1b1b1b"/>
+  <ellipse cx="260" cy="84" rx="7" ry="19" fill="#1b1b1b"/>
+  <circle cx="132" cy="72" r="6" fill="#ffffff" opacity="0.9"/>
+  <circle cx="252" cy="72" r="6" fill="#ffffff" opacity="0.9"/>
+  <path d="M114,62 Q140,48 166,62" fill="none" stroke="#4f9235" stroke-width="5" stroke-linecap="round"/>
+  <path d="M234,62 Q260,48 286,62" fill="none" stroke="#4f9235" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- front feet -->
+  <path d="M78,392 C60,382 46,392 44,404 C42,418 60,424 78,418 Z" fill="#68b544" stroke="#4c8f34" stroke-width="3"/>
+  <path d="M322,392 C340,382 354,392 356,404 C358,418 340,424 322,418 Z" fill="#68b544" stroke="#4c8f34" stroke-width="3"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#33691E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main Body and Head -->
+    <path d="M 50,18 C 25,18 12,40 15,65 C 15,85 25,95 50,95 C 75,95 85,85 85,65 C 88,40 75,18 50,18 Z" fill="#7CB342"/>
+    
+    <!-- Protruding Jaw / Belly -->
+    <path d="M 28,60 C 25,95 75,95 72,60 C 65,58 35,58 28,60 Z" fill="#AED581"/>
+    
+    <!-- Eyes -->
+    <circle cx="36" cy="35" r="12" fill="white"/>
+    <circle cx="64" cy="35" r="12" fill="white"/>
+    <circle cx="38" cy="38" r="5" fill="black"/>
+    <circle cx="62" cy="38" r="5" fill="black"/>
+    <circle cx="39" cy="37" r="1.5" fill="white"/>
+    <circle cx="61" cy="37" r="1.5" fill="white"/>
+
+    <!-- Mouth -->
+    <path d="M 35,66 Q 50,73 65,66" fill="none"/>
+    
+    <!-- Nostrils -->
+    <path d="M 45,46 Q 47,44 49,46" fill="none"/>
+    <path d="M 51,46 Q 53,44 55,46" fill="none"/>
+
+    <!-- Front Legs -->
+    <path d="M 22,70 C 15,75 15,85 20,90" fill="none"/>
+    <path d="M 78,70 C 85,75 85,85 80,90" fill="none"/>
+  </g>
+</svg>

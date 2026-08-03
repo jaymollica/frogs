@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <ellipse cx="200" cy="380" rx="110" ry="14" fill="#000" opacity="0.1"/>
+
+  <!-- Back legs -->
+  <path d="M90 300 Q40 300 30 350 Q60 360 80 340 Q70 360 50 380 Q90 385 100 350 Z" fill="#4c8c3c"/>
+  <path d="M310 300 Q360 300 370 350 Q340 360 320 340 Q330 360 350 380 Q310 385 300 350 Z" fill="#4c8c3c"/>
+
+  <!-- Front legs -->
+  <path d="M120 330 Q90 350 85 380 Q110 385 120 365 Q120 380 115 390 Q140 390 140 360 Z" fill="#5a9c48"/>
+  <path d="M280 330 Q310 350 315 380 Q290 385 280 365 Q280 380 285 390 Q260 390 260 360 Z" fill="#5a9c48"/>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="270" rx="115" ry="90" fill="#5a9c48"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="190" rx="95" ry="80" fill="#63a850"/>
+
+  <!-- Eyes bumps -->
+  <circle cx="140" cy="120" r="38" fill="#63a850"/>
+  <circle cx="260" cy="120" r="38" fill="#63a850"/>
+  <circle cx="140" cy="120" r="24" fill="#f5f0c8"/>
+  <circle cx="260" cy="120" r="24" fill="#f5f0c8"/>
+  <circle cx="140" cy="120" r="12" fill="#222"/>
+  <circle cx="260" cy="120" r="12" fill="#222"/>
+  <circle cx="136" cy="116" r="3" fill="#fff"/>
+  <circle cx="256" cy="116" r="3" fill="#fff"/>
+
+  <!-- Nostrils -->
+  <circle cx="185" cy="165" r="3" fill="#2a2a2a"/>
+  <circle cx="215" cy="165" r="3" fill="#2a2a2a"/>
+
+  <!-- Upper jaw / mouth line, slight smile -->
+  <path d="M130 210 Q200 235 270 210" stroke="#2a2a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Habsburg jaw: exaggerated protruding lower jaw -->
+  <path d="M110 225
+           Q100 260 130 285
+           Q170 310 200 300
+           Q230 310 270 285
+           Q300 260 290 225
+           Q260 250 200 255
+           Q140 250 110 225 Z"
+        fill="#5a9c48" stroke="#3f7a30" stroke-width="3"/>
+
+  <!-- Chin/jaw extra protrusion for effect -->
+  <ellipse cx="200" cy="290" rx="55" ry="28" fill="#5a9c48" stroke="#3f7a30" stroke-width="3"/>
+
+  <!-- Small lower lip highlight -->
+  <path d="M150 275 Q200 300 250 275" stroke="#3f7a30" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Belly spots -->
+  <circle cx="170" cy="300" r="6" fill="#3f7a30" opacity="0.4"/>
+  <circle cx="230" cy="310" r="5" fill="#3f7a30" opacity="0.4"/>
+  <circle cx="200" cy="330" r="7" fill="#3f7a30" opacity="0.4"/>
+</svg>

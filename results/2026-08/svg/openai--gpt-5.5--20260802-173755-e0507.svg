@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with a pronounced Habsburg jaw</title>
+  <desc id="desc">A stylized green frog with bulging eyes and an exaggerated protruding lower jaw.</desc>
+  <defs>
+    <radialGradient id="skin" cx="42%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#9bea67"/>
+      <stop offset="70%" stop-color="#50b83f"/>
+      <stop offset="100%" stop-color="#2f8f32"/>
+    </radialGradient>
+    <radialGradient id="jaw" cx="35%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#b6f27c"/>
+      <stop offset="100%" stop-color="#49a83b"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#174017" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="#dff7cf"/>
+  <ellipse cx="400" cy="535" rx="260" ry="34" fill="#8bcf70" opacity="0.35"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M209 277
+             C203 205 253 142 329 123
+             C359 83 444 83 474 123
+             C551 143 604 208 589 291
+             C571 391 480 449 384 441
+             C289 433 217 374 209 277Z"
+          fill="url(#skin)" stroke="#256c2b" stroke-width="6" stroke-linejoin="round"/>
+
+    <path d="M282 332
+             C335 363 436 360 503 326
+             C548 344 572 379 563 413
+             C551 460 489 486 403 488
+             C318 490 251 465 234 421
+             C219 383 239 351 282 332Z"
+          fill="url(#jaw)" stroke="#256c2b" stroke-width="6" stroke-linejoin="round"/>
+
+    <path d="M317 387
+             C376 410 486 402 579 365
+             C606 354 629 361 638 377
+             C647 394 633 414 601 425
+             C483 468 364 465 279 422
+             C254 410 248 390 260 377
+             C273 364 292 374 317 387Z"
+          fill="#a8e86c" stroke="#256c2b" stroke-width="6" stroke-linejoin="round"/>
+
+    <path d="M360 408
+             C423 431 517 417 603 383"
+          fill="none" stroke="#1f5f25" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+
+    <path d="M266 332
+             C314 374 492 373 541 326"
+          fill="none" stroke="#194f20" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M286 334
+             C347 358 464 358 522 331"
+          fill="none" stroke="#f3f7b4" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+
+    <ellipse cx="317" cy="153" rx="67" ry="63" fill="#69c94b" stroke="#256c2b" stroke-width="6"/>
+    <ellipse cx="482" cy="153" rx="67" ry="63" fill="#69c94b" stroke="#256c2b" stroke-width="6"/>
+
+    <circle cx="317" cy="155" r="38" fill="#fff8cf" stroke="#256c2b" stroke-width="5"/>
+    <circle cx="482" cy="155" r="38" fill="#fff8cf" stroke="#256c2b" stroke-width="5"/>
+    <circle cx="329" cy="160" r="15" fill="#1b2a1b"/>
+    <circle cx="470" cy="160" r="15" fill="#1b2a1b"/>
+    <circle cx="335" cy="153" r="5" fill="#ffffff"/>
+    <circle cx="476" cy="153" r="5" fill="#ffffff"/>
+
+    <ellipse cx="354" cy="255" rx="12" ry="7" fill="#1f6a25"/>
+    <ellipse cx="446" cy="255" rx="12" ry="7" fill="#1f6a25"/>
+
+    <circle cx="263" cy="260" r="9" fill="#3fa339" opacity="0.65"/>
+    <circle cx="539" cy="259" r="9" fill="#3fa339" opacity="0.65"/>
+    <circle cx="292" cy="221" r="6" fill="#3fa339" opacity="0.55"/>
+    <circle cx="511" cy="221" r="6" fill="#3fa339" opacity="0.55"/>
+    <circle cx="402" cy="202" r="5" fill="#3fa339" opacity="0.45"/>
+
+    <path d="M244 393
+             C190 392 154 423 142 467
+             C134 496 165 508 187 489
+             C214 466 240 447 277 446"
+          fill="#54b946" stroke="#256c2b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M548 393
+             C608 389 652 417 666 462
+             C676 493 645 508 621 489
+             C591 466 559 449 519 447"
+          fill="#54b946" stroke="#256c2b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M304 459
+             C264 493 226 514 187 522
+             C172 525 166 544 180 554
+             C207 572 263 547 311 501"
+          fill="#4cac3e" stroke="#256c2b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M496 459
+             C538 494 577 514 615 522
+             C630 525 636 544 622 554
+             C595 572 538 547 489 501"
+          fill="#4cac3e" stroke="#256c2b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M203 522
+             C178 519 158 527 145 544
+             M226 532
+             C205 536 190 548 183 568
+             M583 532
+             C604 536 619 548 626 568
+             M606 522
+             C631 519 651 527 664 544"
+          fill="none" stroke="#256c2b" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

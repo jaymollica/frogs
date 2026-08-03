@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#6bba45"/>
+      <stop offset="100%" stop-color="#3a7d22"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#c8e6a0"/>
+      <stop offset="100%" stop-color="#8fc06a"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ffee88"/>
+      <stop offset="60%" stop-color="#e8c820"/>
+      <stop offset="100%" stop-color="#b89810"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#5aaa38"/>
+      <stop offset="100%" stop-color="#2d6e15"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Back legs -->
+  <ellipse cx="155" cy="370" rx="75" ry="30" fill="#3a7d22" transform="rotate(-15,155,370)"/>
+  <ellipse cx="345" cy="370" rx="75" ry="30" fill="#3a7d22" transform="rotate(15,345,370)"/>
+  <!-- Feet -->
+  <ellipse cx="95" cy="385" rx="35" ry="14" fill="#2d6e15" transform="rotate(-20,95,385)"/>
+  <ellipse cx="405" cy="385" rx="35" ry="14" fill="#2d6e15" transform="rotate(20,405,385)"/>
+  <!-- Toe lines -->
+  <line x1="72" y1="382" x2="62" y2="376" stroke="#1e5510" stroke-width="2"/>
+  <line x1="85" y1="379" x2="78" y2="371" stroke="#1e5510" stroke-width="2"/>
+  <line x1="100" y1="378" x2="96" y2="370" stroke="#1e5510" stroke-width="2"/>
+  <line x1="400" y1="378" x2="404" y2="370" stroke="#1e5510" stroke-width="2"/>
+  <line x1="415" y1="379" x2="422" y2="371" stroke="#1e5510" stroke-width="2"/>
+  <line x1="428" y1="382" x2="438" y2="376" stroke="#1e5510" stroke-width="2"/>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="300" rx="130" ry="110" fill="url(#bodyGrad)"/>
+  <!-- Belly -->
+  <ellipse cx="250" cy="320" rx="85" ry="70" fill="url(#bellyGrad)"/>
+
+  <!-- Front legs -->
+  <ellipse cx="165" cy="340" rx="22" ry="45" fill="#4a9a2e" transform="rotate(20,165,340)"/>
+  <ellipse cx="335" cy="340" rx="22" ry="45" fill="#4a9a2e" transform="rotate(-20,335,340)"/>
+  <!-- Front feet -->
+  <ellipse cx="155" cy="380" rx="22" ry="10" fill="#2d6e15" transform="rotate(10,155,380)"/>
+  <ellipse cx="345" cy="380" rx="22" ry="10" fill="#2d6e15" transform="rotate(-10,345,380)"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="195" rx="110" ry="80" fill="url(#bodyGrad)"/>
+
+  <!-- Habsburg jaw - the defining feature -->
+  <!-- Protruding lower jaw extending far forward and downward -->
+  <path d="M160,210 Q170,210 180,215 Q200,225 220,248 Q240,268 250,278 Q260,268 280,248 Q300,225 320,215 Q330,210 340,210 Q350,215 355,230 Q360,250 345,270 Q325,295 290,310 Q265,320 250,322 Q235,320 210,310 Q175,295 155,270 Q140,250 145,230 Q150,215 160,210 Z" fill="url(#jawGrad)" stroke="#2a6012" stroke-width="1.5"/>
+  
+  <!-- Jaw protrusion detail - extra chin bulge -->
+  <path d="M200,280 Q220,305 250,315 Q280,305 300,280 Q290,300 270,315 Q255,322 250,324 Q245,322 230,315 Q210,300 200,280 Z" fill="#2d6e15" opacity="0.4"/>
+  
+  <!-- Underbite line showing the massive protrusion -->
+  <path d="M165,215 Q200,230 250,240 Q300,230 335,215" fill="none" stroke="#2a6012" stroke-width="2.5"/>
+  
+  <!-- Upper lip (receding in comparison) -->
+  <path d="M170,208 Q200,205 250,202 Q300,205 330,208 Q310,212 250,214 Q190,212 170,208 Z" fill="#4a9a2e" stroke="#3a7d22" stroke-width="1"/>
+
+  <!-- Nostrils -->
+  <ellipse cx="230" cy="200" rx="4" ry="3" fill="#2a6012"/>
+  <ellipse cx="270" cy="200" rx="4" ry="3" fill="#2a6012"/>
+
+  <!-- Mouth line on the protruding jaw -->
+  <path d="M175,218 Q210,228 250,232 Q290,228 325,218" fill="none" stroke="#1e5510" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Eye bumps -->
+  <circle cx="195" cy="155" r="38" fill="#4a9a2e"/>
+  <circle cx="305" cy="155" r="38" fill="#4a9a2e"/>
+
+  <!-- Eyes -->
+  <circle cx="195" cy="152" r="30" fill="url(#eyeGrad)"/>
+  <circle cx="305" cy="152" r="30" fill="url(#eyeGrad)"/>
+
+  <!-- Pupils -->
+  <ellipse cx="198" cy="150" rx="12" ry="16" fill="#1a1a1a"/>
+  <ellipse cx="308" cy="150" rx="12" ry="16" fill="#1a1a1a"/>
+
+  <!-- Eye highlights -->
+  <circle cx="203" cy="143" r="5" fill="white" opacity="0.8"/>
+  <circle cx="313" cy="143" r="5" fill="white" opacity="0.8"/>
+
+  <!-- Eyelid detail -->
+  <path d="M165,145 Q180,130 195,128 Q210,130 225,145" fill="none" stroke="#3a7d22" stroke-width="3" stroke-linecap="round"/>
+  <path d="M275,145 Q290,130 305,128 Q320,130 335,145" fill="none" stroke="#3a7d22" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Brow ridges (emphasized for Habsburg look) -->
+  <path d="M162,140 Q178,125 198,122 Q218,125 230,138" fill="none" stroke="#2d6e15" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M270,138 Q282,125 302,122 Q322,125 338,140" fill="none" stroke="#2d6e15" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Spots on body -->
+  <circle cx="200" cy="280" r="12" fill="#2d6e15" opacity="0.3"/>
+  <circle cx="300" cy="290" r="10" fill="#2d6e15" opacity="0.3"/>
+  <circle cx="250" cy="260" r="8" fill="#2d6e15" opacity="0.3"/>
+  <circle cx="180" cy="310" r="9" fill="#2d6e15" opacity="0.25"/>
+  <circle cx="320" cy="315" r="7" fill="#2d6e15" opacity="0.25"/>
+
+  <!-- Chin prominence detail on the Habsburg jaw -->
+  <path d="M220,290 Q235,308 250,314 Q265,308 280,290" fill="none" stroke="#1e5510" stroke-width="1.5" opacity="0.5"/>
+  <path d="M235,300 Q243,312 250,316 Q257,312 265,300" fill="none" stroke="#1e5510" stroke-width="1" opacity="0.4"/>
+</svg>

@@ -1,0 +1,40 @@
+name: monthly-frogs
+on:
+  # NOTE: the cron schedule is intentionally disabled pending owner sign-off —
+  # it spends real OpenRouter credit across all 14 models, and the production
+  # server at frogs.vaguespac.es currently runs its own monthly cron (running
+  # both would double-spend and fork the data). Uncomment after deciding which
+  # runner is canonical.
+  # schedule:
+  #   - cron: "0 9 1 * *"     # 09:00 UTC, 1st of each month
+  workflow_dispatch:           # manual runs always available
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run the benchmark
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python run.py --month "$(date -u +%Y-%m)"
+      - name: Build dataset
+        run: python build_dataset.py
+      - name: Commit results
+        run: |
+          git config user.name  "frogs-bot"
+          git config user.email "frogs-bot@users.noreply.github.com"
+          git add -A results/
+          git diff --staged --quiet || git commit -m "Runs for $(date -u +%Y-%m)"
+          git push
+      - name: Push to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_DATASET_REPO: ${{ vars.HF_DATASET_REPO }}
+        run: python push_to_hf.py

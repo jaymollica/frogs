@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Skin Gradients -->
+    <radialGradient id="frogSkin" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#7bc65d"/>
+      <stop offset="60%" stop-color="#478c33"/>
+      <stop offset="100%" stop-color="#255218"/>
+    </radialGradient>
+    
+    <radialGradient id="jawSkin" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#8ede6c"/>
+      <stop offset="50%" stop-color="#529e3a"/>
+      <stop offset="100%" stop-color="#2d5e1e"/>
+    </radialGradient>
+
+    <linearGradient id="bellySkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2f7b3"/>
+      <stop offset="70%" stop-color="#b6e071"/>
+      <stop offset="100%" stop-color="#80ab3e"/>
+    </linearGradient>
+
+    <!-- Eye Gradient -->
+    <radialGradient id="eyeIris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="70%" stop-color="#da9100"/>
+      <stop offset="100%" stop-color="#804000"/>
+    </radialGradient>
+
+    <!-- Crown Gradient -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffeea1"/>
+      <stop offset="40%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#AA771C"/>
+    </linearGradient>
+
+    <!-- Velvet/Ruff Gradients -->
+    <linearGradient id="ruff" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#a0a0a0"/>
+    </linearGradient>
+
+    <radialGradient id="ruby" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ff9999"/>
+      <stop offset="30%" stop-color="#cc0000"/>
+      <stop offset="100%" stop-color="#4a0000"/>
+    </radialGradient>
+
+    <!-- Shadows -->
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.4)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+
+    <filter id="shadowFilter" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background Shadow -->
+  <ellipse cx="300" cy="530" rx="180" ry="25" fill="url(#dropShadow)"/>
+
+  <!-- Back Body & Legs -->
+  <g id="body-and-legs">
+    <!-- Left/Back Leg -->
+    <path d="M 180 380 C 120 390, 90 450, 130 510 C 150 540, 200 530, 210 500 C 180 490, 160 450, 200 410 Z" fill="#356625"/>
+    
+    <!-- Right/Main Back Leg -->
+    <path d="M 360 360 C 450 370, 500 440, 460 510 C 430 550, 370 540, 350 510 C 400 500, 420 440, 360 400 Z" fill="url(#frogSkin)"/>
+    <path d="M 420 500 L 460 530 M 400 510 L 420 538 M 380 512 L 380 540" stroke="#255218" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Main Torso -->
+    <path d="M 200 320 C 170 380, 200 490, 270 510 C 340 520, 400 460, 380 350 C 340 310, 240 300, 200 320 Z" fill="url(#frogSkin)"/>
+    
+    <!-- Belly Plate (Weak chest) -->
+    <path d="M 220 330 C 200 380, 220 470, 280 490 C 330 500, 360 450, 350 360 C 300 320, 250 315, 220 330 Z" fill="url(#bellySkin)"/>
+  </g>
+
+  <!-- Royal Imperial Collar (Ruff) to frame the jaw -->
+  <g id="ruff-collar" filter="url(#shadowFilter)">
+    <path d="M 190 320 
+             Q 170 300, 195 285 Q 170 270, 200 260 Q 185 240, 220 240 
+             Q 220 220, 250 230 Q 260 210, 290 225 Q 310 210, 330 230 
+             Q 350 220, 365 245 Q 390 245, 385 270 Q 410 280, 390 300 
+             Q 410 320, 380 330 C 330 370, 230 360, 190 320 Z" fill="url(#ruff)" stroke="#d0d0d0" stroke-width="2"/>
+    <!-- Ruff folds -->
+    <path d="M 200 260 C 230 280, 250 310, 250 330 M 220 240 C 240 270, 270 310, 280 335 M 250 230 C 270 260, 300 310, 310 335 M 290 225 C 300 260, 330 300, 340 330 M 330 230 C 330 260, 350 290, 365 315" stroke="#b0b0b0" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Head Base & Eyes -->
+  <g id="head-back">
+    <!-- Eyeball Tubercles -->
+    <circle cx="230" cy="150" r="45" fill="url(#frogSkin)"/>
+    <circle cx="335" cy="165" r="38" fill="url(#frogSkin)"/>
+  </g>
+
+  <!-- Eyes Outer Details -->
+  <g id="eyes">
+    <!-- Left Eye (Viewer's Left) -->
+    <circle cx="235" cy="150" r="32" fill="#1a330e"/>
+    <circle cx="235" cy="150" r="28" fill="url(#eyeIris)"/>
+    <!-- Horizontal Frog Pupil (Droopy/Tired) -->
+    <ellipse cx="235" cy="150" rx="18" ry="6" fill="#050a03" transform="rotate(-5, 235, 150)"/>
+    <!-- Eye Highlight -->
+    <circle cx="225" cy="140" r="4" fill="#ffffff" opacity="0.8"/>
+    <circle cx="220" cy="146" r="2" fill="#ffffff" opacity="0.6"/>
+
+    <!-- Right Eye (Viewer's Right) -->
+    <circle cx="335" cy="165" r="26" fill="#1a330e"/>
+    <circle cx="335" cy="165" r="22" fill="url(#eyeIris)"/>
+    <!-- Horizontal Pupil -->
+    <ellipse cx="335" cy="165" rx="14" ry="5" fill="#050a03" transform="rotate(10, 335, 165)"/>
+    <!-- Eye Highlight -->
+    <circle cx="328" cy="158" r="3" fill="#ffffff" opacity="0.8"/>
+
+    <!-- Heavy Droopy Eyelids (Habsburg lethargic look) -->
+    <path d="M 190 140 Q 235 115, 278 142 Q 250 145, 190 140 Z" fill="url(#frogSkin)"/>
+    <path d="M 190 140 Q 235 115, 278 142" stroke="#255218" stroke-width="3" fill="none"/>
+    
+    <path d="M 300 158 Q 335 138, 370 160 Q 340 162, 300 158 Z" fill="url(#frogSkin)"/>
+    <path d="M 300 158 Q 335 138, 370 160" stroke="#255218" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Weak Upper Snout / Nose -->
+  <g id="upper-head">
+    <!-- Small, slightly sunken upper face -->
+    <path d="M 210 170 C 210 200, 230 220, 260 225 C 280 228, 320 220, 340 185 C 320 180, 230 165, 210 170 Z" fill="url(#frogSkin)"/>
+    <!-- Nostrils (Very close together, weak maxilla) -->
+    <ellipse cx="245" cy="205" rx="2" ry="4" fill="#15300d" transform="rotate(-10, 245, 205)"/>
+    <ellipse cx="258" cy="207" rx="2" ry="4" fill="#15300d" transform="rotate(5, 258, 207)"/>
+  </g>
+
+  <!-- THE HABSBURG JAW (Massive Protruding Mandible) -->
+  <g id="habsburg-jaw" filter="url(#shadowFilter)">
+    <!-- Base massive jaw structure jutting FAR forward and down -->
+    <!-- Starts from ear area, sweeps way out past upper snout, forms huge chin, comes back -->
+    <path d="M 175 250 
+             C 140 255, 110 280, 120 310 
+             C 125 330, 140 340, 160 365 
+             C 185 395, 210 415, 265 420 
+             C 320 425, 360 395, 375 350 
+             C 385 320, 370 280, 345 260 
+             C 310 285, 260 290, 220 280 
+             C 195 273, 185 260, 175 250 Z" fill="url(#jawSkin)"/>
+
+    <!-- Under-jaw / Distance depth -->
+    <path d="M 160 365 C 190 420, 240 435, 285 430 C 340 425, 370 380, 375 350 C 350 390, 300 415, 260 410 C 205 405, 175 380, 160 365 Z" fill="#1f4213"/>
+
+    <!-- Pouting Everted Lower Lip (Classic Habsburg Feature) -->
+    <path d="M 170 260 
+             Q 130 275, 135 295 
+             Q 145 320, 180 325 
+             Q 230 330, 280 315 
+             Q 330 300, 350 270 
+             Q 300 275, 250 270 
+             Q 200 265, 170 260 Z" fill="#6ba64e" stroke="#2d5e1e" stroke-width="2"/>
+             
+    <!-- Inner Lip / Mouth Line (Downturned, gloomy expression) -->
+    <path d="M 175 262 Q 220 280, 270 275 Q 320 270, 345 262" stroke="#102409" stroke-width="4" stroke-linecap="round" fill="none"/>
+    
+    <!-- Lip Highlight (Moist lower lip) -->
+    <path d="M 150 295 Q 175 315, 220 318" stroke="#a2f081" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+    <!-- Prominent Chin Crease / Unfused Mandible Indentation -->
+    <path d="M 235 345 C 240 375, 250 395, 255 415" stroke="#255218" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 230 345 C 235 375, 243 395, 247 414" stroke="#7bc65d" stroke-width="1.5" fill="none"/>
+
+    <!-- Chin Shadow/Highlight defining the extreme protrusion -->
+    <path d="M 180 330 C 200 370, 230 390, 260 390 C 300 390, 340 360, 355 320" stroke="#387027" stroke-width="3" fill="none"/>
+    <circle cx="215" cy="365" r="25" fill="#ffffff" opacity="0.08"/>
+  </g>
+
+  <!-- Front Arms / Paws (Folded Pompously over belly) -->
+  <g id="arms">
+    <!-- Left Arm -->
+    <path d="M 190 320 C 160 340, 150 380, 180 410 C 190 420, 210 410, 220 390 C 200 380, 195 350, 205 330 Z" fill="url(#frogSkin)"/>
+    <!-- Left Hand resting on chin/chest -->
+    <path d="M 180 410 Q 200 425, 220 400" stroke="#255218" stroke-width="3" fill="none"/>
+
+    <!-- Right Arm (Slightly hidden, hand under the massive chin) -->
+    <path d="M 360 320 C 380 340, 390 380, 360 410 C 345 420, 325 400, 325 385 C 340 375, 345 350, 340 330 Z" fill="url(#frogSkin)"/>
+  </g>
+
+  <!-- Imperial Habsburg Crown (Sits awkwardly small between large eye sockets) -->
+  <g id="crown" filter="url(#shadowFilter)">
+    <!-- Crown Base -->
+    <path d="M 260 125 L 310 133 L 305 143 L 255 135 Z" fill="url(#gold)"/>
+    
+    <!-- Crown Spikes / Arch -->
+    <path d="M 255 135 
+             L 245 105 L 268 120 
+             L 280 95 L 292 123 
+             L 315 110 L 305 143 Z" fill="url(#gold)" stroke="#8a5d0f" stroke-width="1"/>
+
+    <!-- Imperial Arch (Mitre style Habsburg Crown element) -->
+    <path d="M 265 120 Q 280 90, 295 100 Q 280 105, 265 120 Z" fill="#990000"/>
+    <path d="M 280 95 Q 283 85, 280 80" stroke="url(#gold)" stroke-width="3" fill="none"/>
+    <!-- Cross on top -->
+    <path d="M 276 80 L 284 80 M 280 76 L 280 84" stroke="#ffeea1" stroke-width="2"/>
+
+    <!-- Jewels -->
+    <circle cx="280" cy="95" r="2.5" fill="url(#ruby)"/>
+    <circle cx="245" cy="105" r="2" fill="url(#ruby)"/>
+    <circle cx="315" cy="110" r="2" fill="url(#ruby)"/>
+    <circle cx="270" cy="131" r="1.5" fill="#ffffff"/>
+    <circle cx="295" cy="135" r="1.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Skin Texture / Habsburg Flaws (Warts & Spots) -->
+  <g id="details" opacity="0.4">
+    <!-- Frog Warts -->
+    <circle cx="150" cy="330" r="4" fill="#15300d"/>
+    <circle cx="142" cy="320" r="2.5" fill="#15300d"/>
+    <circle cx="330" cy="340" r="5" fill="#15300d"/>
+    <circle cx="345" cy="350" r="3" fill="#15300d"/>
+    <circle cx="280" cy="380" r="4" fill="#15300d"/>
+    <circle cx="295" cy="390" r="2.5" fill="#15300d"/>
+    <circle cx="210" cy="370" r="3.5" fill="#15300d"/>
+    
+    <!-- Sad/Weary facial lines -->
+    <path d="M 225 180 Q 215 195, 220 210" stroke="#15300d" stroke-width="1.5" fill="none"/>
+    <path d="M 315 185 Q 320 195, 315 210" stroke="#15300d" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Golden Fleece Medal (Imperial Habsburg Order) hanging around neck -->
+  <g id="golden-fleece" filter="url(#shadowFilter)">
+    <path d="M 250 335 Q 270 360, 285 355" stroke="#d4af37" stroke-width="3" fill="none" stroke-dasharray="4,2"/>
+    <!-- Small sheep/fleece oval element -->
+    <ellipse cx="288" cy="360" rx="7" ry="5" fill="url(#gold)"/>
+    <circle cx="288" cy="354" r="2" fill="url(#gold)"/>
+  </g>
+</svg>

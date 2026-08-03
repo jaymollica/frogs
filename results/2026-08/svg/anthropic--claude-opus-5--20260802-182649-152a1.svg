@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440">
+  <defs>
+    <radialGradient id="g1" cx="0.4" cy="0.3" r="0.85">
+      <stop offset="0%" stop-color="#9ad86a"/>
+      <stop offset="100%" stop-color="#4f9134"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0.5" cy="0.15" r="0.9">
+      <stop offset="0%" stop-color="#a9e07a"/>
+      <stop offset="100%" stop-color="#5aa03b"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#b8e88b"/>
+      <stop offset="100%" stop-color="#69ab45"/>
+    </radialGradient>
+  </defs>
+
+  <!-- feet -->
+  <g fill="#4b8a31">
+    <ellipse cx="92" cy="412" rx="46" ry="18"/>
+    <ellipse cx="308" cy="412" rx="46" ry="18"/>
+    <ellipse cx="58" cy="418" rx="16" ry="10"/>
+    <ellipse cx="342" cy="418" rx="16" ry="10"/>
+  </g>
+
+  <!-- eye bulges -->
+  <circle cx="140" cy="98" r="52" fill="url(#g2)"/>
+  <circle cx="260" cy="98" r="52" fill="url(#g2)"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="180" rx="122" ry="96" fill="url(#g1)"/>
+
+  <!-- HUGE protruding Habsburg jaw -->
+  <path d="M70 178 C52 300 110 402 200 406 C290 402 348 300 330 178
+           C310 236 90 236 70 178 Z" fill="url(#g3)"/>
+  <!-- jaw shading / cleft chin -->
+  <path d="M200 330 C196 352 196 372 200 392" stroke="#4f8f33" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <path d="M96 250 C120 300 150 322 200 328 C250 322 280 300 304 250"
+        stroke="#4f8f33" stroke-width="4" fill="none" opacity="0.35"/>
+
+  <!-- underbite: dark mouth gap where upper lip is overlapped -->
+  <path d="M74 196 C120 246 280 246 326 196" fill="#2f5c1f" opacity="0.35"/>
+  <path d="M74 196 C120 246 280 246 326 196" stroke="#31631f" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- protruding lower lip -->
+  <path d="M104 224 C140 268 260 268 296 224 C262 258 138 258 104 224 Z" fill="#d98a94"/>
+
+  <!-- lower teeth jutting over the upper lip -->
+  <g fill="#fdfdf5" stroke="#cfcfc0" stroke-width="2">
+    <rect x="158" y="186" width="20" height="26" rx="7"/>
+    <rect x="184" y="184" width="20" height="28" rx="7"/>
+    <rect x="210" y="187" width="20" height="25" rx="7"/>
+  </g>
+
+  <!-- nostrils -->
+  <ellipse cx="176" cy="152" rx="7" ry="5" fill="#2f5c1f"/>
+  <ellipse cx="224" cy="152" rx="7" ry="5" fill="#2f5c1f"/>
+
+  <!-- spots -->
+  <g fill="#3f7a28" opacity="0.5">
+    <ellipse cx="96" cy="150" rx="16" ry="11"/>
+    <ellipse cx="304" cy="150" rx="16" ry="11"/>
+    <ellipse cx="128" cy="196" rx="11" ry="8"/>
+    <ellipse cx="272" cy="196" rx="11" ry="8"/>
+  </g>
+
+  <!-- eyes -->
+  <g>
+    <circle cx="140" cy="94" r="38" fill="#fffbe8"/>
+    <circle cx="260" cy="94" r="38" fill="#fffbe8"/>
+    <circle cx="144" cy="98" r="17" fill="#1a1a1a"/>
+    <circle cx="256" cy="98" r="17" fill="#1a1a1a"/>
+    <circle cx="137" cy="90" r="6" fill="#ffffff" opacity="0.9"/>
+    <circle cx="249" cy="90" r="6" fill="#ffffff" opacity="0.9"/>
+    <path d="M104 78 C118 52 162 52 176 78" stroke="#3f7a28" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M224 78 C238 52 282 52 296 78" stroke="#3f7a28" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- droopy regal eyelids -->
+  <path d="M106 86 C130 68 156 70 174 86" stroke="#57993a" stroke-width="5" fill="none" opacity="0.7"/>
+  <path d="M226 86 C244 70 270 68 294 86" stroke="#57993a" stroke-width="5" fill="none" opacity="0.7"/>
+</svg>

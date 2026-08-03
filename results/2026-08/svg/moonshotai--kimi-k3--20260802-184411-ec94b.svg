@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Frog with a Habsburg jaw</title>
+  <rect width="400" height="400" fill="#e8f4f8"/>
+  <ellipse cx="200" cy="355" rx="150" ry="24" fill="#4c8c3f"/>
+  <polygon points="200,355 348,341 346,369" fill="#e8f4f8"/>
+  <ellipse cx="200" cy="190" rx="118" ry="92" fill="#7cb342" stroke="#558b2f" stroke-width="5"/>
+  <circle cx="103" cy="168" r="7" fill="#558b2f" opacity="0.3"/>
+  <circle cx="297" cy="168" r="7" fill="#558b2f" opacity="0.3"/>
+  <circle cx="92" cy="208" r="5" fill="#558b2f" opacity="0.3"/>
+  <circle cx="308" cy="208" r="5" fill="#558b2f" opacity="0.3"/>
+  <circle cx="158" cy="138" r="4.5" fill="#558b2f" opacity="0.3"/>
+  <circle cx="242" cy="138" r="4.5" fill="#558b2f" opacity="0.3"/>
+  <circle cx="138" cy="88" r="36" fill="#7cb342" stroke="#558b2f" stroke-width="5"/>
+  <circle cx="262" cy="88" r="36" fill="#7cb342" stroke="#558b2f" stroke-width="5"/>
+  <circle cx="138" cy="90" r="23" fill="#ffffff" stroke="#558b2f" stroke-width="3"/>
+  <circle cx="262" cy="90" r="23" fill="#ffffff" stroke="#558b2f" stroke-width="3"/>
+  <circle cx="138" cy="94" r="11" fill="#263238"/>
+  <circle cx="262" cy="94" r="11" fill="#263238"/>
+  <circle cx="134" cy="90" r="4" fill="#ffffff"/>
+  <circle cx="258" cy="90" r="4" fill="#ffffff"/>
+  <path d="M146 268 C128 292 122 316 128 338" fill="none" stroke="#558b2f" stroke-width="22" stroke-linecap="round"/>
+  <path d="M146 268 C128 292 122 316 128 338" fill="none" stroke="#7cb342" stroke-width="14" stroke-linecap="round"/>
+  <path d="M254 268 C272 292 278 316 272 338" fill="none" stroke="#558b2f" stroke-width="22" stroke-linecap="round"/>
+  <path d="M254 268 C272 292 278 316 272 338" fill="none" stroke="#7cb342" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="128" cy="340" r="12" fill="#7cb342" stroke="#558b2f" stroke-width="3.5"/>
+  <circle cx="272" cy="340" r="12" fill="#7cb342" stroke="#558b2f" stroke-width="3.5"/>
+  <path d="M135 225 C165 245 235 245 265 225 C285 260 275 305 200 312 C125 305 115 260 135 225 Z" fill="#9ccc65" stroke="#558b2f" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="246" rx="42" ry="9" fill="#558b2f" opacity="0.22"/>
+  <path d="M200 290 q4 6 0 12" fill="none" stroke="#558b2f" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M115 198 Q200 226 285 198" fill="none" stroke="#33691e" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="200" cy="219" rx="55" ry="15" fill="#ef9a9a" stroke="#c65d5d" stroke-width="3"/>
+  <path d="M162 219 Q200 229 238 219" fill="none" stroke="#c65d5d" stroke-width="2" opacity="0.7"/>
+  <ellipse cx="182" cy="168" rx="3.5" ry="2.5" fill="#33691e"/>
+  <ellipse cx="218" cy="168" rx="3.5" ry="2.5" fill="#33691e"/>
+</svg>

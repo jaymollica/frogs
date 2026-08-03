@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="70" ry="55" fill="#5a9e3e"/>
+  <!-- Belly -->
+  <ellipse cx="100" cy="150" rx="45" ry="35" fill="#a8d88a"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="80" rx="55" ry="45" fill="#5a9e3e"/>
+  <!-- Habsburg lower jaw - exaggerated protruding mandible -->
+  <ellipse cx="100" cy="115" rx="40" ry="28" fill="#5a9e3e"/>
+  <ellipse cx="100" cy="120" rx="32" ry="18" fill="#4a8e2e"/>
+  <!-- Jaw highlight / chin jut -->
+  <ellipse cx="100" cy="130" rx="20" ry="12" fill="#5a9e3e"/>
+  <!-- Mouth line on protruding jaw -->
+  <path d="M70 105 Q100 125 130 105" fill="none" stroke="#2d5a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Lower lip jut -->
+  <path d="M75 118 Q100 138 125 118" fill="#4a8e2e" stroke="#2d5a1a" stroke-width="1.5"/>
+  <!-- Eyes bulging -->
+  <ellipse cx="75" cy="55" rx="18" ry="20" fill="#5a9e3e"/>
+  <ellipse cx="125" cy="55" rx="18" ry="20" fill="#5a9e3e"/>
+  <circle cx="75" cy="55" r="12" fill="white"/>
+  <circle cx="125" cy="55" r="12" fill="white"/>
+  <circle cx="77" cy="57" r="6" fill="#1a1a1a"/>
+  <circle cx="127" cy="57" r="6" fill="#1a1a1a"/>
+  <circle cx="79" cy="55" r="2" fill="white"/>
+  <circle cx="129" cy="55" r="2" fill="white"/>
+  <!-- Nostrils -->
+  <ellipse cx="92" cy="85" rx="3" ry="2" fill="#2d5a1a"/>
+  <ellipse cx="108" cy="85" rx="3" ry="2" fill="#2d5a1a"/>
+  <!-- Back legs -->
+  <ellipse cx="45" cy="175" rx="25" ry="15" fill="#5a9e3e" transform="rotate(-20 45 175)"/>
+  <ellipse cx="155" cy="175" rx="25" ry="15" fill="#5a9e3e" transform="rotate(20 155 175)"/>
+  <!-- Front legs -->
+  <ellipse cx="55" cy="160" rx="12" ry="20" fill="#5a9e3e"/>
+  <ellipse cx="145" cy="160" rx="12" ry="20" fill="#5a9e3e"/>
+  <!-- Feet -->
+  <ellipse cx="50" cy="178" rx="14" ry="6" fill="#4a8e2e"/>
+  <ellipse cx="150" cy="178" rx="14" ry="6" fill="#4a8e2e"/>
+  <!-- Spots -->
+  <circle cx="60" cy="130" r="6" fill="#4a8e2e" opacity="0.5"/>
+  <circle cx="140" cy="135" r="5" fill="#4a8e2e" opacity="0.5"/>
+  <circle cx="100" cy="165" r="4" fill="#4a8e2e" opacity="0.4"/>
+</svg>

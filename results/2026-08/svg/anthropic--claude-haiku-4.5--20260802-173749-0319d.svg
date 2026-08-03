@@ -1,0 +1,52 @@
+<svg viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="60" ry="70" fill="#5cb85c" stroke="#3d7a3d" stroke-width="2"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="80" r="50" fill="#66bb6a" stroke="#3d7a3d" stroke-width="2"/>
+  
+  <!-- Left eye -->
+  <circle cx="75" cy="55" r="15" fill="#fff" stroke="#3d7a3d" stroke-width="1.5"/>
+  <circle cx="75" cy="55" r="10" fill="#90EE90"/>
+  <circle cx="73" cy="53" r="6" fill="#000"/>
+  
+  <!-- Right eye -->
+  <circle cx="125" cy="55" r="15" fill="#fff" stroke="#3d7a3d" stroke-width="1.5"/>
+  <circle cx="125" cy="55" r="10" fill="#90EE90"/>
+  <circle cx="127" cy="53" r="6" fill="#000"/>
+  
+  <!-- Nostrils -->
+  <circle cx="90" cy="78" r="3" fill="#3d7a3d"/>
+  <circle cx="110" cy="78" r="3" fill="#3d7a3d"/>
+  
+  <!-- Habsburg Jaw - extreme underbite -->
+  <path d="M 60 95 Q 100 120 140 95 L 145 100 Q 100 135 55 100 Z" fill="#5cb85c" stroke="#3d7a3d" stroke-width="2"/>
+  
+  <!-- Lower lip protrusion (Habsburg characteristic) -->
+  <ellipse cx="100" cy="125" rx="50" ry="20" fill="#4a934a" stroke="#3d7a3d" stroke-width="1.5"/>
+  
+  <!-- Mouth line -->
+  <path d="M 60 100 Q 100 110 140 100" stroke="#3d7a3d" stroke-width="2" fill="none"/>
+  
+  <!-- Chin bulge (Habsburg feature) -->
+  <ellipse cx="100" cy="130" rx="45" ry="18" fill="#52a652" stroke="#3d7a3d" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Left front leg -->
+  <ellipse cx="60" cy="185" rx="18" ry="35" fill="#5cb85c" stroke="#3d7a3d" stroke-width="2" transform="rotate(-25 60 185)"/>
+  <ellipse cx="50" cy="215" rx="12" ry="15" fill="#66bb6a" stroke="#3d7a3d" stroke-width="1.5"/>
+  
+  <!-- Right front leg -->
+  <ellipse cx="140" cy="185" rx="18" ry="35" fill="#5cb85c" stroke="#3d7a3d" stroke-width="2" transform="rotate(25 140 185)"/>
+  <ellipse cx="150" cy="215" rx="12" ry="15" fill="#66bb6a" stroke="#3d7a3d" stroke-width="1.5"/>
+  
+  <!-- Left back leg -->
+  <ellipse cx="45" cy="195" rx="22" ry="40" fill="#5cb85c" stroke="#3d7a3d" stroke-width="2" transform="rotate(-35 45 195)"/>
+  <ellipse cx="25" cy="235" rx="15" ry="18" fill="#66bb6a" stroke="#3d7a3d" stroke-width="1.5"/>
+  
+  <!-- Right back leg -->
+  <ellipse cx="155" cy="195" rx="22" ry="40" fill="#5cb85c" stroke="#3d7a3d" stroke-width="2" transform="rotate(35 155 195)"/>
+  <ellipse cx="175" cy="235" rx="15" ry="18" fill="#66bb6a" stroke="#3d7a3d" stroke-width="1.5"/>
+  
+  <!-- Belly spot -->
+  <ellipse cx="100" cy="155" rx="35" ry="40" fill="#7dd87d" opacity="0.6" stroke="#3d7a3d" stroke-width="1"/>
+</svg>

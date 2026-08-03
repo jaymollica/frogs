@@ -1,0 +1,39 @@
+# The FROGS roster: exact OpenRouter slugs + display provider.
+# `params` are merged into the chat/completions payload for that model only.
+# Everything not listed is left at provider defaults (temperature, top_p,
+# seed, and max_tokens are never set unless shown here).
+models:
+  - slug: anthropic/claude-opus-5
+    provider: Anthropic
+  - slug: anthropic/claude-sonnet-5
+    provider: Anthropic
+  - slug: anthropic/claude-haiku-4.5
+    provider: Anthropic
+  - slug: openai/gpt-5.5
+    provider: OpenAI
+  - slug: openai/gpt-5.4-mini
+    provider: OpenAI
+  - slug: google/gemini-2.5-pro
+    provider: Google
+    # Without these caps the model tends to spend its entire output budget on
+    # reasoning tokens and return empty content.
+    params:
+      max_tokens: 20000
+      reasoning:
+        max_tokens: 4096
+  - slug: google/gemini-3.6-flash
+    provider: Google
+  - slug: x-ai/grok-4.5
+    provider: xAI
+  - slug: deepseek/deepseek-v4-pro
+    provider: DeepSeek
+  - slug: moonshotai/kimi-k3
+    provider: Moonshot
+  - slug: z-ai/glm-5.1
+    provider: Z.ai
+  - slug: qwen/qwen3.7-max
+    provider: Alibaba
+  - slug: meta-llama/llama-4-maverick
+    provider: Meta
+  - slug: mistralai/mistral-large-2512
+    provider: Mistral

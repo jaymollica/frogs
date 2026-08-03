@@ -1,0 +1,20 @@
+The data in results/ (SVG files, runs.jsonl, and raw model responses) is
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
+
+You are free to:
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material for any purpose,
+  even commercially
+
+Under the following terms:
+  Attribution — You must give appropriate credit ("FROGS benchmark,
+  Jay Mollica, https://frogs.vaguespac.es"), provide a link to the license,
+  and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Note: the rows of this dataset are outputs of third-party language models
+routed via OpenRouter. They are published here under CC BY 4.0 to the extent
+the publisher holds rights in them; model providers' terms may independently
+apply to reuse of model outputs.

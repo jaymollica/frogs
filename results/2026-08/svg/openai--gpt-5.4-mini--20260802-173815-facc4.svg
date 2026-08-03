@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Frog with a Habsburg jaw">
+  <defs>
+    <linearGradient id="body" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7ad65b"/>
+      <stop offset="100%" stop-color="#4aa43a"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#bde89a"/>
+      <stop offset="100%" stop-color="#8fcb6c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".18"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" fill="#dff6ff"/>
+
+  <ellipse cx="256" cy="418" rx="124" ry="26" fill="#000" opacity=".12"/>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="256" cy="276" rx="122" ry="118" fill="url(#body)"/>
+    <ellipse cx="256" cy="332" rx="82" ry="74" fill="url(#belly)"/>
+
+    <ellipse cx="162" cy="178" rx="38" ry="46" fill="url(#body)"/>
+    <ellipse cx="350" cy="178" rx="38" ry="46" fill="url(#body)"/>
+
+    <circle cx="162" cy="168" r="18" fill="#fff"/>
+    <circle cx="350" cy="168" r="18" fill="#fff"/>
+    <circle cx="162" cy="170" r="8" fill="#1f2a1f"/>
+    <circle cx="350" cy="170" r="8" fill="#1f2a1f"/>
+    <circle cx="166" cy="166" r="3" fill="#fff"/>
+    <circle cx="354" cy="166" r="3" fill="#fff"/>
+
+    <path d="M132 254c18-22 42-30 68-18 20 9 28 27 28 44 0 24-18 48-50 50-37 3-66-18-68-47-1-12 4-22 22-29z" fill="url(#body)"/>
+    <path d="M380 254c-18-22-42-30-68-18-20 9-28 27-28 44 0 24 18 48 50 50 37 3 66-18 68-47 1-12-4-22-22-29z" fill="url(#body)"/>
+
+    <path d="M116 314c26-10 51-8 71 9 16 14 23 34 20 57-4 29-28 49-60 49-29 0-52-17-61-41-9-25 4-63 30-74z" fill="url(#body)"/>
+    <path d="M396 314c-26-10-51-8-71 9-16 14-23 34-20 57 4 29 28 49 60 49 29 0 52-17 61-41 9-25-4-63-30-74z" fill="url(#body)"/>
+
+    <path d="M192 294c15-12 35-19 64-19s49 7 64 19c12 9 19 23 19 38 0 30-29 52-83 52s-83-22-83-52c0-15 7-29 19-38z" fill="#f6c9a6"/>
+    <path d="M210 345c10 15 28 24 46 24s36-9 46-24" fill="none" stroke="#d9a06f" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M205 306c0 0 20-18 51-18s51 18 51 18" fill="none" stroke="#2f6d29" stroke-width="7" stroke-linecap="round" opacity=".45"/>
+    <path d="M182 286c-13 13-22 31-22 52 0 37 31 66 96 66s96-29 96-66c0-21-9-39-22-52" fill="none" stroke="#2f6d29" stroke-width="7" stroke-linecap="round" opacity=".35"/>
+
+    <path d="M176 360c23-12 44-17 80-17s57 5 80 17" fill="none" stroke="#3d8a33" stroke-width="10" stroke-linecap="round" opacity=".35"/>
+    <path d="M210 377c13 9 30 14 46 14s33-5 46-14" fill="none" stroke="#2f6d29" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+
+    <path d="M230 350c10 8 22 12 26 12s16-4 26-12" fill="none" stroke="#ad6f45" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+
+    <path d="M245 360c-8 10-11 22-11 34" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="5" stroke-linecap="round"/>
+    <path d="M267 360c8 10 11 22 11 34" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="5" stroke-linecap="round"/>
+
+    <path d="M214 208c-18 18-42 34-66 43" fill="none" stroke="#4aa43a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M298 208c18 18 42 34 66 43" fill="none" stroke="#4aa43a" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="55" ry="45" fill="#4CAF50"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="70" rx="45" ry="40" fill="#66BB6A"/>
+  <!-- Habsburg jaw - exaggerated protruding lower jaw -->
+  <ellipse cx="100" cy="105" rx="35" ry="25" fill="#66BB6A"/>
+  <path d="M65 95 Q100 140 135 95 Q100 125 65 95" fill="#4CAF50"/>
+  <!-- Lower jaw protrusion -->
+  <ellipse cx="100" cy="125" rx="28" ry="18" fill="#81C784"/>
+  <!-- Mouth line showing underbite -->
+  <path d="M70 95 Q100 105 130 95" fill="none" stroke="#2E7D32" stroke-width="2"/>
+  <path d="M75 110 Q100 135 125 110" fill="none" stroke="#2E7D32" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="75" cy="55" r="15" fill="white"/>
+  <circle cx="125" cy="55" r="15" fill="white"/>
+  <circle cx="75" cy="55" r="8" fill="#1B5E20"/>
+  <circle cx="125" cy="55" r="8" fill="#1B5E20"/>
+  <circle cx="78" cy="52" r="3" fill="white"/>
+  <circle cx="128" cy="52" r="3" fill="white"/>
+  <!-- Nostrils -->
+  <ellipse cx="90" cy="75" rx="3" ry="2" fill="#2E7D32"/>
+  <ellipse cx="110" cy="75" rx="3" ry="2" fill="#2E7D32"/>
+  <!-- Legs -->
+  <ellipse cx="55" cy="150" rx="20" ry="12" fill="#4CAF50"/>
+  <ellipse cx="145" cy="150" rx="20" ry="12" fill="#4CAF50"/>
+  <!-- Feet -->
+  <ellipse cx="40" cy="155" rx="12" ry="6" fill="#81C784"/>
+  <ellipse cx="160" cy="155" rx="12" ry="6" fill="#81C784"/>
+  <!-- Spots -->
+  <circle cx="80" cy="110" r="6" fill="#388E3C" opacity="0.5"/>
+  <circle cx="120" cy="125" r="5" fill="#388E3C" opacity="0.5"/>
+  <circle cx="95" cy="140" r="4" fill="#388E3C" opacity="0.5"/>
+</svg>

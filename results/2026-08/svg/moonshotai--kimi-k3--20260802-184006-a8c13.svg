@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="400" height="420">
+  <title>Frog with a Habsburg jaw</title>
+  <rect width="400" height="420" fill="#e3f2e3"/>
+  <ellipse cx="200" cy="398" rx="150" ry="16" fill="#c2ddc2"/>
+
+  <!-- hind legs -->
+  <ellipse cx="100" cy="345" rx="42" ry="34" fill="#57a657"/>
+  <ellipse cx="300" cy="345" rx="42" ry="34" fill="#57a657"/>
+  <ellipse cx="102" cy="384" rx="28" ry="10" fill="#57a657"/>
+  <ellipse cx="298" cy="384" rx="28" ry="10" fill="#57a657"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="320" rx="105" ry="72" fill="#5cb35c"/>
+  <ellipse cx="200" cy="338" rx="68" ry="44" fill="#cdeccb"/>
+
+  <!-- arms -->
+  <path d="M 118 295 Q 100 340 126 368" stroke="#4a8f4a" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M 282 295 Q 300 340 274 368" stroke="#4a8f4a" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="195" rx="118" ry="85" fill="#6cbf6c"/>
+
+  <!-- eye bumps -->
+  <circle cx="138" cy="112" r="34" fill="#6cbf6c"/>
+  <circle cx="262" cy="112" r="34" fill="#6cbf6c"/>
+
+  <!-- eyes -->
+  <circle cx="138" cy="112" r="26" fill="#ffffff"/>
+  <circle cx="262" cy="112" r="26" fill="#ffffff"/>
+  <circle cx="138" cy="119" r="13" fill="#1a1a1a"/>
+  <circle cx="262" cy="119" r="13" fill="#1a1a1a"/>
+  <circle cx="133" cy="113" r="4.5" fill="#ffffff"/>
+  <circle cx="257" cy="113" r="4.5" fill="#ffffff"/>
+
+  <!-- nostrils -->
+  <circle cx="181" cy="183" r="3.5" fill="#2f5e2f"/>
+  <circle cx="219" cy="183" r="3.5" fill="#2f5e2f"/>
+
+  <!-- mouth -->
+  <path d="M 104 210 Q 200 232 296 210" stroke="#2f5e2f" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- protruding Habsburg lower jaw -->
+  <path d="M 112 212 C 124 296 148 334 200 336 C 252 334 276 296 288 212 Q 200 242 112 212 Z" fill="#8fd48f" stroke="#2f5e2f" stroke-width="3"/>
+
+  <!-- jutting lower lip highlight -->
+  <path d="M 118 216 Q 200 242 282 216 Q 200 232 118 216 Z" fill="#b8eab8"/>
+
+  <!-- chin crease -->
+  <path d="M 150 262 Q 200 288 250 262" stroke="#57a657" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- chin cleft -->
+  <path d="M 200 314 L 200 330" stroke="#57a657" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- chin highlight -->
+  <ellipse cx="182" cy="296" rx="26" ry="12" fill="#c9f0c9" opacity="0.8"/>
+</svg>

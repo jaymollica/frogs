@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" width="400" height="450">
+  <!-- Body -->
+  <ellipse cx="200" cy="280" rx="120" ry="100" fill="#4a8c3f"/>
+  <ellipse cx="200" cy="280" rx="110" ry="90" fill="#5a9c4f"/>
+  <!-- Belly -->
+  <ellipse cx="200" cy="300" rx="75" ry="65" fill="#a8d49a"/>
+
+  <!-- Back legs -->
+  <path d="M100 320 Q60 370 40 410 Q30 430 50 430 Q70 430 80 410 Q90 390 120 350Z" fill="#4a8c3f"/>
+  <path d="M300 320 Q340 370 360 410 Q370 430 350 430 Q330 430 320 410 Q310 390 280 350Z" fill="#4a8c3f"/>
+  <!-- Feet -->
+  <ellipse cx="45" cy="432" rx="25" ry="8" fill="#3d7a33"/>
+  <ellipse cx="355" cy="432" rx="25" ry="8" fill="#3d7a33"/>
+  <!-- Toe bits -->
+  <circle cx="25" cy="430" r="5" fill="#3d7a33"/>
+  <circle cx="40" cy="436" r="5" fill="#3d7a33"/>
+  <circle cx="55" cy="430" r="5" fill="#3d7a33"/>
+  <circle cx="345" cy="430" r="5" fill="#3d7a33"/>
+  <circle cx="360" cy="436" r="5" fill="#3d7a33"/>
+  <circle cx="375" cy="430" r="5" fill="#3d7a33"/>
+
+  <!-- Front legs -->
+  <path d="M130 290 Q110 330 105 360 Q100 380 115 380 Q130 380 128 360 Q127 340 140 310Z" fill="#4a8c3f"/>
+  <path d="M270 290 Q290 330 295 360 Q300 380 285 380 Q270 380 272 360 Q273 340 260 310Z" fill="#4a8c3f"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="175" rx="105" ry="80" fill="#5a9c4f"/>
+  <ellipse cx="200" cy="175" rx="100" ry="75" fill="#6aac5f"/>
+
+  <!-- Upper head / snout -->
+  <ellipse cx="200" cy="155" rx="70" ry="45" fill="#6aac5f"/>
+
+  <!-- HABSBURG JAW - the defining feature -->
+  <!-- Massive protruding lower jaw -->
+  <path d="M130 190 Q130 230 145 250 Q160 270 200 285 Q240 270 255 250 Q270 230 270 190Z" fill="#5a9c4f"/>
+  <!-- Jaw protrusion - extends far forward and down -->
+  <path d="M135 210 Q120 240 110 265 Q100 290 115 305 Q130 320 165 325 Q200 330 235 325 Q270 320 285 305 Q300 290 290 265 Q280 240 265 210Z" fill="#4a8c3f"/>
+  <!-- Jaw chin - very prominent -->
+  <ellipse cx="200" cy="310" rx="55" ry="25" fill="#3d7a33"/>
+  <!-- Lower lip prominence -->
+  <ellipse cx="200" cy="295" rx="50" ry="18" fill="#5a9c4f"/>
+  <!-- Chin dimple -->
+  <path d="M190 318 Q200 325 210 318" stroke="#3d7a33" stroke-width="2" fill="none"/>
+
+  <!-- Mouth line -->
+  <path d="M125 205 Q165 195 200 198 Q235 195 275 205" stroke="#2d5a22" stroke-width="3" fill="none"/>
+
+  <!-- Underbite teeth showing -->
+  <rect x="170" y="210" width="8" height="12" rx="2" fill="#f0f0e0"/>
+  <rect x="182" y="212" width="8" height="14" rx="2" fill="#f0f0e0"/>
+  <rect x="194" y="213" width="8" height="14" rx="2" fill="#f0f0e0"/>
+  <rect x="206" y="212" width="8" height="14" rx="2" fill="#f0f0e0"/>
+  <rect x="218" y="210" width="8" height="12" rx="2" fill="#f0f0e0"/>
+
+  <!-- Nose / nostrils -->
+  <ellipse cx="185" cy="165" rx="6" ry="4" fill="#3d7a33"/>
+  <ellipse cx="215" cy="165" rx="6" ry="4" fill="#3d7a33"/>
+
+  <!-- Eyes - bulging frog eyes -->
+  <circle cx="155" cy="120" r="32" fill="#5a9c4f"/>
+  <circle cx="155" cy="120" r="28" fill="#e8e8d0"/>
+  <circle cx="155" cy="118" r="14" fill="#1a1a1a"/>
+  <circle cx="150" cy="113" r="5" fill="#ffffff"/>
+
+  <circle cx="245" cy="120" r="32" fill="#5a9c4f"/>
+  <circle cx="245" cy="120" r="28" fill="#e8e8d0"/>
+  <circle cx="245" cy="118" r="14" fill="#1a1a1a"/>
+  <circle cx="240" cy="113" r="5" fill="#ffffff"/>
+
+  <!-- Eyelids -->
+  <path d="M123 115 Q140 100 170 108" stroke="#4a8c3f" stroke-width="4" fill="none"/>
+  <path d="M230 108 Q260 100 277 115" stroke="#4a8c3f" stroke-width="4" fill="none"/>
+
+  <!-- Spots on body -->
+  <circle cx="150" cy="260" r="12" fill="#4a8c3f" opacity="0.5"/>
+  <circle cx="250" cy="250" r="10" fill="#4a8c3f" opacity="0.5"/>
+  <circle cx="180" cy="310" r="8" fill="#4a8c3f" opacity="0.5"/>
+  <circle cx="230" cy="300" r="11" fill="#4a8c3f" opacity="0.5"/>
+
+  <!-- Royal crown on head (because Habsburg) -->
+  <path d="M155 88 L162 60 L175 78 L188 50 L200 80 L212 50 L225 78 L238 60 L245 88Z" fill="#d4af37" stroke="#b8960c" stroke-width="1.5"/>
+  <rect x="155" y="85" width="90" height="10" rx="2" fill="#d4af37" stroke="#b8960c" stroke-width="1"/>
+  <!-- Crown jewels -->
+  <circle cx="175" cy="78" r="4" fill="#c0392b"/>
+  <circle cx="200" cy="72" r="5" fill="#2980b9"/>
+  <circle cx="225" cy="78" r="4" fill="#c0392b"/>
+  <!-- Crown base jewels -->
+  <circle cx="170" cy="90" r="3" fill="#27ae60"/>
+  <circle cx="200" cy="90" r="3" fill="#8e44ad"/>
+  <circle cx="230" cy="90" r="3" fill="#27ae60"/>
+</svg>

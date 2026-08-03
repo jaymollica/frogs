@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e8f0d8"/>
+      <stop offset="100%" stop-color="#c5d8a8"/>
+    </radialGradient>
+    <radialGradient id="head" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#6ab844"/>
+      <stop offset="100%" stop-color="#3d8a28"/>
+    </radialGradient>
+    <radialGradient id="jaw" cx="50%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#5aaa38"/>
+      <stop offset="100%" stop-color="#357820"/>
+    </radialGradient>
+    <radialGradient id="chin" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#4e9e30"/>
+      <stop offset="100%" stop-color="#2d6818"/>
+    </radialGradient>
+    <radialGradient id="belly" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#b8e098"/>
+      <stop offset="100%" stop-color="#8ac868"/>
+    </radialGradient>
+    <radialGradient id="eyeW" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#fffff0"/>
+      <stop offset="85%" stop-color="#e8e8c8"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#1a3a0e" flood-opacity="0.3"/>
+    </filter>
+    <filter id="jawShadow" x="-10%" y="-5%" width="125%" height="120%">
+      <feDropShadow dx="5" dy="6" stdDeviation="6" flood-color="#0e2a08" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="620" fill="url(#bg)" rx="24"/>
+
+  <!-- Back legs -->
+  <path d="M130,470 Q100,500 80,530 Q65,555 75,565 Q85,570 95,555 L120,520 Q135,500 140,490" fill="#3d8a28" stroke="#2d6818" stroke-width="2"/>
+  <path d="M75,565 Q60,572 55,565" fill="none" stroke="#3d8a28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M75,565 Q65,580 58,580" fill="none" stroke="#3d8a28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M75,565 Q78,582 72,586" fill="none" stroke="#3d8a28" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M370,470 Q400,500 420,530 Q435,555 425,565 Q415,570 405,555 L380,520 Q365,500 360,490" fill="#3d8a28" stroke="#2d6818" stroke-width="2"/>
+  <path d="M425,565 Q440,572 445,565" fill="none" stroke="#3d8a28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M425,565 Q435,580 442,580" fill="none" stroke="#3d8a28" stroke-width="5" stroke-linecap="round"/>
+  <path d="M425,565 Q422,582 428,586" fill="none" stroke="#3d8a28" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="440" rx="130" ry="110" fill="url(#head)" filter="url(#shadow)"/>
+  <ellipse cx="250" cy="455" rx="88" ry="75" fill="url(#belly)" opacity="0.7"/>
+
+  <!-- Front legs -->
+  <path d="M140,420 Q115,445 100,470 Q92,485 100,492 Q108,496 115,485 L130,460 Q140,445 145,435" fill="#3d8a28" stroke="#2d6818" stroke-width="1.5"/>
+  <path d="M100,492 Q88,498 84,492" fill="none" stroke="#3d8a28" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M100,492 Q92,506 86,506" fill="none" stroke="#3d8a28" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M100,492 Q100,510 95,513" fill="none" stroke="#3d8a28" stroke-width="4.5" stroke-linecap="round"/>
+
+  <path d="M360,420 Q385,445 400,470 Q408,485 400,492 Q392,496 385,485 L370,460 Q360,445 355,435" fill="#3d8a28" stroke="#2d6818" stroke-width="1.5"/>
+  <path d="M400,492 Q412,498 416,492" fill="none" stroke="#3d8a28" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M400,492 Q408,506 414,506" fill="none" stroke="#3d8a28" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M400,492 Q400,510 405,513" fill="none" stroke="#3d8a28" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- === HABSBURG JAW === -->
+  <!-- Lower jaw - dramatically protruding -->
+  <path d="M155,260 Q150,290 155,330 Q160,380 175,420 Q195,470 220,505 Q240,530 250,540 Q260,530 280,505 Q305,470 325,420 Q340,380 345,330 Q350,290 345,260 Q310,280 250,285 Q190,280 155,260 Z" fill="url(#jaw)" filter="url(#jawShadow)"/>
+
+  <!-- Jaw protrusion - forward shelf -->
+  <path d="M175,290 Q170,320 175,355 Q180,390 195,425 Q210,460 235,490 Q248,505 250,508 Q252,505 265,490 Q290,460 305,425 Q320,390 325,355 Q330,320 325,290 Q300,305 250,308 Q200,305 175,290 Z" fill="#58a836" opacity="0.6"/>
+
+  <!-- Prominent chin - the hallmark of the Habsburg jaw -->
+  <path d="M205,420 Q215,465 230,500 Q242,525 250,535 Q258,525 270,500 Q285,465 295,420 Q275,445 250,450 Q225,445 205,420 Z" fill="url(#chin)"/>
+
+  <!-- Chin protrusion highlight -->
+  <ellipse cx="250" cy="475" rx="35" ry="40" fill="#5aaa38" opacity="0.4"/>
+
+  <!-- Chin forward-ridge to emphasize protrusion -->
+  <path d="M220,440 Q230,480 242,510 Q248,522 250,525 Q252,522 258,510 Q270,480 280,440 Q268,458 250,462 Q232,458 220,440 Z" fill="#62b240" opacity="0.5"/>
+
+  <!-- Upper head (above mouth) -->
+  <path d="M150,260 Q145,220 160,185 Q180,145 250,132 Q320,145 340,185 Q355,220 350,260 Q320,278 250,282 Q180,278 150,260 Z" fill="url(#head)" filter="url(#shadow)"/>
+
+  <!-- Mouth line - shows the underbite -->
+  <path d="M155,262 Q190,278 250,282 Q310,278 345,262" fill="none" stroke="#1e4a10" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Lower lip protruding beyond upper (underbite) -->
+  <path d="M170,265 Q200,272 250,274 Q300,272 330,265 Q310,276 250,280 Q190,276 170,265 Z" fill="#4a8a2a" opacity="0.6"/>
+
+  <!-- Upper lip area -->
+  <path d="M160,258 Q190,268 250,270 Q310,268 340,258 Q310,265 250,267 Q190,265 160,258 Z" fill="#5a9a34" opacity="0.5"/>
+
+  <!-- Eyes - bulging frog eyes -->
+  <!-- Left eye socket bump -->
+  <ellipse cx="195" cy="168" rx="52" ry="50" fill="#4e9e30"/>
+  <circle cx="195" cy="162" r="44" fill="url(#eyeW)" stroke="#3d7a2a" stroke-width="3"/>
+  <ellipse cx="195" cy="162" rx="17" ry="24" fill="#1a4a0e"/>
+  <ellipse cx="195" cy="162" rx="7" ry="22" fill="#0e2e08"/>
+  <ellipse cx="190" cy="150" rx="6" ry="5" fill="white" opacity="0.7"/>
+  <ellipse cx="203" cy="155" rx="3" ry="2.5" fill="white" opacity="0.4"/>
+
+  <!-- Right eye socket bump -->
+  <ellipse cx="305" cy="168" rx="52" ry="50" fill="#4e9e30"/>
+  <circle cx="305" cy="162" r="44" fill="url(#eyeW)" stroke="#3d7a2a" stroke-width="3"/>
+  <ellipse cx="305" cy="162" rx="17" ry="24" fill="#1a4a0e"/>
+  <ellipse cx="305" cy="162" rx="7" ry="22" fill="#0e2e08"/>
+  <ellipse cx="300" cy="150" rx="6" ry="5" fill="white" opacity="0.7"/>
+  <ellipse cx="313" cy="155" rx="3" ry="2.5" fill="white" opacity="0.4"/>
+
+  <!-- Eyelids (half-closed, giving a regal unimpressed look) -->
+  <path d="M152,148 Q170,138 195,135 Q220,138 238,148 Q220,150 195,148 Q170,150 152,148 Z" fill="#4e9e30" opacity="0.7"/>
+  <path d="M262,148 Q280,138 305,135 Q330,138 348,148 Q330,150 305,148 Q280,150 262,148 Z" fill="#4e9e30" opacity="0.7"/>
+
+  <!-- Nostrils -->
+  <ellipse cx="232" cy="228" rx="5" ry="4.5" fill="#1e4a10"/>
+  <ellipse cx="268" cy="228" rx="5" ry="4.5" fill="#1e4a10"/>
+  <ellipse cx="232" cy="227" rx="2.5" ry="2" fill="#2d6818" opacity="0.5"/>
+  <ellipse cx="268" cy="227" rx="2.5" ry="2" fill="#2d6818" opacity="0.5"/>
+
+  <!-- Royal crown (because Habsburg) -->
+  <path d="M195,105 L200,72 L215,92 L235,60 L250,95 L265,60 L285,92 L300,72 L305,105 Z" fill="#d4a017" stroke="#a07810" stroke-width="2"/>
+  <path d="M195,105 L305,105 L305,115 Q250,120 195,115 Z" fill="#c49015" stroke="#a07810" stroke-width="1.5"/>
+  <circle cx="215" cy="68" r="5" fill="#c0392b"/>
+  <circle cx="250" cy="56" r="6" fill="#2980b9"/>
+  <circle cx="285" cy="68" r="5" fill="#c0392b"/>
+  <rect x="200" y="105" width="100" height="8" rx="2" fill="#b8860b"/>
+  <circle cx="220" cy="109" r="3" fill="#e74c3c"/>
+  <circle cx="250" cy="109" r="3.5" fill="#3498db"/>
+  <circle cx="280" cy="109" r="3" fill="#e74c3c"/>
+
+  <!-- Body spots -->
+  <circle cx="200" cy="420" r="9" fill="#357820" opacity="0.4"/>
+  <circle cx="290" cy="410" r="7" fill="#357820" opacity="0.4"/>
+  <circle cx="240" cy="460" r="8" fill="#357820" opacity="0.35"/>
+  <circle cx="310" cy="450" r="6" fill="#357820" opacity="0.35"/>
+  <circle cx="175" cy="450" r="5" fill="#357820" opacity="0.3"/>
+
+  <!-- Jaw line definition lines -->
+  <path d="M165,310 Q175,312 185,308" fill="none" stroke="#2d6818" stroke-width="1.5" opacity="0.4"/>
+  <path d="M315,310 Q325,312 335,308" fill="none" stroke="#2d6818" stroke-width="1.5" opacity="0.4"/>
+  <path d="M180,370 Q195,375 210,370" fill="none" stroke="#2d6818" stroke-width="1.5" opacity="0.3"/>
+  <path d="M290,370 Q305,375 320,370" fill="none" stroke="#2d6818" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Subtle jaw shadows for depth/protrusion -->
+  <path d="M185,295 Q180,330 185,365 Q190,400 210,435 Q230,465 250,478 Q270,465 290,435 Q310,400 315,365 Q320,330 315,295" fill="none" stroke="#2d6818" stroke-width="1" opacity="0.3" stroke-dasharray="4,6"/>
+</svg>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100% " height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFDF5" />
+      <stop offset="100%" stop-color="#E0D4C3" />
+    </radialGradient>
+    <linearGradient id="jawGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81C784" />
+      <stop offset="40%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#388E3C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1000" fill="url(#bgGrad)" />
+
+  <!-- Back Legs -->
+  <path d="M 250 750 C 150 750 80 820 150 880 C 200 920 250 880 300 820" fill="none" stroke="#2E7D32" stroke-width="45" stroke-linecap="round" />
+  <path d="M 150 880 L 80 930 L 95 945 L 140 895 Z" fill="#2E7D32" />
+  <path d="M 170 890 L 110 950 L 125 960 L 160 910 Z" fill="#2E7D32" />
+  
+  <path d="M 750 750 C 850 750 920 820 850 880 C 800 920 750 880 700 820" fill="none" stroke="url(#bodyGrad)" stroke-width="45" stroke-linecap="round" />
+  <path d="M 850 880 L 920 930 L 905 945 L 860 895 Z" fill="#4CAF50" />
+  <path d="M 830 890 L 890 950 L 875 960 L 840 910 Z" fill="#4CAF50" />
+
+  <!-- Ruff Collar (Background Layer) -->
+  <ellipse cx="500" cy="550" rx="400" ry="120" fill="#F4F1EA" stroke="#D5C8B5" stroke-width="8" />
+  <path d="M 120 550 Q 170 430 220 550 Q 270 430 320 550 Q 370 430 420 550 Q 470 430 520 550 Q 570 430 620 550 Q 670 430 720 550 Q 770 430 820 550 Q 870 430 920 550" fill="none" stroke="#D5C8B5" stroke-width="15" stroke-linecap="round" />
+  <path d="M 140 510 Q 190 390 240 510 Q 290 390 340 510 Q 390 390 440 510 Q 490 390 540 510 Q 590 390 640 510 Q 690 390 740 510 Q 790 390 840 510 Q 890 390 940 510" fill="none" stroke="#E5DCCD" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Torso -->
+  <path d="M 320 700 C 320 450 680 450 680 700 C 680 920 320 920 320 700 Z" fill="url(#bodyGrad)" />
+  
+  <!-- Belly Highlight -->
+  <ellipse cx="500" cy="800" rx="150" ry="120" fill="#A9DFBF" opacity="0.6" />
+
+  <!-- Torso Spots -->
+  <path d="M 380 650 Q 400 630 420 650 Q 400 670 380 650 Z" fill="#1B5E20" opacity="0.5" />
+  <path d="M 580 700 Q 610 680 630 710 Q 600 730 580 700 Z" fill="#1B5E20" opacity="0.5" />
+  <path d="M 350 780 Q 370 760 390 790 Q 370 810 350 780 Z" fill="#1B5E20" opacity="0.5" />
+  <path d="M 620 820 Q 650 800 660 830 Q 630 850 620 820 Z" fill="#1B5E20" opacity="0.5" />
+  <path d="M 450 880 Q 470 860 480 880 Q 460 900 450 880 Z" fill="#1B5E20" opacity="0.5" />
+  <path d="M 560 620 Q 580 600 590 620 Q 570 640 560 620 Z" fill="#1B5E20" opacity="0.5" />
+
+  <!-- Arms & Hands -->
+  <path d="M 330 680 C 300 730 270 760 240 770" fill="none" stroke="url(#bodyGrad)" stroke-width="30" stroke-linecap="round" />
+  <path d="M 240 770 C 230 780 220 780 210 770" fill="none" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+  <path d="M 260 760 C 250 780 240 790 230 780" fill="none" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+  <path d="M 280 750 C 270 770 260 780 250 770" fill="none" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+
+  <path d="M 670 680 C 700 730 730 760 760 770" fill="none" stroke="url(#bodyGrad)" stroke-width="30" stroke-linecap="round" />
+  <path d="M 760 770 C 770 780 780 780 790 770" fill="none" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+  <path d="M 740 760 C 750 780 760 790 770 780" fill="none" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+  <path d="M 720 750 C 730 770 740 780 750 770" fill="none" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+
+  <!-- Face Base -->
+  <path d="M 320 250 Q 500 150 680 250 L 680 400 L 500 450 L 320 400 Z" fill="#4CAF50" />
+
+  <!-- Eye Sockets & Brows -->
+  <ellipse cx="370" cy="260" rx="70" ry="50" fill="#2E7D32" />
+  <ellipse cx="630" cy="260" rx="70" ry="50" fill="#2E7D32" />
+  
+  <path d="M 290 240 Q 370 210 440 270" fill="none" stroke="#1B5E20" stroke-width="8" />
+  <path d="M 560 270 Q 630 210 710 240" fill="none" stroke="#1B5E20" stroke-width="8" />
+
+  <!-- Eyes -->
+  <ellipse cx="370" cy="250" rx="60" ry="70" fill="#4CAF50" />
+  <ellipse cx="370" cy="260" rx="50" ry="60" fill="#FFFFFF" />
+  <ellipse cx="380" cy="260" rx="30" ry="45" fill="#FF8F00" />
+  <ellipse cx="385" cy="255" rx="15" ry="25" fill="#111111" />
+  <circle cx="375" cy="240" r="8" fill="#FFFFFF" />
+
+  <ellipse cx="630" cy="250" rx="60" ry="70" fill="#4CAF50" />
+  <ellipse cx="630" cy="260" rx="50" ry="60" fill="#FFFFFF" />
+  <ellipse cx="620" cy="260" rx="30" ry="45" fill="#FF8F00" />
+  <ellipse cx="615" cy="255" rx="15" ry="25" fill="#111111" />
+  <circle cx="625" cy="240" r="8" fill="#FFFFFF" />
+
+  <!-- Habsburg Nose -->
+  <path d="M 480 320 C 490 320, 500 370, 500 390 C 490 410, 480 400, 480 380 C 470 360, 470 320, 480 320 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="3" />
+  <circle cx="485" cy="380" r="6" fill="#1B5E20" />
+  <circle cx="475" cy="380" r="6" fill="#1B5E20" />
+
+  <!-- Mouth / Upper Lip -->
+  <path d="M 310 400 Q 500 460 690 400 L 690 420 Q 500 480 310 420 Z" fill="#1B5E20" />
+  
+  <!-- Teeth -->
+  <path d="M 320 400 Q 500 460 680 400 L 680 410 L 500 470 L 320 410 Z" fill="#FFFFFF" />
+  <line x1="350" y1="410" x2="360" y2="425" stroke="#1B5E20" stroke-width="4" />
+  <line x1="380" y1="420" x2="390" y2="435" stroke="#1B5E20" stroke-width="4" />
+  <line x1="410" y1="430" x2="420" y2="445" stroke="#1B5E20" stroke-width="4" />
+  <line x1="440" y1="438" x2="450" y2="453" stroke="#1B5E20" stroke-width="4" />
+  <line x1="470" y1="443" x2="480" y2="458" stroke="#1B5E20" stroke-width="4" />
+  <line x1="500" y1="445" x2="510" y2="460" stroke="#1B5E20" stroke-width="4" />
+  <line x1="530" y1="443" x2="520" y2="458" stroke="#1B5E20" stroke-width="4" />
+  <line x1="560" y1="438" x2="550" y2="453" stroke="#1B5E20" stroke-width="4" />
+  <line x1="590" y1="430" x2="580" y2="445" stroke="#1B5E20" stroke-width="4" />
+  <line x1="620" y1="420" x2="610" y2="435" stroke="#1B5E20" stroke-width="4" />
+  <line x1="650" y1="410" x2="640" y2="425" stroke="#1B5E20" stroke-width="4" />
+
+  <!-- Habsburg Jaw (The Protruding Lower Jaw) -->
+  <!-- Base Massive Jaw Shape -->
+  <path d="M 310 420 C 200 600, 200 880, 500 950 C 800 880, 800 600, 690 420 Q 500 490 310 420 Z" fill="url(#jawGrad)" />
+  
+  <!-- Jaw 3D Shading -->
+  <path d="M 310 420 C 200 600, 200 880, 500 950 C 400 850, 400 600, 310 420 Z" fill="#1B5E20" opacity="0.4" />
+  <path d="M 690 420 C 800 600, 800 880, 500 950 C 600 850, 600 600, 690 420 Z" fill="#000000" opacity="0.2" />
+
+  <!-- Jaw Cleft & Chin Details -->
+  <path d="M 450 880 Q 500 920 550 880" fill="none" stroke="#1B5E20" stroke-width="8" opacity="0.5" />
+  
+  <!-- Skin Folds / Multi-Chin Effect -->
+  <path d="M 340 620 Q 500 670 660 620" fill="none" stroke="#1B5E20" stroke-width="12" opacity="0.4" />
+  <path d="M 300 720 Q 500 780 700 720" fill="none" stroke="#1B5E20" stroke-width="14" opacity="0.4" />
+  <path d="M 280 820 Q 500 870 720 820" fill="none" stroke="#1B5E20" stroke-width="14" opacity="0.4" />
+  <path d="M 320 900 Q 500 940 680 900" fill="none" stroke="#1B5E20" stroke-width="10" opacity="0.3" />
+
+  <!-- Shadow under Jaw to Neck -->
+  <path d="M 340 700 C 400 850, 600 850, 660 700" fill="none" stroke="#1B5E20" stroke-width="20" opacity="0.5" />
+
+  <!-- Ruff Collar (Foreground Layer / Scallops) -->
+  <path d="M 160 570 Q 210 450 260 570 Q 310 450 360 570 Q 410 450 460 570 Q 510 450 560 570 Q 610 450 660 570 Q 710 450 760 570 Q 810 450 860 570 Q 910 450 960 570" fill="none" stroke="#D5C8B5" stroke-width="15" stroke-linecap="round" />
+  <path d="M 180 530 Q 230 410 280 530 Q 330 410 380 530 Q 430 410 480 530 Q 530 410 580 530 Q 630 410 680 530 Q 730 410 780 530 Q 830 410 880 530 Q 930 410 980 530" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Habsburg Feathered Cap -->
+  <path d="M 380 180 Q 500 100 620 180 Q 550 220 450 220 Z" fill="#8E44AD" stroke="#6C3483" stroke-width="6" />
+  <path d="M 550 150 Q 650 0 700 50 Q 650 100 580 170 Z" fill="#E74C3C" stroke="#C0392B" stroke-width="4" />
+  <path d="M 550 150 Q 630 80 690 100" fill="none" stroke="#C0392B" stroke-width="3" />
+  <path d="M 580 170 Q 610 120 650 80" fill="none" stroke="#C0392B" stroke-width="2" />
+
+  <!-- Heraldic Banner & Text -->
+  <path d="M 200 900 L 800 900 L 820 950 L 500 920 L 180 950 Z" fill="#8E44AD" stroke="#6C3483" stroke-width="6" />
+  <text x="500" y="938" font-family="Georgia, serif" font-size="36" font-weight="bold" font-style="italic" fill="#F4D03F" text-anchor="middle" letter-spacing="6">Rana Habsburgii</text>
+
+  <!-- Tympanum (Ear Drums) -->
+  <circle cx="280" cy="380" r="45" fill="#388E3C" stroke="#2E7D32" stroke-width="6" />
+  <circle cx="280" cy="380" r="25" fill="#4CAF50" />
+  <circle cx="720" cy="380" r="45" fill="#388E3C" stroke="#2E7D32" stroke-width="6" />
+  <circle cx="720" cy="380" r="25" fill="#4CAF50" />
+</svg>

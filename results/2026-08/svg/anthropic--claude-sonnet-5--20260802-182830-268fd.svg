@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#cdeccb"/>
+
+  <!-- Lily pad -->
+  <ellipse cx="200" cy="330" rx="150" ry="30" fill="#6fae5a"/>
+
+  <!-- Back legs -->
+  <ellipse cx="100" cy="290" rx="35" ry="18" fill="#5a9e4a" transform="rotate(-20 100 290)"/>
+  <ellipse cx="300" cy="290" rx="35" ry="18" fill="#5a9e4a" transform="rotate(20 300 290)"/>
+
+  <!-- Feet -->
+  <g fill="#4c8a3f">
+    <ellipse cx="65" cy="300" rx="10" ry="6"/>
+    <ellipse cx="55" cy="308" rx="10" ry="6"/>
+    <ellipse cx="335" cy="300" rx="10" ry="6"/>
+    <ellipse cx="345" cy="308" rx="10" ry="6"/>
+  </g>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="110" ry="80" fill="#7fc26b"/>
+
+  <!-- Front arms -->
+  <ellipse cx="120" cy="280" rx="20" ry="12" fill="#6fae5a" transform="rotate(30 120 280)"/>
+  <ellipse cx="280" cy="280" rx="20" ry="12" fill="#6fae5a" transform="rotate(-30 280 280)"/>
+
+  <!-- Lower jaw (Habsburg jaw - exaggerated, protruding, undershot) -->
+  <path d="M130 265
+           Q200 320 270 265
+           Q290 300 260 315
+           Q200 340 140 315
+           Q110 300 130 265 Z"
+        fill="#6fae5a" stroke="#4c8a3f" stroke-width="2"/>
+
+  <!-- Lower teeth/lip detail -->
+  <path d="M150 300 Q200 320 250 300"
+        fill="none" stroke="#4c8a3f" stroke-width="2"/>
+
+  <!-- Upper head -->
+  <ellipse cx="200" cy="210" rx="95" ry="70" fill="#7fc26b"/>
+
+  <!-- Upper mouth line (small, receded due to jaw prominence) -->
+  <path d="M160 250 Q200 258 240 250"
+        fill="none" stroke="#4c8a3f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Nostrils -->
+  <circle cx="185" cy="170" r="3" fill="#3f7a33"/>
+  <circle cx="215" cy="170" r="3" fill="#3f7a33"/>
+
+  <!-- Eyes bulges -->
+  <circle cx="150" cy="150" r="35" fill="#7fc26b"/>
+  <circle cx="250" cy="150" r="35" fill="#7fc26b"/>
+
+  <!-- Eyeballs -->
+  <circle cx="150" cy="150" r="22" fill="#ffffff"/>
+  <circle cx="250" cy="150" r="22" fill="#ffffff"/>
+  <circle cx="150" cy="150" r="12" fill="#2b2b2b"/>
+  <circle cx="250" cy="150" r="12" fill="#2b2b2b"/>
+  <circle cx="154" cy="146" r="4" fill="#ffffff"/>
+  <circle cx="254" cy="146" r="4" fill="#ffffff"/>
+
+  <!-- Cheeks blush (royal touch) -->
+  <ellipse cx="130" cy="220" rx="12" ry="8" fill="#e8a2a2" opacity="0.6"/>
+  <ellipse cx="270" cy="220" rx="12" ry="8" fill="#e8a2a2" opacity="0.6"/>
+
+  <!-- Small crown for extra royal touch -->
+  <polygon points="180,90 190,70 200,90 210,65 220,90 230,70 240,90"
+           fill="#e8c547" stroke="#c9a227" stroke-width="1"/>
+</svg>

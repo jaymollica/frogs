@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+    <defs>
+        <!-- Gradients for shading -->
+        <radialGradient id="bodyGradient" cx="50%" cy="30%" r="70%">
+            <stop offset="0%" stop-color="#5cb84c" />
+            <stop offset="100%" stop-color="#2d6a24" />
+        </radialGradient>
+        <linearGradient id="jawGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#4aa83e" />
+            <stop offset="100%" stop-color="#1e4717" />
+        </linearGradient>
+        <radialGradient id="eyeGradient" cx="30%" cy="30%" r="70%">
+            <stop offset="0%" stop-color="#7ed665" />
+            <stop offset="100%" stop-color="#3a8a31" />
+        </radialGradient>
+        <linearGradient id="robeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2a2a35" />
+            <stop offset="100%" stop-color="#0f0f14" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="400" height="500" fill="#2d1b3d" />
+
+    <!-- Robes / Shoulders -->
+    <!-- Left Shoulder -->
+    <path d="M 120 380 Q 80 380, 20 480 L 180 480 Z" fill="url(#robeGradient)" />
+    <path d="M 20 480 Q 200 440, 180 480" fill="none" stroke="#d4af37" stroke-width="6" />
+    <path d="M 60 420 Q 200 380, 180 480" fill="none" stroke="#d4af37" stroke-width="4" />
+    
+    <!-- Right Shoulder -->
+    <path d="M 280 380 Q 320 380, 380 480 L 220 480 Z" fill="url(#robeGradient)" />
+    <path d="M 380 480 Q 200 440, 220 480" fill="none" stroke="#d4af37" stroke-width="6" />
+    <path d="M 340 420 Q 200 380, 220 480" fill="none" stroke="#d4af37" stroke-width="4" />
+
+    <!-- Ruff Collar (Habsburg Aristocratic Ruff) -->
+    <!-- Outer Ruffles -->
+    <g fill="#f4f4f4" stroke="#b0b0b0" stroke-width="1.5">
+        <ellipse cx="200" cy="280" rx="50" ry="80" />
+        <ellipse cx="200" cy="480" rx="50" ry="80" />
+        <ellipse cx="100" cy="380" rx="80" ry="50" />
+        <ellipse cx="300" cy="380" rx="80" ry="50" />
+        <ellipse cx="130" cy="310" rx="80" ry="50" transform="rotate(-45, 130, 310)" />
+        <ellipse cx="270" cy="310" rx="80" ry="50" transform="rotate(45, 270, 310)" />
+        <ellipse cx="130" cy="450" rx="80" ry="50" transform="rotate(45, 130, 450)" />
+        <ellipse cx="270" cy="450" rx="80" ry="50" transform="rotate(-45, 270, 450)" />
+    </g>
+    <!-- Inner Ruffles -->
+    <g fill="#ffffff" stroke="#c0c0c0" stroke-width="1">
+        <circle cx="200" cy="380" r="75" />
+        <ellipse cx="200" cy="295" rx="35" ry="45" />
+        <ellipse cx="200" cy="465" rx="35" ry="45" />
+        <ellipse cx="125" cy="380" rx="45" ry="35" />
+        <ellipse cx="275" cy="380" rx="45" ry="35" />
+        <ellipse cx="145" cy="325" rx="45" ry="35" transform="rotate(-45, 145, 325)" />
+        <ellipse cx="255" cy="325" rx="45" ry="35" transform="rotate(45, 255, 325)" />
+        <ellipse cx="145" cy="435" rx="45" ry="35" transform="rotate(45, 145, 435)" />
+        <ellipse cx="255" cy="435" rx="45" ry="35" transform="rotate(-45, 255, 435)" />
+    </g>
+
+    <!-- Royal Medallion (Order of the Golden Fleece) -->
+    <path d="M 160 400 Q 200 430, 240 400" fill="none" stroke="#d4af37" stroke-width="6" stroke-dasharray="8 4" />
+    <path d="M 175 415 L 225 415 L 215 455 L 200 465 L 185 455 Z" fill="#d4af37" stroke="#b4942e" stroke-width="2" />
+    <circle cx="200" cy="425" r="6" fill="#ffdf00" />
+
+    <!-- Frog Body (Neck) behind the ruff -->
+    <ellipse cx="200" cy="390" rx="70" ry="50" fill="#2d6a24" />
+
+    <!-- Frog Head Base -->
+    <ellipse cx="200" cy="200" rx="95" ry="85" fill="url(#bodyGradient)" />
+
+    <!-- Frog Eyes -->
+    <!-- Left Eye -->
+    <circle cx="135" cy="140" r="38" fill="url(#eyeGradient)" />
+    <ellipse cx="135" cy="135" rx="28" ry="34" fill="#ffffff" />
+    <!-- Left Pupil (Looking down, arrogant) -->
+    <circle cx="135" cy="148" r="14" fill="#111111" />
+    <circle cx="130" cy="143" r="5" fill="#ffffff" />
+    <!-- Left Eye Eyelid (Slight droop for effect) -->
+    <path d="M 97 140 Q 135 125, 173 140 Q 135 135, 97 140 Z" fill="#2d6a24" />
+
+    <!-- Right Eye -->
+    <circle cx="265" cy="140" r="38" fill="url(#eyeGradient)" />
+    <ellipse cx="265" cy="135" rx="28" ry="34" fill="#ffffff" />
+    <!-- Right Pupil -->
+    <circle cx="265" cy="148" r="14" fill="#111111" />
+    <circle cx="260" cy="143" r="5" fill="#ffffff" />
+    <!-- Right Eye Eyelid -->
+    <path d="M 227 140 Q 265 125, 303 140 Q 265 135, 227 140 Z" fill="#2d6a24" />
+
+    <!-- Nostrils -->
+    <circle cx="180" cy="230" r="4" fill="#1b3d12" />
+    <circle cx="220" cy="230" r="4" fill="#1b3d12" />
+
+    <!-- Upper Jaw (Receding, tiny underbite) -->
+    <path d="M 120 245 C 120 260, 170 270, 200 270 C 230 270, 280 260, 280 245 Z" fill="#2d6a24" />
+    <!-- Upper Lip / Maxilla -->
+    <path d="M 135 255 C 160 275, 240 275, 265 255 C 265 270, 240 280, 200 280 C 160 280, 135 270, 135 255 Z" fill="#4aa83e" stroke="#2d6a24" stroke-width="2" />
+    <!-- Upper Teeth (Tiny, set far back) -->
+    <path d="M 155 270 L 160 274 L 165 270 L 170 274 L 175 270 L 180 274 L 185 270 L 190 274 L 195 270 L 200 274 L 205 270 L 210 274 L 215 270 L 220 274 L 225 270 L 230 274 L 235 270 L 240 274 L 245 270" fill="none" stroke="#f0f0f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Mouth Interior (Dark maw behind the underbite) -->
+    <path d="M 140 285 C 180 305, 220 305, 260 285 C 260 300, 220 320, 180 320 C 140 320, 140 300, 140 295 Z" fill="#3b0f0f" />
+    <!-- Tongue -->
+    <path d="M 180 310 C 190 330, 210 330, 220 310 C 210 325, 190 325, 180 310 Z" fill="#e8727d" />
+
+    <!-- The Legendary Habsburg Lower Jaw (Massive mandibular prognathism) -->
+    <!-- Double Chin / Gular Sac -->
+    <path d="M 110 270 C 90 360, 130 450, 200 460 C 270 450, 310 360, 290 270 Z" fill="url(#jawGradient)" stroke="#1e4717" stroke-width="3" />
+    <!-- Main Protruding Lower Lip -->
+    <path d="M 120 280 C 110 350, 150 420, 200 430 C 250 420, 290 350, 280 280 C 280 295, 260 310, 200 310 C 140 310, 120 295, 120 280 Z" fill="#4aa83e" stroke="#2d6a24" stroke-width="2" />
+    
+    <!-- Lower Teeth (Large, projecting forward) -->
+    <path d="M 135 290 L 140 310 L 145 290 L 150 310 L 155 290 L 160 310 L 165 290 L 170 310 L 175 290 L 180 310 L 185 290 L 190 310 L 195 290 L 200 310 L 205 290 L 210 310 L 215 290 L 220 310 L 225 290 L 230 310 L 235 290 L 240 310 L 245 290 L 250 310 L 255 290 L 260 310 L 265 290" fill="none" stroke="#fffaee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Detail: Skin texture / Warts -->
+    <g fill="#2d6a24" opacity="0.8">
+        <!-- Top of head -->
+        <circle cx="160" cy="190" r="6" />
+        <circle cx="230" cy="185" r="5" />
+        <circle cx="190" cy="170" r="4" />
+        <circle cx="120" cy="210" r="5" />
+        <circle cx="280" cy="210" r="7" />
+        <circle cx="150" cy="240" r="4" />
+        <circle cx="250" cy="240" r="5" />
+        <circle cx="210" cy="220" r="3" />
+        
+        <!-- Warts on the massive jaw -->
+        <circle cx="140" cy="330" r="5" />
+        <circle cx="260" cy="330" r="6" />
+        <circle cx="165" cy="370" r="4" />
+        <circle cx="235" cy="370" r="5" />
+        <circle cx="200" cy="400" r="7" />
+        <circle cx="180" cy="420" r="5" />
+        <circle cx="220" cy="420" r="6" />
+        <circle cx="150" cy="390" r="3" />
+        <circle cx="250" cy="390" r="4" />
+    </g>
+
+    <!-- Subtle highlights for a glossy amphibian look -->
+    <path d="M 140 260 C 160 300, 120 350, 130 380" fill="none" stroke="#7ed665" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+    <path d="M 260 260 C 240 300, 280 350, 270 380" fill="none" stroke="#7ed665" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+    
+</svg>

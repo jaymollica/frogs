@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="400" height="420">
+  <title>Frog with a Habsburg jaw</title>
+  <ellipse cx="200" cy="398" rx="110" ry="10" fill="#000000" opacity="0.08"/>
+  <ellipse cx="78" cy="325" rx="42" ry="34" transform="rotate(-25 78 325)" fill="#69b04f" stroke="#2e6b34" stroke-width="4"/>
+  <ellipse cx="70" cy="375" rx="34" ry="12" fill="#69b04f" stroke="#2e6b34" stroke-width="4"/>
+  <ellipse cx="322" cy="325" rx="42" ry="34" transform="rotate(25 322 325)" fill="#69b04f" stroke="#2e6b34" stroke-width="4"/>
+  <ellipse cx="330" cy="375" rx="34" ry="12" fill="#69b04f" stroke="#2e6b34" stroke-width="4"/>
+  <path d="M 90 245 C 84 195, 96 168, 106 152 C 96 118, 108 82, 141 80 C 174 78, 186 104, 184 128 C 191 141, 209 141, 216 128 C 214 104, 226 78, 259 80 C 292 82, 304 118, 294 152 C 304 168, 316 195, 310 245 C 308 285, 290 310, 200 312 C 110 310, 92 285, 90 245 Z" fill="#69b04f" stroke="#2e6b34" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="118" cy="200" r="7" fill="#57a03f" opacity="0.7"/>
+  <circle cx="284" cy="194" r="6" fill="#57a03f" opacity="0.7"/>
+  <circle cx="98" cy="238" r="5" fill="#57a03f" opacity="0.7"/>
+  <circle cx="303" cy="242" r="6" fill="#57a03f" opacity="0.7"/>
+  <path d="M 116 252 C 104 300, 112 348, 152 366 C 180 378, 220 378, 248 366 C 288 348, 296 300, 284 252 C 250 264, 150 264, 116 252 Z" fill="#bfe3a8" stroke="#2e6b34" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 132 270 C 170 282, 230 282, 268 270" fill="none" stroke="#2e6b34" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 200 332 C 198 341, 198 349, 200 357" fill="none" stroke="#2e6b34" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+  <rect x="172" y="243" width="16" height="19" rx="4" fill="#ffffff" stroke="#2e6b34" stroke-width="2.5"/>
+  <rect x="212" y="243" width="16" height="19" rx="4" fill="#ffffff" stroke="#2e6b34" stroke-width="2.5"/>
+  <circle cx="141" cy="120" r="27" fill="#ffffff" stroke="#2e6b34" stroke-width="3.5"/>
+  <circle cx="259" cy="120" r="27" fill="#ffffff" stroke="#2e6b34" stroke-width="3.5"/>
+  <circle cx="141" cy="123" r="12" fill="#222222"/>
+  <circle cx="259" cy="123" r="12" fill="#222222"/>
+  <circle cx="137" cy="118" r="4" fill="#ffffff"/>
+  <circle cx="255" cy="118" r="4" fill="#ffffff"/>
+  <ellipse cx="183" cy="205" rx="3.5" ry="2.5" fill="#2e6b34"/>
+  <ellipse cx="217" cy="205" rx="3.5" ry="2.5" fill="#2e6b34"/>
+</svg>

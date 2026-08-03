@@ -1,0 +1,1 @@
+Generate an SVG of a frog with a Habsburg jaw. Reply with only the SVG markup — no explanation, no markdown fences.
