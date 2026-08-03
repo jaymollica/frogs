@@ -44,6 +44,11 @@ canonical bytes are in [`prompt.txt`](prompt.txt).)
   Anthropic, OpenAI, Google, xAI, DeepSeek, Moonshot, Z.ai, Alibaba, Meta,
   and Mistral. Roster changes are dated in that file; a model's absence in a
   month means it wasn't on the roster yet, not that it failed.
+- **Roster policy:** add-only. Models are added when notable (or by listener
+  request), never removed while OpenRouter serves them, and retired with a
+  dated note only after the provider delists them. Long-frozen models are kept
+  deliberately — they act as a control group for detecting serving and
+  routing drift.
 - **Runs:** 3 per model per month per prompt arm, sequential, on the 1st of
   the month.
 - **Prompt arms (halo experiment, from 2026-09):** the same anatomy is
