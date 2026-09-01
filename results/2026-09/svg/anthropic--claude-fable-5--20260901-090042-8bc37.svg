@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- background -->
+  <rect width="400" height="400" fill="#bfe6f2"/>
+  <!-- lily pad -->
+  <ellipse cx="200" cy="345" rx="150" ry="35" fill="#3d8f3d"/>
+  <path d="M200 345 L310 325 L320 345 Z" fill="#bfe6f2"/>
+
+  <!-- back legs -->
+  <path d="M105 300 Q60 310 70 340 Q80 355 115 348 L130 315 Z" fill="#4aa832" stroke="#2e701f" stroke-width="3"/>
+  <path d="M295 300 Q340 310 330 340 Q320 355 285 348 L270 315 Z" fill="#4aa832" stroke="#2e701f" stroke-width="3"/>
+  <!-- feet -->
+  <path d="M70 340 Q55 345 48 352 M70 342 Q60 352 58 360 M75 344 Q70 355 72 362" stroke="#2e701f" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M330 340 Q345 345 352 352 M330 342 Q340 352 342 360 M325 344 Q330 355 328 362" stroke="#2e701f" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="270" rx="105" ry="85" fill="#5cbf3e" stroke="#2e701f" stroke-width="4"/>
+  <!-- belly -->
+  <ellipse cx="200" cy="295" rx="70" ry="52" fill="#d8f0b0"/>
+
+  <!-- front legs -->
+  <path d="M150 320 Q145 345 140 352" stroke="#2e701f" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M250 320 Q255 345 260 352" stroke="#2e701f" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M150 320 Q145 345 140 352" stroke="#4aa832" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M250 320 Q255 345 260 352" stroke="#4aa832" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="175" rx="95" ry="70" fill="#5cbf3e" stroke="#2e701f" stroke-width="4"/>
+
+  <!-- eyes -->
+  <circle cx="150" cy="115" r="34" fill="#5cbf3e" stroke="#2e701f" stroke-width="4"/>
+  <circle cx="250" cy="115" r="34" fill="#5cbf3e" stroke="#2e701f" stroke-width="4"/>
+  <circle cx="150" cy="115" r="22" fill="#fff8dc" stroke="#2e701f" stroke-width="2"/>
+  <circle cx="250" cy="115" r="22" fill="#fff8dc" stroke="#2e701f" stroke-width="2"/>
+  <!-- droopy Habsburg eyelids -->
+  <path d="M128 105 A22 22 0 0 1 172 105 L172 112 A22 16 0 0 0 128 112 Z" fill="#4aa832" stroke="#2e701f" stroke-width="2"/>
+  <path d="M228 105 A22 22 0 0 1 272 105 L272 112 A22 16 0 0 0 228 112 Z" fill="#4aa832" stroke="#2e701f" stroke-width="2"/>
+  <circle cx="150" cy="120" r="9" fill="#1a1a1a"/>
+  <circle cx="250" cy="120" r="9" fill="#1a1a1a"/>
+  <circle cx="153" cy="117" r="3" fill="#fff"/>
+  <circle cx="253" cy="117" r="3" fill="#fff"/>
+
+  <!-- nostrils -->
+  <circle cx="185" cy="160" r="3" fill="#2e701f"/>
+  <circle cx="215" cy="160" r="3" fill="#2e701f"/>
+
+  <!-- upper lip (recessed) -->
+  <path d="M130 195 Q200 210 270 195" stroke="#2e701f" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- HABSBURG JAW: massively protruding lower mandible -->
+  <path d="M135 200
+           Q135 235 165 248
+           Q200 262 240 252
+           Q285 240 295 218
+           Q300 205 292 198
+           Q285 193 278 200
+           Q270 215 240 224
+           Q205 233 175 222
+           Q152 212 150 200
+           Z"
+        fill="#4aa832" stroke="#2e701f" stroke-width="4" stroke-linejoin="round"/>
+  <!-- inner mouth shadow -->
+  <path d="M150 202 Q200 224 275 203 Q245 220 200 222 Q165 220 150 202 Z" fill="#2e701f" opacity="0.55"/>
+  <!-- jutting chin highlight -->
+  <path d="M250 246 Q280 236 291 216" stroke="#7fd45f" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- protruding lower lip pout -->
+  <path d="M282 197 Q296 190 300 200 Q302 210 293 216" fill="#4aa832" stroke="#2e701f" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- spots -->
+  <circle cx="140" cy="270" r="7" fill="#3d8f28"/>
+  <circle cx="265" cy="265" r="8" fill="#3d8f28"/>
+  <circle cx="230" cy="150" r="6" fill="#3d8f28"/>
+  <circle cx="165" cy="155" r="5" fill="#3d8f28"/>
+
+  <!-- tiny crown (a nod to the Habsburgs) -->
+  <path d="M175 62 L182 45 L192 58 L200 40 L208 58 L218 45 L225 62 Z" fill="#f5c518" stroke="#b8860b" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="175" y="60" width="50" height="8" rx="3" fill="#f5c518" stroke="#b8860b" stroke-width="2"/>
+  <circle cx="200" cy="40" r="4" fill="#e04040"/>
+</svg>

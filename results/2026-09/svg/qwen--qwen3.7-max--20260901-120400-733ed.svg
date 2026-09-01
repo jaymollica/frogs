@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="frogGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+    <radialGradient id="jawGreen" cx="0.6" cy="0.4" r="0.6">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="70%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </radialGradient>
+    <linearGradient id="bellyYellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#a3e635"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="400" cy="530" rx="320" ry="25" fill="#000000" opacity="0.15"/>
+
+  <!-- Hind Leg (Back) -->
+  <path d="M 200 350 C 100 300, 60 450, 150 480 C 200 500, 280 480, 250 450 Z" fill="url(#frogGreen)"/>
+  <path d="M 150 480 L 90 495 L 115 505 L 80 515 L 125 515 L 100 535 L 160 510 Z" fill="#15803d"/>
+
+  <!-- Main Body -->
+  <path d="M 180 250 C 180 150, 350 180, 400 280 C 420 350, 350 450, 250 450 C 150 450, 150 350, 180 250 Z" fill="url(#frogGreen)"/>
+
+  <!-- Belly -->
+  <path d="M 220 430 C 300 450, 380 400, 390 320 C 350 380, 280 400, 220 430 Z" fill="url(#bellyYellow)"/>
+
+  <!-- Upper Head & Snout -->
+  <path d="M 320 200 C 380 180, 450 200, 465 240 C 470 260, 430 280, 380 280 C 340 280, 300 260, 320 200 Z" fill="url(#frogGreen)"/>
+
+  <!-- The Massive Protruding Lower Jaw -->
+  <path d="M 280 270 C 350 290, 480 280, 580 250 C 660 220, 690 320, 600 380 C 520 440, 350 430, 250 380 C 220 360, 240 300, 280 270 Z" fill="url(#jawGreen)"/>
+
+  <!-- Jaw Wrinkles / Folds -->
+  <path d="M 490 320 C 540 350, 590 340, 640 290" stroke="#14532d" stroke-width="4" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M 460 370 C 520 410, 580 390, 620 340" stroke="#14532d" stroke-width="4" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M 380 310 C 400 340, 430 350, 460 340" stroke="#14532d" stroke-width="3" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Jaw Warts / Bumps -->
+  <circle cx="550" cy="330" r="9" fill="#166534" opacity="0.4"/>
+  <circle cx="610" cy="300" r="6" fill="#166534" opacity="0.4"/>
+  <circle cx="490" cy="380" r="11" fill="#166534" opacity="0.4"/>
+  <circle cx="630" cy="340" r="7" fill="#166534" opacity="0.4"/>
+  <circle cx="570" cy="370" r="8" fill="#166534" opacity="0.4"/>
+
+  <!-- Body Spots -->
+  <circle cx="250" cy="250" r="15" fill="#14532d" opacity="0.3"/>
+  <circle cx="290" cy="320" r="22" fill="#14532d" opacity="0.3"/>
+  <circle cx="210" cy="300" r="12" fill="#14532d" opacity="0.3"/>
+  <circle cx="340" cy="240" r="10" fill="#14532d" opacity="0.3"/>
+  <circle cx="190" cy="380" r="16" fill="#14532d" opacity="0.3"/>
+
+  <!-- Mouth Lines -->
+  <!-- Upper Lip -->
+  <path d="M 380 280 C 420 285, 450 280, 465 265" stroke="#064e3b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Lower Lip Separation (Emphasizing Underbite) -->
+  <path d="M 465 265 C 500 275, 580 260, 650 270" stroke="#064e3b" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Bulldog Cheek Fold -->
+  <path d="M 465 265 C 460 295, 430 315, 390 310" stroke="#064e3b" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- Protruding Lower Fangs -->
+  <path d="M 480 268 L 485 235 L 495 266 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <path d="M 530 265 L 535 230 L 545 264 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <path d="M 585 263 L 588 240 L 596 265 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Nostril -->
+  <ellipse cx="435" cy="225" rx="5" ry="3" fill="#064e3b" transform="rotate(-15 435 225)"/>
+
+  <!-- Eye Bulge -->
+  <circle cx="360" cy="180" r="35" fill="url(#frogGreen)"/>
+  
+  <!-- Eyeball -->
+  <circle cx="370" cy="175" r="22" fill="#fde047"/>
+  <circle cx="370" cy="175" r="22" fill="none" stroke="#ca8a04" stroke-width="2"/>
+  
+  <!-- Pupil -->
+  <circle cx="378" cy="175" r="12" fill="#000000"/>
+  
+  <!-- Eye Highlight -->
+  <circle cx="383" cy="168" r="4" fill="#ffffff"/>
+  <circle cx="372" cy="182" r="2" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Front Leg -->
+  <path d="M 350 380 C 360 430, 380 480, 420 490 C 440 495, 450 510, 430 520 C 400 520, 360 500, 330 450 C 310 410, 320 380, 350 380 Z" fill="url(#frogGreen)"/>
+  
+  <!-- Front Toes -->
+  <circle cx="425" cy="515" r="9" fill="#15803d"/>
+  <circle cx="445" cy="510" r="9" fill="#15803d"/>
+  <circle cx="455" cy="495" r="9" fill="#15803d"/>
+  
+  <!-- Toe Highlights -->
+  <circle cx="423" cy="513" r="3" fill="#4ade80" opacity="0.6"/>
+  <circle cx="443" cy="508" r="3" fill="#4ade80" opacity="0.6"/>
+  <circle cx="453" cy="493" r="3" fill="#4ade80" opacity="0.6"/>
+
+</svg>

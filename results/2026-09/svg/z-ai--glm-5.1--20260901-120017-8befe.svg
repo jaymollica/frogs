@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#6bba45"/>
+      <stop offset="70%" stop-color="#3d8b2a"/>
+      <stop offset="100%" stop-color="#2a6b1a"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#c8e68a"/>
+      <stop offset="100%" stop-color="#8bbd45"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#5aa832"/>
+      <stop offset="100%" stop-color="#2d7518"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </radialGradient>
+    <radialGradient id="irisGrad" cx="45%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#f4d03f"/>
+      <stop offset="60%" stop-color="#c9a30a"/>
+      <stop offset="100%" stop-color="#8a6d0b"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#1a1a1a" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e8f5e9" rx="20"/>
+
+  <!-- Back legs -->
+  <ellipse cx="115" cy="310" rx="55" ry="25" fill="#3d8b2a" transform="rotate(-20,115,310)" filter="url(#shadow)"/>
+  <ellipse cx="285" cy="310" rx="55" ry="25" fill="#3d8b2a" transform="rotate(20,285,310)" filter="url(#shadow)"/>
+  <!-- Back feet -->
+  <ellipse cx="75" cy="325" rx="30" ry="12" fill="#2d7518" transform="rotate(-30,75,325)"/>
+  <ellipse cx="325" cy="325" rx="30" ry="12" fill="#2d7518" transform="rotate(30,325,325)"/>
+  <!-- Toe lines back left -->
+  <line x1="58" y1="318" x2="48" y2="312" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="65" y1="330" x2="52" y2="330" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="72" y1="336" x2="60" y2="340" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Toe lines back right -->
+  <line x1="342" y1="318" x2="352" y2="312" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="335" y1="330" x2="348" y2="330" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="328" y1="336" x2="340" y2="340" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Front legs -->
+  <ellipse cx="145" cy="275" rx="18" ry="30" fill="#4a9e30" transform="rotate(10,145,275)" filter="url(#shadow)"/>
+  <ellipse cx="255" cy="275" rx="18" ry="30" fill="#4a9e30" transform="rotate(-10,255,275)" filter="url(#shadow)"/>
+  <!-- Front feet -->
+  <ellipse cx="140" cy="305" rx="22" ry="10" fill="#2d7518" transform="rotate(5,140,305)"/>
+  <ellipse cx="260" cy="305" rx="22" ry="10" fill="#2d7518" transform="rotate(-5,260,305)"/>
+  <!-- Toe lines front left -->
+  <line x1="125" y1="302" x2="117" y2="298" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="130" y1="308" x2="120" y2="310" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="138" y1="310" x2="130" y2="314" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Toe lines front right -->
+  <line x1="275" y1="302" x2="283" y2="298" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="270" y1="308" x2="280" y2="310" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="262" y1="310" x2="270" y2="314" stroke="#1e5a10" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="240" rx="90" ry="70" fill="url(#bodyGrad)" filter="url(#shadow)"/>
+  <!-- Belly -->
+  <ellipse cx="200" cy="255" rx="60" ry="45" fill="url(#bellyGrad)" opacity="0.6"/>
+  <!-- Belly spots -->
+  <circle cx="180" cy="250" r="4" fill="#5a9e30" opacity="0.3"/>
+  <circle cx="215" cy="260" r="3" fill="#5a9e30" opacity="0.3"/>
+  <circle cx="195" cy="270" r="3.5" fill="#5a9e30" opacity="0.3"/>
+
+  <!-- Head upper -->
+  <ellipse cx="200" cy="170" rx="85" ry="55" fill="url(#bodyGrad)" filter="url(#shadow)"/>
+
+  <!-- Nostrils -->
+  <circle cx="175" cy="155" r="3" fill="#2a6b1a"/>
+  <circle cx="225" cy="155" r="3" fill="#2a6b1a"/>
+
+  <!-- Upper mouth line / upper lip area -->
+  <path d="M115,180 Q150,190 200,185 Q250,190 285,180" fill="none" stroke="#2a6b1a" stroke-width="2" opacity="0.5"/>
+
+  <!-- HEAVILY PROTRUDING LOWER JAW -->
+  <path d="M115,180 Q120,185 140,195 Q160,210 175,235 Q185,250 200,258 Q215,250 225,235 Q240,210 260,195 Q280,185 285,180" fill="url(#jawGrad)" stroke="#1e5a10" stroke-width="1.5" filter="url(#shadow)"/>
+
+  <!-- Jaw protrusion highlight / chin area -->
+  <path d="M150,215 Q170,240 200,250 Q230,240 250,215" fill="#c8e68a" opacity="0.25"/>
+
+  <!-- Jaw shadow line -->
+  <path d="M130,190 Q165,205 200,210 Q235,205 270,190" fill="none" stroke="#1e5a10" stroke-width="1" opacity="0.4"/>
+
+  <!-- Mouth opening -->
+  <path d="M125,182 Q150,188 200,186 Q250,188 275,182" fill="none" stroke="#1e4a0a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Lower jaw contour emphasis -->
+  <path d="M140,195 Q165,215 200,225 Q235,215 260,195" fill="none" stroke="#1e5a10" stroke-width="1" opacity="0.6"/>
+
+  <!-- Warts/bumps on lower jaw -->
+  <circle cx="165" cy="215" r="3" fill="#2d7518" opacity="0.5"/>
+  <circle cx="200" cy="230" r="3.5" fill="#2d7518" opacity="0.5"/>
+  <circle cx="235" cy="215" r="3" fill="#2d7518" opacity="0.5"/>
+  <circle cx="185" cy="225" r="2.5" fill="#2d7518" opacity="0.4"/>
+  <circle cx="215" cy="225" r="2.5" fill="#2d7518" opacity="0.4"/>
+
+  <!-- Warts on head -->
+  <circle cx="155" cy="160" r="4" fill="#2d7518" opacity="0.4"/>
+  <circle cx="240" cy="165" r="3.5" fill="#2d7518" opacity="0.4"/>
+  <circle cx="180" cy="145" r="3" fill="#2d7518" opacity="0.35"/>
+  <circle cx="220" cy="148" r="2.5" fill="#2d7518" opacity="0.35"/>
+
+  <!-- Eye bumps (behind eyes) -->
+  <circle cx="155" cy="130" r="28" fill="#4a9e30"/>
+  <circle cx="245" cy="130" r="28" fill="#4a9e30"/>
+
+  <!-- Eyes -->
+  <circle cx="155" cy="128" r="22" fill="url(#eyeGrad)" stroke="#2a6b1a" stroke-width="2"/>
+  <circle cx="245" cy="128" r="22" fill="url(#eyeGrad)" stroke="#2a6b1a" stroke-width="2"/>
+
+  <!-- Irises -->
+  <circle cx="155" cy="128" r="13" fill="url(#irisGrad)"/>
+  <circle cx="245" cy="128" r="13" fill="url(#irisGrad)"/>
+
+  <!-- Pupils (vertical slit like a frog) -->
+  <ellipse cx="155" cy="128" rx="4" ry="11" fill="#1a1a1a"/>
+  <ellipse cx="245" cy="128" rx="4" ry="11" fill="#1a1a1a"/>
+
+  <!-- Eye shine -->
+  <circle cx="149" cy="122" r="4" fill="white" opacity="0.7"/>
+  <circle cx="239" cy="122" r="4" fill="white" opacity="0.7"/>
+  <circle cx="159" cy="133" r="2" fill="white" opacity="0.4"/>
+  <circle cx="249" cy="133" r="2" fill="white" opacity="0.4"/>
+
+  <!-- Eardrums (tympanum) -->
+  <circle cx="128" cy="165" r="10" fill="#3d8b2a" stroke="#2a6b1a" stroke-width="1" opacity="0.7"/>
+  <circle cx="272" cy="165" r="10" fill="#3d8b2a" stroke="#2a6b1a" stroke-width="1" opacity="0.7"/>
+  <circle cx="128" cy="165" r="6" fill="#2d7518" opacity="0.5"/>
+  <circle cx="272" cy="165" r="6" fill="#2d7518" opacity="0.5"/>
+
+  <!-- Back spots -->
+  <circle cx="175" cy="220" r="5" fill="#2d7518" opacity="0.35"/>
+  <circle cx="225" cy="215" r="4.5" fill="#2d7518" opacity="0.35"/>
+  <circle cx="200" cy="235" r="4" fill="#2d7518" opacity="0.3"/>
+  <circle cx="160" cy="235" r="3.5" fill="#2d7518" opacity="0.3"/>
+  <circle cx="240" cy="230" r="3" fill="#2d7518" opacity="0.3"/>
+</svg>

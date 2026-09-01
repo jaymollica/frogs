@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="55" ry="40" fill="#4CAF50"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="70" rx="45" ry="35" fill="#66BB6A"/>
+  <!-- Lower jaw (heavily protruding) -->
+  <ellipse cx="100" cy="95" rx="40" ry="22" fill="#81C784"/>
+  <ellipse cx="100" cy="100" rx="35" ry="12" fill="#A5D6A7"/>
+  <!-- Eyes -->
+  <circle cx="75" cy="55" r="14" fill="#fff"/>
+  <circle cx="125" cy="55" r="14" fill="#fff"/>
+  <circle cx="75" cy="55" r="7" fill="#1B5E20"/>
+  <circle cx="125" cy="55" r="7" fill="#1B5E20"/>
+  <circle cx="77" cy="53" r="2" fill="#fff"/>
+  <circle cx="127" cy="53" r="2" fill="#fff"/>
+  <!-- Nostrils -->
+  <ellipse cx="90" cy="75" rx="3" ry="2" fill="#2E7D32"/>
+  <ellipse cx="110" cy="75" rx="3" ry="2" fill="#2E7D32"/>
+  <!-- Mouth line on protruding jaw -->
+  <path d="M60 95 Q100 110 140 95" stroke="#2E7D32" stroke-width="2" fill="none"/>
+  <!-- Front legs -->
+  <ellipse cx="60" cy="140" rx="15" ry="20" fill="#4CAF50"/>
+  <ellipse cx="140" cy="140" rx="15" ry="20" fill="#4CAF50"/>
+  <!-- Back legs -->
+  <ellipse cx="45" cy="130" rx="20" ry="12" fill="#43A047"/>
+  <ellipse cx="155" cy="130" rx="20" ry="12" fill="#43A047"/>
+  <!-- Feet -->
+  <ellipse cx="55" cy="155" rx="12" ry="6" fill="#66BB6A"/>
+  <ellipse cx="145" cy="155" rx="12" ry="6" fill="#66BB6A"/>
+</svg>

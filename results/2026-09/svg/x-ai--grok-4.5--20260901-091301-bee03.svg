@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Body -->
+  <ellipse cx="200" cy="240" rx="110" ry="90" fill="#5a9e3e"/>
+  <!-- Belly -->
+  <ellipse cx="200" cy="255" rx="70" ry="55" fill="#a8d48a"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="140" rx="95" ry="75" fill="#5a9e3e"/>
+  <!-- Habsburg jaw / protruding lower mandible -->
+  <ellipse cx="200" cy="195" rx="55" ry="35" fill="#5a9e3e"/>
+  <ellipse cx="200" cy="210" rx="40" ry="28" fill="#4a8e2e"/>
+  <!-- Jaw highlight / chin protrusion -->
+  <ellipse cx="200" cy="220" rx="28" ry="18" fill="#6aae4e"/>
+  <!-- Lower lip line -->
+  <path d="M155 185 Q200 230 245 185" fill="none" stroke="#3d7a2a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Mouth line (underbite style) -->
+  <path d="M160 170 Q200 185 240 170" fill="none" stroke="#2d5a1a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left eye bulb -->
+  <circle cx="155" cy="100" r="32" fill="#5a9e3e"/>
+  <circle cx="155" cy="100" r="22" fill="#f5f5e0"/>
+  <circle cx="158" cy="102" r="12" fill="#1a1a1a"/>
+  <circle cx="163" cy="97" r="5" fill="#fff"/>
+  <!-- Right eye bulb -->
+  <circle cx="245" cy="100" r="32" fill="#5a9e3e"/>
+  <circle cx="245" cy="100" r="22" fill="#f5f5e0"/>
+  <circle cx="248" cy="102" r="12" fill="#1a1a1a"/>
+  <circle cx="253" cy="97" r="5" fill="#fff"/>
+  <!-- Nostrils -->
+  <ellipse cx="185" cy="145" rx="6" ry="4" fill="#3d7a2a"/>
+  <ellipse cx="215" cy="145" rx="6" ry="4" fill="#3d7a2a"/>
+  <!-- Left front leg -->
+  <ellipse cx="120" cy="280" rx="30" ry="20" fill="#5a9e3e" transform="rotate(-30 120 280)"/>
+  <ellipse cx="95" cy="310" rx="25" ry="15" fill="#5a9e3e" transform="rotate(-10 95 310)"/>
+  <!-- Right front leg -->
+  <ellipse cx="280" cy="280" rx="30" ry="20" fill="#5a9e3e" transform="rotate(30 280 280)"/>
+  <ellipse cx="305" cy="310" rx="25" ry="15" fill="#5a9e3e" transform="rotate(10 305 310)"/>
+  <!-- Left back leg -->
+  <ellipse cx="100" cy="250" rx="40" ry="25" fill="#4a8e2e" transform="rotate(-20 100 250)"/>
+  <ellipse cx="70" cy="290" rx="35" ry="18" fill="#5a9e3e"/>
+  <!-- Right back leg -->
+  <ellipse cx="300" cy="250" rx="40" ry="25" fill="#4a8e2e" transform="rotate(20 300 250)"/>
+  <ellipse cx="330" cy="290" rx="35" ry="18" fill="#5a9e3e"/>
+  <!-- Spots -->
+  <ellipse cx="150" cy="230" rx="12" ry="8" fill="#4a8e2e"/>
+  <ellipse cx="250" cy="220" rx="10" ry="7" fill="#4a8e2e"/>
+  <ellipse cx="180" cy="270" rx="8" ry="6" fill="#4a8e2e"/>
+</svg>

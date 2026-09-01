@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Body -->
+  <ellipse cx="100" cy="110" rx="55" ry="40" fill="#4CAF50"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="70" rx="45" ry="35" fill="#66BB6A"/>
+  <!-- Eyes -->
+  <circle cx="78" cy="55" r="14" fill="# cop"/>
+  <circle cx="122" cy="55" r="14" fill="#fff"/>
+  <circle cx="78" cy="55" r="8" fill="#1B5E20"/>
+  <circle cx="122" cy="55" r="8" fill="#1B5E20"/>
+  <circle cx="80" cy="53" r="3" fill="#fff"/>
+  <circle cx="124" cy="53" r="3" fill="#fff"/>
+  <!-- Upper jaw -->
+  <ellipse cx="100" cy="85" rx="30" ry="12" fill="#81C784"/>
+  <!-- Mandibular prognathism: protruding lower jaw -->
+  <ellipse cx="100" cy="100" rx="35" ry="16" fill="#A5D6A7"/>
+  <path d="M65 95 Q100 115 135 95 Q100 125 65 95" fill="#81C784"/>
+  <!-- Mouth line emphasizing underbite -->
+  <path d="M70 90 Q100 98 130 90" stroke="#2E7D32" stroke-width="2" fill="none"/>
+  <path d="M68 98 Q100 110 132 98" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+  <!-- Nostrils -->
+  <ellipse cx="92" cy="78" rx="3" ry="2" fill="#2E7D32"/>
+  <ellipse cx="108" cy="78" rx="3" ry="2" fill="#2E7D32"/>
+  <!-- Legs -->
+  <ellipse cx="55" cy="130" rx="18" ry="12" fill="#4CAF50" transform="rotate(-30 55 130)"/>
+  <ellipse cx="145" cy="130" rx="18" ry="12" fill="#4CAF50" transform="rotate(30 145 130)"/>
+  <ellipse cx="40" cy="145" rx="14" ry="8" fill="#66BB6A"/>
+  <ellipse cx="160" cy="145" rx="14" ry="8" fill="#66BB6A"/>
+  <!-- Feet/toes suggestion -->
+  <ellipse cx="30" cy="148" rx="6" ry="4" fill="#81C784"/>
+  <ellipse cx="38" cy="152" rx="6" ry="4" fill="#81C784"/>
+  <ellipse cx="46" cy="148" rx="6" ry="4" fill="#81C784"/>
+  <ellipse cx="154" cy="148" rx="6" ry="4" fill="#81C784"/>
+  <ellipse cx="162" cy="152" rx="6" ry="4" fill="#81C784"/>
+  <ellipse cx="170" cy="148" rx="6" ry="4" fill="#81C784"/>
+  <!-- Back legs hint -->
+  <ellipse cx="70" cy="140" rx="12" ry="18" fill="#43A047"/>
+  <ellipse cx="130" cy="140" rx="12" ry="18" fill="#43A047"/>
+</svg>

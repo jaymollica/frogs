@@ -1,0 +1,32 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svgTitle">
+  <title id="svgTitle">A frog with a prominent Habsburg jaw</title>
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M 22,50 
+             C 22,30 30,25 40,35 
+             C 50,25 60,30 78,50 
+             L 78,65 
+             C 78,88 70,100 50,96 
+             C 30,100 22,88 22,65 
+             Z" 
+          fill="#7CB342" stroke="#33691E" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 30,70 
+             C 30,85 70,85 70,70 
+             C 65,68 35,68 30,70 
+             Z" 
+          fill="#9CCC65"/>
+  </g>
+  <g stroke="#33691E" stroke-width="1.5">
+    <circle cx="36" cy="42" r="11" fill="white"/>
+    <circle cx="64" cy="42" r="11" fill="white"/>
+  </g>
+  <circle cx="34" cy="45" r="4.5" fill="#212121"/>
+  <circle cx="66" cy="45" r="4.5" fill="#212121"/>
+  <path d="M 38,72 C 45,74 55,74 62,72" fill="none" stroke="#33691E" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="46" cy="58" r="1.5" fill="#33691E" fill-opacity="0.8"/>
+  <circle cx="54" cy="58" r="1.5" fill="#33691E" fill-opacity="0.8"/>
+</svg>

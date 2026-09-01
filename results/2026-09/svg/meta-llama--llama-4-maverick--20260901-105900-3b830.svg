@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g id="frog" transform="translate(50, 50)">
+    <ellipse cx="0" cy="-20" rx="20" ry="15" fill="#8bc34a" />
+    <circle cx="-15" cy="-10" r="5" fill="#000" />
+    <circle cx="15" cy="-10" r="5" fill="#000" />
+    <path d="M -20,10 Q -10,20 0,15 Q 10,10 20,15 Q 15,25 0,30 Q -15,25 -20,10" fill="#8bc34a" />
+    <path d="M -15,20 L -5,25 L 5,20 L 0,22 Z" fill="#8bc34a" transform="rotate(20)" />
+    <path d="M 0,15 L 10,20 L 0,25 Z" fill="#4CAF50" />
+  </g>
+</svg>

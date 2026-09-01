@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="400" height="420">
+  <defs>
+    <radialGradient id="skin" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#8ed05e"/>
+      <stop offset="100%" stop-color="#5b9c37"/>
+    </radialGradient>
+    <radialGradient id="jawg" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#9ddc6b"/>
+      <stop offset="100%" stop-color="#68ad42"/>
+    </radialGradient>
+    <radialGradient id="bulge" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#9ed86a"/>
+      <stop offset="100%" stop-color="#5f9f38"/>
+    </radialGradient>
+  </defs>
+
+  <!-- body -->
+  <ellipse cx="200" cy="330" rx="150" ry="80" fill="url(#skin)" stroke="#3d7327" stroke-width="4"/>
+  <!-- feet -->
+  <g fill="#6fb345" stroke="#3d7327" stroke-width="4">
+    <path d="M60 372 q-35 6 -46 26 q22 10 40 2 q-8 14 4 20 q16 -8 22 -24 q10 -14 -20 -24z"/>
+    <path d="M340 372 q35 6 46 26 q-22 10 -40 2 q8 14 -4 20 q-16 -8 -22 -24 q-10 -14 20 -24z"/>
+  </g>
+  <!-- belly -->
+  <ellipse cx="200" cy="352" rx="95" ry="48" fill="#c6e6a0" opacity="0.85"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="190" rx="145" ry="112" fill="url(#skin)" stroke="#3d7327" stroke-width="4"/>
+
+  <!-- eye bulges -->
+  <circle cx="122" cy="105" r="46" fill="url(#bulge)" stroke="#3d7327" stroke-width="4"/>
+  <circle cx="278" cy="105" r="46" fill="url(#bulge)" stroke="#3d7327" stroke-width="4"/>
+  <circle cx="122" cy="103" r="31" fill="#fff8e6" stroke="#3d7327" stroke-width="3"/>
+  <circle cx="278" cy="103" r="31" fill="#fff8e6" stroke="#3d7327" stroke-width="3"/>
+  <ellipse cx="124" cy="106" rx="14" ry="20" fill="#1d1d1d"/>
+  <ellipse cx="276" cy="106" rx="14" ry="20" fill="#1d1d1d"/>
+  <circle cx="118" cy="96" r="6" fill="#ffffff"/>
+  <circle cx="270" cy="96" r="6" fill="#ffffff"/>
+
+  <!-- nostrils -->
+  <ellipse cx="178" cy="182" rx="6" ry="4" fill="#3d7327"/>
+  <ellipse cx="222" cy="182" rx="6" ry="4" fill="#3d7327"/>
+
+  <!-- receding upper lip / short maxilla -->
+  <path d="M92 208 Q200 236 308 208" fill="none" stroke="#3d7327" stroke-width="5" stroke-linecap="round"/>
+  <path d="M112 218 Q200 244 288 218" fill="none" stroke="#7fbb54" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- protruding lower jaw (mandibular prognathism / underbite) -->
+  <path d="M48 198 C40 306 118 366 200 366 C282 366 360 306 352 198
+           C352 198 344 226 200 232 C56 238 48 198 48 198 Z"
+        fill="url(#jawg)" stroke="#3d7327" stroke-width="5"/>
+  <path d="M92 300 Q200 344 308 300" fill="none" stroke="#4b8a2f" stroke-width="4" opacity="0.55"/>
+
+  <!-- lower teeth jutting up over the upper lip -->
+  <g fill="#ffffff" stroke="#cbd3c0" stroke-width="2">
+    <path d="M126 230 l14 0 l-6 -30 z"/>
+    <path d="M156 233 l16 0 l-7 -34 z"/>
+    <path d="M188 234 l18 0 l-8 -36 z"/>
+    <path d="M222 233 l16 0 l-6 -34 z"/>
+    <path d="M254 230 l14 0 l-5 -30 z"/>
+  </g>
+
+  <!-- chin highlight -->
+  <ellipse cx="200" cy="322" rx="58" ry="26" fill="#d3ecae" opacity="0.55"/>
+
+  <!-- cheek spots -->
+  <ellipse cx="66" cy="176" rx="16" ry="11" fill="#417c2a" opacity="0.4"/>
+  <ellipse cx="334" cy="176" rx="16" ry="11" fill="#417c2a" opacity="0.4"/>
+</svg>

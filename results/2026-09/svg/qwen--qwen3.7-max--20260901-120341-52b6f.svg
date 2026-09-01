@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e8f5e9"/>
+  
+  <!-- Back legs -->
+  <ellipse cx="120" cy="320" rx="50" ry="25" fill="#2e7d32"/>
+  <ellipse cx="280" cy="320" rx="50" ry="25" fill="#2e7d32"/>
+  
+  <!-- Feet -->
+  <ellipse cx="85" cy="340" rx="30" ry="12" fill="#388e3c"/>
+  <ellipse cx="315" cy="340" rx="30" ry="12" fill="#388e3c"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="260" rx="100" ry="80" fill="#4caf50"/>
+  
+  <!-- Front legs -->
+  <rect x="115" y="280" width="20" height="50" rx="10" fill="#388e3c"/>
+  <rect x="265" y="280" width="20" height="50" rx="10" fill="#388e3c"/>
+  
+  <!-- Front feet -->
+  <ellipse cx="125" cy="335" rx="18" ry="8" fill="#2e7d32"/>
+  <ellipse cx="275" cy="335" rx="18" ry="8" fill="#2e7d32"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="190" rx="90" ry="70" fill="#4caf50"/>
+  
+  <!-- Protruding lower jaw -->
+  <path d="M 110 210 Q 110 260 200 270 Q 290 260 290 210 Q 250 225 200 230 Q 150 225 110 210 Z" fill="#66bb6a"/>
+  <ellipse cx="200" cy="245" rx="85" ry="35" fill="#66bb6a"/>
+  
+  <!-- Lower jaw extension (heavily protruding) -->
+  <path d="M 130 230 Q 130 280 200 290 Q 270 280 270 230 Q 240 250 200 255 Q 160 250 130 230 Z" fill="#81c784"/>
+  <ellipse cx="200" cy="265" rx="70" ry="30" fill="#81c784"/>
+  
+  <!-- Jaw tip protrusion -->
+  <ellipse cx="200" cy="285" rx="55" ry="18" fill="#a5d6a7"/>
+  
+  <!-- Upper mouth line -->
+  <path d="M 120 205 Q 160 215 200 218 Q 240 215 280 205" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  
+  <!-- Lower mouth line (showing jaw protrusion) -->
+  <path d="M 125 210 Q 160 260 200 270 Q 240 260 275 210" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  
+  <!-- Nostrils -->
+  <circle cx="180" cy="195" r="4" fill="#2e7d32"/>
+  <circle cx="220" cy="195" r="4" fill="#2e7d32"/>
+  
+  <!-- Eye bumps -->
+  <circle cx="160" cy="145" r="35" fill="#4caf50"/>
+  <circle cx="240" cy="145" r="35" fill="#4caf50"/>
+  
+  <!-- Eyes (white) -->
+  <circle cx="160" cy="143" r="25" fill="white"/>
+  <circle cx="240" cy="143" r="25" fill="white"/>
+  
+  <!-- Pupils -->
+  <circle cx="165" cy="143" r="12" fill="#1b5e20"/>
+  <circle cx="245" cy="143" r="12" fill="#1b5e20"/>
+  
+  <!-- Eye highlights -->
+  <circle cx="170" cy="138" r="5" fill="white"/>
+  <circle cx="250" cy="138" r="5" fill="white"/>
+  
+  <!-- Spots on body -->
+  <circle cx="170" cy="250" r="8" fill="#388e3c" opacity="0.5"/>
+  <circle cx="230" cy="240" r="6" fill="#388e3c" opacity="0.5"/>
+  <circle cx="190" cy="275" r="7" fill="#388e3c" opacity="0.5"/>
+  <circle cx="220" cy="280" r="5" fill="#388e3c" opacity="0.5"/>
+  
+  <!-- Chin highlight on protruding jaw -->
+  <ellipse cx="200" cy="280" rx="30" ry="10" fill="#c8e6c9" opacity="0.4"/>
+</svg>

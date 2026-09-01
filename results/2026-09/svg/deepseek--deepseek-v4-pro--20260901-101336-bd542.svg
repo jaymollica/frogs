@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </linearGradient>
+    <linearGradient id="jawGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="bellyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="100%" stop-color="#FFF176"/>
+    </linearGradient>
+    <radialGradient id="eyeBallGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#E0E0E0"/>
+      <stop offset="100%" stop-color="#BDBDBD"/>
+    </radialGradient>
+    <radialGradient id="irisGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFCA28"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1000" fill="#FFF3E0"/>
+  <circle cx="500" cy="500" r="420" fill="#FFE0B2"/>
+
+  <!-- Back Legs (Sides) -->
+  <path d="M 160,550 C 80,600 50,700 100,780 L 150,780 C 120,700 140,630 190,600 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="4"/>
+  <path d="M 840,550 C 920,600 950,700 900,780 L 850,780 C 880,700 860,630 810,600 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="4"/>
+
+  <!-- Body -->
+  <ellipse cx="500" cy="600" rx="300" ry="230" fill="url(#bodyGrad)"/>
+  
+  <!-- Body Spots -->
+  <circle cx="200" cy="400" r="35" fill="#388E3C" opacity="0.5"/>
+  <circle cx="800" cy="400" r="35" fill="#388E3C" opacity="0.5"/>
+  <circle cx="250" cy="300" r="20" fill="#388E3C" opacity="0.5"/>
+  <circle cx="750" cy="300" r="20" fill="#388E3C" opacity="0.5"/>
+  <circle cx="150" cy="500" r="25" fill="#388E3C" opacity="0.4"/>
+  <circle cx="850" cy="500" r="25" fill="#388E3C" opacity="0.4"/>
+
+  <!-- Belly -->
+  <ellipse cx="500" cy="700" rx="200" ry="110" fill="url(#bellyGrad)"/>
+  <path d="M 400,650 Q 450,670 500,650" stroke="#FBC02D" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M 420,680 Q 470,690 520,680" stroke="#FBC02D" stroke-width="4" fill="none" opacity="0.6"/>
+
+  <!-- Head -->
+  <ellipse cx="500" cy="400" rx="260" ry="180" fill="url(#bodyGrad)"/>
+
+  <!-- Eyes -->
+  <!-- Left Eye -->
+  <circle cx="320" cy="300" r="70" fill="url(#eyeBallGrad)"/>
+  <circle cx="310" cy="300" r="45" fill="url(#irisGrad)"/>
+  <ellipse cx="300" cy="300" rx="20" ry="30" fill="#000000"/>
+  <circle cx="295" cy="290" r="8" fill="#FFFFFF"/>
+  <!-- Left Eyelid -->
+  <path d="M 230,270 Q 320,180 410,270 L 410,230 Q 320,140 230,230 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="4"/>
+
+  <!-- Right Eye -->
+  <circle cx="680" cy="300" r="70" fill="url(#eyeBallGrad)"/>
+  <circle cx="670" cy="300" r="45" fill="url(#irisGrad)"/>
+  <ellipse cx="660" cy="300" rx="20" ry="30" fill="#000000"/>
+  <circle cx="655" cy="290" r="8" fill="#FFFFFF"/>
+  <!-- Right Eyelid -->
+  <path d="M 770,270 Q 680,180 590,270 L 590,230 Q 680,140 770,230 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="4"/>
+
+  <!-- Nostrils -->
+  <ellipse cx="420" cy="380" rx="12" ry="7" fill="#1B5E20" transform="rotate(-15 420 380)"/>
+  <ellipse cx="580" cy="380" rx="12" ry="7" fill="#1B5E20" transform="rotate(15 580 380)"/>
+
+  <!-- Blush -->
+  <ellipse cx="280" cy="460" rx="35" ry="20" fill="#FF5252" opacity="0.3" transform="rotate(-15 280 460)"/>
+  <ellipse cx="720" cy="460" rx="35" ry="20" fill="#FF5252" opacity="0.3" transform="rotate(15 720 460)"/>
+
+  <!-- Mouth Area -->
+  <!-- Upper Jaw (Maxilla) -->
+  <path d="M 250,450 Q 500,500 750,450 Q 780,480 750,510 Q 500,560 250,510 Z" fill="#4CAF50" stroke="#1B5E20" stroke-width="5"/>
+  
+  <!-- Mouth Interior (Dark Space) -->
+  <path d="M 250,510 Q 500,560 750,510 Q 500,620 250,510 Z" fill="#3E1A1A"/>
+
+  <!-- Upper Teeth (Maxilla Teeth) -->
+  <path d="M 340,510 L 350,530 M 390,520 L 400,540 M 440,520 L 450,540 M 490,530 L 500,550 M 540,530 L 550,550 M 590,520 L 600,540 M 640,510 L 650,530" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+  <!-- Lower Jaw (Mandible - Mandibular Prognathism / Underbite) -->
+  <!-- The protruding lower jaw -->
+  <path d="M 250,510 Q 200,650 500,700 Q 800,650 750,510 Q 500,560 250,510 Z" fill="url(#jawGrad)" stroke="#1B5E20" stroke-width="6"/>
+  
+  <!-- Underbite Lip Edge Details -->
+  <path d="M 280,510 Q 500,560 720,510" stroke="#1B5E20" stroke-width="8" fill="none"/>
+  
+  <!-- Underbite Shading for Volume -->
+  <path d="M 250,510 Q 200,650 350,690 Q 500,650 650,690 Q 800,650 750,510 Q 500,560 250,510 Z" fill="#1B5E20" opacity="0.5"/>
+
+  <!-- Lower Teeth (Mandible Teeth - Protruding) -->
+  <path d="M 360,550 L 370,520 L 380,550" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" fill="none" stroke-linejoin="round"/>
+  <path d="M 420,560 L 430,530 L 440,560" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" fill="none" stroke-linejoin="round"/>
+  <path d="M 480,570 L 490,540 L 500,570" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" fill="none" stroke-linejoin="round"/>
+  <path d="M 540,570 L 550,540 L 560,570" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" fill="none" stroke-linejoin="round"/>
+  <path d="M 600,560 L 610,530 L 620,560" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" fill="none" stroke-linejoin="round"/>
+  <path d="M 660,550 L 670,520 L 680,550" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" fill="none" stroke-linejoin="round"/>
+
+  <!-- Chin Folds and Creases to emphasize the underbite -->
+  <path d="M 220,550 Q 500,620 780,550" stroke="#1B5E20" stroke-width="6" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <path d="M 200,600 Q 500,680 800,600" stroke="#1B5E20" stroke-width="6" fill="none" opacity="0.5" stroke-linecap="round"/>
+  
+  <path d="M 350,580 L 350,650" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 650,580 L 650,650" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 450,600 L 450,670" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 550,600 L 550,670" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Front Webbed Feet -->
+  <!-- Left Foot -->
+  <path d="M 280,750 Q 250,770 220,800 L 260,800 L 280,830 L 300,800 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="4"/>
+  <circle cx="220" cy="800" r="12" fill="#FFF59D"/>
+  <circle cx="280" cy="830" r="12" fill="#FFF59D"/>
+  
+  <!-- Right Foot -->
+  <path d="M 720,750 Q 750,770 780,800 L 740,800 L 720,830 L 700,800 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="4"/>
+  <circle cx="780" cy="800" r="12" fill="#FFF59D"/>
+  <circle cx="720" cy="830" r="12" fill="#FFF59D"/>
+</svg>

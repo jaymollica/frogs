@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#6fd36f"/>
+      <stop offset="100%" stop-color="#2f8f3d"/>
+    </linearGradient>
+    <linearGradient id="bellyGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b8e66b"/>
+      <stop offset="100%" stop-color="#7dc24a"/>
+    </linearGradient>
+    <radialGradient id="eyeGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f3f3f3"/>
+      <stop offset="100%" stop-color="#cfcfcf"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="#dff6ff"/>
+
+  <!-- back legs -->
+  <path d="M121 349c-28 18-42 53-32 77 8 18 30 26 49 18 17-7 24-25 28-44 4-18 12-34 28-46 18-13 18-41-2-51-23-12-52-5-71 46z" fill="#2f8f3d"/>
+  <path d="M391 349c28 18 42 53 32 77-8 18-30 26-49 18-17-7-24-25-28-44-4-18-12-34-28-46-18-13-18-41 2-51 23-12 52-5 71 46z" fill="#2f8f3d"/>
+
+  <!-- feet -->
+  <path d="M78 421c22-13 48-14 74-6 16 5 25 16 26 27 1 13-11 23-28 23-30 0-60-14-72-44z" fill="#2a7f36"/>
+  <path d="M434 421c-22-13-48-14-74-6-16 5-25 16-26 27-1 13 11 23 28 23 30 0 60-14 72-44z" fill="#2a7f36"/>
+
+  <!-- body -->
+  <ellipse cx="256" cy="292" rx="148" ry="118" fill="url(#bodyGrad)"/>
+  <ellipse cx="256" cy="314" rx="92" ry="76" fill="url(#bellyGrad)"/>
+
+  <!-- forelegs -->
+  <path d="M162 325c-25 7-42 27-43 52-1 20 11 35 29 37 21 3 37-12 45-32 8-19 17-33 32-42 12-7 14-24 4-33-13-11-40-8-67 18z" fill="#349844"/>
+  <path d="M350 325c25 7 42 27 43 52 1 20-11 35-29 37-21 3-37-12-45-32-8-19-17-33-32-42-12-7-14-24-4-33 13-11 40-8 67 18z" fill="#349844"/>
+
+  <!-- head -->
+  <ellipse cx="256" cy="195" rx="158" ry="104" fill="url(#bodyGrad)"/>
+
+  <!-- eye stalks -->
+  <path d="M168 149c-15-37-8-70 11-89 18-18 46-18 62 0 18 20 18 54-1 88-9 16-35 19-72 1z" fill="#3c9d48"/>
+  <path d="M344 149c15-37 8-70-11-89-18-18-46-18-62 0-18 20-18 54 1 88 9 16 35 19 72 1z" fill="#3c9d48"/>
+
+  <!-- eyes -->
+  <ellipse cx="195" cy="91" rx="33" ry="31" fill="url(#eyeGrad)" stroke="#2e6f35" stroke-width="6"/>
+  <ellipse cx="317" cy="91" rx="33" ry="31" fill="url(#eyeGrad)" stroke="#2e6f35" stroke-width="6"/>
+  <circle cx="205" cy="98" r="11" fill="#1a1a1a"/>
+  <circle cx="327" cy="98" r="11" fill="#1a1a1a"/>
+  <circle cx="209" cy="94" r="3" fill="#ffffff"/>
+  <circle cx="331" cy="94" r="3" fill="#ffffff"/>
+
+  <!-- brow -->
+  <path d="M124 186c28-41 66-64 132-64s104 23 132 64c-17 14-38 19-62 10-23-8-45-10-70-10s-47 2-70 10c-24 9-45 4-62-10z" fill="#2f8f3d" opacity="0.95"/>
+
+  <!-- heavily protruding lower jaw -->
+  <path d="M142 226c23 18 54 31 114 31s91-13 114-31c17 12 27 29 28 48 1 25-14 43-36 53-27 12-68 18-106 18s-79-6-106-18c-22-10-37-28-36-53 1-19 11-36 28-48z" fill="#7dc24a"/>
+  <path d="M153 245c23 14 54 22 103 22s80-8 103-22c13 8 20 20 21 34 0 17-10 29-26 36-23 10-58 15-98 15s-75-5-98-15c-16-7-26-19-26-36 1-14 8-26 21-34z" fill="#92d55a" opacity="0.85"/>
+
+  <!-- mouth opening -->
+  <path d="M184 243c18 8 41 12 72 12s54-4 72-12c-10 24-33 37-72 37s-62-13-72-37z" fill="#4b1f24"/>
+  <path d="M217 265c11 4 24 6 39 6s28-2 39-6c-7 12-20 18-39 18s-32-6-39-18z" fill="#ffb7c8"/>
+
+  <!-- nostrils -->
+  <ellipse cx="229" cy="168" rx="6" ry="4" fill="#2a6e33" opacity="0.8"/>
+  <ellipse cx="283" cy="168" rx="6" ry="4" fill="#2a6e33" opacity="0.8"/>
+
+  <!-- subtle shadow -->
+  <ellipse cx="256" cy="447" rx="146" ry="21" fill="#000000" opacity="0.12"/>
+</svg>

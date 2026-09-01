@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" role="img" aria-label="A stylized green frog with a protruding lower jaw">
+  <defs>
+    <radialGradient id="skin" cx="42%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#9be05d"/>
+      <stop offset="1" stop-color="#438f3f"/>
+    </radialGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#78bd51"/>
+      <stop offset="1" stop-color="#397d39"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="294" cy="438" rx="198" ry="30" fill="#264f36" opacity=".18"/>
+
+  <path d="M125 405C86 414 66 445 82 458c15 12 63-2 96-20z" fill="#4b9744" stroke="#245f35" stroke-width="8"/>
+  <path d="M454 403c45 7 72 35 59 51-13 15-66 2-102-17z" fill="#4b9744" stroke="#245f35" stroke-width="8"/>
+
+  <ellipse cx="294" cy="337" rx="170" ry="111" fill="url(#skin)" stroke="#245f35" stroke-width="10"/>
+
+  <circle cx="191" cy="168" r="73" fill="#63b94c" stroke="#245f35" stroke-width="10"/>
+  <circle cx="395" cy="168" r="73" fill="#63b94c" stroke="#245f35" stroke-width="10"/>
+
+  <path d="M128 195C142 130 198 105 293 107c99 1 158 31 169 97l-20 124c-38 45-257 45-298-1z" fill="url(#skin)" stroke="#245f35" stroke-width="10"/>
+
+  <ellipse cx="193" cy="165" rx="40" ry="46" fill="#e7f5bb" stroke="#245f35" stroke-width="7"/>
+  <ellipse cx="396" cy="165" rx="40" ry="46" fill="#e7f5bb" stroke="#245f35" stroke-width="7"/>
+  <ellipse cx="202" cy="171" rx="14" ry="28" fill="#17291e"/>
+  <ellipse cx="387" cy="171" rx="14" ry="28" fill="#17291e"/>
+  <circle cx="207" cy="160" r="5" fill="#fff"/>
+  <circle cx="392" cy="160" r="5" fill="#fff"/>
+
+  <ellipse cx="251" cy="249" rx="8" ry="5" fill="#245f35"/>
+  <ellipse cx="337" cy="249" rx="8" ry="5" fill="#245f35"/>
+
+  <path d="M164 292c64 25 189 25 257-3-12 47-48 69-126 69-77 0-116-22-131-66z" fill="#173e2b" stroke="#245f35" stroke-width="9"/>
+  <path d="M181 301c56 15 168 16 225-3-25 19-61 29-112 29-49 0-87-9-113-26z" fill="#f0e6c5"/>
+
+  <path d="M151 327c48 30 106 40 171 35 50-4 93-19 127-43l19 35c10 18 2 41-17 50-77 36-237 40-318 0-19-9-26-34-13-51z" fill="url(#jaw)" stroke="#245f35" stroke-width="10"/>
+  <path d="M123 351c71 30 250 36 340 0" fill="none" stroke="#245f35" stroke-width="8" stroke-linecap="round"/>
+  <path d="M194 389c55 15 147 14 203-3" fill="none" stroke="#9bd56c" stroke-width="6" stroke-linecap="round" opacity=".65"/>
+
+  <circle cx="153" cy="254" r="9" fill="#6fbd50" opacity=".7"/>
+  <circle cx="430" cy="241" r="8" fill="#6fbd50" opacity=".7"/>
+  <circle cx="129" cy="280" r="6" fill="#2f7939" opacity=".6"/>
+  <circle cx="456" cy="276" r="7" fill="#2f7939" opacity=".6"/>
+</svg>

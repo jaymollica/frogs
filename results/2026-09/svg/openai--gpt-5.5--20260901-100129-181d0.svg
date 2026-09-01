@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="A frog with mandibular prognathism, showing a pronounced protruding lower jaw">
+  <defs>
+    <radialGradient id="frogGreen" cx="40%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#9ee66d"/>
+      <stop offset="65%" stop-color="#55b947"/>
+      <stop offset="100%" stop-color="#338d37"/>
+    </radialGradient>
+    <linearGradient id="jawGreen" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b9f07a"/>
+      <stop offset="100%" stop-color="#62bd43"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#1e4d25" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" fill="#dff7ff"/>
+
+  <ellipse cx="249" cy="452" rx="178" ry="24" fill="#7aa86b" opacity="0.22"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M116 361 C72 371 45 396 33 430 C64 433 94 424 119 400 C132 387 142 374 153 361 Z" fill="#4fb344" stroke="#267b31" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M51 424 C38 416 26 418 18 430 M66 424 C55 438 42 444 27 443 M84 415 C83 433 76 447 64 456" fill="none" stroke="#267b31" stroke-width="5" stroke-linecap="round"/>
+
+    <path d="M318 361 C367 372 403 399 423 439 C388 446 351 437 319 410 C302 396 291 378 282 361 Z" fill="#4fb344" stroke="#267b31" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M407 433 C421 424 434 426 444 438 M390 435 C404 449 419 454 436 452 M371 424 C374 442 383 455 397 463" fill="none" stroke="#267b31" stroke-width="5" stroke-linecap="round"/>
+
+    <ellipse cx="226" cy="346" rx="139" ry="91" fill="url(#frogGreen)" stroke="#267b31" stroke-width="6"/>
+
+    <path d="M103 324 C78 329 58 348 49 375 C72 382 99 373 124 350 C138 337 151 325 165 319 Z" fill="#62c84d" stroke="#267b31" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M349 324 C385 331 413 353 431 386 C400 395 365 385 334 356 C318 341 304 329 287 321 Z" fill="#62c84d" stroke="#267b31" stroke-width="5" stroke-linejoin="round"/>
+
+    <path d="M156 264
+             C177 323 243 361 329 361
+             C395 361 456 337 489 309
+             C475 295 432 297 389 305
+             C307 320 225 309 178 268
+             Z"
+          fill="url(#jawGreen)" stroke="#267b31" stroke-width="7" stroke-linejoin="round"/>
+
+    <path d="M131 234
+             C129 173 179 125 244 115
+             C319 103 397 134 430 187
+             C455 227 430 260 377 273
+             C302 292 201 284 158 264
+             C141 256 132 246 131 234
+             Z"
+          fill="url(#frogGreen)" stroke="#267b31" stroke-width="7" stroke-linejoin="round"/>
+
+    <path d="M386 271
+             C419 265 445 269 459 279
+             C444 287 414 290 377 286"
+          fill="none" stroke="#1d5f29" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M169 264
+             C220 293 306 300 385 286
+             C413 281 437 279 459 283"
+          fill="none" stroke="#174d23" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M399 305
+             C430 302 468 300 489 309"
+          fill="none" stroke="#1d5f29" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+
+    <ellipse cx="218" cy="125" rx="43" ry="45" fill="#73cd52" stroke="#267b31" stroke-width="6"/>
+    <ellipse cx="320" cy="130" rx="43" ry="45" fill="#73cd52" stroke="#267b31" stroke-width="6"/>
+
+    <circle cx="224" cy="128" r="25" fill="#f8ffe8" stroke="#267b31" stroke-width="4"/>
+    <circle cx="326" cy="133" r="25" fill="#f8ffe8" stroke="#267b31" stroke-width="4"/>
+    <circle cx="232" cy="130" r="11" fill="#1b2d20"/>
+    <circle cx="334" cy="134" r="11" fill="#1b2d20"/>
+    <circle cx="236" cy="126" r="4" fill="#ffffff"/>
+    <circle cx="338" cy="130" r="4" fill="#ffffff"/>
+
+    <ellipse cx="370" cy="214" rx="8" ry="5" fill="#1d5f29"/>
+    <ellipse cx="414" cy="222" rx="7" ry="4" fill="#1d5f29"/>
+
+    <path d="M232 320 C276 336 351 335 421 314" fill="none" stroke="#3b8d35" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+
+    <circle cx="182" cy="224" r="7" fill="#72c95a" opacity="0.7"/>
+    <circle cx="215" cy="246" r="5" fill="#72c95a" opacity="0.7"/>
+    <circle cx="287" cy="221" r="6" fill="#72c95a" opacity="0.7"/>
+    <circle cx="344" cy="242" r="5" fill="#72c95a" opacity="0.7"/>
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <!-- background pond hint -->
+  <ellipse cx="200" cy="290" rx="170" ry="22" fill="#8fd3a7" opacity="0.5"/>
+
+  <!-- back legs -->
+  <ellipse cx="105" cy="245" rx="45" ry="30" fill="#3d8b37"/>
+  <ellipse cx="295" cy="245" rx="45" ry="30" fill="#3d8b37"/>
+
+  <!-- feet -->
+  <g fill="#4ca644">
+    <ellipse cx="80" cy="272" rx="12" ry="6" transform="rotate(-15 80 272)"/>
+    <ellipse cx="95" cy="277" rx="12" ry="6"/>
+    <ellipse cx="112" cy="275" rx="12" ry="6" transform="rotate(12 112 275)"/>
+    <ellipse cx="320" cy="272" rx="12" ry="6" transform="rotate(15 320 272)"/>
+    <ellipse cx="305" cy="277" rx="12" ry="6"/>
+    <ellipse cx="288" cy="275" rx="12" ry="6" transform="rotate(-12 288 275)"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="200" cy="215" rx="95" ry="70" fill="#4ca644"/>
+
+  <!-- belly -->
+  <ellipse cx="200" cy="235" rx="65" ry="45" fill="#c8e6a0"/>
+
+  <!-- head (upper part) -->
+  <ellipse cx="200" cy="135" rx="80" ry="55" fill="#4ca644"/>
+
+  <!-- heavily protruding lower jaw -->
+  <path d="M 120 155
+           Q 110 185 135 198
+           Q 165 213 210 213
+           Q 270 213 305 195
+           Q 330 182 328 165
+           Q 326 150 300 152
+           L 278 158
+           Q 240 168 200 168
+           Q 160 168 130 158
+           Z"
+        fill="#5cb84f" stroke="#3d8b37" stroke-width="3"/>
+
+  <!-- jaw underside shading -->
+  <path d="M 140 195
+           Q 175 208 215 208
+           Q 265 207 298 192
+           Q 275 205 215 206
+           Q 165 206 140 195 Z"
+        fill="#3d8b37" opacity="0.6"/>
+
+  <!-- mouth line (dark interior above jaw) -->
+  <path d="M 128 156
+           Q 165 170 200 170
+           Q 240 170 280 158
+           Q 240 162 200 162
+           Q 160 162 128 156 Z"
+        fill="#2a5c26"/>
+
+  <!-- lower teeth poking up from the underbite -->
+  <g fill="#fffdf0" stroke="#d9d2b0" stroke-width="1">
+    <path d="M 155 170 L 161 156 L 167 170 Z"/>
+    <path d="M 182 173 L 188 158 L 194 173 Z"/>
+    <path d="M 212 173 L 218 158 L 224 173 Z"/>
+    <path d="M 242 170 L 248 155 L 254 170 Z"/>
+  </g>
+
+  <!-- upper lip edge -->
+  <path d="M 126 152 Q 200 172 284 152" fill="none" stroke="#3d8b37" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- eye bulges -->
+  <circle cx="160" cy="88" r="30" fill="#4ca644"/>
+  <circle cx="240" cy="88" r="30" fill="#4ca644"/>
+
+  <!-- eyes -->
+  <circle cx="160" cy="85" r="22" fill="#ffffff"/>
+  <circle cx="240" cy="85" r="22" fill="#ffffff"/>
+  <circle cx="163" cy="88" r="11" fill="#1d1d1d"/>
+  <circle cx="237" cy="88" r="11" fill="#1d1d1d"/>
+  <circle cx="167" cy="84" r="4" fill="#ffffff"/>
+  <circle cx="241" cy="84" r="4" fill="#ffffff"/>
+
+  <!-- nostrils -->
+  <circle cx="186" cy="122" r="3" fill="#2a5c26"/>
+  <circle cx="214" cy="122" r="3" fill="#2a5c26"/>
+
+  <!-- front legs resting -->
+  <path d="M 150 250 Q 145 275 130 282" fill="none" stroke="#3d8b37" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 250 250 Q 255 275 270 282" fill="none" stroke="#3d8b37" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- spots -->
+  <g fill="#3d8b37" opacity="0.7">
+    <circle cx="150" cy="205" r="7"/>
+    <circle cx="255" cy="210" r="6"/>
+    <circle cx="200" cy="112" r="5"/>
+    <circle cx="135" cy="130" r="5"/>
+    <circle cx="265" cy="128" r="5"/>
+  </g>
+</svg>

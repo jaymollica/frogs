@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e8f5e9"/>
+  
+  <!-- Back legs -->
+  <ellipse cx="120" cy="300" rx="45" ry="25" fill="#2e7d32" transform="rotate(-20 120 300)"/>
+  <ellipse cx="280" cy="300" rx="45" ry="25" fill="#2e7d32" transform="rotate(20 280 300)"/>
+  
+  <!-- Back feet -->
+  <ellipse cx="85" cy="320" rx="30" ry="12" fill="#388e3c"/>
+  <ellipse cx="315" cy="320" rx="30" ry="12" fill="#388e3c"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="260" rx="100" ry="70" fill="#4caf50"/>
+  
+  <!-- Belly -->
+  <ellipse cx="200" cy="275" rx="70" ry="50" fill="#a5d6a7"/>
+  
+  <!-- Front legs -->
+  <rect x="130" y="290" width="20" height="40" rx="10" fill="#388e3c"/>
+  <rect x="250" y="290" width="20" height="40" rx="10" fill="#388e3c"/>
+  
+  <!-- Front feet -->
+  <ellipse cx="140" cy="335" rx="18" ry="10" fill="#2e7d32"/>
+  <ellipse cx="260" cy="335" rx="18" ry="10" fill="#2e7d32"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="190" rx="85" ry="60" fill="#4caf50"/>
+  
+  <!-- Habsburg lower jaw - prominently protruding -->
+  <ellipse cx="200" cy="225" rx="70" ry="20" fill="#388e3c"/>
+  <path d="M130 215 Q140 260 200 265 Q260 260 270 215 Z" fill="#4caf50"/>
+  <ellipse cx="200" cy="248" rx="55" ry="18" fill="#388e3c"/>
+  <!-- Extended lower jaw protrusion -->
+  <path d="M150 235 Q155 280 200 290 Q245 280 250 235 Z" fill="#43a047"/>
+  <ellipse cx="200" cy="278" rx="45" ry="15" fill="#388e3c"/>
+  <!-- Extra protruding chin -->
+  <ellipse cx="200" cy="290" rx="35" ry="12" fill="#2e7d32"/>
+  
+  <!-- Upper lip line (short, set back) -->
+  <path d="M155 210 Q200 220 245 210" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  
+  <!-- Mouth line showing jaw mismatch -->
+  <path d="M145 225 Q200 215 255 225" fill="none" stroke="#1b5e20" stroke-width="2"/>
+  
+  <!-- Eye bumps -->
+  <circle cx="160" cy="155" r="28" fill="#4caf50"/>
+  <circle cx="240" cy="155" r="28" fill="#4caf50"/>
+  
+  <!-- Eyes -->
+  <circle cx="160" cy="152" r="20" fill="white"/>
+  <circle cx="240" cy="152" r="20" fill="white"/>
+  
+  <!-- Pupils -->
+  <circle cx="163" cy="152" r="10" fill="#1b5e20"/>
+  <circle cx="243" cy="152" r="10" fill="#1b5e20"/>
+  
+  <!-- Eye shine -->
+  <circle cx="158" cy="147" r="4" fill="white"/>
+  <circle cx="238" cy="147" r="4" fill="white"/>
+  
+  <!-- Nostrils -->
+  <circle cx="185" cy="185" r="4" fill="#2e7d32"/>
+  <circle cx="215" cy="185" r="4" fill="#2e7d32"/>
+  
+  <!-- Spots on body -->
+  <circle cx="170" cy="240" r="8" fill="#388e3c" opacity="0.5"/>
+  <circle cx="230" cy="235" r="6" fill="#388e3c" opacity="0.5"/>
+  <circle cx="195" cy="255" r="7" fill="#388e3c" opacity="0.5"/>
+  
+  <!-- Crown to emphasize Habsburg royalty -->
+  <polygon points="175,130 180,110 190,125 200,100 210,125 220,110 225,130" fill="#ffd700" stroke="#b8860b" stroke-width="1.5"/>
+  <rect x="175" y="128" width="50" height="10" fill="#ffd700" stroke="#b8860b" stroke-width="1.5"/>
+  <!-- Crown jewels -->
+  <circle cx="200" cy="108" r="3" fill="#e53935"/>
+  <circle cx="185" cy="118" r="2.5" fill="#1e88e5"/>
+  <circle cx="215" cy="118" r="2.5" fill="#1e88e5"/>
+</svg>

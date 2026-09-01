@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="60" ry="45" fill="#4CAF50"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="70" rx="50" ry="40" fill="#66BB6A"/>
+  <!-- Eyes -->
+  <circle cx="75" cy="55" r="18" fill="# copilot"/>
+  <circle cx="125" cy="55" r="18" fill="white"/>
+  <circle cx="75" cy="55" r="10" fill="#1B5E20"/>
+  <circle cx="125" cy="55" r="10" fill="#1B5E20"/>
+  <circle cx="78" cy="52" r="3" fill="white"/>
+  <circle cx="128" cy="52" r="3" fill="white"/>
+  <!-- Upper jaw/snout -->
+  <ellipse cx="100" cy="85" rx="35" ry="15" fill="#81C784"/>
+  <!-- Mandibular prognathism - protruding lower jaw -->
+  <ellipse cx="100" cy="105" rx="40" ry="18" fill="#4CAF50"/>
+  <path d="M60 100 Q100 125 140 100 Q100 115 60 100" fill="#388E3C"/>
+  <!-- Mouth line showing underbite -->
+  <path d="M65 95 Q100 100 135 95" stroke="#2E7D32" stroke-width="2" fill="none"/>
+  <!-- Nostrils -->
+  <ellipse cx="90" cy="80" rx="3" ry="2" fill="#2E7D32"/>
+  <ellipse cx="110" cy="80" rx="3" ry="2" fill="#2E7D32"/>
+  <!-- Legs -->
+  <ellipse cx="50" cy="140" rx="20" ry="12" fill="#4CAF50" transform="rotate(-30 50 140)"/>
+  <ellipse cx="150" cy="140" rx="20" ry="12" fill="#4CAF50" transform="rotate(30 150 140)"/>
+  <ellipse cx="40" cy="160" rx="15" ry="8" fill="#66BB6A"/>
+  <ellipse cx="160" cy="160" rx="15" ry="8" fill="#66BB6A"/>
+  <!-- Front feet -->
+  <ellipse cx="70" cy="150" rx="12" ry="8" fill="#66BB6A"/>
+  <ellipse cx="130" cy="150" rx="12" ry="8" fill="#66BB6A"/>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="frogBody" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#66BB6A" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </radialGradient>
+    <radialGradient id="frogBelly" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E8F5E9" />
+      <stop offset="100%" stop-color="#81C784" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background / Pond -->
+  <ellipse cx="250" cy="460" rx="200" ry="50" fill="#4CaF50" />
+  <ellipse cx="250" cy="460" rx="180" ry="40" fill="#66BB6A" />
+  <path d="M 70 460 Q 250 420 430 460" fill="none" stroke="#2E7D32" stroke-width="4" />
+
+  <!-- Back Leg -->
+  <path d="M 280 280 C 350 260, 380 320, 360 380 C 340 400, 300 380, 300 380" fill="none" stroke="#1B5E20" stroke-width="30" stroke-linecap="round" />
+  <path d="M 280 280 C 350 260, 380 320, 360 380 C 340 400, 300 380, 300 380" fill="none" stroke="url(#frogBody)" stroke-width="24" stroke-linecap="round" />
+  
+  <!-- Back Foot -->
+  <path d="M 340 380 C 370 390, 390 400, 390 420" fill="none" stroke="#1B5E20" stroke-width="22" stroke-linecap="round" />
+  <path d="M 340 380 C 370 390, 390 400, 390 420" fill="none" stroke="url(#frogBody)" stroke-width="16" stroke-linecap="round" />
+  <path d="M 390 420 L 380 440 M 390 420 L 400 445 M 390 420 L 410 435" fill="none" stroke="#1B5E20" stroke-width="10" stroke-linecap="round" />
+  <path d="M 390 420 L 380 440 M 390 420 L 400 445 M 390 420 L 410 435" fill="none" stroke="url(#frogBody)" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Main Frog Silhouette (Head, Body, and Habsburg Jaw) -->
+  <path d="M 220 180 
+           C 150 180, 90 220, 70 280 
+           C 60 300, 50 310, 30 330 
+           C 0 380, 40 430, 80 440 
+           C 140 450, 210 410, 240 360 
+           C 270 400, 320 420, 360 380 
+           C 400 340, 390 260, 360 220 
+           C 330 180, 280 180, 220 180 Z" 
+        fill="url(#frogBody)" stroke="#1B5E20" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Belly -->
+  <path d="M 240 360 C 270 400, 320 420, 360 380 C 380 350, 380 300, 360 270 C 340 240, 300 240, 280 260 C 260 280, 240 320, 240 360 Z" fill="url(#frogBelly)" />
+
+  <!-- Background Eye -->
+  <circle cx="190" cy="185" r="25" fill="#2E7D32" stroke="#1B5E20" stroke-width="4" />
+  <circle cx="185" cy="180" r="15" fill="#B2EBF2" />
+  <circle cx="180" cy="180" r="8" fill="black" />
+  <circle cx="175" cy="175" r="3" fill="white" />
+
+  <!-- Foreground Eye -->
+  <circle cx="150" cy="190" r="35" fill="#4CAF50" stroke="#1B5E20" stroke-width="6" />
+  <circle cx="145" cy="185" r="22" fill="#E0F7FA" />
+  <circle cx="135" cy="185" r="12" fill="black" />
+  <circle cx="130" cy="180" r="5" fill="white" />
+
+  <!-- Mouth Interior (The Underbite Gap) -->
+  <path d="M 30 330 C 100 330, 160 330, 220 325 L 220 340 C 160 350, 100 350, 40 345 C 45 335, 48 330, 30 330 Z" fill="#1B1B1B" />
+  
+  <!-- Upper Lip Line -->
+  <path d="M 30 330 C 100 330, 160 330, 220 325" fill="none" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Habsburg Teeth (Exaggerated underbite) -->
+  <polygon points="60,330 40,315 50,340" fill="#E0E0E0" stroke="#1B5E20" stroke-width="2" />
+  <polygon points="80,333 60,320 70,345" fill="#E0E0E0" stroke="#1B5E20" stroke-width="2" />
+  <polygon points="100,335 80,325 90,347" fill="#E0E0E0" stroke="#1B5E20" stroke-width="2" />
+  
+  <polygon points="55,340 75,350 65,360" fill="#E0E0E0" stroke="#1B5E20" stroke-width="2" />
+  <polygon points="35,338 55,345 45,355" fill="#E0E0E0" stroke="#1B5E20" stroke-width="2" />
+
+  <!-- Nostril -->
+  <ellipse cx="90" cy="275" rx="6" ry="4" fill="#1B1B1B" transform="rotate(-20 90 275)" />
+
+  <!-- Front Leg -->
+  <path d="M 160 320 C 120 340, 80 370, 90 400" fill="none" stroke="#1B5E20" stroke-width="24" stroke-linecap="round" />
+  <path d="M 160 320 C 120 340, 80 370, 90 400" fill="none" stroke="url(#frogBody)" stroke-width="18" stroke-linecap="round" />
+  
+  <!-- Front Fingers -->
+  <path d="M 90 400 L 70 420 M 90 400 L 90 425 M 90 400 L 110 420" fill="none" stroke="#1B5E20" stroke-width="10" stroke-linecap="round" />
+  <path d="M 90 400 L 70 420 M 90 400 L 90 425 M 90 400 L 110 420" fill="none" stroke="url(#frogBody)" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Skin Spots -->
+  <circle cx="280" cy="220" r="10" fill="#1B5E20" opacity="0.3" />
+  <circle cx="320" cy="250" r="15" fill="#1B5E20" opacity="0.3" />
+  <circle cx="340" cy="300" r="12" fill="#1B5E20" opacity="0.3" />
+  <circle cx="300" cy="340" r="8" fill="#1B5E20" opacity="0.3" />
+  <circle cx="180" cy="250" r="6" fill="#1B5E20" opacity="0.3" />
+  <circle cx="200" cy="280" r="9" fill="#1B5E20" opacity="0.3" />
+  <circle cx="160" cy="350" r="7" fill="#1B5E20" opacity="0.3" />
+  <circle cx="260" cy="300" r="11" fill="#1B5E20" opacity="0.3" />
+
+  <!-- Habsburg Crown (Royal Touch) -->
+  <path d="M 140 170 L 145 130 L 165 155 L 185 120 L 205 155 L 225 130 L 220 170 Z" fill="#FFD700" stroke="#DAA520" stroke-width="4" stroke-linejoin="round" />
+  
+  <!-- Crown Jewels -->
+  <circle cx="165" cy="155" r="4" fill="#FF0000" />
+  <circle cx="185" cy="120" r="5" fill="#0000FF" />
+  <circle cx="205" cy="155" r="4" fill="#FF0000" />
+  
+  <!-- Crown Base Jewels -->
+  <circle cx="150" cy="170" r="3" fill="#00FF00" />
+  <circle cx="180" cy="170" r="3" fill="#00FF00" />
+  <circle cx="210" cy="170" r="3" fill="#00FF00" />
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfefff"/>
+      <stop offset="100%" stop-color="#f4fbff"/>
+    </linearGradient>
+    <linearGradient id="frogBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7bd65c"/>
+      <stop offset="100%" stop-color="#49a83f"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66c94d"/>
+      <stop offset="100%" stop-color="#3f8f35"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d6f1cf"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <ellipse cx="256" cy="400" rx="170" ry="28" fill="#b8d7e6" opacity="0.55"/>
+
+  <g stroke="#2d6b2a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="256" cy="232" rx="126" ry="118" fill="url(#frogBody)"/>
+    <ellipse cx="256" cy="285" rx="100" ry="82" fill="#6cc857"/>
+
+    <path d="M145 290 C95 320, 82 375, 118 402 C150 427, 190 405, 196 370 C201 341, 175 310, 145 290 Z" fill="url(#frogBody)"/>
+    <path d="M367 290 C417 320, 430 375, 394 402 C362 427, 322 405, 316 370 C311 341, 337 310, 367 290 Z" fill="url(#frogBody)"/>
+
+    <path d="M189 360 C157 384, 138 419, 149 444 C160 468, 198 468, 216 446 C233 425, 231 392, 219 371 Z" fill="url(#frogBody)"/>
+    <path d="M323 360 C355 384, 374 419, 363 444 C352 468, 314 468, 296 446 C279 425, 281 392, 293 371 Z" fill="url(#frogBody)"/>
+
+    <path d="M170 186 C170 140, 206 110, 248 120 C268 124, 282 137, 289 154 C293 165, 289 178, 279 186 C250 211, 206 214, 170 186 Z" fill="url(#frogBody)"/>
+    <path d="M342 186 C342 140, 306 110, 264 120 C244 124, 230 137, 223 154 C219 165, 223 178, 233 186 C262 211, 306 214, 342 186 Z" fill="url(#frogBody)"/>
+
+    <ellipse cx="202" cy="165" rx="30" ry="28" fill="url(#eye)"/>
+    <ellipse cx="310" cy="165" rx="30" ry="28" fill="url(#eye)"/>
+    <circle cx="208" cy="170" r="11" fill="#1e2b1e"/>
+    <circle cx="316" cy="170" r="11" fill="#1e2b1e"/>
+    <circle cx="212" cy="166" r="3.5" fill="#ffffff" stroke="none"/>
+    <circle cx="320" cy="166" r="3.5" fill="#ffffff" stroke="none"/>
+
+    <path d="M206 212 C230 224, 282 224, 306 212" fill="none"/>
+    <path d="M190 250 C214 264, 240 270, 256 270 C272 270, 298 264, 322 250" fill="none" stroke="#3f7d35"/>
+
+    <!-- Mandibular prognathism: pronounced lower jaw -->
+    <path d="M166 238
+             C170 214, 191 197, 221 195
+             C239 194, 246 202, 256 202
+             C266 202, 273 194, 291 195
+             C321 197, 342 214, 346 238
+             C349 257, 341 274, 323 285
+             C300 299, 275 304, 256 304
+             C237 304, 212 299, 189 285
+             C171 274, 163 257, 166 238 Z" fill="url(#jaw)"/>
+
+    <path d="M177 240 C190 226, 208 219, 226 218 C239 217, 247 221, 256 221 C265 221, 273 217, 286 218 C304 219, 322 226, 335 240" fill="none" stroke="#e7ffd8" stroke-width="4" opacity="0.7"/>
+
+    <!-- underbite/lower lip protrusion -->
+    <path d="M190 286 C213 318, 299 318, 322 286" fill="none" stroke="#2d6b2a" stroke-width="7"/>
+    <path d="M206 288 C223 302, 289 302, 306 288" fill="none" stroke="#b7f3a9" stroke-width="4" opacity="0.55"/>
+
+    <!-- mouth line above the protruding jaw -->
+    <path d="M196 246 C215 238, 236 235, 256 235 C276 235, 297 238, 316 246" fill="none" stroke="#2d6b2a" stroke-width="6"/>
+
+    <!-- belly -->
+    <ellipse cx="256" cy="285" rx="66" ry="52" fill="#9ae27d" opacity="0.45" stroke="none"/>
+    <path d="M230 275 C241 266, 271 266, 282 275" fill="none" stroke="#5a9f4b" opacity="0.55"/>
+  </g>
+</svg>

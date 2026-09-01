@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+  <g id="frog" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+    <g id="shadow" fill="#388E3C" opacity="0.3">
+      <ellipse cx="100" cy="165" rx="70" ry="10"/>
+    </g>
+    <g id="main_body" stroke="#388E3C" stroke-width="3">
+      <!-- Hind Legs -->
+      <path id="right_hind_leg" fill="#4CAF50" d="M 158,142 C 185,135 185,100 160,90 L 145,115 C 145,130 150,140 158,142 Z"/>
+      <path id="left_hind_leg" fill="#4CAF50" d="M 42,142 C 15,135 15,100 40,90 L 55,115 C 55,130 50,140 42,142 Z"/>
+      <!-- Body and Head with Prognathism -->
+      <path id="body" fill="#4CAF50" d="M 148,110 C 170,90 160,40 125,22 Q 110,10 100,15 Q 90,10 75,22 C 40,40 30,90 52,110 L 45,120 C 40,145 70,160 100,160 C 130,160 160,145 155,120 L 148,110 Z"/>
+      <!-- Belly -->
+      <path id="belly" fill="#C8E6C9" d="M 152,125 C 140,145 120,152 100,152 C 80,152 60,145 48,125 C 65,132 135,132 152,125 Z"/>
+      <!-- Mouth Line -->
+      <path id="mouth" fill="none" stroke="#388E3C" d="M 58,118 C 75,124 125,124 142,118"/>
+      <!-- Front Legs -->
+      <path id="right_front_leg" fill="#4CAF50" d="M 135,120 C 145,130 148,145 140,155 L 130,140 C 128,130 130,125 135,120 Z"/>
+      <path id="left_front_leg" fill="#4CAF50" d="M 65,120 C 55,130 52,145 60,155 L 70,140 C 72,130 70,125 65,120 Z"/>
+    </g>
+    <g id="face" stroke="#388E3C" stroke-width="1.5">
+      <!-- Eyes -->
+      <g id="right_eye">
+        <circle fill="#FFFFFF" cx="120" cy="45" r="14"/>
+        <circle fill="#000000" cx="125" cy="50" r="7"/>
+        <circle fill="#FFFFFF" stroke="none" cx="127" cy="48" r="2"/>
+      </g>
+      <g id="left_eye">
+        <circle fill="#FFFFFF" cx="80" cy="45" r="14"/>
+        <circle fill="#000000" cx="75" cy="50" r="7"/>
+        <circle fill="#FFFFFF" stroke="none" cx="73" cy="48" r="2"/>
+      </g>
+      <!-- Nostrils -->
+      <g id="nostrils" fill="#388E3C" stroke="none">
+        <circle cx="128" cy="85" r="1.5"/>
+        <circle cx="72" cy="85" r="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

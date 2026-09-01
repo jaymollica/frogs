@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Body -->
+  <ellipse cx="200" cy="260" rx="120" ry="90" fill="#4CAF50"/>
+
+  <!-- Back legs -->
+  <ellipse cx="90" cy="320" rx="40" ry="25" fill="#3E8E41"/>
+  <ellipse cx="310" cy="320" rx="40" ry="25" fill="#3E8E41"/>
+
+  <!-- Feet -->
+  <g fill="#2E7031">
+    <ellipse cx="60" cy="335" rx="12" ry="8"/>
+    <ellipse cx="80" cy="342" rx="12" ry="8"/>
+    <ellipse cx="100" cy="335" rx="12" ry="8"/>
+    <ellipse cx="300" cy="335" rx="12" ry="8"/>
+    <ellipse cx="320" cy="342" rx="12" ry="8"/>
+    <ellipse cx="340" cy="335" rx="12" ry="8"/>
+  </g>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="190" rx="110" ry="80" fill="#4CAF50"/>
+
+  <!-- Eyes bumps -->
+  <circle cx="140" cy="120" r="35" fill="#4CAF50"/>
+  <circle cx="260" cy="120" r="35" fill="#4CAF50"/>
+
+  <!-- Eyeballs -->
+  <circle cx="140" cy="120" r="24" fill="#FFFFFF"/>
+  <circle cx="260" cy="120" r="24" fill="#FFFFFF"/>
+  <circle cx="140" cy="120" r="12" fill="#1B1B1B"/>
+  <circle cx="260" cy="120" r="12" fill="#1B1B1B"/>
+  <circle cx="136" cy="116" r="3" fill="#FFFFFF"/>
+  <circle cx="256" cy="116" r="3" fill="#FFFFFF"/>
+
+  <!-- Nostrils -->
+  <circle cx="185" cy="160" r="3" fill="#2E7031"/>
+  <circle cx="215" cy="160" r="3" fill="#2E7031"/>
+
+  <!-- Upper jaw/mouth line -->
+  <path d="M 100 210 Q 200 225 300 210" stroke="#2E7031" stroke-width="4" fill="none"/>
+
+  <!-- Heavily protruding lower jaw -->
+  <path d="M 70 215 
+           Q 60 250 90 275 
+           Q 140 300 200 300 
+           Q 260 300 310 275 
+           Q 340 250 330 215
+           Q 260 240 200 240
+           Q 140 240 70 215 Z" 
+        fill="#66BB6A" stroke="#2E7031" stroke-width="3"/>
+
+  <!-- Lower jaw front edge highlight -->
+  <path d="M 90 275 Q 140 298 200 298 Q 260 298 310 275" 
+        fill="none" stroke="#3E8E41" stroke-width="3"/>
+
+  <!-- Bottom teeth bumps for underbite effect -->
+  <g fill="#F1F8E9">
+    <rect x="120" y="272" width="10" height="14" rx="2"/>
+    <rect x="150" y="280" width="10" height="16" rx="2"/>
+    <rect x="185" y="284" width="10" height="16" rx="2"/>
+    <rect x="220" y="284" width="10" height="16" rx="2"/>
+    <rect x="255" y="280" width="10" height="16" rx="2"/>
+    <rect x="285" y="272" width="10" height="14" rx="2"/>
+  </g>
+
+  <!-- Cheeks blush -->
+  <ellipse cx="110" cy="175" rx="12" ry="8" fill="#FF8A80" opacity="0.5"/>
+  <ellipse cx="290" cy="175" rx="12" ry="8" fill="#FF8A80" opacity="0.5"/>
+
+  <!-- Belly -->
+  <ellipse cx="200" cy="280" rx="70" ry="40" fill="#A5D6A7" opacity="0.6"/>
+</svg>

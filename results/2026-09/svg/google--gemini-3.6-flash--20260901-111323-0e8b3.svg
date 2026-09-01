@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a443b"/>
+      <stop offset="100%" stop-color="#0b1411"/>
+    </radialGradient>
+
+    <linearGradient id="skin-main" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#76c843"/>
+      <stop offset="50%" stop-color="#4e9a26"/>
+      <stop offset="100%" stop-color="#2d6214"/>
+    </linearGradient>
+
+    <linearGradient id="skin-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3d7a1e"/>
+      <stop offset="100%" stop-color="#1d3f0c"/>
+    </linearGradient>
+
+    <linearGradient id="jaw-grad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#aacc00"/>
+      <stop offset="60%" stop-color="#76c843"/>
+      <stop offset="100%" stop-color="#3d7a1e"/>
+    </linearGradient>
+
+    <linearGradient id="belly-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8f5a2"/>
+      <stop offset="100%" stop-color="#93c940"/>
+    </linearGradient>
+
+    <radialGradient id="mouth-inside" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#801a2d"/>
+      <stop offset="70%" stop-color="#4a0814"/>
+      <stop offset="100%" stop-color="#210006"/>
+    </radialGradient>
+
+    <radialGradient id="eye-grad" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffea00"/>
+      <stop offset="60%" stop-color="#ff9100"/>
+      <stop offset="100%" stop-color="#e05300"/>
+    </radialGradient>
+
+    <linearGradient id="tusk-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#e8e2ce"/>
+      <stop offset="100%" stop-color="#c2bba8"/>
+    </linearGradient>
+
+    <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <filter id="inner-shadow">
+      <feComponentTransfer in="SourceAlpha">
+        <feFuncA type="linear" slope="0.7"/>
+      </feComponentTransfer>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite operator="out" in2="SourceAlpha" result="inverse"/>
+      <feFlood flood-color="#000" flood-opacity="0.6" result="color"/>
+      <feComposite operator="in" in2="inverse" result="shadow"/>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg-glow)"/>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="400" cy="520" rx="280" ry="40" fill="#000000" opacity="0.6" filter="blur(10px)"/>
+
+  <g transform="translate(20, 10)">
+    <!-- Back Left Leg -->
+    <path d="M 210 380 C 130 360 110 440 150 480 C 180 510 240 510 260 470 C 230 450 210 420 210 380 Z" fill="url(#skin-dark)"/>
+    <path d="M 140 470 C 110 480 80 490 70 510 C 65 520 80 525 95 520 C 110 515 130 500 145 490 C 150 505 140 525 155 525 C 165 525 170 510 170 490 Z" fill="#26520f"/>
+
+    <!-- Back Right Leg (Far side) -->
+    <g opacity="0.7">
+      <path d="M 450 340 C 500 310 560 340 540 400 C 530 430 490 440 460 430 Z" fill="url(#skin-dark)"/>
+      <path d="M 520 400 L 580 440 L 600 455 C 600 440 580 430 565 425 C 580 420 595 415 585 405 C 570 405 545 415 530 410 Z" fill="#1d3f0c"/>
+    </g>
+
+    <!-- Main Body / Back -->
+    <path d="M 210 350 C 190 260 260 180 340 180 C 370 180 390 195 410 210 C 450 230 470 280 470 340 C 470 400 410 450 330 450 C 250 450 220 400 210 350 Z" fill="url(#skin-main)"/>
+
+    <!-- Spots on Back -->
+    <g fill="#234e0d" opacity="0.6">
+      <ellipse cx="270" cy="260" rx="18" ry="12" transform="rotate(-20 270 260)"/>
+      <ellipse cx="320" cy="230" rx="12" ry="8" transform="rotate(10 320 230)"/>
+      <ellipse cx="250" cy="310" rx="22" ry="14" transform="rotate(-40 250 310)"/>
+      <ellipse cx="300" cy="290" rx="15" ry="25" transform="rotate(30 300 290)"/>
+      <ellipse cx="360" cy="260" rx="10" ry="15" transform="rotate(15 360 260)"/>
+    </g>
+
+    <!-- Upper Head & Snout (Intentionally Small/Recessed) -->
+    <path d="M 320 190 C 330 140 420 140 435 185 C 450 195 480 215 485 240 C 490 260 460 275 430 270 C 390 265 340 250 320 190 Z" fill="url(#skin-main)"/>
+
+    <!-- Left Eye Socket & Eye -->
+    <circle cx="355" cy="165" r="28" fill="url(#skin-main)"/>
+    <circle cx="355" cy="165" r="22" fill="#1d3f0c"/>
+    <circle cx="357" cy="165" r="19" fill="url(#eye-grad)"/>
+    <!-- Pupil (Horizontal Slit with a derpy tilt) -->
+    <ellipse cx="357" cy="165" rx="14" ry="4" fill="#0d0400" transform="rotate(-10 357 165)"/>
+    <circle cx="350" cy="155" r="4" fill="#ffffff" opacity="0.8"/>
+    <circle cx="362" cy="172" r="2" fill="#ffffff" opacity="0.6"/>
+    <!-- Eyelid -->
+    <path d="M 330 155 C 340 140 375 140 383 158 C 375 148 345 148 330 155 Z" fill="#89d651"/>
+
+    <!-- Right Eye Socket & Eye -->
+    <circle cx="425" cy="180" r="24" fill="url(#skin-main)"/>
+    <circle cx="425" cy="180" r="19" fill="#1d3f0c"/>
+    <circle cx="426" cy="180" r="16" fill="url(#eye-grad)"/>
+    <!-- Pupil -->
+    <ellipse cx="426" cy="180" rx="12" ry="3.5" fill="#0d0400" transform="rotate(5 426 180)"/>
+    <circle cx="420" cy="172" r="3.5" fill="#ffffff" opacity="0.8"/>
+    <!-- Eyelid -->
+    <path d="M 405 173 C 415 160 442 165 448 178 C 440 168 415 168 405 173 Z" fill="#89d651"/>
+
+    <!-- Nostril -->
+    <ellipse cx="470" cy="235" rx="3" ry="5" fill="#142b08" transform="rotate(20 470 235)"/>
+
+    <!-- Deep Mouth Cavity (Visible due to massive underbite) -->
+    <path d="M 340 255 C 420 265 460 260 480 275 C 460 310 390 325 350 295 Z" fill="url(#mouth-inside)"/>
+    
+    <!-- Tongue resting in the back/bottom -->
+    <path d="M 370 280 C 410 275 440 285 445 295 C 430 310 390 315 370 295 Z" fill="#db3b58"/>
+    <path d="M 400 280 C 420 282 435 288 440 295 C 430 302 410 300 400 280 Z" fill="#ff6b8b" opacity="0.6"/>
+
+    <!-- UPPER TEETH (Tiny, weak upper jaw) -->
+    <polygon points="460,263 464,269 467,264" fill="#e8e2ce"/>
+    <polygon points="445,262 448,267 452,262" fill="#e8e2ce"/>
+
+    <!-- ==================== MASSIVE PROTRUDING LOWER JAW ==================== -->
+    <!-- Shadow beneath the giant jaw -->
+    <path d="M 280 370 C 350 400 450 430 580 370 C 510 440 380 460 280 370 Z" fill="#000000" opacity="0.4" filter="blur(5px)"/>
+
+    <!-- Main Jaw Structure extending FAR to the right -->
+    <!-- Upper lip line of lower jaw starts deep, sweeps OUT past the upper snout to X:640 -->
+    <g filter="url(#drop-shadow)">
+      <!-- Outer/Under Jaw Solid -->
+      <path d="M 300 320 
+               C 340 310 400 300 450 305 
+               C 510 310 590 280 640 295 
+               C 670 305 660 350 610 380 
+               C 530 430 420 440 350 410 
+               C 310 390 290 350 300 320 Z" 
+            fill="url(#jaw-grad)"/>
+
+      <!-- Jaw Interior Lip / Shelf -->
+      <path d="M 335 305 
+               C 390 300 450 300 500 295 
+               C 560 290 610 285 645 300 
+               C 630 325 570 350 500 355 
+               C 420 360 360 340 335 305 Z" 
+            fill="#529323"/>
+
+      <!-- Lower Mouth Floor (Darkness inside lower lip) -->
+      <path d="M 345 305 
+               C 400 302 460 298 510 298 
+               C 560 298 605 292 630 303 
+               C 590 325 530 340 460 340 
+               C 390 340 355 325 345 305 Z" 
+            fill="url(#mouth-inside)"/>
+    </g>
+
+    <!-- Lower Jaw Flesh/Belly Connection -->
+    <path d="M 330 390 C 400 420 480 410 550 375 C 500 440 400 460 310 420 C 315 405 322 396 330 390 Z" fill="url(#belly-grad)"/>
+
+    <!-- GIANT TUSKS / FANGS (Sticking UP from protruding lower jaw) -->
+    <!-- Front Main Tusk -->
+    <path d="M 605 306 L 622 265 L 635 302 Z" fill="url(#tusk-grad)" filter="url(#drop-shadow)"/>
+    <path d="M 605 306 L 622 265 L 624 304 Z" fill="#fff"/> <!-- Tusk Highlight -->
+    
+    <!-- Second Tusk -->
+    <path d="M 565 300 L 578 268 L 590 298 Z" fill="url(#tusk-grad)" filter="url(#drop-shadow)"/>
+    <path d="M 565 300 L 578 268 L 580 299 Z" fill="#fff"/>
+
+    <!-- Minor Back Teeth on Lower Jaw -->
+    <polygon points="520,298 527,280 535,297" fill="url(#tusk-grad)"/>
+    <polygon points="480,299 486,285 493,299" fill="url(#tusk-grad)"/>
+    <polygon points="635,304 642,292 647,307" fill="url(#tusk-grad)"/>
+
+    <!-- Jaw Highlights and Details -->
+    <!-- Lip Ridge Highlight -->
+    <path d="M 450 308 C 520 310 580 295 635 304 C 600 320 530 330 450 325 Z" fill="#bce845" opacity="0.4"/>
+    
+    <!-- Chin Crease / Wrinkles (Emphasizing massive underbite) -->
+    <path d="M 580 345 C 560 365 520 380 470 385" stroke="#26520f" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <path d="M 610 330 C 590 355 550 375 510 380" stroke="#26520f" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+    <path d="M 520 390 C 480 405 430 410 380 400" stroke="#26520f" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+    <!-- Warts on Chin -->
+    <circle cx="550" cy="340" r="6" fill="#417c1b" opacity="0.7"/>
+    <circle cx="535" cy="350" r="4" fill="#417c1b" opacity="0.7"/>
+    <circle cx="585" cy="325" r="5" fill="#417c1b" opacity="0.7"/>
+    <circle cx="480" cy="360" r="8" fill="#417c1b" opacity="0.6"/>
+
+    <!-- Front Left Leg (Supporting the heavy front) -->
+    <g>
+      <!-- Arm -->
+      <path d="M 330 380 C 330 430 300 460 310 500 C 315 515 330 515 335 495 C 345 460 370 430 360 380 Z" fill="url(#skin-main)"/>
+      <!-- Hand / Toes -->
+      <path d="M 310 495 C 290 495 260 505 250 515 C 245 520 255 525 265 520 C 275 515 295 505 305 500 C 300 510 290 525 295 530 C 300 535 310 525 315 510 C 320 520 325 530 335 530 C 340 530 340 520 330 505 Z" fill="#3d7a1e"/>
+    </g>
+
+    <!-- Front Right Leg (Directly under the huge jaw) -->
+    <g>
+      <!-- Arm -->
+      <path d="M 440 385 C 440 430 430 460 440 505 C 445 515 455 515 460 500 C 470 460 480 420 470 385 Z" fill="url(#skin-main)"/>
+      <!-- Hand / Toes -->
+      <path d="M 440 500 C 425 505 400 515 390 525 C 385 530 395 533 405 528 C 418 520 430 510 438 505 C 438 515 435 530 442 533 C 448 535 452 525 452 510 C 460 520 470 530 478 528 C 485 525 478 515 462 505 Z" fill="#3d7a1e"/>
+    </g>
+
+    <!-- Throat / Dewlap bulge (emphasizing heavy lower head) -->
+    <path d="M 350 410 C 380 445 440 435 450 410 C 410 425 370 425 350 410 Z" fill="#bce845" opacity="0.6"/>
+
+    <!-- Highlight on top of snout to contrast with huge jaw -->
+    <path d="M 420 195 C 440 205 465 220 470 235 C 460 230 440 220 420 210 Z" fill="#a2e048" opacity="0.5"/>
+  </g>
+</svg>

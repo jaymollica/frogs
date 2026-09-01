@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#2a443b"/>
+      <stop offset="100%" stop-color="#111c18"/>
+    </radialGradient>
+
+    <!-- Frog Skin Main Gradient -->
+    <linearGradient id="frog-skin" x1="30%" y1="10%" x2="70%" y2="90%">
+      <stop offset="0%" stop-color="#88d438"/>
+      <stop offset="50%" stop-color="#56ab2f"/>
+      <stop offset="100%" stop-color="#2a5f15"/>
+    </linearGradient>
+
+    <!-- Frog Skin Shadow/Dark Gradient -->
+    <linearGradient id="frog-skin-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4e9a26"/>
+      <stop offset="100%" stop-color="#1d430e"/>
+    </linearGradient>
+
+    <!-- Belly/Underbite Highlight Gradient -->
+    <linearGradient id="frog-belly" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eefbb4"/>
+      <stop offset="100%" stop-color="#bada55"/>
+    </linearGradient>
+
+    <!-- Jaw Prognathism Highlight -->
+    <linearGradient id="jaw-highlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a8f053"/>
+      <stop offset="100%" stop-color="#56ab2f"/>
+    </linearGradient>
+
+    <!-- Eye Iris Gradient -->
+    <radialGradient id="eye-iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="60%" stop-color="#f5a623"/>
+      <stop offset="100%" stop-color="#8b4513"/>
+    </radialGradient>
+
+    <!-- Eye Socket Shadow -->
+    <radialGradient id="socket-shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.6)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="12"/>
+      <feOffset dx="0" dy="20"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.6"/></feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Inner Shadow Filter for Mouth/Jaw Depth -->
+    <filter id="inset-shadow">
+      <feOffset dx="-3" dy="3"/>
+      <feGaussianBlur stdDeviation="4" result="offset-blur"/>
+      <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+      <feFlood flood-color="black" flood-opacity="0.7" result="color"/>
+      <feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg-grad)"/>
+
+  <!-- Pedestal / Lilypad Spot -->
+  <ellipse cx="400" cy="520" rx="280" ry="45" fill="#143322" opacity="0.8"/>
+  <ellipse cx="400" cy="520" rx="280" ry="45" fill="none" stroke="#2e6143" stroke-width="3" opacity="0.5"/>
+
+  <g filter="url(#drop-shadow)">
+
+    <!-- BACK LEFT LEG (Background) -->
+    <path d="M 260 410 C 210 380, 160 430, 180 480 C 190 505, 220 510, 240 510 C 250 510, 270 470, 280 440 Z" fill="url(#frog-skin-dark)"/>
+    <!-- Back Left Toes -->
+    <path d="M 180 480 C 160 485, 140 495, 135 510 C 145 512, 160 505, 170 498" stroke="#3b7a1e" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 185 490 C 170 500, 155 515, 150 525 C 162 523, 175 512, 182 502" stroke="#3b7a1e" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- BACK RIGHT LEG (Foreground Side) -->
+    <path d="M 500 380 C 590 360, 640 430, 600 490 C 570 535, 510 520, 480 480 C 470 460, 480 410, 500 380 Z" fill="url(#frog-skin-dark)"/>
+    <path d="M 570 450 C 620 460, 650 490, 620 525 C 590 530, 540 500, 520 470 Z" fill="url(#frog-skin)"/>
+    <!-- Back Right Toes -->
+    <path d="M 610 505 Q 645 520 655 535" stroke="#4e9a26" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M 600 515 Q 630 535 635 550" stroke="#4e9a26" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M 585 522 Q 605 545 605 560" stroke="#4e9a26" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+    <!-- MAIN BODY -->
+    <path d="M 310 320 C 310 260, 450 250, 500 310 C 550 370, 530 460, 460 480 C 380 500, 310 440, 310 320 Z" fill="url(#frog-skin)"/>
+
+    <!-- BELLY -->
+    <path d="M 310 340 C 310 340, 360 460, 450 465 C 490 467, 510 430, 500 390 C 450 430, 370 410, 340 330 Z" fill="url(#frog-belly)" opacity="0.9"/>
+
+    <!-- FRONT RIGHT LEG -->
+    <path d="M 440 410 Q 460 460, 470 510 Q 440 515, 420 510 Q 430 470, 415 425 Z" fill="url(#frog-skin)"/>
+    <!-- Front Right Toes -->
+    <path d="M 470 510 C 490 515, 500 525, 500 530" stroke="#56ab2f" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 465 512 C 475 525, 480 535, 480 540" stroke="#56ab2f" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 450 512 C 450 525, 450 535, 445 542" stroke="#56ab2f" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- FRONT LEFT LEG -->
+    <path d="M 320 410 Q 300 455, 280 500 Q 305 508, 325 500 Q 335 460, 345 415 Z" fill="url(#frog-skin)"/>
+    <!-- Front Left Toes -->
+    <path d="M 285 498 C 270 508, 260 518, 255 525" stroke="#4e9a26" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 295 502 C 288 518, 282 528, 278 535" stroke="#4e9a26" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 310 502 C 310 518, 310 528, 308 538" stroke="#4e9a26" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- RETRACTED UPPER JAW & NOSE (Shows the severe underbite) -->
+    <!-- Upper head structure recedes early at x=260 -->
+    <path d="M 430 200 C 370 190, 300 210, 260 250 C 245 265, 250 285, 275 290 C 310 297, 360 290, 410 300 C 430 304, 450 280, 450 250 C 450 215, 440 202, 430 200 Z" fill="url(#frog-skin)"/>
+    
+    <!-- Upper Lip / Snout Contour ending prematurely -->
+    <path d="M 260 250 C 255 260, 255 272, 270 278 C 290 285, 340 280, 380 295" fill="none" stroke="#255213" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Nostril -->
+    <ellipse cx="275" cy="255" rx="3" ry="5" transform="rotate(-20 275 255)" fill="#1a3a0d"/>
+
+    <!-- EYE RIGHT (Background Eye) -->
+    <g>
+      <circle cx="410" cy="180" r="30" fill="url(#frog-skin-dark)"/>
+      <circle cx="405" cy="180" r="22" fill="url(#eye-iris)"/>
+      <!-- Pupil -->
+      <ellipse cx="405" cy="180" rx="14" ry="4" transform="rotate(-10 405 180)" fill="#0f1706"/>
+      <!-- Eye Highlight -->
+      <circle cx="398" cy="172" r="4" fill="#ffffff" opacity="0.8"/>
+    </g>
+
+    <!-- EYE LEFT (Foreground Eye) -->
+    <g>
+      <circle cx="330" cy="185" r="42" fill="url(#frog-skin)"/>
+      <!-- Eye Socket Brow Ridge -->
+      <path d="M 290 175 C 310 145, 360 145, 375 175" fill="none" stroke="#a8f053" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="325" cy="190" r="30" fill="url(#eye-iris)"/>
+      <!-- Pupil horizontal slit -->
+      <ellipse cx="325" cy="190" rx="20" ry="5" transform="rotate(-5 325 190)" fill="#0f1706"/>
+      <ellipse cx="325" cy="190" rx="8" ry="4" transform="rotate(-5 325 190)" fill="#2d0a00"/>
+      <!-- Eye Highlights -->
+      <circle cx="312" cy="178" r="7" fill="#ffffff" opacity="0.9"/>
+      <circle cx="304" cy="190" r="3" fill="#ffffff" opacity="0.6"/>
+    </g>
+
+    <!-- MASSIVE PROGNATHIC MANDIBLE (PROTRUDING LOWER JAW) -->
+    <!-- Lower jaw extends FAR forward to x=150 (way past upper jaw at x=260) -->
+    <g>
+      <!-- Main Jaw Structure -->
+      <path d="M 390 320 
+               C 340 320, 240 310, 180 325
+               C 140 335, 120 360, 140 385
+               C 165 415, 230 425, 310 420
+               C 380 415, 430 390, 440 350
+               Z" 
+            fill="url(#frog-skin)" filter="url(#inset-shadow)"/>
+
+      <!-- Lower Lip Ledge / Underbite Shelf (Exaggerating Prognathism) -->
+      <path d="M 400 315 
+               C 320 305, 230 295, 165 320
+               C 135 332, 125 355, 150 365
+               C 180 375, 260 365, 315 360
+               C 365 355, 405 345, 420 330
+               Z" 
+            fill="url(#jaw-highlight)"/>
+
+      <!-- Exposed Lower Teeth / Ridge (Classic Severe Underbite Feature) -->
+      <path d="M 160 332 Q 170 325 180 330" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9"/>
+      <path d="M 190 327 Q 200 320 210 326" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9"/>
+      <path d="M 220 324 Q 230 318 240 325" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <path d="M 250 324 Q 260 319 270 326" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+      <!-- Deep Interior Mouth Line showing the upper jaw resting FAR BEHIND lower jaw -->
+      <path d="M 260 282 
+               C 240 285, 220 300, 210 320
+               C 230 325, 280 310, 330 312
+               C 370 314, 410 318, 425 328" 
+            fill="none" stroke="#102607" stroke-width="7" stroke-linecap="round"/>
+
+      <path d="M 220 323 C 250 328, 300 318, 340 317" fill="none" stroke="#000000" stroke-width="3" opacity="0.6"/>
+
+      <!-- Massive Bulbous Chin Contour -->
+      <path d="M 140 370 C 120 390, 140 415, 185 422 C 240 430, 310 425, 360 415" fill="none" stroke="#38751e" stroke-width="5" stroke-linecap="round"/>
+      
+      <!-- Chin Highlight -->
+      <path d="M 155 380 C 145 390, 155 405, 180 410 C 210 415, 250 412, 280 405" fill="none" stroke="#a8f053" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- Drool / Saliva String (Adding character to the jutting jaw) -->
+      <path d="M 200 335 C 200 355, 195 360, 196 375" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7" stroke-dasharray="8 4 2 1"/>
+      <circle cx="196" cy="378" r="2.5" fill="#ffffff" opacity="0.8"/>
+    </g>
+
+    <!-- SKIN DETAILS & SPOTS (To add texture and depth) -->
+    <!-- Head spots -->
+    <ellipse cx="370" cy="220" rx="12" ry="6" fill="#2d5e18" opacity="0.5" transform="rotate(-15 370 220)"/>
+    <ellipse cx="400" cy="240" rx="8" ry="4" fill="#2d5e18" opacity="0.4"/>
+    <ellipse cx="310" cy="235" rx="7" ry="4" fill="#2d5e18" opacity="0.5" transform="rotate(20 310 235)"/>
+
+    <!-- Huge Prognathic Jaw Spots (Emphasizing the big chin surface area) -->
+    <ellipse cx="220" cy="360" rx="14" ry="7" fill="#2d5e18" opacity="0.4" transform="rotate(10 220 360)"/>
+    <ellipse cx="170" cy="375" rx="10" ry="5" fill="#2d5e18" opacity="0.4" transform="rotate(-20 170 375)"/>
+    <ellipse cx="270" cy="375" rx="18" ry="8" fill="#2d5e18" opacity="0.3" transform="rotate(5 270 375)"/>
+    <ellipse cx="330" cy="370" rx="12" ry="6" fill="#2d5e18" opacity="0.3"/>
+
+    <!-- Body spots -->
+    <ellipse cx="450" cy="350" rx="22" ry="10" fill="#1e4210" opacity="0.4" transform="rotate(40 450 350)"/>
+    <ellipse cx="480" cy="400" rx="16" ry="8" fill="#1e4210" opacity="0.4" transform="rotate(15 480 400)"/>
+    <ellipse cx="420" cy="430" rx="25" ry="10" fill="#1e4210" opacity="0.3" transform="rotate(-10 420 430)"/>
+
+    <!-- Skin Warts / Bumps (3D Highlights) -->
+    <!-- Chin Bump -->
+    <circle cx="200" cy="395" r="5" fill="#88d438"/>
+    <path d="M 198 392 A 4 4 0 0 1 203 394" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+    
+    <!-- Jaw Ledge Bump -->
+    <circle cx="250" cy="345" r="6" fill="#88d438"/>
+    <path d="M 248 341 A 5 5 0 0 1 254 344" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Back Bump -->
+    <circle cx="490" cy="330" r="7" fill="#66bb2c"/>
+    <path d="M 487 325 A 6 6 0 0 1 494 328" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>
+
+  </g>
+</svg>

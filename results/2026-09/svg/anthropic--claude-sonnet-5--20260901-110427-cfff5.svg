@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <!-- Back legs -->
+  <ellipse cx="70" cy="230" rx="45" ry="28" fill="#4c9a4c"/>
+  <ellipse cx="330" cy="230" rx="45" ry="28" fill="#4c9a4c"/>
+  <ellipse cx="50" cy="250" rx="20" ry="12" fill="#3e8b3e"/>
+  <ellipse cx="350" cy="250" rx="20" ry="12" fill="#3e8b3e"/>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="190" rx="110" ry="80" fill="#5cb85c"/>
+  <ellipse cx="200" cy="205" rx="80" ry="55" fill="#dff2d8"/>
+
+  <!-- Front legs -->
+  <ellipse cx="110" cy="255" rx="22" ry="14" fill="#4c9a4c"/>
+  <ellipse cx="290" cy="255" rx="22" ry="14" fill="#4c9a4c"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="130" rx="95" ry="75" fill="#5cb85c"/>
+
+  <!-- Eyes -->
+  <circle cx="140" cy="75" r="28" fill="#5cb85c"/>
+  <circle cx="260" cy="75" r="28" fill="#5cb85c"/>
+  <circle cx="140" cy="75" r="17" fill="#f5f5dc"/>
+  <circle cx="260" cy="75" r="17" fill="#f5f5dc"/>
+  <circle cx="140" cy="75" r="8" fill="#111"/>
+  <circle cx="260" cy="75" r="8" fill="#111"/>
+  <circle cx="137" cy="72" r="2.5" fill="#fff"/>
+  <circle cx="257" cy="72" r="2.5" fill="#fff"/>
+
+  <!-- Nostrils -->
+  <circle cx="185" cy="105" r="3" fill="#2f6b2f"/>
+  <circle cx="215" cy="105" r="3" fill="#2f6b2f"/>
+
+  <!-- Upper jaw line -->
+  <path d="M 115 140 Q 200 155 285 140" stroke="#2f6b2f" stroke-width="3" fill="none"/>
+
+  <!-- Heavily protruding lower jaw -->
+  <path d="M 95 148
+           Q 90 195 140 215
+           Q 200 232 260 215
+           Q 310 195 305 148
+           Q 260 180 200 182
+           Q 140 180 95 148 Z"
+        fill="#69c169" stroke="#2f6b2f" stroke-width="3"/>
+
+  <!-- Bottom teeth suggestion / lip line -->
+  <path d="M 105 160 Q 200 190 295 160" stroke="#2f6b2f" stroke-width="2.5" fill="none" opacity="0.6"/>
+
+  <!-- Chin shading -->
+  <ellipse cx="200" cy="205" rx="60" ry="18" fill="#4fae4f" opacity="0.5"/>
+
+  <!-- Mouth corners -->
+  <circle cx="105" cy="150" r="4" fill="#2f6b2f"/>
+  <circle cx="295" cy="150" r="4" fill="#2f6b2f"/>
+</svg>

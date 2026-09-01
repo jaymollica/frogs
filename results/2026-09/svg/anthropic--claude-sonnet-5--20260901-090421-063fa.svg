@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- body -->
+  <ellipse cx="200" cy="290" rx="110" ry="80" fill="#6ab150"/>
+  <!-- back legs -->
+  <ellipse cx="90" cy="330" rx="40" ry="25" fill="#5a9a45"/>
+  <ellipse cx="310" cy="330" rx="40" ry="25" fill="#5a9a45"/>
+  <!-- feet -->
+  <g fill="#4d8a3a">
+    <ellipse cx="55" cy="345" rx="12" ry="8"/>
+    <ellipse cx="75" cy="352" rx="12" ry="8"/>
+    <ellipse cx="95" cy="352" rx="12" ry="8"/>
+    <ellipse cx="345" cy="345" rx="12" ry="8"/>
+    <ellipse cx="325" cy="352" rx="12" ry="8"/>
+    <ellipse cx="305" cy="352" rx="12" ry="8"/>
+  </g>
+  <!-- front arms -->
+  <ellipse cx="130" cy="300" rx="20" ry="35" fill="#5a9a45"/>
+  <ellipse cx="270" cy="300" rx="20" ry="35" fill="#5a9a45"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="210" rx="95" ry="80" fill="#6ab150"/>
+
+  <!-- eye bulges -->
+  <circle cx="145" cy="150" r="35" fill="#6ab150"/>
+  <circle cx="255" cy="150" r="35" fill="#6ab150"/>
+  <circle cx="145" cy="150" r="22" fill="#f5f0d0"/>
+  <circle cx="255" cy="150" r="22" fill="#f5f0d0"/>
+  <circle cx="145" cy="150" r="10" fill="#1a1a1a"/>
+  <circle cx="255" cy="150" r="10" fill="#1a1a1a"/>
+  <circle cx="141" cy="146" r="3" fill="#fff"/>
+  <circle cx="251" cy="146" r="3" fill="#fff"/>
+
+  <!-- upper jaw / mouth line (short, receded) -->
+  <path d="M 150 225 Q 200 235 245 222" stroke="#2e2e2e" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Habsburg jaw: exaggerated protruding lower jaw / underbite -->
+  <path d="M 100 250
+           Q 90 300 150 315
+           Q 200 328 250 315
+           Q 310 300 300 250
+           Q 260 275 200 278
+           Q 140 275 100 250 Z"
+        fill="#6ab150" stroke="#4d8a3a" stroke-width="3"/>
+
+  <!-- protruding lower lip -->
+  <path d="M 115 258 Q 200 280 285 258" stroke="#2e2e2e" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- little bottom teeth peeking (underbite emphasis) -->
+  <rect x="160" y="272" width="8" height="10" fill="#fff"/>
+  <rect x="180" y="278" width="8" height="10" fill="#fff"/>
+  <rect x="200" y="280" width="8" height="10" fill="#fff"/>
+  <rect x="220" y="278" width="8" height="10" fill="#fff"/>
+
+  <!-- nostrils -->
+  <circle cx="180" cy="175" r="3" fill="#2e2e2e"/>
+  <circle cx="220" cy="175" r="3" fill="#2e2e2e"/>
+
+  <!-- cheek spots for character -->
+  <circle cx="120" cy="220" r="6" fill="#5a9a45" opacity="0.6"/>
+  <circle cx="280" cy="220" r="6" fill="#5a9a45" opacity="0.6"/>
+</svg>

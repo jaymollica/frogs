@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Frog with a prominent Habsburg jaw">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6fd26f"/>
+      <stop offset="100%" stop-color="#3aa64a"/>
+    </linearGradient>
+    <linearGradient id="bellyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dff7cf"/>
+      <stop offset="100%" stop-color="#b7e79a"/>
+    </linearGradient>
+    <radialGradient id="eyeGrad" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#7b4f22"/>
+      <stop offset="70%" stop-color="#3a240f"/>
+      <stop offset="100%" stop-color="#120b05"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="#f5f7fb"/>
+
+  <!-- legs -->
+  <path d="M118 354c-36 16-58 49-48 76 9 24 41 31 66 15 18-12 31-34 34-58 2-16-2-28-13-36-12-9-25-10-39 3z" fill="#3aa64a"/>
+  <path d="M394 354c36 16 58 49 48 76-9 24-41 31-66 15-18-12-31-34-34-58-2-16 2-28 13-36 12-9 25-10 39 3z" fill="#3aa64a"/>
+  <path d="M143 388c-16 10-25 25-26 41 10 7 25 8 38 1 14-8 23-21 25-38-10-9-21-10-37-4z" fill="#2f8f3e"/>
+  <path d="M369 388c16 10 25 25 26 41-10 7-25 8-38 1-14-8-23-21-25-38 10-9 21-10 37-4z" fill="#2f8f3e"/>
+
+  <!-- body -->
+  <ellipse cx="256" cy="292" rx="138" ry="118" fill="url(#bodyGrad)"/>
+  <ellipse cx="256" cy="322" rx="92" ry="74" fill="url(#bellyGrad)"/>
+
+  <!-- head -->
+  <ellipse cx="256" cy="188" rx="148" ry="110" fill="url(#bodyGrad)"/>
+
+  <!-- eyes -->
+  <g>
+    <circle cx="182" cy="123" r="34" fill="#51b95a"/>
+    <circle cx="330" cy="123" r="34" fill="#51b95a"/>
+    <circle cx="182" cy="123" r="21" fill="url(#eyeGrad)"/>
+    <circle cx="330" cy="123" r="21" fill="url(#eyeGrad)"/>
+    <circle cx="176" cy="116" r="6" fill="#fff"/>
+    <circle cx="324" cy="116" r="6" fill="#fff"/>
+  </g>
+
+  <!-- face marks -->
+  <path d="M146 188c22-14 43-18 63-13" fill="none" stroke="#2f8f3e" stroke-width="10" stroke-linecap="round"/>
+  <path d="M366 188c-22-14-43-18-63-13" fill="none" stroke="#2f8f3e" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- mouth -->
+  <path d="M176 236c30 22 67 33 80 33s50-11 80-33" fill="none" stroke="#234f29" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Habsburg jaw / prominent underbite -->
+  <path d="M170 246c20 18 48 30 86 30s66-12 86-30c5 10 7 22 5 35-4 29-20 53-51 68-12 6-24 9-40 9s-28-3-40-9c-31-15-47-39-51-68-2-13 0-25 5-35z" fill="#e9d4b8" opacity="0.95"/>
+  <path d="M160 251c9 14 21 24 36 31 18 8 38 12 60 12s42-4 60-12c15-7 27-17 36-31 7 13 9 30 4 47-7 24-23 45-47 58-15 8-32 12-53 12s-38-4-53-12c-24-13-40-34-47-58-5-17-3-34 4-47z" fill="none" stroke="#a57f55" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- nose -->
+  <path d="M246 205c6-7 14-7 20 0" fill="none" stroke="#2f8f3e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M236 214c6 5 12 7 20 7s14-2 20-7" fill="none" stroke="#2f8f3e" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- chin shadow -->
+  <path d="M198 308c16 24 32 35 58 35s42-11 58-35" fill="none" stroke="#7fae57" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- feet -->
+  <path d="M96 427c16 8 32 8 49 0" fill="none" stroke="#2f8f3e" stroke-width="10" stroke-linecap="round"/>
+  <path d="M367 427c17 8 33 8 49 0" fill="none" stroke="#2f8f3e" stroke-width="10" stroke-linecap="round"/>
+</svg>

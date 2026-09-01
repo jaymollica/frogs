@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <defs>
+    <linearGradient id="frogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7cfc00" />
+      <stop offset="100%" stop-color="#2e8b57" />
+    </linearGradient>
+    <radialGradient id="eyeGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M100,50 C120,30 150,30 160,50 C170,70 170,90 160,110 C150,130 120,130 100,110 C80,130 50,130 40,110 C30,90 30,70 40,50 C50,30 80,30 100,50 Z" fill="url(#frogGradient)" stroke="#006400" stroke-width="2"/>
+
+  <!-- Head -->
+  <path d="M100,50 C110,40 130,40 140,50 C150,60 150,80 140,90 C130,100 110,100 100,90 C90,100 70,100 60,90 C50,80 50,60 60,50 C70,40 90,40 100,50 Z" fill="url(#frogGradient)" stroke="#006400" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="60" r="12" fill="white" stroke="#006400" stroke-width="2"/>
+  <circle cx="115" cy="60" r="12" fill="white" stroke="#006400" stroke-width="2"/>
+  <circle cx="85" cy="60" r="6" fill="url(#eyeGradient)"/>
+  <circle cx="115" cy="60" r="6" fill="url(#eyeGradient)"/>
+
+  <!-- Mandibular prognathism (lower jaw protruding) -->
+  <path d="M60,90 C70,100 90,105 110,100 C130,105 150,100 160,90 C155,110 145,115 130,115 C115,115 105,110 100,105 C95,110 85,115 70,115 C55,115 45,110 40,90 Z" fill="#556b2f" stroke="#006400" stroke-width="2"/>
+
+  <!-- Legs -->
+  <path d="M40,110 C30,110 20,120 20,130 C20,140 30,140 40,130" fill="none" stroke="#006400" stroke-width="3" stroke-linecap="round"/>
+  <path d="M160,110 C170,110 180,120 180,130 C180,140 170,140 160,130" fill="none" stroke="#006400" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50,130 C40,130 35,140 45,145 C55,150 65,145 70,140" fill="none" stroke="#006400" stroke-width="2" stroke-linecap="round"/>
+  <path d="M150,130 C160,130 165,140 155,145 C145,150 135,145 130,140" fill="none" stroke="#006400" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Arms -->
+  <path d="M60,80 C50,80 45,90 50,95 C55,100 65,95 70,90" fill="none" stroke="#006400" stroke-width="2" stroke-linecap="round"/>
+  <path d="M140,80 C150,80 155,90 150,95 C145,100 135,95 130,90" fill="none" stroke="#006400" stroke-width="2" stroke-linecap="round"/>
+</svg>

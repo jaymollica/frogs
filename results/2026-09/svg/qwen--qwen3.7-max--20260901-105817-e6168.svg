@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#86c25a"/>
+      <stop offset="100%" stop-color="#3f7a2e"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#f3f1b8"/>
+      <stop offset="100%" stop-color="#c9c47a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background pond -->
+  <rect width="400" height="300" fill="#bfe3d0"/>
+  <ellipse cx="200" cy="260" rx="180" ry="25" fill="#7fb49a" opacity="0.6"/>
+
+  <!-- Lily pad hint -->
+  <ellipse cx="90" cy="255" rx="55" ry="12" fill="#4f8a3a"/>
+  <path d="M90,255 L140,250" stroke="#bfe3d0" stroke-width="2"/>
+
+  <!-- Back leg (far) -->
+  <ellipse cx="275" cy="220" rx="45" ry="28" fill="#3f7a2e"/>
+  <ellipse cx="310" cy="245" rx="22" ry="10" fill="#3f7a2e"/>
+
+  <!-- Body -->
+  <ellipse cx="210" cy="200" rx="95" ry="60" fill="url(#bodyGrad)"/>
+
+  <!-- Belly -->
+  <ellipse cx="200" cy="225" rx="70" ry="30" fill="url(#bellyGrad)"/>
+
+  <!-- Back leg (near) with foot -->
+  <path d="M150,210 Q120,225 125,255 Q140,258 155,252 Q150,240 170,225 Z" fill="#4a8c3a" stroke="#2d5a22" stroke-width="1.5"/>
+  <ellipse cx="140" cy="258" rx="22" ry="8" fill="#4a8c3a" stroke="#2d5a22" stroke-width="1.5"/>
+
+  <!-- Front legs -->
+  <path d="M255,215 Q270,240 265,258 L255,260 L250,250 L245,260 L240,258 Q245,235 245,215 Z" fill="#4a8c3a" stroke="#2d5a22" stroke-width="1.5"/>
+  <path d="M170,215 Q175,240 172,258 L165,260 L160,250 L155,260 L150,258 Q158,235 160,215 Z" fill="#4a8c3a" stroke="#2d5a22" stroke-width="1.5"/>
+
+  <!-- Head base -->
+  <ellipse cx="150" cy="165" rx="70" ry="50" fill="url(#bodyGrad)"/>
+
+  <!-- Upper jaw / snout (recessed, showing underbite) -->
+  <path d="M85,170 Q80,155 100,150 Q130,145 155,152 Q160,165 150,172 Q120,178 95,175 Z"
+        fill="#5fa040" stroke="#2d5a22" stroke-width="1.5"/>
+
+  <!-- Lower jaw PROTRUDING (mandibular prognathism) -->
+  <path d="M70,185 Q55,175 65,165 Q75,172 95,175 Q130,180 155,178 Q170,182 165,195 Q150,210 120,210 Q85,208 70,198 Z"
+        fill="#6bb04f" stroke="#2d5a22" stroke-width="2"/>
+
+  <!-- Protrusion shadow line showing lower jaw extends past upper -->
+  <path d="M72,178 Q70,185 75,192" fill="none" stroke="#2d5a22" stroke-width="1.2"/>
+  <path d="M85,178 Q82,188 88,196" fill="none" stroke="#2d5a22" stroke-width="1"/>
+
+  <!-- Mouth line (visible underbite) -->
+  <path d="M95,175 Q130,182 158,178" fill="none" stroke="#2d5a22" stroke-width="1.5"/>
+
+  <!-- Small tooth peeking from lower jaw -->
+  <path d="M115,178 L118,170 L121,178 Z" fill="#fffbe6" stroke="#2d5a22" stroke-width="1"/>
+  <path d="M130,179 L133,172 L136,179 Z" fill="#fffbe6" stroke="#2d5a22" stroke-width="1"/>
+
+  <!-- Nostrils -->
+  <circle cx="92" cy="158" r="2" fill="#2d5a22"/>
+  <circle cx="108" cy="156" r="2" fill="#2d5a22"/>
+
+  <!-- Eyes (bulging) -->
+  <ellipse cx="120" cy="120" rx="22" ry="24" fill="#6bb04f" stroke="#2d5a22" stroke-width="2"/>
+  <ellipse cx="175" cy="120" rx="22" ry="24" fill="#6bb04f" stroke="#2d5a22" stroke-width="2"/>
+  <circle cx="122" cy="120" r="14" fill="#fff"/>
+  <circle cx="177" cy="120" r="14" fill="#fff"/>
+  <circle cx="125" cy="122" r="8" fill="#1a1a1a"/>
+  <circle cx="180" cy="122" r="8" fill="#1a1a1a"/>
+  <circle cx="127" cy="120" r="2.5" fill="#fff"/>
+  <circle cx="182" cy="120" r="2.5" fill="#fff"/>
+
+  <!-- Spots -->
+  <ellipse cx="230" cy="185" rx="10" ry="6" fill="#2d5a22" opacity="0.6"/>
+  <ellipse cx="260" cy="205" rx="8" ry="5" fill="#2d5a22" opacity="0.6"/>
+  <ellipse cx="200" cy="180" rx="6" ry="4" fill="#2d5a22" opacity="0.6"/>
+  <ellipse cx="145" cy="195" rx="5" ry="3" fill="#2d5a22" opacity="0.6"/>
+</svg>

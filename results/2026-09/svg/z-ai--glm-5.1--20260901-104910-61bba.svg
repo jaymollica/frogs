@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <rect width="500" height="500" fill="#E0F2F1" />
+  <ellipse cx="220" cy="410" rx="200" ry="30" fill="#2E7D32" />
+  <ellipse cx="220" cy="405" rx="190" ry="25" fill="#4CAF50" />
+  <path d="M150,350 Q100,330 80,300 Q60,270 80,260" stroke="#43A047" stroke-width="28" fill="none" stroke-linecap="round" />
+  <path d="M80,260 Q90,280 130,330 Q170,380 130,400" stroke="#43A047" stroke-width="18" fill="none" stroke-linecap="round" />
+  <path d="M130,400 L100,415 M130,400 L120,418 M130,400 L140,415 M130,400 L150,412" stroke="#388E3C" stroke-width="8" fill="none" stroke-linecap="round" />
+  <path d="M100,200 Q100,380 200,380 Q300,380 300,280 Q300,200 200,200 Z" fill="#66BB6A" />
+  <path d="M130,250 Q130,360 200,360 Q270,360 270,290 Q270,230 200,230 Z" fill="#A5D6A7" />
+  <path d="M100,170 Q200,150 300,175 Q340,185 320,200 Q200,185 100,190 Z" fill="#66BB6A" />
+  <path d="M320,200 Q380,205 410,215 Q440,230 420,240 L320,215 Z" fill="#B71C1C" />
+  <path d="M100,190 Q200,190 320,200 Q380,205 410,215 Q440,230 420,250 Q400,260 360,255 Q300,245 100,230 Z" fill="#4CAF50" />
+  <path d="M320,200 Q380,205 410,215 Q440,230 420,250 Q400,260 360,255 Q300,245 100,230" stroke="#2E7D32" stroke-width="2" fill="none" />
+  <path d="M340,215 L345,203 L350,215 Z" fill="#FFFFFF" />
+  <path d="M370,218 L375,205 L380,218 Z" fill="#FFFFFF" />
+  <path d="M400,222 L404,210 L408,222 Z" fill="#FFFFFF" />
+  <path d="M250,240 Q280,280 300,320" stroke="#4CAF50" stroke-width="16" fill="none" stroke-linecap="round" />
+  <path d="M300,320 L280,335 M300,320 L300,338 M300,320 L320,335 M300,320 L340,330" stroke="#388E3C" stroke-width="8" fill="none" stroke-linecap="round" />
+  <circle cx="220" cy="165" r="28" fill="#66BB6A" />
+  <circle cx="220" cy="165" r="16" fill="#FFFFEE" />
+  <circle cx="220" cy="167" r="8" fill="#1B1B1B" />
+  <circle cx="215" cy="162" r="3" fill="#FFFFFF" />
+  <circle cx="315" cy="185" r="3" fill="#2E7D32" />
+  <circle cx="170" cy="230" r="4" fill="#388E3C" />
+  <circle cx="200" cy="250" r="3" fill="#388E3C" />
+  <circle cx="250" cy="220" r="5" fill="#388E3C" />
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="400" height="420">
+  <!-- back legs -->
+  <ellipse cx="90" cy="350" rx="55" ry="38" fill="#3f7d33"/>
+  <ellipse cx="310" cy="350" rx="55" ry="38" fill="#3f7d33"/>
+  <!-- body -->
+  <ellipse cx="200" cy="300" rx="125" ry="90" fill="#4a8f3c"/>
+  <!-- belly -->
+  <ellipse cx="200" cy="330" rx="85" ry="55" fill="#cfe8a9"/>
+  <!-- head -->
+  <ellipse cx="200" cy="185" rx="115" ry="90" fill="#4a8f3c"/>
+  <!-- eye stalks -->
+  <circle cx="135" cy="110" r="42" fill="#4a8f3c"/>
+  <circle cx="265" cy="110" r="42" fill="#4a8f3c"/>
+  <!-- eyes -->
+  <circle cx="135" cy="108" r="30" fill="#ffffff"/>
+  <circle cx="265" cy="108" r="30" fill="#ffffff"/>
+  <circle cx="138" cy="112" r="14" fill="#1c1c1c"/>
+  <circle cx="262" cy="112" r="14" fill="#1c1c1c"/>
+  <circle cx="133" cy="106" r="5" fill="#ffffff"/>
+  <circle cx="257" cy="106" r="5" fill="#ffffff"/>
+  <!-- droopy regal eyelids -->
+  <path d="M105,95 Q135,78 165,95 L165,88 Q135,70 105,88 Z" fill="#3f7d33"/>
+  <path d="M235,95 Q265,78 295,95 L295,88 Q265,70 235,88 Z" fill="#3f7d33"/>
+  <!-- nostrils -->
+  <circle cx="182" cy="170" r="4" fill="#2d5a27"/>
+  <circle cx="218" cy="170" r="4" fill="#2d5a27"/>
+  <!-- upper lip line -->
+  <path d="M100,205 Q200,240 300,205" fill="none" stroke="#2d5a27" stroke-width="5" stroke-linecap="round"/>
+  <!-- massive protruding Habsburg lower jaw -->
+  <path d="M92,215 C82,310 125,368 200,368 C275,368 318,310 308,215 C312,252 262,262 200,262 C138,262 88,252 92,215 Z" fill="#6db24f" stroke="#2d5a27" stroke-width="4"/>
+  <!-- jutting chin -->
+  <ellipse cx="200" cy="345" rx="42" ry="20" fill="#5da043"/>
+  <path d="M165,352 Q200,372 235,352" fill="none" stroke="#2d5a27" stroke-width="3" stroke-linecap="round"/>
+  <!-- pronounced lower lip curling over -->
+  <path d="M110,232 Q200,272 290,232 Q292,250 200,258 Q108,250 110,232 Z" fill="#82c45e"/>
+  <!-- underbite teeth poking up past the upper lip -->
+  <rect x="168" y="212" width="20" height="38" rx="7" fill="#fffdf0" stroke="#2d5a27" stroke-width="2.5"/>
+  <rect x="212" y="212" width="20" height="38" rx="7" fill="#fffdf0" stroke="#2d5a27" stroke-width="2.5"/>
+  <!-- jaw crease lines emphasizing prognathism -->
+  <path d="M112,240 Q108,300 140,340" fill="none" stroke="#2d5a27" stroke-width="2.5" opacity="0.5"/>
+  <path d="M288,240 Q292,300 260,340" fill="none" stroke="#2d5a27" stroke-width="2.5" opacity="0.5"/>
+  <!-- front feet -->
+  <g fill="#3f7d33" stroke="#2d5a27" stroke-width="3">
+    <ellipse cx="130" cy="392" rx="14" ry="9"/>
+    <ellipse cx="152" cy="398" rx="14" ry="9"/>
+    <ellipse cx="108" cy="396" rx="14" ry="9"/>
+    <ellipse cx="270" cy="392" rx="14" ry="9"/>
+    <ellipse cx="248" cy="398" rx="14" ry="9"/>
+    <ellipse cx="292" cy="396" rx="14" ry="9"/>
+  </g>
+  <!-- spots -->
+  <circle cx="120" cy="280" r="9" fill="#3f7d33" opacity="0.7"/>
+  <circle cx="285" cy="290" r="8" fill="#3f7d33" opacity="0.7"/>
+  <circle cx="145" cy="175" r="7" fill="#3f7d33" opacity="0.6"/>
+  <circle cx="258" cy="180" r="7" fill="#3f7d33" opacity="0.6"/>
+</svg>

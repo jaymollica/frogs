@@ -1,0 +1,44 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="50" ry="55" fill="#4a9d6f"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="70" r="40" fill="#5ab87a"/>
+  
+  <!-- Eyes -->
+  <circle cx="85" cy="50" r="8" fill="#2d5a3d"/>
+  <circle cx="115" cy="50" r="8" fill="#2d5a3d"/>
+  <circle cx="86" cy="48" r="3" fill="white"/>
+  <circle cx="116" cy="48" r="3" fill="white"/>
+  
+  <!-- Mouth area with Habsburg jaw -->
+  <!-- Lower jaw protrusion -->
+  <ellipse cx="100" cy="85" rx="22" ry="18" fill="#4a9d6f"/>
+  <path d="M 78 85 Q 75 95 80 102 L 120 102 Q 125 95 122 85" fill="#3d7a5a"/>
+  
+  <!-- Prominent chin/jaw protrusion (Habsburg characteristic) -->
+  <ellipse cx="100" cy="102" rx="18" ry="12" fill="#3d7a5a"/>
+  <ellipse cx="100" cy="108" rx="16" ry="8" fill="#2d5a3d"/>
+  
+  <!-- Mouth line -->
+  <path d="M 80 85 Q 100 92 120 85" stroke="#2d5a3d" stroke-width="1.5" fill="none"/>
+  
+  <!-- Left front leg -->
+  <ellipse cx="65" cy="160" rx="12" ry="20" fill="#4a9d6f" transform="rotate(-30 65 160)"/>
+  <ellipse cx="58" cy="175" rx="8" ry="12" fill="#3d7a5a" transform="rotate(-30 58 175)"/>
+  
+  <!-- Right front leg -->
+  <ellipse cx="135" cy="160" rx="12" ry="20" fill="#4a9d6f" transform="rotate(30 135 160)"/>
+  <ellipse cx="142" cy="175" rx="8" ry="12" fill="#3d7a5a" transform="rotate(30 142 175)"/>
+  
+  <!-- Left back leg -->
+  <ellipse cx="55" cy="145" rx="15" ry="25" fill="#4a9d6f" transform="rotate(-45 55 145)"/>
+  <ellipse cx="42" cy="162" rx="10" ry="14" fill="#3d7a5a" transform="rotate(-45 42 162)"/>
+  
+  <!-- Right back leg -->
+  <ellipse cx="145" cy="145" rx="15" ry="25" fill="#4a9d6f" transform="rotate(45 145 145)"/>
+  <ellipse cx="158" cy="162" rx="10" ry="14" fill="#3d7a5a" transform="rotate(45 158 162)"/>
+  
+  <!-- Belly -->
+  <ellipse cx="100" cy="130" rx="35" ry="40" fill="#7ec896" opacity="0.6"/>
+</svg>

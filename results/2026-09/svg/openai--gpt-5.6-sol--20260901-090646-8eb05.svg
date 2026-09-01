@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="skin" cx="40%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#8fd65b"/>
+      <stop offset="1" stop-color="#3f8f3d"/>
+    </radialGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#73bd4d"/>
+      <stop offset="1" stop-color="#3c8138"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="35%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#ffe97a"/>
+      <stop offset="1" stop-color="#caa621"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#173b30" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="300" cy="532" rx="205" ry="30" fill="#183f36" opacity=".18"/>
+
+  <g filter="url(#shadow)">
+    <!-- shoulders -->
+    <path d="M120 510C131 435 190 398 300 398s169 37 180 112c-48 26-312 26-360 0z" fill="#397f3b"/>
+    <path d="M151 493c31-47 83-68 149-68s118 21 149 68c-75 20-223 20-298 0z" fill="#4f9b43"/>
+
+    <!-- eye mounds -->
+    <circle cx="207" cy="178" r="82" fill="url(#skin)" stroke="#286d34" stroke-width="7"/>
+    <circle cx="393" cy="178" r="82" fill="url(#skin)" stroke="#286d34" stroke-width="7"/>
+
+    <!-- head -->
+    <path d="M123 250C123 157 197 115 300 115s177 42 177 135c0 91-46 157-177 164-131-7-177-73-177-164z" fill="url(#skin)" stroke="#286d34" stroke-width="8"/>
+
+    <!-- eyes -->
+    <ellipse cx="211" cy="174" rx="46" ry="54" fill="url(#eye)" stroke="#245c31" stroke-width="6"/>
+    <ellipse cx="389" cy="174" rx="46" ry="54" fill="url(#eye)" stroke="#245c31" stroke-width="6"/>
+    <ellipse cx="214" cy="176" rx="13" ry="36" fill="#16251b"/>
+    <ellipse cx="386" cy="176" rx="13" ry="36" fill="#16251b"/>
+    <circle cx="204" cy="156" r="7" fill="#fff" opacity=".85"/>
+    <circle cx="376" cy="156" r="7" fill="#fff" opacity=".85"/>
+
+    <!-- brow -->
+    <path d="M167 126c31-18 66-16 91 2" fill="none" stroke="#2c7638" stroke-width="12" stroke-linecap="round"/>
+    <path d="M342 128c25-18 60-20 91-2" fill="none" stroke="#2c7638" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- cheeks -->
+    <ellipse cx="170" cy="305" rx="55" ry="63" fill="#63ad49" opacity=".75"/>
+    <ellipse cx="430" cy="305" rx="55" ry="63" fill="#63ad49" opacity=".75"/>
+
+    <!-- spots -->
+    <g fill="#327938" opacity=".65">
+      <circle cx="157" cy="273" r="10"/>
+      <circle cx="184" cy="294" r="7"/>
+      <circle cx="443" cy="271" r="10"/>
+      <circle cx="416" cy="295" r="7"/>
+      <circle cx="273" cy="242" r="8"/>
+      <circle cx="326" cy="232" r="6"/>
+    </g>
+
+    <!-- nose -->
+    <ellipse cx="272" cy="286" rx="7" ry="5" fill="#245f32"/>
+    <ellipse cx="328" cy="286" rx="7" ry="5" fill="#245f32"/>
+
+    <!-- upper lip -->
+    <path d="M199 332c50 22 152 22 202 0-13 31-45 45-101 45s-88-14-101-45z" fill="#285f31"/>
+    <path d="M213 333c51 13 123 13 174 0-23 15-57 22-87 22s-64-7-87-22z" fill="#dfe7b9"/>
+
+    <!-- protruding Habsburg lower jaw -->
+    <path d="M205 352
+             C224 371 245 380 271 382
+             C284 383 294 381 300 377
+             C306 381 316 383 329 382
+             C355 380 376 371 395 352
+             C416 366 430 393 432 423
+             C436 469 411 507 368 524
+             C337 537 263 537 232 524
+             C189 507 164 469 168 423
+             C170 393 184 366 205 352z"
+          fill="url(#jaw)" stroke="#286d34" stroke-width="8"/>
+
+    <!-- jawline emphasis -->
+    <path d="M184 414c30 24 65 34 116 34s86-10 116-34" fill="none" stroke="#2a6c34" stroke-width="7" stroke-linecap="round"/>
+    <path d="M220 478c46 19 114 19 160 0" fill="none" stroke="#33783a" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- jutting chin -->
+    <path d="M202 462c20 52 56 71 98 71s78-19 98-71c-46 23-150 23-196 0z" fill="#559e43" opacity=".9"/>
+    <path d="M240 507c34 10 86 10 120 0" fill="none" stroke="#72b953" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+
+    <!-- mouth corners -->
+    <path d="M177 378c18 4 29 11 39 24" fill="none" stroke="#244f2b" stroke-width="7" stroke-linecap="round"/>
+    <path d="M423 378c-18 4-29 11-39 24" fill="none" stroke="#244f2b" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

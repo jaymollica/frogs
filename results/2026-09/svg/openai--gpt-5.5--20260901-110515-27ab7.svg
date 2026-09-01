@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Frog with a heavily protruding lower jaw">
+  <defs>
+    <radialGradient id="bodyGrad" cx="45%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#8ee66f"/>
+      <stop offset="60%" stop-color="#47b84d"/>
+      <stop offset="100%" stop-color="#2f8f38"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="48%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#b8f28a"/>
+      <stop offset="55%" stop-color="#79cf58"/>
+      <stop offset="100%" stop-color="#3d9b3e"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#174e25" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="#dff7ff"/>
+
+  <ellipse cx="400" cy="526" rx="265" ry="35" fill="#93cfa1" opacity="0.35"/>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="290" cy="385" rx="90" ry="55" fill="#3a9b3f"/>
+    <ellipse cx="510" cy="385" rx="90" ry="55" fill="#3a9b3f"/>
+    <ellipse cx="248" cy="440" rx="95" ry="38" fill="#2f8838" transform="rotate(-10 248 440)"/>
+    <ellipse cx="552" cy="440" rx="95" ry="38" fill="#2f8838" transform="rotate(10 552 440)"/>
+
+    <path d="M204 290
+             C205 187 286 116 400 116
+             C514 116 595 187 596 290
+             C597 388 515 448 400 448
+             C285 448 203 388 204 290Z"
+          fill="url(#bodyGrad)" stroke="#226d2e" stroke-width="7"/>
+
+    <ellipse cx="300" cy="142" rx="66" ry="61" fill="#65c957" stroke="#226d2e" stroke-width="7"/>
+    <ellipse cx="500" cy="142" rx="66" ry="61" fill="#65c957" stroke="#226d2e" stroke-width="7"/>
+
+    <circle cx="300" cy="146" r="38" fill="#f8fff2"/>
+    <circle cx="500" cy="146" r="38" fill="#f8fff2"/>
+    <circle cx="310" cy="151" r="18" fill="#181c18"/>
+    <circle cx="490" cy="151" r="18" fill="#181c18"/>
+    <circle cx="304" cy="143" r="6" fill="#ffffff"/>
+    <circle cx="484" cy="143" r="6" fill="#ffffff"/>
+
+    <ellipse cx="360" cy="234" rx="9" ry="5" fill="#1d662d" transform="rotate(10 360 234)"/>
+    <ellipse cx="440" cy="234" rx="9" ry="5" fill="#1d662d" transform="rotate(-10 440 234)"/>
+
+    <path d="M176 330
+             C194 270 270 244 400 250
+             C530 244 606 270 624 330
+             C645 404 584 493 400 501
+             C216 493 155 404 176 330Z"
+          fill="url(#jawGrad)" stroke="#226d2e" stroke-width="8"/>
+
+    <path d="M190 333
+             C245 365 321 378 400 378
+             C479 378 555 365 610 333"
+          fill="none" stroke="#175d27" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M188 351
+             C254 421 541 421 612 351"
+          fill="none" stroke="#2a7d32" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+    <path d="M254 401
+             C315 435 486 435 548 401"
+          fill="none" stroke="#e2ffc8" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+
+    <ellipse cx="230" cy="286" rx="24" ry="14" fill="#74d45e" opacity="0.55"/>
+    <ellipse cx="570" cy="286" rx="24" ry="14" fill="#74d45e" opacity="0.55"/>
+
+    <circle cx="253" cy="229" r="10" fill="#2e923a" opacity="0.65"/>
+    <circle cx="548" cy="229" r="10" fill="#2e923a" opacity="0.65"/>
+    <circle cx="222" cy="319" r="8" fill="#2e923a" opacity="0.55"/>
+    <circle cx="585" cy="319" r="8" fill="#2e923a" opacity="0.55"/>
+    <circle cx="342" cy="454" r="9" fill="#4caf45" opacity="0.55"/>
+    <circle cx="460" cy="454" r="9" fill="#4caf45" opacity="0.55"/>
+  </g>
+</svg>

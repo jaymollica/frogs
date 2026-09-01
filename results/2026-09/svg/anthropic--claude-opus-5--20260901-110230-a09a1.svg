@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyG" cx="45%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#8fd45f"/>
+      <stop offset="100%" stop-color="#5aa03a"/>
+    </radialGradient>
+    <radialGradient id="jawG" cx="50%" cy="20%" r="85%">
+      <stop offset="0%" stop-color="#a8dd72"/>
+      <stop offset="100%" stop-color="#6cb544"/>
+    </radialGradient>
+    <radialGradient id="eyeG" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffe9a0"/>
+      <stop offset="100%" stop-color="#e0a521"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="352" rx="145" ry="20" fill="#000" opacity="0.13"/>
+
+  <!-- hind legs / feet -->
+  <g fill="#4e9636" stroke="#3a7228" stroke-width="3">
+    <ellipse cx="72" cy="300" rx="46" ry="30" transform="rotate(-18 72 300)"/>
+    <ellipse cx="328" cy="300" rx="46" ry="30" transform="rotate(18 328 300)"/>
+    <!-- left toes -->
+    <ellipse cx="40" cy="334" rx="30" ry="11" transform="rotate(12 40 334)"/>
+    <ellipse cx="46" cy="345" rx="28" ry="10" transform="rotate(-4 46 345)"/>
+    <ellipse cx="58" cy="352" rx="24" ry="9" transform="rotate(-20 58 352)"/>
+    <!-- right toes -->
+    <ellipse cx="360" cy="334" rx="30" ry="11" transform="rotate(-12 360 334)"/>
+    <ellipse cx="354" cy="345" rx="28" ry="10" transform="rotate(4 354 345)"/>
+    <ellipse cx="342" cy="352" rx="24" ry="9" transform="rotate(20 342 352)"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="200" cy="252" rx="128" ry="96" fill="url(#bodyG)" stroke="#3f7d2c" stroke-width="4"/>
+  <!-- belly -->
+  <ellipse cx="200" cy="285" rx="82" ry="55" fill="#d7ecab" opacity="0.75"/>
+
+  <!-- head -->
+  <path d="M200 78 C 268 78 306 118 306 168 C 306 210 262 236 200 236 C 138 236 94 210 94 168 C 94 118 132 78 200 78 Z"
+        fill="url(#bodyG)" stroke="#3f7d2c" stroke-width="4"/>
+
+  <!-- eye bulges -->
+  <g stroke="#3f7d2c" stroke-width="4">
+    <circle cx="142" cy="106" r="42" fill="#7cc44f"/>
+    <circle cx="258" cy="106" r="42" fill="#7cc44f"/>
+  </g>
+  <g>
+    <circle cx="142" cy="106" r="27" fill="url(#eyeG)" stroke="#2c2c2c" stroke-width="3"/>
+    <circle cx="258" cy="106" r="27" fill="url(#eyeG)" stroke="#2c2c2c" stroke-width="3"/>
+    <ellipse cx="142" cy="107" rx="8" ry="17" fill="#1b1b1b"/>
+    <ellipse cx="258" cy="107" rx="8" ry="17" fill="#1b1b1b"/>
+    <circle cx="134" cy="94" r="7" fill="#fff" opacity="0.85"/>
+    <circle cx="250" cy="94" r="7" fill="#fff" opacity="0.85"/>
+  </g>
+
+  <!-- upper jaw / snout (receding, narrower) -->
+  <path d="M118 158 C 130 200 160 216 200 216 C 240 216 270 200 282 158 Z" fill="#68b241" opacity="0.55"/>
+  <!-- nostrils -->
+  <ellipse cx="182" cy="164" rx="5" ry="4" fill="#2f5f22"/>
+  <ellipse cx="218" cy="164" rx="5" ry="4" fill="#2f5f22"/>
+
+  <!-- HEAVILY PROTRUDING LOWER JAW -->
+  <path d="M62 208
+           C 62 184 108 172 200 172
+           C 292 172 338 184 338 208
+           C 338 272 282 312 200 312
+           C 118 312 62 272 62 208 Z"
+        fill="url(#jawG)" stroke="#3f7d2c" stroke-width="5"/>
+  <!-- jaw top rim (mouth line) -->
+  <path d="M64 202 C 110 178 290 178 336 202" fill="none" stroke="#33691f" stroke-width="6" stroke-linecap="round"/>
+  <!-- underbite teeth pointing up over the upper lip -->
+  <g fill="#ffffff" stroke="#cfcfcf" stroke-width="2">
+    <path d="M144 194 L156 160 L170 194 Z"/>
+    <path d="M230 194 L244 160 L256 194 Z"/>
+  </g>
+  <!-- jaw chin crease & highlight -->
+  <path d="M120 262 C 160 292 240 292 280 262" fill="none" stroke="#4e9636" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <ellipse cx="200" cy="240" rx="86" ry="42" fill="#e2f2b8" opacity="0.35"/>
+  <ellipse cx="112" cy="212" rx="26" ry="12" fill="#ffffff" opacity="0.22" transform="rotate(-16 112 212)"/>
+
+  <!-- front arms -->
+  <g fill="#4e9636" stroke="#3a7228" stroke-width="3">
+    <ellipse cx="92" cy="300" rx="18" ry="34" transform="rotate(20 92 300)"/>
+    <ellipse cx="308" cy="300" rx="18" ry="34" transform="rotate(-20 308 300)"/>
+    <circle cx="100" cy="332" r="15"/>
+    <circle cx="300" cy="332" r="15"/>
+  </g>
+
+  <!-- spots -->
+  <g fill="#3f7d2c" opacity="0.35">
+    <ellipse cx="118" cy="200" rx="0" ry="0"/>
+    <ellipse cx="96" cy="248" rx="14" ry="10"/>
+    <ellipse cx="304" cy="248" rx="14" ry="10"/>
+    <ellipse cx="160" cy="330" rx="16" ry="9"/>
+    <ellipse cx="242" cy="330" rx="16" ry="9"/>
+  </g>
+</svg>

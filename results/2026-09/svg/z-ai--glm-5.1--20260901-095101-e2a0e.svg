@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="headGrad" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#9CCC65" />
+      <stop offset="100%" stop-color="#558B2F" />
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#8BC34A" />
+      <stop offset="50%" stop-color="#558B2F" />
+      <stop offset="100%" stop-color="#33691E" />
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFEB3B" />
+      <stop offset="90%" stop-color="#FBC02D" />
+      <stop offset="100%" stop-color="#F57F17" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="600" height="800" fill="#1a2628" />
+  
+  <!-- Upper Head -->
+  <path d="M 100 300 C 80 150 120 100 180 150 C 250 200 350 200 420 150 C 480 100 520 150 500 300 Q 300 370 100 300 Z" fill="url(#headGrad)" />
+  
+  <!-- Massive Habsburg Lower Jaw -->
+  <path d="M 80 280 Q 200 330 280 340 Q 300 350 320 340 Q 400 330 520 280 Q 460 380 410 520 Q 360 680 300 760 Q 240 680 190 520 Q 140 380 80 280 Z" fill="url(#jawGrad)" />
+  
+  <!-- Underbite/Mouth Shadow -->
+  <path d="M 90 285 Q 200 330 280 340 Q 300 350 320 340 Q 400 330 510 285 Q 300 380 90 285 Z" fill="#1B5E20" />
+  
+  <!-- Pouting Lower Lip Highlight -->
+  <path d="M 90 285 Q 200 330 280 340 Q 300 350 320 340 Q 400 330 510 285" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Chin Highlight for Protrusion Emphasis -->
+  <path d="M 280 380 Q 275 550 300 740 Q 325 550 320 380 Z" fill="rgba(255,255,255,0.15)" />
+  <path d="M 295 450 Q 295 650 300 755" fill="none" stroke="rgba(0,0,0,0.2)" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Left Eye -->
+  <circle cx="180" cy="150" r="50" fill="url(#eyeGrad)" />
+  <ellipse cx="180" cy="150" rx="40" ry="10" fill="#212121" />
+  <path d="M 130 150 A 50 50 0 0 0 230 150" fill="none" stroke="#388E3C" stroke-width="8" stroke-linecap="round" />
+  <path d="M 130 150 A 50 50 0 0 1 230 150" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round" />
+  <circle cx="195" cy="135" r="8" fill="rgba(255,255,255,0.7)" />
+  
+  <!-- Right Eye -->
+  <circle cx="420" cy="150" r="50" fill="url(#eyeGrad)" />
+  <ellipse cx="420" cy="150" rx="40" ry="10" fill="#212121" />
+  <path d="M 370 150 A 50 50 0 0 0 470 150" fill="none" stroke="#388E3C" stroke-width="8" stroke-linecap="round" />
+  <path d="M 370 150 A 50 50 0 0 1 470 150" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round" />
+  <circle cx="435" cy="135" r="8" fill="rgba(255,255,255,0.7)" />
+  
+  <!-- Nostrils -->
+  <circle cx="270" cy="250" r="4" fill="#1B5E20" />
+  <circle cx="330" cy="250" r="4" fill="#1B5E20" />
+  
+  <!-- Warts/Texture -->
+  <circle cx="180" cy="280" r="6" fill="#33691E" />
+  <circle cx="200" cy="250" r="4" fill="#33691E" />
+  <circle cx="420" cy="280" r="6" fill="#33691E" />
+  <circle cx="400" cy="250" r="4" fill="#33691E" />
+  <circle cx="150" cy="400" r="8" fill="#33691E" />
+  <circle cx="450" cy="400" r="8" fill="#33691E" />
+  <circle cx="250" cy="600" r="10" fill="#33691E" />
+  <circle cx="350" cy="600" r="10" fill="#33691E" />
+  <circle cx="220" cy="480" r="7" fill="#33691E" />
+  <circle cx="380" cy="480" r="7" fill="#33691E" />
+</svg>

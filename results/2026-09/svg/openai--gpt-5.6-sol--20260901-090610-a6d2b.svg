@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="A green frog with a pronounced Habsburg jaw">
+  <defs>
+    <radialGradient id="skin" cx="38%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#a8dc68"/>
+      <stop offset="0.65" stop-color="#65aa45"/>
+      <stop offset="1" stop-color="#397a37"/>
+    </radialGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83bf50"/>
+      <stop offset="1" stop-color="#4a8a3e"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6e68b"/>
+      <stop offset="1" stop-color="#9fbe60"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#183221" flood-opacity=".3"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="400" cy="727" rx="286" ry="31" fill="#173823" opacity=".2"/>
+
+  <g filter="url(#shadow)" stroke="#254e31" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M278 545C205 555 168 612 120 662C93 689 108 720 146 717L292 702C330 697 347 655 326 621Z" fill="url(#skin)"/>
+    <path d="M522 545C595 555 632 612 680 662C707 689 692 720 654 717L508 702C470 697 453 655 474 621Z" fill="url(#skin)"/>
+
+    <path d="M292 519C251 582 254 663 285 711C325 739 475 739 515 711C546 663 549 582 508 519Z" fill="url(#skin)"/>
+    <ellipse cx="400" cy="625" rx="105" ry="112" fill="url(#belly)" stroke-width="7"/>
+
+    <path d="M260 599C222 631 188 652 140 663" fill="none"/>
+    <path d="M540 599C578 631 612 652 660 663" fill="none"/>
+    <path d="M145 663l-43-15M145 663l-39 9M145 663l-27 30" fill="none"/>
+    <path d="M655 663l43-15M655 663l39 9M655 663l27 30" fill="none"/>
+
+    <path d="M232 687c-43 4-76 17-102 39 51 11 106 10 157-5M568 687c43 4 76 17 102 39-51 11-106 10-157-5" fill="url(#skin)"/>
+
+    <path d="M190 322C171 233 228 154 315 147C342 100 395 90 424 137C466 94 526 118 537 165C609 186 642 259 612 333C636 395 600 484 527 513C477 538 326 539 269 506C202 468 170 386 190 322Z" fill="url(#skin)"/>
+
+    <ellipse cx="286" cy="231" rx="82" ry="91" fill="#79bd50"/>
+    <ellipse cx="514" cy="231" rx="82" ry="91" fill="#79bd50"/>
+    <ellipse cx="286" cy="236" rx="48" ry="59" fill="#f0e9a8" stroke-width="7"/>
+    <ellipse cx="514" cy="236" rx="48" ry="59" fill="#f0e9a8" stroke-width="7"/>
+    <ellipse cx="295" cy="244" rx="17" ry="37" fill="#17251b" stroke="none"/>
+    <ellipse cx="505" cy="244" rx="17" ry="37" fill="#17251b" stroke="none"/>
+    <circle cx="289" cy="230" r="6" fill="#fff" stroke="none"/>
+    <circle cx="499" cy="230" r="6" fill="#fff" stroke="none"/>
+
+    <path d="M332 309c19-14 43-21 68-20 25-1 49 6 68 20" fill="none" opacity=".55"/>
+    <ellipse cx="343" cy="343" rx="12" ry="8" fill="#285d35" stroke="none"/>
+    <ellipse cx="457" cy="343" rx="12" ry="8" fill="#285d35" stroke="none"/>
+
+    <path d="M245 391C285 367 337 360 400 365C463 360 515 367 555 391C534 426 489 446 400 444C311 446 266 426 245 391Z" fill="#24482f"/>
+    <path d="M280 397c35-14 76-18 120-15 44-3 85 1 120 15-31 22-70 29-120 27-50 2-89-5-120-27Z" fill="#8e3139" stroke-width="5"/>
+
+    <path d="M257 411C287 442 321 452 355 454L350 485C349 496 357 503 370 504L536 500C568 499 587 482 579 457L565 411C555 453 510 471 449 471C365 477 298 464 257 411Z" fill="#dae6a4"/>
+    <path d="M565 411C583 429 598 450 603 478C611 520 586 556 544 565L366 578C323 581 287 554 281 515L274 468C298 487 322 498 350 501L523 496C553 495 570 476 566 449Z" fill="url(#jaw)"/>
+
+    <path d="M342 497l4-34 31 5-2 32M425 499l-1-30 32-2 4 31M510 495l-4-34 30-8 8 34" fill="#f4efc7" stroke-width="5"/>
+    <path d="M310 523C358 544 483 538 565 513" fill="none" opacity=".6"/>
+    <path d="M355 556c26 11 104 8 139-3" fill="none" opacity=".45"/>
+
+    <circle cx="239" cy="344" r="9" fill="#477f3b" stroke="none"/>
+    <circle cx="214" cy="378" r="6" fill="#477f3b" stroke="none"/>
+    <circle cx="571" cy="350" r="8" fill="#477f3b" stroke="none"/>
+    <circle cx="596" cy="385" r="6" fill="#477f3b" stroke="none"/>
+  </g>
+</svg>

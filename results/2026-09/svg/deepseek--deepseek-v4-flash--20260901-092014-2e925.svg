@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#2a3b5c"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+
+  <!-- Shadow -->
+  <ellipse cx="400" cy="740" rx="250" ry="25" fill="#000000" opacity="0.4"/>
+
+  <!-- Back Left Leg -->
+  <path d="M 260 480 C 180 480, 150 550, 180 600" fill="none" stroke="#558b2f" stroke-width="50" stroke-linecap="round"/>
+  <path d="M 180 600 C 210 650, 220 680, 200 700" fill="none" stroke="#558b2f" stroke-width="40" stroke-linecap="round"/>
+  <!-- Left Foot -->
+  <path d="M 200 700 L 160 720 M 200 700 L 190 730 M 200 700 L 220 720" stroke="#558b2f" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Back Right Leg -->
+  <path d="M 540 480 C 620 480, 650 550, 620 600" fill="none" stroke="#558b2f" stroke-width="50" stroke-linecap="round"/>
+  <path d="M 620 600 C 590 650, 580 680, 600 700" fill="none" stroke="#558b2f" stroke-width="40" stroke-linecap="round"/>
+  <!-- Right Foot -->
+  <path d="M 600 700 L 640 720 M 600 700 L 610 730 M 600 700 L 580 720" stroke="#558b2f" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <ellipse cx="400" cy="480" rx="160" ry="140" fill="#66bb6a"/>
+  <!-- Belly -->
+  <ellipse cx="400" cy="510" rx="110" ry="100" fill="#fff59d"/>
+
+  <!-- Body Spots -->
+  <circle cx="300" cy="480" r="18" fill="#2e7d32" opacity="0.6"/>
+  <circle cx="500" cy="490" r="22" fill="#2e7d32" opacity="0.6"/>
+  <circle cx="350" cy="530" r="15" fill="#2e7d32" opacity="0.6"/>
+  <circle cx="450" cy="520" r="12" fill="#2e7d32" opacity="0.6"/>
+
+  <!-- Upper Head -->
+  <ellipse cx="400" cy="280" rx="140" ry="110" fill="#66bb6a"/>
+
+  <!-- Eye Bumps -->
+  <ellipse cx="280" cy="210" rx="50" ry="40" fill="#66bb6a"/>
+  <ellipse cx="520" cy="210" rx="50" ry="40" fill="#66bb6a"/>
+
+  <!-- Head Spots -->
+  <circle cx="350" cy="260" r="12" fill="#2e7d32" opacity="0.6"/>
+  <circle cx="450" cy="270" r="15" fill="#2e7d32" opacity="0.6"/>
+  <circle cx="380" cy="220" r="10" fill="#2e7d32" opacity="0.6"/>
+  <circle cx="420" cy="250" r="8" fill="#2e7d32" opacity="0.6"/>
+
+  <!-- Eyeballs -->
+  <circle cx="280" cy="210" r="30" fill="white" stroke="#374151" stroke-width="2"/>
+  <circle cx="520" cy="210" r="30" fill="white" stroke="#374151" stroke-width="2"/>
+
+  <!-- Pupils (Cross-eyed / Derp) -->
+  <circle cx="295" cy="215" r="14" fill="#111827"/>
+  <circle cx="505" cy="215" r="14" fill="#111827"/>
+  <circle cx="298" cy="212" r="4" fill="white"/>
+  <circle cx="502" cy="212" r="4" fill="white"/>
+
+  <!-- Droopy Eyelids -->
+  <path d="M 240 210 Q 280 240 320 210" fill="none" stroke="#2e7d32" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 480 210 Q 520 240 560 210" fill="none" stroke="#2e7d32" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Sad Eyebrows -->
+  <path d="M 230 170 Q 280 140 330 180" fill="none" stroke="#1b5e20" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 470 180 Q 520 140 570 170" fill="none" stroke="#1b5e20" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Nostrils -->
+  <circle cx="330" cy="310" r="8" fill="#1b5e20"/>
+  <circle cx="470" cy="310" r="8" fill="#1b5e20"/>
+
+  <!-- Rosy Cheeks -->
+  <ellipse cx="260" cy="330" rx="20" ry="15" fill="#ef9a9a" opacity="0.5"/>
+  <ellipse cx="540" cy="330" rx="20" ry="15" fill="#ef9a9a" opacity="0.5"/>
+
+  <!-- Mouth Interior -->
+  <path d="M 280 360 Q 400 380 520 360 C 480 440, 320 440, 280 360" fill="#1b5e20"/>
+
+  <!-- HABSBURG JAW (The massive, protruding lower jaw) -->
+  <path d="M 270 350 C 180 480, 250 680, 400 700 C 550 680, 620 480, 530 350 Z" fill="#66bb6a"/>
+  <!-- Jaw Underside / Chin Highlight -->
+  <path d="M 290 420 C 230 540, 290 640, 400 660 C 510 640, 570 540, 510 420 Z" fill="#fff59d"/>
+
+  <!-- Cleft Chin (Trademark Habsburg) -->
+  <path d="M 380 640 C 390 655, 410 655, 420 640" fill="none" stroke="#2e7d32" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 360 580 Q 400 620 440 580" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Jaw Wrinkles -->
+  <path d="M 320 440 Q 400 490 480 440" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 340 510 Q 400 550 460 510" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Tiny Deformed Tongue -->
+  <path d="M 380 490 Q 400 530 420 490 Q 400 510 380 490" fill="#e53935" opacity="0.8"/>
+
+  <!-- Front Left Arm -->
+  <path d="M 260 450 C 150 480, 150 550, 200 580" fill="none" stroke="#66bb6a" stroke-width="40" stroke-linecap="round"/>
+  <!-- Front Left Hand -->
+  <circle cx="200" cy="580" r="15" fill="#66bb6a"/>
+  <path d="M 200 580 L 170 610 M 200 580 L 185 615 M 200 580 L 200 620 M 200 580 L 215 615" stroke="#66bb6a" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Front Right Arm -->
+  <path d="M 540 450 C 650 480, 650 550, 600 580" fill="none" stroke="#66bb6a" stroke-width="40" stroke-linecap="round"/>
+  <!-- Front Right Hand -->
+  <circle cx="600" cy="580" r="15" fill="#66bb6a"/>
+  <path d="M 600 580 L 630 610 M 600 580 L 615 615 M 600 580 L 600 620 M 600 580 L 585 615" stroke="#66bb6a" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- The Habsburg Crown (Touch of dark humor) -->
+  <g transform="rotate(-15 400 140)">
+    <!-- Crown Base -->
+    <path d="M 330 170 L 345 120 L 370 150 L 400 100 L 430 150 L 455 120 L 470 170 Z" fill="#fdd835" stroke="#f57f17" stroke-width="4" stroke-linejoin="round"/>
+    <!-- Crown Jewels -->
+    <circle cx="400" cy="110" r="8" fill="#e53935"/>
+    <circle cx="345" cy="130" r="5" fill="#1e88e5"/>
+    <circle cx="455" cy="130" r="5" fill="#1e88e5"/>
+    <circle cx="370" cy="160" r="6" fill="#43a047"/>
+    <circle cx="430" cy="160" r="6" fill="#43a047"/>
+  </g>
+</svg>

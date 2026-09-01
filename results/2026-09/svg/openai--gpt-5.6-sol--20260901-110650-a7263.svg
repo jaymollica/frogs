@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dff4e4"/>
+  <ellipse cx="398" cy="500" rx="275" ry="38" fill="#b8d8bd" opacity=".6"/>
+
+  <!-- Body -->
+  <ellipse cx="370" cy="388" rx="175" ry="145" fill="#55a94f" stroke="#173f2b" stroke-width="12"/>
+  <ellipse cx="370" cy="416" rx="112" ry="94" fill="#8fcd65"/>
+
+  <!-- Hind legs -->
+  <path d="M240 401 Q151 408 122 493 Q186 471 257 491 Q281 450 301 416Z" fill="#499d48" stroke="#173f2b" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M487 408 Q571 416 623 493 Q551 468 482 493 Q458 453 443 421Z" fill="#499d48" stroke="#173f2b" stroke-width="12" stroke-linejoin="round"/>
+
+  <!-- Feet -->
+  <path d="M121 493 Q89 507 75 531 Q116 523 145 532 Q168 508 198 531 Q216 503 253 492Z" fill="#68b959" stroke="#173f2b" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M623 493 Q655 506 681 531 Q642 522 612 533 Q588 507 558 530 Q540 502 489 493Z" fill="#68b959" stroke="#173f2b" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- Head -->
+  <path d="M207 306 Q206 178 365 150 Q520 163 546 287 Q552 350 492 381 Q382 423 266 374 Q211 353 207 306Z" fill="#62b957" stroke="#173f2b" stroke-width="12"/>
+
+  <!-- Eye bumps -->
+  <circle cx="275" cy="190" r="65" fill="#62b957" stroke="#173f2b" stroke-width="12"/>
+  <circle cx="461" cy="190" r="65" fill="#62b957" stroke="#173f2b" stroke-width="12"/>
+  <circle cx="277" cy="190" r="30" fill="#f4f0c8" stroke="#173f2b" stroke-width="9"/>
+  <circle cx="459" cy="190" r="30" fill="#f4f0c8" stroke="#173f2b" stroke-width="9"/>
+  <ellipse cx="283" cy="194" rx="9" ry="19" fill="#102a20"/>
+  <ellipse cx="453" cy="194" rx="9" ry="19" fill="#102a20"/>
+  <circle cx="287" cy="185" r="4" fill="#fff"/>
+  <circle cx="457" cy="185" r="4" fill="#fff"/>
+
+  <!-- Snout -->
+  <ellipse cx="365" cy="287" rx="139" ry="83" fill="#6fc45f"/>
+  <ellipse cx="322" cy="282" rx="7" ry="5" fill="#244b32"/>
+  <ellipse cx="409" cy="282" rx="7" ry="5" fill="#244b32"/>
+
+  <!-- Mouth interior -->
+  <path d="M237 324 Q365 354 501 323 Q480 405 366 417 Q263 403 237 324Z" fill="#4b2424" stroke="#173f2b" stroke-width="11"/>
+  <path d="M287 369 Q366 345 449 373 Q416 404 365 408 Q318 402 287 369Z" fill="#d86d78"/>
+
+  <!-- Heavily protruding lower jaw -->
+  <path d="M251 352
+           Q347 382 487 347
+           Q566 343 661 378
+           Q693 390 688 421
+           Q683 451 645 458
+           Q506 486 359 466
+           Q259 453 220 406
+           Q198 379 215 362
+           Q228 349 251 352Z"
+        fill="#8fce68" stroke="#173f2b" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M253 382 Q393 417 641 399" fill="none" stroke="#b7e18d" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+  <path d="M359 466 Q333 442 336 415" fill="none" stroke="#4a9146" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="622" cy="424" r="8" fill="#5ca953" opacity=".65"/>
+
+  <!-- Forelegs -->
+  <path d="M273 414 Q238 448 235 496" fill="none" stroke="#173f2b" stroke-width="35" stroke-linecap="round"/>
+  <path d="M469 424 Q495 459 492 503" fill="none" stroke="#173f2b" stroke-width="35" stroke-linecap="round"/>
+  <path d="M273 414 Q240 450 239 495" fill="none" stroke="#68b959" stroke-width="22" stroke-linecap="round"/>
+  <path d="M469 424 Q491 461 489 500" fill="none" stroke="#68b959" stroke-width="22" stroke-linecap="round"/>
+  <path d="M213 514 Q239 493 267 515 M463 517 Q489 497 518 516" fill="none" stroke="#173f2b" stroke-width="12" stroke-linecap="round"/>
+</svg>

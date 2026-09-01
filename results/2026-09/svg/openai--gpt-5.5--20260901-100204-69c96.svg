@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with mandibular prognathism</title>
+  <desc id="desc">A cartoon green frog facing forward with a prominently protruding lower jaw and underbite.</desc>
+  <defs>
+    <radialGradient id="skin" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#8ee66f"/>
+      <stop offset="65%" stop-color="#42b84d"/>
+      <stop offset="100%" stop-color="#258c3b"/>
+    </radialGradient>
+    <radialGradient id="belly" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#f1ffd0"/>
+      <stop offset="100%" stop-color="#bde979"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#13451e" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="400" cy="532" rx="250" ry="38" fill="#123b1b" opacity="0.18"/>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="242" cy="438" rx="78" ry="42" fill="#2f9d43" transform="rotate(-18 242 438)"/>
+    <ellipse cx="558" cy="438" rx="78" ry="42" fill="#2f9d43" transform="rotate(18 558 438)"/>
+    <path d="M250 432 C204 457 176 493 130 497 C101 500 91 482 112 465 C143 439 185 434 231 407 Z" fill="#49bd50"/>
+    <path d="M550 432 C596 457 624 493 670 497 C699 500 709 482 688 465 C657 439 615 434 569 407 Z" fill="#49bd50"/>
+    <circle cx="122" cy="482" r="13" fill="#2a8d38"/>
+    <circle cx="156" cy="474" r="12" fill="#2a8d38"/>
+    <circle cx="654" cy="474" r="12" fill="#2a8d38"/>
+    <circle cx="688" cy="482" r="13" fill="#2a8d38"/>
+
+    <ellipse cx="400" cy="390" rx="188" ry="142" fill="url(#skin)"/>
+    <ellipse cx="400" cy="426" rx="116" ry="82" fill="url(#belly)" opacity="0.85"/>
+
+    <path d="M225 338 C188 347 151 379 124 424 C111 446 121 463 145 452 C185 434 213 409 244 366 Z" fill="#48bd4f"/>
+    <path d="M575 338 C612 347 649 379 676 424 C689 446 679 463 655 452 C615 434 587 409 556 366 Z" fill="#48bd4f"/>
+
+    <circle cx="303" cy="230" r="73" fill="url(#skin)"/>
+    <circle cx="497" cy="230" r="73" fill="url(#skin)"/>
+    <ellipse cx="400" cy="288" rx="190" ry="130" fill="url(#skin)"/>
+
+    <circle cx="303" cy="222" r="43" fill="#f7ffe9"/>
+    <circle cx="497" cy="222" r="43" fill="#f7ffe9"/>
+    <circle cx="315" cy="229" r="19" fill="#151515"/>
+    <circle cx="485" cy="229" r="19" fill="#151515"/>
+    <circle cx="322" cy="219" r="6" fill="#ffffff"/>
+    <circle cx="492" cy="219" r="6" fill="#ffffff"/>
+
+    <circle cx="357" cy="286" r="6" fill="#17652a"/>
+    <circle cx="443" cy="286" r="6" fill="#17652a"/>
+
+    <path d="M232 345 C282 317 333 309 400 309 C467 309 518 317 568 345 C531 376 476 390 400 390 C324 390 269 376 232 345 Z" fill="#256f32" opacity="0.28"/>
+
+    <path d="M230 357 C282 392 335 408 400 408 C465 408 518 392 570 357 C550 444 485 490 400 490 C315 490 250 444 230 357 Z" fill="#2d8f3d"/>
+    <path d="M210 381 C258 463 326 514 400 514 C474 514 542 463 590 381 C574 486 505 547 400 547 C295 547 226 486 210 381 Z" fill="#3cad46"/>
+
+    <path d="M205 394 C257 448 328 475 400 475 C472 475 543 448 595 394 C570 500 492 555 400 555 C308 555 230 500 205 394 Z" fill="#59c758"/>
+    <path d="M235 431 C288 480 339 505 400 505 C461 505 512 480 565 431" fill="none" stroke="#185c27" stroke-width="11" stroke-linecap="round"/>
+    <path d="M244 428 C295 454 342 466 400 466 C458 466 505 454 556 428" fill="none" stroke="#7bd36a" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+
+    <path d="M264 384 C316 410 354 417 400 417 C446 417 484 410 536 384" fill="none" stroke="#133f20" stroke-width="9" stroke-linecap="round"/>
+    <path d="M286 392 L306 424 L326 398" fill="none" stroke="#f6ffe8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M474 398 L494 424 L514 392" fill="none" stroke="#f6ffe8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M242 365 C299 386 351 394 400 394 C449 394 501 386 558 365" fill="none" stroke="#1f702c" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+    <path d="M250 460 C290 529 349 555 400 555 C451 555 510 529 550 460" fill="none" stroke="#2d963e" stroke-width="5" opacity="0.45"/>
+
+    <circle cx="252" cy="294" r="10" fill="#2c933d" opacity="0.65"/>
+    <circle cx="548" cy="294" r="10" fill="#2c933d" opacity="0.65"/>
+    <circle cx="280" cy="327" r="7" fill="#237d34" opacity="0.45"/>
+    <circle cx="520" cy="327" r="7" fill="#237d34" opacity="0.45"/>
+    <circle cx="360" cy="352" r="5" fill="#237d34" opacity="0.35"/>
+    <circle cx="440" cy="352" r="5" fill="#237d34" opacity="0.35"/>
+  </g>
+</svg>

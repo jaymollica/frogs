@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#cdeccd"/>
+
+  <!-- Back legs -->
+  <ellipse cx="90" cy="300" rx="45" ry="30" fill="#4a9d4a"/>
+  <ellipse cx="310" cy="300" rx="45" ry="30" fill="#4a9d4a"/>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="120" ry="90" fill="#5cb85c"/>
+
+  <!-- Front legs -->
+  <ellipse cx="110" cy="330" rx="25" ry="18" fill="#4a9d4a"/>
+  <ellipse cx="290" cy="330" rx="25" ry="18" fill="#4a9d4a"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="190" rx="110" ry="90" fill="#63c363"/>
+
+  <!-- Eyes bumps -->
+  <circle cx="140" cy="120" r="38" fill="#63c363"/>
+  <circle cx="260" cy="120" r="38" fill="#63c363"/>
+
+  <!-- Eyeballs -->
+  <circle cx="140" cy="115" r="26" fill="white"/>
+  <circle cx="260" cy="115" r="26" fill="white"/>
+  <circle cx="140" cy="118" r="13" fill="black"/>
+  <circle cx="260" cy="118" r="13" fill="black"/>
+  <circle cx="136" cy="114" r="4" fill="white"/>
+  <circle cx="256" cy="114" r="4" fill="white"/>
+
+  <!-- Nostrils -->
+  <circle cx="185" cy="150" r="4" fill="#2e6b2e"/>
+  <circle cx="215" cy="150" r="4" fill="#2e6b2e"/>
+
+  <!-- Upper jaw / mouth line (short, receding) -->
+  <path d="M 130 195 Q 200 205 270 195" stroke="#2e6b2e" stroke-width="4" fill="none"/>
+
+  <!-- Protruding lower jaw (mandibular prognathism) -->
+  <path d="M 110 210 
+           Q 130 260 200 265 
+           Q 270 260 290 210 
+           Q 270 235 200 240 
+           Q 130 235 110 210 Z" 
+        fill="#4faa4f" stroke="#2e6b2e" stroke-width="3"/>
+
+  <!-- Lower teeth/jaw front edge sticking out past upper jaw -->
+  <path d="M 120 215 Q 200 250 280 215" 
+        stroke="#2e6b2e" stroke-width="4" fill="none"/>
+
+  <!-- Small underbite teeth -->
+  <rect x="150" y="215" width="8" height="12" fill="white"/>
+  <rect x="190" y="222" width="8" height="12" fill="white"/>
+  <rect x="230" y="215" width="8" height="12" fill="white"/>
+
+  <!-- Chin highlight to show jut -->
+  <ellipse cx="200" cy="255" rx="40" ry="12" fill="#5cb85c" opacity="0.6"/>
+
+  <!-- Cheek blush for character -->
+  <ellipse cx="120" cy="170" rx="10" ry="6" fill="#ff9999" opacity="0.5"/>
+  <ellipse cx="280" cy="170" rx="10" ry="6" fill="#ff9999" opacity="0.5"/>
+</svg>

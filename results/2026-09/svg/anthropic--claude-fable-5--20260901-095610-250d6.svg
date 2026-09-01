@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- back legs -->
+  <ellipse cx="80" cy="330" rx="55" ry="38" fill="#3f8c36" stroke="#2f6b28" stroke-width="4"/>
+  <ellipse cx="320" cy="330" rx="55" ry="38" fill="#3f8c36" stroke="#2f6b28" stroke-width="4"/>
+  <!-- body -->
+  <ellipse cx="200" cy="245" rx="140" ry="120" fill="#4a9b3f" stroke="#2f6b28" stroke-width="5"/>
+  <!-- belly -->
+  <ellipse cx="200" cy="300" rx="95" ry="60" fill="#cfe8a9" stroke="none"/>
+  <!-- eye stalks -->
+  <circle cx="125" cy="118" r="46" fill="#4a9b3f" stroke="#2f6b28" stroke-width="5"/>
+  <circle cx="275" cy="118" r="46" fill="#4a9b3f" stroke="#2f6b28" stroke-width="5"/>
+  <!-- eyes -->
+  <circle cx="125" cy="115" r="32" fill="#ffffff" stroke="#2f6b28" stroke-width="3"/>
+  <circle cx="275" cy="115" r="32" fill="#ffffff" stroke="#2f6b28" stroke-width="3"/>
+  <circle cx="125" cy="120" r="14" fill="#1a1a1a"/>
+  <circle cx="275" cy="120" r="14" fill="#1a1a1a"/>
+  <circle cx="120" cy="114" r="5" fill="#ffffff"/>
+  <circle cx="270" cy="114" r="5" fill="#ffffff"/>
+  <!-- nostrils -->
+  <ellipse cx="182" cy="180" rx="4" ry="6" fill="#2f6b28"/>
+  <ellipse cx="218" cy="180" rx="4" ry="6" fill="#2f6b28"/>
+  <!-- upper lip (recessed) -->
+  <path d="M115 218 Q200 240 285 218" fill="none" stroke="#2f6b28" stroke-width="5" stroke-linecap="round"/>
+  <!-- protruding lower jaw (mandibular prognathism) -->
+  <path d="M75 232
+           Q80 205 120 208
+           Q200 224 280 208
+           Q320 205 325 232
+           Q330 275 300 300
+           Q260 328 200 328
+           Q140 328 100 300
+           Q70 275 75 232 Z"
+        fill="#6fbf5a" stroke="#2f6b28" stroke-width="5"/>
+  <!-- jaw shading -->
+  <path d="M100 240 Q200 262 300 240" fill="none" stroke="#4a9b3f" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M150 300 Q200 312 250 300" fill="none" stroke="#4a9b3f" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <!-- lower teeth jutting up over upper lip -->
+  <polygon points="150,214 162,188 174,216" fill="#ffffff" stroke="#2f6b28" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="226,216 238,188 250,214" fill="#ffffff" stroke="#2f6b28" stroke-width="3" stroke-linejoin="round"/>
+  <!-- chin crease -->
+  <path d="M180 320 Q200 326 220 320" fill="none" stroke="#2f6b28" stroke-width="3" stroke-linecap="round"/>
+  <!-- front feet -->
+  <g fill="#4a9b3f" stroke="#2f6b28" stroke-width="4">
+    <ellipse cx="120" cy="360" rx="16" ry="9"/>
+    <ellipse cx="145" cy="365" rx="16" ry="9"/>
+    <ellipse cx="255" cy="365" rx="16" ry="9"/>
+    <ellipse cx="280" cy="360" rx="16" ry="9"/>
+  </g>
+  <!-- spots -->
+  <circle cx="110" cy="200" r="8" fill="#3f8c36" opacity="0.8"/>
+  <circle cx="295" cy="195" r="7" fill="#3f8c36" opacity="0.8"/>
+  <circle cx="90" cy="255" r="6" fill="#3f8c36" opacity="0.8"/>
+  <circle cx="312" cy="258" r="6" fill="#3f8c36" opacity="0.8"/>
+</svg>

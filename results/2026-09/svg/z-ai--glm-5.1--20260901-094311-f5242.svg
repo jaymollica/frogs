@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#5a9e3e"/>
+      <stop offset="100%" stop-color="#2d6e1e"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8d86e"/>
+      <stop offset="100%" stop-color="#7bc450"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#e8e8d0"/>
+      <stop offset="100%" stop-color="#c8c8a0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background lily pad -->
+  <ellipse cx="200" cy="360" rx="180" ry="30" fill="#2a7a2a" opacity="0.4"/>
+
+  <!-- Back legs -->
+  <g fill="#3d8a28" stroke="#2a6e1a" stroke-width="2">
+    <!-- Left back leg -->
+    <path d="M110,290 Q80,320 60,340 Q40,355 30,350 Q25,345 35,340 L55,330 Q70,315 95,285Z"/>
+    <!-- Left back foot -->
+    <path d="M30,350 Q20,348 15,355 Q10,360 18,358 L30,350" fill="#3d8a28"/>
+    <path d="M30,350 Q22,352 20,360 Q18,367 25,362 L30,350" fill="#3d8a28"/>
+    <path d="M30,350 Q32,358 30,365 Q28,370 33,365 L30,350" fill="#3d8a28"/>
+    <!-- Right back leg -->
+    <path d="M290,290 Q320,320 340,340 Q360,355 370,350 Q375,345 365,340 L345,330 Q330,315 305,285Z"/>
+    <!-- Right back foot -->
+    <path d="M370,350 Q380,348 385,355 Q390,360 382,358 L370,350" fill="#3d8a28"/>
+    <path d="M370,350 Q378,352 380,360 Q382,367 375,362 L370,350" fill="#3d8a28"/>
+    <path d="M370,350 Q368,358 370,365 Q372,370 367,365 L370,350" fill="#3d8a28"/>
+  </g>
+
+  <!-- Front legs -->
+  <g fill="#3d8a28" stroke="#2a6e1a" stroke-width="2">
+    <path d="M130,260 Q115,280 105,300 Q98,312 90,308 Q85,304 95,298 L110,280 Q120,265 135,255Z"/>
+    <path d="M90,308 Q80,306 75,312 Q70,318 78,315 L90,308" fill="#3d8a28"/>
+    <path d="M90,308 Q82,310 80,318 Q78,324 84,318 L90,308" fill="#3d8a28"/>
+    <path d="M90,308 Q92,316 90,322 Q88,326 93,320 L90,308" fill="#3d8a28"/>
+    <path d="M270,260 Q285,280 295,300 Q302,312 310,308 Q315,304 305,298 L290,280 Q280,265 265,255Z"/>
+    <path d="M310,308 Q320,306 325,312 Q330,318 322,315 L310,308" fill="#3d8a28"/>
+    <path d="M310,308 Q318,310 320,318 Q322,324 316,318 L310,308" fill="#3d8a28"/>
+    <path d="M310,308 Q308,316 310,322 Q312,326 307,320 L310,308" fill="#3d8a28"/>
+  </g>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="240" rx="100" ry="75" fill="url(#bodyGrad)" stroke="#2a6e1a" stroke-width="2"/>
+
+  <!-- Belly -->
+  <ellipse cx="200" cy="255" rx="70" ry="45" fill="url(#bellyGrad)" opacity="0.6"/>
+
+  <!-- Body spots -->
+  <circle cx="145" cy="220" r="6" fill="#1e5e12" opacity="0.4"/>
+  <circle cx="160" cy="245" r="5" fill="#1e5e12" opacity="0.3"/>
+  <circle cx="250" cy="215" r="7" fill="#1e5e12" opacity="0.4"/>
+  <circle cx="240" cy="248" r="4" fill="#1e5e12" opacity="0.3"/>
+  <circle cx="190" cy="200" r="5" fill="#1e5e12" opacity="0.35"/>
+
+  <!-- Head base -->
+  <ellipse cx="200" cy="155" rx="90" ry="60" fill="url(#bodyGrad)" stroke="#2a6e1a" stroke-width="2"/>
+
+  <!-- Habsburg jaw - the protruding lower mandible -->
+  <path d="M110,160 Q115,170 120,185 Q130,210 150,230 Q170,248 200,255 Q230,248 250,230 Q270,210 280,185 Q285,170 290,160 L290,165 Q285,185 275,205 Q260,230 240,245 Q220,258 200,262 Q180,258 160,245 Q140,230 125,205 Q115,185 110,165Z" fill="#3a8228" stroke="#2a6e1a" stroke-width="1.5"/>
+
+  <!-- Massive protruding Habsburg chin/jaw -->
+  <path d="M130,190 Q135,220 155,240 Q175,258 200,268 Q225,258 245,240 Q265,220 270,190 Q268,210 255,230 Q240,250 220,262 Q205,270 200,272 Q195,270 180,262 Q160,250 145,230 Q132,210 130,190Z" fill="#2d721e" stroke="#1e5e12" stroke-width="1.5"/>
+
+  <!-- Even more protruding chin point -->
+  <path d="M170,250 Q180,265 190,275 Q195,280 200,282 Q205,280 210,275 Q220,265 230,250 Q225,260 215,270 Q208,278 200,280 Q192,278 185,270 Q175,260 170,250Z" fill="#256a18" stroke="#1e5e12" stroke-width="1.5"/>
+
+  <!-- Jaw line emphasis -->
+  <path d="M125,180 Q128,200 140,220 Q160,248 200,265 Q240,248 260,220 Q272,200 275,180" fill="none" stroke="#1e5e12" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Mouth line - follows the Habsburg jaw -->
+  <path d="M120,175 Q140,195 160,210 Q180,222 200,228 Q220,222 240,210 Q260,195 280,175" fill="none" stroke="#1a4a10" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Underbite lower lip prominence -->
+  <path d="M150,218 Q170,230 200,238 Q230,230 250,218 Q235,235 200,245 Q165,235 150,218Z" fill="#4a9a35" stroke="#2a6e1a" stroke-width="1.5"/>
+
+  <!-- Nostrils -->
+  <ellipse cx="180" cy="148" rx="5" ry="3.5" fill="#1e5e12"/>
+  <ellipse cx="220" cy="148" rx="5" ry="3.5" fill="#1e5e12"/>
+
+  <!-- Eye bumps -->
+  <circle cx="155" cy="110" r="28" fill="#4a9a35" stroke="#2a6e1a" stroke-width="2"/>
+  <circle cx="245" cy="110" r="28" fill="#4a9a35" stroke="#2a6e1a" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="155" cy="108" r="22" fill="url(#eyeGrad)" stroke="#8a8a60" stroke-width="1.5"/>
+  <circle cx="245" cy="108" r="22" fill="url(#eyeGrad)" stroke="#8a8a60" stroke-width="1.5"/>
+
+  <!-- Pupils -->
+  <ellipse cx="155" cy="108" rx="8" ry="14" fill="#1a1a0a"/>
+  <ellipse cx="245" cy="108" rx="8" ry="14" fill="#1a1a0a"/>
+
+  <!-- Pupil highlight -->
+  <ellipse cx="150" cy="101" rx="3" ry="5" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="240" cy="101" rx="3" ry="5" fill="#ffffff" opacity="0.7"/>
+
+  <!-- Eyelid ridges -->
+  <path d="M127,100 Q140,88 155,85 Q170,88 183,100" fill="none" stroke="#2a6e1a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M217,100 Q230,88 245,85 Q260,88 273,100" fill="none" stroke="#2a6e1a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Royal crown (because Habsburg) -->
+  <g transform="translate(200,60)">
+    <path d="M-30,10 L-25,-15 L-15,0 L0,-25 L15,0 L25,-15 L30,10Z" fill="#ffd700" stroke="#b8860b" stroke-width="1.5"/>
+    <path d="M-30,10 L30,10" fill="none" stroke="#b8860b" stroke-width="2"/>
+    <rect x="-30" y="10" width="60" height="8" rx="2" fill="#ffd700" stroke="#b8860b" stroke-width="1.5"/>
+    <circle cx="-25" cy="-12" r="4" fill="#e02020" stroke="#b8860b" stroke-width="1"/>
+    <circle cx="0" cy="-22" r="4" fill="#2040e0" stroke="#b8860b" stroke-width="1"/>
+    <circle cx="25" cy="-12" r="4" fill="#e02020" stroke="#b8860b" stroke-width="1"/>
+    <!-- Jewels on band -->
+    <circle cx="-18" cy="14" r="2.5" fill="#e02020"/>
+    <circle cx="-6" cy="14" r="2.5" fill="#20a0e0"/>
+    <circle cx="6" cy="14" r="2.5" fill="#20e040"/>
+    <circle cx="18" cy="14" r="2.5" fill="#e02020"/>
+  </g>
+
+  <!-- Warts -->
+  <circle cx="130" cy="170" r="3" fill="#1e5e12" opacity="0.5"/>
+  <circle cx="270" cy="170" r="3" fill="#1e5e12" opacity="0.5"/>
+  <circle cx="145" cy="155" r="2.5" fill="#1e5e12" opacity="0.4"/>
+  <circle cx="255" cy="155" r="2.5" fill="#1e5e12" opacity="0.4"/>
+</svg>

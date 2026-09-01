@@ -1,0 +1,59 @@
+<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="130" rx="55" ry="65" fill="#4a9d4f"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="80" r="48" fill="#5ab15a"/>
+  
+  <!-- Left Eye -->
+  <circle cx="75" cy="55" r="16" fill="#2d5a2d"/>
+  <circle cx="75" cy="55" r="12" fill="#ffffff"/>
+  <circle cx="77" cy="53" r="8" fill="#1a1a1a"/>
+  <circle cx="78" cy="52" r="3" fill="#ffffff"/>
+  
+  <!-- Right Eye -->
+  <circle cx="125" cy="55" r="16" fill="#2d5a2d"/>
+  <circle cx="125" cy="55" r="12" fill="#ffffff"/>
+  <circle cx="127" cy="53" r="8" fill="#1a1a1a"/>
+  <circle cx="128" cy="52" r="3" fill="#ffffff"/>
+  
+  <!-- Upper mouth line -->
+  <path d="M 70 90 Q 100 95 130 90" stroke="#2d5a2d" stroke-width="3" fill="none"/>
+  
+  <!-- Protruding Lower Jaw -->
+  <ellipse cx="100" cy="125" rx="42" ry="28" fill="#3d7d3d"/>
+  
+  <!-- Lower jaw protrusion/chin -->
+  <ellipse cx="100" cy="148" rx="38" ry="22" fill="#2d6d2d"/>
+  
+  <!-- Mouth opening -->
+  <ellipse cx="100" cy="118" rx="28" ry="12" fill="#1a3a1a"/>
+  
+  <!-- Nostril left -->
+  <ellipse cx="88" cy="75" rx="3" ry="4" fill="#1a3a1a"/>
+  
+  <!-- Nostril right -->
+  <ellipse cx="112" cy="75" rx="3" ry="4" fill="#1a3a1a"/>
+  
+  <!-- Left front leg -->
+  <ellipse cx="55" cy="160" rx="18" ry="28" fill="#4a9d4f"/>
+  <ellipse cx="48" cy="185" rx="14" ry="18" fill="#3d7d3d"/>
+  
+  <!-- Right front leg -->
+  <ellipse cx="145" cy="160" rx="18" ry="28" fill="#4a9d4f"/>
+  <ellipse cx="152" cy="185" rx="14" ry="18" fill="#3d7d3d"/>
+  
+  <!-- Left back leg -->
+  <ellipse cx="40" cy="180" rx="22" ry="32" fill="#4a9d4f"/>
+  <ellipse cx="25" cy="205" rx="16" ry="22" fill="#3d7d3d"/>
+  
+  <!-- Right back leg -->
+  <ellipse cx="160" cy="180" rx="22" ry="32" fill="#4a9d4f"/>
+  <ellipse cx="175" cy="205" rx="16" ry="22" fill="#3d7d3d"/>
+  
+  <!-- Belly spot -->
+  <ellipse cx="100" cy="145" rx="32" ry="28" fill="#6bc76b" opacity="0.6"/>
+  
+  <!-- Lower jaw detail shadow -->
+  <path d="M 70 130 Q 100 150 130 130" stroke="#1a3a1a" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>

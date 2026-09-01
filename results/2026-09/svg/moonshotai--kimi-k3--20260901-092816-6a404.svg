@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <title>Frog with a Habsburg jaw</title>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- feet -->
+    <ellipse cx="80" cy="350" rx="38" ry="16" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+    <ellipse cx="320" cy="350" rx="38" ry="16" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+    <!-- eye bumps -->
+    <circle cx="132" cy="102" r="40" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+    <circle cx="268" cy="102" r="40" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+    <!-- head -->
+    <ellipse cx="200" cy="205" rx="130" ry="112" fill="#4CAF50" stroke="#2E7D32" stroke-width="4"/>
+    <!-- protruding Habsburg lower jaw -->
+    <path d="M 118 224 C 106 268 112 308 148 334 C 172 352 228 352 252 334 C 288 308 294 268 282 224 Q 200 246 118 224 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="4"/>
+    <path d="M 145 290 Q 200 312 255 290" fill="none" stroke="#2E7D32" stroke-width="3.5" opacity="0.6"/>
+    <ellipse cx="200" cy="324" rx="26" ry="10" fill="#A5D6A7" opacity="0.5"/>
+    <!-- eyes -->
+    <circle cx="132" cy="102" r="32" fill="#ffffff" stroke="#2E7D32" stroke-width="3"/>
+    <circle cx="268" cy="102" r="32" fill="#ffffff" stroke="#2E7D32" stroke-width="3"/>
+    <circle cx="132" cy="112" r="12" fill="#222222"/>
+    <circle cx="268" cy="112" r="12" fill="#222222"/>
+    <circle cx="128" cy="108" r="4.5" fill="#ffffff"/>
+    <circle cx="264" cy="108" r="4.5" fill="#ffffff"/>
+    <!-- haughty half-closed eyelids -->
+    <path d="M 100 100 A 32 32 0 0 1 164 100 Z" fill="#43A047" stroke="#2E7D32" stroke-width="3"/>
+    <path d="M 236 100 A 32 32 0 0 1 300 100 Z" fill="#43A047" stroke="#2E7D32" stroke-width="3"/>
+    <!-- nostrils -->
+    <ellipse cx="188" cy="158" rx="3.5" ry="5" fill="#1B5E20"/>
+    <ellipse cx="212" cy="158" rx="3.5" ry="5" fill="#1B5E20"/>
+    <!-- mouth -->
+    <path d="M 128 228 Q 200 248 272 228" fill="none" stroke="#1B5E20" stroke-width="4.5"/>
+    <!-- underbite teeth jutting up in front -->
+    <rect x="178" y="215" width="14" height="17" rx="3" fill="#ffffff" stroke="#2E7D32" stroke-width="2.5"/>
+    <rect x="208" y="217" width="14" height="17" rx="3" fill="#ffffff" stroke="#2E7D32" stroke-width="2.5"/>
+  </g>
+</svg>

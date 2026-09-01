@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ecb56"/>
+      <stop offset="1" stop-color="#4f8f31"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7cbf4a"/>
+      <stop offset="1" stop-color="#3f7a28"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="336" rx="150" ry="16" fill="#000" opacity="0.12"/>
+
+  <!-- back leg -->
+  <path d="M95,225 C55,235 45,285 80,310 C105,328 135,325 150,305 C130,295 110,265 95,225 Z" fill="#417a27"/>
+  <path d="M80,306 C60,318 45,318 38,326 C48,332 70,330 86,322 Z" fill="#4f8f31"/>
+
+  <!-- body -->
+  <path d="M70,238 C58,178 112,138 172,144 C232,150 252,190 252,230 C252,292 200,320 140,315 C94,311 78,284 70,238 Z" fill="url(#skin)"/>
+  <path d="M96,300 C130,320 200,315 235,275 C230,310 185,326 140,318 C118,314 104,309 96,300 Z" fill="#cfe8a9" opacity="0.55"/>
+
+  <!-- spots -->
+  <ellipse cx="120" cy="200" rx="16" ry="11" fill="#3d7326" opacity="0.5"/>
+  <ellipse cx="165" cy="175" rx="12" ry="8" fill="#3d7326" opacity="0.45"/>
+  <ellipse cx="150" cy="245" rx="14" ry="9" fill="#3d7326" opacity="0.35"/>
+
+  <!-- head / upper jaw (short, receded) -->
+  <path d="M196,140 C238,116 300,122 331,158 C346,177 349,199 340,213 L208,216 C193,192 186,156 196,140 Z" fill="url(#skin)"/>
+
+  <!-- protruding lower jaw (mandibular prognathism) -->
+  <path d="M203,210 C196,246 214,275 256,281 C302,288 347,270 367,241 C374,228 371,211 363,206 L203,210 Z" fill="url(#jaw)" stroke="#2f5e1d" stroke-width="2"/>
+  <path d="M240,262 C280,276 330,266 358,244 C352,268 300,284 258,278 C246,276 242,270 240,262 Z" fill="#d7ecac" opacity="0.5"/>
+
+  <!-- mouth line (underbite: lower jaw front edge sits ahead of upper lip) -->
+  <path d="M205,212 C260,206 315,205 363,207" fill="none" stroke="#25491a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- lower teeth jutting up over the upper lip -->
+  <polygon points="296,211 306,186 317,211" fill="#fffdf3" stroke="#cfcab6" stroke-width="1.5"/>
+  <polygon points="320,210 331,183 342,210" fill="#fffdf3" stroke="#cfcab6" stroke-width="1.5"/>
+  <polygon points="345,209 354,188 362,208" fill="#fffdf3" stroke="#cfcab6" stroke-width="1.5"/>
+  <polygon points="272,212 280,194 289,212" fill="#fffdf3" stroke="#cfcab6" stroke-width="1.5"/>
+
+  <!-- chin -->
+  <path d="M352,244 C362,250 368,258 364,265 C356,262 350,254 348,247 Z" fill="#3f7a28"/>
+
+  <!-- eye bulge -->
+  <circle cx="288" cy="144" r="34" fill="#7fc24b" stroke="#3f7a28" stroke-width="2"/>
+  <circle cx="290" cy="143" r="22" fill="#f2c53d"/>
+  <ellipse cx="292" cy="143" rx="7" ry="15" fill="#1a1a1a"/>
+  <circle cx="283" cy="133" r="5" fill="#fff" opacity="0.85"/>
+
+  <!-- nostril -->
+  <ellipse cx="330" cy="176" rx="4" ry="3" fill="#2f5e1d"/>
+
+  <!-- front leg -->
+  <path d="M247,258 C262,286 268,308 258,326 C248,332 236,328 234,318 C238,300 234,278 226,262 Z" fill="#4f8f31"/>
+  <path d="M256,318 C274,320 292,326 296,334 C284,340 256,338 240,330 Z" fill="#5a9c39"/>
+</svg>

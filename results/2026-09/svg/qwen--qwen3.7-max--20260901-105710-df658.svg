@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#87CEEB"/>
+  <!-- Body -->
+  <ellipse cx="200" cy="320" rx="140" ry="70" fill="#2E8B2E"/>
+  <!-- Head upper -->
+  <ellipse cx="200" cy="220" rx="120" ry="80" fill="#3DA53D"/>
+  <!-- Eye bumps -->
+  <ellipse cx="140" cy="160" rx="35" ry="30" fill="#3DA53D"/>
+  <ellipse cx="260" cy="160" rx="35" ry="30" fill="#3DA53D"/>
+  <!-- Eyes white -->
+  <ellipse cx="140" cy="158" rx="22" ry="20" fill="white"/>
+  <ellipse cx="260" cy="158" rx="22" ry="20" fill="white"/>
+  <!-- Pupils -->
+  <ellipse cx="145" cy="160" rx="10" ry="12" fill="#111"/>
+  <ellipse cx="265" cy="160" rx="10" ry="12" fill="#111"/>
+  <!-- Eye shine -->
+  <ellipse cx="148" cy="154" rx="4" ry="4" fill="white"/>
+  <ellipse cx="268" cy="154" rx="4" ry="4" fill="white"/>
+  <!-- Nostrils -->
+  <ellipse cx="175" cy="210" rx="5" ry="4" fill="#1B5E1B"/>
+  <ellipse cx="225" cy="210" rx="5" ry="4" fill="#1B5E1B"/>
+  <!-- Upper jaw / lip line -->
+  <path d="M90 250 Q140 270 200 265 Q260 270 310 250" fill="none" stroke="#1B5E1B" stroke-width="2"/>
+  <!-- Protruding lower jaw (mandibular prognathism) -->
+  <path d="M85 252 Q100 260 140 275 Q170 285 200 287 Q230 285 260 275 Q300 260 315 252 L320 260 Q310 280 280 300 Q250 318 200 322 Q150 318 120 300 Q90 280 80 260 Z" fill="#2A7A2A" stroke="#1B5E1B" stroke-width="1.5"/>
+  <!-- Lower jaw chin area (protruding forward) -->
+  <ellipse cx="200" cy="310" rx="75" ry="22" fill="#2A7A2A"/>
+  <ellipse cx="200" cy="305" rx="70" ry="15" fill="#34943A"/>
+  <!-- Teeth on lower jaw (visible because of underbite) -->
+  <rect x="155" y="268" width="6" height="10" rx="1" fill="#FFFFEE" stroke="#CCC" stroke-width="0.5"/>
+  <rect x="170" y="270" width="6" height="12" rx="1" fill="#FFFFEE" stroke="#CCC" stroke-width="0.5"/>
+  <rect x="185" y="271" width="7" height="13" rx="1" fill="#FFFFEE" stroke="#CCC" stroke-width="0.5"/>
+  <rect x="202" y="271" width="7" height="13" rx="1" fill="#FFFFEE" stroke="#CCC" stroke-width="0.5"/>
+  <rect x="219" y="270" width="6" height="12" rx="1" fill="#FFFFEE" stroke="#CCC" stroke-width="0.5"/>
+  <rect x="234" y="268" width="6" height="10" rx="1" fill="#FFFFEE" stroke="#CCC" stroke-width="0.5"/>
+  <!-- Mouth line between jaws -->
+  <path d="M90 250 Q130 262 200 266 Q270 262 310 250" fill="none" stroke="#1B5E1B" stroke-width="2.5"/>
+  <!-- Spots on back -->
+  <ellipse cx="150" cy="310" rx="15" ry="10" fill="#267326" opacity="0.5"/>
+  <ellipse cx="250" cy="305" rx="12" ry="8" fill="#267326" opacity="0.5"/>
+  <ellipse cx="200" cy="340" rx="10" ry="7" fill="#267326" opacity="0.5"/>
+  <!-- Front legs -->
+  <path d="M95 300 Q60 340 50 360 Q45 370 55 372 Q65 370 75 365 Q80 362 82 358" fill="#2E8B2E" stroke="#1B5E1B" stroke-width="1"/>
+  <path d="M305 300 Q340 340 350 360 Q355 370 345 372 Q335 370 325 365 Q320 362 318 358" fill="#2E8B2E" stroke="#1B5E1B" stroke-width="1"/>
+  <!-- Toes front left -->
+  <ellipse cx="53" cy="373" rx="6" ry="3" fill="#2E8B2E" stroke="#1B5E1B" stroke-width="0.5"/>
+  <ellipse cx="62" cy="374" rx="6" ry="3" fill="#2E8B2E" stroke="#1B5E1B" stroke-width="0.5"/>
+  <ellipse cx="71" cy="372" rx="6" ry="3" fill="#2E8B2E" stroke="#1B5E1B" stroke-width="0.5"/>
+  <!-- Toes front right -->
+  <ellipse cx="347" cy="373" rx="6" ry="3" fill="#2E8B2E" stroke="#1B5E1B" stroke-width="0.5"/>
+  <ellipse cx="338" cy="374" rx="6" ry="3" fill="#2E8B2E" stroke="#1B5E1B" stroke-width="0.5"/>
+  <ellipse cx="329" cy="372" rx="6" ry="3" fill="#2E8B2E" stroke="#1B5E1B" stroke-width="0.5"/>
+  <!-- Cheek blush -->
+  <ellipse cx="115" cy="240" rx="15" ry="10" fill="#FF9999" opacity="0.3"/>
+  <ellipse cx="285" cy="240" rx="15" ry="10" fill="#FF9999" opacity="0.3"/>
+</svg>

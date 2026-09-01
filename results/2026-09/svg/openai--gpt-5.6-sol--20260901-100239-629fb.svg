@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A green frog with a prominently protruding lower jaw">
+  <defs>
+    <radialGradient id="skin" cx="40%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#a8df62"/>
+      <stop offset="1" stop-color="#4f9b45"/>
+    </radialGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e894"/>
+      <stop offset="1" stop-color="#a9c96f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hind legs -->
+  <path d="M282 392C205 393 154 435 118 506c-9 18 7 34 27 25l97-43 73-59z" fill="#559d48" stroke="#254f31" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M518 392c77 1 128 43 164 114 9 18-7 34-27 25l-97-43-73-59z" fill="#559d48" stroke="#254f31" stroke-width="9" stroke-linejoin="round"/>
+
+  <!-- Feet -->
+  <path d="M196 484l-58 47m78-30-29 57m56-47 4 58" fill="none" stroke="#254f31" stroke-width="13" stroke-linecap="round"/>
+  <path d="M604 484l58 47m-78-30 29 57m-56-47-4 58" fill="none" stroke="#254f31" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <ellipse cx="400" cy="412" rx="157" ry="139" fill="url(#skin)" stroke="#254f31" stroke-width="10"/>
+  <ellipse cx="400" cy="434" rx="98" ry="105" fill="url(#belly)" opacity=".9"/>
+
+  <!-- Forelegs -->
+  <path d="M305 393c-18 46-26 90-20 137" fill="none" stroke="#376f3b" stroke-width="34" stroke-linecap="round"/>
+  <path d="M495 393c18 46 26 90 20 137" fill="none" stroke="#376f3b" stroke-width="34" stroke-linecap="round"/>
+  <path d="M283 529l-27 28m30-27 2 37m0-37 30 27M517 529l27 28m-30-27-2 37m0-37-30 27" fill="none" stroke="#254f31" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Head -->
+  <path d="M240 215c0-91 70-151 160-151s160 60 160 151c0 82-60 142-160 142s-160-60-160-142z" fill="url(#skin)" stroke="#254f31" stroke-width="11"/>
+
+  <!-- Eyes -->
+  <circle cx="304" cy="118" r="58" fill="#6bad4e" stroke="#254f31" stroke-width="10"/>
+  <circle cx="496" cy="118" r="58" fill="#6bad4e" stroke="#254f31" stroke-width="10"/>
+  <circle cx="304" cy="119" r="35" fill="#e6e79b"/>
+  <circle cx="496" cy="119" r="35" fill="#e6e79b"/>
+  <ellipse cx="307" cy="121" rx="13" ry="28" fill="#17281e"/>
+  <ellipse cx="493" cy="121" rx="13" ry="28" fill="#17281e"/>
+  <circle cx="299" cy="110" r="6" fill="#fff"/>
+  <circle cx="485" cy="110" r="6" fill="#fff"/>
+
+  <!-- Nostrils -->
+  <ellipse cx="364" cy="202" rx="8" ry="5" fill="#315c35"/>
+  <ellipse cx="436" cy="202" rx="8" ry="5" fill="#315c35"/>
+
+  <!-- Upper lip -->
+  <path d="M282 249c68-27 168-27 236 0-17 38-61 61-118 61s-101-23-118-61z" fill="#8bc25a" stroke="#254f31" stroke-width="9" stroke-linejoin="round"/>
+
+  <!-- Protruding lower jaw -->
+  <path d="M270 281c36 15 76 21 130 21s94-6 130-21l45 37c15 13 9 38-10 44-109 34-221 34-330 0-19-6-25-31-10-44z" fill="#77ad52" stroke="#254f31" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M243 329c102 27 212 27 314 0" fill="none" stroke="#dceaa7" stroke-width="11" stroke-linecap="round"/>
+  <path d="M296 350c69 15 139 15 208 0" fill="none" stroke="#416d3c" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Skin spots -->
+  <g fill="#3f7f3c" opacity=".65">
+    <circle cx="265" cy="192" r="10"/>
+    <circle cx="535" cy="191" r="9"/>
+    <circle cx="286" cy="416" r="11"/>
+    <circle cx="525" cy="438" r="13"/>
+    <circle cx="348" cy="388" r="7"/>
+    <circle cx="455" cy="404" r="8"/>
+  </g>
+</svg>

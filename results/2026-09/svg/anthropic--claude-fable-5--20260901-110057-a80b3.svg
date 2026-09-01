@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300">
+  <!-- ground shadow -->
+  <ellipse cx="210" cy="274" rx="150" ry="14" fill="#000000" opacity="0.12"/>
+
+  <!-- back leg -->
+  <ellipse cx="122" cy="208" rx="58" ry="48" fill="#3d8534"/>
+  <path d="M 100,248 Q 78,262 60,258 Q 80,264 68,268 Q 88,270 80,278 Q 108,278 118,262 Q 122,252 100,248 Z" fill="#4a9d3f"/>
+  <circle cx="60" cy="258" r="5" fill="#3d8534"/>
+  <circle cx="68" cy="268" r="5" fill="#3d8534"/>
+  <circle cx="80" cy="277" r="5" fill="#3d8534"/>
+
+  <!-- body -->
+  <ellipse cx="180" cy="185" rx="96" ry="73" fill="#55a843"/>
+  <circle cx="150" cy="150" r="9" fill="#3d8534" opacity="0.7"/>
+  <circle cx="188" cy="130" r="6" fill="#3d8534" opacity="0.7"/>
+  <circle cx="128" cy="182" r="7" fill="#3d8534" opacity="0.7"/>
+
+  <!-- belly -->
+  <ellipse cx="192" cy="212" rx="60" ry="40" fill="#d6ecad"/>
+
+  <!-- front leg -->
+  <path d="M 226,228 Q 246,250 244,270 L 230,272 Q 224,250 212,238 Z" fill="#4a9d3f"/>
+  <ellipse cx="252" cy="270" rx="13" ry="6" fill="#55a843"/>
+  <ellipse cx="238" cy="275" rx="12" ry="6" fill="#55a843"/>
+  <ellipse cx="224" cy="274" rx="11" ry="6" fill="#55a843"/>
+  <circle cx="263" cy="270" r="4.5" fill="#3d8534"/>
+  <circle cx="248" cy="277" r="4.5" fill="#3d8534"/>
+  <circle cx="233" cy="276" r="4.5" fill="#3d8534"/>
+
+  <!-- head / upper jaw -->
+  <ellipse cx="262" cy="140" rx="62" ry="48" fill="#55a843"/>
+  <path d="M 210,162 Q 275,176 322,148" fill="none" stroke="#2f6b28" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="312" cy="122" r="3" fill="#2f6b28"/>
+
+  <!-- heavily protruding lower jaw -->
+  <path d="M 224,176
+           Q 300,162 376,138
+           Q 402,146 396,170
+           Q 386,206 318,212
+           Q 258,214 230,196
+           Q 216,186 224,176 Z" fill="#6cbf57" stroke="#2f6b28" stroke-width="3" stroke-linejoin="round"/>
+  <!-- pale underside of jaw -->
+  <path d="M 240,200 Q 320,212 388,176 Q 392,194 348,206 Q 282,215 240,200 Z" fill="#cde8a0"/>
+  <!-- jutting lower teeth -->
+  <polygon points="346,154 354,132 362,151" fill="#ffffff" stroke="#2f6b28" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="366,147 374,126 381,143" fill="#ffffff" stroke="#2f6b28" stroke-width="2" stroke-linejoin="round"/>
+  <!-- shadow line where jaws meet -->
+  <path d="M 228,174 Q 300,160 342,148" fill="none" stroke="#2f6b28" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- eye -->
+  <circle cx="262" cy="86" r="31" fill="#55a843" stroke="#3d8534" stroke-width="2"/>
+  <circle cx="265" cy="86" r="21" fill="#ffffff"/>
+  <circle cx="270" cy="88" r="10" fill="#1c1c1c"/>
+  <circle cx="266" cy="84" r="3.5" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" width="100%" height="100%">
+  <defs>
+    <!-- Gradient for the protruding lower jaw to give it a 3D bulbous effect -->
+    <linearGradient id="jawGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8f3dc" />
+      <stop offset="40%" stop-color="#95d5b2" />
+      <stop offset="100%" stop-color="#52b788" />
+    </linearGradient>
+    
+    <!-- Gradient for the main head/body -->
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#74c69d" />
+      <stop offset="100%" stop-color="#40916c" />
+    </linearGradient>
+
+    <!-- Gradient for the background -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0fbfc" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="100" cy="120" r="110" fill="url(#bgGrad)" />
+
+  <!-- Lily Pad -->
+  <g id="lily-pad">
+    <ellipse cx="100" cy="210" rx="110" ry="35" fill="#2a9d8f" />
+    <path d="M 100 175 L 160 200 L 130 230 Z" fill="#1b4332" />
+    <!-- Lily pad veins -->
+    <path d="M 100 175 L 40 200 M 100 175 L 90 210 M 100 175 L 120 220 M 100 175 L 160 200" stroke="#1b4332" stroke-width="2" opacity="0.4" />
+  </g>
+
+  <!-- Frog Body (Behind the head) -->
+  <ellipse cx="100" cy="190" rx="75" ry="45" fill="url(#headGrad)" />
+  
+  <!-- Frog Head Base -->
+  <path d="M 25 60 Q 100 20 175 60 Q 185 100 175 120 Q 100 135 25 120 Q 15 100 25 60 Z" fill="url(#headGrad)" />
+  
+  <!-- Tympanum (Ear spots) -->
+  <circle cx="30" cy="90" r="10" fill="#1b4332" opacity="0.2" />
+  <circle cx="30" cy="90" r="8" fill="#40916c" stroke="#1b4332" stroke-width="2" />
+  <circle cx="170" cy="90" r="10" fill="#1b4332" opacity="0.2" />
+  <circle cx="170" cy="90" r="8" fill="#40916c" stroke="#1b4332" stroke-width="2" />
+
+  <!-- Eyes -->
+  <g id="left-eye">
+    <circle cx="45" cy="55" r="20" fill="#1b4332" />
+    <circle cx="45" cy="55" r="18" fill="white" />
+    <circle cx="45" cy="55" r="13" fill="#a3b18a" />
+    <ellipse cx="47" cy="55" rx="5" ry="11" fill="#081c15" />
+    <circle cx="49" cy="51" r="3" fill="white" />
+    <!-- Eye lid / brow -->
+    <path d="M 25 55 Q 45 40 65 55" fill="none" stroke="#1b4332" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="right-eye">
+    <circle cx="155" cy="55" r="20" fill="#1b4332" />
+    <circle cx="155" cy="55" r="18" fill="white" />
+    <circle cx="155" cy="55" r="13" fill="#a3b18a" />
+    <ellipse cx="153" cy="55" rx="5" ry="11" fill="#081c15" />
+    <circle cx="151" cy="51" r="3" fill="white" />
+    <!-- Eye lid / brow -->
+    <path d="M 135 55 Q 155 40 175 55" fill="none" stroke="#1b4332" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Nostrils -->
+  <ellipse cx="75" cy="70" rx="4" ry="2.5" fill="#081c15" />
+  <ellipse cx="125" cy="70" rx="4" ry="2.5" fill="#081c15" />
+
+  <!-- Head highlights -->
+  <path d="M 45 70 Q 55 50 70 55" fill="none" stroke="#b7e4c7" stroke-width="4" stroke-linecap="round" opacity="0.6" />
+  <path d="M 130 55 Q 145 50 155 70" fill="none" stroke="#b7e4c7" stroke-width="4" stroke-linecap="round" opacity="0.6" />
+
+  <!-- Upper Jaw & Lips (Receded, behind the underbite) -->
+  <g id="upper-jaw">
+    <!-- Upper Lip thickness -->
+    <path d="M 25 120 Q 100 135 175 120 Q 100 145 25 120 Z" fill="#52b788" />
+    <!-- Upper Teeth (Set back) -->
+    <path d="M 40 125 L 42 120 L 44 125 M 48 126 L 50 121 L 52 126 M 56 127 L 58 122 L 60 127 M 64 128 L 66 123 L 68 128 M 72 129 L 74 124 L 76 129 M 80 130 L 82 125 L 84 130 M 88 131 L 90 126 L 92 131 M 96 132 L 98 127 L 100 132 M 104 132 L 106 127 L 108 132 M 112 131 L 114 126 L 116 131 M 120 130 L 122 125 L 124 130 M 128 129 L 130 124 L 132 129 M 136 128 L 138 123 L 140 128 M 144 127 L 146 122 L 148 127 M 152 126 L 154 121 L 156 126 M 160 125 L 162 120 L 164 125" fill="white" stroke="#1b4332" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+
+  <!-- Mouth Crevice (Deep shadow cast by the lower jaw) -->
+  <path d="M 25 120 Q 100 145 175 120 Q 100 155 25 120 Z" fill="#081c15" opacity="0.9" />
+
+  <!-- Mandibular Prognathism (The Protruding Lower Jaw) -->
+  <g id="lower-jaw">
+    <!-- Jowls / Cheek folds (Enhances the bulldog effect) -->
+    <path d="M 35 125 Q 25 155 55 175" fill="none" stroke="#2d6a4f" stroke-width="5" stroke-linecap="round" opacity="0.8" />
+    <path d="M 165 125 Q 175 155 145 175" fill="none" stroke="#2d6a4f" stroke-width="5" stroke-linecap="round" opacity="0.8" />
+    
+    <!-- Main Lower Jaw shape -->
+    <!-- Extends significantly further than the upper jaw to create the underbite -->
+    <path d="M 25 120 C 15 200, 90 210, 100 210 C 110 210, 185 200, 175 120 C 145 180, 55 180, 25 120 Z" fill="url(#jawGrad)" stroke="#1b4332" stroke-width="4" stroke-linejoin="round" />
+    
+    <!-- Lower Teeth (Protruding forward over the upper teeth) -->
+    <path d="M 35 145 L 37 140 L 39 145 M 43 146 L 45 141 L 47 146 M 51 147 L 53 142 L 55 147 M 59 148 L 61 143 L 63 148 M 67 149 L 69 144 L 71 149 M 75 150 L 77 145 L 79 150 M 83 151 L 85 146 L 87 151 M 91 152 L 93 147 L 95 152 M 99 153 L 101 148 L 103 153 M 107 153 L 109 148 L 111 153 M 115 152 L 117 147 L 119 152 M 123 151 L 125 146 L 127 151 M 131 150 L 133 145 L 135 150 M 139 149 L 141 144 L 143 149 M 147 148 L 149 143 L 151 148 M 155 147 L 157 142 L 159 147 M 163 146 L 165 141 L 167 146" fill="white" stroke="#1b4332" stroke-width="1.5" stroke-linejoin="round" />
+    
+    <!-- Chin Dimple / Crease to emphasize the massive jaw -->
+    <path d="M 75 165 Q 100 180 125 165" fill="none" stroke="#2d6a4f" stroke-width="4" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Highlights on the lower jaw to show protrusion and moisture -->
+    <path d="M 55 145 Q 75 135 85 140" fill="none" stroke="#e0fbfc" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+    <path d="M 115 140 Q 125 135 145 145" fill="none" stroke="#e0fbfc" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+    <path d="M 90 185 Q 100 195 110 185" fill="none" stroke="#b7e4c7" stroke-width="3" stroke-linecap="round" opacity="0.7" />
+  </g>
+</svg>

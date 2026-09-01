@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <!-- Basic shadow for depth -->
+    <filter id="drop-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- Background Environment -->
+  <rect width="600" height="600" fill="#E0F2F1" />
+  
+  <!-- Water Ripples -->
+  <ellipse cx="300" cy="530" rx="280" ry="40" fill="none" stroke="#B2DFDB" stroke-width="4" opacity="0.6" />
+  <ellipse cx="300" cy="560" rx="220" ry="30" fill="none" stroke="#B2DFDB" stroke-width="2" opacity="0.4" />
+  
+  <!-- Lilypad -->
+  <g filter="url(#drop-shadow)">
+    <ellipse cx="320" cy="520" rx="190" ry="45" fill="#81C784" opacity="0.9" stroke="#4CAF50" stroke-width="3" />
+    <!-- Lilypad details -->
+    <path d="M 180,520 L 320,520" stroke="#66BB6A" stroke-width="3" opacity="0.6" />
+    <path d="M 200,510 L 320,520" stroke="#66BB6A" stroke-width="3" opacity="0.6" />
+    <path d="M 200,530 L 320,520" stroke="#66BB6A" stroke-width="3" opacity="0.6" />
+    <path d="M 220,500 L 320,520" stroke="#66BB6A" stroke-width="3" opacity="0.6" />
+    <path d="M 220,540 L 320,520" stroke="#66BB6A" stroke-width="3" opacity="0.6" />
+  </g>
+
+  <!-- FROG -->
+  <g id="frog">
+    <!-- Hind Leg (Background layer) -->
+    <path d="M 480,420 C 540,390 620,430 620,480 C 620,520 560,520 520,480 C 480,460 450,440 480,420 Z" fill="#4CAF50" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Hind Foot Webbing -->
+    <path d="M 620,480 Q 660,470 670,480 Q 650,490 620,490" fill="#388E3C" stroke="#1B5E20" stroke-width="3" />
+    <path d="M 620,490 Q 670,480 680,495 Q 660,505 620,500" fill="#388E3C" stroke="#1B5E20" stroke-width="3" />
+    <!-- Hind Toes -->
+    <path d="M 620,480 Q 670,470 680,480" fill="none" stroke="#4CAF50" stroke-width="12" stroke-linecap="round" />
+    <path d="M 620,490 Q 685,480 695,495" fill="none" stroke="#4CAF50" stroke-width="12" stroke-linecap="round" />
+    <path d="M 620,500 Q 675,500 685,515" fill="none" stroke="#4CAF50" stroke-width="12" stroke-linecap="round" />
+
+    <!-- Front Leg (Background layer) -->
+    <path d="M 400,420 C 420,460 450,470 440,510 C 430,530 390,520 380,490 C 370,470 380,430 400,420 Z" fill="#66BB6A" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Front Fingers (Background) -->
+    <path d="M 430,510 Q 440,550 450,540" fill="none" stroke="#4CAF50" stroke-width="10" stroke-linecap="round" />
+    <path d="M 415,515 Q 415,560 430,560" fill="none" stroke="#4CAF50" stroke-width="10" stroke-linecap="round" />
+    <path d="M 405,510 Q 390,540 400,550" fill="none" stroke="#4CAF50" stroke-width="10" stroke-linecap="round" />
+
+    <!-- Main Body Back -->
+    <path d="M 380,280 C 450,270 540,320 560,380 C 580,450 540,510 480,500 C 420,490 380,440 350,370 C 340,340 350,300 380,280 Z" fill="#81C784" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Body Belly -->
+    <path d="M 380,280 C 440,320 480,370 470,440 C 460,500 420,500 380,460 C 340,420 330,340 380,280 Z" fill="#C8E6C9" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Belly Details -->
+    <path d="M 370,320 Q 390,400 380,450" fill="none" stroke="#A5D6A7" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Body Warts -->
+    <g fill="#4CAF50" opacity="0.5" stroke="#1B5E20" stroke-width="2">
+      <circle cx="450" cy="320" r="12" />
+      <circle cx="500" cy="360" r="18" />
+      <circle cx="530" cy="410" r="14" />
+      <circle cx="480" cy="430" r="10" />
+      <circle cx="420" cy="340" r="8" />
+    </g>
+
+    <!-- Head / Upper Jaw -->
+    <path d="M 380,280 C 400,220 340,180 290,170 C 240,160 200,190 180,230 C 175,245 185,255 200,250 C 240,265 280,280 320,260 C 350,250 370,270 380,280 Z" fill="#81C784" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Mouth Interior (Upper) -->
+    <path d="M 200,250 C 240,275 280,275 320,260 L 320,230 C 280,240 240,240 200,235 Z" fill="#E57373" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Eye -->
+    <g id="eye">
+      <circle cx="290" cy="180" r="45" fill="#A5D6A7" stroke="#1B5E20" stroke-width="5" />
+      <circle cx="290" cy="180" r="32" fill="#FFF" />
+      <ellipse cx="275" cy="180" rx="18" ry="7" fill="#1B5E20" />
+      <circle cx="265" cy="175" r="6" fill="#FFF" />
+      <!-- Nostril -->
+      <circle cx="220" cy="210" r="3" fill="#1B5E20" />
+    </g>
+
+    <!-- Upper Teeth (Sitting behind the lower jaw) -->
+    <path d="M 190,250 L 185,230 L 200,248 L 215,230 L 210,250" fill="#FFF" stroke="#1B5E20" stroke-width="3" stroke-linejoin="round" />
+    <path d="M 220,250 L 225,232 L 235,250" fill="#FFF" stroke="#1B5E20" stroke-width="3" stroke-linejoin="round" />
+    <path d="M 235,250 L 240,235 L 245,250" fill="#FFF" stroke="#1B5E20" stroke-width="3" stroke-linejoin="round" />
+
+    <!-- The Heavily Protruding Lower Jaw -->
+    <!-- The core geometry: Drops down significantly and juts far left -->
+    <g id="underbite">
+      <!-- Lower Jaw Base -->
+      <path d="M 320,260 C 290,330 240,380 130,360 C 90,340 90,280 120,260 C 140,245 170,250 185,255 C 200,265 250,275 320,260 Z" fill="#66BB6A" stroke="#1B5E20" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <!-- Lower Jaw Shading for Depth -->
+      <path d="M 130,360 C 180,390 240,350 290,290 L 320,260 Z" fill="#000" opacity="0.15" />
+      
+      <!-- Lower Jaw Texture / Folds -->
+      <path d="M 180,280 Q 200,300 220,290" fill="none" stroke="#4CAF50" stroke-width="5" stroke-linecap="round" />
+      <path d="M 160,300 Q 180,320 200,310" fill="none" stroke="#4CAF50" stroke-width="5" stroke-linecap="round" />
+      <path d="M 140,320 Q 160,340 180,330" fill="none" stroke="#4CAF50" stroke-width="5" stroke-linecap="round" />
+      <path d="M 130,340 Q 150,355 160,345" fill="none" stroke="#4CAF50" stroke-width="5" stroke-linecap="round" />
+
+      <!-- Lower Teeth (Growing upward from the massive underbite) -->
+      <path d="M 135,270 L 120,240 L 145,250 L 155,240 L 155,270" fill="#FFF" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round" />
+      <path d="M 165,260 L 155,230 L 175,245 L 185,235 L 180,260" fill="#FFF" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round" />
+      <path d="M 190,255 L 185,225 L 200,240 L 205,230 L 200,255" fill="#FFF" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round" />
+
+      <!-- Tongue (Lolling out over the lower teeth) -->
+      <path d="M 200,260 C 180,300 140,340 90,320 C 70,310 70,280 100,270 C 130,260 160,250 200,260 Z" fill="#EF5350" stroke="#B71C1C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <!-- Tongue Split Tip Detail -->
+      <path d="M 90,320 C 80,330 70,335 80,340 C 90,335 100,330 95,320 Z" fill="#EF5350" stroke="#B71C1C" stroke-width="3" stroke-linejoin="round" />
+      <path d="M 95,320 C 100,330 110,335 105,340 C 95,335 90,330 95,320 Z" fill="#EF5350" stroke="#B71C1C" stroke-width="3" stroke-linejoin="round" />
+    </g>
+
+    <!-- Cheek / Smile Line -->
+    <path d="M 240,240 Q 260,260 270,275" fill="none" stroke="#1B5E20" stroke-width="4" stroke-linecap="round" />
+
+  </g>
+</svg>

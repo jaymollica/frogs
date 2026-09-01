@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e2c23" />
+      <stop offset="100%" stop-color="#0a120c" />
+    </linearGradient>
+    
+    <linearGradient id="body-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5d8c48" />
+      <stop offset="40%" stop-color="#4a7c3c" />
+      <stop offset="80%" stop-color="#8c8f44" />
+      <stop offset="100%" stop-color="#c4c184" />
+    </linearGradient>
+
+    <linearGradient id="jaw-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6e3a8" />
+      <stop offset="100%" stop-color="#8c8f44" />
+    </linearGradient>
+
+    <linearGradient id="leg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#386324" />
+      <stop offset="100%" stop-color="#1c2e16" />
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="10" dy="15" stdDeviation="10" flood-color="#000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="eye-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000" flood-opacity="0.7" />
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg-grad)" />
+
+  <!-- Water ripples -->
+  <g stroke="#2e4626" stroke-width="2" fill="none" opacity="0.4">
+    <ellipse cx="400" cy="780" rx="350" ry="15" />
+    <ellipse cx="400" cy="795" rx="300" ry="12" opacity="0.6" />
+    <ellipse cx="400" cy="805" rx="250" ry="10" opacity="0.4" />
+  </g>
+  
+  <!-- Bubbles -->
+  <g fill="#4a7c3c" opacity="0.5">
+    <circle cx="120" cy="750" r="5" />
+    <circle cx="150" cy="775" r="8" opacity="0.4" />
+    <circle cx="650" cy="760" r="6" />
+    <circle cx="680" cy="785" r="4" opacity="0.6" />
+  </g>
+
+  <!-- Log / Ground -->
+  <path d="M -50,750 Q 400,730 850,750 L 850,800 L -50,800 Z" fill="#2c1e16" />
+  <path d="M -50,750 Q 400,730 850,750 L 850,755 Q 400,735 -50,755 Z" fill="#3c6232" />
+
+  <g transform="translate(50, 50) scale(1.1)">
+    <!-- Shadow under frog -->
+    <ellipse cx="350" cy="715" rx="250" ry="20" fill="#000" opacity="0.4" />
+
+    <!-- Hind Leg (Folded) -->
+    <g fill="url(#leg-grad)">
+      <path d="M 560, 660 C 680, 660 720, 500 650, 420 C 580, 340 450, 400 420, 500 C 390, 600 460, 660 560, 660 Z" />
+      <!-- Toes -->
+      <path d="M 560, 660 L 420, 690 L 420, 705 L 480, 695 L 480, 710 L 450, 695 L 450, 710 L 420, 705 L 420, 695 Z" />
+    </g>
+
+    <!-- Main Body and Upper Head -->
+    <path d="M 350, 650 C 500, 650 550, 450 550, 350 C 550, 200 400, 150 300, 150 C 200, 150 150, 250 140, 390 C 220, 400 300, 420 380, 450 C 450, 480 500, 600 350, 650 Z" fill="url(#body-grad)" />
+
+    <!-- Front Leg -->
+    <path d="M 320, 550 C 300, 600 280, 640 260, 670 L 250, 670 L 240, 650 L 230, 670 L 220, 650 L 210, 670 L 200, 640 Z" fill="#386324" />
+
+    <!-- The Heavily Protruding Lower Jaw -->
+    <path d="M 380, 460 C 300, 450, 180, 440, 90, 420 C 60, 410, 50, 460, 90, 520 C 140, 560, 280, 560, 380, 520 C 430, 500, 430, 480, 380, 460 Z" fill="url(#jaw-grad)" filter="url(#shadow)" />
+
+    <!-- Mouth Lines (Upper and Lower Lips) -->
+    <path d="M 380, 450 C 300, 420, 220, 400, 140, 390" fill="none" stroke="#1c2e16" stroke-width="5" stroke-linecap="round" />
+    <path d="M 380, 455 C 300, 425, 220, 405, 140, 395" fill="none" stroke="#5d8c48" stroke-width="2" stroke-linecap="round" />
+    
+    <path d="M 380, 460 C 300, 450, 180, 440, 90, 420" fill="none" stroke="#2a1c16" stroke-width="4" stroke-linecap="round" />
+    <path d="M 380, 465 C 300, 455, 180, 445, 90, 425" fill="none" stroke="#b2b86a" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Shadow cast onto the lower jaw by the upper lip -->
+    <path d="M 380, 460 C 300, 450, 180, 440, 90, 420 C 90, 435, 90, 445, 90, 455 C 180, 475, 300, 485, 380, 480 Z" fill="#6e7033" opacity="0.5" />
+
+    <!-- Nostril -->
+    <circle cx="150" cy="360" r="4" fill="#1c2e16" />
+
+    <!-- Tympanum (Ear) -->
+    <circle cx="350" cy="230" r="30" fill="#386324" stroke="#1c2e16" stroke-width="4" />
+    <circle cx="350" cy="230" r="15" fill="#28492b" />
+
+    <!-- Bulging Eye -->
+    <g filter="url(#eye-shadow)">
+      <!-- Eyelid Base -->
+      <ellipse cx="250" cy="170" rx="50" ry="45" fill="#4a7c3c" />
+      <!-- Eyeball -->
+      <circle cx="250" cy="170" r="35" fill="#f1c40f" />
+      <!-- Pupil -->
+      <ellipse cx="250" cy="170" rx="12" ry="32" fill="#111" transform="rotate(10 250 170)" />
+      <!-- Top Eyelid -->
+      <path d="M 210, 180 C 210, 120 290, 120 290, 180 C 260, 150 240, 150 210, 180 Z" fill="#386324" />
+      <!-- Eyelid Highlight -->
+      <path d="M 215, 170 C 215, 125 285, 125 285, 170 C 270, 140 230, 140 215, 170 Z" fill="#5d8c48" />
+      <!-- Eye Glints -->
+      <circle cx="230" cy="150" r="8" fill="#ffffff" opacity="0.9" />
+      <circle cx="245" cy="165" r="4" fill="#ffffff" opacity="0.6" />
+    </g>
+
+    <!-- Warts and Skin Texture -->
+    <g fill="#28492b" opacity="0.7">
+      <ellipse cx="400" cy="280" rx="12" ry="8" transform="rotate(45 400 280)" />
+      <ellipse cx="430" cy="320" rx="8" ry="6" transform="rotate(20 430 320)" />
+      <ellipse cx="390" cy="240" rx="10" ry="7" transform="rotate(60 390 240)" />
+      <ellipse cx="460" cy="380" rx="14" ry="9" transform="rotate(30 460 380)" />
+      <ellipse cx="480" cy="430" rx="9" ry="6" transform="rotate(50 480 430)" />
+      <ellipse cx="440" cy="450" rx="6" ry="4" transform="rotate(80 440 450)" />
+      <ellipse cx="510" cy="450" rx="12" ry="8" transform="rotate(10 510 450)" />
+      <ellipse cx="550" cy="400" rx="15" ry="10" transform="rotate(70 550 400)" />
+      <ellipse cx="580" cy="480" rx="10" ry="7" transform="rotate(40 580 480)" />
+      <ellipse cx="600" cy="550" rx="12" ry="8" transform="rotate(15 600 550)" />
+      <ellipse cx="530" cy="560" rx="8" ry="6" transform="rotate(55 530 560)" />
+    </g>
+
+    <g fill="#7bb05e" opacity="0.5">
+      <circle cx="395" cy="275" r="4" />
+      <circle cx="425" cy="315" r="3" />
+      <circle cx="455" cy="375" r="5" />
+      <circle cx="545" cy="395" r="4" />
+      <circle cx="575" cy="475" r="3" />
+    </g>
+
+    <!-- Jaw tip highlight for wet look -->
+    <ellipse cx="90" cy="425" rx="20" ry="10" fill="#ffffff" opacity="0.3" transform="rotate(-10 90 425)" />
+  </g>
+</svg>

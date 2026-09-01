@@ -1,0 +1,47 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="50" ry="55" fill="#6B8E23"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="70" r="45" fill="#7BA428"/>
+  
+  <!-- Left eye -->
+  <circle cx="80" cy="50" r="12" fill="#FFFFFF"/>
+  <circle cx="80" cy="50" r="8" fill="#000000"/>
+  <circle cx="82" cy="48" r="3" fill="#FFFFFF"/>
+  
+  <!-- Right eye -->
+  <circle cx="120" cy="50" r="12" fill="#FFFFFF"/>
+  <circle cx="120" cy="50" r="8" fill="#000000"/>
+  <circle cx="122" cy="48" r="3" fill="#FFFFFF"/>
+  
+  <!-- Mouth -->
+  <path d="M 85 75 Q 100 80 115 75" stroke="#556B2F" stroke-width="2" fill="none"/>
+  
+  <!-- Protruding lower jaw -->
+  <ellipse cx="100" cy="100" rx="35" ry="20" fill="#5A7A1F"/>
+  
+  <!-- Lower jaw detail/shadow -->
+  <path d="M 75 100 Q 100 110 125 100" stroke="#556B2F" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- Left front leg -->
+  <ellipse cx="65" cy="160" rx="15" ry="28" fill="#6B8E23" transform="rotate(-25 65 160)"/>
+  <ellipse cx="50" cy="175" rx="10" ry="12" fill="#5A7A1F"/>
+  
+  <!-- Right front leg -->
+  <ellipse cx="135" cy="160" rx="15" ry="28" fill="#6B8E23" transform="rotate(25 135 160)"/>
+  <ellipse cx="150" cy="175" rx="10" ry="12" fill="#5A7A1F"/>
+  
+  <!-- Left back leg -->
+  <ellipse cx="55" cy="145" rx="20" ry="25" fill="#5A7A1F" transform="rotate(-40 55 145)"/>
+  <ellipse cx="35" cy="165" rx="12" ry="15" fill="#4A6A0F"/>
+  
+  <!-- Right back leg -->
+  <ellipse cx="145" cy="145" rx="20" ry="25" fill="#5A7A1F" transform="rotate(40 145 145)"/>
+  <ellipse cx="165" cy="165" rx="12" ry="15" fill="#4A6A0F"/>
+  
+  <!-- Spots on body -->
+  <circle cx="85" cy="130" r="4" fill="#556B2F" opacity="0.7"/>
+  <circle cx="115" cy="135" r="5" fill="#556B2F" opacity="0.7"/>
+  <circle cx="100" cy="150" r="3.5" fill="#556B2F" opacity="0.7"/>
+</svg>

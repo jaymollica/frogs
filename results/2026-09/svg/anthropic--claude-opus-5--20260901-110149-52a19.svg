@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyG" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#8ed15b"/>
+      <stop offset="100%" stop-color="#3f7d2c"/>
+    </radialGradient>
+    <linearGradient id="headG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ec44e"/>
+      <stop offset="100%" stop-color="#4d8f30"/>
+    </linearGradient>
+    <linearGradient id="jawG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a5dd6f"/>
+      <stop offset="60%" stop-color="#cdeb9a"/>
+      <stop offset="100%" stop-color="#eaf7c8"/>
+    </linearGradient>
+    <radialGradient id="eyeG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffe98a"/>
+      <stop offset="100%" stop-color="#d99b16"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="200" cy="378" rx="150" ry="16" fill="#000" opacity="0.12"/>
+
+  <!-- hind legs -->
+  <ellipse cx="82" cy="318" rx="52" ry="38" fill="#4b8c2f"/>
+  <ellipse cx="318" cy="318" rx="52" ry="38" fill="#4b8c2f"/>
+  <path d="M40 340 q-18 18 4 22 q10 2 14-6" fill="#5ea23a" stroke="#356320" stroke-width="3"/>
+  <path d="M360 340 q18 18 -4 22 q-10 2 -14-6" fill="#5ea23a" stroke="#356320" stroke-width="3"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="288" rx="118" ry="84" fill="url(#bodyG)" stroke="#2f6420" stroke-width="3"/>
+  <ellipse cx="200" cy="310" rx="72" ry="56" fill="#dff2b6" opacity="0.75"/>
+
+  <!-- front arms -->
+  <path d="M118 300 q-30 40 -6 62 q14 12 34 2" fill="#5ea23a" stroke="#2f6420" stroke-width="3"/>
+  <path d="M282 300 q30 40 6 62 q-14 12 -34 2" fill="#5ea23a" stroke="#2f6420" stroke-width="3"/>
+  <path d="M112 358 q-16 6 -6 14 q6 5 12 0 M116 360 q-4 12 4 14 q8 1 8-8" fill="#7cbb52" stroke="#2f6420" stroke-width="2.5"/>
+  <path d="M288 358 q16 6 6 14 q-6 5 -12 0 M284 360 q4 12 -4 14 q-8 1 -8-8" fill="#7cbb52" stroke="#2f6420" stroke-width="2.5"/>
+
+  <!-- HEAD (upper) : narrower, sits back -->
+  <path d="M104 208 C 100 112, 300 112, 296 208 Z" fill="url(#headG)" stroke="#2f6420" stroke-width="3.5"/>
+
+  <!-- eye bumps -->
+  <circle cx="146" cy="132" r="38" fill="#71b846" stroke="#2f6420" stroke-width="3.5"/>
+  <circle cx="254" cy="132" r="38" fill="#71b846" stroke="#2f6420" stroke-width="3.5"/>
+  <circle cx="146" cy="130" r="26" fill="url(#eyeG)" stroke="#2f6420" stroke-width="3"/>
+  <circle cx="254" cy="130" r="26" fill="url(#eyeG)" stroke="#2f6420" stroke-width="3"/>
+  <ellipse cx="146" cy="132" rx="8" ry="18" fill="#151515"/>
+  <ellipse cx="254" cy="132" rx="8" ry="18" fill="#151515"/>
+  <circle cx="138" cy="118" r="7" fill="#fff" opacity="0.9"/>
+  <circle cx="246" cy="118" r="7" fill="#fff" opacity="0.9"/>
+
+  <!-- nostrils -->
+  <ellipse cx="182" cy="182" rx="5" ry="3.5" fill="#2f6420"/>
+  <ellipse cx="218" cy="182" rx="5" ry="3.5" fill="#2f6420"/>
+
+  <!-- upper lip, tucked behind the jutting jaw -->
+  <path d="M112 200 Q200 218 288 200 Q200 212 112 200 Z" fill="#2f6420"/>
+
+  <!-- HEAVILY PROTRUDING LOWER JAW -->
+  <path d="M56 186
+           C 44 262, 120 300, 200 300
+           C 280 300, 356 262, 344 186
+           C 322 214, 300 206, 288 200
+           Q 200 216, 112 200
+           C 100 206, 78 214, 56 186 Z"
+        fill="url(#jawG)" stroke="#2f6420" stroke-width="4"/>
+
+  <!-- jaw crease / chin -->
+  <path d="M96 244 Q200 286 304 244" fill="none" stroke="#8ab85c" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <ellipse cx="200" cy="268" rx="46" ry="18" fill="#fff" opacity="0.35"/>
+
+  <!-- underbite teeth pointing up over the upper lip -->
+  <path d="M124 200 l13 -3 l-4 -30 Z" fill="#fdfdf5" stroke="#b9bda0" stroke-width="2"/>
+  <path d="M276 200 l-13 -3 l4 -30 Z" fill="#fdfdf5" stroke="#b9bda0" stroke-width="2"/>
+  <path d="M168 206 l12 0 l-5 -20 Z" fill="#fdfdf5" stroke="#b9bda0" stroke-width="1.8"/>
+  <path d="M232 206 l-12 0 l5 -20 Z" fill="#fdfdf5" stroke="#b9bda0" stroke-width="1.8"/>
+
+  <!-- jaw corner shadows to emphasize protrusion -->
+  <path d="M56 186 C 52 214, 66 234, 84 246" fill="none" stroke="#7aa84f" stroke-width="4" opacity="0.6"/>
+  <path d="M344 186 C 348 214, 334 234, 316 246" fill="none" stroke="#7aa84f" stroke-width="4" opacity="0.6"/>
+
+  <!-- spots -->
+  <circle cx="150" cy="176" r="6" fill="#3d7a26" opacity="0.5"/>
+  <circle cx="250" cy="176" r="6" fill="#3d7a26" opacity="0.5"/>
+  <circle cx="200" cy="150" r="7" fill="#3d7a26" opacity="0.4"/>
+</svg>

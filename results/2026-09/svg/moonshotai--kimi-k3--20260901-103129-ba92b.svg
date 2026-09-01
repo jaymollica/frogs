@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#eaf6ec"/>
+  <ellipse cx="210" cy="378" rx="150" ry="12" fill="#1b4d20" opacity="0.08"/>
+
+  <!-- hind leg -->
+  <ellipse cx="312" cy="295" rx="62" ry="46" transform="rotate(-18 312 295)" fill="#5cb85f" stroke="#2e7d32" stroke-width="4"/>
+  <path d="M 296 332 C 318 348 340 357 356 360 Q 372 363 368 372 Q 364 379 350 376 L 312 370 C 296 366 288 346 296 332 Z" fill="#5cb85f" stroke="#2e7d32" stroke-width="4"/>
+
+  <!-- eye bump -->
+  <circle cx="150" cy="150" r="36" fill="#66bb6a" stroke="#2e7d32" stroke-width="4"/>
+
+  <!-- body -->
+  <ellipse cx="215" cy="240" rx="110" ry="95" fill="#66bb6a" stroke="#2e7d32" stroke-width="4"/>
+
+  <!-- protruding lower jaw (mandibular prognathism) -->
+  <path d="M 104 231 C 78 234 62 248 63 262 C 64 279 84 292 116 296 C 132 298 142 305 148 315 C 175 310 205 299 220 286 C 228 278 229 269 222 263 C 210 253 200 246 190 241 C 160 236 130 233 104 231 Z" fill="#7ecb81"/>
+
+  <!-- belly -->
+  <ellipse cx="230" cy="278" rx="68" ry="52" fill="#d6ecb0"/>
+
+  <!-- tympanum -->
+  <circle cx="198" cy="208" r="13" fill="#57a85c" stroke="#2e7d32" stroke-width="2.5"/>
+
+  <!-- chin silhouette -->
+  <path d="M 104 231 C 78 234 62 248 63 262 C 64 279 84 292 116 296 C 132 298 142 305 148 315" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- chin highlight -->
+  <ellipse cx="86" cy="258" rx="13" ry="8" transform="rotate(-25 86 258)" fill="#c8f0c9" opacity="0.55"/>
+
+  <!-- mouth -->
+  <path d="M 104 231 C 132 235 164 239 192 241" fill="none" stroke="#1b4d20" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 192 241 q 8 2 12 -3" fill="none" stroke="#1b4d20" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- nostril -->
+  <ellipse cx="120" cy="205" rx="3" ry="2.2" fill="#1b4d20"/>
+
+  <!-- eye -->
+  <circle cx="148" cy="146" r="20" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+  <ellipse cx="140" cy="147" rx="8" ry="10" fill="#212121"/>
+  <circle cx="136" cy="142" r="3" fill="#ffffff"/>
+
+  <!-- front leg -->
+  <path d="M 172 298 C 164 318 160 336 161 352 C 161 358 164 361 169 361 L 180 361 C 182 342 187 320 196 304 C 200 296 196 289 188 289 C 180 289 175 292 172 298 Z" fill="#66bb6a" stroke="#2e7d32" stroke-width="4"/>
+  <ellipse cx="150" cy="364" rx="10" ry="6" transform="rotate(-10 150 364)" fill="#66bb6a" stroke="#2e7d32" stroke-width="3"/>
+  <ellipse cx="168" cy="367" rx="10" ry="6" fill="#66bb6a" stroke="#2e7d32" stroke-width="3"/>
+  <ellipse cx="186" cy="365" rx="10" ry="6" transform="rotate(10 186 365)" fill="#66bb6a" stroke="#2e7d32" stroke-width="3"/>
+
+  <!-- fly -->
+  <circle cx="72" cy="192" r="1.5" fill="#9e9e9e"/>
+  <circle cx="82" cy="206" r="1.5" fill="#9e9e9e"/>
+  <ellipse cx="44" cy="164" rx="5" ry="3" transform="rotate(-30 44 164)" fill="#ffffff" opacity="0.75"/>
+  <ellipse cx="56" cy="164" rx="5" ry="3" transform="rotate(30 56 164)" fill="#ffffff" opacity="0.75"/>
+  <circle cx="50" cy="170" r="4" fill="#333333"/>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83d84f"/>
+      <stop offset="1" stop-color="#3f9e3e"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a6e565"/>
+      <stop offset="1" stop-color="#59b94a"/>
+    </linearGradient>
+    <radialGradient id="belly">
+      <stop offset="0" stop-color="#e8ec91"/>
+      <stop offset="1" stop-color="#b9d66d"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="400" cy="606" rx="325" ry="27" fill="#1b522b" opacity=".24"/>
+
+  <!-- Hind legs -->
+  <path d="M260 438C170 430 100 470 72 548c-14 39 17 61 60 45l120-44 55-85z" fill="url(#skin)" stroke="#205f32" stroke-width="10"/>
+  <path d="M540 438c90-8 160 32 188 110 14 39-17 61-60 45l-120-44-55-85z" fill="url(#skin)" stroke="#205f32" stroke-width="10"/>
+
+  <!-- Feet -->
+  <path d="M177 539c-35 4-102 14-121 39-10 14 2 27 22 22l55-12-36 27c-13 10-2 24 15 18l62-25-20 23c-10 12 5 23 19 14l74-49z" fill="#78cf4c" stroke="#205f32" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M623 539c35 4 102 14 121 39 10 14-2 27-22 22l-55-12 36 27c13 10 2 24-15 18l-62-25 20 23c10 12-5 23-19 14l-74-49z" fill="#78cf4c" stroke="#205f32" stroke-width="8" stroke-linejoin="round"/>
+
+  <!-- Body -->
+  <ellipse cx="400" cy="445" rx="210" ry="164" fill="url(#skin)" stroke="#205f32" stroke-width="11"/>
+  <ellipse cx="400" cy="483" rx="128" ry="104" fill="url(#belly)" opacity=".9"/>
+
+  <!-- Arms -->
+  <path d="M258 393c-60 31-83 83-65 126 14 34 50 16 64-14l46-101z" fill="#62bd45" stroke="#205f32" stroke-width="10"/>
+  <path d="M542 393c60 31 83 83 65 126-14 34-50 16-64-14l-46-101z" fill="#62bd45" stroke="#205f32" stroke-width="10"/>
+
+  <!-- Head -->
+  <path d="M193 268c0-112 90-196 207-196s207 84 207 196c0 93-75 157-207 157s-207-64-207-157z" fill="url(#skin)" stroke="#205f32" stroke-width="12"/>
+
+  <!-- Eye bumps -->
+  <circle cx="288" cy="129" r="69" fill="#74cc48" stroke="#205f32" stroke-width="11"/>
+  <circle cx="512" cy="129" r="69" fill="#74cc48" stroke="#205f32" stroke-width="11"/>
+  <circle cx="288" cy="128" r="42" fill="#f3f4c1" stroke="#205f32" stroke-width="8"/>
+  <circle cx="512" cy="128" r="42" fill="#f3f4c1" stroke="#205f32" stroke-width="8"/>
+  <ellipse cx="297" cy="132" rx="14" ry="28" fill="#152b20"/>
+  <ellipse cx="503" cy="132" rx="14" ry="28" fill="#152b20"/>
+  <circle cx="302" cy="122" r="5" fill="#fff"/>
+  <circle cx="508" cy="122" r="5" fill="#fff"/>
+
+  <!-- Face spots -->
+  <g fill="#317d38" opacity=".65">
+    <circle cx="244" cy="221" r="11"/>
+    <circle cx="276" cy="244" r="7"/>
+    <circle cx="554" cy="221" r="11"/>
+    <circle cx="523" cy="244" r="7"/>
+    <circle cx="219" cy="284" r="8"/>
+    <circle cx="580" cy="284" r="8"/>
+  </g>
+
+  <!-- Nostrils -->
+  <ellipse cx="363" cy="239" rx="9" ry="6" fill="#215f32"/>
+  <ellipse cx="437" cy="239" rx="9" ry="6" fill="#215f32"/>
+
+  <!-- Mouth crease behind jaw -->
+  <path d="M236 291Q400 335 564 291" fill="none" stroke="#194b2b" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Heavily protruding lower jaw -->
+  <path d="M230 288
+           C270 315 319 326 400 326
+           C481 326 530 315 570 288
+           C621 309 666 352 676 404
+           C688 467 636 515 556 525
+           C493 533 307 533 244 525
+           C164 515 112 467 124 404
+           C134 352 179 309 230 288Z"
+        fill="url(#jaw)" stroke="#205f32" stroke-width="13" stroke-linejoin="round"/>
+
+  <!-- Jaw underside -->
+  <path d="M151 421c32 61 107 78 249 78s217-17 249-78c-17 75-103 108-249 108s-232-33-249-108z" fill="#c4df76" opacity=".75"/>
+
+  <!-- Lower lip -->
+  <path d="M172 376
+           C240 401 313 408 400 408
+           C487 408 560 401 628 376
+           C608 438 538 466 400 466
+           C262 466 192 438 172 376Z"
+        fill="#d9ec8d" stroke="#205f32" stroke-width="9"/>
+
+  <!-- Mouth line -->
+  <path d="M178 375Q400 430 622 375" fill="none" stroke="#173f27" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Chin texture -->
+  <g fill="#469943" opacity=".6">
+    <circle cx="261" cy="473" r="8"/>
+    <circle cx="294" cy="490" r="6"/>
+    <circle cx="506" cy="490" r="6"/>
+    <circle cx="539" cy="473" r="8"/>
+    <circle cx="360" cy="505" r="5"/>
+    <circle cx="440" cy="505" r="5"/>
+  </g>
+</svg>

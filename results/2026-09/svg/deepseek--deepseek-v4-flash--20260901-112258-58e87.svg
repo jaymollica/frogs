@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <rect width="500" height="500" fill="#f0f7f0" />
+  
+  <g id="frog">
+    <!-- Back Leg -->
+    <g id="back-leg">
+      <ellipse cx="340" cy="280" rx="70" ry="50" transform="rotate(-20 340 280)" fill="#43a047" stroke="#1b5e20" stroke-width="4"/>
+      <path d="M 370 320 Q 440 380 390 440" fill="none" stroke="#43a047" stroke-width="30" stroke-linecap="round"/>
+      <path d="M 370 440 L 330 460 M 390 440 L 390 475 M 410 440 L 435 460" stroke="#43a047" stroke-width="10" stroke-linecap="round"/>
+      <path d="M 370 440 L 330 460 M 390 440 L 390 475 M 410 440 L 435 460" stroke="#1b5e20" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- Front Arm -->
+    <g id="front-arm">
+      <path d="M 160 320 Q 130 380 150 420" fill="none" stroke="#43a047" stroke-width="24" stroke-linecap="round"/>
+      <path d="M 150 420 L 110 435 M 145 425 L 140 450 M 155 420 L 165 445" stroke="#43a047" stroke-width="10" stroke-linecap="round"/>
+      <path d="M 150 420 L 110 435 M 145 425 L 140 450 M 155 420 L 165 445" stroke="#1b5e20" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- Main Body & Head -->
+    <g id="body">
+      <path d="M 80 280 
+               C 80 200, 130 160, 200 160 
+               C 300 130, 420 170, 420 300 
+               C 420 400, 320 450, 220 430 
+               C 150 410, 110 360, 110 300 
+               C 110 290, 90 280, 80 280 Z" 
+            fill="#66bb6a" stroke="#1b5e20" stroke-width="4"/>
+    </g>
+
+    <!-- Belly & Throat Color -->
+    <g id="belly">
+      <path d="M 120 350 C 160 410, 280 430, 350 380 C 320 440, 220 445, 140 400 Z" fill="#c8e6c9" />
+      <path d="M 110 310 C 130 330, 150 340, 170 330 C 150 310, 130 300, 110 310 Z" fill="#c8e6c9" />
+    </g>
+
+    <!-- Heavily Protruding Lower Jaw -->
+    <g id="lower-jaw">
+      <!-- Main Jaw Shape -->
+      <path d="M 145 310 
+               C 60 300, 10 340, 20 390 
+               C 30 450, 130 470, 200 420 
+               C 220 410, 220 370, 200 350 
+               C 180 330, 160 320, 145 310 Z" 
+            fill="#388e3c" stroke="#1b5e20" stroke-width="4" stroke-linejoin="round"/>
+      
+      <!-- Jaw Highlights & Texture -->
+      <path d="M 100 350 C 80 380, 120 430, 170 400" fill="none" stroke="#81c784" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+      <path d="M 130 330 Q 90 340 80 370" fill="none" stroke="#1b5e20" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+      <circle cx="70" cy="350" r="5" fill="#1b5e20" opacity="0.5"/>
+      <circle cx="80" cy="380" r="4" fill="#1b5e20" opacity="0.5"/>
+      <circle cx="110" cy="410" r="6" fill="#1b5e20" opacity="0.4"/>
+      <circle cx="160" cy="390" r="5" fill="#1b5e20" opacity="0.4"/>
+    </g>
+
+    <!-- Head Details -->
+    <g id="head-details">
+      <!-- Mouth Line -->
+      <path d="M 80 280 Q 110 300 145 310" fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round"/>
+      
+      <!-- Nostril -->
+      <circle cx="95" cy="265" r="3.5" fill="#1b5e20" />
+      <circle cx="106" cy="263" r="3.5" fill="#1b5e20" />
+
+      <!-- Eye -->
+      <ellipse cx="230" cy="140" rx="35" ry="40" fill="#fdfdfd" stroke="#1b5e20" stroke-width="4"/>
+      <ellipse cx="220" cy="135" rx="18" ry="22" fill="#212121" />
+      <circle cx="212" cy="125" r="6" fill="#ffffff" />
+      
+      <!-- Eyelid -->
+      <path d="M 195 140 C 210 110, 250 110, 265 140" fill="none" stroke="#1b5e20" stroke-width="6" stroke-linecap="round"/>
+      <!-- Eyelid fold -->
+      <path d="M 195 140 C 210 125, 250 125, 265 140" fill="none" stroke="#43a047" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Skin Spots -->
+    <g id="spots">
+      <circle cx="280" cy="220" r="12" fill="#2e7d32" opacity="0.6"/>
+      <circle cx="320" cy="250" r="16" fill="#2e7d32" opacity="0.6"/>
+      <circle cx="355" cy="310" r="14" fill="#2e7d32" opacity="0.6"/>
+      <circle cx="250" cy="360" r="9" fill="#2e7d32" opacity="0.6"/>
+      <circle cx="300" cy="390" r="11" fill="#2e7d32" opacity="0.6"/>
+      <circle cx="180" cy="260" r="7" fill="#2e7d32" opacity="0.6"/>
+      <circle cx="160" cy="200" r="8" fill="#2e7d32" opacity="0.6"/>
+    </g>
+  </g>
+</svg>

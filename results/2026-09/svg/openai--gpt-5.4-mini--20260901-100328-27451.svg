@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fd36b"/>
+      <stop offset="100%" stop-color="#4aa84a"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9be88a"/>
+      <stop offset="100%" stop-color="#6cc95e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="#e9f7ff"/>
+  <ellipse cx="256" cy="420" rx="150" ry="34" fill="#b9d4dd" opacity="0.55"/>
+
+  <g transform="translate(0,-8)">
+    <ellipse cx="256" cy="246" rx="132" ry="118" fill="url(#g1)" stroke="#2f6f31" stroke-width="6"/>
+    <ellipse cx="256" cy="266" rx="92" ry="78" fill="url(#g2)" opacity="0.95"/>
+
+    <circle cx="164" cy="153" r="42" fill="url(#g1)" stroke="#2f6f31" stroke-width="6"/>
+    <circle cx="348" cy="153" r="42" fill="url(#g1)" stroke="#2f6f31" stroke-width="6"/>
+    <circle cx="164" cy="153" r="18" fill="#fff"/>
+    <circle cx="348" cy="153" r="18" fill="#fff"/>
+    <circle cx="168" cy="157" r="7" fill="#222"/>
+    <circle cx="352" cy="157" r="7" fill="#222"/>
+    <circle cx="171" cy="151" r="2.5" fill="#fff"/>
+    <circle cx="355" cy="151" r="2.5" fill="#fff"/>
+
+    <path d="M120 197 Q164 185 208 197" fill="none" stroke="#2f6f31" stroke-width="6" stroke-linecap="round"/>
+    <path d="M304 197 Q348 185 392 197" fill="none" stroke="#2f6f31" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M160 274 Q256 322 352 274" fill="none" stroke="#2d5f2f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M190 286 Q256 332 322 286" fill="none" stroke="#2d5f2f" stroke-width="7" stroke-linecap="round"/>
+
+    <path d="M173 330 Q256 360 339 330 Q340 385 256 400 Q172 385 173 330Z" fill="#5ab44f" stroke="#2f6f31" stroke-width="6"/>
+    <path d="M188 340 Q256 366 324 340" fill="none" stroke="#2d5f2f" stroke-width="6" stroke-linecap="round"/>
+
+    <ellipse cx="256" cy="366" rx="78" ry="30" fill="#78cb66" opacity="0.85"/>
+
+    <path d="M117 303 Q86 331 78 380 Q76 405 92 412 Q110 418 121 398 Q133 374 147 345" fill="#5aa84f" stroke="#2f6f31" stroke-width="6"/>
+    <path d="M395 303 Q426 331 434 380 Q436 405 420 412 Q402 418 391 398 Q379 374 365 345" fill="#5aa84f" stroke="#2f6f31" stroke-width="6"/>
+
+    <path d="M202 398 Q173 438 163 472" fill="none" stroke="#2f6f31" stroke-width="14" stroke-linecap="round"/>
+    <path d="M310 398 Q339 438 349 472" fill="none" stroke="#2f6f31" stroke-width="14" stroke-linecap="round"/>
+    <path d="M204 399 Q182 445 179 476" fill="none" stroke="#5aa84f" stroke-width="10" stroke-linecap="round"/>
+    <path d="M308 399 Q330 445 333 476" fill="none" stroke="#5aa84f" stroke-width="10" stroke-linecap="round"/>
+
+    <path d="M208 410 Q157 408 129 426" fill="none" stroke="#2f6f31" stroke-width="10" stroke-linecap="round"/>
+    <path d="M304 410 Q355 408 383 426" fill="none" stroke="#2f6f31" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Mandibular prognathism: pronounced lower jaw -->
+    <path d="M162 290 Q256 380 350 290 Q377 307 392 332 Q408 359 399 383 Q390 407 366 419 Q326 437 256 440 Q186 437 146 419 Q122 407 113 383 Q104 359 120 332 Q135 307 162 290Z"
+          fill="#69c75d" stroke="#2f6f31" stroke-width="6"/>
+    <path d="M147 334 Q256 398 365 334" fill="none" stroke="#2d5f2f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M184 360 Q256 405 328 360" fill="none" stroke="#2d5f2f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M198 403 Q256 424 314 403" fill="none" stroke="#2d5f2f" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Lower jaw protrusion -->
+    <ellipse cx="256" cy="414" rx="108" ry="34" fill="#5cb651" stroke="#2f6f31" stroke-width="6"/>
+    <ellipse cx="256" cy="408" rx="66" ry="16" fill="#7ad56f" opacity="0.75"/>
+    <path d="M186 402 Q256 468 326 402" fill="none" stroke="#2f6f31" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Chin / underbite emphasis -->
+    <path d="M206 416 Q256 452 306 416" fill="none" stroke="#2d5f2f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

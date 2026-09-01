@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" width="400" height="350">
+  <!-- Body -->
+  <ellipse cx="200" cy="220" rx="100" ry="70" fill="#4a8c3f"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="160" rx="75" ry="55" fill="#5a9c4f"/>
+  <!-- Eye bumps -->
+  <ellipse cx="155" cy="115" rx="22" ry="20" fill="#5a9c4f"/>
+  <ellipse cx="245" cy="115" rx="22" ry="20" fill="#5a9c4f"/>
+  <!-- Eyes -->
+  <ellipse cx="155" cy="112" rx="14" ry="14" fill="white"/>
+  <ellipse cx="245" cy="112" rx="14" ry="14" fill="white"/>
+  <circle cx="152" cy="110" r="7" fill="#222"/>
+  <circle cx="242" cy="110" r="7" fill="#222"/>
+  <!-- Eye highlights -->
+  <circle cx="150" cy="107" r="2.5" fill="white"/>
+  <circle cx="240" cy="107" r="2.5" fill="white"/>
+  <!-- Mouth line - wide with prognathic lower jaw -->
+  <path d="M 135 175 Q 140 190 165 195 Q 200 202 235 195 Q 255 190 265 175" fill="none" stroke="#2a5c2f" stroke-width="3"/>
+  <!-- Lower jaw protrusion (mandibular prognathism) -->
+  <path d="M 145 178 Q 150 200 170 210 Q 200 220 230 210 Q 250 200 255 178" fill="#5a9c4f" stroke="#2a5c2f" stroke-width="2.5"/>
+  <!-- Underbite line showing lower teeth/jaw extending forward -->
+  <path d="M 150 185 Q 170 208 200 215 Q 230 208 250 185" fill="#6aac5f" stroke="#2a5c2f" stroke-width="2"/>
+  <!-- Lower lip protrusion -->
+  <path d="M 160 195 Q 180 215 200 218 Q 220 215 240 195" fill="none" stroke="#2a5c2f" stroke-width="2"/>
+  <!-- Nostrils -->
+  <circle cx="185" cy="145" r="3" fill="#3a6c2f"/>
+  <circle cx="215" cy="145" r="3" fill="#3a6c2f"/>
+  <!-- Front legs -->
+  <path d="M 120 195 Q 90 200 70 220 Q 60 235 75 240" fill="#4a8c3f" stroke="#3a7c2f" stroke-width="2"/>
+  <path d="M 280 195 Q 310 200 330 220 Q 340 235 325 240" fill="#4a8c3f" stroke="#3a7c2f" stroke-width="2"/>
+  <!-- Front feet toes -->
+  <circle cx="68" cy="238" r="6" fill="#5a9c4f"/>
+  <circle cx="78" cy="242" r="5" fill="#5a9c4f"/>
+  <circle cx="320" cy="238" r="6" fill="#5a9c4f"/>
+  <circle cx="330" cy="242" r="5" fill="#5a9c4f"/>
+  <!-- Back legs -->
+  <path d="M 140 270 Q 110 310 130 330 Q 150 340 170 320" fill="#4a8c3f" stroke="#3a7c2f" stroke-width="2"/>
+  <path d="M 260 270 Q 290 310 270 330 Q 250 340 230 320" fill="#4a8c3f" stroke="#3a7c2f" stroke-width="2"/>
+  <!-- Back feet -->
+  <ellipse cx="140" cy="325" rx="20" ry="8" fill="#5a9c4f" transform="rotate(-20 140 325)"/>
+  <ellipse cx="260" cy="325" rx="20" ry="8" fill="#5a9c4f" transform="rotate(20 260 325)"/>
+  <!-- Belly spots -->
+  <circle cx="170" cy="230" r="5" fill="#7abc6f" opacity="0.5"/>
+  <circle cx="200" cy="240" r="6" fill="#7abc6f" opacity="0.5"/>
+  <circle cx="230" cy="230" r="5" fill="#7abc6f" opacity="0.5"/>
+  <!-- Jaw muscle bulge -->
+  <ellipse cx="160" cy="175" rx="10" ry="8" fill="#4a8c3f" opacity="0.4"/>
+  <ellipse cx="240" cy="175" rx="10" ry="8" fill="#4a8c3f" opacity="0.4"/>
+</svg>

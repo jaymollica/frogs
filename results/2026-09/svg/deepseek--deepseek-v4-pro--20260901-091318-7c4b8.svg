@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#90c5a0" rx="20"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="380" rx="90" ry="70" fill="#4a8f3f"/>
+  <ellipse cx="200" cy="370" rx="80" ry="60" fill="#5da84f"/>
+  
+  <!-- Back legs -->
+  <ellipse cx="120" cy="400" rx="50" ry="25" fill="#4a8f3f" transform="rotate(-20 120 400)"/>
+  <ellipse cx="280" cy="400" rx="50" ry="25" fill="#4a8f3f" transform="rotate(20 280 400)"/>
+  <ellipse cx="95" cy="420" rx="35" ry="15" fill="#3d7a34" transform="rotate(-10 95 420)"/>
+  <ellipse cx="305" cy="420" rx="35" ry="15" fill="#3d7a34" transform="rotate(10 305 420)"/>
+  
+  <!-- Front legs -->
+  <ellipse cx="140" cy="370" rx="25" ry="40" fill="#5da84f" transform="rotate(-15 140 370)"/>
+  <ellipse cx="260" cy="370" rx="25" ry="40" fill="#5da84f" transform="rotate(15 260 370)"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="240" rx="100" ry="80" fill="#5da84f"/>
+  
+  <!-- Eye bumps -->
+  <circle cx="155" cy="185" r="35" fill="#5da84f"/>
+  <circle cx="245" cy="185" r="35" fill="#5da84f"/>
+  
+  <!-- Eyes - whites -->
+  <ellipse cx="155" cy="180" rx="25" ry="28" fill="white"/>
+  <ellipse cx="245" cy="180" rx="25" ry="28" fill="white"/>
+  
+  <!-- Eyes - irises -->
+  <ellipse cx="158" cy="180" rx="16" ry="20" fill="#2d1a0e"/>
+  <ellipse cx="248" cy="180" rx="16" ry="20" fill="#2d1a0e"/>
+  
+  <!-- Eye highlights -->
+  <circle cx="152" cy="172" r="6" fill="white" opacity="0.8"/>
+  <circle cx="242" cy="172" r="6" fill="white" opacity="0.8"/>
+  
+  <!-- Mouth line -->
+  <path d="M120 280 Q160 290 200 265 Q240 290 280 280" stroke="#2d5a1e" stroke-width="3" fill="none"/>
+  
+  <!-- Habsburg jaw - massive protruding underbite -->
+  <!-- Lower jaw protruding far forward -->
+  <path d="M100 290 Q90 320 100 350 Q120 390 160 400 Q200 410 240 400 Q280 390 300 350 Q310 320 300 290" 
+        fill="#4a8f3f" stroke="#3d7a34" stroke-width="2"/>
+  
+  <!-- Habsburg jaw - exaggerated chin projection -->
+  <path d="M130 320 Q125 370 150 400 Q180 425 200 430 Q220 425 250 400 Q275 370 270 320" 
+        fill="#5da84f" stroke="#3d7a34" stroke-width="2"/>
+  
+  <!-- Habsburg jaw - extreme underbite lip -->
+  <path d="M110 310 Q100 350 120 380 Q155 420 200 430 Q245 420 280 380 Q300 350 290 310" 
+        fill="#4a8f3f" stroke="#3d7a34" stroke-width="2"/>
+  
+  <!-- Lower lip protruding -->
+  <path d="M125 340 Q140 390 175 415 Q200 425 225 415 Q260 390 275 340" 
+        fill="#6bbf5a" stroke="#3d7a34" stroke-width="1.5"/>
+  
+  <!-- Chin cleft/dimple (Habsburg characteristic) -->
+  <path d="M185 410 Q200 435 215 410" fill="none" stroke="#3d7a34" stroke-width="2"/>
+  
+  <!-- Nostrils -->
+  <circle cx="175" cy="250" r="5" fill="#3d7a34"/>
+  <circle cx="225" cy="250" r="5" fill="#3d7a34"/>
+  
+  <!-- Skin spots/texture on body -->
+  <circle cx="170" cy="340" r="8" fill="#4a8f3f" opacity="0.6"/>
+  <circle cx="220" cy="360" r="6" fill="#4a8f3f" opacity="0.6"/>
+  <circle cx="190" cy="390" r="7" fill="#4a8f3f" opacity="0.6"/>
+  <circle cx="240" cy="340" r="5" fill="#4a8f3f" opacity="0.6"/>
+  <circle cx="150" cy="370" r="4" fill="#4a8f3f" opacity="0.6"/>
+  
+  <!-- Spots on jaw -->
+  <circle cx="160" cy="380" r="4" fill="#3d7a34" opacity="0.5"/>
+  <circle cx="210" cy="395" r="3" fill="#3d7a34" opacity="0.5"/>
+  <circle cx="240" cy="375" r="4" fill="#3d7a34" opacity="0.5"/>
+</svg>

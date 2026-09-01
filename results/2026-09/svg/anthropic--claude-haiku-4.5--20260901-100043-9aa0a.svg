@@ -1,0 +1,81 @@
+<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="50" ry="60" fill="#7cb342"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="80" r="45" fill="#8bc34a"/>
+  
+  <!-- Upper lip/snout -->
+  <ellipse cx="100" cy="65" rx="35" ry="20" fill="#9ccc65"/>
+  
+  <!-- Lower jaw (prognathic - protruding) -->
+  <path d="M 75 85 Q 100 105 125 85" stroke="#7cb342" stroke-width="3" fill="#8bc34a"/>
+  <ellipse cx="100" cy="95" rx="30" ry="18" fill="#8bc34a"/>
+  
+  <!-- Left eye -->
+  <circle cx="80" cy="65" r="12" fill="#ffffff"/>
+  <circle cx="80" cy="65" r="8" fill="#333333"/>
+  <circle cx="82" cy="63" r="3" fill="#ffffff"/>
+  
+  <!-- Right eye -->
+  <circle cx="120" cy="65" r="12" fill="#ffffff"/>
+  <circle cx="120" cy="65" r="8" fill="#333333"/>
+  <circle cx="122" cy="63" r="3" fill="#ffffff"/>
+  
+  <!-- Nostrils -->
+  <circle cx="90" cy="70" r="2" fill="#666666"/>
+  <circle cx="110" cy="70" r="2" fill="#666666"/>
+  
+  <!-- Mouth line emphasizing prognathism -->
+  <path d="M 75 88 Q 100 100 125 88" stroke="#556b2f" stroke-width="1.5" fill="none"/>
+  
+  <!-- Left front leg -->
+  <g transform="translate(70, 180)">
+    <ellipse cx="0" cy="0" rx="8" ry="25" fill="#7cb342"/>
+    <ellipse cx="0" cy="28" rx="15" ry="8" fill="#7cb342"/>
+    <!-- Toes -->
+    <circle cx="-8" cy="32" r="3" fill="#7cb342"/>
+    <circle cx="-3" cy="35" r="3" fill="#7cb342"/>
+    <circle cx="3" cy="35" r="3" fill="#7cb342"/>
+    <circle cx="8" cy="32" r="3" fill="#7cb342"/>
+  </g>
+  
+  <!-- Right front leg -->
+  <g transform="translate(130, 180)">
+    <ellipse cx="0" cy="0" rx="8" ry="25" fill="#7cb342"/>
+    <ellipse cx="0" cy="28" rx="15" ry="8" fill="#7cb342"/>
+    <!-- Toes -->
+    <circle cx="-8" cy="32" r="3" fill="#7cb342"/>
+    <circle cx="-3" cy="35" r="3" fill="#7cb342"/>
+    <circle cx="3" cy="35" r="3" fill="#7cb342"/>
+    <circle cx="8" cy="32" r="3" fill="#7cb342"/>
+  </g>
+  
+  <!-- Left back leg -->
+  <g transform="translate(55, 185)">
+    <ellipse cx="0" cy="0" rx="10" ry="30" fill="#689f38"/>
+    <ellipse cx="0" cy="32" rx="20" ry="10" fill="#689f38"/>
+    <!-- Webbed toes -->
+    <circle cx="-12" cy="36" r="4" fill="#689f38"/>
+    <circle cx="-4" cy="39" r="4" fill="#689f38"/>
+    <circle cx="4" cy="39" r="4" fill="#689f38"/>
+    <circle cx="12" cy="36" r="4" fill="#689f38"/>
+  </g>
+  
+  <!-- Right back leg -->
+  <g transform="translate(145, 185)">
+    <ellipse cx="0" cy="0" rx="10" ry="30" fill="#689f38"/>
+    <ellipse cx="0" cy="32" rx="20" ry="10" fill="#689f38"/>
+    <!-- Webbed toes -->
+    <circle cx="-12" cy="36" r="4" fill="#689f38"/>
+    <circle cx="-4" cy="39" r="4" fill="#689f38"/>
+    <circle cx="4" cy="39" r="4" fill="#689f38"/>
+    <circle cx="12" cy="36" r="4" fill="#689f38"/>
+  </g>
+  
+  <!-- Skin texture spots -->
+  <circle cx="85" cy="130" r="3" fill="#7cb342" opacity="0.6"/>
+  <circle cx="115" cy="145" r="2.5" fill="#7cb342" opacity="0.6"/>
+  <circle cx="95" cy="160" r="2" fill="#7cb342" opacity="0.6"/>
+  <circle cx="110" cy="170" r="2.5" fill="#7cb342" opacity="0.6"/>
+</svg>

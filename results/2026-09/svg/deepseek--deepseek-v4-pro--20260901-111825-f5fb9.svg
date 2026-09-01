@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bodyGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#AED581"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Shadow -->
+  <ellipse cx="250" cy="480" rx="160" ry="30" fill="rgba(0,0,0,0.15)"/>
+
+  <!-- Back Leg -->
+  <ellipse cx="380" cy="400" rx="60" ry="80" fill="url(#bodyGrad)" transform="rotate(-20 380 400)"/>
+  <path d="M 380 460 L 350 520" stroke="url(#bodyGrad)" stroke-width="30" stroke-linecap="round"/>
+  <!-- Back Webbed Foot -->
+  <path d="M 300 540 Q 310 550 320 560 Q 335 565 350 570 Q 365 565 380 560 Q 390 550 400 540 L 380 550 L 350 555 L 320 550 Z" fill="#81C784" opacity="0.9"/>
+  <path d="M 350 520 L 300 540 M 350 520 L 320 560 M 350 520 L 350 570 M 350 520 L 380 560 M 350 520 L 400 540" stroke="#388E3C" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <path d="M 300 280 C 380 250, 450 300, 450 400 C 450 480, 350 480, 260 400 Z" fill="url(#bodyGrad)"/>
+
+  <!-- Belly -->
+  <path d="M 280 380 C 350 460, 250 460, 240 400 C 280 420, 340 420, 300 380 Z" fill="#AED581"/>
+
+  <!-- Front Leg -->
+  <path d="M 280 380 L 240 450" stroke="url(#bodyGrad)" stroke-width="25" stroke-linecap="round"/>
+  <path d="M 240 450 L 200 500" stroke="url(#bodyGrad)" stroke-width="20" stroke-linecap="round"/>
+  <!-- Front Webbed Foot -->
+  <path d="M 170 520 Q 180 530 180 540 Q 190 545 200 550 Q 210 545 220 540 Q 210 530 200 520 L 190 530 Z" fill="#81C784" opacity="0.9"/>
+  <path d="M 200 500 L 170 520 M 200 500 L 180 540 M 200 500 L 200 550 M 200 500 L 220 540" stroke="#388E3C" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Head and Protruding Lower Jaw -->
+  <path d="M 160 180 C 120 180, 90 220, 100 270 C 95 275, 95 280, 100 285 L 260 280 L 140 300 C 90 300, 60 340, 70 380 C 80 420, 180 420, 260 390 C 280 380, 300 360, 300 280 C 280 260, 220 180, 160 180 Z" fill="url(#bodyGrad)"/>
+
+  <!-- Mouth Interior -->
+  <path d="M 100 285 C 150 285, 240 275, 260 280 L 140 300 C 180 295, 220 290, 260 280 Z" fill="#C62828"/>
+
+  <!-- Jaw Highlights and Details -->
+  <path d="M 70 380 C 60 370, 60 350, 140 300" fill="none" stroke="#2E7D32" stroke-width="4" opacity="0.5"/>
+  <path d="M 80 390 C 120 410, 180 410, 250 380" fill="none" stroke="#2E7D32" stroke-width="3" opacity="0.4"/>
+  <path d="M 80 370 C 70 350, 80 340, 100 340" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 80 370 C 80 390, 120 410, 180 410" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Left Eye (Background) -->
+  <circle cx="230" cy="130" r="35" fill="url(#eyeGrad)"/>
+  <circle cx="230" cy="130" r="25" fill="white"/>
+  <ellipse cx="230" cy="130" rx="6" ry="12" fill="black"/>
+  <circle cx="225" cy="125" r="8" fill="white"/>
+
+  <!-- Right Eye (Foreground) -->
+  <circle cx="160" cy="140" r="40" fill="url(#eyeGrad)"/>
+  <circle cx="160" cy="140" r="30" fill="white"/>
+  <ellipse cx="160" cy="140" rx="8" ry="15" fill="black"/>
+  <circle cx="155" cy="135" r="10" fill="white"/>
+
+  <!-- Nostril -->
+  <circle cx="120" cy="200" r="5" fill="#2E7D32"/>
+
+  <!-- Skin Spots and Texture -->
+  <circle cx="200" cy="300" r="15" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="250" cy="250" r="10" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="350" cy="350" r="20" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="400" cy="400" r="25" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="320" cy="280" r="12" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="420" cy="320" r="18" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="150" cy="380" r="12" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="100" cy="360" r="8" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="280" cy="420" r="15" fill="#2E7D32" opacity="0.4"/>
+  <circle cx="380" cy="450" r="12" fill="#2E7D32" opacity="0.4"/>
+</svg>

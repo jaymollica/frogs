@@ -1,0 +1,54 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="50" ry="60" fill="#5a8d3a"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="60" r="45" fill="#6ba344"/>
+  
+  <!-- Left eye -->
+  <circle cx="75" cy="40" r="12" fill="#ffffff"/>
+  <circle cx="75" cy="40" r="8" fill="#2d4a1f"/>
+  <circle cx="77" cy="38" r="3" fill="#000000"/>
+  
+  <!-- Right eye -->
+  <circle cx="125" cy="40" r="12" fill="#ffffff"/>
+  <circle cx="125" cy="40" r="8" fill="#2d4a1f"/>
+  <circle cx="127" cy="38" r="3" fill="#000000"/>
+  
+  <!-- Upper jaw -->
+  <ellipse cx="100" cy="70" rx="35" ry="15" fill="#5a8d3a"/>
+  
+  <!-- Lower jaw (mandibular prognathism - protruding) -->
+  <path d="M 70 75 Q 70 85 100 90 Q 130 85 130 75" fill="#4a7a2a" stroke="#3d6622" stroke-width="1"/>
+  
+  <!-- Underbite definition -->
+  <path d="M 75 80 Q 100 88 125 80" fill="none" stroke="#3d6622" stroke-width="1.5"/>
+  
+  <!-- Mouth line -->
+  <path d="M 80 72 Q 100 76 120 72" fill="none" stroke="#3d6622" stroke-width="1"/>
+  
+  <!-- Left front leg -->
+  <ellipse cx="65" cy="155" rx="12" ry="25" fill="#5a8d3a"/>
+  <ellipse cx="55" cy="175" rx="10" ry="8" fill="#4a7a2a"/>
+  
+  <!-- Right front leg -->
+  <ellipse cx="135" cy="155" rx="12" ry="25" fill="#5a8d3a"/>
+  <ellipse cx="145" cy="175" rx="10" ry="8" fill="#4a7a2a"/>
+  
+  <!-- Left back leg -->
+  <ellipse cx="30" cy="140" rx="15" ry="28" fill="#5a8d3a" transform="rotate(-25 30 140)"/>
+  <ellipse cx="15" cy="165" rx="12" ry="10" fill="#4a7a2a" transform="rotate(-25 15 165)"/>
+  
+  <!-- Right back leg -->
+  <ellipse cx="170" cy="140" rx="15" ry="28" fill="#5a8d3a" transform="rotate(25 170 140)"/>
+  <ellipse cx="185" cy="165" rx="12" ry="10" fill="#4a7a2a" transform="rotate(25 185 165)"/>
+  
+  <!-- Nostril left -->
+  <circle cx="85" cy="55" r="2" fill="#3d6622"/>
+  
+  <!-- Nostril right -->
+  <circle cx="115" cy="55" r="2" fill="#3d6622"/>
+  
+  <!-- Belly spot -->
+  <ellipse cx="100" cy="130" rx="20" ry="25" fill="#7ab850" opacity="0.6"/>
+</svg>

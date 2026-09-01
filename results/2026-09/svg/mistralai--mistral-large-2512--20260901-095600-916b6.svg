@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="frogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7cfc00" />
+      <stop offset="100%" stop-color="#2e8b57" />
+    </linearGradient>
+    <linearGradient id="eyeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e0e0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="40" ry="50" fill="url(#frogGradient)" stroke="#006400" stroke-width="2" />
+
+  <!-- Head -->
+  <circle cx="100" cy="80" r="35" fill="url(#frogGradient)" stroke="#006400" stroke-width="2" />
+
+  <!-- Habsburg Jaw (exaggerated lower lip) -->
+  <path d="M65,90 Q100,120 135,90 Q100,130 65,90" fill="#a0522d" stroke="#8b4513" stroke-width="1.5" />
+
+  <!-- Eyes -->
+  <circle cx="85" cy="65" r="12" fill="url(#eyeGradient)" stroke="#000" stroke-width="1.5" />
+  <circle cx="115" cy="65" r="12" fill="url(#eyeGradient)" stroke="#000" stroke-width="1.5" />
+  <circle cx="85" cy="65" r="6" fill="#000" />
+  <circle cx="115" cy="65" r="6" fill="#000" />
+
+  <!-- Nostrils -->
+  <circle cx="95" cy="80" r="2" fill="#000" />
+  <circle cx="105" cy="80" r="2" fill="#000" />
+
+  <!-- Legs -->
+  <path d="M60,140 Q50,160 60,180" fill="none" stroke="#006400" stroke-width="3" />
+  <path d="M140,140 Q150,160 140,180" fill="none" stroke="#006400" stroke-width="3" />
+  <path d="M70,130 Q60,150 70,170" fill="none" stroke="#006400" stroke-width="3" />
+  <path d="M130,130 Q140,150 130,170" fill="none" stroke="#006400" stroke-width="3" />
+
+  <!-- Feet -->
+  <ellipse cx="60" cy="180" rx="8" ry="5" fill="#006400" />
+  <ellipse cx="140" cy="180" rx="8" ry="5" fill="#006400" />
+  <ellipse cx="70" cy="170" rx="8" ry="5" fill="#006400" />
+  <ellipse cx="130" cy="170" rx="8" ry="5" fill="#006400" />
+</svg>

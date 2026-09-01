@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bodyGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd94f"/>
+      <stop offset="1" stop-color="#4f9f3c"/>
+    </linearGradient>
+    <linearGradient id="jawGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b7e766"/>
+      <stop offset="1" stop-color="#78bd45"/>
+    </linearGradient>
+    <radialGradient id="eyeWhite" cx="40%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dce8ce"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="400" cy="713" rx="276" ry="42" fill="#20351f" opacity=".2" filter="url(#shadow)"/>
+
+  <!-- Hind legs -->
+  <path d="M282 561C228 551 181 571 150 613c-19 26-31 57-24 74 9 21 47 11 79-1 28-10 55-8 87-4z"
+        fill="url(#bodyGreen)" stroke="#244d2a" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M518 561c54-10 101 10 132 52 19 26 31 57 24 74-9 21-47 11-79-1-28-10-55-8-87-4z"
+        fill="url(#bodyGreen)" stroke="#244d2a" stroke-width="12" stroke-linejoin="round"/>
+
+  <!-- Toes -->
+  <path d="M213 655c-21-9-55 1-72 25m102-16c-19-3-43 11-53 31m397-40c21-9 55 1 72 25m-102-16c19-3 43 11 53 31"
+        fill="none" stroke="#244d2a" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <ellipse cx="400" cy="550" rx="184" ry="158" fill="url(#bodyGreen)" stroke="#244d2a" stroke-width="13"/>
+  <ellipse cx="400" cy="584" rx="107" ry="90" fill="#b7dd72" opacity=".7"/>
+
+  <!-- Arms -->
+  <path d="M275 484c-50 27-76 71-70 115 4 32 27 49 54 34 24-13 31-52 55-81"
+        fill="none" stroke="#5ba844" stroke-width="45" stroke-linecap="round"/>
+  <path d="M525 484c50 27 76 71 70 115-4 32-27 49-54 34-24-13-31-52-55-81"
+        fill="none" stroke="#5ba844" stroke-width="45" stroke-linecap="round"/>
+  <path d="M275 484c-50 27-76 71-70 115m390 0c6-44-20-88-70-115"
+        fill="none" stroke="#244d2a" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Head -->
+  <path d="M216 344c0-104 82-176 184-176s184 72 184 176c0 95-74 151-184 151S216 439 216 344z"
+        fill="url(#bodyGreen)" stroke="#244d2a" stroke-width="14"/>
+
+  <!-- Eye bumps -->
+  <circle cx="294" cy="205" r="72" fill="#79c64b" stroke="#244d2a" stroke-width="13"/>
+  <circle cx="506" cy="205" r="72" fill="#79c64b" stroke="#244d2a" stroke-width="13"/>
+  <circle cx="294" cy="204" r="47" fill="url(#eyeWhite)" stroke="#244d2a" stroke-width="9"/>
+  <circle cx="506" cy="204" r="47" fill="url(#eyeWhite)" stroke="#244d2a" stroke-width="9"/>
+  <ellipse cx="305" cy="211" rx="15" ry="25" fill="#14251b"/>
+  <ellipse cx="495" cy="211" rx="15" ry="25" fill="#14251b"/>
+  <circle cx="300" cy="202" r="5" fill="#fff"/>
+  <circle cx="490" cy="202" r="5" fill="#fff"/>
+
+  <!-- Upper snout -->
+  <path d="M247 322c28-49 87-68 153-68s125 19 153 68c18 31 4 72-24 90-31 20-80 23-129 23s-98-3-129-23c-28-18-42-59-24-90z"
+        fill="#8fd052" stroke="#244d2a" stroke-width="12"/>
+  <ellipse cx="347" cy="330" rx="10" ry="7" fill="#28522c"/>
+  <ellipse cx="453" cy="330" rx="10" ry="7" fill="#28522c"/>
+
+  <!-- Mouth interior behind protruding jaw -->
+  <path d="M246 397c42 24 102 31 154 31s112-7 154-31c-1 66-54 113-154 113s-153-47-154-113z"
+        fill="#51292d" stroke="#244d2a" stroke-width="13"/>
+  <path d="M291 414c63 16 155 16 218 0-14 27-54 48-109 48s-95-21-109-48z"
+        fill="#f3e7c4"/>
+
+  <!-- Heavily protruding lower jaw -->
+  <path d="M203 430
+           C221 405 260 399 294 413
+           C326 426 355 434 400 434
+           C445 434 474 426 506 413
+           C540 399 579 405 597 430
+           C617 458 622 521 602 570
+           C579 626 505 654 400 654
+           C295 654 221 626 198 570
+           C178 521 183 458 203 430Z"
+        fill="url(#jawGreen)" stroke="#244d2a" stroke-width="15" stroke-linejoin="round"/>
+
+  <!-- Jaw lip -->
+  <path d="M207 444c55 22 116 31 193 31s138-9 193-31"
+        fill="none" stroke="#315b2d" stroke-width="13" stroke-linecap="round"/>
+  <path d="M249 537c35 41 89 61 151 61s116-20 151-61"
+        fill="none" stroke="#659e3e" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Jaw spots -->
+  <circle cx="266" cy="514" r="9" fill="#5e9e3c" opacity=".65"/>
+  <circle cx="309" cy="558" r="7" fill="#5e9e3c" opacity=".55"/>
+  <circle cx="534" cy="514" r="9" fill="#5e9e3c" opacity=".65"/>
+  <circle cx="491" cy="558" r="7" fill="#5e9e3c" opacity=".55"/>
+  <circle cx="400" cy="617" r="7" fill="#5e9e3c" opacity=".5"/>
+
+  <!-- Forefeet -->
+  <path d="M247 616c-17 13-24 35-14 47 9 11 27 0 38-13m282-34c17 13 24 35 14 47-9 11-27 0-38-13"
+        fill="none" stroke="#244d2a" stroke-width="10" stroke-linecap="round"/>
+</svg>
