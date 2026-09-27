@@ -1,53 +1,90 @@
-# The FROGS roster: exact OpenRouter slugs + display provider.
+# The FROGS roster: exact OpenRouter slugs + display provider + status.
+# Generated from roster.json by roster.php — do not edit by hand.
 #
-# Roster policy: models are added when notable (or by listener request), never
-# removed while OpenRouter still serves them, and retired with a dated note
-# only after the provider delists them. Absence in a month = not on the
-# roster yet, not a failure.
-# `params` are merged into the chat/completions payload for that model only.
-# Everything not listed is left at provider defaults (temperature, top_p,
-# seed, and max_tokens are never set unless shown here).
+# Roster policy (from 2026-09-27): rolling membership, add-only history.
+#   current  — newest model in its family; runs in every release
+#   control  — frozen drift-control set; runs in every release, never retires
+#   retired  — superseded by a newer family member (see superseded_by);
+#              its runs stay in the dataset forever
+# Models join automatically when they clear the release scout's gate
+# (Artificial Analysis index >= roster median, or top-30 OpenRouter usage
+# while unscored, or a newer member of a tracked family) and Jay approves
+# the release. Absence in a release = not on the roster then, not a failure.
+# `params` are merged into the chat/completions payload for that model only;
+# temperature, top_p, seed and max_tokens are never set unless shown here.
 models:
-  # added 2026-09 by listener request
   - slug: anthropic/claude-fable-5
     provider: Anthropic
+    status: current
+    added: 2026-09-01
+    source: "listener request"
   - slug: anthropic/claude-opus-5
     provider: Anthropic
+    status: control
+    added: 2026-08-02
   - slug: anthropic/claude-sonnet-5
     provider: Anthropic
+    status: current
+    added: 2026-08-02
   - slug: anthropic/claude-haiku-4.5
     provider: Anthropic
+    status: current
+    added: 2026-08-02
   - slug: openai/gpt-5.5
     provider: OpenAI
-  # added 2026-09 by listener request
+    status: control
+    added: 2026-08-02
   - slug: openai/gpt-5.6-sol
     provider: OpenAI
+    status: current
+    added: 2026-09-01
+    source: "listener request"
   - slug: openai/gpt-5.4-mini
     provider: OpenAI
+    status: current
+    added: 2026-08-02
   - slug: google/gemini-2.5-pro
     provider: Google
-    # Without these caps the model tends to spend its entire output budget on
-    # reasoning tokens and return empty content.
+    status: current
+    added: 2026-08-02
     params:
-      max_tokens: 20000
       reasoning:
         max_tokens: 4096
+      max_tokens: 20000
   - slug: google/gemini-3.6-flash
     provider: Google
+    status: control
+    added: 2026-08-02
   - slug: x-ai/grok-4.5
     provider: xAI
+    status: current
+    added: 2026-08-02
   - slug: deepseek/deepseek-v4-pro
     provider: DeepSeek
-  # added 2026-09 by listener request
+    status: control
+    added: 2026-08-02
   - slug: deepseek/deepseek-v4-flash
     provider: DeepSeek
+    status: current
+    added: 2026-09-01
+    source: "listener request"
   - slug: moonshotai/kimi-k3
     provider: Moonshot
+    status: control
+    added: 2026-08-02
   - slug: z-ai/glm-5.1
     provider: Z.ai
+    status: current
+    added: 2026-08-02
   - slug: qwen/qwen3.7-max
     provider: Alibaba
+    status: current
+    added: 2026-08-02
   - slug: meta-llama/llama-4-maverick
     provider: Meta
+    status: current
+    added: 2026-08-02
   - slug: mistralai/mistral-large-2512
     provider: Mistral
+    status: current
+    added: 2026-08-02

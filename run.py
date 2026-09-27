@@ -7,12 +7,15 @@ sanitization rules. Unlike the PHP original it retains the full raw
 OpenRouter response for every run under results/{month}/raw/.
 
 Usage:
-    OPENROUTER_API_KEY=... python run.py                    # 3 runs of every model
-    python run.py --month 2026-09 --models grok --runs 1
+    OPENROUTER_API_KEY=... python run.py                    # 3 runs of every active model
+    python run.py --release 2026-09-29 --models grok --runs 1
 
 Outputs, per run:
-    results/{month}/raw/{run_id}.json   request params, timing, full response
-    results/{month}/svg/{stem}.svg      sanitized SVG (successful runs only)
+    results/{release}/raw/{run_id}.json   request params, timing, full response
+    results/{release}/svg/{stem}.svg      sanitized SVG (successful runs only)
+
+Only models with status `current` or `control` in models.yaml run by default;
+pass --all-statuses to include retired ones.
 
 Then `python build_dataset.py` turns raw/ + svg/ into runs.jsonl.
 """
@@ -71,8 +74,11 @@ def slugify(model: str) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Run the FROGS benchmark")
-    ap.add_argument("--month", default=dt.datetime.now(dt.UTC).strftime("%Y-%m"),
-                    help="month label YYYY-MM (default: current UTC month)")
+    ap.add_argument("--release", "--month", dest="release",
+                    default=dt.datetime.now(dt.UTC).strftime("%Y-%m-%d"),
+                    help="release label, e.g. 2026-09-29 (default: today, UTC)")
+    ap.add_argument("--all-statuses", action="store_true",
+                    help="also run retired models (default: current + control only)")
     ap.add_argument("--models", default=None,
                     help="only models whose slug contains this substring")
     ap.add_argument("--runs", type=int, default=3, help="runs per model (default 3)")
@@ -87,13 +93,15 @@ def main() -> int:
         return 1
 
     roster = yaml.safe_load((ROOT / "models.yaml").read_text())["models"]
+    if not args.all_statuses:
+        roster = [m for m in roster if m.get("status", "current") in ("current", "control")]
     if args.models:
         roster = [m for m in roster if args.models.lower() in m["slug"].lower()]
     if not roster:
         print(f"no models match --models {args.models}", file=sys.stderr)
         return 1
 
-    month_dir = ROOT / "results" / args.month
+    month_dir = ROOT / "results" / args.release
     raw_dir, svg_dir = month_dir / "raw", month_dir / "svg"
     raw_dir.mkdir(parents=True, exist_ok=True)
     svg_dir.mkdir(parents=True, exist_ok=True)
@@ -117,6 +125,7 @@ def main() -> int:
                 "model": m["slug"],
                 "provider": m["provider"],
                 "variant": args.variant,
+                "release": args.release,
                 "prompt": prompt,
                 "ts": now.isoformat().replace("+00:00", "Z"),
                 "request_params": m.get("params") or {},

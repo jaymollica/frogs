@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Rebuild results/{month}/runs.jsonl from source, for every month.
+"""Rebuild results/{release}/runs.jsonl from source, for every release.
 
-Sources, in order of preference per month:
-  1. results/{month}/raw/*.json  — full records written by run.py (new months)
-  2. results/{month}/legacy-meta.json + svg/ — snapshot of the original PHP
-     harness's meta.json for 2026-08, whose runs predate raw-response retention
+A release is one batch of runs published together. The first two releases
+were calendar months ("2026-08", "2026-09"); from 2026-09-27 releases are
+dated ("2026-09-29") and happen whenever notable new models land.
+
+Sources, in order of preference per release:
+  1. results/{release}/raw/*.json  — full records written by run.py
+  2. results/{release}/legacy-meta.json + svg/ — snapshot of the live PHP
+     harness's meta.json (the production site runs the PHP harness)
 
 Also (when run on the production server) ingests the live PHP layout into the
 repo first: pass --import-legacy /var/www/frogs/results (or let the default
@@ -27,13 +31,15 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent
 PROMPT = (ROOT / "prompt.txt").read_text(encoding="utf-8")
+PROMPTS = {"habsburg": PROMPT} | {
+    p.stem: p.read_text(encoding="utf-8") for p in (ROOT / "prompts").glob("*.txt")}
 RESULTS = ROOT / "results"
 
 LEGACY_DEFAULT = pathlib.Path("/var/www/frogs/results")
 COMMENT_RE = re.compile(r"<!--.*?-->", re.S)
 
 COLUMNS = [
-    "run_id", "model", "provider", "month", "variant", "run_index", "timestamp",
+    "run_id", "model", "provider", "release", "month", "variant", "run_index", "timestamp",
     "prompt", "system_prompt", "temperature", "top_p", "max_tokens", "seed",
     "produced_svg", "svg", "svg_bytes", "duration_s",
     "prompt_tokens", "completion_tokens", "comment_count", "raw_response",
@@ -58,51 +64,61 @@ def finish_svg_fields(row: dict, svg: str | None, stored_bytes=None, run_id=""):
               f"{row['svg_bytes']} — using computed", file=sys.stderr)
 
 
+def release_of(r: dict) -> str:
+    """A run's release id: its `release` field, else its UTC month (legacy)."""
+    return r.get("release") or dt.datetime.fromtimestamp(r["ts"], dt.UTC).strftime("%Y-%m")
+
+
 def ingest_legacy(src: pathlib.Path) -> None:
-    """Copy the live PHP harness's month(s) into the repo. Read-only on src."""
+    """Copy the live PHP harness's releases into the repo. Read-only on src."""
     meta_file = src / "meta.json"
     if not meta_file.is_file():
         return
     meta = json.loads(meta_file.read_text(encoding="utf-8"))
-    months = sorted({dt.datetime.fromtimestamp(r["ts"], dt.UTC).strftime("%Y-%m")
-                     for r in meta})
-    for month in months:
-        mdir = RESULTS / month
+    for release in sorted({release_of(r) for r in meta}):
+        mdir = RESULTS / release
         (mdir / "svg").mkdir(parents=True, exist_ok=True)
-        entries = [r for r in meta
-                   if dt.datetime.fromtimestamp(r["ts"], dt.UTC).strftime("%Y-%m") == month]
+        entries = [r for r in meta if release_of(r) == release]
         (mdir / "legacy-meta.json").write_text(
             json.dumps(entries, ensure_ascii=False, indent=1), encoding="utf-8")
         for r in entries:
             f = r.get("file")
             if f and (src / f).is_file():
                 shutil.copy2(src / f, mdir / "svg" / pathlib.Path(f).name)
-        print(f"ingested legacy month {month}: {len(entries)} runs")
+        print(f"ingested release {release}: {len(entries)} runs")
+    rel_file = src / "releases.json"
+    if rel_file.is_file():
+        shutil.copy2(rel_file, RESULTS / "releases.json")
 
 
-def rows_from_legacy(month: str, mdir: pathlib.Path) -> list[dict]:
+def rows_from_legacy(release: str, mdir: pathlib.Path) -> list[dict]:
     entries = json.loads((mdir / "legacy-meta.json").read_text(encoding="utf-8"))
-    # run_index: chronological within (model, month)
-    order: dict[str, list] = {}
+    # run_index: chronological within (model, variant, release)
+    order: dict[tuple, list] = {}
     for r in sorted(entries, key=lambda r: r["ts"]):
-        order.setdefault(r["model"], []).append(r["id"])
+        order.setdefault((r["model"], r.get("variant", "habsburg")), []).append(r["id"])
 
     rows = []
     for r in entries:
         row = base_row()
         stem = pathlib.Path(r["file"]).stem if r.get("file") else r["id"]
+        variant = r.get("variant", "habsburg")
         row.update(
             run_id=stem,
             model=r["model"],
             provider=r.get("lab"),
-            month=month,
-            run_index=order[r["model"]].index(r["id"]) + 1,
+            release=release,
+            month=dt.datetime.fromtimestamp(r["ts"], dt.UTC).strftime("%Y-%m"),
+            variant=variant,
+            prompt=PROMPTS.get(variant, PROMPT),
+            run_index=order[(r["model"], variant)].index(r["id"]) + 1,
             timestamp=dt.datetime.fromtimestamp(r["ts"], dt.UTC)
                         .isoformat().replace("+00:00", "Z"),
             duration_s=(r["duration_ms"] / 1000) if r.get("duration_ms") is not None else None,
             completion_tokens=r.get("tokens_out"),
         )
-        # gemini-2.5-pro was the one model called with an explicit max_tokens
+        row["produced_svg"] = bool(r.get("ok"))
+        # gemini-2.5-pro is the one model called with an explicit max_tokens
         if r["model"] == "google/gemini-2.5-pro":
             row["max_tokens"] = 20000
         svg = None
@@ -114,10 +130,10 @@ def rows_from_legacy(month: str, mdir: pathlib.Path) -> list[dict]:
     return rows
 
 
-def rows_from_raw(month: str, mdir: pathlib.Path) -> list[dict]:
+def rows_from_raw(release: str, mdir: pathlib.Path) -> list[dict]:
     records = [json.loads(p.read_text(encoding="utf-8"))
                for p in sorted((mdir / "raw").glob("*.json"))]
-    # run_index is chronological within (model, variant, month)
+    # run_index is chronological within (model, variant, release)
     order: dict[tuple, list] = {}
     for r in sorted(records, key=lambda r: r["ts"]):
         order.setdefault((r["model"], r.get("variant", "habsburg")), []).append(r["run_id"])
@@ -140,7 +156,8 @@ def rows_from_raw(month: str, mdir: pathlib.Path) -> list[dict]:
             run_id=stem,
             model=r["model"],
             provider=r.get("provider"),
-            month=month,
+            release=release,
+            month=r["ts"][:7],
             variant=r.get("variant", "habsburg"),
             prompt=r.get("prompt", PROMPT),
             run_index=order[(r["model"], r.get("variant", "habsburg"))].index(r["run_id"]) + 1,
@@ -178,11 +195,11 @@ def main() -> int:
     for mdir in sorted(RESULTS.iterdir()) if RESULTS.is_dir() else []:
         if not mdir.is_dir():
             continue
-        month = mdir.name
+        release = mdir.name
         if (mdir / "raw").is_dir():
-            rows = rows_from_raw(month, mdir)
+            rows = rows_from_raw(release, mdir)
         elif (mdir / "legacy-meta.json").is_file():
-            rows = rows_from_legacy(month, mdir)
+            rows = rows_from_legacy(release, mdir)
         else:
             continue
         rows.sort(key=lambda r: (r["model"], r["variant"], r["run_index"]))
@@ -191,7 +208,7 @@ def main() -> int:
                 assert list(row) == COLUMNS, f"column drift in {row['run_id']}"
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
         total += len(rows)
-        print(f"{month}: {len(rows)} rows -> {mdir / 'runs.jsonl'}")
+        print(f"{release}: {len(rows)} rows -> {mdir / 'runs.jsonl'}")
 
     if total == 0:
         print("no source data found under results/", file=sys.stderr)
