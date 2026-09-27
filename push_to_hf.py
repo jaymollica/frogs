@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Upload the dataset card and all monthly runs.jsonl files to Hugging Face.
+"""Upload the dataset card and every release's runs.jsonl to Hugging Face.
 
 Requires HF_TOKEN (or `hf auth login`) and HF_DATASET_REPO, e.g. "user/frogs".
 Idempotent: create_repo(exist_ok=True) and content-addressed uploads.
