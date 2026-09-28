@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" width="400" height="410">
+  <ellipse cx="200" cy="320" rx="150" ry="85" fill="#5ea93c"/>
+  <g fill="#6fbf4a">
+    <ellipse cx="80" cy="385" rx="34" ry="14"/>
+    <circle cx="55" cy="378" r="9"/>
+    <circle cx="80" cy="374" r="9"/>
+    <circle cx="105" cy="378" r="9"/>
+    <ellipse cx="320" cy="385" rx="34" ry="14"/>
+    <circle cx="295" cy="378" r="9"/>
+    <circle cx="320" cy="374" r="9"/>
+    <circle cx="345" cy="378" r="9"/>
+  </g>
+  <ellipse cx="200" cy="368" rx="100" ry="16" fill="#4a8c2e" opacity="0.45"/>
+  <ellipse cx="200" cy="210" rx="125" ry="100" fill="#6fbf4a"/>
+  <circle cx="135" cy="115" r="48" fill="#6fbf4a"/>
+  <circle cx="265" cy="115" r="48" fill="#6fbf4a"/>
+  <circle cx="100" cy="190" r="8" fill="#5ea93c" opacity="0.6"/>
+  <circle cx="305" cy="188" r="9" fill="#5ea93c" opacity="0.6"/>
+  <circle cx="88" cy="238" r="6" fill="#5ea93c" opacity="0.6"/>
+  <path d="M 80 220 C 72 305 125 360 200 363 C 275 360 328 305 320 220 C 260 205 140 205 80 220 Z" fill="#86d95e"/>
+  <ellipse cx="200" cy="240" rx="105" ry="20" fill="#bdf39a" opacity="0.9"/>
+  <path d="M 118 336 C 150 358 250 358 282 336 C 252 350 148 350 118 336 Z" fill="#5ea93c" opacity="0.55"/>
+  <path d="M 200 318 C 198 330 198 338 200 348" stroke="#57a038" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M 80 220 C 140 206 260 206 320 220" stroke="#35691f" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <ellipse cx="178" cy="188" rx="5" ry="7" fill="#3f7a24"/>
+  <ellipse cx="222" cy="188" rx="5" ry="7" fill="#3f7a24"/>
+  <circle cx="135" cy="113" r="33" fill="#ffffff"/>
+  <circle cx="265" cy="113" r="33" fill="#ffffff"/>
+  <circle cx="135" cy="117" r="19" fill="#f2b705"/>
+  <circle cx="265" cy="117" r="19" fill="#f2b705"/>
+  <ellipse cx="135" cy="118" rx="10" ry="12" fill="#1c1c1c"/>
+  <ellipse cx="265" cy="118" rx="10" ry="12" fill="#1c1c1c"/>
+  <circle cx="128" cy="109" r="5" fill="#ffffff"/>
+  <circle cx="258" cy="109" r="5" fill="#ffffff"/>
+</svg>

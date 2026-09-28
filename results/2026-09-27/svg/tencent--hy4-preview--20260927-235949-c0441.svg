@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="500" viewBox="0 0 640 500" role="img" aria-label="Cartoon frog in profile with a heavily protruding lower jaw">
+  <defs>
+    <radialGradient id="skin" cx="35%" cy="28%" r="78%">
+      <stop offset="0%" stop-color="#a9e56d"/>
+      <stop offset="70%" stop-color="#69b83f"/>
+      <stop offset="100%" stop-color="#3f8127"/>
+    </radialGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7f8a3"/>
+      <stop offset="55%" stop-color="#b5e079"/>
+      <stop offset="100%" stop-color="#7cbf43"/>
+    </linearGradient>
+    <linearGradient id="leg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#78c342"/>
+      <stop offset="100%" stop-color="#3f8127"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="500" fill="#f5ffe9"/>
+  <ellipse cx="322" cy="457" rx="236" ry="27" fill="#2f5d20" opacity="0.10"/>
+
+  <g stroke="#2c5520" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M248,182 C347,140 505,190 545,281 C586,373 502,443 396,436 C307,430 241,382 226,320 C214,270 205,204 248,182 Z" fill="url(#skin)"/>
+    <path d="M404,196 C512,188 596,252 586,344 C579,410 500,450 425,436 C466,395 458,341 419,307 C387,277 373,232 404,196 Z" fill="url(#leg)"/>
+    <path d="M391,415 C456,421 516,435 537,456 C555,475 471,489 414,469 C383,456 364,432 391,415 Z" fill="#57a032"/>
+
+    <g stroke="#2c5520" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M406,436 C426,448 453,455 481,458"/>
+      <path d="M416,449 C436,461 464,467 495,468"/>
+      <path d="M428,461 C447,470 471,475 498,477"/>
+    </g>
+
+    <path d="M265,300 C247,352 259,404 296,424 C330,442 370,431 363,411 C359,396 328,385 325,359 C322,337 303,313 288,299 Z" fill="#63ad3c"/>
+
+    <g stroke="#2c5520" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M300,418 C310,428 328,430 342,425"/>
+      <path d="M312,429 C322,438 338,440 351,435"/>
+    </g>
+
+    <path d="M324,126 C314,88 274,62 229,72 C182,82 141,118 124,168 C113,199 116,219 142,224 C177,231 235,229 280,222 C316,216 334,181 324,126 Z" fill="url(#skin)"/>
+    <path d="M318,222 C262,205 182,196 118,204 C82,208 60,218 49,234 C44,267 71,296 117,307 C181,327 251,326 302,305 C335,290 348,252 318,222 Z" fill="url(#jaw)"/>
+
+    <path d="M168,255 C212,269 266,275 308,263" fill="none" stroke="#a9d36b" stroke-width="9" stroke-linecap="round"/>
+    <path d="M318,223 C262,206 182,197 118,205 C83,209 60,218 50,233" fill="none" stroke="#20491a" stroke-width="8"/>
+    <path d="M318,222 C329,232 334,244 332,256" fill="none" stroke="#20491a" stroke-width="7"/>
+  </g>
+
+  <g>
+    <ellipse cx="144" cy="148" rx="6" ry="4" fill="#2c5520" transform="rotate(-18 144 148)"/>
+    <circle cx="239" cy="93" r="41" fill="#ffffff" stroke="#2c5520" stroke-width="7"/>
+    <ellipse cx="225" cy="99" rx="18" ry="21" fill="#1d1d1d"/>
+    <circle cx="216" cy="89" r="7" fill="#ffffff"/>
+    <circle cx="234" cy="111" r="3" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <g fill="#39751f" opacity="0.30" stroke="none">
+    <ellipse cx="365" cy="232" rx="25" ry="15" transform="rotate(-20 365 232)"/>
+    <ellipse cx="432" cy="244" rx="22" ry="14" transform="rotate(-14 432 244)"/>
+    <ellipse cx="488" cy="272" rx="25" ry="15" transform="rotate(-30 488 272)"/>
+    <ellipse cx="521" cy="318" rx="18" ry="12" transform="rotate(-45 521 318)"/>
+    <ellipse cx="446" cy="332" rx="21" ry="13" transform="rotate(-18 446 332)"/>
+    <ellipse cx="376" cy="330" rx="17" ry="11" transform="rotate(-12 376 330)"/>
+  </g>
+</svg>

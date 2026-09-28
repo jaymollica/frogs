@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Cartoon frog with an exaggerated protruding lower jaw">
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#91d84c"/>
+      <stop offset="1" stop-color="#4c9d42"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0.3" y2="1">
+      <stop stop-color="#c9e978"/>
+      <stop offset="1" stop-color="#78b95c"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="266" cy="445" rx="181" ry="18" fill="#253b28" opacity=".13"/>
+
+  <g fill="#64ae4b" stroke="#397b39" stroke-width="6" stroke-linejoin="round">
+    <path d="M147 346Q92 354 83 405Q78 427 105 429L177 422Q195 413 184 392Z"/>
+    <path d="M271 354Q326 359 345 409Q353 429 326 431L254 422Q234 412 246 391Z"/>
+    <path d="M122 411Q103 421 83 419M146 416Q132 430 108 429M298 416Q312 430 335 426" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <path d="M117 302Q92 335 117 384Q141 424 219 427Q295 429 319 388Q337 355 308 306Z" fill="url(#green)" stroke="#397b39" stroke-width="7"/>
+  <path d="M164 356Q175 402 227 406Q276 405 289 366" fill="none" stroke="#b7dc73" stroke-width="8" stroke-linecap="round"/>
+
+  <path d="M135 247Q132 194 190 168Q205 122 242 125Q270 126 283 153Q316 126 348 151Q372 165 372 202Q403 224 386 259Q362 299 234 312Q160 314 135 278Q129 263 135 247Z" fill="url(#green)" stroke="#397b39" stroke-width="7" stroke-linejoin="round"/>
+
+  <ellipse cx="239" cy="175" rx="29" ry="35" fill="#f5f6dc" stroke="#397b39" stroke-width="6"/>
+  <ellipse cx="343" cy="184" rx="27" ry="33" fill="#f5f6dc" stroke="#397b39" stroke-width="6"/>
+  <ellipse cx="249" cy="181" rx="12" ry="18" fill="#263c2b"/>
+  <ellipse cx="352" cy="189" rx="11" ry="17" fill="#263c2b"/>
+  <circle cx="253" cy="173" r="5" fill="white"/>
+  <circle cx="356" cy="181" r="5" fill="white"/>
+
+  <ellipse cx="156" cy="242" rx="6" ry="4" fill="#397b39"/>
+  <ellipse cx="374" cy="242" rx="6" ry="4" fill="#397b39"/>
+  <circle cx="181" cy="261" r="5" fill="#e68780" opacity=".65"/>
+
+  <path d="M146 271Q218 313 332 284Q373 274 401 261Q444 245 469 272Q483 285 485 310Q488 342 456 366Q425 391 365 397Q273 405 202 379Q146 359 139 315Q134 289 146 271Z" fill="url(#jaw)" stroke="#397b39" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M148 275Q213 316 327 290Q374 279 403 265Q444 252 468 275" fill="none" stroke="#315e37" stroke-width="9" stroke-linecap="round"/>
+  <path d="M189 337Q252 377 361 375Q426 375 459 340" fill="none" stroke="#e4f1a1" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+  <path d="M453 286Q466 298 465 316" fill="none" stroke="#eff7b2" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with a greatly protruding lower jaw</title>
+  <desc id="desc">A cheerful green frog sitting on a lily pad, with bulging golden eyes and an enormous pale green lower jaw jutting far beyond its upper lip.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#95d867"/>
+      <stop offset="1" stop-color="#399562"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0.3" y2="1">
+      <stop stop-color="#d4eb91"/>
+      <stop offset="1" stop-color="#8dc568"/>
+    </linearGradient>
+    <linearGradient id="eye" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffe991"/>
+      <stop offset="1" stop-color="#e9b640"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="640" rx="36" fill="#f5f4df"/>
+  <circle cx="325" cy="298" r="233" fill="#e4edd0"/>
+  <ellipse cx="326" cy="544" rx="260" ry="35" fill="#c6dfce"/>
+  <path d="M76 525C89 479 228 463 350 479C452 469 551 493 563 525C539 561 411 580 292 566L321 525L261 563C159 560 88 548 76 525Z" fill="#67ae83" stroke="#286c56" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M321 525L116 523M321 525L188 491M321 525L452 492M321 525L511 540" fill="none" stroke="#398965" stroke-width="3" opacity=".6"/>
+
+  <!-- Rounded body and folded hind legs. -->
+  <path d="M184 465C135 393 162 314 243 292C310 275 384 317 412 392L437 490C373 525 253 525 184 465Z" fill="url(#body)" stroke="#254e3a" stroke-width="7"/>
+  <path d="M166 398C113 392 85 435 112 484C127 512 194 522 244 506C257 500 260 479 247 468L204 427C192 414 180 403 166 398Z" fill="#69b960" stroke="#254e3a" stroke-width="7"/>
+  <path d="M141 445C157 430 178 439 201 468" fill="none" stroke="#3f9150" stroke-width="6" stroke-linecap="round"/>
+  <path d="M188 493C159 490 128 502 109 515C100 522 108 531 119 529L154 524C131 538 143 546 156 540L189 527C171 544 187 548 199 537L225 513" fill="#83c86c" stroke="#254e3a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M296 383C272 415 274 465 299 484C324 504 378 491 395 457L376 391Z" fill="#bedb83"/>
+  <path d="M368 416L384 495C386 508 406 516 431 517L467 523C479 525 484 514 473 508L445 496L475 500C488 501 492 489 478 485L437 479L424 407" fill="#72bd65" stroke="#254e3a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Eye mounds and upper face. -->
+  <path d="M252 311C236 282 246 254 265 235C249 199 269 167 303 163C336 159 355 181 357 202C375 196 392 197 407 203C405 167 429 149 456 156C486 164 493 191 484 221C513 241 533 271 521 300C514 324 475 340 428 347L312 347Z" fill="url(#body)" stroke="#254e3a" stroke-width="7" stroke-linejoin="round"/>
+
+  <ellipse cx="303" cy="213" rx="32" ry="39" fill="url(#eye)" stroke="#254e3a" stroke-width="6"/>
+  <ellipse cx="449" cy="203" rx="31" ry="38" fill="url(#eye)" stroke="#254e3a" stroke-width="6"/>
+  <ellipse cx="313" cy="215" rx="12" ry="25" fill="#192e26"/>
+  <ellipse cx="459" cy="205" rx="12" ry="25" fill="#192e26"/>
+  <circle cx="317" cy="204" r="6" fill="#fff"/>
+  <circle cx="463" cy="193" r="6" fill="#fff"/>
+
+  <path d="M341 268C374 249 418 247 459 263" fill="none" stroke="#b4e37e" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="472" cy="282" rx="6" ry="4" fill="#28543d" transform="rotate(15 472 282)"/>
+  <ellipse cx="501" cy="278" rx="5" ry="4" fill="#28543d" transform="rotate(20 501 278)"/>
+
+  <!-- Huge lower jaw projects conspicuously beyond the upper snout. -->
+  <path d="M278 310C326 331 441 335 514 307C540 309 567 324 584 348C605 379 590 417 557 437C514 465 437 467 378 445C321 424 286 377 278 310Z" fill="url(#jaw)" stroke="#254e3a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M279 309C335 327 427 325 513 303C506 331 489 354 460 365C397 388 324 356 279 309Z" fill="#263d2b" stroke="#254e3a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M358 350C386 338 421 345 440 367C413 371 383 363 358 350Z" fill="#cd8279"/>
+  <path d="M307 333C364 384 473 411 561 350" fill="none" stroke="#e5f4b1" stroke-width="11" stroke-linecap="round"/>
+  <path d="M393 429C443 447 508 443 540 425" fill="none" stroke="#73ac5a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M274 301C282 297 291 299 297 306" fill="none" stroke="#254e3a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Subtle speckles. -->
+  <g fill="#3d9456" opacity=".7">
+    <ellipse cx="259" cy="278" rx="7" ry="5"/>
+    <ellipse cx="280" cy="265" rx="5" ry="4"/>
+    <ellipse cx="297" cy="282" rx="8" ry="5"/>
+    <ellipse cx="194" cy="362" rx="9" ry="6" transform="rotate(-30 194 362)"/>
+    <ellipse cx="217" cy="343" rx="6" ry="4"/>
+    <ellipse cx="167" cy="417" rx="8" ry="5"/>
+    <ellipse cx="148" cy="427" rx="5" ry="4"/>
+  </g>
+  <g fill="#edf5d8">
+    <circle cx="107" cy="278" r="7"/>
+    <circle cx="134" cy="252" r="4"/>
+    <circle cx="546" cy="185" r="6"/>
+  </g>
+</svg>

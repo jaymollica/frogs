@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 110 380 280">
+  <ellipse cx="200" cy="361" rx="165" ry="12" fill="#1e3d12" opacity="0.16"/>
+  <path d="M 88,334 C 52,322 48,262 72,218 C 96,176 150,158 196,160 C 200,140 216,126 238,126 C 260,126 274,140 276,158 C 296,170 308,195 312,222 C 314,235 314,246 311,255 C 299,270 282,281 262,292 C 244,310 228,332 190,343 C 152,351 110,346 88,334 Z" fill="#7cc24a" stroke="#2c5d1a" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="198" cy="296" rx="48" ry="28" fill="#e9f5c9"/>
+  <ellipse cx="120" cy="218" rx="13" ry="9" fill="#5aa336" transform="rotate(-15 120 218)"/>
+  <ellipse cx="163" cy="192" rx="9" ry="6.5" fill="#5aa336"/>
+  <ellipse cx="285" cy="205" rx="6" ry="4.5" fill="#5aa336"/>
+  <circle cx="200" cy="210" r="12" fill="#6db843" stroke="#2c5d1a" stroke-width="2.5"/>
+  <circle cx="110" cy="289" r="45" fill="#69b43d" stroke="#2c5d1a" stroke-width="4"/>
+  <ellipse cx="112" cy="280" rx="11" ry="8" fill="#579a33"/>
+  <path d="M 78,336 C 92,330 122,329 152,332 C 182,335 206,339 215,346 C 221,351 215,357 201,357 L 98,357 C 84,357 72,347 78,336 Z" fill="#7cc24a" stroke="#2c5d1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 186,337 C 188,343 189,349 188,355 M 163,334 C 165,341 166,348 165,355" fill="none" stroke="#2c5d1a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 212,260 C 240,254 285,251 312,255 C 327,257 341,263 342,274 C 343,288 328,299 306,302 C 279,305 249,297 232,285 C 220,277 213,268 212,260 Z" fill="#93d660" stroke="#2c5d1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 240,290 C 260,296 285,298 305,295" fill="none" stroke="#2c5d1a" stroke-width="2" opacity="0.35" stroke-linecap="round"/>
+  <rect x="312" y="244" width="10" height="14" rx="3.5" fill="#ffffff" stroke="#2c5d1a" stroke-width="3" transform="rotate(6 317 251)"/>
+  <rect x="326" y="249" width="9" height="13" rx="3.5" fill="#ffffff" stroke="#2c5d1a" stroke-width="3" transform="rotate(9 330 255)"/>
+  <path d="M 212,260 C 200,257 189,251 183,243" fill="none" stroke="#2c5d1a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="297" cy="232" r="3.2" fill="#2c5d1a"/>
+  <path d="M 245,278 C 257,289 261,311 257,335 C 256,344 254,350 252,354 L 228,354 C 231,344 233,330 232,316 C 231,301 234,286 245,278 Z" fill="#7cc24a" stroke="#2c5d1a" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="240" cy="355" rx="17" ry="7" fill="#7cc24a" stroke="#2c5d1a" stroke-width="4"/>
+  <path d="M 232,351 L 230,358 M 243,351 L 244,358" fill="none" stroke="#2c5d1a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="238" cy="148" r="20" fill="#f6d365" stroke="#2c5d1a" stroke-width="3.5"/>
+  <ellipse cx="240" cy="148" rx="10" ry="7" fill="#1c1c1c"/>
+  <circle cx="231" cy="141" r="4.2" fill="#ffffff" opacity="0.95"/>
+</svg>

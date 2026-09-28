@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <title>Frog with mandibular prognathism (protruding lower jaw)</title>
+  <rect width="500" height="400" fill="#f5faf0"/>
+  <rect y="358" width="500" height="42" fill="#dcedc8"/>
+  <ellipse cx="240" cy="372" rx="180" ry="12" fill="#000000" opacity="0.1"/>
+
+  <!-- far eye -->
+  <circle cx="248" cy="80" r="22" fill="#e3b341" stroke="#2e6b1e" stroke-width="3"/>
+  <ellipse cx="253" cy="79" rx="9" ry="7" fill="#101010"/>
+
+  <!-- body and upper head -->
+  <path d="M408 168 C412 150 400 132 375 118 C345 96 300 84 265 92 C205 104 165 125 140 165 C105 215 92 260 100 305 C106 348 160 372 230 362 C292 353 318 305 312 255 C310 228 296 208 278 200 C322 192 372 180 408 168 Z" fill="#57a63f" stroke="#2e6b1e" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- belly -->
+  <ellipse cx="210" cy="303" rx="90" ry="54" fill="#d7ecb8"/>
+
+  <!-- back spots -->
+  <g fill="#3f8a2e" opacity="0.85">
+    <circle cx="165" cy="175" r="11"/>
+    <circle cx="128" cy="232" r="9"/>
+    <circle cx="215" cy="140" r="8"/>
+    <circle cx="112" cy="272" r="7"/>
+  </g>
+
+  <!-- hind leg -->
+  <path d="M100 262 C76 300 90 344 146 356 C200 367 246 340 240 298 C234 256 124 220 100 262 Z" fill="#3f8a2e" stroke="#2e6b1e" stroke-width="4" stroke-linejoin="round"/>
+  <g stroke="#3f8a2e" fill="none" stroke-linecap="round">
+    <path d="M234 342 C252 352 272 356 290 351" stroke-width="11"/>
+    <path d="M237 330 C258 339 280 341 297 336" stroke-width="11"/>
+    <path d="M240 318 C263 324 284 325 300 319" stroke-width="10"/>
+  </g>
+
+  <!-- front leg -->
+  <g stroke="#3f8a2e" fill="none" stroke-linecap="round">
+    <path d="M296 262 C305 290 308 314 302 336" stroke-width="15"/>
+    <path d="M302 336 C308 346 320 353 334 351" stroke-width="9"/>
+    <path d="M302 336 C305 347 315 356 328 357" stroke-width="9"/>
+  </g>
+
+  <!-- near eye -->
+  <circle cx="300" cy="70" r="34" fill="#f6c445" stroke="#2e6b1e" stroke-width="4"/>
+  <ellipse cx="310" cy="69" rx="14" ry="11" fill="#101010"/>
+  <circle cx="316" cy="60" r="5" fill="#ffffff"/>
+
+  <!-- nostril -->
+  <circle cx="398" cy="150" r="3.5" fill="#2e6b1e"/>
+
+  <!-- protruding lower jaw (mandible) -->
+  <path d="M272 205 C285 245 320 258 365 250 C402 243 430 220 434 194 C436 180 434 170 428 164 C402 176 338 194 272 205 Z" fill="#57a63f" stroke="#2e6b1e" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="352" cy="224" rx="46" ry="16" fill="#6cc25a" opacity="0.55"/>
+  <path d="M412 184 C417 191 418 199 414 206" fill="none" stroke="#2e6b1e" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+
+  <!-- lip seam and mouth corner -->
+  <path d="M280 198 C322 190 370 180 406 169" fill="none" stroke="#24331c" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="274" cy="203" r="5" fill="#24331c"/>
+
+  <!-- lower teeth jutting past the upper jaw -->
+  <g fill="#fdfbe8" stroke="#2e6b1e" stroke-width="2" stroke-linejoin="round">
+    <path d="M392 178 L398 158 L406 176 Z"/>
+    <path d="M408 172 L414 154 L421 171 Z"/>
+    <path d="M422 167 L427 150 L433 167 Z"/>
+  </g>
+
+  <!-- cheek crease -->
+  <path d="M272 200 C266 193 263 185 265 177" fill="none" stroke="#2e6b1e" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+</svg>

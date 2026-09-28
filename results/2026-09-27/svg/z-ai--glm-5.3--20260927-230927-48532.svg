@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Frog with heavily protruding lower jaw</title>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="374" rx="130" ry="13" fill="#000000" opacity="0.12"/>
+
+  <!-- head -->
+  <path d="M 90,215 C 76,130 128,68 200,68 C 272,68 324,130 310,215 Q 200,262 90,215 Z"
+        fill="#5fae4a" stroke="#33691e" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- head spots -->
+  <circle cx="112" cy="160" r="9" fill="#4b943b"/>
+  <circle cx="288" cy="160" r="9" fill="#4b943b"/>
+
+  <!-- eyes -->
+  <circle cx="138" cy="82" r="44" fill="#5fae4a" stroke="#33691e" stroke-width="5"/>
+  <circle cx="262" cy="82" r="44" fill="#5fae4a" stroke="#33691e" stroke-width="5"/>
+  <circle cx="142" cy="86" r="27" fill="#ffffff" stroke="#33691e" stroke-width="3"/>
+  <circle cx="258" cy="86" r="27" fill="#ffffff" stroke="#33691e" stroke-width="3"/>
+  <circle cx="149" cy="91" r="12" fill="#1e1e1e"/>
+  <circle cx="251" cy="91" r="12" fill="#1e1e1e"/>
+  <circle cx="153" cy="86" r="4" fill="#ffffff"/>
+  <circle cx="247" cy="86" r="4" fill="#ffffff"/>
+
+  <!-- nostrils -->
+  <circle cx="183" cy="150" r="5" fill="#33691e"/>
+  <circle cx="217" cy="150" r="5" fill="#33691e"/>
+
+  <!-- massive protruding lower jaw (juts wider and lower than the head) -->
+  <path d="M 70,193 C 120,246 280,246 330,193 C 338,246 334,318 296,344 C 268,366 132,366 104,344 C 66,318 62,246 70,193 Z"
+        fill="#78c25e" stroke="#33691e" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- lower lip band -->
+  <path d="M 70,193 C 120,246 280,246 330,193 L 330,203 C 282,262 118,262 70,203 Z" fill="#a9dc8a"/>
+  <path d="M 70,203 C 118,262 282,262 330,203" fill="none" stroke="#33691e" stroke-width="4" opacity="0.55" stroke-linecap="round"/>
+
+  <!-- jaw spots -->
+  <circle cx="150" cy="286" r="8" fill="#4b943b"/>
+  <circle cx="250" cy="286" r="8" fill="#4b943b"/>
+  <circle cx="200" cy="318" r="6" fill="#4b943b"/>
+
+  <!-- underbite teeth riding the lower lip -->
+  <rect x="180" y="212" width="14" height="32" rx="7" fill="#ffffff" stroke="#33691e" stroke-width="3"/>
+  <rect x="206" y="216" width="14" height="28" rx="7" fill="#ffffff" stroke="#33691e" stroke-width="3"/>
+
+  <!-- chin crease -->
+  <path d="M 150,342 Q 200,358 250,342" fill="none" stroke="#33691e" stroke-width="4" opacity="0.5" stroke-linecap="round"/>
+
+  <!-- upper lip receding behind the jutting lower jaw -->
+  <path d="M 70,193 Q 92,176 108,174 Q 200,210 292,174 Q 308,176 330,193"
+        fill="none" stroke="#33691e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

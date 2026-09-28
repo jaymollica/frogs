@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#dff3f7"/>
+  <ellipse cx="200" cy="360" rx="160" ry="22" fill="#9bc9a0"/>
+  <!-- back legs -->
+  <ellipse cx="95" cy="320" rx="60" ry="30" fill="#4e9a3a"/>
+  <ellipse cx="305" cy="320" rx="60" ry="30" fill="#4e9a3a"/>
+  <path d="M50 345 l-20 10 M50 345 l-15 -5 M50 345 l-5 15" stroke="#3d7d2c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M350 345 l20 10 M350 345 l15 -5 M350 345 l5 15" stroke="#3d7d2c" stroke-width="7" stroke-linecap="round"/>
+  <!-- body -->
+  <ellipse cx="200" cy="270" rx="120" ry="80" fill="#5cb044"/>
+  <ellipse cx="200" cy="295" rx="75" ry="45" fill="#cfe8a8"/>
+  <!-- head upper -->
+  <ellipse cx="200" cy="175" rx="115" ry="60" fill="#5cb044"/>
+  <!-- eyes -->
+  <circle cx="135" cy="120" r="34" fill="#5cb044"/>
+  <circle cx="265" cy="120" r="34" fill="#5cb044"/>
+  <circle cx="135" cy="118" r="23" fill="#fff"/>
+  <circle cx="265" cy="118" r="23" fill="#fff"/>
+  <ellipse cx="140" cy="120" rx="10" ry="13" fill="#111"/>
+  <ellipse cx="260" cy="120" rx="10" ry="13" fill="#111"/>
+  <circle cx="144" cy="114" r="4" fill="#fff"/>
+  <circle cx="264" cy="114" r="4" fill="#fff"/>
+  <!-- nostrils -->
+  <circle cx="188" cy="165" r="3" fill="#2e5e22"/>
+  <circle cx="212" cy="165" r="3" fill="#2e5e22"/>
+  <!-- mouth interior -->
+  <path d="M95 195 Q200 215 305 195 L320 215 Q200 260 80 215 Z" fill="#8a2a3a"/>
+  <!-- protruding lower jaw -->
+  <path d="M85 200 Q70 240 90 262 Q200 300 310 262 Q330 240 315 200 Q330 225 320 235 Q200 275 80 235 Q70 225 85 200 Z" fill="#6cc052" stroke="#3d7d2c" stroke-width="3"/>
+  <!-- underbite teeth -->
+  <path d="M115 236 l8 -18 l8 18 Z M160 246 l7 -16 l7 16 Z M226 246 l7 -16 l7 16 Z M269 236 l8 -18 l8 18 Z" fill="#fffbe6" stroke="#bbb" stroke-width="1"/>
+  <!-- upper lip line -->
+  <path d="M95 195 Q200 215 305 195" fill="none" stroke="#3d7d2c" stroke-width="4" stroke-linecap="round"/>
+  <!-- chin highlight -->
+  <path d="M130 262 Q200 285 270 262" fill="none" stroke="#9ad67f" stroke-width="4" stroke-linecap="round"/>
+  <!-- front legs -->
+  <path d="M140 300 Q130 335 115 350" stroke="#4e9a3a" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M260 300 Q270 335 285 350" stroke="#4e9a3a" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <circle cx="105" cy="354" r="6" fill="#3d7d2c"/>
+  <circle cx="118" cy="358" r="6" fill="#3d7d2c"/>
+  <circle cx="282" cy="358" r="6" fill="#3d7d2c"/>
+  <circle cx="295" cy="354" r="6" fill="#3d7d2c"/>
+  <!-- spots -->
+  <circle cx="150" cy="250" r="8" fill="#3d7d2c"/>
+  <circle cx="255" cy="245" r="10" fill="#3d7d2c"/>
+  <circle cx="200" cy="150" r="6" fill="#3d7d2c"/>
+</svg>

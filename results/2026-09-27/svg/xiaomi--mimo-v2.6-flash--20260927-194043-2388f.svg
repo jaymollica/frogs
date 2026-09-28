@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420">
+  <rect width="500" height="420" fill="#B3E5FC"/>
+  <ellipse cx="250" cy="400" rx="240" ry="40" fill="#6B8E23"/>
+  
+  <!-- Far hind leg -->
+  <path d="M130,290 Q78,318 68,368 Q82,388 112,378 Q142,368 142,342 Z" fill="#3D9140"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="258" rx="125" ry="95" fill="#4CAF50"/>
+  
+  <!-- Near hind leg -->
+  <path d="M140,312 Q85,340 74,388 Q95,406 130,396 Q160,384 164,356 Z" fill="#4CAF50"/>
+  
+  <!-- Front leg -->
+  <path d="M250,335 Q244,368 248,404 Q265,412 280,400 Q284,378 276,350 Z" fill="#4CAF50"/>
+  
+  <!-- Upper jaw -->
+  <path d="M268,210 C276,175 318,155 355,160 C382,164 398,176 396,196 C394,214 386,230 374,237 L272,237 Z" fill="#4CAF50"/>
+  
+  <!-- Lower jaw — Habsburg protruding jaw -->
+  <path d="M272,248 L400,242 C432,238 455,256 452,282 C449,306 432,324 412,332 C396,338 380,334 366,326 L278,326 Z" fill="#45A049"/>
+  
+  <!-- Shadow under protruding jaw -->
+  <path d="M400,246 C430,242 454,260 451,284 C449,300 444,314 434,322 L437,326 C449,314 456,298 458,282 C460,256 434,236 403,242 Z" fill="#2d6b2d" opacity="0.35"/>
+  
+  <!-- Mouth interior -->
+  <path d="M275,240 C320,233 375,226 402,242 L400,245 C375,231 320,237 275,247 Z" fill="#1a0a0a"/>
+  
+  <!-- Mouth lip line -->
+  <path d="M274,243 C318,237 376,231 402,244" stroke="#2E7D32" stroke-width="2" fill="none"/>
+  
+  <!-- Eye -->
+  <circle cx="336" cy="194" r="44" fill="#4CAF50"/>
+  <circle cx="336" cy="190" r="35" fill="white"/>
+  <circle cx="344" cy="192" r="18" fill="#1a1a1a"/>
+  <circle cx="352" cy="183" r="7" fill="white" opacity="0.85"/>
+  
+  <!-- Eyelid ridge -->
+  <path d="M304,167 C320,152 356,150 372,164" stroke="#3D9140" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nostril -->
+  <ellipse cx="388" cy="200" rx="5" ry="4" fill="#2E7D32"/>
+  
+  <!-- Spots -->
+  <circle cx="168" cy="232" r="17" fill="#3D9140" opacity="0.5"/>
+  <circle cx="222" cy="278" r="14" fill="#3D9140" opacity="0.5"/>
+  <circle cx="138" cy="298" r="13" fill="#3D9140" opacity="0.5"/>
+  <circle cx="254" cy="244" r="10" fill="#3D9140" opacity="0.4"/>
+  <circle cx="342" cy="298" r="12" fill="#3D9140" opacity="0.4"/>
+  <circle cx="398" cy="290" r="9" fill="#3D9140" opacity="0.3"/>
+  <circle cx="188" cy="212" r="8" fill="#3D9140" opacity="0.4"/>
+  <circle cx="272" cy="310" r="7" fill="#3D9140" opacity="0.3"/>
+  
+  <!-- Toes — front -->
+  <ellipse cx="250" cy="410" rx="7" ry="5" fill="#4CAF50"/>
+  <ellipse cx="260" cy="407" rx="6" ry="4" fill="#4CAF50"/>
+  <ellipse cx="270" cy="412" rx="6" ry="4" fill="#4CAF50"/>
+  
+  <!-- Toes — near hind -->
+  <ellipse cx="72" cy="395" rx="8" ry="5" fill="#4CAF50"/>
+  <ellipse cx="69" cy="385" rx="7" ry="4" fill="#4CAF50"/>
+  <ellipse cx="81" cy="402" rx="7" ry="4" fill="#4CAF50"/>
+  
+  <!-- Toes — far hind -->
+  <ellipse cx="66" cy="373" rx="7" ry="5" fill="#3D9140"/>
+  <ellipse cx="63" cy="363" rx="6" ry="4" fill="#3D9140"/>
+</svg>

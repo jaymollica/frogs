@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Frog with mandibular prognathism">
+  <title>Frog with mandibular prognathism</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#f4f9e4"/>
+      <stop offset="100%" stop-color="#d7eab4"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#74c04e"/>
+      <stop offset="100%" stop-color="#579f37"/>
+    </linearGradient>
+    <linearGradient id="jawSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#82cf5c"/>
+      <stop offset="100%" stop-color="#5fa93d"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffd84d"/>
+      <stop offset="100%" stop-color="#e8930b"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="36" fill="url(#bg)"/>
+
+  <ellipse cx="256" cy="489" rx="178" ry="15" fill="#2a5518" opacity="0.16"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M46 492 C42 470 46 452 56 438" stroke="#8fbd58" stroke-width="9"/>
+    <path d="M68 492 C68 472 74 458 84 450" stroke="#7aa847" stroke-width="8"/>
+    <path d="M30 492 C30 476 26 464 19 456" stroke="#a3cc6b" stroke-width="8"/>
+    <path d="M466 492 C470 470 466 452 456 438" stroke="#8fbd58" stroke-width="9"/>
+    <path d="M444 492 C444 472 438 458 428 450" stroke="#7aa847" stroke-width="8"/>
+    <path d="M482 492 C482 476 486 464 493 456" stroke="#a3cc6b" stroke-width="8"/>
+  </g>
+
+  <circle cx="184" cy="118" r="50" fill="#6bb84a" stroke="#3f7d29" stroke-width="6"/>
+  <circle cx="328" cy="118" r="50" fill="#6bb84a" stroke="#3f7d29" stroke-width="6"/>
+
+  <path d="M256 96 C340 96 412 150 420 240 C428 320 400 380 360 416 C330 444 296 456 256 456 C216 456 182 444 152 416 C112 380 84 320 92 240 C100 150 172 96 256 96 Z"
+        fill="url(#skin)" stroke="#3f7d29" stroke-width="6" stroke-linejoin="round"/>
+
+  <g fill="#4a9430" opacity="0.5">
+    <circle cx="122" cy="196" r="11"/>
+    <circle cx="390" cy="192" r="11"/>
+    <circle cx="136" cy="308" r="8"/>
+    <circle cx="378" cy="306" r="8"/>
+  </g>
+
+  <ellipse cx="146" cy="272" rx="24" ry="14" fill="#ef9aae" opacity="0.45"/>
+  <ellipse cx="366" cy="272" rx="24" ry="14" fill="#ef9aae" opacity="0.45"/>
+
+  <path d="M114 322 Q256 352 398 322" fill="none" stroke="#3f7d29" stroke-width="10" stroke-linecap="round" opacity="0.25"/>
+
+  <g>
+    <circle cx="184" cy="124" r="33" fill="#ffffff" stroke="#3f7d29" stroke-width="5"/>
+    <circle cx="184" cy="128" r="21" fill="url(#iris)"/>
+    <ellipse cx="184" cy="129" rx="13" ry="6.5" fill="#223018"/>
+    <circle cx="177" cy="136" r="4" fill="#ffffff" opacity="0.85"/>
+    <path d="M156 108 A33 33 0 0 1 212 108 Z" fill="#6bb84a" stroke="#3f7d29" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="328" cy="124" r="33" fill="#ffffff" stroke="#3f7d29" stroke-width="5"/>
+    <circle cx="328" cy="128" r="21" fill="url(#iris)"/>
+    <ellipse cx="328" cy="129" rx="13" ry="6.5" fill="#223018"/>
+    <circle cx="321" cy="136" r="4" fill="#ffffff" opacity="0.85"/>
+    <path d="M300 108 A33 33 0 0 1 356 108 Z" fill="#6bb84a" stroke="#3f7d29" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+
+  <ellipse cx="234" cy="210" rx="5" ry="7" fill="#3f7d29"/>
+  <ellipse cx="278" cy="210" rx="5" ry="7" fill="#3f7d29"/>
+
+  <g fill="#57a83a" stroke="#3f7d29" stroke-width="4">
+    <ellipse cx="152" cy="470" rx="14" ry="12"/>
+    <ellipse cx="182" cy="474" rx="15" ry="12"/>
+    <ellipse cx="212" cy="472" rx="14" ry="12"/>
+    <ellipse cx="300" cy="473" rx="14" ry="12"/>
+    <ellipse cx="330" cy="474" rx="15" ry="12"/>
+    <ellipse cx="358" cy="470" rx="14" ry="12"/>
+  </g>
+
+  <path d="M94 328 Q256 360 418 328 C430 366 424 408 398 438 C366 468 300 478 256 478 C212 478 146 468 114 438 C82 408 80 366 94 328 Z"
+        fill="url(#jawSkin)" stroke="#3f7d29" stroke-width="6" stroke-linejoin="round"/>
+
+  <g fill="#4a9430" opacity="0.35">
+    <circle cx="178" cy="424" r="7"/>
+    <circle cx="334" cy="420" r="7"/>
+  </g>
+
+  <path d="M150 438 Q256 474 362 438" fill="none" stroke="#b9e398" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+
+  <g fill="#ffffff" stroke="#3f7d29" stroke-width="3" stroke-linejoin="round">
+    <path d="M220 348 L220 334 C220 324 226 318 233 318 C240 318 246 324 246 334 L246 348 Z"/>
+    <path d="M266 348 L266 334 C266 324 272 318 279 318 C286 318 292 324 292 334 L292 348 Z"/>
+  </g>
+</svg>

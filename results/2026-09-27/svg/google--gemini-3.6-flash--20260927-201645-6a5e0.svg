@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Skin Gradients -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e2f0d9" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="frogSkin" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#88d040"/>
+      <stop offset="55%" stop-color="#589e23"/>
+      <stop offset="85%" stop-color="#376813"/>
+      <stop offset="100%" stop-color="#22440c"/>
+    </radialGradient>
+
+    <radialGradient id="frogSkinDark" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#589e23"/>
+      <stop offset="70%" stop-color="#2d580f"/>
+      <stop offset="100%" stop-color="#183307"/>
+    </radialGradient>
+
+    <linearGradient id="bellySkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4fabe"/>
+      <stop offset="70%" stop-color="#e2ed8f"/>
+      <stop offset="100%" stop-color="#c5d45d"/>
+    </linearGradient>
+
+    <radialGradient id="jawUnder" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f9fce1"/>
+      <stop offset="60%" stop-color="#dceb74"/>
+      <stop offset="100%" stop-color="#9cb833"/>
+    </radialGradient>
+
+    <!-- Eye Gradient -->
+    <radialGradient id="eyeIris" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffe853"/>
+      <stop offset="70%" stop-color="#f29100"/>
+      <stop offset="100%" stop-color="#7a3100"/>
+    </radialGradient>
+
+    <radialGradient id="innerMouth" cx="40%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#e86161"/>
+      <stop offset="75%" stop-color="#8a1c1c"/>
+      <stop offset="100%" stop-color="#4a0808"/>
+    </radialGradient>
+
+    <!-- Drop Shadows -->
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#000000" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Spot Pattern / Filter -->
+    <radialGradient id="spotGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#274c0d" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#1a3507" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a3507" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Highlight Softness -->
+    <filter id="blurHighlight">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Background Ambient Light -->
+  <circle cx="400" cy="300" r="350" fill="url(#bgGlow)"/>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="420" cy="510" rx="260" ry="45" fill="url(#dropShadow)"/>
+  <ellipse cx="250" cy="500" rx="90" ry="20" fill="url(#dropShadow)"/>
+
+  <!-- LEFT HIND LEG (Background) -->
+  <g id="back-left-leg">
+    <path d="M 480 380 C 530 360, 570 390, 560 440 C 550 480, 490 500, 450 490" 
+          fill="url(#frogSkinDark)" stroke="#1a3507" stroke-width="3"/>
+    <!-- Feet/Toes (Back Left) -->
+    <path d="M 470 485 L 520 505 M 465 490 L 505 520 M 460 495 L 480 528" 
+          stroke="#2d580f" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- MAIN BODY -->
+  <path id="body-main" d="M 320 260 
+           C 350 200, 450 190, 520 240 
+           C 590 290, 610 370, 570 430 
+           C 530 480, 440 490, 370 470 
+           C 340 460, 320 420, 320 380 Z" 
+        fill="url(#frogSkin)" stroke="#1d3b09" stroke-width="4"/>
+
+  <!-- SPOTS ON BACK -->
+  <g id="spots" opacity="0.6">
+    <ellipse cx="480" cy="250" rx="20" ry="12" fill="url(#spotGrad)" transform="rotate(-15 480 250)"/>
+    <ellipse cx="530" cy="290" rx="28" ry="16" fill="url(#spotGrad)" transform="rotate(20 530 290)"/>
+    <ellipse cx="440" cy="280" rx="15" ry="10" fill="url(#spotGrad)"/>
+    <ellipse cx="550" cy="350" rx="22" ry="30" fill="url(#spotGrad)" transform="rotate(-30 550 350)"/>
+    <ellipse cx="490" cy="340" rx="18" ry="12" fill="url(#spotGrad)"/>
+    <ellipse cx="430" cy="350" rx="25" ry="15" fill="url(#spotGrad)" transform="rotate(10 430 350)"/>
+  </g>
+
+  <!-- BELLY -->
+  <path id="belly" d="M 320 370 
+           C 320 370, 340 460, 400 475 
+           C 460 490, 520 460, 540 420 
+           C 550 400, 520 360, 480 370 
+           C 420 385, 350 350, 320 370 Z" 
+        fill="url(#bellySkin)"/>
+
+  <!-- RIGHT HIND LEG (Foreground) -->
+  <g id="back-right-leg">
+    <!-- Thigh & Calf folded -->
+    <path d="M 460 380 
+             C 540 360, 620 410, 590 460 
+             C 570 495, 510 510, 440 490 
+             C 430 460, 440 410, 460 380 Z" 
+          fill="url(#frogSkin)" stroke="#1d3b09" stroke-width="3"/>
+    <path d="M 540 385 C 570 410, 560 450, 500 480" fill="none" stroke="#2a520e" stroke-width="4" stroke-linecap="round"/>
+    <!-- Webbed Foot -->
+    <path d="M 480 485 L 550 515 M 475 490 L 530 530 M 470 495 L 500 540" 
+          stroke="#427819" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 480 485 L 550 515 M 475 490 L 530 530 M 470 495 L 500 540" 
+          stroke="#6bb327" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- LEFT FRONT LEG (Background) -->
+  <g id="front-left-leg">
+    <path d="M 290 380 L 260 460 L 220 480" fill="none" stroke="#2d580f" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 220 480 L 190 490 M 220 480 L 205 500 M 220 480 L 225 508" stroke="#2d580f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- UPPER HEAD & SNOUT (Receded / Normal position) -->
+  <!-- Upper snout ends significantly behind the lower jaw! Upper snout tip ~ (230, 240) -->
+  <path id="upper-head" d="M 380 230 
+           C 380 170, 320 160, 280 180 
+           C 260 190, 240 210, 230 235 
+           C 225 245, 235 255, 250 255 
+           C 280 255, 330 250, 370 265 
+           C 380 260, 380 240, 380 230 Z" 
+        fill="url(#frogSkin)" stroke="#1d3b09" stroke-width="3"/>
+
+  <!-- Nostril -->
+  <ellipse cx="245" cy="225" rx="3" ry="5" fill="#142606" transform="rotate(20 245 225)"/>
+
+  <!-- PROMINENT PROGNATHIC MANDIBLE (HUGE UNDERBITE LOWER JAW) -->
+  <!-- The lower jaw extends WAY out to x=130, creating severe mandibular prognathism -->
+  <g id="prognathic-jaw">
+    <!-- Outer/Under Structure of Lower Jaw -->
+    <path d="M 360 270 
+             L 260 260 
+             C 210 260, 150 250, 125 270 
+             C 105 285, 115 315, 145 330 
+             C 185 350, 250 370, 330 360 
+             C 365 355, 385 320, 360 270 Z" 
+          fill="url(#frogSkin)" stroke="#1d3b09" stroke-width="4"/>
+
+    <!-- Throat / Underside of massive jaw -->
+    <path d="M 330 360 
+             C 270 370, 200 355, 155 330 
+             C 130 315, 120 295, 130 285 
+             C 140 310, 180 335, 250 340 
+             C 310 345, 350 320, 360 290 
+             C 360 320, 350 350, 330 360 Z" 
+          fill="url(#jawUnder)"/>
+
+    <!-- Inside of Exposed Mouth / Lower Lip Bed due to severe underbite -->
+    <path d="M 245 258 
+             C 200 255, 140 255, 128 272 
+             C 120 282, 128 295, 150 298 
+             C 180 302, 230 290, 270 275 Z" 
+          fill="url(#innerMouth)"/>
+
+    <!-- Tongue sitting in the exposed forward lower jaw -->
+    <path d="M 180 280 C 150 280, 135 278, 138 285 C 142 292, 165 295, 190 288 Z" 
+          fill="#e05353" stroke="#9e2d2d" stroke-width="1"/>
+
+    <!-- Exposed Lower Lip Margin / Rim -->
+    <path d="M 360 270 
+             C 290 265, 230 258, 180 258 
+             C 140 258, 120 265, 125 275 
+             C 130 283, 150 283, 185 280 
+             C 230 275, 290 280, 360 270 Z" 
+          fill="#73b332" stroke="#1d3b09" stroke-width="2"/>
+
+    <!-- Underbite accentuation line (Mouth Crease ending early on upper jaw) -->
+    <path d="M 250 256 C 280 258, 320 262, 355 268" 
+          fill="none" stroke="#122404" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Jaw/Mental protuberance highlight (Bulldog Chin effect) -->
+    <path d="M 130 285 C 120 300, 135 320, 160 325" 
+          fill="none" stroke="#a3e048" stroke-width="4" stroke-linecap="round" filter="url(#blurHighlight)" opacity="0.8"/>
+  </g>
+
+  <!-- RIGHT FRONT LEG (Foreground) -->
+  <g id="front-right-leg">
+    <!-- Shoulder to Elbow to Wrist -->
+    <path d="M 340 360 L 310 440 L 250 485" 
+          fill="none" stroke="#589e23" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 340 360 L 310 440 L 250 485" 
+          fill="none" stroke="#1d3b09" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0.15"/>
+    <path d="M 340 360 L 310 440 L 250 485" 
+          fill="none" stroke="#48821c" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Front Webbed Hand/Toes -->
+    <path d="M 250 485 L 195 480 M 250 485 L 200 500 M 250 485 L 220 515 M 250 485 L 250 520" 
+          stroke="#386b12" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 250 485 L 195 480 M 250 485 L 200 500 M 250 485 L 220 515 M 250 485 L 250 520" 
+          stroke="#6bb327" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- EYES (Large, expressive, protruding on top) -->
+  <g id="eyes">
+    <!-- Left Eye Socket (Background) -->
+    <circle cx="310" cy="175" r="28" fill="url(#frogSkinDark)" stroke="#1d3b09" stroke-width="2"/>
+    <circle cx="305" cy="175" r="18" fill="url(#eyeIris)"/>
+    <ellipse cx="305" cy="175" rx="12" ry="4" fill="#0f0e0d" transform="rotate(-10 305 175)"/>
+
+    <!-- Right Eye Socket (Foreground) -->
+    <circle cx="360" cy="165" r="38" fill="url(#frogSkin)" stroke="#1d3b09" stroke-width="3"/>
+    <!-- Eye Ball -->
+    <circle cx="352" cy="162" r="26" fill="url(#eyeIris)"/>
+    
+    <!-- Horizontal Toad Pupil -->
+    <ellipse cx="350" cy="162" rx="18" ry="6" fill="#0f0e0d" transform="rotate(-5 350 162)"/>
+    <ellipse cx="350" cy="162" rx="16" ry="4" fill="#000000" transform="rotate(-5 350 162)"/>
+    
+    <!-- Eye Iris Metallic Details -->
+    <path d="M 330 160 C 340 150, 360 150, 370 160" fill="none" stroke="#ffeb7a" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- Eye Highlights (Glossy texture) -->
+    <circle cx="340" cy="150" r="5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="333" cy="158" r="2" fill="#ffffff" opacity="0.8"/>
+
+    <!-- Eyelid Folds / Brow -->
+    <path d="M 318 150 C 330 128, 380 130, 395 158 C 385 140, 340 135, 318 150 Z" fill="#73b332" stroke="#1d3b09" stroke-width="2"/>
+    <path d="M 325 162 C 320 185, 330 200, 355 202 C 335 198, 325 185, 325 162 Z" fill="#48821c" opacity="0.4"/>
+  </g>
+
+  <!-- GLOSS & SLIME HIGHLIGHTS (Makes the frog look wet and authentic) -->
+  <g id="gloss-highlights" opacity="0.6">
+    <!-- Head Gloss -->
+    <path d="M 260 195 C 280 185, 310 185, 320 190" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" filter="url(#blurHighlight)"/>
+    <!-- Back Gloss -->
+    <path d="M 420 220 C 460 210, 510 230, 540 260" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" filter="url(#blurHighlight)"/>
+    <!-- Prognathic Jaw Gloss (Highlighting the jutting lower lip) -->
+    <path d="M 135 273 C 160 268, 200 266, 235 268" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" filter="url(#blurHighlight)"/>
+    <path d="M 145 320 C 180 335, 230 345, 270 340" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" filter="url(#blurHighlight)"/>
+  </g>
+</svg>

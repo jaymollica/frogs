@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <title>Frog with mandibular prognathism (protruding lower jaw)</title>
+  <rect width="500" height="400" fill="#f2f7ec"/>
+  <ellipse cx="235" cy="373" rx="215" ry="12" fill="#dde9d3"/>
+  <g stroke="#7fae72" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M 442 372 Q 440 352 450 342"/>
+    <path d="M 456 372 Q 460 356 470 350"/>
+    <path d="M 32 372 Q 30 352 40 344"/>
+  </g>
+  <circle cx="238" cy="126" r="26" fill="#4ea862"/>
+  <circle cx="236" cy="120" r="14" fill="#f2c14e"/>
+  <circle cx="238.5" cy="118.5" r="6.5" fill="#232d20"/>
+  <circle cx="234.5" cy="115" r="2" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="190" cy="250" rx="145" ry="108" fill="#58b368"/>
+  <g fill="#3f9455" opacity="0.8">
+    <circle cx="95" cy="185" r="13"/>
+    <circle cx="140" cy="158" r="9"/>
+    <circle cx="75" cy="235" r="10"/>
+    <circle cx="60" cy="262" r="9"/>
+  </g>
+  <ellipse cx="185" cy="295" rx="98" ry="52" fill="#eaf5cf"/>
+  <ellipse cx="112" cy="286" rx="50" ry="42" fill="#3f9455"/>
+  <path d="M 58 356 Q 90 346 120 348 Q 146 350 158 356 Q 165 361 159 367 Q 130 374 94 374 Q 66 374 59 367 Q 55 361 58 356 Z" fill="#3f9455"/>
+  <circle cx="156" cy="357" r="5" fill="#3f9455"/>
+  <circle cx="162" cy="362" r="5" fill="#3f9455"/>
+  <circle cx="156" cy="367" r="5" fill="#3f9455"/>
+  <path d="M 249 302 Q 244 336 242 362 L 272 362 Q 269 328 274 300 Q 261 296 249 302 Z" fill="#3f9455"/>
+  <ellipse cx="256" cy="365" rx="24" ry="8" fill="#3f9455"/>
+  <circle cx="276" cy="361" r="4.5" fill="#3f9455"/>
+  <circle cx="280" cy="365.5" r="4.5" fill="#3f9455"/>
+  <circle cx="276" cy="370" r="4.5" fill="#3f9455"/>
+  <path d="M 225 165 C 250 128 295 118 328 132 C 356 146 374 186 380 226 C 382 246 372 258 356 258 L 292 258 C 272 258 258 246 252 226 C 246 205 232 190 225 165 Z" fill="#58b368"/>
+  <circle cx="332" cy="168" r="7" fill="#3f9455" opacity="0.7"/>
+  <circle cx="256" cy="178" r="6" fill="#3f9455" opacity="0.7"/>
+  <circle cx="369" cy="202" r="4" fill="#2e6b3a"/>
+  <circle cx="290" cy="118" r="34" fill="#6cc57a"/>
+  <circle cx="293" cy="112" r="20" fill="#f2c14e"/>
+  <circle cx="296" cy="110" r="8.5" fill="#232d20"/>
+  <circle cx="291" cy="105" r="3" fill="#ffffff" opacity="0.85"/>
+  <path d="M 292 240 C 318 237 352 247 390 244 Q 428 240 436 268 C 442 298 420 318 378 322 C 332 326 300 312 292 288 Q 288 264 292 240 Z" fill="#74c980"/>
+  <circle cx="352" cy="290" r="6" fill="#4ea862" opacity="0.8"/>
+  <circle cx="312" cy="296" r="5" fill="#4ea862" opacity="0.8"/>
+  <path d="M 292 240 C 318 237 352 247 390 244 Q 428 240 436 268" fill="none" stroke="#2e6b3a" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 293 241 Q 279 248 268 236 Q 261 229 262 219" fill="none" stroke="#2e6b3a" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 314 300 Q 356 312 392 306" fill="none" stroke="#2e6b3a" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  <g fill="#fdfcf3">
+    <polygon points="392,250 399,232 406,249"/>
+    <polygon points="406,249 413,231 420,250"/>
+    <polygon points="420,250 427,237 434,258"/>
+  </g>
+  <path d="M 298 242 Q 316 238 332 244 Q 341 248 334 255 Q 316 262 301 258 Q 292 250 298 242 Z" fill="#e884a5"/>
+  <path d="M 304 251 Q 317 253 329 251" fill="none" stroke="#c9557f" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+</svg>

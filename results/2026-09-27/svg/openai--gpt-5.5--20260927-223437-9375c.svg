@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A green frog with a heavily protruding lower jaw">
+  <defs>
+    <radialGradient id="skin" cx="40%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#9be36a"/>
+      <stop offset="70%" stop-color="#55b83f"/>
+      <stop offset="100%" stop-color="#2e8f36"/>
+    </radialGradient>
+    <radialGradient id="jaw" cx="55%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#b8ef80"/>
+      <stop offset="75%" stop-color="#6fc94b"/>
+      <stop offset="100%" stop-color="#3a9b38"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="335" cy="315" rx="185" ry="115" fill="url(#skin)" stroke="#1f6f2b" stroke-width="6"/>
+  <path d="M205 360 C125 365 82 405 62 454 C132 472 221 445 267 391 Z" fill="#4aad3b" stroke="#1f6f2b" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M395 365 C462 374 512 416 544 462 C477 484 393 455 354 397 Z" fill="#4aad3b" stroke="#1f6f2b" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M175 300 C115 282 82 247 78 204 C122 191 183 216 223 268 Z" fill="#62c747" stroke="#1f6f2b" stroke-width="6" stroke-linejoin="round"/>
+
+  <path d="M348 178
+           C393 124 518 124 587 174
+           C635 209 641 255 604 278
+           C544 316 408 297 350 249
+           C326 229 326 204 348 178 Z"
+        fill="url(#skin)" stroke="#1f6f2b" stroke-width="6" stroke-linejoin="round"/>
+
+  <path d="M362 240
+           C434 218 575 221 665 241
+           C742 258 771 302 743 341
+           C713 383 612 399 492 372
+           C407 353 348 315 328 279
+           C319 263 330 248 362 240 Z"
+        fill="url(#jaw)" stroke="#1f6f2b" stroke-width="7" stroke-linejoin="round"/>
+
+  <path d="M371 238
+           C464 232 574 232 681 260
+           C620 273 491 274 380 255"
+        fill="none" stroke="#174f22" stroke-width="8" stroke-linecap="round"/>
+
+  <path d="M492 304 C554 325 641 324 700 302" fill="none" stroke="#2f8c35" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <path d="M430 338 C500 363 606 367 680 344" fill="none" stroke="#2f8c35" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+
+  <circle cx="409" cy="146" r="48" fill="#79cf4b" stroke="#1f6f2b" stroke-width="6"/>
+  <circle cx="531" cy="146" r="48" fill="#79cf4b" stroke="#1f6f2b" stroke-width="6"/>
+  <circle cx="409" cy="150" r="31" fill="#f7ffe6" stroke="#1f6f2b" stroke-width="4"/>
+  <circle cx="531" cy="150" r="31" fill="#f7ffe6" stroke="#1f6f2b" stroke-width="4"/>
+  <circle cx="418" cy="154" r="12" fill="#111"/>
+  <circle cx="540" cy="154" r="12" fill="#111"/>
+  <circle cx="423" cy="149" r="4" fill="#fff"/>
+  <circle cx="545" cy="149" r="4" fill="#fff"/>
+
+  <ellipse cx="576" cy="207" rx="7" ry="5" fill="#174f22"/>
+  <ellipse cx="617" cy="215" rx="7" ry="5" fill="#174f22"/>
+
+  <circle cx="292" cy="258" r="10" fill="#357f31" opacity="0.55"/>
+  <circle cx="258" cy="312" r="8" fill="#357f31" opacity="0.5"/>
+  <circle cx="384" cy="350" r="7" fill="#357f31" opacity="0.45"/>
+  <circle cx="468" cy="196" r="7" fill="#357f31" opacity="0.45"/>
+  <circle cx="620" cy="322" r="9" fill="#3f9b36" opacity="0.45"/>
+  <circle cx="676" cy="292" r="7" fill="#3f9b36" opacity="0.4"/>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with mandibular prognathism</title>
+  <desc id="desc">A green frog in profile with an oversized lower jaw projecting well beyond its upper snout.</desc>
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#a8df67"/>
+      <stop offset="1" stop-color="#56a94c"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#91d65d"/>
+      <stop offset="1" stop-color="#4e9e48"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5efad"/>
+      <stop offset="1" stop-color="#b7d878"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="304" cy="420" rx="228" ry="20" fill="#203c32" opacity=".12"/>
+
+  <!-- Body and folded hind leg -->
+  <path d="M236 250
+           C185 229 121 241 91 282
+           C66 316 79 365 117 385
+           C150 403 195 388 223 365
+           C250 345 278 332 307 323
+           L323 267Z"
+        fill="url(#skin)" stroke="#234b39" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M125 344
+           C153 315 205 313 233 338
+           C252 356 237 381 211 389
+           C183 398 151 379 129 367
+           C118 361 117 353 125 344Z"
+        fill="#76bd50" stroke="#234b39" stroke-width="6"/>
+  <path d="M140 357 C157 341 185 338 204 349
+           M147 370 C164 358 183 357 196 364"
+        fill="none" stroke="#3f8742" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Rear foot -->
+  <path d="M101 368 C78 375 64 391 57 406
+           C53 415 61 420 69 414 L88 402
+           C79 415 83 423 92 417 L111 399
+           C105 414 112 419 120 410 L135 390Z"
+        fill="#7fc557" stroke="#234b39" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Neck and throat -->
+  <path d="M245 265 C266 291 287 322 300 359
+           C308 380 337 385 354 369
+           C373 350 368 310 346 274Z"
+        fill="url(#belly)" stroke="#234b39" stroke-width="7" stroke-linejoin="round"/>
+
+  <!-- Head -->
+  <path d="M111 250
+           C105 215 119 180 150 158
+           C180 136 221 133 251 149
+           C275 161 290 180 300 200
+           C325 211 360 213 391 222
+           C412 228 427 236 423 247
+           C419 259 392 266 362 270
+           C329 274 294 269 266 263
+           C237 284 193 299 151 290
+           C128 285 115 270 111 250Z"
+        fill="url(#skin)" stroke="#234b39" stroke-width="8" stroke-linejoin="round"/>
+
+  <!-- Oversized projecting lower jaw -->
+  <path d="M248 267
+           C291 274 344 274 392 264
+           C424 258 449 264 464 282
+           C482 303 476 327 455 340
+           C425 359 374 357 328 346
+           C290 337 258 319 231 297
+           C222 289 229 275 248 267Z"
+        fill="url(#jaw)" stroke="#234b39" stroke-width="8" stroke-linejoin="round"/>
+
+  <!-- Mouth seam and lower lip -->
+  <path d="M247 264 C293 272 347 271 396 260 C415 256 429 254 440 258"
+        fill="none" stroke="#173b32" stroke-width="6" stroke-linecap="round"/>
+  <path d="M294 330 C342 346 404 353 447 338"
+        fill="none" stroke="#3b8242" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Eye and brow -->
+  <path d="M171 174 C176 144 199 123 225 125
+           C252 126 270 148 269 176
+           C267 201 247 215 220 213
+           C192 211 169 198 171 174Z"
+        fill="#77c94f" stroke="#234b39" stroke-width="7"/>
+  <ellipse cx="220" cy="166" rx="25" ry="31" fill="#f4efb5" stroke="#234b39" stroke-width="5"/>
+  <ellipse cx="228" cy="169" rx="11" ry="20" fill="#283b2d"/>
+  <circle cx="232" cy="160" r="5" fill="#fff"/>
+  <path d="M172 160 C184 137 207 128 230 136"
+        fill="none" stroke="#b4e66b" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Nostrils and skin markings -->
+  <ellipse cx="394" cy="231" rx="4" ry="6" fill="#244c39"/>
+  <ellipse cx="368" cy="236" rx="3.5" ry="5" fill="#244c39"/>
+  <circle cx="145" cy="224" r="7" fill="#438f43" opacity=".7"/>
+  <circle cx="161" cy="249" r="5" fill="#438f43" opacity=".7"/>
+  <circle cx="187" cy="230" r="5" fill="#438f43" opacity=".7"/>
+  <circle cx="277" cy="225" r="5" fill="#438f43" opacity=".65"/>
+  <path d="M292 300 C302 305 309 311 314 318"
+        fill="none" stroke="#4a9744" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Foreleg -->
+  <path d="M260 301
+           C245 325 232 352 224 379
+           C221 390 230 398 239 390
+           L259 367
+           C251 389 260 395 269 385
+           L286 359
+           C282 381 291 385 299 374
+           L313 344
+           C314 365 324 367 330 353
+           L338 326Z"
+        fill="#77be50" stroke="#234b39" stroke-width="6" stroke-linejoin="round"/>
+</svg>

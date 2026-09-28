@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <title>Frog with mandibular prognathism (underbite)</title>
+  <defs>
+    <linearGradient id="bodyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dc63f"/>
+      <stop offset="1" stop-color="#5d9a25"/>
+    </linearGradient>
+    <linearGradient id="jawG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a5d465"/>
+      <stop offset="1" stop-color="#cfe89a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ground / lily pad -->
+  <ellipse cx="240" cy="336" rx="195" ry="16" fill="#3e7a1e" opacity="0.25"/>
+
+  <g stroke="#2e5c1a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- hind leg (behind body) -->
+    <path d="M132,232 C78,228 48,272 68,306 C82,330 128,338 160,326 C176,320 168,300 148,302 C112,306 98,286 108,268 C118,250 140,250 150,254 Z" fill="#6ba52b"/>
+    <!-- hind foot -->
+    <path d="M92,312 C82,328 92,340 112,338 L214,331 C226,330 226,319 214,318 L108,308 Z" fill="#7bb733"/>
+    <path d="M118,338 L124,320 M150,336 L152,318 M182,334 L182,317" fill="none" stroke-width="3"/>
+
+    <!-- BODY + HEAD with strongly protruding lower jaw -->
+    <path d="M80,300
+             C48,248 60,168 130,138
+             C182,116 252,120 292,154
+             C311,171 321,200 321,228
+             C344,229 370,238 367,257
+             C364,281 330,291 298,290
+             C248,294 196,302 150,310
+             C118,315 94,314 80,300 Z"
+          fill="url(#bodyG)"/>
+
+    <!-- protruding mandible highlight (the prognathic jaw) -->
+    <path d="M238,234
+             C268,229 300,227 321,228
+             C344,229 370,238 367,257
+             C364,281 330,291 298,290
+             C272,290 246,284 232,272
+             C222,262 224,242 238,234 Z"
+          fill="url(#jawG)"/>
+
+    <!-- mouth line: recessed upper jaw ends well behind the chin -->
+    <path d="M212,236 C250,229 292,226 321,228" fill="none" stroke-width="5"/>
+    <!-- jaw joint crease -->
+    <path d="M214,238 C210,250 218,262 232,270" fill="none" stroke-width="3"/>
+
+    <!-- lower teeth erupting in FRONT of the upper lip (underbite) -->
+    <path d="M324,231 L332,209 L341,233 Z" fill="#fffdf2" stroke-width="2.5"/>
+    <path d="M343,233 L352,213 L360,239 Z" fill="#fffdf2" stroke-width="2.5"/>
+
+    <!-- nostril -->
+    <circle cx="303" cy="200" r="5" fill="#2e5c1a" stroke="none"/>
+
+    <!-- bulging eye -->
+    <circle cx="268" cy="163" r="32" fill="#7fbb35"/>
+    <circle cx="270" cy="165" r="21" fill="#fff3c4" stroke-width="3"/>
+    <ellipse cx="272" cy="165" rx="8" ry="13" fill="#1b1b1b" stroke="none"/>
+    <circle cx="266" cy="158" r="4" fill="#ffffff" stroke="none"/>
+
+    <!-- front leg -->
+    <path d="M286,272 C300,292 296,314 288,326 C282,335 290,342 302,340 L344,336 C354,335 354,324 344,323 L308,318 C314,302 312,284 302,268 Z" fill="#6ba52b"/>
+    <path d="M312,338 L314,321 M330,337 L330,320" fill="none" stroke-width="3"/>
+
+    <!-- back spots -->
+    <g fill="#4a7d1c" stroke="none" opacity="0.65">
+      <ellipse cx="150" cy="176" rx="18" ry="12"/>
+      <ellipse cx="200" cy="158" rx="14" ry="9"/>
+      <ellipse cx="120" cy="222" rx="13" ry="9"/>
+      <ellipse cx="175" cy="212" rx="10" ry="7"/>
+    </g>
+  </g>
+</svg>

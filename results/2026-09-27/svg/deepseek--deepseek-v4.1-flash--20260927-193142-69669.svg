@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF59D"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="5" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="250" cy="470" rx="180" ry="30" fill="#000000" opacity="0.15"/>
+
+  <!-- Back Legs -->
+  <g id="back-legs">
+    <ellipse cx="120" cy="380" rx="60" ry="90" transform="rotate(-40 120 380)" fill="#2E7D32"/>
+    <path d="M 80 430 L 40 460 M 80 430 L 50 480 M 80 430 L 90 490 M 80 430 L 110 480" stroke="#2E7D32" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <ellipse cx="380" cy="380" rx="60" ry="90" transform="rotate(40 380 380)" fill="#2E7D32"/>
+    <path d="M 420 430 L 460 460 M 420 430 L 450 480 M 420 430 L 410 490 M 420 430 L 390 480" stroke="#2E7D32" stroke-width="12" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Frog Body -->
+  <ellipse cx="250" cy="360" rx="140" ry="110" fill="url(#bodyGrad)"/>
+  
+  <!-- Body Spots -->
+  <g id="spots" fill="#1B5E20" opacity="0.6">
+    <circle cx="180" cy="300" r="15"/>
+    <circle cx="320" cy="300" r="15"/>
+    <circle cx="250" cy="280" r="10"/>
+    <circle cx="150" cy="340" r="12"/>
+    <circle cx="350" cy="340" r="12"/>
+    <circle cx="210" cy="330" r="8"/>
+    <circle cx="290" cy="330" r="8"/>
+    <circle cx="250" cy="380" r="6"/>
+  </g>
+
+  <!-- Upper Jaw (Recessive) -->
+  <path d="M 110 240 Q 250 180 390 240 Q 250 280 110 240 Z" fill="#4CAF50"/>
+  
+  <!-- Upper Jaw Nostrils -->
+  <ellipse cx="200" cy="235" rx="6" ry="3" fill="#1B5E20"/>
+  <ellipse cx="300" cy="235" rx="6" ry="3" fill="#1B5E20"/>
+
+  <!-- Habsburg Lower Jaw (Massive, Bulbous, Protruding) -->
+  <path d="M 110 240 C 50 380 120 500 250 500 C 380 500 450 380 390 240 Q 250 310 110 240 Z" fill="url(#jawGrad)" filter="url(#shadow)"/>
+  
+  <!-- Lower Jaw Highlights -->
+  <path d="M 140 360 C 120 430 180 470 250 470 C 320 470 380 430 360 360 Q 250 410 140 360 Z" fill="#81C784" opacity="0.4"/>
+  
+  <!-- Double Chin Lines -->
+  <path d="M 170 420 Q 250 460 330 420" stroke="#1B5E20" stroke-width="4" fill="none" opacity="0.4"/>
+  <path d="M 190 460 Q 250 490 310 460" stroke="#1B5E20" stroke-width="4" fill="none" opacity="0.3"/>
+  <path d="M 230 485 Q 250 515 270 485" stroke="#1B5E20" stroke-width="3" fill="none" opacity="0.5"/>
+
+  <!-- Mouth Line (Smirk) -->
+  <path d="M 110 240 C 180 290 320 290 390 240" stroke="#1B5E20" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Lower Lip Highlight -->
+  <path d="M 120 245 C 185 295 315 295 380 245" stroke="#81C784" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Eye Sockets -->
+  <ellipse cx="160" cy="190" rx="45" ry="40" fill="#2E7D32"/>
+  <ellipse cx="340" cy="190" rx="45" ry="40" fill="#2E7D32"/>
+
+  <!-- Left Eye -->
+  <g id="left-eye">
+    <ellipse cx="160" cy="190" rx="35" ry="35" fill="#FFFFFF"/>
+    <ellipse cx="160" cy="190" rx="15" ry="20" fill="#111111"/>
+    <circle cx="150" cy="180" r="8" fill="#FFFFFF"/>
+    <circle cx="165" cy="200" r="3" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+
+  <!-- Right Eye -->
+  <g id="right-eye">
+    <ellipse cx="340" cy="190" rx="35" ry="35" fill="#FFFFFF"/>
+    <ellipse cx="340" cy="190" rx="15" ry="20" fill="#111111"/>
+    <circle cx="330" cy="180" r="8" fill="#FFFFFF"/>
+    <circle cx="345" cy="200" r="3" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+
+  <!-- Monocle (Habsburg Aristocratic Touch) -->
+  <g id="monocle" filter="url(#shadow)">
+    <circle cx="340" cy="190" r="42" stroke="url(#goldGrad)" stroke-width="8" fill="none"/>
+    <path d="M 340 232 Q 320 280 300 340" stroke="url(#goldGrad)" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M 320 160 Q 340 150 360 160" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Crown -->
+  <g id="crown" filter="url(#shadow)">
+    <path d="M 180 150 L 190 100 L 220 130 L 250 80 L 280 130 L 310 100 L 320 150 Z" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="175" y="150" width="150" height="15" rx="5" fill="url(#goldGrad)" stroke="#B8860B" stroke-width="3"/>
+    <!-- Crown Jewels -->
+    <circle cx="250" cy="110" r="7" fill="#D32F2F" stroke="#B8860B" stroke-width="2"/>
+    <circle cx="205" cy="125" r="5" fill="#1976D2" stroke="#B8860B" stroke-width="2"/>
+    <circle cx="295" cy="125" r="5" fill="#1976D2" stroke="#B8860B" stroke-width="2"/>
+    <circle cx="235" cy="155" r="4" fill="#D32F2F"/>
+    <circle cx="265" cy="155" r="4" fill="#D32F2F"/>
+  </g>
+
+  <!-- Front Legs -->
+  <g id="front-legs">
+    <!-- Left Arm -->
+    <path d="M 180 350 Q 140 410 170 440" stroke="#2E7D32" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <path d="M 170 440 L 140 470 M 170 440 L 160 480 M 170 440 L 190 480" stroke="#2E7D32" stroke-width="10" stroke-linecap="round" fill="none"/>
+    
+    <!-- Right Arm -->
+    <path d="M 320 350 Q 360 410 330 440" stroke="#2E7D32" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <path d="M 330 440 L 360 470 M 330 440 L 340 480 M 330 440 L 310 480" stroke="#2E7D32" stroke-width="10" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Facial Warts / Details -->
+  <g id="warts" fill="#1B5E20" opacity="0.5">
+    <circle cx="140" cy="220" r="4"/>
+    <circle cx="160" cy="210" r="3"/>
+    <circle cx="360" cy="220" r="4"/>
+    <circle cx="340" cy="210" r="3"/>
+  </g>
+
+  <!-- Aristocratic Eyebrows (for maximum inbred expression) -->
+  <path d="M 120 175 Q 160 160 190 180" stroke="#1B5E20" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 310 175 Q 340 160 380 180" stroke="#1B5E20" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

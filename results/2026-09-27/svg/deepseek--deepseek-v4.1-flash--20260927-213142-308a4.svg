@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#80CBC4"/>
+    </radialGradient>
+    <radialGradient id="frogSkin" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </radialGradient>
+    <radialGradient id="bellyGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F1F8E9"/>
+      <stop offset="100%" stop-color="#CDDC39"/>
+    </radialGradient>
+    <radialGradient id="eyeGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="100%" stop-color="#FF9800"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="250" cy="250" r="240" fill="url(#bgGradient)"/>
+
+  <!-- Hind Legs -->
+  <!-- Left Hind Leg -->
+  <ellipse cx="120" cy="370" rx="50" ry="70" transform="rotate(-35 120 370)" fill="url(#frogSkin)"/>
+  <ellipse cx="80" cy="440" rx="35" ry="60" transform="rotate(25 80 440)" fill="url(#frogSkin)"/>
+  <path d="M 60 480 L 40 500 M 60 480 L 50 505 M 60 480 L 70 505 M 60 480 L 90 500" stroke="url(#frogSkin)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 40 500 Q 50 505 70 505 Q 60 515 50 505 Q 45 515 40 500 Z" fill="#388E3C"/>
+  
+  <!-- Right Hind Leg -->
+  <ellipse cx="380" cy="370" rx="50" ry="70" transform="rotate(35 380 370)" fill="url(#frogSkin)"/>
+  <ellipse cx="420" cy="440" rx="35" ry="60" transform="rotate(-25 420 440)" fill="url(#frogSkin)"/>
+  <path d="M 440 480 L 460 500 M 440 480 L 450 505 M 440 480 L 430 505 M 440 480 L 410 500" stroke="url(#frogSkin)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 460 500 Q 450 505 430 505 Q 440 515 450 505 Q 455 515 460 500 Z" fill="#388E3C"/>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="330" rx="140" ry="105" fill="url(#frogSkin)"/>
+  
+  <!-- Belly -->
+  <ellipse cx="250" cy="350" rx="100" ry="80" fill="url(#bellyGradient)"/>
+
+  <!-- Front Legs -->
+  <!-- Left Front Leg -->
+  <path d="M 160 310 Q 130 370 130 420" stroke="url(#frogSkin)" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <path d="M 130 420 L 110 440 M 130 420 L 125 450 M 130 420 L 145 445" stroke="url(#frogSkin)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 110 440 Q 125 450 145 445 Q 135 455 125 450 Q 115 455 110 440 Z" fill="#388E3C"/>
+  
+  <!-- Right Front Leg -->
+  <path d="M 340 310 Q 370 370 370 420" stroke="url(#frogSkin)" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <path d="M 370 420 L 390 440 M 370 420 L 375 450 M 370 420 L 355 445" stroke="url(#frogSkin)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 390 440 Q 375 450 355 445 Q 365 455 375 450 Q 385 455 390 440 Z" fill="#388E3C"/>
+
+  <!-- Head & Jaw (Underbite) -->
+  <!-- Upper Head (Cranium + Upper Jaw) -->
+  <path d="M 120 200 C 120 80, 380 80, 380 200 C 360 220, 310 225, 250 225 C 190 225, 140 220, 120 200 Z" fill="url(#frogSkin)"/>
+  
+  <!-- Lower Jaw (Prognathism) -->
+  <path d="M 80 240 C 60 320, 150 370, 250 370 C 350 370, 440 320, 420 240 C 380 210, 320 215, 250 215 C 180 215, 120 210, 80 240 Z" fill="url(#frogSkin)"/>
+
+  <!-- Mouth Interior / Gap -->
+  <path d="M 120 200 C 140 220, 190 225, 250 225 C 310 225, 360 220, 380 200 C 320 215, 250 215, 180 215 Z" fill="#2E1A11"/>
+
+  <!-- Tongue -->
+  <path d="M 200 230 C 200 280, 300 280, 300 230 C 250 250, 200 230, 200 230 Z" fill="#EF5350"/>
+
+  <!-- Lower Teeth -->
+  <g fill="#FFFFFF">
+    <path d="M 95 225 L 105 205 L 115 225 Z"/>
+    <path d="M 125 218 L 135 198 L 145 218 Z"/>
+    <path d="M 155 215 L 165 195 L 175 215 Z"/>
+    <path d="M 185 213 L 195 193 L 205 213 Z"/>
+    <path d="M 215 212 L 225 192 L 235 212 Z"/>
+    <path d="M 245 212 L 255 192 L 265 212 Z"/>
+    <path d="M 275 213 L 285 193 L 295 213 Z"/>
+    <path d="M 305 215 L 315 195 L 325 215 Z"/>
+    <path d="M 335 218 L 345 198 L 355 218 Z"/>
+    <path d="M 365 225 L 375 205 L 385 225 Z"/>
+  </g>
+
+  <!-- Eyes -->
+  <!-- Left Eye -->
+  <circle cx="150" cy="110" r="50" fill="url(#frogSkin)"/>
+  <circle cx="150" cy="110" r="40" fill="url(#eyeGradient)"/>
+  <ellipse cx="160" cy="110" rx="12" ry="28" fill="#1A1A1A"/>
+  <circle cx="155" cy="100" r="6" fill="white"/>
+  
+  <!-- Right Eye -->
+  <circle cx="350" cy="110" r="50" fill="url(#frogSkin)"/>
+  <circle cx="350" cy="110" r="40" fill="url(#eyeGradient)"/>
+  <ellipse cx="340" cy="110" rx="12" ry="28" fill="#1A1A1A"/>
+  <circle cx="345" cy="100" r="6" fill="white"/>
+
+  <!-- Nostrils -->
+  <circle cx="220" cy="160" r="5" fill="#1B5E20"/>
+  <circle cx="280" cy="160" r="5" fill="#1B5E20"/>
+
+  <!-- Skin Spots & Details -->
+  <ellipse cx="180" cy="280" rx="20" ry="15" fill="#2E7D32" opacity="0.5"/>
+  <ellipse cx="320" cy="280" rx="20" ry="15" fill="#2E7D32" opacity="0.5"/>
+  <ellipse cx="250" cy="260" rx="30" ry="20" fill="#2E7D32" opacity="0.5"/>
+  <ellipse cx="200" cy="340" rx="15" ry="10" fill="#2E7D32" opacity="0.5"/>
+  <ellipse cx="300" cy="340" rx="15" ry="10" fill="#2E7D32" opacity="0.5"/>
+  <ellipse cx="180" cy="160" rx="15" ry="10" fill="#2E7D32" opacity="0.5"/>
+  <ellipse cx="320" cy="160" rx="15" ry="10" fill="#2E7D32" opacity="0.5"/>
+  
+  <!-- Skin Highlight -->
+  <ellipse cx="250" cy="280" rx="60" ry="30" fill="#C8E6C9" opacity="0.2"/>
+
+  <!-- Cheek Blush -->
+  <ellipse cx="130" cy="200" rx="20" ry="15" fill="#F48FB1" opacity="0.4"/>
+  <ellipse cx="370" cy="200" rx="20" ry="15" fill="#F48FB1" opacity="0.4"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#e8f4ea"/>
+  <ellipse cx="200" cy="272" rx="150" ry="14" fill="#b7cbb0" opacity="0.6"/>
+  <!-- back leg -->
+  <ellipse cx="95" cy="215" rx="48" ry="40" fill="#43a047" stroke="#2e7d32" stroke-width="3"/>
+  <path d="M60 240 Q40 262 30 268 M60 240 Q45 270 58 272 M60 240 Q70 268 82 272" fill="none" stroke="#2e7d32" stroke-width="10" stroke-linecap="round"/>
+  <!-- body -->
+  <ellipse cx="165" cy="200" rx="120" ry="66" fill="#4caf50" stroke="#2e7d32" stroke-width="3"/>
+  <ellipse cx="180" cy="222" rx="88" ry="38" fill="#c5e1a5"/>
+  <circle cx="130" cy="165" r="9" fill="#388e3c"/>
+  <circle cx="165" cy="150" r="6" fill="#388e3c"/>
+  <circle cx="105" cy="185" r="5" fill="#388e3c"/>
+  <!-- front leg -->
+  <path d="M225 225 Q238 250 236 265" fill="none" stroke="#2e7d32" stroke-width="16" stroke-linecap="round"/>
+  <path d="M225 225 Q238 250 236 265" fill="none" stroke="#4caf50" stroke-width="10" stroke-linecap="round"/>
+  <path d="M236 265 L216 272 M236 265 L236 276 M236 265 L254 272" fill="none" stroke="#2e7d32" stroke-width="8" stroke-linecap="round"/>
+  <!-- head with Habsburg jaw -->
+  <path d="M195 165 C188 100 235 78 275 80 C308 82 324 112 324 146 L300 152 L365 154 Q378 162 370 176 Q355 196 300 199 Q250 202 205 187 Z" fill="#4caf50" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round"/>
+  <!-- protruding lower lip -->
+  <path d="M324 149 L365 154 Q372 160 366 167 L322 160 Z" fill="#e57373" stroke="#2e7d32" stroke-width="2" stroke-linejoin="round"/>
+  <!-- mouth line -->
+  <path d="M262 150 Q290 154 324 146" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <!-- chin shading -->
+  <path d="M310 175 Q340 178 358 168" fill="none" stroke="#388e3c" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <!-- nostril -->
+  <circle cx="311" cy="122" r="3.5" fill="#2e7d32"/>
+  <!-- far eye -->
+  <circle cx="238" cy="92" r="16" fill="#4caf50" stroke="#2e7d32" stroke-width="3"/>
+  <circle cx="240" cy="92" r="9" fill="#fff"/>
+  <circle cx="242" cy="93" r="4" fill="#111"/>
+  <!-- near eye -->
+  <circle cx="274" cy="90" r="25" fill="#4caf50" stroke="#2e7d32" stroke-width="3"/>
+  <circle cx="276" cy="90" r="17" fill="#fff"/>
+  <ellipse cx="280" cy="91" rx="8" ry="10" fill="#111"/>
+  <circle cx="283" cy="86" r="3" fill="#fff"/>
+  <!-- droopy eyelid -->
+  <path d="M256 78 Q276 66 296 80" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round"/>
+</svg>

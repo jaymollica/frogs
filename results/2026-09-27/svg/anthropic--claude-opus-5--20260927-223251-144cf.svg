@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <g stroke="#3f6b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- hind leg -->
+    <path d="M95,182 C40,192 16,248 40,278 C60,302 104,292 108,262 Z" fill="#69a63c"/>
+    <g stroke-width="10">
+      <path d="M40,278 L14,288"/>
+      <path d="M44,284 L20,300"/>
+      <path d="M52,290 L38,310"/>
+    </g>
+
+    <!-- body + head silhouette -->
+    <path d="M36,200 C30,135 95,96 165,98 C245,100 305,112 324,145
+             C332,160 330,170 320,174 C270,186 210,262 130,268
+             C70,273 40,248 36,200 Z" fill="#7cb342"/>
+
+    <!-- belly -->
+    <ellipse cx="128" cy="222" rx="78" ry="38" fill="#b7d98a" stroke="none"/>
+
+    <!-- spots -->
+    <g fill="#4e7a2a" stroke="none" opacity="0.65">
+      <ellipse cx="92" cy="150" rx="20" ry="14"/>
+      <ellipse cx="150" cy="132" rx="15" ry="11"/>
+      <ellipse cx="60" cy="196" rx="13" ry="10"/>
+      <ellipse cx="196" cy="150" rx="12" ry="9"/>
+    </g>
+
+    <!-- heavily protruding lower jaw -->
+    <path d="M165,155 Q250,180 322,172 Q368,164 378,190 Q386,224 340,242
+             Q258,266 198,226 Q168,201 165,155 Z" fill="#8bc34a"/>
+    <path d="M178,168 Q252,186 322,176" fill="none" stroke="#3f6b22" stroke-width="3" opacity="0.5"/>
+
+    <!-- lower teeth sticking up over the upper lip -->
+    <path d="M330,173 l6,-15 9,13 z" fill="#ffffff" stroke-width="2.5"/>
+    <path d="M349,170 l7,-16 9,15 z" fill="#ffffff" stroke-width="2.5"/>
+    <path d="M367,175 l8,-13 7,16 z" fill="#ffffff" stroke-width="2.5"/>
+
+    <!-- chin shading -->
+    <path d="M250,250 Q300,258 338,240" fill="none" stroke="#5f9e34" stroke-width="5" opacity="0.6"/>
+
+    <!-- front leg -->
+    <path d="M236,232 C228,266 236,290 256,296 C270,300 280,294 278,286
+             C258,272 252,252 258,234 Z" fill="#69a63c"/>
+    <g stroke-width="10">
+      <path d="M262,294 L288,300"/>
+      <path d="M264,288 L292,288"/>
+      <path d="M258,298 L272,314"/>
+    </g>
+
+    <!-- bulging eye -->
+    <ellipse cx="248" cy="100" rx="34" ry="31" fill="#7cb342"/>
+    <ellipse cx="250" cy="98" rx="23" ry="21" fill="#f5c542"/>
+    <ellipse cx="250" cy="98" rx="7" ry="13" fill="#20160b" stroke="none"/>
+    <ellipse cx="242" cy="88" rx="6" ry="5" fill="#ffffff" stroke="none" opacity="0.85"/>
+
+    <!-- nostril -->
+    <ellipse cx="306" cy="146" rx="4" ry="3" fill="#3f6b22"/>
+  </g>
+</svg>

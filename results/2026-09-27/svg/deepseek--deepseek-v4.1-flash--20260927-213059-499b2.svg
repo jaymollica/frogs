@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <rect width="500" height="500" fill="#E0F7FA" />
+  
+  <!-- Water Ripples -->
+  <ellipse cx="250" cy="440" rx="180" ry="30" fill="none" stroke="#B2DFDB" stroke-width="2" />
+  <ellipse cx="250" cy="440" rx="200" ry="35" fill="none" stroke="#B2DFDB" stroke-width="2" />
+  
+  <!-- Lily Pad -->
+  <path d="M 150 470 C 50 470, 50 500, 250 500 C 450 500, 450 470, 350 470 L 250 450 Z" fill="#7CB342" stroke="#558B2F" stroke-width="4" />
+  
+  <!-- Frog Shadow -->
+  <ellipse cx="250" cy="470" rx="150" ry="20" fill="#558B2F" opacity="0.5" />
+  
+  <!-- Back Legs -->
+  <ellipse cx="140" cy="350" rx="60" ry="70" transform="rotate(-30 140 350)" fill="#388E3C" stroke="#1B5E20" stroke-width="4" />
+  <ellipse cx="360" cy="350" rx="60" ry="70" transform="rotate(30 360 350)" fill="#388E3C" stroke="#1B5E20" stroke-width="4" />
+  
+  <path d="M 120 380 C 80 420, 80 460, 120 480 C 140 490, 160 470, 150 440" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+  <path d="M 380 380 C 420 420, 420 460, 380 480 C 360 490, 340 470, 350 440" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+  
+  <path d="M 120 480 C 100 490, 80 500, 90 510 C 110 520, 150 510, 160 490 Z" fill="#388E3C" stroke="#1B5E20" stroke-width="4" />
+  <path d="M 380 480 C 400 490, 420 500, 410 510 C 390 520, 350 510, 340 490 Z" fill="#388E3C" stroke="#1B5E20" stroke-width="4" />
+  
+  <!-- Body -->
+  <ellipse cx="250" cy="330" rx="120" ry="100" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+  
+  <!-- Belly -->
+  <ellipse cx="250" cy="350" rx="80" ry="70" fill="#C5E1A5" stroke="#2E7D32" stroke-width="3" />
+  
+  <!-- Front Legs -->
+  <path d="M 180 380 L 140 460" stroke="#4CAF50" stroke-width="25" stroke-linecap="round" />
+  <path d="M 320 380 L 360 460" stroke="#4CAF50" stroke-width="25" stroke-linecap="round" />
+  
+  <ellipse cx="140" cy="470" rx="20" ry="15" fill="#388E3C" stroke="#1B5E20" stroke-width="4" />
+  <ellipse cx="360" cy="470" rx="20" ry="15" fill="#388E3C" stroke="#1B5E20" stroke-width="4" />
+  
+  <!-- Head (Upper Jaw) -->
+  <path d="M 140 230 C 140 100, 360 100, 360 230 Q 250 250 140 230 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+  
+  <!-- Lower Jaw (Mandibular Prognathism / Underbite) -->
+  <path d="M 140 230 Q 250 280 360 230 C 360 360, 140 360, 140 230 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+  
+  <!-- Chin Highlight -->
+  <path d="M 190 300 Q 250 330 310 300" stroke="#81C784" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.7" />
+  
+  <!-- Mouth Gap (Darkness) -->
+  <path d="M 140 230 Q 250 250 360 230 Q 250 280 140 230 Z" fill="#1B5E20" />
+  
+  <!-- Teeth -->
+  <path d="M 195 235 L 200 265 L 205 235 Z" fill="#FFFFFF" stroke="#1B5E20" stroke-width="1" />
+  <path d="M 295 235 L 300 265 L 305 235 Z" fill="#FFFFFF" stroke="#1B5E20" stroke-width="1" />
+  
+  <!-- Eye Domes -->
+  <ellipse cx="170" cy="130" rx="45" ry="50" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+  <ellipse cx="330" cy="130" rx="45" ry="50" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+  
+  <!-- Eyeballs -->
+  <ellipse cx="175" cy="135" rx="35" ry="40" fill="#FFFFFF" />
+  <ellipse cx="325" cy="135" rx="35" ry="40" fill="#FFFFFF" />
+  
+  <!-- Pupils -->
+  <ellipse cx="185" cy="140" rx="15" ry="20" fill="#1B5E20" />
+  <ellipse cx="315" cy="140" rx="15" ry="20" fill="#1B5E20" />
+  
+  <!-- Eye Highlights -->
+  <circle cx="180" cy="130" r="6" fill="#FFFFFF" />
+  <circle cx="310" cy="130" r="6" fill="#FFFFFF" />
+  
+  <!-- Cheek Blush -->
+  <ellipse cx="150" cy="260" rx="20" ry="12" fill="#E57373" opacity="0.6" />
+  <ellipse cx="350" cy="260" rx="20" ry="12" fill="#E57373" opacity="0.6" />
+  
+  <!-- Nostrils -->
+  <circle cx="230" cy="190" r="4" fill="#1B5E20" />
+  <circle cx="270" cy="190" r="4" fill="#1B5E20" />
+  
+  <!-- Frog Spots (Texture) -->
+  <circle cx="220" cy="180" r="8" fill="#388E3C" opacity="0.7" />
+  <circle cx="280" cy="180" r="10" fill="#388E3C" opacity="0.7" />
+  <circle cx="250" cy="150" r="6" fill="#388E3C" opacity="0.7" />
+  
+  <circle cx="180" cy="300" r="12" fill="#388E3C" opacity="0.7" />
+  <circle cx="320" cy="290" r="15" fill="#388E3C" opacity="0.7" />
+  <circle cx="200" cy="380" r="10" fill="#388E3C" opacity="0.7" />
+  <circle cx="300" cy="370" r="14" fill="#388E3C" opacity="0.7" />
+  <circle cx="250" cy="400" r="8" fill="#388E3C" opacity="0.7" />
+  
+  <circle cx="130" cy="340" r="10" fill="#388E3C" opacity="0.7" />
+  <circle cx="370" cy="340" r="10" fill="#388E3C" opacity="0.7" />
+  
+  <circle cx="140" cy="460" r="6" fill="#388E3C" opacity="0.7" />
+  <circle cx="360" cy="460" r="6" fill="#388E3C" opacity="0.7" />
+</svg>

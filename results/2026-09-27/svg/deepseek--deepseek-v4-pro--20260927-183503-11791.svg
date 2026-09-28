@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+<defs>
+    <radialGradient id="frogSkin" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#81C784"/>
+        <stop offset="100%" stop-color="#2E7D32"/>
+    </radiialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#C8E6C9"/>
+        <stop offset="60%" stop-color="#4CAF50" />
+        <stop offset="100%" stop-color="#2E7D32"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#FFF59D"/>
+        <stop offset="30%" stop-color="#FBC02D"/>
+        <stop offset="100%" stop-color="#F57F17"/>
+    </linearGradient>
+</defs>
+
+<!-- Background Curtains -->
+<path d="M 60 500 L 60 200 Q 80 150 120 100 Q 140 120 140 150 L 140 500 Z" fill="#D32F2F" stroke="#B71C1C" stroke-width="4"/>
+<path d="M 440 500 L 440 200 Q 420 150 380 100 Q 360 120 360 150 L 360 500 Z" fill="#D32F2F" stroke="#B71C1C" stroke-width="4"/>
+<ellipse cx="160" cy="320" rx="20" ry="30" fill="#FFC107" stroke="#F57F17" stroke-width="4"/>
+<ellipse cx="340" cy="320" rx="20" ry="30" fill="#FFC107" stroke="#F57F17" stroke-width="4"/>
+
+<!-- Floor Shadow -->
+<ellipse cx="250" cy="470" rx="180" ry="25" fill="#1B5E20" opacity="0.4"/>
+
+<!-- Legs(Back layer) -->
+<ellipse cx="120" cy="420" rx="40" ry="60" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5" transform="rotate(-30 120 420)"/>
+<path d="M 90 450 L 70 480 L 85 490 L 65 500 L 100 510 L 110 500 L 130 480 L 120 460 Z" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="4"/>
+<ellipse cx="380" cy="420" rx="40" ry="60" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5" transform="rotate(30 380 420)"/>
+<path d="M 410 450 L 430 480 L 415 490 L 435 500 L 400 510 L 390 500 L 370 480 L 380 460 Z" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="4"/>
+
+<!-- Ruff(Collar) -->
+<path d="M 80 280 C 40 320, 60 380, 120 360 C 160 380, 200 350, 250 350 C 300 350, 340 380, 380 360 C 440 380, 460 320, 420 280 C 380 310, 320 320, 250 320 C 180 320, 120 310, 80 280 Z" fill="#FFFFFF" stroke="#9E9E9E" stroke-width="4"/>
+<path d="M 60 270 C 20 330, 70 390, 130 350 C 170 370, 210 340, 250 340 C 290 340, 330 370, 370 350 C 430 390, 480 330, 440 270 C 390 300, 320 310, 250 310 C 180 310, 110 300, 60 270 Z" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="2"/>
+
+<!-- Boddy -->
+<ellipse cx="250" cy="420" rx="140" ry="130" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="6"/>
+<ellipse cx="250" cy="430" rx="100" ry="90" fill="#C8E6C9" stroke="#81C784" stroke-width="4"/>
+<path d="M 240 470 Q	250	460 260	470 Q 250 480 240 470" fill="#81C784"/>
+
+<!-- Arns(Front Layer) -->
+<ellipse cx="130" cy="390" rx="25" ry="50" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5" transform="rotate(45 130 390)"/>
+<ellipse cx="160" cy="450" rx="15" ry="35" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5" transform="rotate(-30 160 450)"/>
+<path d="M 180 440 L 195 460 L 185 470 L 205 480 L 215 470 L 225 490 L 240 480 L 230 450 Z" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="4"/>
+<ellipse cx="370" cy="390" rx="25" ry="50" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5" transform="rotate(-45 370 390)"/>
+<ellipse cx="340" cy="450" rx="15" ry="35" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5" transform="rotate(30 340 450)"/>
+<path d="M 320 440 L 305 460 L 315 470 L 295 480 L 285 470 L 275 490 L 260 480 L 270 450 Z" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="4"/>
+
+<!-- Head Base -->
+<ellipse cx="250" cy="200" rx="140" ry="110" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="6"/>
+
+<!-- Crown -->
+<rect x="150" y="60" width="200" height="30" fill="url(#gold)" stroke="#B71C1C" stroke-width="4" rx="5"/>
+<polygon points="170,60 190,20 210,60" fill="url(#gold)" stroke="#B71C1C" stroke-width="4"/>
+<polygon points="210,60 230,10 250,60" fill="url(#gold)" stroke="#B71C1C" stroke-width="4"/>
+<polygon points="250,60 270,20 290,60" fill="url(#gold)" stroke="#B71C1C" stroke-width="4"/>
+<polygon points="290,60 310,30 330,60" fill="url(#gold)" stroke="#B71C1C" stroke-width="4"/>
+<circle cx="190" cy="75" r="8" fill="#D32F2F" stroke="#B71C1C" stroke-width="2"/>
+<circle cx="230" cy="75" r="10" fill="#1976D2" stroke="#0D47A1" stroke-width="2"/>
+<circle cx="270" cy="75" r="8" fill="#388E3C" stroke="#1B5E20" stroke-width="2"/>
+<circle cx="310" cy="75" r="10" fill="#D32F2F" stroke="#B71C1C" stroke-width="2"/>
+<circle cx="190" cy="20" r="6" fill="#FFF" stroke="#BDBDBD" stroke-width="2"/>
+<circle cx="230" cy="10" r="8" fill="#FFF" stroke="#BDBDBD" stroke-width="2"/>
+<circle cx="270" cy="20" r="6" fill="#FFF" stroke="#BDBDBD" stroke-width="2"/>
+<circle cx="310" cy="30" r="6" fill="#FFF" stroke="#BDBDBD" stroke-width="2"/>
+
+<!-- Eeyes -->
+<circle cx="120" cy="130" r="45" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="6"/>
+<circle cx="380" cy="130" r="45" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="6"/>
+<circle cx="120" cy="130" r="35" fill="#FFF" stroke="#1B5E20" stroke-width="4"/>
+<ellipse cx="120" cy="130" rx="10" ry="18" fill="#1B5E20"/>
+<circle cx="110" cy="120" r="6" fill="#FFF"/>
+<circle cx="130" cy="135" r="3" fill="#FFF"/>
+<circle cx="380" cy="130" r="35" fill="#FFF" stroke="#1B5E20" stroke-width="4"/>
+<ellipse cx="380" cy="130" rx="10" ry="18" fill="#1B5E20"/>
+<circle cx="370" cy="120" r="6" fill="#FFF"/>
+<circle cx="390" cy="135" r="3" fill="#FFF"/>
+
+<!-- Chek Blush -->
+<ellipse cx="160" cy="220" rx="20" ry="10" fill="#E57373" opacity="0.4"/>
+<ellipse cx="340" cy="220" rx="20" ry="10" fill="#E57373" opacity="0.4"/>
+
+<!-- Nostrils -->
+<ellipse cx="220" cy="230" rx="8" ry="4" fill="#1B5E20"/>
+<ellipse cx="280" cy="230" rx="8" ry="4" fill="#1B5E20"/>
+
+<!-- THE HABSBURG JAW -->
+<!-- Upper Lip(Receded) -->
+<path d="M 90 220 Q 160 200 200 210 Q 250 200 300 210 Q 340 200 410 220" fill="none" stroke="#1B5E20" stroke-width="8" stroke-linecap="round"/>
+
+<!-- Inner Mouth Cavity(Red) -->
+<path d="M 110 240 C 140 390, 200 410, 250 410 C 300 410, 360 390, 390 240 C 330 380, 250 380, 170 380 C 140 380, 110 240, 110 240 Z" fill="#C62828" stroke="#1B5E20" stroke-width="5" stroke-linejoin="round"/>
+
+<!-- Upper Teesh -->
+<path d="M 140 240 Q 160 230 180 240 Q 200 230 220 240 Q 240 230 260 240 Q 280 230 300 240 Q 320 230 340 240 Q 360 230 380 240" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- Lower Teesh -->
+<path d="M 160 390 Q 180 380 200 390 Q 220 380 240 390 Q 260 380 280 390 Q 300 380 320 390 Q 340 380 360 390" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- Outer Protruding Lower Lip(Back layer, darker) -->
+<path d="M 90 220 C 80 420, 190 480, 250 480 C 310 480, 420 420, 410 220 C 310 380, 190 380, 90 220 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="6" stroke-linejoin="round"/>
+
+<!-- Inner ProtrudingLower Lip(Front layer, lighter) -->
+<path d="M 110 240 C 130 390, 190 440, 250 440 C 310 440, 370 390, 390 240 C 320 380, 180 380, 110 240 Z" fill="url(#jawgrad)" stroke="#1B5E20" stroke-width="6" stroke-linejoin="round"/>
+
+<!-- Fat Rolls / Chin Dimple(Wrinkles on the lower lip) -->
+<path d="M 180 380 L 190 430" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+<path d="M 220 390 L 220 435" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+<path d="M 280 390 L 280 435" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+<path d="M 320 380 L 310 430" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+
+<path d="M 150 330 Q 250 380 350 330" fill="none" stroke="#2E7D32" stroke-width="5" opacity="0.6"/>
+<path d="M 170 360 Q 250 410 330 360" fill="none" stroke="#2E7D32" stroke-width="5" opacity="0.6"/>
+
+<!-- Tongue Sliping Out Over the Lower Lip -->
+<path d="M 180 430 Q 250 480 320 430 Q 280 450 250 450 Q 220 450 180 430 Z" fill="#F48FB1" stroke="#D81B60" stroke-width="4"/>
+<line x1="200" y1="445" x2="220" y2="450" stroke="#D81B60" stroke-width="2" stroke-linecap="round"/>
+<line x1="250" y1="455" x2="250" y2="445" stroke="#D81B60" stroke-width="2" stroke-linecap="round"/>
+<line x1="280" y1="450" x2="300" y2="445" stroke="#D81B60" stroke-width="2" stroke-linecap="round"/>
+
+<!-- Order of theGolden Flea(Smbol on neck) -->
+<path d="M 220 290 L 280 290 L 270 340 L 230 340 Z" fill="#FBC02D" stroke="#F57F17" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="250" cy="315" r="10" fill="#FFF59D" stroke="#F57F17" stroke-width="2"/>
+
+<!-- Hihlights for Depth -->
+<ellipse cx="200" cy="280" rx="30" ry="15" fill="#FFFFFF" opacity="0.2" transform="rotate(-15 200 280)"/>
+<ellipse cx="300" cy="280" rx="30" ry="15" fill="#FFFFFF" opacity="0.2" transform="rotate(15 300 280)"/>
+<ellipse cx="250" cy="180" rx="40" ry="20" fill="#FFFFFF" opacity="0.3"/>
+<ellipse cx="250" cy="380" rx="60" ry="25" fill="#FFFFFF" opacity="0.15"/>
+
+</svg>

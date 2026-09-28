@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320">
+  <title>Frog with a heavily protruding lower jaw</title>
+  <rect width="420" height="320" fill="#e7f5f2"/>
+  <g fill="#cdeae6">
+    <circle cx="388" cy="58" r="7"/>
+    <circle cx="372" cy="82" r="4.5"/>
+    <circle cx="396" cy="92" r="3"/>
+    <circle cx="30" cy="62" r="5"/>
+  </g>
+  <ellipse cx="205" cy="285" rx="172" ry="22" fill="#4e9a44" stroke="#2f6b2a" stroke-width="3"/>
+  <path d="M205 285 L100 277 M205 285 L312 277" stroke="#3f8a37" stroke-width="2" opacity="0.6" fill="none"/>
+  <g>
+    <circle cx="206" cy="54" r="17" fill="#4a8f3e" stroke="#2f5d2a" stroke-width="3"/>
+    <circle cx="205" cy="52" r="11" fill="#ffffff"/>
+    <circle cx="207" cy="46" r="3.5" fill="#1a1a1a"/>
+  </g>
+  <path d="M95 135 C100 95 130 62 175 55 C235 46 295 62 325 105 C352 145 352 205 330 240 C312 268 265 278 220 276 C175 274 140 266 122 242 C111 228 106 215 108 205 C104 180 98 158 95 135 Z" fill="#58a24a" stroke="#2f5d2a" stroke-width="3.5" stroke-linejoin="round"/>
+  <g fill="#3f7d33" opacity="0.5">
+    <circle cx="258" cy="128" r="11"/>
+    <circle cx="292" cy="165" r="9"/>
+    <circle cx="248" cy="182" r="7"/>
+    <circle cx="300" cy="115" r="6"/>
+  </g>
+  <ellipse cx="198" cy="230" rx="78" ry="42" fill="#b9dd8f"/>
+  <path d="M108 168 C80 156 46 166 36 188 C26 212 46 234 80 237 C104 239 118 229 122 212 C126 196 122 178 108 168 Z" fill="#6db54f" stroke="#2f5d2a" stroke-width="3.5" stroke-linejoin="round"/>
+  <g fill="#ffffff" stroke="#2f5d2a" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M44 190 L52 160 L64 184 Z"/>
+    <path d="M68 186 L77 156 L89 182 Z"/>
+  </g>
+  <path d="M99 148 C120 152 140 162 157 176" fill="none" stroke="#24501f" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="104" cy="113" r="2.5" fill="#1e3b1c"/>
+  <circle cx="152" cy="78" r="35" fill="#4a8f3e" stroke="#2f5d2a" stroke-width="3"/>
+  <circle cx="152" cy="84" r="26" fill="#ffffff"/>
+  <circle cx="145" cy="86" r="11" fill="#1a1a1a"/>
+  <circle cx="149" cy="80" r="3.5" fill="#ffffff"/>
+  <ellipse cx="292" cy="236" rx="48" ry="30" fill="#4a8f3e" stroke="#2f5d2a" stroke-width="3"/>
+  <ellipse cx="349" cy="260" rx="22" ry="9" fill="#58a24a" stroke="#2f5d2a" stroke-width="3" transform="rotate(-10 349 260)"/>
+  <g fill="#58a24a" stroke="#2f5d2a" stroke-width="2">
+    <circle cx="366" cy="252" r="4.5"/>
+    <circle cx="371" cy="260" r="4.5"/>
+    <circle cx="365" cy="268" r="4.5"/>
+  </g>
+  <path d="M150 232 C132 238 118 250 116 264 L132 268 C136 256 146 248 160 244 Z" fill="#58a24a" stroke="#2f5d2a" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="120" cy="267" rx="20" ry="9" fill="#58a24a" stroke="#2f5d2a" stroke-width="3"/>
+  <g fill="#58a24a" stroke="#2f5d2a" stroke-width="2">
+    <circle cx="104" cy="264" r="5"/>
+    <circle cx="103" cy="271" r="5"/>
+    <circle cx="110" cy="277" r="5"/>
+  </g>
+</svg>

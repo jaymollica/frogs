@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Frog with a Habsburg jaw</title>
+
+  <!-- background -->
+  <rect width="400" height="400" fill="#dff1f8"/>
+
+  <!-- hind legs + feet (behind body) -->
+  <g fill="#4e9c3f" stroke="#2c6b27" stroke-width="5">
+    <ellipse cx="66" cy="318" rx="54" ry="40"/>
+    <ellipse cx="334" cy="318" rx="54" ry="40"/>
+    <circle cx="34" cy="350" r="17"/>
+    <circle cx="64" cy="360" r="17"/>
+    <circle cx="94" cy="350" r="17"/>
+    <circle cx="366" cy="350" r="17"/>
+    <circle cx="336" cy="360" r="17"/>
+    <circle cx="306" cy="350" r="17"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="200" cy="285" rx="118" ry="95" fill="#5cb34a" stroke="#2c6b27" stroke-width="6"/>
+  <ellipse cx="200" cy="312" rx="74" ry="66" fill="#d8ef9c"/>
+
+  <!-- body spots -->
+  <g fill="#3f9137" opacity="0.85">
+    <ellipse cx="118" cy="262" rx="17" ry="12"/>
+    <ellipse cx="284" cy="258" rx="15" ry="11"/>
+    <ellipse cx="105" cy="304" rx="12" ry="9"/>
+    <ellipse cx="296" cy="300" rx="13" ry="9"/>
+  </g>
+
+  <!-- front arms + hands -->
+  <g fill="#5cb34a" stroke="#2c6b27" stroke-width="5" stroke-linecap="round">
+    <path d="M152,296 C126,318 113,344 113,362" fill="none" stroke-width="24"/>
+    <path d="M248,296 C274,318 287,344 287,362" fill="none" stroke-width="24"/>
+    <ellipse cx="113" cy="366" rx="34" ry="16"/>
+    <ellipse cx="287" cy="366" rx="34" ry="16"/>
+    <circle cx="86" cy="378" r="13"/>
+    <circle cx="113" cy="384" r="13"/>
+    <circle cx="141" cy="378" r="13"/>
+    <circle cx="314" cy="378" r="13"/>
+    <circle cx="287" cy="384" r="13"/>
+    <circle cx="259" cy="378" r="13"/>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="200" cy="196" rx="108" ry="88" fill="#5cb34a" stroke="#2c6b27" stroke-width="6"/>
+  <g fill="#3f9137" opacity="0.7">
+    <circle cx="128" cy="176" r="7"/>
+    <circle cx="150" cy="150" r="5"/>
+    <circle cx="272" cy="172" r="6"/>
+    <circle cx="250" cy="146" r="5"/>
+  </g>
+
+  <!-- nostrils -->
+  <g fill="#2c6b27">
+    <ellipse cx="184" cy="168" rx="5" ry="4"/>
+    <ellipse cx="216" cy="168" rx="5" ry="4"/>
+  </g>
+
+  <!-- eye bulges -->
+  <circle cx="148" cy="118" r="45" fill="#5cb34a" stroke="#2c6b27" stroke-width="6"/>
+  <circle cx="252" cy="118" r="45" fill="#5cb34a" stroke="#2c6b27" stroke-width="6"/>
+
+  <!-- eyeballs -->
+  <circle cx="151" cy="120" r="31" fill="#ffffff" stroke="#2c6b27" stroke-width="4"/>
+  <circle cx="249" cy="120" r="31" fill="#ffffff" stroke="#2c6b27" stroke-width="4"/>
+  <circle cx="155" cy="124" r="14" fill="#141414"/>
+  <circle cx="245" cy="124" r="14" fill="#141414"/>
+  <circle cx="161" cy="117" r="5" fill="#ffffff"/>
+  <circle cx="251" cy="117" r="5" fill="#ffffff"/>
+  <!-- sleepy lids -->
+  <path d="M124,106 C136,94 166,94 178,106" fill="none" stroke="#2c6b27" stroke-width="5" stroke-linecap="round"/>
+  <path d="M222,106 C234,94 264,94 276,106" fill="none" stroke="#2c6b27" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- open mouth interior -->
+  <path d="M96,210 C145,261 255,261 304,210 L296,240 C270,285 130,285 104,240 Z" fill="#4d2020"/>
+
+  <!-- upper teeth (receded behind the underbite) -->
+  <g fill="#fffdf2" stroke="#d8d2bd" stroke-width="2">
+    <rect x="156" y="228" width="27" height="52" rx="6"/>
+    <rect x="196" y="234" width="25" height="48" rx="6"/>
+    <rect x="238" y="230" width="27" height="52" rx="6"/>
+  </g>
+
+  <!-- protruding Habsburg lower jaw -->
+  <path d="M104,240
+           C130,285 270,285 296,240
+           C312,300 280,352 235,358
+           C200,363 158,356 141,342
+           C110,318 96,278 104,240 Z"
+        fill="#6cc258" stroke="#2c6b27" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- lower lip line -->
+  <path d="M107,243 C133,292 267,292 293,243" fill="none" stroke="#2f7a2b" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- a couple of lower teeth poking up -->
+  <g fill="#fffdf2" stroke="#d8d2bd" stroke-width="2">
+    <path d="M178,278 L192,256 L206,276 Z"/>
+    <path d="M214,278 L228,254 L242,277 Z"/>
+  </g>
+
+  <!-- chin details -->
+  <path d="M200,326 C195,338 198,348 201,354" fill="none" stroke="#2f7a2b" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="168" cy="322" rx="22" ry="13" fill="#7ed167" opacity="0.7"/>
+  <ellipse cx="243" cy="320" rx="20" ry="12" fill="#7ed167" opacity="0.7"/>
+</svg>

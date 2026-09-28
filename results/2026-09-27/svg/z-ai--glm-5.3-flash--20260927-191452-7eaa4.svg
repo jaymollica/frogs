@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Frog with a Habsburg jaw">
+  <defs>
+    <linearGradient id="gHead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ecb52"/>
+      <stop offset="1" stop-color="#4e9a33"/>
+    </linearGradient>
+    <linearGradient id="gJaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ed862"/>
+      <stop offset="1" stop-color="#56a63a"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="256" cy="420" rx="150" ry="88" fill="url(#gHead)" stroke="#2f6b1f" stroke-width="5"/>
+  <ellipse cx="256" cy="448" rx="104" ry="60" fill="#d9f0b2"/>
+  <ellipse cx="142" cy="462" rx="16" ry="10" fill="#4e9a33" opacity="0.5" transform="rotate(-20 142 462)"/>
+  <ellipse cx="370" cy="460" rx="16" ry="10" fill="#4e9a33" opacity="0.5" transform="rotate(20 370 460)"/>
+
+  <g fill="url(#gHead)" stroke="#2f6b1f" stroke-width="5">
+    <ellipse cx="176" cy="492" rx="44" ry="16"/>
+    <ellipse cx="336" cy="492" rx="44" ry="16"/>
+    <circle cx="146" cy="484" r="10"/>
+    <circle cx="176" cy="479" r="10"/>
+    <circle cx="206" cy="484" r="10"/>
+    <circle cx="306" cy="484" r="10"/>
+    <circle cx="336" cy="479" r="10"/>
+    <circle cx="366" cy="484" r="10"/>
+  </g>
+
+  <ellipse cx="256" cy="250" rx="165" ry="135" fill="url(#gHead)" stroke="#2f6b1f" stroke-width="5"/>
+  <ellipse cx="118" cy="210" rx="14" ry="24" fill="#4e9a33" opacity="0.5" transform="rotate(-18 118 210)"/>
+  <ellipse cx="394" cy="214" rx="14" ry="24" fill="#4e9a33" opacity="0.5" transform="rotate(18 394 214)"/>
+
+  <circle cx="165" cy="122" r="54" fill="url(#gHead)" stroke="#2f6b1f" stroke-width="5"/>
+  <circle cx="347" cy="122" r="54" fill="url(#gHead)" stroke="#2f6b1f" stroke-width="5"/>
+  <circle cx="165" cy="126" r="35" fill="#ffffff" stroke="#2f6b1f" stroke-width="4"/>
+  <circle cx="347" cy="126" r="35" fill="#ffffff" stroke="#2f6b1f" stroke-width="4"/>
+  <circle cx="168" cy="130" r="15" fill="#1d1d1d"/>
+  <circle cx="344" cy="130" r="15" fill="#1d1d1d"/>
+  <circle cx="163" cy="124" r="5" fill="#ffffff"/>
+  <circle cx="339" cy="124" r="5" fill="#ffffff"/>
+  <ellipse cx="165" cy="99" rx="40" ry="15" fill="#5aa63a" stroke="#2f6b1f" stroke-width="4"/>
+  <ellipse cx="347" cy="99" rx="40" ry="15" fill="#5aa63a" stroke="#2f6b1f" stroke-width="4"/>
+
+  <ellipse cx="222" cy="248" rx="6" ry="9" fill="#2f6b1f" transform="rotate(-12 222 248)"/>
+  <ellipse cx="290" cy="248" rx="6" ry="9" fill="#2f6b1f" transform="rotate(12 290 248)"/>
+
+  <path d="M112 300 Q256 324 400 300 L394 364 Q256 386 118 364 Z" fill="#4a2742"/>
+  <path d="M112 300 Q256 324 400 300" fill="none" stroke="#2f6b1f" stroke-width="5" stroke-linecap="round"/>
+
+  <g fill="#f7f3e6" stroke="#b8b096" stroke-width="3">
+    <rect x="194" y="312" width="46" height="40" rx="9"/>
+    <rect x="272" y="312" width="46" height="40" rx="9"/>
+  </g>
+
+  <path d="M70 324 C130 348 382 348 442 324 C472 330 464 386 400 410 C340 430 172 430 112 410 C48 386 40 330 70 324 Z" fill="url(#gJaw)" stroke="#2f6b1f" stroke-width="5" stroke-linejoin="round"/>
+
+  <g fill="#f7f3e6" stroke="#b8b096" stroke-width="3">
+    <rect x="192" y="324" width="50" height="34" rx="9"/>
+    <rect x="270" y="324" width="50" height="34" rx="9"/>
+  </g>
+
+  <path d="M206 380 Q256 392 306 380" fill="none" stroke="#2f6b1f" stroke-width="4" opacity="0.45" stroke-linecap="round"/>
+  <path d="M172 400 Q256 416 340 400" fill="none" stroke="#2f6b1f" stroke-width="4" opacity="0.45" stroke-linecap="round"/>
+
+  <path d="M226 96 L226 70 L242 88 L256 62 L270 88 L286 70 L286 96 Z" fill="#f6c445" stroke="#a8770f" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="222" y="92" width="68" height="26" rx="6" fill="#f6c445" stroke="#a8770f" stroke-width="4"/>
+  <circle cx="256" cy="80" r="6" fill="#e04848" stroke="#a8770f" stroke-width="2"/>
+  <circle cx="237" cy="105" r="4.5" fill="#4a7fd4" stroke="#a8770f" stroke-width="2"/>
+  <circle cx="275" cy="105" r="4.5" fill="#4a7fd4" stroke="#a8770f" stroke-width="2"/>
+</svg>

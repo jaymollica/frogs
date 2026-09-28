@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" role="img" aria-label="Green frog with an oversized, heavily protruding lower jaw">
+  <rect width="600" height="500" fill="#eaf7dd"/>
+  <ellipse cx="306" cy="454" rx="235" ry="22" fill="#c8dfb7"/>
+
+  <!-- Legs and webbed feet -->
+  <path d="M174 339Q88 320 74 387Q65 423 120 430L183 405Z" fill="#4d9d47" stroke="#255b32" stroke-width="6"/>
+  <path d="M118 403Q91 423 65 419Q78 439 111 435Q128 446 151 434L183 409" fill="#64b758" stroke="#255b32" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M386 355Q478 329 482 403L448 430L397 410Z" fill="#4d9d47" stroke="#255b32" stroke-width="6"/>
+  <path d="M440 409Q462 427 489 419Q482 443 452 440Q433 450 413 434L389 416" fill="#64b758" stroke="#255b32" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Body -->
+  <path d="M127 320Q130 260 274 258Q423 254 453 337Q469 412 362 430L191 429Q112 412 127 320Z" fill="#5dae50" stroke="#255b32" stroke-width="7"/>
+  <ellipse cx="295" cy="367" rx="113" ry="55" fill="#a9d878"/>
+
+  <!-- Bulging eyes -->
+  <circle cx="217" cy="143" r="48" fill="#56ad50" stroke="#255b32" stroke-width="7"/>
+  <circle cx="365" cy="133" r="49" fill="#56ad50" stroke="#255b32" stroke-width="7"/>
+
+  <!-- Upper head -->
+  <path d="M112 238Q110 177 175 154Q239 129 303 153Q376 125 424 166Q466 203 444 275Q397 310 302 317Q188 325 128 283Q106 267 112 238Z" fill="#68bd57" stroke="#255b32" stroke-width="7"/>
+  <path d="M142 216Q210 184 284 201" fill="none" stroke="#91d875" stroke-width="12" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Eyes -->
+  <ellipse cx="217" cy="145" rx="29" ry="34" fill="#fff8dc" stroke="#255b32" stroke-width="4"/>
+  <ellipse cx="365" cy="135" rx="30" ry="35" fill="#fff8dc" stroke="#255b32" stroke-width="4"/>
+  <ellipse cx="229" cy="149" rx="13" ry="22" fill="#273a25"/>
+  <ellipse cx="377" cy="139" rx="13" ry="22" fill="#273a25"/>
+  <circle cx="224" cy="140" r="5" fill="white"/>
+  <circle cx="372" cy="130" r="5" fill="white"/>
+  <ellipse cx="396" cy="226" rx="6" ry="4" fill="#326b38"/>
+  <ellipse cx="424" cy="230" rx="6" ry="4" fill="#326b38"/>
+
+  <!-- Enormous forward-projecting lower jaw -->
+  <path d="M145 275Q233 301 324 283Q408 264 471 279Q538 290 560 321Q577 347 548 376Q506 420 403 427Q262 437 178 386Q130 357 145 275Z" fill="#a1d671" stroke="#255b32" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M162 291Q262 318 342 297Q441 270 512 302Q539 312 552 329Q505 307 454 308Q390 310 333 325Q229 344 162 291Z" fill="#325e33"/>
+  <path d="M182 317Q264 356 365 331Q453 307 528 335" fill="none" stroke="#d2eda0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M284 387Q397 422 493 374" fill="none" stroke="#79b95c" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <circle cx="531" cy="355" r="5" fill="#79b95c"/>
+</svg>

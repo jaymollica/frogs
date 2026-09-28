@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Frog with mandibular prognathism</title>
+  <!-- ground shadow -->
+  <ellipse cx="256" cy="470" rx="158" ry="20" fill="#000000" opacity="0.10"/>
+
+  <!-- body -->
+  <ellipse cx="256" cy="300" rx="168" ry="158" fill="#67b356" stroke="#2f5d2a" stroke-width="6"/>
+
+  <!-- belly -->
+  <ellipse cx="256" cy="396" rx="118" ry="58" fill="#e2eec6"/>
+
+  <!-- haunches -->
+  <circle cx="108" cy="380" r="60" fill="#67b356" stroke="#2f5d2a" stroke-width="6"/>
+  <circle cx="404" cy="380" r="60" fill="#67b356" stroke="#2f5d2a" stroke-width="6"/>
+  <circle cx="94" cy="362" r="9" fill="#4c9440"/>
+  <circle cx="120" cy="402" r="6" fill="#4c9440"/>
+  <circle cx="418" cy="362" r="9" fill="#4c9440"/>
+  <circle cx="392" cy="402" r="6" fill="#4c9440"/>
+
+  <!-- front feet -->
+  <ellipse cx="168" cy="442" rx="50" ry="16" fill="#67b356" stroke="#2f5d2a" stroke-width="6"/>
+  <ellipse cx="344" cy="442" rx="50" ry="16" fill="#67b356" stroke="#2f5d2a" stroke-width="6"/>
+  <path d="M140 434 L137 452 M156 432 L153 454" stroke="#2f5d2a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M372 434 L375 452 M356 432 L359 454" stroke="#2f5d2a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- eye bumps -->
+  <circle cx="168" cy="150" r="52" fill="#67b356" stroke="#2f5d2a" stroke-width="6"/>
+  <circle cx="344" cy="150" r="52" fill="#67b356" stroke="#2f5d2a" stroke-width="6"/>
+
+  <!-- eyeballs -->
+  <circle cx="168" cy="148" r="33" fill="#ffffff" stroke="#2f5d2a" stroke-width="5"/>
+  <circle cx="344" cy="148" r="33" fill="#ffffff" stroke="#2f5d2a" stroke-width="5"/>
+  <circle cx="172" cy="156" r="13" fill="#222222"/>
+  <circle cx="340" cy="156" r="13" fill="#222222"/>
+  <circle cx="167" cy="151" r="4.5" fill="#ffffff"/>
+  <circle cx="335" cy="151" r="4.5" fill="#ffffff"/>
+
+  <!-- forehead freckles -->
+  <circle cx="256" cy="196" r="5" fill="#4c9440"/>
+  <circle cx="226" cy="206" r="4" fill="#4c9440"/>
+  <circle cx="286" cy="206" r="4" fill="#4c9440"/>
+
+  <!-- nostrils -->
+  <ellipse cx="234" cy="222" rx="5.5" ry="4" fill="#2f5d2a"/>
+  <ellipse cx="278" cy="222" rx="5.5" ry="4" fill="#2f5d2a"/>
+
+  <!-- blush -->
+  <ellipse cx="146" cy="252" rx="20" ry="11" fill="#f0a3a3" opacity="0.6"/>
+  <ellipse cx="366" cy="252" rx="20" ry="11" fill="#f0a3a3" opacity="0.6"/>
+
+  <!-- mouth interior (upper jaw line visible at corners) -->
+  <path d="M132 288 Q256 318 380 288 Q256 392 132 288 Z" fill="#7c4040" stroke="#5a2b2b" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- protruding lower jaw (mandibular prognathism) -->
+  <path d="M126 312 Q256 238 386 312 Q256 438 126 312 Z" fill="#edf4da" stroke="#2f5d2a" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- buck lower teeth jutting past the upper jaw -->
+  <path d="M214 282 L214 262 Q214 254 222 254 L240 254 Q248 254 248 262 L248 282 Z" fill="#ffffff" stroke="#2f5d2a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M264 282 L264 262 Q264 254 272 254 L290 254 Q298 254 298 262 L298 282 Z" fill="#ffffff" stroke="#2f5d2a" stroke-width="4" stroke-linejoin="round"/>
+</svg>

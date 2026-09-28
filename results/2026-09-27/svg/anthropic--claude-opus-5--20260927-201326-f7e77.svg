@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyG" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#84c94b"/>
+      <stop offset="100%" stop-color="#57a02e"/>
+    </radialGradient>
+    <radialGradient id="jawG" cx="50%" cy="20%" r="85%">
+      <stop offset="0%" stop-color="#93d55c"/>
+      <stop offset="100%" stop-color="#63b23a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="372" rx="150" ry="18" fill="#000" opacity="0.12"/>
+
+  <!-- hind legs -->
+  <ellipse cx="66" cy="300" rx="48" ry="38" fill="#4c9129"/>
+  <ellipse cx="334" cy="300" rx="48" ry="38" fill="#4c9129"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="278" rx="128" ry="92" fill="url(#bodyG)"/>
+  <ellipse cx="200" cy="305" rx="84" ry="56" fill="#b6e47c" opacity="0.65"/>
+  <!-- body spots -->
+  <ellipse cx="108" cy="240" rx="18" ry="12" fill="#3f7d22" opacity="0.5"/>
+  <ellipse cx="292" cy="240" rx="18" ry="12" fill="#3f7d22" opacity="0.5"/>
+  <ellipse cx="150" cy="212" rx="13" ry="9" fill="#3f7d22" opacity="0.4"/>
+  <ellipse cx="252" cy="212" rx="13" ry="9" fill="#3f7d22" opacity="0.4"/>
+
+  <!-- front feet -->
+  <g fill="#4c9129">
+    <ellipse cx="104" cy="352" rx="40" ry="17"/>
+    <ellipse cx="72" cy="364" rx="16" ry="9"/>
+    <ellipse cx="104" cy="368" rx="16" ry="9"/>
+    <ellipse cx="136" cy="364" rx="16" ry="9"/>
+    <ellipse cx="296" cy="352" rx="40" ry="17"/>
+    <ellipse cx="264" cy="364" rx="16" ry="9"/>
+    <ellipse cx="296" cy="368" rx="16" ry="9"/>
+    <ellipse cx="328" cy="364" rx="16" ry="9"/>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="200" cy="180" rx="120" ry="90" fill="url(#bodyG)"/>
+
+  <!-- receded upper jaw / muzzle tucked behind lower lip -->
+  <path d="M120 168 Q200 152 280 168 Q200 190 120 168 Z" fill="#3f7d22" opacity="0.35"/>
+  <path d="M126 170 Q200 156 274 170" fill="none" stroke="#3f7d22" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- nostrils -->
+  <ellipse cx="182" cy="140" rx="5.5" ry="4" fill="#376f1c"/>
+  <ellipse cx="218" cy="140" rx="5.5" ry="4" fill="#376f1c"/>
+
+  <!-- PROTRUDING LOWER JAW (mandibular prognathism) -->
+  <path d="M100 184 Q200 168 300 184 Q318 238 288 280 Q200 320 112 280 Q82 238 100 184 Z"
+        fill="url(#jawG)" stroke="#43861f" stroke-width="3.5"/>
+  <!-- lower lip overlapping upper lip -->
+  <path d="M100 184 Q200 168 300 184" fill="none" stroke="#2f6416" stroke-width="5" stroke-linecap="round"/>
+  <!-- jowl corners -->
+  <ellipse cx="104" cy="196" rx="15" ry="14" fill="#7cc247" stroke="#43861f" stroke-width="2.5"/>
+  <ellipse cx="296" cy="196" rx="15" ry="14" fill="#7cc247" stroke="#43861f" stroke-width="2.5"/>
+  <!-- chin bulge + creases -->
+  <ellipse cx="200" cy="262" rx="62" ry="34" fill="#a9df70" opacity="0.5"/>
+  <path d="M150 292 Q200 306 250 292" fill="none" stroke="#43861f" stroke-width="2.5" opacity="0.6"/>
+  <path d="M160 226 Q200 236 240 226" fill="none" stroke="#43861f" stroke-width="2" opacity="0.4"/>
+
+  <!-- protruding lower teeth showing over the upper lip -->
+  <path d="M160 186 L171 154 L182 186 Z" fill="#ffffff" stroke="#d8d8d8" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M218 186 L229 154 L240 186 Z" fill="#ffffff" stroke="#d8d8d8" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- bulging eyes -->
+  <g>
+    <circle cx="132" cy="104" r="44" fill="#6fb93e" stroke="#4c9129" stroke-width="3"/>
+    <circle cx="268" cy="104" r="44" fill="#6fb93e" stroke="#4c9129" stroke-width="3"/>
+    <circle cx="132" cy="100" r="29" fill="#fdf7e3"/>
+    <circle cx="268" cy="100" r="29" fill="#fdf7e3"/>
+    <ellipse cx="134" cy="100" rx="12" ry="16" fill="#16181a"/>
+    <ellipse cx="266" cy="100" rx="12" ry="16" fill="#16181a"/>
+    <circle cx="127" cy="91" r="5" fill="#fff"/>
+    <circle cx="259" cy="91" r="5" fill="#fff"/>
+    <path d="M100 74 Q132 56 164 74" fill="none" stroke="#4c9129" stroke-width="4" stroke-linecap="round"/>
+    <path d="M236 74 Q268 56 300 74" fill="none" stroke="#4c9129" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

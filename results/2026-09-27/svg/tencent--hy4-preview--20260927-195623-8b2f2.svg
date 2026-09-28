@@ -1,0 +1,35 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#e8f5e9"/>
+  <g stroke="#1b5e20" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 180,280 C 60,280 20,420 40,510 C 45,540 80,560 120,560 L 280,560 C 340,560 370,480 320,410 C 280,360 240,360 180,280 Z" fill="#4caf50"/>
+    <path d="M 40,510 C 10,540 20,570 80,570 L 160,570 C 160,550 120,560 120,560 Z" fill="#a5d6a7"/>
+    <path d="M 300,230 C 180,230 120,330 120,450 C 120,530 150,560 200,560 L 320,560 C 380,560 400,450 360,350 C 350,280 320,230 300,230 Z" fill="#66bb6a"/>
+    <path d="M 360,350 C 400,450 380,560 320,560 L 200,560 C 250,520 330,480 310,350 Z" fill="#a5d6a7" stroke="none"/>
+    <path d="M 330,380 C 370,390 380,470 340,530 L 370,540 L 380,520 C 410,460 400,380 330,360 Z" fill="#4caf50"/>
+    <path d="M 340,530 L 300,560 C 280,570 370,570 380,530 Z" fill="#a5d6a7"/>
+    <path d="M 300,230 C 200,230 220,90 280,90 A 50 50 0 0 1 380 90 C 440,90 460,130 450,170 Q 380,190 300,230 Z" fill="#66bb6a"/>
+    <circle cx="420" cy="140" r="5" fill="#1b5e20" stroke="none"/>
+    <circle cx="270" cy="130" r="15" fill="#4caf50" stroke-width="4"/>
+    <path d="M 300,230 Q 380,190 450,170 L 500,210 Q 380,240 300,230 Z" fill="#b71c1c"/>
+    <path d="M 300,230 Q 380,240 500,210 C 510,300 430,380 360,380 C 290,380 260,280 300,230 Z" fill="#a5d6a7"/>
+    <path d="M 440,200 C 490,200 520,220 530,240 C 510,240 470,220 440,210 Z" fill="#e57373" stroke-width="4"/>
+    <circle cx="330" cy="90" r="30" fill="#ffffff" stroke-width="4"/>
+    <circle cx="335" cy="95" r="16" fill="#fbc02d" stroke="none"/>
+    <ellipse cx="335" cy="95" rx="5" ry="10" fill="#000000" stroke="none"/>
+    <circle cx="330" cy="100" r="4" fill="#ffffff" stroke="none"/>
+    <path d="M 296,85 C 310,65 350,65 364,85 C 350,100 310,100 296,85 Z" fill="#66bb6a" stroke-width="4"/>
+    <path d="M 270,70 L 285,20 L 310,45 L 335,10 L 360,45 L 385,20 L 400,70 Z" fill="#ffd54f" stroke-width="5"/>
+    <circle cx="335" cy="50" r="5" fill="#d32f2f" stroke-width="3"/>
+    <circle cx="300" cy="55" r="4" fill="#d32f2f" stroke-width="3"/>
+    <circle cx="370" cy="55" r="4" fill="#d32f2f" stroke-width="3"/>
+  </g>
+  <g fill="#4caf50" opacity="0.6">
+    <ellipse cx="150" cy="340" rx="15" ry="10" />
+    <circle cx="130" cy="400" r="12" />
+    <ellipse cx="190" cy="440" rx="10" ry="15" />
+    <circle cx="260" cy="480" r="8" />
+    <circle cx="220" cy="320" r="9" />
+    <circle cx="160" cy="480" r="6" />
+    <ellipse cx="240" cy="260" rx="8" ry="6" />
+  </g>
+</svg>

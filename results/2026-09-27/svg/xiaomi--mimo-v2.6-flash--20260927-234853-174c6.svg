@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bodyGrad" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#7ec850"/>
+      <stop offset="100%" stop-color="#4a8c2a"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#bde87a"/>
+      <stop offset="100%" stop-color="#6cb43c"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#f5f0b0"/>
+      <stop offset="100%" stop-color="#d4d06a"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#ffdd44"/>
+      <stop offset="100%" stop-color="#cc9900"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#00000055"/>
+    </filter>
+    <filter id="innerShadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000044"/>
+    </filter>
+  </defs>
+
+  <!-- Background pond -->
+  <rect width="400" height="400" fill="#a8d8e8"/>
+  <ellipse cx="200" cy="370" rx="250" ry="60" fill="#5ba8c0" opacity="0.6"/>
+  <ellipse cx="80" cy="360" rx="40" ry="8" fill="#3d9970" opacity="0.7"/>
+  <ellipse cx="320" cy="375" rx="50" ry="9" fill="#3d9970" opacity="0.7"/>
+
+  <!-- Lily pad -->
+  <ellipse cx="60" cy="340" rx="45" ry="20" fill="#4caf50"/>
+  <path d="M60,340 L95,330" stroke="#388e3c" stroke-width="2"/>
+  <ellipse cx="340" cy="355" rx="35" ry="14" fill="#66bb6a"/>
+  <path d="M340,355 L370,348" stroke="#43a047" stroke-width="2"/>
+
+  <!-- BACK LEGS (behind body) -->
+  <!-- Right back leg -->
+  <g filter="url(#shadow)">
+    <path d="M300,260 Q340,280 335,320 Q330,345 350,355 Q370,365 360,340 Q375,350 365,365 Q385,370 375,350 Q395,360 380,365"
+          fill="#5a9e30" stroke="#3a7a1a" stroke-width="2"/>
+    <ellipse cx="340" cy="345" rx="35" ry="18" fill="#5a9e30" stroke="#3a7a1a" stroke-width="2"/>
+    <!-- Toes right -->
+    <ellipse cx="375" cy="365" rx="10" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1.5"/>
+    <ellipse cx="385" cy="355" rx="10" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1.5"/>
+    <ellipse cx="390" cy="343" rx="10" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1.5"/>
+    <ellipse cx="393" cy="333" rx="8" ry="4" fill="#7cb850" stroke="#4a8c2a" stroke-width="1.5"/>
+    <!-- Toe webbing -->
+    <path d="M370,360 Q380,350 390,340" fill="none" stroke="#6ab040" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- Left back leg -->
+  <g filter="url(#shadow)">
+    <path d="M100,260 Q60,280 65,320 Q70,345 50,355 Q30,365 40,340 Q25,350 35,365 Q15,370 25,350 Q5,360 20,365"
+          fill="#5a9e30" stroke="#3a7a1a" stroke-width="2"/>
+    <ellipse cx="60" cy="345" rx="35" ry="18" fill="#5a9e30" stroke="#3a7a1a" stroke-width="2"/>
+    <ellipse cx="25" cy="365" rx="10" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1.5"/>
+    <ellipse cx="15" cy="355" rx="10" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1.5"/>
+    <ellipse cx="10" cy="343" rx="10" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1.5"/>
+    <ellipse cx="7" cy="333" rx="8" ry="4" fill="#7cb850" stroke="#4a8c2a" stroke-width="1.5"/>
+    <path d="M30,360 Q20,350 10,340" fill="none" stroke="#6ab040" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- MAIN BODY -->
+  <ellipse cx="200" cy="250" rx="120" ry="80" fill="url(#bodyGrad)" stroke="#3a7a1a" stroke-width="3" filter="url(#shadow)"/>
+
+  <!-- Belly -->
+  <ellipse cx="200" cy="275" rx="95" ry="55" fill="url(#bellyGrad)" stroke="#c4b84a" stroke-width="1.5" opacity="0.85"/>
+
+  <!-- Belly spots -->
+  <ellipse cx="175" cy="275" rx="8" ry="5" fill="#d4c85a" opacity="0.5"/>
+  <ellipse cx="225" cy="270" rx="6" ry="4" fill="#d4c85a" opacity="0.5"/>
+  <ellipse cx="200" cy="295" rx="10" ry="5" fill="#d4c85a" opacity="0.5"/>
+
+  <!-- Body spots/pattern -->
+  <ellipse cx="140" cy="235" rx="15" ry="10" fill="#3a7a1a" opacity="0.4"/>
+  <ellipse cx="260" cy="240" rx="12" ry="8" fill="#3a7a1a" opacity="0.4"/>
+  <ellipse cx="180" cy="225" rx="8" ry="6" fill="#3a7a1a" opacity="0.3"/>
+  <ellipse cx="230" cy="230" rx="10" ry="7" fill="#3a7a1a" opacity="0.3"/>
+
+  <!-- FRONT ARMS -->
+  <!-- Right arm -->
+  <g filter="url(#innerShadow)">
+    <path d="M290,240 Q320,260 315,295 Q312,315 330,325"
+          fill="none" stroke="#5a9e30" stroke-width="22" stroke-linecap="round"/>
+    <path d="M290,240 Q320,260 315,295 Q312,315 330,325"
+          fill="none" stroke="#4a8c2a" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+    <ellipse cx="335" cy="330" rx="20" ry="10" fill="#6cb43c" stroke="#4a8c2a" stroke-width="1.5"/>
+    <ellipse cx="355" cy="325" rx="8" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1"/>
+    <ellipse cx="350" cy="337" rx="8" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1"/>
+    <ellipse cx="340" cy="343" rx="7" ry="4" fill="#7cb850" stroke="#4a8c2a" stroke-width="1"/>
+    <!-- Suction cups -->
+    <circle cx="355" cy="325" r="3" fill="#90d46a"/>
+    <circle cx="350" cy="337" r="3" fill="#90d46a"/>
+    <circle cx="340" cy="343" r="3" fill="#90d46a"/>
+  </g>
+
+  <!-- Left arm -->
+  <g filter="url(#innerShadow)">
+    <path d="M110,240 Q80,260 85,295 Q88,315 70,325"
+          fill="none" stroke="#5a9e30" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="65" cy="330" rx="20" ry="10" fill="#6cb43c" stroke="#4a8c2a" stroke-width="1.5"/>
+    <ellipse cx="45" cy="325" rx="8" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1"/>
+    <ellipse cx="50" cy="337" rx="8" ry="5" fill="#7cb850" stroke="#4a8c2a" stroke-width="1"/>
+    <ellipse cx="60" cy="343" rx="7" ry="4" fill="#7cb850" stroke="#4a8c2a" stroke-width="1"/>
+    <circle cx="45" cy="325" r="3" fill="#90d46a"/>
+    <circle cx="50" cy="337" r="3" fill="#90d46a"/>
+    <circle cx="60" cy="343" r="3" fill="#90d46a"/>
+  </g>
+
+  <!-- UPPER JAW / HEAD -->
+  <ellipse cx="200" cy="175" rx="110" ry="75" fill="url(#bodyGrad)" stroke="#3a7a1a" stroke-width="3" filter="url(#shadow)"/>
+
+  <!-- Upper jaw line / mouth top -->
+  <path d="M95,210 Q140,235 200,245 Q260,235 305,210"
+        fill="none" stroke="#3a7a1a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- **HEAVILY PROTRUDING LOWER JAW** -->
+  <g filter="url(#shadow)">
+    <!-- Lower jaw - very protruding -->
+    <path d="M85,215
+             Q70,240 75,275
+             Q80,320 110,355
+             Q140,395 200,410
+             Q260,395 290,355
+             Q320,320 325,275
+             Q330,240 315,215
+             Q305,235 275,255
+             Q240,275 200,282
+             Q160,275 125,255
+             Q95,235 85,215 Z"
+          fill="url(#jawGrad)" stroke="#3a7a1a" stroke-width="3"/>
+
+    <!-- Chin / jaw inner surface -->
+    <path d="M100,240
+             Q110,290 140,330
+             Q170,370 200,380
+             Q230,370 260,330
+             Q290,290 300,240
+             Q275,270 200,278
+             Q125,270 100,240 Z"
+          fill="url(#bellyGrad)" opacity="0.7" stroke="#c4b84a" stroke-width="1"/>
+
+    <!-- Chin spots -->
+    <ellipse cx="155" cy="310" rx="8" ry="5" fill="#d4c85a" opacity="0.5"/>
+    <ellipse cx="245" cy="310" rx="8" ry="5" fill="#d4c85a" opacity="0.5"/>
+    <ellipse cx="200" cy="340" rx="12" ry="6" fill="#d4c85a" opacity="0.5"/>
+
+    <!-- Lower jaw lip line -->
+    <path d="M85,215 Q100,250 130,280 Q165,320 200,330 Q235,320 270,280 Q300,250 315,215"
+          fill="none" stroke="#3a7a1a" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- Mouth interior (slight opening) -->
+  <path d="M105,215 Q140,255 200,268 Q260,255 295,215
+           Q285,240 255,258 Q230,272 200,278 Q170,272 145,258 Q115,240 105,215 Z"
+        fill="#5a3520" stroke="#3a7a1a" stroke-width="2" opacity="0.7"/>
+
+  <!-- Tongue -->
+  <ellipse cx="200" cy="265" rx="35" ry="18" fill="#e86060" stroke="#c04040" stroke-width="2"/>
+  <ellipse cx="200" cy="268" rx="25" ry="12" fill="#f08080" opacity="0.7"/>
+
+  <!-- EYES -->
+  <!-- Left eye bump -->
+  <ellipse cx="130" cy="140" rx="42" ry="40" fill="#6cb43c" stroke="#3a7a1a" stroke-width="3"/>
+  <ellipse cx="130" cy="138" rx="32" ry="32" fill="url(#eyeGrad)" stroke="#aa7700" stroke-width="2"/>
+  <ellipse cx="130" cy="138" rx="18" ry="30" fill="#111111" rx="0"/>
+  <!-- Horizontal slit pupil -->
+  <rect x="108" y="130" width="44" height="16" rx="8" fill="#000000"/>
+  <ellipse cx="130" cy="138" rx="22" ry="14" fill="none" stroke="#000000" stroke-width="8" stroke-dasharray="0"/>
+  <rect x="110" y="131" width="40" height="14" rx="7" fill="#1a1a1a"/>
+  <!-- Eye shine -->
+  <ellipse cx="120" cy="127" rx="8" ry="5" fill="white" opacity="0.7"/>
+  <ellipse cx="142" cy="147" rx="4" ry="3" fill="white" opacity="0.4"/>
+
+  <!-- Right eye bump -->
+  <ellipse cx="270" cy="140" rx="42" ry="40" fill="#6cb43c" stroke="#3a7a1a" stroke-width="3"/>
+  <ellipse cx="270" cy="138" rx="32" ry="32" fill="url(#eyeGrad)" stroke="#aa7700" stroke-width="2"/>
+  <!-- Horizontal slit pupil -->
+  <rect x="250" y="131" width="40" height="14" rx="7" fill="#1a1a1a"/>
+  <!-- Eye shine -->
+  <ellipse cx="260" cy="127" rx="8" ry="5" fill="white" opacity="0.7"/>
+  <ellipse cx="282" cy="147" rx="4" ry="3" fill="white" opacity="0.4"/>
+
+  <!-- Nostrils -->
+  <ellipse cx="175" cy="175" rx="6" ry="4" fill="#3a7a1a" stroke="#2a6a0a" stroke-width="1"/>
+  <ellipse cx="225" cy="175" rx="6" ry="4" fill="#3a7a1a" stroke="#2a6a0a" stroke-width="1"/>
+  <ellipse cx="175" cy="175" rx="3" ry="2" fill="#1a3a0a"/>
+  <ellipse cx="225" cy="175" rx="3" ry="2" fill="#1a3a0a"/>
+
+  <!-- Head pattern -->
+  <ellipse cx="160" cy="195" rx="20" ry="8" fill="#3a7a1a" opacity="0.3"/>
+  <ellipse cx="240" cy="195" rx="20" ry="8" fill="#3a7a1a" opacity="0.3"/>
+  <ellipse cx="200" cy="115" rx="25" ry="8" fill="#3a7a1a" opacity="0.3"/>
+
+  <!-- Chin / throat pouch suggestion -->
+  <path d="M160,285 Q175,305 200,310 Q225,305 240,285"
+        fill="none" stroke="#c4b84a" stroke-width="2" opacity="0.5"/>
+
+  <!-- Throat sac (slightly inflated for vocalization vibe) -->
+  <ellipse cx="200" cy="300" rx="60" ry="30" fill="#e8e0a0" opacity="0.4" stroke="#c4b84a" stroke-width="1"/>
+
+  <!-- Water ripples around -->
+  <ellipse cx="200" cy="385" rx="160" ry="15" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+  <ellipse cx="200" cy="390" rx="180" ry="18" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.2"/>
+</svg>

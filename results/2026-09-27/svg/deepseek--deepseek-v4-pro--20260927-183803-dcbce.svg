@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" view-Box="0 0 400 500" width="100% height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%% cy="50%% r="50%% fx="50%% fy="50%">
+      <stop offse="0%" stop-color="#E0F2F1" />
+      <stop offse="100%" stop-color="#B2DFDB" />
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%% cy="30%% r="70%% fx="50%% fy="10%">
+      <stop offse="0%" stop-color="#66BB6A" />
+      <stop offse="80%" stop-color="#43A047" />
+    </radialGradient>
+ </defs>
+
+  <!- Background ->
+  <rect width="400" height="500" fill="url(#bgGrad)" />
+ 
+  
+  <!- Back Legs & Body ->
+ 
+  <! Left Leg ->
+ <ellipse cx="140" cy="400" rx="35" ry="60" transform="rotate(30 140 400)" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <ellipse cx="90" cy="430" rx="20" ry="45" transform="rotate(45 90 430)" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <ellipse cx="60" cy="450" rx="35" ry="12" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+ <path d="M 45 445 L 30 450 M 55 450 L 45 460 M 70 455 L 70 465" stroke="#1B5E20" stroke-width="4" stroke-linecap="round" />
+
+  <!- Right Leg ->
+  <ellipse cx="260" cy="400" rx="35" ry="60" transform="rotate(-30 260 400)" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <ellipse cx="310" cy="430" rx="20" ry="45" transform="rotate(-45 310 430)" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <ellipse cx="340" cy="450" rx="35" ry="12" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <path d="M 355 445 L 370 450 M 345 450 L 355 460 M 330 455 L 330 465" stroke="#1B5E20" stroke-width="4" stroke-linecap="round" />
+
+  <!- Body ->
+  <ellipse cx="200" cy="370" rx="85" ry="75" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <ellipse cx="200" cy="380" rx="55" ry="50" fill="#E6EE9C" stroke="#1B5E20" stroke-width="3" />
+  
+  <!- Body Spots ->
+  <circle cx="150" cy="350" r="5" fill="#43A047" />
+  <circle cx="160" cy="380" r="7" fill="#43A047" />
+  <circle cx="250" cy="360" r="6" fill="#43A047" />
+  <circle cx="230" cy="400" r="8" fill="#43A047" />
+
+  <!- Arms ->
+  <! Left Arm ->
+  <path d="M 145 350 L 100 390" stroke="#66BB6A" stroke-width="20" stroke-linecap="round" />
+  <path d="M 100 390 L 80 410" stroke="#66BB6A" stroke-width="16" stroke-linecap="round" />
+  <ellipse cx="80" cy="415" rx="15" ry="12" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <path d="M 70 410 L 55 415 M 75 415 L 60 425 M 85 420 L 80 435" stroke="#1B5E20" stroke-width="4" stroke-linecap="round" />
+
+ <!- Right Arm ->
+  <path d="M 255 350 L 300 390" stroke="#66BB6A" stroke-width="20" stroke-linecap="round" />
+  <path d="M 300 390 L 320 410" stroke="#66BB6A" stroke-width="16" stroke-linecap="round" />
+ ​<ellipse cx="320" cy="415" rx="15" ry="12" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+ <path d="M 330 410 L 345 415 M 325 415 L 340 425 M 315 420 L 320 435" stroke="#1B5E20" stroke-width="4" stroke-linecap="round" />
+
+  <!- Ermin Collar (Royal Habsburg Accessory) ->
+  <path d="M 60 180 C 60 240 130 270 200 270 C 270 270 340 240 340 180 C 300 210 260 240 200 240 C 140 240 100 210 60 180 Z" fill="#FFFFFF" stroke="#1B5E20" stroke-width="4" />
+  <!- Ermine Taills / Spots ->
+  <path d="M 100 195 Q 105 190 110 195" fill="none" stroke="#212121" stroke-width="4" stroke-linecap="round" />
+ <path d="M 140 220 Q 145 215 150 220" fill="none" stroke="#212121" stroke-width="4" stroke-linecap="round" />
+ <path d="M 180 235 Q 185 230 190 235" fill="none" stroke="#212121" stroke-width="4" stroke-linecap="round" />
+  <path d="M 220 235 Q 225 230 235 235" fill="none" stroke="#212121" stroke-width="4" stroke-linecap="round" />
+  <path d="M 260 220 Q 265 215 270 220" fill="none" stroke="#212121" stroke-width="4" stroke-linecap="round" />
+  <path d="M 300 195 Q 305 190 310 195" fill="none" stroke="#212121" stroke-width="4" stroke-linecap="round" />
+  <circle cx="115" cy="205" r="3" fill="#212121" />
+  <circle cx="150" cy="230" r="3" fill="#212121" />
+  <circle cx="190" cy="245" r="3" fill="#212121" />
+  <circle cx="230" cy="245" r="3" fill="#212121" />
+  <circle cx="270" cy="225" r="3" fill="#212121" />
+  <circle cx="305" cy="205" r="3" fill="#212121" />
+
+  <!- Upper Head & Eyes ->
+  <path d="M 95 180 C 95 120 305 120 305 180 Z" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <circle cx="120" cy="140" r="25" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <circle cx="280" cy="140" r="25" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+
+  <!- Left Eye ->
+  <circle cx="120" cy="140" r="18" fill="#FFFFFF" stroke="#1B5E20" stroke-width="3" />
+  <circle cx="120" cy="140" r="10" fill="#FDD835" />
+  <ellipse cx="120" cy="140" rx="6" ry="1.5" fill="#1B5E20" />
+  <!- Left Eyelid (Drooping / regal) ->
+ <path d="M 95 130 Q 120 115 145 140 L 145 135 Q 120 110 95 125 Z" fill="#81C784" stroke="#1B5E20" stroke-width="3" />
+
+ <!- Right Eye ->
+  <circle cx="280" cy="140" r="18" fill="#FFFFFF" stroke="#1B5E20" stroke-width="3" />
+  <circle cx="280" cy="140" r="10" fill="#FDD835" />
+  <ellipse cx="280" cy="140" rx="6" ry="1.5" fill="#1B5E20" />
+  <!- Right Eyelid ->
+  <path d="M 255 130 Q 280 115 305 140 L 305 135 Q 280 110 255 125 Z" fill="#81C784" stroke="#1B5E20" stroke-width="3" />
+
+  <!- Nostrils ->
+  <ellipse cx="150" cy="175" rx="4" ry="2" fill="#1B5E20" />
+  <ellipse cx="250" cy="175" rx="4" ry="2" fill="#1B5E20" />
+
+  <!- The Massive Habsburg Jaws (Prognathism & Everted Lower Lip) ->
+  <!- Lower Jaw Base (The huge, jutting chin) ->
+ <path d="M 90 200 C 90 290 170 330 200 330 C 230 330 310 290 310 200 Q 200 260 90 200 Z" fill="url(#jawGrad)" stroke="#1B5E20" stroke-width="4" />
+  
+  <!- EvertedLower Lip (Overlaping forward) ->
+ <ellipse cx="200" cy="235" rx="55" ry="20" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+  <ellipse cx="200" cy="232" rx="35" ry="8" fill="rgba(255, 255, 255, 0.3)" />
+
+  <!- Upper Lip (Recessed, sits inside the massive lower lip) ->
+  <path d="M 110 190 Q 200 200 290 190 L 290 205 Q 200 215 110 205 Z" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" />
+ 
+  <path d="M 110 190 Q 200 200 290 190" fill="none" stroke="#1B5E20" stroke-width="5" stroke-linecap="round" />
+
+ <!- Mouth inner dark spot ->
+ <ellipse cx="200" cy="210" rx="30" ry="6" fill="#1B5E20" />
+
+ <!- Cleft Chin (The classic Habsburg cleft) ->
+  <path d="M 185 285 L 200 305 L 215 285" fill="none" stroke="#1B5E20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+ ​<path d="M 190 310 Q 200 330 210 310" fill="none" stroke="#1B5E20" stroke-width="3" />
+
+ <!- Skin Folds &Jowls (from the strain of the massive j jaw) ->
+  <path d="M 140 180 Q 120 210 130 250" fill="none" stroke="#33691E" stroke-width="3" stroke-linecap="round" />
+ ​<path d="M 260 180 Q 280 210 270 250" fill="none" stroke="#33691E" stroke-width="3" stroke-linecap="round" />
+ <path d="M 160 260 Q 200 280 240 260" fill="none" stroke="#33691E" stroke-width="3" stroke-linecap="round" />
+
+ <!- Moles /Warts (Sign of age/royalty) ->
+  <circle cx="140" cy="220" r="4" fill="#2E7D32" />
+ <circle cx="260" cy="240" r="5" fill="#2E7D32" />
+ <circle cx="230" cy="300" r="4" fill="#2E7D32" />
+ <path d="M 140 220 Q 145 215 148 220" fill="none" stroke="#1B5E20" stroke-width="1" />
+ <path d="M 260 240 Q 265 235 268 240" fill="none" stroke="#1B5E20" stroke-width="1" />
+
+  <!- Royal Crown ->
+  <rect x="115" y="75" width="170" height="20" fill="#FDD835" stroke="#1B5E20" stroke-width="4" rx="4" />
+  <path d="M 110 75 L 140 35 L 170 75 L 200 35 L 230 75 L 260 35 L 290 75 Z" fill="#FDD835" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round" />
+  
+  <!- Crown Jewels ->
+  <circle cx="140" cy="55" r="6" fill="#E53935" stroke="#1B5E20" stroke-width="2" />
+ <circle cx="170" cy="65" r="6" fill="#1E88E5" stroke="#1B5E20" stroke-width="2" />
+ <circle cx="200" cy="50" r="8" fill="#FB8C00" stroke="#1B5E20" stroke-width="2" />
+ <circle cx="230" cy="65" r="6" fill="#E53935" stroke="#1B5E20" stroke-width="2" />
+  <circle cx="260" cy="55" r="6" fill="#1E88E5" stroke="#1B5E20" stroke-width="2" />
+</svg>

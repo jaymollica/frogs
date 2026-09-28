@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with mandibular prognathism</title>
+  <desc id="desc">A green frog in profile with a prominent lower jaw extending well past its upper snout.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4faef"/>
+      <stop offset="1" stop-color="#dcebd9"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#a8d66d"/>
+      <stop offset=".55" stop-color="#71b644"/>
+      <stop offset="1" stop-color="#4c963e"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#a4d96b"/>
+      <stop offset="1" stop-color="#65aa43"/>
+    </linearGradient>
+    <radialGradient id="iris" cx=".38" cy=".32">
+      <stop stop-color="#ffe991"/>
+      <stop offset=".72" stop-color="#e4a92f"/>
+      <stop offset="1" stop-color="#b96f1d"/>
+    </radialGradient>
+    <filter id="shadow" x="-.2" y="-.3" width="1.4" height="1.6">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="668" cy="122" r="56" fill="#fff" opacity=".26"/>
+  <circle cx="134" cy="118" r="28" fill="#fff" opacity=".24"/>
+  <ellipse cx="419" cy="510" rx="302" ry="28" fill="#496d4b" opacity=".18" filter="url(#shadow)"/>
+  <path d="M124 506c90-25 209-23 298 0 78 20 169 19 260-1" fill="none" stroke="#b6d3a7" stroke-width="4" opacity=".7"/>
+
+  <!-- Folded hind leg -->
+  <path d="M208 367c-46 18-74 61-72 103 2 27 22 42 48 33l92-40 41-70z"
+        fill="#5da344" stroke="#397b39" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M158 475c24-22 53-35 91-40 18-2 33 7 35 22 2 13-8 25-24 31l-72 24c-22 7-39-3-40-18-1-7 3-14 10-19z"
+        fill="#8bc957" stroke="#397b39" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M176 491l-20 17m49-27-14 25m43-37-10 23" fill="none" stroke="#397b39" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <path d="M207 315c-26 35-37 90-11 135 25 43 83 57 139 43 55-14 91-54 88-100-2-47-40-83-91-96-46-12-97-7-125 18z"
+        fill="url(#skin)" stroke="#397b39" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M237 393c35-14 83-11 122 5 24 10 43 26 51 44-19 34-57 54-103 57-49 3-87-15-105-44 3-24 15-47 35-62z"
+        fill="#d5e9a2" opacity=".82"/>
+  <path d="M262 430c29-12 70-9 99 4m-105 21c29-10 63-8 86 1" fill="none" stroke="#a0c96c" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Forelimb -->
+  <path d="M343 380c-22 26-30 66-18 94 7 17 23 24 37 17 11-6 13-18 8-31-6-17-2-39 15-58"
+        fill="#78b94c" stroke="#397b39" stroke-width="5" stroke-linecap="round"/>
+  <path d="M361 486c-12 3-23 11-32 21m43-23c-7 8-11 17-12 26m29-30c-2 8-1 15 2 22"
+        fill="none" stroke="#397b39" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Head and upper snout -->
+  <path d="M190 326c-14-29-9-63 9-90 23-35 67-55 118-55 42 0 76 14 104 34 19-11 41-11 60-2 34 16 58 50 70 86 7 20 9 36 2 49-40-7-81-11-119-11-33 0-61 3-85 9-27 7-48 18-68 31-24 16-49 22-70 11-20-10-30-32-21-62z"
+        fill="url(#skin)" stroke="#397b39" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Eye socket and eye -->
+  <path d="M350 224c3-33 28-57 59-57 34 0 60 27 59 60-1 31-24 54-56 54-36 0-65-23-62-57z"
+        fill="#5da344" stroke="#397b39" stroke-width="5"/>
+  <ellipse cx="410" cy="223" rx="34" ry="39" fill="#f4e6b1" stroke="#315d36" stroke-width="4"/>
+  <ellipse cx="421" cy="226" rx="22" ry="28" fill="url(#iris)"/>
+  <ellipse cx="430" cy="225" rx="10" ry="19" fill="#1e3028"/>
+  <circle cx="424" cy="215" r="6" fill="#fff" opacity=".9"/>
+  <path d="M379 204c11-17 30-24 47-18" fill="none" stroke="#c7e78a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Nostril and cheek details -->
+  <ellipse cx="530" cy="301" rx="5" ry="3.5" transform="rotate(-14 530 301)" fill="#386b36"/>
+  <circle cx="528" cy="300" r="1.4" fill="#d5ef9c"/>
+  <path d="M465 303c18 8 36 11 55 10" fill="none" stroke="#5b9a40" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+  <circle cx="303" cy="303" r="4" fill="#5a9d40" opacity=".7"/>
+  <circle cx="326" cy="322" r="3" fill="#5a9d40" opacity=".7"/>
+  <circle cx="285" cy="333" r="3" fill="#5a9d40" opacity=".7"/>
+
+  <!-- Enlarged, forward-projecting lower jaw -->
+  <path d="M353 344c67-7 157 11 319 34 12 2 17 12 8 21-42 43-101 68-171 72-66 4-119-17-148-55-13-17-18-39-8-57z"
+        fill="url(#jaw)" stroke="#397b39" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Mouth seam, emphasizing the underbite -->
+  <path d="M354 344c76-4 178 17 323 35" fill="none" stroke="#294d30" stroke-width="7" stroke-linecap="round"/>
+  <path d="M390 357c75 1 156 17 239 29" fill="none" stroke="#b6dc79" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <path d="M411 402c48 23 111 27 163 15" fill="none" stroke="#4d913d" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  <path d="M481 439c42 4 83-4 116-19" fill="none" stroke="#b6dc79" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+</svg>

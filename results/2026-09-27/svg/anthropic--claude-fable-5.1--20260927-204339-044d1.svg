@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#e8f4f8"/>
+  <!-- back legs / feet -->
+  <ellipse cx="95" cy="365" rx="45" ry="18" fill="#4a9d4a"/>
+  <ellipse cx="305" cy="365" rx="45" ry="18" fill="#4a9d4a"/>
+  <g fill="#4a9d4a">
+    <ellipse cx="60" cy="370" rx="12" ry="6"/><ellipse cx="80" cy="378" rx="12" ry="6"/><ellipse cx="105" cy="380" rx="12" ry="6"/>
+    <ellipse cx="340" cy="370" rx="12" ry="6"/><ellipse cx="320" cy="378" rx="12" ry="6"/><ellipse cx="295" cy="380" rx="12" ry="6"/>
+  </g>
+  <!-- body -->
+  <ellipse cx="200" cy="300" rx="110" ry="78" fill="#5cb85c"/>
+  <ellipse cx="200" cy="318" rx="72" ry="48" fill="#d4ecac"/>
+  <!-- front legs -->
+  <path d="M120 300 Q95 340 105 360" stroke="#4a9d4a" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M280 300 Q305 340 295 360" stroke="#4a9d4a" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <!-- head -->
+  <ellipse cx="200" cy="185" rx="125" ry="85" fill="#5cb85c"/>
+  <!-- mouth interior -->
+  <path d="M85 212 Q200 250 315 212 L334 220 Q300 275 200 280 Q100 275 66 220 Z" fill="#7a2a3a"/>
+  <!-- tongue -->
+  <ellipse cx="200" cy="262" rx="45" ry="14" fill="#d9536b"/>
+  <!-- upper lip -->
+  <path d="M85 212 Q200 250 315 212" stroke="#2e6b2e" stroke-width="4" fill="none"/>
+  <!-- protruding lower jaw (mandibular prognathism) -->
+  <path d="M66 220 Q60 322 200 324 Q340 322 334 220 Q300 275 200 280 Q100 275 66 220 Z" fill="#4a9d4a" stroke="#2e6b2e" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="300" rx="55" ry="14" fill="#6dbd6d" opacity="0.6"/>
+  <!-- lower teeth jutting up over upper lip -->
+  <g fill="#fdfdf5" stroke="#bbb" stroke-width="1.5">
+    <polygon points="112,258 128,262 118,236"/>
+    <polygon points="150,270 168,272 158,246"/>
+    <polygon points="190,278 210,278 200,252"/>
+    <polygon points="232,272 250,270 242,246"/>
+    <polygon points="272,262 288,258 282,236"/>
+  </g>
+  <!-- eye bulges -->
+  <circle cx="140" cy="118" r="42" fill="#5cb85c"/>
+  <circle cx="260" cy="118" r="42" fill="#5cb85c"/>
+  <circle cx="140" cy="118" r="30" fill="#fff"/>
+  <circle cx="260" cy="118" r="30" fill="#fff"/>
+  <circle cx="145" cy="122" r="16" fill="#111"/>
+  <circle cx="255" cy="122" r="16" fill="#111"/>
+  <circle cx="150" cy="115" r="5" fill="#fff"/>
+  <circle cx="260" cy="115" r="5" fill="#fff"/>
+  <!-- nostrils -->
+  <ellipse cx="182" cy="178" rx="4" ry="3" fill="#2e6b2e"/>
+  <ellipse cx="218" cy="178" rx="4" ry="3" fill="#2e6b2e"/>
+  <!-- spots -->
+  <circle cx="100" cy="190" r="7" fill="#3f8f3f" opacity="0.6"/>
+  <circle cx="300" cy="190" r="7" fill="#3f8f3f" opacity="0.6"/>
+  <circle cx="200" cy="140" r="6" fill="#3f8f3f" opacity="0.6"/>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#fdfaf3" />
+      <stop offset="100%" stop-color="#e6e0d3" />
+    </radialGradient>
+    <radialGradient id="crownGlow" cx="50%" cy="30%" r="50%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#fdebd0" />
+      <stop offset="100%" stop-color="#f1c40f" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGlow)" />
+  
+  <!-- Drop Shadow -->
+  <ellipse cx="250" cy="460" rx="160" ry="25" fill="#c4bfb3" opacity="0.6" />
+
+  <!-- Frog Head Top -->
+  <path d="M 90 280 C 90 120, 410 120, 410 280 Z" fill="#4b7a42" />
+  
+  <!-- Frog Skin Bumps (Warts) -->
+  <circle cx="130" cy="190" r="8" fill="#3d6633" opacity="0.8" />
+  <circle cx="170" cy="130" r="6" fill="#3d6633" opacity="0.8" />
+  <circle cx="330" cy="130" r="6" fill="#3d6633" opacity="0.8" />
+  <circle cx="370" cy="190" r="8" fill="#3d6633" opacity="0.8" />
+  <circle cx="250" cy="170" r="7" fill="#3d6633" opacity="0.8" />
+  <circle cx="210" cy="210" r="5" fill="#3d6633" opacity="0.8" />
+  <circle cx="290" cy="210" r="5" fill="#3d6633" opacity="0.8" />
+  <circle cx="150" cy="230" r="4" fill="#3d6633" opacity="0.8" />
+  <circle cx="350" cy="230" r="4" fill="#3d6633" opacity="0.8" />
+
+  <!-- Eye Bulges Left -->
+  <circle cx="150" cy="170" r="50" fill="#4b7a42" />
+  <ellipse cx="150" cy="220" rx="30" ry="8" fill="#3d6633" opacity="0.5" />
+  <!-- Skin folds over eyes -->
+  <path d="M 110 160 C 130 140, 170 140, 190 160 C 170 150, 130 150, 110 160 Z" fill="#4b7a42" />
+  
+  <!-- Eye Bulges Right -->
+  <circle cx="350" cy="170" r="50" fill="#4b7a42" />
+  <ellipse cx="350" cy="220" rx="30" ry="8" fill="#3d6633" opacity="0.5" />
+  <path d="M 310 160 C 330 140, 370 140, 390 160 C 370 150, 330 150, 310 160 Z" fill="#4b7a42" />
+
+  <!-- Eyeball Left -->
+  <circle cx="150" cy="170" r="35" fill="#ffffff" />
+  <!-- Pupil Left -->
+  <circle cx="155" cy="170" r="18" fill="#111111" stroke="#4b7a42" stroke-width="2" />
+  <!-- Eye Highlights Left -->
+  <circle cx="148" cy="162" r="6" fill="#ffffff" />
+  <circle cx="160" cy="175" r="3" fill="#ffffff" />
+
+  <!-- Eyeball Right -->
+  <circle cx="350" cy="170" r="35" fill="#ffffff" />
+  <!-- Pupil Right -->
+  <circle cx="345" cy="170" r="18" fill="#111111" stroke="#4b7a42" stroke-width="2" />
+  <!-- Eye Highlights Right -->
+  <circle cx="338" cy="162" r="6" fill="#ffffff" />
+  <circle cx="350" cy="175" r="3" fill="#ffffff" />
+
+  <!-- Nostrils -->
+  <ellipse cx="210" cy="235" rx="7" ry="4" fill="#2d4d20" />
+  <ellipse cx="290" cy="235" rx="7" ry="4" fill="#2d4d20" />
+
+  <!-- Mouth Background (Inner mouth gap) -->
+  <ellipse cx="250" cy="285" rx="135" ry="25" fill="#2b1a13" />
+  
+  <!-- Tongue -->
+  <ellipse cx="250" cy="292" rx="95" ry="15" fill="#c0392b" />
+  <path d="M 180 292 Q 250 305 320 292" fill="none" stroke="#a93226" stroke-width="3" />
+
+  <!-- Lower Jaw Base (The massive Habsburg underbelly) -->
+  <path d="M 80 280 C 70 480, 230 500, 420 280 C 370 340, 230 350, 80 280 Z" fill="#a4c639" />
+
+  <!-- Lower Jaw Double Chin (Cervical Folds) -->
+  <path d="M 140 420 Q 250 460 360 420" fill="none" stroke="#89a84c" stroke-width="5" opacity="0.6" stroke-linecap="round" />
+  <path d="M 170 440 Q 250 480 330 440" fill="none" stroke="#89a84c" stroke-width="4" opacity="0.6" stroke-linecap="round" />
+  <path d="M 200 380 Q 250 400 300 380" fill="none" stroke="#89a84c" stroke-width="4" opacity="0.6" stroke-linecap="round" />
+
+  <!-- Underbelly Veins/Spots -->
+  <circle cx="180" cy="390" r="4" fill="#89a84c" opacity="0.5" />
+  <circle cx="320" cy="390" r="4" fill="#89a84c" opacity="0.5" />
+  <circle cx="250" cy="430" r="3" fill="#89a84c" opacity="0.5" />
+  <circle cx="150" cy="440" r="2" fill="#89a84c" opacity="0.5" />
+  <circle cx="350" cy="440" r="2" fill="#89a84c" opacity="0.5" />
+
+  <!-- Lower Lip Roll (The characteristic Everted/Prognathic Habsburg lip) -->
+  <path d="M 90 280 C 160 380, 340 380, 410 280 C 360 345, 230 355, 90 280 Z" fill="#c5e06a" />
+  
+  <!-- Inner Lip Fold & Shadow -->
+  <path d="M 110 290 C 180 360, 320 360, 390 290" fill="none" stroke="#7d993d" stroke-width="6" stroke-linecap="round" opacity="0.7" />
+  
+  <!-- Lip Highlight (Moist, fleshy look) -->
+  <path d="M 140 320 C 220 365, 280 365, 360 320" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.4" />
+
+  <!-- Upper Lip Line (Mouth Slit) -->
+  <path d="M 100 280 Q 250 325 400 280" fill="none" stroke="#2d4d20" stroke-width="6" stroke-linecap="round" />
+
+  <!-- The Crown (Satirical Habsburg element) -->
+  <g transform="translate(350, 90) rotate(15)">
+    <!-- Crown Shadow -->
+    <ellipse cx="0" cy="45" rx="45" ry="12" fill="#2d4d20" opacity="0.6" />
+    
+    <!-- Crown Base -->
+    <rect x="-30" y="20" width="100" height="15" rx="4" fill="url(#crownGlow)" stroke="#d4ac0d" stroke-width="2" />
+    
+    <!-- Crown Points -->
+    <path d="M -30 20 L -15 -10 L 0 10 L 20 -20 L 40 10 L 60 -10 L 70 20 Z" fill="url(#crownGlow)" stroke="#d4ac0d" stroke-width="2" stroke-linejoin="round" />
+    
+    <!-- Crown Jewels -->
+    <circle cx="-5" cy="5" r="5" fill="#e74c3c" />
+    <circle cx="-5" cy="5" r="2" fill="#ffffff" opacity="0.6" />
+    <circle cx="20" cy="27" r="5" fill="#3498db" />
+    <circle cx="20" cy="27" r="2" fill="#ffffff" opacity="0.6" />
+    <circle cx="45" cy="5" r="5" fill="#e74c3c" />
+    <circle cx="45" cy="5" r="2" fill="#ffffff" opacity="0.6" />
+    <circle cx="-15" cy="28" r="4" fill="#2ecc71" />
+    <circle cx="-15" cy="28" r="1.5" fill="#ffffff" opacity="0.6" />
+    <circle cx="55" cy="28" r="4" fill="#9b59b6" />
+    <circle cx="55" cy="28" r="1.5" fill="#ffffff" opacity="0.6" />
+  </g>
+</svg>

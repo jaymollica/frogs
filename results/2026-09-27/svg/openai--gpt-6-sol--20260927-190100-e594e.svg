@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with a Habsburg jaw</title>
+  <desc id="desc">A green frog in profile with a pronounced lower jaw jutting far beyond its snout.</desc>
+  <rect width="512" height="512" fill="#eaf5df"/>
+  <ellipse cx="255" cy="453" rx="190" ry="20" fill="#c9ddb7"/>
+
+  <!-- Body and legs -->
+  <path d="M159 285c-51 31-65 99-28 139 28 30 109 31 170 15 43-11 69-48 58-91-13-54-70-94-129-94-28 0-51 10-71 31Z" fill="#55a94e" stroke="#316c38" stroke-width="6"/>
+  <path d="M135 366c-31 5-47 32-43 53 4 22 25 30 56 23 24-5 45-24 46-43 1-21-28-38-59-33Z" fill="#438f43" stroke="#316c38" stroke-width="6"/>
+  <path d="M120 429c-19 6-28 12-32 22m40-16c-10 8-14 14-14 20m31-19c-3 8-3 14-1 20" fill="none" stroke="#316c38" stroke-width="9" stroke-linecap="round"/>
+  <path d="M298 359c17 19 25 44 17 70l-15 20m-1-1 31 2m-30-2-15 5" fill="none" stroke="#316c38" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M298 359c17 19 25 44 17 70l-15 20" fill="none" stroke="#78c96a" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Eye bulges -->
+  <circle cx="213" cy="191" r="37" fill="#68bc58" stroke="#316c38" stroke-width="6"/>
+  <circle cx="304" cy="183" r="34" fill="#68bc58" stroke="#316c38" stroke-width="6"/>
+
+  <!-- Upper face and short snout -->
+  <path d="M151 246c-2-43 32-75 87-78 58-4 109 18 129 53 8 14 8 27-8 34-29 14-74 16-119 14-46-2-77-8-89-23Z" fill="#70c560" stroke="#316c38" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M160 236c33 22 102 21 155 12" fill="none" stroke="#91d77b" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+
+  <!-- Eyes -->
+  <ellipse cx="218" cy="190" rx="19" ry="24" fill="#fff9df"/>
+  <ellipse cx="308" cy="183" rx="18" ry="23" fill="#fff9df"/>
+  <ellipse cx="225" cy="192" rx="8" ry="17" fill="#273b29"/>
+  <ellipse cx="315" cy="185" rx="8" ry="16" fill="#273b29"/>
+  <circle cx="229" cy="183" r="4" fill="white"/>
+  <circle cx="319" cy="176" r="4" fill="white"/>
+  <ellipse cx="350" cy="231" rx="5" ry="3.5" fill="#316c38"/>
+
+  <!-- Open mouth behind the projecting jaw -->
+  <path d="M244 261c42 1 84-5 116-16-9 17-29 27-53 34 44 2 86-5 116-12l10 25c-32 34-111 42-163 12-17-10-27-25-26-43Z" fill="#343b30"/>
+  <path d="M287 292c29 2 57 0 82-5" fill="none" stroke="#bc746e" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Pronounced underbite: lower lip extends well past the snout -->
+  <path d="M239 280c34 13 84 9 139-1l44-12c15-4 29 5 29 19 1 26-32 52-77 60-57 10-107-4-135-36-9-11-12-22 0-30Z" fill="#81c969" stroke="#316c38" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M246 282c37 16 91 7 139-3l37-10" fill="none" stroke="#a4df84" stroke-width="10" stroke-linecap="round"/>
+  <path d="M284 322c39 20 100 20 137-5" fill="none" stroke="#5cad53" stroke-width="7" stroke-linecap="round"/>
+  <path d="M427 276c8 4 11 11 8 18" fill="none" stroke="#316c38" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Frog markings -->
+  <circle cx="167" cy="327" r="8" fill="#418d42" opacity=".6"/>
+  <circle cx="192" cy="346" r="5" fill="#418d42" opacity=".6"/>
+  <circle cx="156" cy="354" r="5" fill="#418d42" opacity=".6"/>
+</svg>

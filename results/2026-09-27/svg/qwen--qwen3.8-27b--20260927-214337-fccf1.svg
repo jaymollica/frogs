@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <title>Frog with mandibular prognathism</title>
+  <rect width="800" height="600" fill="#F2F8EA"/>
+  <ellipse cx="430" cy="525" rx="300" ry="26" fill="#3E6B2F" opacity="0.15"/>
+  <!-- far limbs -->
+  <ellipse cx="610" cy="380" rx="70" ry="60" fill="#558B2F"/>
+  <ellipse cx="655" cy="498" rx="52" ry="16" fill="#558B2F"/>
+  <path d="M 372 452 L 378 500" stroke="#558B2F" stroke-width="24" stroke-linecap="round"/>
+  <path d="M 378 500 L 352 512 M 378 500 L 380 516 M 378 500 L 404 510" stroke="#558B2F" stroke-width="13" stroke-linecap="round"/>
+  <!-- body and head -->
+  <ellipse cx="430" cy="350" rx="210" ry="142" fill="#7CB342"/>
+  <circle cx="245" cy="285" r="118" fill="#7CB342"/>
+  <ellipse cx="445" cy="428" rx="135" ry="58" fill="#CFE8B5"/>
+  <ellipse cx="300" cy="196" rx="55" ry="20" fill="#A5D47C" opacity="0.55"/>
+  <!-- spots -->
+  <circle cx="395" cy="252" r="15" fill="#558B2F" opacity="0.5"/>
+  <circle cx="455" cy="235" r="11" fill="#558B2F" opacity="0.5"/>
+  <circle cx="515" cy="275" r="16" fill="#558B2F" opacity="0.5"/>
+  <circle cx="560" cy="330" r="12" fill="#558B2F" opacity="0.5"/>
+  <circle cx="380" cy="300" r="10" fill="#558B2F" opacity="0.5"/>
+  <circle cx="280" cy="235" r="10" fill="#558B2F" opacity="0.5"/>
+  <!-- eye -->
+  <circle cx="225" cy="172" r="46" fill="#86BE52"/>
+  <path d="M 190 150 Q 226 122 262 150" stroke="#558B2F" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="226" cy="176" r="30" fill="#FDFBF2"/>
+  <circle cx="218" cy="180" r="18" fill="#E0A83C"/>
+  <circle cx="214" cy="182" r="10" fill="#1A1A1A"/>
+  <circle cx="209" cy="176" r="4.5" fill="#FFFFFF"/>
+  <circle cx="142" cy="268" r="5" fill="#2F5D1E"/>
+  <!-- mouth with overhanging lower jaw -->
+  <path d="M 134 298 Q 230 324 330 334 L 338 352 Q 235 356 104 332 Z" fill="#7A3030"/>
+  <ellipse cx="245" cy="337" rx="34" ry="8" fill="#D96A75"/>
+  <path d="M 134 298 Q 230 324 330 334" stroke="#33691E" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 104 332 Q 88 352 100 372 Q 118 400 172 408 Q 262 424 348 388 L 338 352 Q 235 356 104 332 Z" fill="#6BA83A" stroke="#33691E" stroke-width="5" stroke-linejoin="round"/>
+  <!-- near front leg -->
+  <path d="M 298 438 L 294 498" stroke="#74AE3B" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 294 498 L 262 514 M 294 498 L 294 518 M 294 498 L 326 512" stroke="#74AE3B" stroke-width="18" stroke-linecap="round"/>
+  <!-- near hind leg -->
+  <circle cx="565" cy="408" r="88" fill="#74AE3B"/>
+  <path d="M 596 462 L 648 506" stroke="#74AE3B" stroke-width="44" stroke-linecap="round"/>
+  <path d="M 648 506 L 606 530 M 648 506 L 652 538 M 648 506 L 700 526" stroke="#74AE3B" stroke-width="22" stroke-linecap="round"/>
+</svg>

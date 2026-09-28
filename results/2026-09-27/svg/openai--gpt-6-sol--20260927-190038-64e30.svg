@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Cartoon frog with a pronounced underbite and jutting lower jaw">
+  <circle cx="256" cy="256" r="232" fill="#e9f5e8"/>
+  <ellipse cx="256" cy="443" rx="177" ry="17" fill="#c8dfc5"/>
+
+  <!-- Back legs and webbed feet -->
+  <path d="M157 343c-45-6-74 18-70 53 2 19 17 29 37 25l54-17z" fill="#4a9c58" stroke="#326e40" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M111 405c-18-7-31-3-38 8m41-6c-12 5-18 13-18 22m31-21c-4 9-3 17 3 24" fill="none" stroke="#326e40" stroke-width="9" stroke-linecap="round"/>
+  <path d="M324 348c43-8 78 12 82 45 2 21-12 34-34 32l-66-20z" fill="#4a9c58" stroke="#326e40" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M377 407c17-9 32-7 41 4m-39-2c15 3 24 11 26 21m-41-19c6 8 7 16 4 23" fill="none" stroke="#326e40" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <path d="M155 277c-37 33-40 97-5 133 33 33 152 36 188 2 32-30 24-97-17-134z" fill="#59b96a" stroke="#326e40" stroke-width="8"/>
+  <path d="M187 323c-4 39 12 79 55 90 41 10 77-9 84-43" fill="#bde39b"/>
+
+  <!-- Eye bumps and head -->
+  <path d="M171 231c-10-37 8-68 38-69 22-1 39 14 42 38 13-16 32-24 53-20 31 6 45 34 36 62 21 11 35 30 35 51 0 37-45 67-107 68-67 1-123-31-123-73 0-26 10-44 26-57z" fill="#6fcb77" stroke="#326e40" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M167 267c23-25 67-38 113-34 37 3 67 16 82 37" fill="none" stroke="#91dc8e" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="212" cy="207" rx="25" ry="31" fill="#fffdf2" stroke="#326e40" stroke-width="5"/>
+  <ellipse cx="301" cy="215" rx="25" ry="31" fill="#fffdf2" stroke="#326e40" stroke-width="5"/>
+  <ellipse cx="219" cy="211" rx="9" ry="18" fill="#253e31"/>
+  <ellipse cx="308" cy="219" rx="9" ry="18" fill="#253e31"/>
+  <circle cx="223" cy="203" r="4" fill="white"/>
+  <circle cx="312" cy="211" r="4" fill="white"/>
+
+  <!-- Upper snout and nostrils -->
+  <path d="M208 269c35-20 91-21 131-6 15 6 27 17 32 29-31 16-109 19-160 8-22-5-26-19-3-31z" fill="#82d583" stroke="#326e40" stroke-width="6"/>
+  <ellipse cx="292" cy="272" rx="5" ry="4" fill="#326e40"/>
+  <ellipse cx="341" cy="279" rx="5" ry="4" fill="#326e40"/>
+
+  <!-- Mouth recess behind the protruding jaw -->
+  <path d="M206 303c51 14 113 12 158-1 19-5 34-8 53 0l-7 35-166 27z" fill="#3d7048"/>
+
+  <!-- Prominent, forward-jutting lower jaw and chin -->
+  <path d="M206 307c47 15 111 17 157 4 22-6 36-18 55-14 20 4 30 22 25 47-7 38-36 61-76 65-54 6-115-7-142-33-19-19-26-45-19-69z" fill="#94d981" stroke="#326e40" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M211 311c49 16 115 17 157 4 24-8 43-18 62-10" fill="none" stroke="#c9eca7" stroke-width="9" stroke-linecap="round"/>
+  <path d="M270 378c33 17 88 24 123 10" fill="none" stroke="#6ab970" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Little lower teeth emphasize the underbite -->
+  <path d="M372 312l7-17 10 12m11-8 7-17 10 15" fill="#fffdf2" stroke="#326e40" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Cheek spots -->
+  <circle cx="185" cy="303" r="6" fill="#4a9c58"/>
+  <circle cx="174" cy="319" r="4" fill="#4a9c58"/>
+</svg>

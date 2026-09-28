@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="330" viewBox="0 0 440 330">
+  <defs>
+    <radialGradient id="bodyG" cx="35%" cy="28%" r="85%">
+      <stop offset="0%" stop-color="#86d156"/>
+      <stop offset="55%" stop-color="#4f9d33"/>
+      <stop offset="100%" stop-color="#2c6a20"/>
+    </radialGradient>
+    <radialGradient id="jawG" cx="30%" cy="35%" r="85%">
+      <stop offset="0%" stop-color="#93d963"/>
+      <stop offset="65%" stop-color="#54a637"/>
+      <stop offset="100%" stop-color="#2f7024"/>
+    </radialGradient>
+    <radialGradient id="eyeG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#9be86a"/>
+      <stop offset="70%" stop-color="#4e9c32"/>
+      <stop offset="100%" stop-color="#2b6b1e"/>
+    </radialGradient>
+    <radialGradient id="irisG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#fff3a8"/>
+      <stop offset="100%" stop-color="#e0c22e"/>
+    </radialGradient>
+    <clipPath id="bodyClip">
+      <path d="M 62,152 C 56,124 92,110 132,110 C 168,110 196,118 222,110 C 278,95 340,128 350,186 C 360,244 300,280 234,280 C 172,280 128,258 108,228 C 92,204 68,182 62,152 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="215" cy="300" rx="185" ry="22" fill="#1b3d13" opacity="0.22"/>
+
+  <!-- back leg -->
+  <path d="M 296,222 C 336,218 378,236 384,262 C 390,288 348,300 306,296 C 272,292 252,272 258,252 C 264,232 276,224 296,222 Z"
+        fill="url(#bodyG)" stroke="#275c1c" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="388" cy="288" rx="13" ry="8" fill="#5aa63a" stroke="#275c1c" stroke-width="4" transform="rotate(-18 388 288)"/>
+  <ellipse cx="372" cy="300" rx="13" ry="8" fill="#5aa63a" stroke="#275c1c" stroke-width="4" transform="rotate(-4 372 300)"/>
+  <ellipse cx="352" cy="304" rx="13" ry="8" fill="#5aa63a" stroke="#275c1c" stroke-width="4" transform="rotate(10 352 304)"/>
+
+  <!-- front leg -->
+  <path d="M 232,248 C 214,258 204,282 218,292 C 234,302 258,290 260,272 C 262,254 246,244 232,248 Z"
+        fill="url(#bodyG)" stroke="#275c1c" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="213" cy="292" rx="11" ry="7" fill="#5aa63a" stroke="#275c1c" stroke-width="4" transform="rotate(-18 213 292)"/>
+  <ellipse cx="230" cy="298" rx="11" ry="7" fill="#5aa63a" stroke="#275c1c" stroke-width="4"/>
+  <ellipse cx="248" cy="294" rx="11" ry="7" fill="#5aa63a" stroke="#275c1c" stroke-width="4" transform="rotate(16 248 294)"/>
+
+  <!-- body -->
+  <path d="M 62,152 C 56,124 92,110 132,110 C 168,110 196,118 222,110 C 278,95 340,128 350,186 C 360,244 300,280 234,280 C 172,280 128,258 108,228 C 92,204 68,182 62,152 Z"
+        fill="url(#bodyG)" stroke="#275c1c" stroke-width="5" stroke-linejoin="round"/>
+
+  <g clip-path="url(#bodyClip)">
+    <!-- belly -->
+    <ellipse cx="232" cy="252" rx="112" ry="34" fill="#bde487" opacity="0.75"/>
+    <!-- spots -->
+    <ellipse cx="252" cy="150" rx="15" ry="11" fill="#2f7024" opacity="0.55"/>
+    <ellipse cx="302" cy="182" rx="13" ry="10" fill="#2f7024" opacity="0.55"/>
+    <ellipse cx="186" cy="176" rx="11" ry="8" fill="#2f7024" opacity="0.5"/>
+    <ellipse cx="288" cy="132" rx="9" ry="7" fill="#2f7024" opacity="0.5"/>
+    <ellipse cx="150" cy="208" rx="10" ry="8" fill="#2f7024" opacity="0.45"/>
+  </g>
+
+  <!-- heavily protruding lower jaw -->
+  <path d="M 152,180 C 112,179 76,186 54,198 C 25,213 24,243 56,256 C 90,270 154,259 194,236 C 217,223 225,202 211,190 C 197,177 175,180 152,180 Z"
+        fill="url(#jawG)" stroke="#275c1c" stroke-width="5" stroke-linejoin="round"/>
+  <!-- jaw sheen -->
+  <path d="M 72,208 C 50,218 50,236 70,244 C 96,254 148,246 182,230 C 144,224 102,215 72,208 Z"
+        fill="#a4e272" opacity="0.55"/>
+  <!-- lower lip -->
+  <path d="M 44,232 C 66,252 132,258 186,236" fill="none" stroke="#275c1c" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- mouth line -->
+  <path d="M 63,151 C 84,170 114,179 151,181" fill="none" stroke="#1c3f12" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 151,181 C 186,182 212,193 217,208" fill="none" stroke="#1c3f12" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- nostril -->
+  <circle cx="80" cy="141" r="5" fill="#1c3f12"/>
+
+  <!-- eye bulges -->
+  <ellipse cx="138" cy="101" rx="36" ry="33" fill="url(#eyeG)" stroke="#275c1c" stroke-width="5"/>
+  <ellipse cx="224" cy="88" rx="36" ry="33" fill="url(#eyeG)" stroke="#275c1c" stroke-width="5"/>
+
+  <ellipse cx="138" cy="103" rx="26" ry="25" fill="url(#irisG)"/>
+  <ellipse cx="132" cy="105" rx="13" ry="18" fill="#14210c"/>
+  <circle cx="126" cy="95" r="5.5" fill="#ffffff" opacity="0.92"/>
+
+  <ellipse cx="224" cy="90" rx="26" ry="25" fill="url(#irisG)"/>
+  <ellipse cx="218" cy="92" rx="13" ry="18" fill="#14210c"/>
+  <circle cx="212" cy="82" r="5.5" fill="#ffffff" opacity="0.92"/>
+
+  <!-- eyelids -->
+  <path d="M 106,92 C 118,66 160,64 172,92" fill="none" stroke="#275c1c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 192,79 C 204,53 246,51 258,79" fill="none" stroke="#275c1c" stroke-width="5" stroke-linecap="round"/>
+</svg>

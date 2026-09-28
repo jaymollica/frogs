@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#7ecc6a"/>
+      <stop offset="100%" stop-color="#4da043"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8e0a0"/>
+      <stop offset="100%" stop-color="#cdd87a"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#f7e84a"/>
+      <stop offset="100%" stop-color="#e2c41a"/>
+    </radialGradient>
+    <radialGradient id="pupilGrad" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#444"/>
+      <stop offset="100%" stop-color="#111"/>
+    </radialGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#00000033"/>
+    </filter>
+  </defs>
+
+  <!-- background pond -->
+  <rect width="400" height="400" fill="#a8d8ea" rx="0"/>
+  <ellipse cx="200" cy="370" rx="190" ry="30" fill="#6bb3d0"/>
+  <ellipse cx="100" cy="380" rx="60" ry="15" fill="#5aa4c2" opacity="0.5"/>
+  <ellipse cx="300" cy="382" rx="50" ry="12" fill="#5aa4c2" opacity="0.5"/>
+
+  <!-- lily pad -->
+  <ellipse cx="60" cy="365" rx="45" ry="18" fill="#5da74a"/>
+  <path d="M60 347 L60 365 L40 360" fill="#5da74a"/>
+  <ellipse cx="340" cy="368" rx="38" ry="15" fill="#5da74a"/>
+  <path d="M340 353 L340 368 L322 364" fill="#5da74a"/>
+
+  <!-- frog shadow -->
+  <ellipse cx="200" cy="340" rx="110" ry="22" fill="#00000022"/>
+
+  <!-- back legs -->
+  <path d="M120 270 Q90 300 100 330 Q110 345 130 335 Q145 325 135 310 Q140 290 140 275" fill="#52a846" stroke="#3d8a35" stroke-width="2"/>
+  <path d="M280 270 Q310 300 300 330 Q290 345 270 335 Q255 325 265 310 Q260 290 260 275" fill="#52a846" stroke="#3d8a35" stroke-width="2"/>
+  <!-- toes back -->
+  <ellipse cx="98" cy="335" rx="14" ry="7" fill="#5ab84e"/>
+  <ellipse cx="115" cy="340" rx="14" ry="7" fill="#5ab84e"/>
+  <ellipse cx="132" cy="336" rx="13" ry="7" fill="#5ab84e"/>
+  <ellipse cx="302" cy="335" rx="14" ry="7" fill="#5ab84e"/>
+  <ellipse cx="285" cy="340" rx="14" ry="7" fill="#5ab84e"/>
+  <ellipse cx="268" cy="336" rx="13" ry="7" fill="#5ab84e"/>
+
+  <!-- front arms -->
+  <path d="M135 250 Q115 275 125 305 Q135 315 150 310 Q160 305 155 295 Q155 280 158 260" fill="#5ab84e" stroke="#3d8a35" stroke-width="2"/>
+  <path d="M265 250 Q285 275 275 305 Q265 315 250 310 Q240 305 245 295 Q245 280 242 260" fill="#5ab84e" stroke="#3d8a35" stroke-width="2"/>
+  <!-- toes front -->
+  <ellipse cx="128" cy="310" rx="11" ry="6" fill="#6bc95d"/>
+  <ellipse cx="145" cy="313" rx="11" ry="6" fill="#6bc95d"/>
+  <ellipse cx="160" cy="310" rx="11" ry="6" fill="#6bc95d"/>
+  <ellipse cx="272" cy="310" rx="11" ry="6" fill="#6bc95d"/>
+  <ellipse cx="255" cy="313" rx="11" ry="6" fill="#6bc95d"/>
+  <ellipse cx="240" cy="310" rx="11" ry="6" fill="#6bc95d"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="245" rx="105" ry="90" fill="url(#bodyGrad)" filter="url(#shadow)"/>
+  <!-- belly -->
+  <ellipse cx="200" cy="275" rx="60" ry="50" fill="url(#bellyGrad)" opacity="0.7"/>
+
+  <!-- spots -->
+  <circle cx="145" cy="220" r="12" fill="#3d8a35" opacity="0.4"/>
+  <circle cx="255" cy="215" r="10" fill="#3d8a35" opacity="0.4"/>
+  <circle cx="175" cy="265" r="8" fill="#3d8a35" opacity="0.3"/>
+  <circle cx="230" cy="255" r="9" fill="#3d8a35" opacity="0.3"/>
+  <circle cx="200" cy="305" r="7" fill="#3d8a35" opacity="0.3"/>
+  <circle cx="130" cy="250" r="6" fill="#3d8a35" opacity="0.35"/>
+  <circle cx="270" cy="245" r="7" fill="#3d8a35" opacity="0.35"/>
+
+  <!-- throat sac -->
+  <ellipse cx="200" cy="318" rx="35" ry="22" fill="#e8d84a" opacity="0.5"/>
+  <ellipse cx="200" cy="318" rx="25" ry="15" fill="#f0e060" opacity="0.5"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="170" rx="95" ry="72" fill="url(#bodyGrad)" filter="url(#shadow)"/>
+
+  <!-- eye bumps (left) -->
+  <ellipse cx="152" cy="128" rx="38" ry="36" fill="#5ab84e"/>
+  <!-- eye bump (right) -->
+  <ellipse cx="248" cy="128" rx="38" ry="36" fill="#5ab84e"/>
+
+  <!-- left eye -->
+  <ellipse cx="152" cy="128" rx="30" ry="30" fill="url(#eyeGrad)"/>
+  <ellipse cx="154" cy="130" rx="13" ry="17" fill="url(#pupilGrad)"/>
+  <circle cx="148" cy="120" r="6" fill="#fff" opacity="0.9"/>
+  <circle cx="160" cy="137" r="3" fill="#fff" opacity="0.5"/>
+
+  <!-- right eye -->
+  <ellipse cx="248" cy="128" rx="30" ry="30" fill="url(#eyeGrad)"/>
+  <ellipse cx="250" cy="130" rx="13" ry="17" fill="url(#pupilGrad)"/>
+  <circle cx="244" cy="120" r="6" fill="#fff" opacity="0.9"/>
+  <circle cx="256" cy="137" r="3" fill="#fff" opacity="0.5"/>
+
+  <!-- eye lids slightly -->
+  <path d="M124 118 Q152 100 180 118" fill="#5ab84e" stroke="#3d8a35" stroke-width="1.5" opacity="0.5"/>
+  <path d="M220 118 Q248 100 276 118" fill="#5ab84e" stroke="#3d8a35" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- nostrils -->
+  <ellipse cx="187" cy="155" rx="5" ry="4" fill="#2d6b25"/>
+  <ellipse cx="213" cy="155" rx="5" ry="4" fill="#2d6b25"/>
+
+  <!-- UPPER JAW (short, recessed) -->
+  <path d="M135 188 Q200 175 265 188 Q268 205 262 218 Q200 235 138 218 Q132 205 135 188Z"
+        fill="#52a846" stroke="#3d8a35" stroke-width="2"/>
+  <!-- upper jaw underside (hidden behind lower jaw) -->
+  <path d="M140 205 Q200 195 260 205" fill="none" stroke="#3d8a35" stroke-width="1" opacity="0.3"/>
+
+  <!-- LOWER JAW (protruding / prognathic) -->
+  <path d="M125 200 Q200 245 275 200 Q280 225 270 245 Q200 275 130 245 Q120 225 125 200Z"
+        fill="#6bbd5e" stroke="#3d8a35" stroke-width="2"/>
+  <!-- lower jaw lip highlight -->
+  <path d="M130 210 Q200 252 270 210" fill="none" stroke="#85d476" stroke-width="3" opacity="0.6"/>
+
+  <!-- chin area -->
+  <ellipse cx="200" cy="258" rx="40" ry="14" fill="#6bbd5e" stroke="#3d8a35" stroke-width="1.5"/>
+
+  <!-- overbite indication: upper teeth line (behind lower jaw) -->
+  <path d="M148 213 L152 218 L156 213 L160 218 L164 213 L168 218 L172 213 L176 218 L180 213 L184 218 L188 213 L192 218 L196 213 L200 218 L204 213 L208 218 L212 213 L216 218 L220 213 L224 218 L228 213 L232 218 L236 213 L240 218 L244 213 L248 218 L252 213"
+        fill="none" stroke="#e8e0c0" stroke-width="2" opacity="0.6"/>
+
+  <!-- lower teeth (protruding) -->
+  <path d="M145 215 L149 210 L153 215 L157 210 L161 215 L165 210 L169 215 L173 210 L177 215 L181 210 L185 215 L189 210 L193 215 L197 210 L201 215 L205 210 L209 215 L213 210 L217 215 L221 210 L225 215 L229 210 L233 215 L237 210 L241 215 L245 210 L249 215"
+        fill="none" stroke="#e8e0c0" stroke-width="2" opacity="0.6"/>
+
+  <!-- mouth line to emphasize underbite -->
+  <path d="M138 208 Q200 248 262 208" fill="none" stroke="#3d8a35" stroke-width="2.5"/>
+  <!-- protruding lower lip -->
+  <path d="M135 212 Q200 258 265 212" fill="none" stroke="#4a9a40" stroke-width="2" opacity="0.7"/>
+
+  <!-- cheeks -->
+  <ellipse cx="130" cy="195" rx="18" ry="12" fill="#ff8a80" opacity="0.35"/>
+  <ellipse cx="270" cy="195" rx="18" ry="12" fill="#ff8a80" opacity="0.35"/>
+
+  <!-- dorsal ridge line -->
+  <path d="M110 180 Q200 165 290 180" fill="none" stroke="#3d8a35" stroke-width="1.5" opacity="0.3"/>
+</svg>

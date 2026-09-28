@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#dff3e6"/>
+  <ellipse cx="200" cy="345" rx="130" ry="18" fill="#000" opacity="0.12"/>
+  <ellipse cx="200" cy="290" rx="120" ry="70" fill="#4caf50"/>
+  <ellipse cx="200" cy="300" rx="80" ry="45" fill="#8bd17a"/>
+  <ellipse cx="90" cy="325" rx="40" ry="20" fill="#3e9142"/>
+  <ellipse cx="310" cy="325" rx="40" ry="20" fill="#3e9142"/>
+  <g fill="#3e9142">
+    <ellipse cx="60" cy="342" rx="12" ry="6"/>
+    <ellipse cx="80" cy="348" rx="12" ry="6"/>
+    <ellipse cx="100" cy="345" rx="12" ry="6"/>
+    <ellipse cx="300" cy="345" rx="12" ry="6"/>
+    <ellipse cx="320" cy="348" rx="12" ry="6"/>
+    <ellipse cx="340" cy="342" rx="12" ry="6"/>
+  </g>
+  <path d="M95 200 Q90 120 200 115 Q310 120 305 200 Q300 230 200 232 Q100 230 95 200 Z" fill="#5cbf5e"/>
+  <circle cx="140" cy="130" r="38" fill="#5cbf5e"/>
+  <circle cx="260" cy="130" r="38" fill="#5cbf5e"/>
+  <circle cx="140" cy="130" r="27" fill="#fff8e1"/>
+  <circle cx="260" cy="130" r="27" fill="#fff8e1"/>
+  <circle cx="144" cy="134" r="14" fill="#222"/>
+  <circle cx="264" cy="134" r="14" fill="#222"/>
+  <circle cx="149" cy="128" r="5" fill="#fff"/>
+  <circle cx="269" cy="128" r="5" fill="#fff"/>
+  <ellipse cx="183" cy="185" rx="5" ry="3" fill="#2e7d32"/>
+  <ellipse cx="217" cy="185" rx="5" ry="3" fill="#2e7d32"/>
+  <path d="M105 210 Q200 200 295 210 L275 240 Q200 250 125 240 Z" fill="#7a1f2b"/>
+  <path d="M85 235 Q200 220 315 235 Q330 270 300 285 Q200 300 100 285 Q70 270 85 235 Z" fill="#3e9142"/>
+  <path d="M85 235 Q200 220 315 235 Q200 246 85 235 Z" fill="#2c7a34"/>
+  <path d="M100 240 Q120 300 200 296 Q280 300 300 240 Q200 258 100 240 Z" fill="#8bd17a"/>
+  <g fill="#fffbe6" stroke="#c9b98a" stroke-width="1">
+    <rect x="120" y="222" width="14" height="16" rx="3"/>
+    <rect x="140" y="220" width="14" height="18" rx="3"/>
+    <rect x="160" y="219" width="14" height="19" rx="3"/>
+    <rect x="180" y="218" width="14" height="20" rx="3"/>
+    <rect x="206" y="218" width="14" height="20" rx="3"/>
+    <rect x="226" y="219" width="14" height="19" rx="3"/>
+    <rect x="246" y="220" width="14" height="18" rx="3"/>
+    <rect x="266" y="222" width="14" height="16" rx="3"/>
+  </g>
+  <path d="M105 210 Q200 200 295 210" fill="none" stroke="#2c7a34" stroke-width="4" stroke-linecap="round"/>
+</svg>

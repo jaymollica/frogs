@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="Cartoon frog with a heavily protruding lower jaw">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe6f2"/>
+      <stop offset="60%" stop-color="#e8f6de"/>
+      <stop offset="100%" stop-color="#d7ecc0"/>
+    </linearGradient>
+    <radialGradient id="bodyG" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#7ecb53"/>
+      <stop offset="55%" stop-color="#4f9e3a"/>
+      <stop offset="100%" stop-color="#2f6b28"/>
+    </radialGradient>
+    <linearGradient id="jawG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8ed45f"/>
+      <stop offset="45%" stop-color="#5aa93f"/>
+      <stop offset="100%" stop-color="#33712a"/>
+    </linearGradient>
+    <linearGradient id="headG" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#8ad15c"/>
+      <stop offset="60%" stop-color="#4f9e3a"/>
+      <stop offset="100%" stop-color="#33752c"/>
+    </linearGradient>
+    <linearGradient id="bellyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f4c0"/>
+      <stop offset="100%" stop-color="#d5e39a"/>
+    </linearGradient>
+    <linearGradient id="mouthG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5c1e2c"/>
+      <stop offset="100%" stop-color="#2b0e16"/>
+    </linearGradient>
+    <linearGradient id="tongueG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e2637f"/>
+      <stop offset="100%" stop-color="#f593a8"/>
+    </linearGradient>
+    <radialGradient id="mudG" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#7c6440"/>
+      <stop offset="100%" stop-color="#4e3f27"/>
+    </radialGradient>
+    <radialGradient id="eyeG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#f4f7e6"/>
+      <stop offset="100%" stop-color="#cdd8b8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="600" height="450" fill="url(#sky)"/>
+  <g opacity="0.5">
+    <ellipse cx="90" cy="80" rx="60" ry="26" fill="#ffffff"/>
+    <ellipse cx="140" cy="72" rx="45" ry="30" fill="#ffffff"/>
+    <ellipse cx="500" cy="60" rx="55" ry="24" fill="#ffffff"/>
+    <ellipse cx="455" cy="55" rx="38" ry="28" fill="#ffffff"/>
+  </g>
+  <path d="M0 340 Q 120 320 240 338 T 480 334 T 600 344 L600 450 L0 450Z" fill="#a9d97f" opacity="0.55"/>
+
+  <!-- ground -->
+  <ellipse cx="300" cy="404" rx="285" ry="36" fill="url(#mudG)"/>
+  <ellipse cx="300" cy="396" rx="250" ry="26" fill="#8a7349" opacity="0.6"/>
+  <ellipse cx="305" cy="393" rx="185" ry="18" fill="#2b2415" opacity="0.45"/>
+
+  <!-- lily pads -->
+  <g opacity="0.9">
+    <path d="M60 396 a46 20 0 1 0 92 0 a46 20 0 1 0 -92 0 M106 376 L106 396" fill="#3f8f34" stroke="#2c6b25" stroke-width="3"/>
+    <path d="M470 400 a40 17 0 1 0 80 0 a40 17 0 1 0 -80 0 M510 383 L510 400" fill="#459a39" stroke="#2c6b25" stroke-width="3"/>
+  </g>
+
+  <g>
+    <!-- hind leg (back) -->
+    <ellipse cx="172" cy="276" rx="80" ry="64" fill="#3d8a31"/>
+    <path d="M128 302 C104 344 120 374 156 380 L238 382 C256 380 262 366 250 354 C230 336 208 330 198 312 Z" fill="#3d8a31"/>
+    <path d="M132 306 C114 342 128 366 158 371 L232 373 C246 371 250 360 240 351 C222 336 202 330 192 314 Z" fill="#4f9e3a"/>
+    <g fill="#4f9e3a" stroke="#2f6b28" stroke-width="3" stroke-linejoin="round">
+      <ellipse cx="252" cy="374" rx="16" ry="9"/>
+      <ellipse cx="274" cy="380" rx="16" ry="9"/>
+      <ellipse cx="294" cy="384" rx="14" ry="8"/>
+    </g>
+
+    <!-- body -->
+    <ellipse cx="278" cy="288" rx="134" ry="97" fill="url(#bodyG)"/>
+    <!-- belly -->
+    <ellipse cx="308" cy="330" rx="86" ry="53" fill="url(#bellyG)" opacity="0.95"/>
+    <!-- spots -->
+    <g fill="#2e6b26" opacity="0.55">
+      <ellipse cx="232" cy="246" rx="19" ry="12"/>
+      <ellipse cx="298" cy="236" rx="15" ry="10"/>
+      <ellipse cx="196" cy="300" rx="17" ry="11"/>
+      <ellipse cx="334" cy="278" rx="13" ry="9"/>
+      <ellipse cx="252" cy="330" rx="14" ry="9"/>
+      <ellipse cx="176" cy="252" rx="12" ry="8"/>
+    </g>
+
+    <!-- front leg -->
+    <path d="M340 316 C332 352 336 378 348 392 L404 392 C416 378 414 348 404 320 Z" fill="#4f9e3a" stroke="#2f6b28" stroke-width="3"/>
+    <g fill="#5aae41" stroke="#2f6b28" stroke-width="3">
+      <ellipse cx="350" cy="394" rx="14" ry="9"/>
+      <ellipse cx="377" cy="397" rx="14" ry="9"/>
+      <ellipse cx="404" cy="394" rx="13" ry="9"/>
+    </g>
+
+    <!-- mouth interior (open) -->
+    <path d="M364 279 L530 272 L556 332 L546 340 L372 296 Z" fill="url(#mouthG)"/>
+    <!-- tongue -->
+    <path d="M378 292 C440 306 500 322 542 336 C548 338 548 344 540 344 C494 340 424 320 376 304 Z" fill="url(#tongueG)"/>
+    <!-- throat pouch -->
+    <ellipse cx="404" cy="344" rx="58" ry="34" fill="#eaf0b4" opacity="0.85"/>
+
+    <!-- upper jaw / head -->
+    <path d="M350 262
+             C352 216 396 188 446 197
+             C494 205 526 232 528 264
+             L528 274
+             C528 280 522 282 514 281
+             L362 282
+             C354 282 349 274 350 262 Z"
+          fill="url(#headG)" stroke="#2c6b25" stroke-width="3"/>
+    <!-- head shading -->
+    <path d="M470 214 C506 226 524 246 527 266 L527 274 L498 275 C492 250 482 228 470 214 Z" fill="#2f6b28" opacity="0.28"/>
+    <!-- nostril -->
+    <circle cx="507" cy="243" r="5" fill="#2c5a24"/>
+    <circle cx="509" cy="241" r="2" fill="#8ad15c" opacity="0.8"/>
+    <!-- upper lip line -->
+    <path d="M366 280 C430 277 492 274 526 274" fill="none" stroke="#255b1f" stroke-width="4" stroke-linecap="round"/>
+    <!-- small teeth -->
+    <g fill="#fdfdf2" opacity="0.9">
+      <path d="M432 279 l7 10 l7 -10 Z"/>
+      <path d="M472 276 l6 9 l7 -9 Z"/>
+    </g>
+
+    <!-- eye -->
+    <ellipse cx="443" cy="196" rx="40" ry="35" fill="#59ad41" stroke="#2c6b25" stroke-width="3"/>
+    <circle cx="452" cy="192" r="27" fill="url(#eyeG)" stroke="#2c6b25" stroke-width="3"/>
+    <ellipse cx="458" cy="192" rx="15" ry="17" fill="#1b1b1b"/>
+    <ellipse cx="459" cy="192" rx="6" ry="17" fill="#0a0a0a"/>
+    <circle cx="452" cy="184" r="6" fill="#ffffff" opacity="0.95"/>
+    <circle cx="466" cy="202" r="3" fill="#ffffff" opacity="0.7"/>
+
+    <!-- heavily protruding lower jaw -->
+    <path d="M366 292
+             L550 331
+             C574 336 586 349 578 363
+             C566 382 524 391 482 384
+             C428 375 384 346 370 314
+             C366 305 364 298 366 292 Z"
+          fill="url(#jawG)" stroke="#2c6b25" stroke-width="4" stroke-linejoin="round"/>
+    <!-- jaw underside shading -->
+    <path d="M392 348 C436 372 500 384 552 372 C540 382 510 388 482 384 C442 378 410 364 392 348 Z" fill="#285e22" opacity="0.5"/>
+    <!-- jaw top rim highlight -->
+    <path d="M378 300 L544 334" stroke="#a5e077" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+    <!-- chin spots -->
+    <g fill="#2e6b26" opacity="0.5">
+      <ellipse cx="448" cy="352" rx="16" ry="9"/>
+      <ellipse cx="508" cy="356" rx="13" ry="8"/>
+      <ellipse cx="404" cy="330" rx="13" ry="8"/>
+    </g>
+    <!-- wart bumps -->
+    <g fill="#8ad15c" opacity="0.55">
+      <circle cx="470" cy="344" r="5"/>
+      <circle cx="534" cy="352" r="4"/>
+      <circle cx="424" cy="326" r="5"/>
+    </g>
+  </g>
+</svg>

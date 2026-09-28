@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Frog with the Habsburg jaw</title>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#72c24e"/>
+      <stop offset="1" stop-color="#4b9133"/>
+    </linearGradient>
+    <clipPath id="bc">
+      <path d="M150 322 C146 296 150 266 164 244 C178 222 202 208 230 206 C262 204 292 212 318 226 C352 234 390 252 412 284 C432 312 438 348 426 378 C410 414 366 434 316 438 C266 442 212 436 184 420 C162 408 154 392 152 372 L150 322 Z"/>
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="#edf6e2"/>
+  <ellipse cx="104" cy="472" rx="76" ry="12" fill="#3a7d3c"/>
+  <ellipse cx="424" cy="474" rx="86" ry="13" fill="#3a7d3c"/>
+  <ellipse cx="272" cy="466" rx="212" ry="20" fill="#46924c"/>
+  <ellipse cx="286" cy="452" rx="150" ry="11" fill="#2e6b33" opacity="0.35"/>
+  <g stroke="#2c5527" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M150 322 C146 296 150 266 164 244 C178 222 202 208 230 206 C262 204 292 212 318 226 C352 234 390 252 412 284 C432 312 438 348 426 378 C410 414 366 434 316 438 C266 442 212 436 184 420 C162 408 154 392 152 372 L150 322 Z" fill="url(#body)"/>
+    <g clip-path="url(#bc)" stroke="none">
+      <ellipse cx="300" cy="416" rx="132" ry="52" fill="#edf4d2"/>
+      <ellipse cx="186" cy="386" rx="42" ry="46" fill="#edf4d2"/>
+      <circle cx="330" cy="266" r="9" fill="#3f8229" opacity="0.5"/>
+      <circle cx="372" cy="298" r="7" fill="#3f8229" opacity="0.5"/>
+      <circle cx="306" cy="286" r="6" fill="#3f8229" opacity="0.5"/>
+      <circle cx="398" cy="332" r="8" fill="#3f8229" opacity="0.5"/>
+      <circle cx="272" cy="252" r="5" fill="#3f8229" opacity="0.5"/>
+    </g>
+    <rect x="256" y="438" width="118" height="20" rx="10" fill="#5daa41"/>
+    <circle cx="258" cy="444" r="7" fill="#5daa41" stroke-width="3"/>
+    <circle cx="254" cy="451" r="6" fill="#5daa41" stroke-width="3"/>
+    <circle cx="258" cy="458" r="7" fill="#5daa41" stroke-width="3"/>
+    <ellipse cx="352" cy="372" rx="55" ry="50" fill="#57a53c"/>
+    <path d="M322 344 C312 368 312 394 322 416" fill="none" stroke-width="3" opacity="0.5"/>
+    <rect x="203" y="392" width="26" height="52" rx="12" fill="#5daa41"/>
+    <rect x="166" y="438" width="56" height="20" rx="10" fill="#5daa41"/>
+    <circle cx="170" cy="444" r="7" fill="#5daa41" stroke-width="3"/>
+    <circle cx="166" cy="451" r="6" fill="#5daa41" stroke-width="3"/>
+    <circle cx="170" cy="458" r="7" fill="#5daa41" stroke-width="3"/>
+    <path d="M242 324 C212 333 180 331 152 321 C124 317 102 330 102 346 C102 362 128 372 160 370 C192 368 224 356 242 342 Z" fill="#d9e8b4"/>
+    <path d="M150 317 C178 330 212 333 242 324" fill="none"/>
+    <ellipse cx="157" cy="295" rx="4.5" ry="3.5" fill="#2c5527" stroke="none"/>
+    <circle cx="210" cy="214" r="32" fill="url(#body)"/>
+    <circle cx="210" cy="214" r="21" fill="#fbf7e8" stroke-width="3"/>
+    <circle cx="206" cy="216" r="9.5" fill="#d98f2b" stroke="none"/>
+    <ellipse cx="205" cy="216" rx="8" ry="4.5" fill="#201509" stroke="none"/>
+    <circle cx="212" cy="207" r="3.5" fill="#ffffff" stroke="none"/>
+  </g>
+  <g>
+    <path d="M290 170 C311 136 333 102 357 66 C361 59 368 62 364 69 C345 104 325 138 307 172 Z" fill="#f2e9d4" stroke="#c8b78c" stroke-width="2"/>
+    <path d="M295 168 C315 136 335 104 358 72" fill="none" stroke="#cdbd94" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M246 196 C244 168 249 146 260 137 C269 130 283 130 292 137 C303 146 308 168 306 196 Z" fill="#262220" stroke="#131110" stroke-width="3"/>
+    <ellipse cx="276" cy="196" rx="50" ry="13" fill="#262220" stroke="#131110" stroke-width="3"/>
+    <rect x="245" y="170" width="62" height="13" fill="#0d0c0b"/>
+    <circle cx="300" cy="176.5" r="4.5" fill="#d4af37" stroke="#8a6d1f" stroke-width="1.5"/>
+  </g>
+</svg>

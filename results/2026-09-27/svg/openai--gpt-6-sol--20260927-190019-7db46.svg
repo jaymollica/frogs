@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Cartoon frog with a pronounced underbite">
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#a9dc6b"/>
+      <stop offset="1" stop-color="#64a942"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#94ca57"/>
+      <stop offset="1" stop-color="#518d3b"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="254" cy="445" rx="173" ry="19" fill="#dce8ce"/>
+  <path d="M160 367Q113 380 91 423q-8 15 9 19h40q12 0 13-10 12 14 26 9l31-13zm170 0q43 9 75 48 15 19-4 25h-37q-11 0-13-10-13 13-27 8l-28-13z" fill="#659e43" stroke="#477c35" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="255" cy="342" rx="117" ry="104" fill="url(#green)" stroke="#477c35" stroke-width="6"/>
+  <ellipse cx="252" cy="368" rx="73" ry="66" fill="#d8e79a"/>
+  <path d="M159 341q-29 19-38 54m226-54q32 20 41 56" fill="none" stroke="#477c35" stroke-width="20" stroke-linecap="round"/>
+  <path d="M119 393q-13 9-22 25m24-18q-3 16-2 27m12-30q8 14 12 24m243-26q15 8 25 23m-27-18q5 15 5 27m-17-28q-8 13-11 24" fill="none" stroke="#609c43" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- The jutting lower jaw sits beneath the shorter upper lip. -->
+  <path d="M169 260q43-34 118-24l78 27q24 10 46 14 28 5 34 27 8 29-12 46-27 22-91 22H224q-73-4-86-52-8-32 31-60z" fill="url(#jaw)" stroke="#477c35" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M309 282q62 14 111 13 12 0 18 9-60 7-112 1z" fill="#426d36"/>
+  <path d="M318 305q58 12 111 1" fill="none" stroke="#c2df82" stroke-width="5" stroke-linecap="round"/>
+  <path d="M384 315q18 3 32-1m-20 15q13 1 24-4" fill="none" stroke="#6ca348" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Round frog head and eye bumps. -->
+  <path d="M129 251q-15-37 4-68 12-20 35-26 0-30 23-44 30-18 54 8 19-15 48-12 34 3 46 33 34 2 51 26 24 34 8 73-8 20-30 32-17 10-47 12-69 2-104 22-30 15-60 3-25-10-28-59z" fill="url(#green)" stroke="#477c35" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="207" cy="164" rx="35" ry="43" fill="#e8f3ad" stroke="#477c35" stroke-width="5"/>
+  <ellipse cx="311" cy="165" rx="34" ry="42" fill="#e8f3ad" stroke="#477c35" stroke-width="5"/>
+  <ellipse cx="219" cy="171" rx="13" ry="25" fill="#263a2a"/>
+  <ellipse cx="323" cy="171" rx="12" ry="25" fill="#263a2a"/>
+  <circle cx="215" cy="159" r="5" fill="#fff"/>
+  <circle cx="319" cy="159" r="5" fill="#fff"/>
+  <path d="M174 147q17-14 34-5m82-1q17-11 33 2" fill="none" stroke="#477c35" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="361" cy="227" rx="6" ry="4" fill="#477c35"/>
+  <path d="M174 260q65 30 125 9 36-13 77-12" fill="none" stroke="#477c35" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="171" cy="252" r="5" fill="#477c35"/>
+  <ellipse cx="163" cy="226" rx="16" ry="9" fill="#c2e586" opacity=".55"/>
+  <path d="M178 303q49 19 96-1" fill="none" stroke="#b8d87b" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+</svg>

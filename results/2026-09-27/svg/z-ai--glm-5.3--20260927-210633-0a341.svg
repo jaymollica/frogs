@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Frog with mandibular prognathism">
+  <title>Frog with mandibular prognathism (protruding lower jaw)</title>
+  <rect width="400" height="400" fill="#e8f4ea"/>
+  <circle cx="62" cy="66" r="20" fill="#ffffff" opacity="0.5"/>
+  <circle cx="338" cy="86" r="13" fill="#ffffff" opacity="0.5"/>
+  <circle cx="352" cy="300" r="9" fill="#ffffff" opacity="0.45"/>
+  <circle cx="46" cy="316" r="7" fill="#ffffff" opacity="0.45"/>
+  <ellipse cx="200" cy="394" rx="150" ry="10" fill="#2e6b34" opacity="0.12"/>
+  <ellipse cx="200" cy="330" rx="120" ry="75" fill="#4aa854"/>
+  <ellipse cx="200" cy="348" rx="78" ry="42" fill="#d7eeae"/>
+  <circle cx="105" cy="340" r="12" fill="#3b8b46" opacity="0.8"/>
+  <circle cx="295" cy="340" r="12" fill="#3b8b46" opacity="0.8"/>
+  <g fill="#3f9a4a" stroke="#2e6b34" stroke-width="2">
+    <ellipse cx="128" cy="378" rx="7" ry="12" transform="rotate(-15 128 378)"/>
+    <ellipse cx="142" cy="374" rx="7" ry="13"/>
+    <ellipse cx="156" cy="378" rx="7" ry="12" transform="rotate(15 156 378)"/>
+    <ellipse cx="142" cy="389" rx="24" ry="8"/>
+    <ellipse cx="244" cy="378" rx="7" ry="12" transform="rotate(15 244 378)"/>
+    <ellipse cx="258" cy="374" rx="7" ry="13"/>
+    <ellipse cx="272" cy="378" rx="7" ry="12" transform="rotate(-15 272 378)"/>
+    <ellipse cx="258" cy="389" rx="24" ry="8"/>
+  </g>
+  <ellipse cx="200" cy="195" rx="135" ry="100" fill="#5cbf64"/>
+  <circle cx="105" cy="160" r="9" fill="#3b8b46" opacity="0.7"/>
+  <circle cx="295" cy="160" r="9" fill="#3b8b46" opacity="0.7"/>
+  <circle cx="85" cy="212" r="6" fill="#3b8b46" opacity="0.7"/>
+  <circle cx="315" cy="212" r="6" fill="#3b8b46" opacity="0.7"/>
+  <circle cx="130" cy="112" r="40" fill="#5cbf64"/>
+  <circle cx="133" cy="112" r="23" fill="#fdfdf5" stroke="#2e6b34" stroke-width="2.5"/>
+  <circle cx="136" cy="116" r="10.5" fill="#1d2b1f"/>
+  <circle cx="140" cy="111" r="3.5" fill="#ffffff"/>
+  <circle cx="270" cy="112" r="40" fill="#5cbf64"/>
+  <circle cx="267" cy="112" r="23" fill="#fdfdf5" stroke="#2e6b34" stroke-width="2.5"/>
+  <circle cx="264" cy="116" r="10.5" fill="#1d2b1f"/>
+  <circle cx="268" cy="111" r="3.5" fill="#ffffff"/>
+  <ellipse cx="183" cy="181" rx="4" ry="6" fill="#2e6b34" transform="rotate(-12 183 181)"/>
+  <ellipse cx="217" cy="181" rx="4" ry="6" fill="#2e6b34" transform="rotate(12 217 181)"/>
+  <path d="M 95 238 Q 200 262 305 238" fill="none" stroke="#254d28" stroke-width="16" stroke-linecap="round"/>
+  <ellipse cx="200" cy="342" rx="80" ry="18" fill="#1e4622" opacity="0.25"/>
+  <path d="M 82 244 C 88 308 132 340 200 342 C 268 340 312 308 318 244 Q 200 276 82 244 Z" fill="#82cf87" stroke="#2e6b34" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="292" rx="68" ry="24" fill="#ffffff" opacity="0.16"/>
+  <g fill="#ffffff" stroke="#b9d4b0" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M 99 252 L 105 226 L 115 248 Z"/>
+    <path d="M 130 256 L 136 230 L 146 254 Z"/>
+    <path d="M 164 259 L 170 233 L 180 258 Z"/>
+    <path d="M 220 258 L 230 233 L 236 259 Z"/>
+    <path d="M 254 254 L 264 230 L 270 256 Z"/>
+    <path d="M 285 248 L 295 226 L 301 252 Z"/>
+  </g>
+</svg>

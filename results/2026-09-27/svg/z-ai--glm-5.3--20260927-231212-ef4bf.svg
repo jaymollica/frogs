@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <title>Frog with heavily protruding lower jaw</title>
+  <defs>
+    <linearGradient id="gHead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7CCB69"/>
+      <stop offset="1" stop-color="#4FA34C"/>
+    </linearGradient>
+    <linearGradient id="gJaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9E08E"/>
+      <stop offset="0.5" stop-color="#6CBE5B"/>
+      <stop offset="1" stop-color="#4FA34C"/>
+    </linearGradient>
+    <linearGradient id="gChest" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#55A951"/>
+      <stop offset="1" stop-color="#3F8C45"/>
+    </linearGradient>
+    <radialGradient id="gChin" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#ECF7CE"/>
+      <stop offset="1" stop-color="#BCDA98"/>
+    </radialGradient>
+  </defs>
+
+  <!-- lily pad -->
+  <ellipse cx="250" cy="472" rx="212" ry="28" fill="#2E7A38" stroke="#256428" stroke-width="4"/>
+  <ellipse cx="250" cy="468" rx="168" ry="20" fill="#235F28" opacity="0.55"/>
+
+  <!-- body -->
+  <ellipse cx="250" cy="458" rx="152" ry="36" fill="url(#gChest)"/>
+  <!-- shadow cast by the jutting jaw onto the chest -->
+  <ellipse cx="250" cy="466" rx="110" ry="14" fill="#2F6B33" opacity="0.6"/>
+
+  <!-- feet -->
+  <g fill="#4E9E4B">
+    <ellipse cx="136" cy="472" rx="34" ry="12"/>
+    <circle cx="103" cy="466" r="8"/>
+    <circle cx="98" cy="478" r="8.5"/>
+    <circle cx="108" cy="489" r="7.5"/>
+    <ellipse cx="364" cy="472" rx="34" ry="12"/>
+    <circle cx="397" cy="466" r="8"/>
+    <circle cx="402" cy="478" r="8.5"/>
+    <circle cx="392" cy="489" r="7.5"/>
+  </g>
+
+  <!-- head -->
+  <path d="M100 205 C100 110 160 84 250 84 C340 84 400 110 400 205 C400 268 355 306 250 306 C145 306 100 268 100 205 Z" fill="url(#gHead)"/>
+  <g fill="#3E8E41" opacity="0.55">
+    <ellipse cx="148" cy="236" rx="11" ry="8"/>
+    <ellipse cx="352" cy="236" rx="11" ry="8"/>
+    <ellipse cx="212" cy="142" rx="7" ry="5"/>
+    <ellipse cx="288" cy="142" rx="7" ry="5"/>
+    <ellipse cx="250" cy="97" rx="8" ry="5"/>
+  </g>
+
+  <!-- under-eye creases -->
+  <path d="M134 138 Q170 154 206 138" fill="none" stroke="#3E8E41" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M294 138 Q330 154 366 138" fill="none" stroke="#3E8E41" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- nostrils -->
+  <ellipse cx="228" cy="172" rx="6" ry="4.2" fill="#2F6B33" transform="rotate(-14 228 172)"/>
+  <ellipse cx="272" cy="172" rx="6" ry="4.2" fill="#2F6B33" transform="rotate(14 272 172)"/>
+
+  <!-- upper mouth line -->
+  <path d="M122 258 Q250 320 378 258" fill="none" stroke="#2F6B33" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- eyes -->
+  <circle cx="170" cy="100" r="44" fill="#7CCB69"/>
+  <circle cx="170" cy="100" r="27" fill="#F7C948"/>
+  <ellipse cx="170" cy="100" rx="14" ry="8" fill="#232323"/>
+  <circle cx="165" cy="96" r="4" fill="#FFFFFF"/>
+  <circle cx="330" cy="100" r="44" fill="#7CCB69"/>
+  <circle cx="330" cy="100" r="27" fill="#F7C948"/>
+  <ellipse cx="330" cy="100" rx="14" ry="8" fill="#232323"/>
+  <circle cx="325" cy="96" r="4" fill="#FFFFFF"/>
+
+  <!-- heavily protruding lower jaw, jutting past the head on both sides -->
+  <path d="M74 278 C72 372 138 464 250 464 C362 464 428 372 426 278 Q250 322 74 278 Z" fill="url(#gJaw)"/>
+  <!-- light catching the front-facing jutted surface -->
+  <path d="M92 292 Q250 334 408 292" fill="none" stroke="#D3EDB6" stroke-width="13" stroke-linecap="round" opacity="0.9"/>
+  <!-- rounded side shading on the jaw -->
+  <path d="M75 306 C82 390 150 452 238 462 C196 450 110 388 101 306 Z" fill="#3E8E41" opacity="0.4"/>
+  <path d="M425 306 C418 390 350 452 262 462 C304 450 390 388 399 306 Z" fill="#3E8E41" opacity="0.4"/>
+  <!-- chin / throat -->
+  <ellipse cx="250" cy="405" rx="100" ry="46" fill="url(#gChin)"/>
+  <path d="M205 428 Q250 444 295 428" fill="none" stroke="#9FC07F" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
+  <path d="M222 442 Q250 452 278 442" fill="none" stroke="#9FC07F" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
+</svg>

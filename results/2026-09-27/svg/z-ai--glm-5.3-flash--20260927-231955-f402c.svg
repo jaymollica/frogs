@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#cfe8cf"/>
+  <!-- Back legs -->
+  <ellipse cx="300" cy="230" rx="45" ry="20" fill="#4a8c3f"/>
+  <ellipse cx="100" cy="230" rx="45" ry="20" fill="#4a8c3f"/>
+  <!-- Body -->
+  <ellipse cx="200" cy="170" rx="110" ry="85" fill="#5aa348"/>
+  <!-- Belly -->
+  <ellipse cx="200" cy="210" rx="70" ry="40" fill="#cde6a5"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="115" rx="85" ry="60" fill="#5aa348"/>
+  <!-- Heavily protruding lower jaw -->
+  <ellipse cx="200" cy="160" rx="95" ry="45" fill="#7bbf5e"/>
+  <ellipse cx="200" cy="172" rx="85" ry="35" fill="#cde6a5"/>
+  <!-- Mouth line curving with jaw -->
+  <path d="M120 130 Q200 110 280 130" fill="none" stroke="#2f5d28" stroke-width="4" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="140" cy="70" r="30" fill="#5aa348"/>
+  <circle cx="260" cy="70" r="30" fill="#5aa348"/>
+  <circle cx="140" cy="65" r="18" fill="#fff"/>
+  <circle cx="260" cy="65" r="18" fill="#fff"/>
+  <circle cx="140" cy="65" r="9" fill="#1a1a1a"/>
+  <circle cx="260" cy="65" r="9" fill="#1a1a1a"/>
+  <circle cx="144" cy="61" r="3" fill="#fff"/>
+  <circle cx="264" cy="61" r="3" fill="#fff"/>
+  <!-- Nostrils -->
+  <circle cx="180" cy="105" r="3" fill="#2f5d28"/>
+  <circle cx="220" cy="105" r="3" fill="#2f5d28"/>
+  <!-- Front feet -->
+  <ellipse cx="160" cy="245" rx="28" ry="12" fill="#4a8c3f"/>
+  <ellipse cx="240" cy="245" rx="28" ry="12" fill="#4a8c3f"/>
+</svg>

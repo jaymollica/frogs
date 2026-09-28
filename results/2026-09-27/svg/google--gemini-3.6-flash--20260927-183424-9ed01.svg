@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="bg-grad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#4a3b2c"/>
+      <stop offset="60%" stop-color="#1e1610"/>
+      <stop offset="100%" stop-color="#0a0705"/>
+    </radialGradient>
+    
+    <!-- Gold Frame Gradient -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9d976"/>
+      <stop offset="30%" stop-color="#e9b646"/>
+      <stop offset="50%" stop-color="#fff1b0"/>
+      <stop offset="70%" stop-color="#c1932e"/>
+      <stop offset="100%" stop-color="#8a640f"/>
+    </linearGradient>
+
+    <!-- Frog Skin Gradients -->
+    <radialGradient id="skin-base" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#85b243"/>
+      <stop offset="55%" stop-color="#557a2b"/>
+      <stop offset="85%" stop-color="#365219"/>
+      <stop offset="100%" stop-color="#21360d"/>
+    </radialGradient>
+
+    <linearGradient id="skin-highlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b6e26d" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#85b243" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="jaw-belly" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#e8eea1"/>
+      <stop offset="60%" stop-color="#b8c66c"/>
+      <stop offset="100%" stop-color="#7c8e3b"/>
+    </radialGradient>
+
+    <!-- Eye Gradient -->
+    <radialGradient id="eye-grad" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="70%" stop-color="#da8a00"/>
+      <stop offset="100%" stop-color="#5d3100"/>
+    </radialGradient>
+
+    <!-- Velvet Coat Gradient -->
+    <linearGradient id="velvet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#800c1c"/>
+      <stop offset="40%" stop-color="#4a000b"/>
+      <stop offset="100%" stop-color="#1f0004"/>
+    </linearGradient>
+
+    <!-- Order of Golden Fleece Gold -->
+    <linearGradient id="fleece-gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff3a1"/>
+      <stop offset="50%" stop-color="#d49a24"/>
+      <stop offset="100%" stop-color="#614102"/>
+    </linearGradient>
+
+    <!-- Shadows -->
+    <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="drop-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="4" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="600" height="700" fill="url(#bg-grad)"/>
+
+  <!-- Regal Backdrop Oval Frame -->
+  <g filter="url(#drop-shadow)">
+    <ellipse cx="300" cy="330" rx="245" ry="305" fill="none" stroke="url(#gold-grad)" stroke-width="12"/>
+    <ellipse cx="300" cy="330" rx="235" ry="295" fill="none" stroke="#100b08" stroke-width="4"/>
+  </g>
+
+  <!-- MAIN CHARACTER GROUP -->
+  <g id="habsburg-frog">
+    
+    <!-- Back / Body Coat -->
+    <path d="M 160 520 C 160 450, 230 440, 300 440 C 370 440, 440 450, 440 520 L 480 650 L 120 650 Z" fill="url(#velvet)"/>
+    
+    <!-- Golden Shoulder Trim / Epaulets -->
+    <path d="M 145 530 C 130 570, 125 610, 120 650 L 165 650 C 170 600, 175 560, 185 525 Z" fill="url(#gold-grad)"/>
+    <path d="M 455 530 C 470 570, 475 610, 480 650 L 435 650 C 430 600, 425 560, 415 525 Z" fill="url(#gold-grad)"/>
+
+    <!-- Order of the Golden Fleece Sash & Chain -->
+    <path d="M 210 470 Q 300 560 390 470" fill="none" stroke="url(#gold-grad)" stroke-width="12"/>
+    <path d="M 215 470 Q 300 560 385 470" fill="none" stroke="#3d2600" stroke-width="2" stroke-dasharray="6,6"/>
+    
+    <!-- Golden Fleece Pendant (The Golden Ram) -->
+    <g transform="translate(285, 525) scale(0.75)" filter="url(#drop-shadow)">
+      <path d="M 20 0 C 30 0, 35 10, 30 20 C 25 28, 28 35, 20 40 C 12 35, 15 28, 10 20 C 5 10, 10 0, 20 0 Z" fill="url(#fleece-gold)"/>
+      <circle cx="20" cy="12" r="5" fill="#a81111"/>
+      <!-- Tiny sheep body -->
+      <path d="M 8 25 Q 20 18 32 25 Q 38 35 32 42 Q 20 38 8 42 Q 2 35 8 25 Z" fill="url(#fleece-gold)"/>
+      <path d="M 6 28 C 0 26, -2 32, 3 35 Z" fill="url(#fleece-gold)"/> <!-- head -->
+    </g>
+
+    <!-- Imperial Ruff Collar (Back Layers) -->
+    <g fill="#e6e1d5" stroke="#d0c8b6" stroke-width="1.5">
+      <!-- Outer pleated fan -->
+      <path d="M 160 440 Q 300 490 440 440 C 470 410, 440 360, 390 380 Q 300 410 210 380 C 160 360, 130 410, 160 440 Z" fill="#d9d2c2"/>
+      <!-- Collar Pleats -->
+      <path d="M 165 425 Q 200 450 220 415"/>
+      <path d="M 200 435 Q 235 460 255 420"/>
+      <path d="M 240 442 Q 275 468 290 422"/>
+      <path d="M 280 445 Q 315 468 330 422"/>
+      <path d="M 320 442 Q 355 460 370 418"/>
+      <path d="M 360 435 Q 395 450 410 410"/>
+    </g>
+
+    <!-- Neck Base -->
+    <path d="M 230 360 L 370 360 L 380 420 L 220 420 Z" fill="#365219"/>
+
+    <!-- Left Eye Socket & Eye (Viewer's Left) -->
+    <g id="left-eye">
+      <circle cx="230" cy="170" r="45" fill="url(#skin-base)"/>
+      <circle cx="230" cy="170" r="45" fill="url(#skin-highlight)"/>
+      <!-- Eyeball -->
+      <circle cx="240" cy="170" r="32" fill="url(#eye-grad)"/>
+      <!-- Iris/Pupil (Frog-like horizontal slit, sleepy/regal expression) -->
+      <ellipse cx="242" cy="170" rx="20" ry="6" fill="#0d0800" transform="rotate(-5, 242, 170)"/>
+      <ellipse cx="242" cy="170" rx="18" ry="4" fill="#261200" transform="rotate(-5, 242, 170)"/>
+      <!-- Eye Highlight -->
+      <circle cx="230" cy="158" r="5" fill="#ffffff" opacity="0.8"/>
+      <circle cx="222" cy="166" r="2" fill="#ffffff" opacity="0.6"/>
+      <!-- Droopy Eyelid (Aristocratic disdain) -->
+      <path d="M 190 155 Q 240 135 280 165 Q 240 150 190 155 Z" fill="url(#skin-base)"/>
+      <path d="M 190 155 Q 240 150 280 165" fill="none" stroke="#21360d" stroke-width="3"/>
+    </g>
+
+    <!-- Right Eye Socket & Eye (Viewer's Right) -->
+    <g id="right-eye">
+      <circle cx="370" cy="170" r="42" fill="url(#skin-base)"/>
+      <circle cx="370" cy="170" r="42" fill="url(#skin-highlight)"/>
+      <!-- Eyeball -->
+      <circle cx="360" cy="170" r="30" fill="url(#eye-grad)"/>
+      <!-- Pupil -->
+      <ellipse cx="358" cy="170" rx="18" ry="5" fill="#0d0800" transform="rotate(5, 358, 170)"/>
+      <!-- Eye Highlight -->
+      <circle cx="348" cy="158" r="5" fill="#ffffff" opacity="0.8"/>
+      <!-- Droopy Eyelid -->
+      <path d="M 320 165 Q 360 148 410 158 Q 360 152 320 165 Z" fill="url(#skin-base)"/>
+      <path d="M 320 165 Q 360 152 410 158" fill="none" stroke="#21360d" stroke-width="3"/>
+    </g>
+
+    <!-- Head Top / Brow -->
+    <path d="M 210 180 Q 300 150 390 180 C 410 210, 400 250, 390 270 Q 300 240 210 270 C 200 250, 190 210, 210 180 Z" fill="url(#skin-base)"/>
+    
+    <!-- Upper Snout (Small, Receding, Weak upper jaw) -->
+    <path d="M 220 250 Q 300 230 380 250 C 390 285, 360 300, 300 295 C 240 300, 210 285, 220 250 Z" fill="url(#skin-base)"/>
+    <!-- Nostrils (Tiny, pinched) -->
+    <ellipse cx="285" cy="265" rx="3" ry="5" fill="#152407" transform="rotate(-10, 285, 265)"/>
+    <ellipse cx="315" cy="265" rx="3" ry="5" fill="#152407" transform="rotate(10, 315, 265)"/>
+
+    <!-- HABSBURG JAW (THE MAIN FEATURE: Massively jutting, heavy, droopy) -->
+    <!-- Jaw Shadow/Base -->
+    <path d="M 180 290 
+             C 130 310, 110 380, 140 430 
+             C 165 470, 220 500, 300 505 
+             C 380 500, 435 470, 460 430 
+             C 490 380, 470 310, 420 290 
+             C 380 320, 340 330, 300 330 
+             C 260 330, 220 320, 180 290 Z" 
+          fill="#1c2d09"/>
+
+    <!-- Main Outer Jaw Structure -->
+    <path d="M 185 295 
+             C 140 320, 120 385, 150 435 
+             C 175 475, 225 500, 300 505 
+             C 375 500, 425 475, 450 435 
+             C 480 385, 460 320, 415 295 
+             C 370 335, 335 345, 300 345 
+             C 265 345, 230 335, 185 295 Z" 
+          fill="url(#skin-base)"/>
+
+    <!-- Fleshy Bulbous Chin (Under-belly color, jutting forward) -->
+    <path d="M 195 340 
+             C 160 380, 160 440, 200 465 
+             C 230 485, 260 495, 300 495 
+             C 340 495, 370 485, 400 465 
+             C 440 440, 440 380, 405 340 
+             C 365 375, 335 385, 300 385 
+             C 265 385, 235 375, 195 340 Z" 
+          fill="url(#jaw-belly)"/>
+
+    <!-- Deep Habsburg Chin Cleft & Wrinkles -->
+    <path d="M 300 415 Q 300 465 300 485" stroke="#556626" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M 300 425 Q 295 460 285 475" stroke="#87963b" stroke-width="2" stroke-linecap="round" fill="none"/>
+    
+    <!-- Heavy Lip/Everted Lower Lip (Prognathism) -->
+    <path d="M 190 310 
+             Q 240 335 300 338 
+             Q 360 335 410 310 
+             C 435 345, 400 370, 300 375 
+             C 200 370, 165 345, 190 310 Z" 
+          fill="#6b8e38" stroke="#2d4212" stroke-width="2"/>
+
+    <!-- Pouty, Drooping Lower Lip Highlight -->
+    <path d="M 210 325 Q 300 355 390 325" fill="none" stroke="#a2c759" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Mouth Line (The overbite/underbite gap) -->
+    <path d="M 205 300 C 240 285, 270 280, 300 280 C 330 280, 360 285, 395 300 C 360 325, 330 335, 300 335 C 270 335, 240 325, 205 300 Z" fill="#150a05"/>
+    
+    <!-- Subtle Asymmetric Drool / Melancholy Slip -->
+    <path d="M 370 320 Q 375 345 372 355 C 370 360, 376 362, 378 357 C 382 345, 378 322, 370 320 Z" fill="#ffffff" opacity="0.6"/>
+
+    <!-- Skin Texture / Skin Warts (Royal Degeneracy) -->
+    <circle cx="210" cy="380" r="6" fill="#476623" opacity="0.5"/>
+    <circle cx="212" cy="379" r="2" fill="#85b243" opacity="0.6"/>
+    
+    <circle cx="390" cy="390" r="8" fill="#476623" opacity="0.5"/>
+    <circle cx="392" cy="388" r="3" fill="#85b243" opacity="0.6"/>
+
+    <circle cx="260" cy="440" r="5" fill="#99a84a" opacity="0.5"/>
+    <circle cx="340" cy="450" r="7" fill="#99a84a" opacity="0.5"/>
+
+    <!-- Front Ruff Pleats (Overlapping the huge jaw) -->
+    <g fill="#f0ebd9" stroke="#c2baa5" stroke-width="1.5" filter="url(#drop-shadow)">
+      <!-- Pleats fanning out right under the massive chin -->
+      <path d="M 220 450 C 210 490, 190 500, 160 480 C 180 450, 200 430, 220 450 Z"/>
+      <path d="M 250 470 C 240 515, 210 520, 190 495 C 210 465, 230 445, 250 470 Z"/>
+      <path d="M 290 485 C 280 530, 250 535, 230 505 C 250 475, 270 455, 290 485 Z"/>
+      <path d="M 330 485 C 340 530, 370 535, 390 505 C 370 475, 350 455, 330 485 Z"/>
+      <path d="M 370 470 C 380 515, 410 520, 430 495 C 410 465, 390 445, 370 470 Z"/>
+      <path d="M 400 450 C 410 490, 440 500, 470 480 C 450 450, 430 430, 400 450 Z"/>
+    </g>
+
+    <!-- Imperial Habsburg Crown (Perched arrogantly tilted between eyes) -->
+    <g id="crown" transform="translate(240, 65) rotate(-4)" filter="url(#drop-shadow)">
+      <!-- Crown Base -->
+      <path d="M 10 70 L 110 70 L 105 85 L 15 85 Z" fill="url(#gold-grad)"/>
+      <rect x="12" y="73" width="96" height="4" fill="#a81111"/>
+      <!-- Jewels on base -->
+      <circle cx="25" cy="78" r="3" fill="#00b359"/>
+      <circle cx="45" cy="78" r="3.5" fill="#a81111"/>
+      <circle cx="60" cy="78" r="3" fill="#00b359"/>
+      <circle cx="75" cy="78" r="3.5" fill="#a81111"/>
+      <circle cx="95" cy="78" r="3" fill="#00b359"/>
+
+      <!-- Crown Spikes / Peaks -->
+      <path d="M 10 70 L 15 40 L 35 60 L 60 25 L 85 60 L 105 40 L 110 70 Z" fill="url(#gold-grad)"/>
+
+      <!-- Inner Velvet Mitre/Cap (Habsburg Imperial style) -->
+      <path d="M 20 65 C 15 45, 30 25, 60 20 C 90 25, 105 45, 100 65 Z" fill="#7a0010" opacity="0.7"/>
+      
+      <!-- Central Imperial Arch -->
+      <path d="M 60 25 Q 60 0 60 -5" fill="none" stroke="url(#gold-grad)" stroke-width="8"/>
+      <!-- Cross on top -->
+      <path d="M 60 -18 L 60 -2" stroke="url(#gold-grad)" stroke-width="4"/>
+      <path d="M 52 -10 L 68 -10" stroke="url(#gold-grad)" stroke-width="4"/>
+
+      <!-- Jewels on Peaks -->
+      <circle cx="15" cy="40" r="4" fill="#fff"/>
+      <circle cx="60" cy="25" r="5" fill="#a81111"/>
+      <circle cx="105" cy="40" r="4" fill="#fff"/>
+    </g>
+
+    <!-- Highlight Overlay for Oil Portrait Polish -->
+    <ellipse cx="300" cy="330" rx="230" ry="290" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1"/>
+  </g>
+
+  <!-- Vignette / Shadow Overlay for Atmosphere -->
+  <rect width="600" height="700" fill="url(#shadow)" pointer-events="none"/>
+</svg>

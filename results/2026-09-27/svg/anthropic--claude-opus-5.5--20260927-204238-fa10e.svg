@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <rect width="500" height="400" fill="#dff3ff"/>
+  <ellipse cx="250" cy="360" rx="220" ry="30" fill="#7cbf5a"/>
+  <!-- lily pad -->
+  <ellipse cx="240" cy="345" rx="170" ry="28" fill="#4f9a3a"/>
+  <path d="M240 345 L410 335 L400 355 Z" fill="#dff3ff" opacity="0.6"/>
+  <!-- back leg -->
+  <path d="M120 300 C70 290 60 250 110 230 C160 215 190 260 180 300 Z" fill="#3f8f2f"/>
+  <path d="M110 320 C80 330 60 335 50 345 L140 345 C150 335 140 322 110 320 Z" fill="#3a8a2c"/>
+  <!-- body -->
+  <path d="M100 300 C90 220 150 160 250 150 C320 145 360 170 370 210 L360 300 C300 335 160 335 100 300 Z" fill="#4caf3c"/>
+  <!-- belly -->
+  <path d="M170 315 C220 330 300 325 350 300 L355 260 C300 280 230 290 170 315 Z" fill="#cfe88a"/>
+  <!-- spots -->
+  <ellipse cx="170" cy="210" rx="18" ry="11" fill="#2f7a25"/>
+  <ellipse cx="215" cy="180" rx="12" ry="8" fill="#2f7a25"/>
+  <ellipse cx="140" cy="255" rx="10" ry="7" fill="#2f7a25"/>
+  <!-- protruding lower jaw -->
+  <path d="M300 255 C340 250 400 245 440 238 C455 236 460 250 450 262 C420 290 350 300 300 290 Z" fill="#8fd06a" stroke="#2f6e22" stroke-width="3"/>
+  <!-- lower teeth sticking up -->
+  <path d="M395 244 l6 -14 l6 13 Z" fill="#fffbe6" stroke="#999" stroke-width="1"/>
+  <path d="M420 240 l5 -12 l6 11 Z" fill="#fffbe6" stroke="#999" stroke-width="1"/>
+  <path d="M438 238 l4 -10 l5 9 Z" fill="#fffbe6" stroke="#999" stroke-width="1"/>
+  <!-- upper head / upper jaw (shorter) -->
+  <path d="M260 160 C320 145 380 170 400 205 C408 220 400 232 385 236 C350 244 310 246 280 245 Z" fill="#4caf3c" stroke="#2f6e22" stroke-width="3"/>
+  <!-- mouth line of upper lip -->
+  <path d="M300 242 C340 242 370 238 390 232" stroke="#2f6e22" stroke-width="3" fill="none"/>
+  <!-- nostril -->
+  <ellipse cx="385" cy="200" rx="4" ry="2.5" fill="#1f4f18"/>
+  <!-- eye -->
+  <circle cx="315" cy="160" r="30" fill="#4caf3c" stroke="#2f6e22" stroke-width="3"/>
+  <circle cx="318" cy="158" r="21" fill="#f5d547"/>
+  <ellipse cx="320" cy="158" rx="13" ry="7" fill="#111"/>
+  <circle cx="314" cy="152" r="4" fill="#fff"/>
+  <!-- slightly grumpy brow -->
+  <path d="M292 138 C310 128 330 130 345 140" stroke="#2f6e22" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- chin highlight -->
+  <path d="M320 282 C360 285 410 275 440 258" stroke="#b9e59a" stroke-width="3" fill="none"/>
+  <!-- front leg -->
+  <path d="M300 285 C295 310 300 330 310 345 L335 345 C325 325 325 305 330 290 Z" fill="#3f8f2f"/>
+  <path d="M300 345 q8 -8 12 0 q8 -8 12 0 q8 -8 12 0 Z" fill="#3a8a2c"/>
+  <!-- label -->
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#2f6e22">Frog with Mandibular Prognathism</text>
+</svg>

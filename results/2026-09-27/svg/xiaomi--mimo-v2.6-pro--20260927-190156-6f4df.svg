@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440">
+  <defs>
+    <linearGradient id="bodyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93da56"/>
+      <stop offset="1" stop-color="#3f8c26"/>
+    </linearGradient>
+    <linearGradient id="jawG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84cf4c"/>
+      <stop offset="1" stop-color="#4c9a2c"/>
+    </linearGradient>
+    <radialGradient id="irisG" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#f7d269"/>
+      <stop offset="1" stop-color="#c07f1c"/>
+    </radialGradient>
+    <radialGradient id="eyeBallG" cx="0.35" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#fffef6"/>
+      <stop offset="1" stop-color="#e6e2c8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- shadow -->
+  <ellipse cx="200" cy="404" rx="148" ry="25" fill="#1c3a10" opacity="0.18"/>
+
+  <!-- back feet -->
+  <g>
+    <path d="M 96,352 C 58,360 32,382 34,394 C 36,405 56,403 72,395 C 92,385 118,377 128,366 Z" fill="#3f8c26"/>
+    <circle cx="32" cy="392" r="11" fill="#4c9a2c"/>
+    <circle cx="52" cy="399" r="10" fill="#4c9a2c"/>
+    <circle cx="72" cy="394" r="9" fill="#4c9a2c"/>
+    <circle cx="32" cy="394" r="5" fill="#cfe08b"/>
+    <circle cx="52" cy="401" r="4.5" fill="#cfe08b"/>
+    <circle cx="72" cy="396" r="4" fill="#cfe08b"/>
+    <path d="M 304,352 C 342,360 368,382 366,394 C 364,405 344,403 328,395 C 308,385 282,377 272,366 Z" fill="#3f8c26"/>
+    <circle cx="368" cy="392" r="11" fill="#4c9a2c"/>
+    <circle cx="348" cy="399" r="10" fill="#4c9a2c"/>
+    <circle cx="328" cy="394" r="9" fill="#4c9a2c"/>
+    <circle cx="368" cy="394" r="5" fill="#cfe08b"/>
+    <circle cx="348" cy="401" r="4.5" fill="#cfe08b"/>
+    <circle cx="328" cy="396" r="4" fill="#cfe08b"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="200" cy="302" rx="122" ry="92" fill="url(#bodyG)"/>
+  <ellipse cx="200" cy="332" rx="82" ry="52" fill="#dcecab"/>
+  <ellipse cx="122" cy="336" rx="17" ry="11" fill="#2f7a1c" opacity="0.28"/>
+  <ellipse cx="278" cy="338" rx="17" ry="11" fill="#2f7a1c" opacity="0.28"/>
+  <ellipse cx="150" cy="372" rx="12" ry="8" fill="#2f7a1c" opacity="0.22"/>
+  <ellipse cx="252" cy="374" rx="12" ry="8" fill="#2f7a1c" opacity="0.22"/>
+
+  <!-- front arms -->
+  <path d="M 122,258 C 96,278 92,322 120,340 C 142,353 168,340 164,318 C 160,294 148,274 122,258 Z" fill="#4c9a2c"/>
+  <circle cx="112" cy="346" r="12" fill="#4c9a2c"/>
+  <circle cx="136" cy="353" r="11" fill="#4c9a2c"/>
+  <circle cx="158" cy="345" r="10" fill="#4c9a2c"/>
+  <circle cx="112" cy="350" r="5" fill="#cfe08b"/>
+  <circle cx="136" cy="357" r="4.5" fill="#cfe08b"/>
+  <circle cx="158" cy="349" r="4" fill="#cfe08b"/>
+  <path d="M 278,258 C 304,278 308,322 280,340 C 258,353 232,340 236,318 C 240,294 252,274 278,258 Z" fill="#4c9a2c"/>
+  <circle cx="288" cy="346" r="12" fill="#4c9a2c"/>
+  <circle cx="264" cy="353" r="11" fill="#4c9a2c"/>
+  <circle cx="242" cy="345" r="10" fill="#4c9a2c"/>
+  <circle cx="288" cy="350" r="5" fill="#cfe08b"/>
+  <circle cx="264" cy="357" r="4.5" fill="#cfe08b"/>
+  <circle cx="242" cy="349" r="4" fill="#cfe08b"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="196" rx="138" ry="114" fill="url(#bodyG)"/>
+  <ellipse cx="200" cy="150" rx="118" ry="62" fill="#a4e468" opacity="0.25"/>
+
+  <!-- giant protruding habsburg jaw -->
+  <path d="M 200,222 C 130,222 96,262 98,304 C 100,352 146,382 200,382 C 254,382 300,352 302,304 C 304,262 270,222 200,222 Z" fill="url(#jawG)"/>
+  <ellipse cx="200" cy="286" rx="99" ry="27" fill="#3f8c26"/>
+  <ellipse cx="200" cy="278" rx="92" ry="18" fill="#5aa836"/>
+
+  <!-- mouth -->
+  <path d="M 96,232 C 132,286 268,286 304,232 C 268,332 132,332 96,232 Z" fill="#45190f"/>
+  <ellipse cx="200" cy="288" rx="52" ry="15" fill="#e2657f"/>
+  <ellipse cx="200" cy="284" rx="30" ry="7" fill="#f0879b" opacity="0.6"/>
+
+  <!-- teeth -->
+  <g fill="#f7f2df">
+    <rect x="148" y="258" width="20" height="27" rx="6" transform="rotate(-9 158 271)"/>
+    <rect x="176" y="263" width="21" height="33" rx="6"/>
+    <rect x="203" y="263" width="21" height="33" rx="6"/>
+    <rect x="232" y="258" width="20" height="27" rx="6" transform="rotate(9 242 271)"/>
+  </g>
+  <g fill="#e7dfc4">
+    <rect x="184" y="288" width="15" height="20" rx="5"/>
+    <rect x="203" y="288" width="15" height="20" rx="5"/>
+  </g>
+
+  <!-- nostrils -->
+  <ellipse cx="174" cy="198" rx="10" ry="6" transform="rotate(-22 174 198)" fill="#2c6417"/>
+  <ellipse cx="226" cy="198" rx="10" ry="6" transform="rotate(22 226 198)" fill="#2c6417"/>
+
+  <!-- blush -->
+  <ellipse cx="108" cy="214" rx="24" ry="15" fill="#e8868a" opacity="0.35"/>
+  <ellipse cx="292" cy="214" rx="24" ry="15" fill="#e8868a" opacity="0.35"/>
+
+  <!-- eyes -->
+  <circle cx="132" cy="104" r="54" fill="url(#bodyG)"/>
+  <circle cx="268" cy="104" r="54" fill="url(#bodyG)"/>
+  <circle cx="134" cy="110" r="42" fill="url(#eyeBallG)"/>
+  <circle cx="266" cy="110" r="42" fill="url(#eyeBallG)"/>
+  <circle cx="142" cy="118" r="23" fill="url(#irisG)"/>
+  <circle cx="258" cy="118" r="23" fill="url(#irisG)"/>
+  <circle cx="145" cy="120" r="12" fill="#151515"/>
+  <circle cx="255" cy="120" r="12" fill="#151515"/>
+  <circle cx="131" cy="103" r="9" fill="#ffffff" opacity="0.92"/>
+  <circle cx="271" cy="103" r="9" fill="#ffffff" opacity="0.92"/>
+  <!-- lids -->
+  <path d="M 92,110 C 92,82 118,66 138,66 C 158,66 178,82 178,110 C 160,96 112,96 92,110 Z" fill="#5aa636"/>
+  <path d="M 308,110 C 308,82 282,66 262,66 C 242,66 222,82 222,110 C 240,96 288,96 308,110 Z" fill="#5aa636"/>
+  <path d="M 92,110 C 112,96 160,96 178,110" stroke="#2f7a1c" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 308,110 C 288,96 240,96 222,110" stroke="#2f7a1c" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- head spots -->
+  <ellipse cx="200" cy="128" rx="22" ry="13" fill="#2f7a1c" opacity="0.22"/>
+  <ellipse cx="200" cy="392" rx="26" ry="9" fill="#2f7a1c" opacity="0.18"/>
+</svg>

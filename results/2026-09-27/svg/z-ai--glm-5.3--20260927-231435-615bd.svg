@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Frog with heavily protruding lower jaw</title>
+  <rect width="512" height="512" fill="#eef6e2"/>
+  <ellipse cx="278" cy="468" rx="190" ry="16" fill="#000000" opacity="0.1"/>
+  <!-- far front leg -->
+  <path d="M286 420 Q292 445 300 452" stroke="#3f9136" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <ellipse cx="302" cy="458" rx="17" ry="8" fill="#3f9136"/>
+  <circle cx="318" cy="454" r="4.5" fill="#3f9136"/>
+  <circle cx="320" cy="459" r="4.5" fill="#3f9136"/>
+  <circle cx="317" cy="464" r="4" fill="#3f9136"/>
+  <!-- body -->
+  <ellipse cx="240" cy="340" rx="120" ry="105" fill="#56b34a"/>
+  <ellipse cx="285" cy="355" rx="72" ry="70" fill="#d8efb0"/>
+  <!-- haunch -->
+  <ellipse cx="185" cy="390" rx="80" ry="65" fill="#56b34a"/>
+  <ellipse cx="182" cy="382" rx="52" ry="40" fill="#3f9136" opacity="0.35"/>
+  <!-- spots -->
+  <g fill="#3f9136" opacity="0.55">
+    <circle cx="150" cy="290" r="10"/>
+    <circle cx="185" cy="262" r="7"/>
+    <circle cx="160" cy="372" r="11"/>
+    <circle cx="202" cy="404" r="7"/>
+    <circle cx="140" cy="410" r="6"/>
+  </g>
+  <!-- back foot -->
+  <rect x="148" y="447" width="112" height="22" rx="11" fill="#56b34a"/>
+  <circle cx="256" cy="452" r="6.5" fill="#56b34a"/>
+  <circle cx="261" cy="458.5" r="6.5" fill="#56b34a"/>
+  <circle cx="255" cy="464" r="6" fill="#56b34a"/>
+  <!-- head -->
+  <ellipse cx="300" cy="200" rx="90" ry="75" fill="#56b34a"/>
+  <!-- heavily protruding lower jaw -->
+  <path d="M245 262 Q300 250 360 252 Q415 254 440 262 Q462 270 462 286 Q462 304 432 312 Q350 332 268 322 Q240 318 240 290 Q240 270 245 262 Z" fill="#8bd97c"/>
+  <path d="M268 312 Q345 330 425 304" stroke="#3f9136" stroke-width="4" fill="none" opacity="0.45" stroke-linecap="round"/>
+  <!-- upper mouth line -->
+  <path d="M238 247 Q335 236 392 258" stroke="#2f7029" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- lower teeth jutting past the upper lip -->
+  <g fill="#fdfdfd" stroke="#c9c9c9" stroke-width="1" stroke-linejoin="round">
+    <path d="M396 254 Q401 233 406 254 Z"/>
+    <path d="M413 256 Q418 236 423 256 Z"/>
+    <path d="M430 259 Q435 240 440 259 Z"/>
+  </g>
+  <!-- nostril -->
+  <circle cx="346" cy="152" r="5" fill="#2f7029"/>
+  <!-- bulging eye -->
+  <circle cx="298" cy="130" r="40" fill="#56b34a"/>
+  <circle cx="302" cy="125" r="26" fill="#ffffff"/>
+  <circle cx="307" cy="125" r="15" fill="#f7b733"/>
+  <ellipse cx="309" cy="125" rx="10" ry="6" fill="#222222"/>
+  <circle cx="303" cy="119" r="4.5" fill="#ffffff"/>
+  <!-- near front leg -->
+  <path d="M310 408 Q318 438 330 452" stroke="#56b34a" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <ellipse cx="344" cy="456" rx="22" ry="9" fill="#56b34a"/>
+  <circle cx="363" cy="451" r="5.5" fill="#56b34a"/>
+  <circle cx="366" cy="457.5" r="5.5" fill="#56b34a"/>
+  <circle cx="362" cy="463.5" r="5" fill="#56b34a"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f4ecd6"/>
+      <stop offset="100%" stop-color="#cdbf97"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fbf4d"/>
+      <stop offset="100%" stop-color="#4f8f2e"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9e8a6"/>
+      <stop offset="100%" stop-color="#b7cf7a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe27a"/>
+      <stop offset="100%" stop-color="#c9921e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="210" cy="345" rx="160" ry="18" fill="#a8996f" opacity="0.6"/>
+
+  <!-- back leg -->
+  <path d="M95,300 C60,300 50,340 90,345 L170,345 C150,330 130,300 95,300 Z" fill="#4f8f2e" stroke="#2f5a1a" stroke-width="3"/>
+  <path d="M60,345 l-12,6 M75,346 l-6,8 M90,346 l2,8" stroke="#2f5a1a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="170" cy="275" rx="105" ry="72" fill="url(#skin)" stroke="#2f5a1a" stroke-width="3"/>
+  <ellipse cx="120" cy="260" rx="10" ry="7" fill="#3e7424"/>
+  <ellipse cx="150" cy="235" rx="7" ry="5" fill="#3e7424"/>
+  <ellipse cx="100" cy="295" rx="8" ry="6" fill="#3e7424"/>
+  <ellipse cx="185" cy="300" rx="9" ry="6" fill="#3e7424"/>
+
+  <!-- ruff collar -->
+  <path d="M165,180 q14,8 0,18 q14,8 0,18 q14,8 0,18 q14,8 0,18 q14,8 0,18 q14,8 0,18 l30,0 q-14,-8 0,-18 q-14,-8 0,-18 q-14,-8 0,-18 q-14,-8 0,-18 q-14,-8 0,-18 q-14,-8 0,-18 Z" fill="#fbf8ef" stroke="#9c9480" stroke-width="2"/>
+
+  <!-- lower jaw (protruding) -->
+  <path d="M165,208 C230,214 300,212 345,202 C372,198 388,212 383,234 C377,260 330,276 268,276 C218,276 180,260 165,240 Z" fill="url(#belly)" stroke="#2f5a1a" stroke-width="3"/>
+  <path d="M300,262 C320,262 345,255 360,244" stroke="#8fa75a" stroke-width="2" fill="none"/>
+  <path d="M372,236 q-6,6 -2,12" stroke="#8fa75a" stroke-width="2" fill="none"/>
+
+  <!-- upper head -->
+  <path d="M160,210 C158,140 230,118 290,133 C330,143 352,178 340,205 C300,213 220,215 160,210 Z" fill="url(#skin)" stroke="#2f5a1a" stroke-width="3"/>
+  <ellipse cx="326" cy="158" rx="4" ry="2.5" fill="#1f3a10"/>
+
+  <!-- jutting lower lip over upper jaw -->
+  <path d="M332,207 C348,194 374,192 384,206 C388,218 376,224 362,222 C350,220 340,215 332,207 Z" fill="#c98a8a" stroke="#7a4040" stroke-width="2.5"/>
+  <path d="M175,211 C240,217 300,214 334,206" stroke="#1f3a10" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- eye -->
+  <circle cx="255" cy="135" r="29" fill="#6aa83e" stroke="#2f5a1a" stroke-width="3"/>
+  <circle cx="259" cy="137" r="20" fill="#e8c341" stroke="#6b5412" stroke-width="2"/>
+  <ellipse cx="260" cy="138" rx="11" ry="6" fill="#111"/>
+  <circle cx="265" cy="132" r="3.5" fill="#fff"/>
+  <!-- heavy drooping eyelid -->
+  <path d="M232,128 C240,108 275,106 285,126 C272,122 248,122 232,128 Z" fill="#5f9e36" stroke="#2f5a1a" stroke-width="2.5"/>
+
+  <!-- crown -->
+  <g transform="rotate(-12 225 100)">
+    <path d="M195,112 L198,78 L210,95 L222,72 L234,95 L246,78 L250,112 Z" fill="url(#gold)" stroke="#7a5510" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="194" y="106" width="57" height="9" rx="2" fill="#c9921e" stroke="#7a5510" stroke-width="2"/>
+    <circle cx="222" cy="72" r="4" fill="#c0283a"/>
+    <circle cx="198" cy="78" r="3" fill="#2a5ec0"/>
+    <circle cx="246" cy="78" r="3" fill="#2a5ec0"/>
+    <circle cx="222" cy="110" r="3" fill="#c0283a"/>
+  </g>
+
+  <!-- front leg -->
+  <path d="M235,270 C255,285 262,315 268,338 L285,338 C278,310 272,280 255,262 Z" fill="#5f9e36" stroke="#2f5a1a" stroke-width="3"/>
+  <path d="M268,340 l-10,6 M276,341 l0,9 M284,340 l10,6" stroke="#2f5a1a" stroke-width="4" stroke-linecap="round"/>
+</svg>

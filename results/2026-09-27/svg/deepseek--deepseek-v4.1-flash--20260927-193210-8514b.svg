@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="100%" height="100%">
+  <defs>
+    <style>
+      .outline { stroke: #1B5E20; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .base { fill: #4CAF50; }
+      .dark-green { fill: #388E3C; }
+      .shadow-green { fill: #2E7D32; }
+      .belly { fill: #C8E6C9; }
+      .eye-white { fill: #FFFFFF; }
+      .pupil { fill: #000000; }
+      .highlight { fill: #81C784; }
+    </style>
+  </defs>
+
+  <!-- Back Legs -->
+  <g id="back-legs">
+    <!-- Left Back Leg -->
+    <ellipse cx="140" cy="380" rx="60" ry="45" transform="rotate(-30 140 380)" class="base outline" />
+    <ellipse cx="130" cy="370" rx="30" ry="15" transform="rotate(-30 130 370)" class="highlight" opacity="0.6" />
+    <!-- Left Foot -->
+    <path d="M 120 410 Q 70 430 60 460 Q 80 470 100 460 Q 110 480 130 470 Q 150 480 160 460 Q 170 440 160 410 Z" class="base outline" />
+    <path d="M 100 470 Q 120 480 140 460" fill="none" class="outline" />
+    <path d="M 120 470 Q 140 490 160 460" fill="none" class="outline" />
+
+    <!-- Right Back Leg -->
+    <ellipse cx="360" cy="380" rx="60" ry="45" transform="rotate(30 360 380)" class="base outline" />
+    <ellipse cx="370" cy="370" rx="30" ry="15" transform="rotate(30 370 370)" class="highlight" opacity="0.6" />
+    <!-- Right Foot -->
+    <path d="M 380 410 Q 430 430 440 460 Q 420 470 400 460 Q 390 480 370 470 Q 350 480 340 460 Q 330 440 340 410 Z" class="base outline" />
+    <path d="M 400 470 Q 380 480 360 460" fill="none" class="outline" />
+    <path d="M 380 470 Q 360 490 340 460" fill="none" class="outline" />
+  </g>
+
+  <!-- Body -->
+  <g id="body">
+    <ellipse cx="250" cy="320" rx="130" ry="110" class="base outline" />
+    <ellipse cx="250" cy="340" rx="90" ry="80" class="belly" />
+    <ellipse cx="230" cy="320" rx="40" ry="30" class="eye-white" opacity="0.4" />
+    
+    <!-- Body Spots -->
+    <circle cx="180" cy="300" r="12" class="shadow-green" />
+    <circle cx="320" cy="320" r="15" class="shadow-green" />
+    <circle cx="240" cy="360" r="9" class="shadow-green" />
+    <circle cx="280" cy="280" r="11" class="shadow-green" />
+    <circle cx="340" cy="360" r="8" class="shadow-green" />
+    <circle cx="160" cy="340" r="10" class="shadow-green" />
+  </g>
+
+  <!-- Front Legs -->
+  <g id="front-legs">
+    <!-- Left Arm -->
+    <path d="M 140 350 C 100 380, 90 430, 100 470 L 120 470 C 110 430, 120 400, 150 370 Z" class="base outline" />
+    <!-- Left Hand -->
+    <circle cx="110" cy="470" r="15" class="base outline" />
+    <!-- Right Arm -->
+    <path d="M 360 350 C 400 380, 410 430, 400 470 L 380 470 C 390 430, 380 400, 350 370 Z" class="base outline" />
+    <!-- Right Hand -->
+    <circle cx="390" cy="470" r="15" class="base outline" />
+  </g>
+
+  <!-- Lower Jaw (Habsburg Jaw) -->
+  <g id="lower-jaw">
+    <!-- Massive protruding jaw -->
+    <path d="M 140 240 
+             C 140 380, 180 450, 210 460 
+             C 230 475, 270 475, 290 460 
+             C 320 450, 360 380, 360 240 
+             C 320 260, 180 260, 140 240 Z" 
+          class="dark-green outline" />
+    
+    <!-- Jaw shading/volume -->
+    <path d="M 160 280 C 180 380, 220 440, 250 455 C 220 430, 190 370, 180 280 Z" class="shadow-green" opacity="0.5" />
+    
+    <!-- Habsburg Chin Crease / Detail -->
+    <path d="M 200 435 Q 250 455 300 435" fill="none" class="outline" stroke-width="4" />
+    
+    <!-- Jaw Warts / Bumps -->
+    <circle cx="180" cy="350" r="5" class="shadow-green" />
+    <circle cx="200" cy="400" r="6" class="shadow-green" />
+    <circle cx="300" cy="380" r="7" class="shadow-green" />
+    <circle cx="320" cy="330" r="5" class="shadow-green" />
+    
+    <!-- Lower Lip Line -->
+    <path d="M 150 250 Q 250 270 350 250" fill="none" class="outline" stroke-width="5" />
+  </g>
+
+  <!-- Upper Head -->
+  <g id="upper-head">
+    <ellipse cx="250" cy="190" rx="100" ry="70" class="base outline" />
+    
+    <!-- Upper Head Spots -->
+    <circle cx="210" cy="170" r="8" class="shadow-green" />
+    <circle cx="280" cy="160" r="10" class="shadow-green" />
+    <circle cx="250" cy="200" r="6" class="shadow-green" />
+    
+    <!-- Nostrils -->
+    <circle cx="210" cy="200" r="3" class="outline" fill="#1B5E20" />
+    <circle cx="290" cy="200" r="3" class="outline" fill="#1B5E20" />
+    
+    <!-- Upper Lip / Smile Line -->
+    <path d="M 200 230 Q 250 245 300 230" fill="none" class="outline" stroke-width="4" />
+  </g>
+
+  <!-- Eyes -->
+  <g id="eyes">
+    <!-- Left Eye Socket -->
+    <circle cx="160" cy="130" r="45" class="base outline" />
+    <!-- Right Eye Socket -->
+    <circle cx="340" cy="130" r="45" class="base outline" />
+    
+    <!-- Left Eye White -->
+    <circle cx="160" cy="130" r="30" class="eye-white" />
+    <!-- Right Eye White -->
+    <circle cx="340" cy="130" r="30" class="eye-white" />
+    
+    <!-- Left Pupil -->
+    <ellipse cx="160" cy="130" rx="12" ry="18" class="pupil" />
+    <!-- Right Pupil -->
+    <ellipse cx="340" cy="130" rx="12" ry="18" class="pupil" />
+    
+    <!-- Pupil Highlights -->
+    <circle cx="155" cy="125" r="5" class="eye-white" />
+    <circle cx="335" cy="125" r="5" class="eye-white" />
+    
+    <!-- Left Eyelid (Heavy, regal look) -->
+    <path d="M 115 130 Q 160 80 205 130 Z" class="dark-green outline" />
+    <!-- Right Eyelid -->
+    <path d="M 295 130 Q 340 80 385 130 Z" class="dark-green outline" />
+  </g>
+</svg>

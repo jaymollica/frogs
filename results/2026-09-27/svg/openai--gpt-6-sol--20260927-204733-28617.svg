@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Side-view frog with a pronounced protruding lower jaw">
+  <g stroke="#24513a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Hind leg and webbed foot -->
+    <path d="M139 311C86 302 55 328 65 369c6 25 27 39 62 41" fill="#63b65a"/>
+    <path d="M115 395 78 421 40 423q-12 1-10 10t20 8l37-2 28-13 26 10q17 7 22-2 4-9-10-16Z" fill="#78c96b"/>
+
+    <!-- Body -->
+    <path d="M160 225C99 223 66 259 73 319c5 49 47 79 114 78 57-1 96-34 115-92Z" fill="#69bb60"/>
+    <path d="M117 311c5 35 38 59 78 62" fill="none" stroke="#9cda7b" stroke-width="12"/>
+
+    <!-- Front leg and toes -->
+    <path d="M252 318c-16 22-17 52 1 79l-18 22-28 5q-13 2-11 11 2 8 17 7l34-3 20-15 22 12q14 7 20-1 5-8-7-16l-32-23 10-43" fill="#75c767"/>
+
+    <!-- Head and shorter upper jaw -->
+    <path d="M133 244c4-58 42-101 94-104 22-32 69-31 87 3 30 9 55 34 58 67 2 18-4 34-17 47l-27 17-65 17-105-9c-17-7-26-19-25-38Z" fill="#76c969"/>
+    <path d="M326 234q25-3 43-17" fill="none" stroke="#9bdb7c" stroke-width="9"/>
+
+    <!-- Upper lip ends well behind the projecting lower jaw -->
+    <path d="M302 268q27 7 53-11" fill="none" stroke="#24513a" stroke-width="8"/>
+
+    <!-- Protruding lower jaw / underbite -->
+    <path d="M222 291q55-18 98-12 42 6 92 7 14 0 16 13 2 12-12 19-50 27-112 33-85 8-143-38 30-9 61-22Z" fill="#9bd87a"/>
+    <path d="M274 284q64-2 104 4l39 3" fill="none" stroke="#24513a" stroke-width="7"/>
+    <path d="M290 330q59 5 103-15" fill="none" stroke="#c3eb93" stroke-width="7"/>
+
+    <!-- Raised eyes -->
+    <path d="M217 156c-3-25 14-43 36-43 22 0 38 19 34 42" fill="#76c969"/>
+    <circle cx="251" cy="159" r="27" fill="#f5e8ad"/>
+    <ellipse cx="260" cy="162" rx="10" ry="18" fill="#24422f" stroke="none"/>
+    <circle cx="256" cy="153" r="4" fill="white" stroke="none"/>
+    <path d="M284 170c1-17 13-29 29-29 16 0 28 14 27 29" fill="#76c969"/>
+    <circle cx="313" cy="177" r="19" fill="#f5e8ad"/>
+    <ellipse cx="319" cy="179" rx="7" ry="12" fill="#24422f" stroke="none"/>
+
+    <!-- Nostril and cheek -->
+    <ellipse cx="352" cy="225" rx="5" ry="4" fill="#24513a" stroke="none"/>
+    <circle cx="216" cy="242" r="8" fill="#8ed478" stroke="none"/>
+    <circle cx="189" cy="259" r="5" fill="#8ed478" stroke="none"/>
+  </g>
+</svg>

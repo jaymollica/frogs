@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <rect width="400" height="320" fill="#e9f4e1"/>
+  <ellipse cx="200" cy="292" rx="150" ry="14" fill="#c5d9b4"/>
+  <!-- back leg -->
+  <ellipse cx="95" cy="238" rx="48" ry="36" fill="#4f9b3a" stroke="#2f6b25" stroke-width="3"/>
+  <path d="M60 262 C40 275,30 285,25 292 M60 266 C50 280,48 288,50 294 M62 268 C62 280,66 290,72 294" fill="none" stroke="#2f6b25" stroke-width="7" stroke-linecap="round"/>
+  <path d="M60 262 C40 275,30 285,25 292 M60 266 C50 280,48 288,50 294 M62 268 C62 280,66 290,72 294" fill="none" stroke="#4f9b3a" stroke-width="3" stroke-linecap="round"/>
+  <!-- body + head -->
+  <path d="M170 130 C200 85,265 80,300 128 C318 148,316 168,308 176 L320 178 C345 176,362 180,362 190 C362 205,352 218,335 224 C310 232,280 230,255 226 C230 250,200 262,150 262 C100 262,60 250,55 220 C50 190,90 140,170 130 Z" fill="#5fae42" stroke="#2f6b25" stroke-width="3" stroke-linejoin="round"/>
+  <!-- spots -->
+  <g fill="#3f8a2c" opacity="0.8">
+    <ellipse cx="120" cy="190" rx="14" ry="9"/>
+    <ellipse cx="160" cy="165" rx="10" ry="7"/>
+    <ellipse cx="200" cy="210" rx="12" ry="8"/>
+    <ellipse cx="95" cy="215" rx="8" ry="6"/>
+  </g>
+  <!-- prominent lower jaw (Habsburg) -->
+  <path d="M215 182 C250 192,290 186,308 178 C330 174,356 176,360 190 C362 206,348 220,325 226 C295 234,250 230,222 210 Z" fill="#bfe39a" stroke="#2f6b25" stroke-width="3" stroke-linejoin="round"/>
+  <!-- chin cleft and jaw crease -->
+  <path d="M340 200 C346 206,344 214,336 220" fill="none" stroke="#7fae63" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M230 212 C260 224,300 226,330 222" fill="none" stroke="#8fbf70" stroke-width="2" stroke-linecap="round"/>
+  <!-- mouth line -->
+  <path d="M212 180 C250 190,290 186,308 177" fill="none" stroke="#2f6b25" stroke-width="3" stroke-linecap="round"/>
+  <!-- nostril -->
+  <circle cx="292" cy="150" r="3" fill="#2f6b25"/>
+  <!-- eye -->
+  <circle cx="250" cy="112" r="30" fill="#5fae42" stroke="#2f6b25" stroke-width="3"/>
+  <circle cx="252" cy="114" r="22" fill="#fff" stroke="#2f6b25" stroke-width="2"/>
+  <circle cx="258" cy="116" r="11" fill="#111"/>
+  <circle cx="262" cy="110" r="4" fill="#fff"/>
+  <path d="M225 100 C240 88,262 88,276 98" fill="none" stroke="#2f6b25" stroke-width="3" stroke-linecap="round"/>
+  <!-- front leg -->
+  <path d="M258 228 C262 250,266 268,270 288" fill="none" stroke="#2f6b25" stroke-width="16" stroke-linecap="round"/>
+  <path d="M258 228 C262 250,266 268,270 288" fill="none" stroke="#5fae42" stroke-width="10" stroke-linecap="round"/>
+  <path d="M270 286 C258 290,250 294,244 296 M270 287 C270 292,272 296,274 298 M270 286 C280 290,288 292,296 294" fill="none" stroke="#2f6b25" stroke-width="7" stroke-linecap="round"/>
+  <path d="M270 286 C258 290,250 294,244 296 M270 287 C270 292,272 296,274 298 M270 286 C280 290,288 292,296 294" fill="none" stroke="#5fae42" stroke-width="3" stroke-linecap="round"/>
+  <!-- small crown -->
+  <path d="M192 96 L196 72 L206 86 L214 66 L222 86 L232 72 L236 96 Z" fill="#e8b923" stroke="#8a6a10" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="196" cy="70" r="3" fill="#d33"/>
+  <circle cx="214" cy="64" r="3" fill="#d33"/>
+  <circle cx="232" cy="70" r="3" fill="#d33"/>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" role="img" aria-labelledby="title">
+  <title id="title">A frog with a heavily protruding lower jaw</title>
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#9be34e"/>
+      <stop offset="1" stop-color="#4da936"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#a2e64c"/>
+      <stop offset="1" stop-color="#58b33a"/>
+    </linearGradient>
+    <linearGradient id="iris" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9d95a"/>
+      <stop offset="1" stop-color="#e99522"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="430" fill="#e7f7ed"/>
+  <circle cx="512" cy="86" r="38" fill="#d5f0df"/>
+  <circle cx="82" cy="91" r="24" fill="#d5f0df"/>
+  <ellipse cx="300" cy="365" rx="230" ry="25" fill="#c7e6d0"/>
+
+  <!-- Back haunch and toes -->
+  <path d="M117 276 C75 269 51 291 58 317 C66 344 98 347 124 329
+           C144 316 157 309 176 309 L171 281 Z"
+        fill="#62b83c" stroke="#347f32" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M76 329 C61 342 50 353 54 362 C58 370 74 364 87 352
+           M96 337 C85 354 82 365 90 370 C99 375 110 359 117 345"
+        fill="none" stroke="#347f32" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Head -->
+  <path d="M76 278
+           C54 232 67 176 104 140
+           C132 112 163 99 196 104
+           C212 78 246 72 270 89
+           C294 104 308 128 313 151
+           C344 145 378 155 398 177
+           C414 195 406 209 387 217
+           C353 231 323 228 294 245
+           C263 265 239 287 207 301
+           C164 320 119 311 91 294
+           C83 289 78 284 76 278 Z"
+        fill="url(#skin)" stroke="#347f32" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Bulging eyes -->
+  <path d="M157 117 C159 87 181 73 205 81 C225 87 235 107 229 129"
+        fill="#66bb3e" stroke="#347f32" stroke-width="5"/>
+  <path d="M250 111 C251 81 275 70 297 83 C316 94 322 117 313 139"
+        fill="#66bb3e" stroke="#347f32" stroke-width="5"/>
+  <circle cx="193" cy="111" r="26" fill="#fff4c7" stroke="#347f32" stroke-width="4"/>
+  <circle cx="286" cy="108" r="28" fill="#fff4c7" stroke="#347f32" stroke-width="4"/>
+  <circle cx="204" cy="113" r="15" fill="url(#iris)"/>
+  <circle cx="298" cy="110" r="16" fill="url(#iris)"/>
+  <ellipse cx="210" cy="114" rx="7" ry="11" fill="#1c3325"/>
+  <ellipse cx="304" cy="111" rx="7" ry="12" fill="#1c3325"/>
+  <circle cx="213" cy="109" r="3.5" fill="white"/>
+  <circle cx="307" cy="105" r="4" fill="white"/>
+
+  <!-- Wide mouth opening -->
+  <path d="M279 231
+           C318 211 365 204 403 207
+           C393 224 375 237 348 247
+           L307 257
+           C293 251 284 242 279 231 Z"
+        fill="#402b32"/>
+  <path d="M292 232 C328 218 364 213 389 213"
+        fill="none" stroke="#8e5250" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Enormous jutting lower jaw -->
+  <path d="M286 246
+           C328 226 386 224 444 240
+           C488 252 529 269 529 291
+           C529 315 488 336 439 347
+           C379 361 313 348 269 325
+           C239 309 219 291 222 273
+           C225 258 250 250 286 246 Z"
+        fill="url(#jaw)" stroke="#347f32" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M275 316 C324 342 384 350 436 338"
+        fill="none" stroke="#3f9636" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+  <path d="M307 258 C363 240 425 244 474 262"
+        fill="none" stroke="#b9ed72" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Snout details and skin spots -->
+  <ellipse cx="384" cy="179" rx="4" ry="6" fill="#347f32"/>
+  <ellipse cx="366" cy="172" rx="3" ry="4" fill="#347f32"/>
+  <circle cx="133" cy="188" r="6" fill="#70c342" opacity=".8"/>
+  <circle cx="151" cy="210" r="4" fill="#70c342" opacity=".8"/>
+  <circle cx="113" cy="229" r="5" fill="#70c342" opacity=".8"/>
+  <path d="M108 156 C129 128 157 117 178 116"
+        fill="none" stroke="#b8ef72" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+</svg>

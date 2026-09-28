@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520" role="img" aria-labelledby="title desc">
+  <title>Frog with mandibular prognathism</title>
+  <desc>A green frog in profile with a prominent lower jaw projecting noticeably beyond its upper jaw.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#99cf63"/>
+      <stop offset="1" stop-color="#438858"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#b2dd72"/>
+      <stop offset="1" stop-color="#6baa56"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbea99"/>
+      <stop offset="1" stop-color="#a8c979"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="520" rx="28" fill="#f3f6e9"/>
+  <circle cx="323" cy="239" r="184" fill="#e5edd4"/>
+  <ellipse cx="320" cy="429" rx="214" ry="23" fill="#d2dfc1"/>
+
+  <g stroke="#294e3b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Far hind foot and leg -->
+    <path d="M233 329 Q155 344 156 391 L116 410 Q99 415 105 422 Q110 428 130 424 L184 416 Q222 399 264 387Z" fill="#518b50"/>
+
+    <!-- Far eye -->
+    <path d="M308 180 Q293 145 311 128 Q329 113 346 134 L359 178Z" fill="#6ea756"/>
+    <ellipse cx="325" cy="148" rx="14" ry="19" fill="#ebd479"/>
+    <ellipse cx="329" cy="148" rx="6" ry="13" fill="#203d30" stroke="none"/>
+
+    <!-- Back and torso -->
+    <path d="M184 366 Q143 321 160 272 Q176 219 247 203 Q291 184 333 211 Q373 242 365 306 Q361 364 308 391 Q237 418 184 366Z" fill="url(#body)"/>
+
+    <!-- Pale chest -->
+    <path d="M325 265 Q376 269 368 322 Q357 368 307 387 Q330 341 301 310Z" fill="#c4d98a" stroke="none"/>
+
+    <!-- Far foreleg -->
+    <path d="M354 316 Q376 348 385 387 L426 405 Q437 411 429 417 Q422 421 410 416 L367 405 Q353 380 339 355" fill="#649a56"/>
+
+    <!-- Head with upper snout ending behind the lower jaw -->
+    <path d="M248 245 Q256 194 290 178 Q290 137 319 128 Q352 118 371 153 Q383 172 379 193 Q407 204 421 228 Q427 239 419 249 L411 255 Q382 270 342 278 Q285 283 248 245Z" fill="url(#head)"/>
+
+    <!-- Visible eye -->
+    <ellipse cx="337" cy="159" rx="25" ry="29" fill="#f3dd86"/>
+    <ellipse cx="343" cy="159" rx="10" ry="20" fill="#1f392b" stroke="none"/>
+    <circle cx="347" cy="151" r="4.5" fill="#fff" stroke="none"/>
+    <path d="M310 148 Q332 120 356 141" fill="none" stroke="#5c924b" stroke-width="4"/>
+
+    <!-- Nostril -->
+    <ellipse cx="400" cy="228" rx="4" ry="3" fill="#294e3b" stroke="none"/>
+
+    <!-- Prominent protruding mandible -->
+    <path d="M292 264 Q339 274 384 261 Q406 255 420 254 L452 250 Q469 251 471 265 Q474 282 455 295 Q426 313 382 313 Q334 315 307 293 Q293 282 292 264Z" fill="url(#jaw)"/>
+
+    <!-- Mouth seam emphasizes the underbite -->
+    <path d="M285 253 Q300 269 331 269 Q380 269 415 254" fill="none"/>
+    <path d="M420 254 Q441 256 454 252" fill="none" stroke="#68894e" stroke-width="3"/>
+    <path d="M371 298 Q415 303 445 284" fill="none" stroke="#94b46a" stroke-width="3"/>
+
+    <!-- Cheek and tympanum -->
+    <ellipse cx="285" cy="228" rx="17" ry="20" fill="#7daf60" stroke="#5a884e" stroke-width="3"/>
+    <path d="M305 242 Q311 244 315 248" fill="none" stroke="#59894c" stroke-width="3"/>
+
+    <!-- Near hind thigh -->
+    <path d="M236 299 Q184 286 166 326 Q147 367 188 389 Q225 408 272 380 Q295 366 281 340 Q267 318 236 299Z" fill="url(#body)"/>
+    <path d="M187 340 Q205 318 234 333 Q259 346 249 364 Q235 380 208 374" fill="none" stroke="#558f50" stroke-width="4"/>
+
+    <!-- Folded lower leg and webbed toes -->
+    <path d="M246 369 Q214 390 202 402 L264 410 L288 402 Q299 399 302 406 Q305 414 287 421 L259 429 L213 425 L182 431 Q168 431 169 423 Q170 417 184 411 Q170 409 162 413 Q149 418 145 410 Q142 402 157 396 L194 382" fill="#79ad5c"/>
+
+    <!-- Near foreleg -->
+    <path d="M321 305 Q311 328 325 358 L348 399 Q354 409 370 411 L413 419 Q426 423 429 416 Q431 409 416 406 L388 398 L417 398 Q432 399 433 391 Q433 384 419 385 L381 387 L366 355 Q357 327 354 315" fill="url(#body)"/>
+    <path d="M345 350 Q345 365 360 388" fill="none" stroke="#558f50" stroke-width="3"/>
+  </g>
+
+  <!-- Mottled skin -->
+  <g fill="#3f7d4c" opacity=".48">
+    <ellipse cx="207" cy="254" rx="10" ry="6" transform="rotate(-28 207 254)"/>
+    <ellipse cx="185" cy="280" rx="6" ry="10" transform="rotate(24 185 280)"/>
+    <ellipse cx="231" cy="233" rx="6" ry="4"/>
+    <ellipse cx="236" cy="277" rx="9" ry="6"/>
+    <ellipse cx="208" cy="310" rx="8" ry="5"/>
+    <ellipse cx="178" cy="350" rx="5" ry="8"/>
+    <ellipse cx="220" cy="350" rx="9" ry="6" transform="rotate(20 220 350)"/>
+    <circle cx="257" cy="348" r="4"/>
+  </g>
+  <g fill="#d4e998" opacity=".65">
+    <ellipse cx="263" cy="202" rx="9" ry="4" transform="rotate(-25 263 202)"/>
+    <ellipse cx="375" cy="216" rx="9" ry="4" transform="rotate(22 375 216)"/>
+    <circle cx="222" cy="264" r="3"/>
+    <circle cx="197" cy="296" r="3"/>
+  </g>
+</svg>

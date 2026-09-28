@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Side-view illustration of a frog with a lower jaw that protrudes beyond its upper jaw">
+  <ellipse cx="250" cy="425" rx="177" ry="18" fill="#dcebd8"/>
+  <g stroke="#365c38" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Rear leg and webbed foot -->
+    <path d="M178 317Q113 300 91 352Q76 389 116 410L181 402Q222 371 178 317Z" fill="#4d9b55"/>
+    <path d="M117 396Q88 405 72 423Q68 429 77 430L112 422L97 437Q95 444 105 443L137 425L128 441Q129 448 139 443L174 412Z" fill="#67b968"/>
+    <path d="M95 363Q99 329 134 323" fill="none"/>
+    <!-- Body -->
+    <path d="M165 254Q119 273 126 339Q129 396 198 411Q262 425 298 382L303 299Q257 253 165 254Z" fill="#56a95b"/>
+    <path d="M173 347Q188 390 247 399Q276 395 293 373" fill="none" stroke="#8fd080" stroke-width="12"/>
+    <!-- Far front leg -->
+    <path d="M246 346Q266 381 259 414L230 427M259 414L263 436M259 414L289 432" fill="none" stroke="#397c42" stroke-width="15"/>
+    <path d="M246 346Q266 381 259 414L230 427M259 414L263 436M259 414L289 432" fill="none" stroke="#69bc69" stroke-width="10"/>
+    <!-- Protruding lower jaw -->
+    <path d="M244 275Q260 296 297 305Q333 313 365 300Q379 294 391 293Q402 294 401 303Q399 328 369 340Q334 354 285 343Q251 336 236 313Z" fill="#a4d77d"/>
+    <path d="M333 315Q369 315 393 301" fill="none" stroke="#76b766" stroke-width="4"/>
+    <!-- Upper head and shorter upper jaw -->
+    <path d="M159 280Q162 223 201 194Q229 176 253 185Q271 160 302 178Q327 188 331 218Q353 227 352 249Q352 267 329 277Q309 287 281 283Q264 299 238 299Q191 302 159 280Z" fill="#65b964"/>
+    <path d="M252 279Q287 291 329 277" fill="none" stroke="#315037" stroke-width="6"/>
+    <!-- Mouth gap emphasizes the forward-set lower jaw -->
+    <path d="M329 277Q347 285 371 282" fill="none" stroke="#315037" stroke-width="5"/>
+    <!-- Eyes -->
+    <circle cx="251" cy="199" r="34" fill="#79c978"/>
+    <circle cx="251" cy="199" r="24" fill="#f7f2c3"/>
+    <ellipse cx="260" cy="201" rx="9" ry="17" fill="#243b2a" stroke="none"/>
+    <circle cx="256" cy="194" r="5" fill="#fff" stroke="none"/>
+    <path d="M218 188Q245 158 278 182" fill="none" stroke="#3c783f" stroke-width="6"/>
+    <ellipse cx="318" cy="231" rx="5" ry="3" fill="#315b35" stroke="none"/>
+    <!-- Near front leg and toes -->
+    <path d="M205 329Q221 350 221 379Q222 403 200 417L179 435M200 417L204 443M200 417L229 437" fill="none" stroke="#3c8144" stroke-width="19"/>
+    <path d="M205 329Q221 350 221 379Q222 403 200 417L179 435M200 417L204 443M200 417L229 437" fill="none" stroke="#71c675" stroke-width="12"/>
+    <circle cx="178" cy="436" r="7" fill="#71c675"/>
+    <circle cx="204" cy="443" r="7" fill="#71c675"/>
+    <circle cx="230" cy="438" r="7" fill="#71c675"/>
+  </g>
+  <path d="M190 270Q199 281 211 283M154 317Q168 325 172 339" fill="none" stroke="#8bd182" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0f2f1"/>
+    </radialGradient>
+    <radialGradient id="headGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#95d5b2"/>
+      <stop offset="70%" stop-color="#52b788"/>
+      <stop offset="100%" stop-color="#1b4332"/>
+    </radialGradient>
+    <radialGradient id="bodyGrad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#52b788"/>
+      <stop offset="70%" stop-color="#2d6a4f"/>
+      <stop offset="100%" stop-color="#081c15"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f4fce3"/>
+      <stop offset="30%" stop-color="#d8f3dc"/>
+      <stop offset="60%" stop-color="#95d5b2"/>
+      <stop offset="100%" stop-color="#52b788"/>
+    </radialGradient>
+    <radialGradient id="eyeHighlight" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#b7e4c7"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="450" cy="450" r="430" fill="url(#bgGrad)" />
+
+  <!-- Back Legs -->
+  <g id="back-legs">
+    <!-- Left Back Leg -->
+    <path d="M 300 650 C 150 600 80 700 120 800 C 160 880 280 880 350 800 C 320 750 300 700 300 650 Z" fill="#1b4332" />
+    <path d="M 120 800 Q 70 850 100 860 Q 130 870 150 880 Q 180 890 200 860 Q 230 880 260 850 Q 280 820 250 800 Z" fill="#2d6a4f" />
+    <!-- Right Back Leg -->
+    <path d="M 600 650 C 750 600 820 700 780 800 C 740 880 620 880 550 800 C 580 750 600 700 600 650 Z" fill="#1b4332" />
+    <path d="M 780 800 Q 830 850 800 860 Q 770 870 750 880 Q 720 890 700 860 Q 670 880 640 850 Q 620 820 650 800 Z" fill="#2d6a4f" />
+  </g>
+
+  <!-- Body -->
+  <g id="body">
+    <ellipse cx="450" cy="650" rx="180" ry="160" fill="url(#bodyGrad)" />
+    <!-- Belly -->
+    <ellipse cx="450" cy="690" rx="130" ry="110" fill="#edfca2" opacity="0.6" />
+    <!-- Shadow under jaw -->
+    <ellipse cx="450" cy="530" rx="140" ry="80" fill="#081c15" opacity="0.5" />
+  </g>
+
+  <!-- Front Legs -->
+  <g id="front-legs">
+    <!-- Left Front Leg -->
+    <path d="M 330 650 C 270 750 250 820 300 840 C 350 860 370 780 390 720 Z" fill="#40916c" />
+    <path d="M 300 840 Q 280 880 310 880 Q 340 890 350 860 Q 370 880 390 850 Q 400 820 380 800 Z" fill="#52b788" />
+    <!-- Right Front Leg -->
+    <path d="M 570 650 C 630 750 650 820 600 840 C 550 860 530 780 510 720 Z" fill="#40916c" />
+    <path d="M 600 840 Q 620 880 590 880 Q 560 890 550 860 Q 530 880 510 850 Q 500 820 520 800 Z" fill="#52b788" />
+  </g>
+
+  <!-- Upper Head -->
+  <g id="head">
+    <ellipse cx="450" cy="350" rx="150" ry="90" fill="url(#headGrad)" />
+    
+    <!-- Nostrils -->
+    <circle cx="390" cy="340" r="6" fill="#1b4332" />
+    <circle cx="510" cy="340" r="6" fill="#1b4332" />
+
+    <!-- Forehead Wrinkles -->
+    <path d="M 400 290 Q 450 300 500 290" fill="none" stroke="#1b4332" stroke-width="4" opacity="0.4" stroke-linecap="round" />
+    <path d="M 380 310 Q 450 320 520 310" fill="none" stroke="#1b4332" stroke-width="4" opacity="0.4" stroke-linecap="round" />
+
+    <!-- Spots on Head -->
+    <circle cx="340" cy="320" r="14" fill="#1b4332" opacity="0.3" />
+    <circle cx="560" cy="320" r="16" fill="#1b4332" opacity="0.3" />
+    <circle cx="420" cy="280" r="10" fill="#1b4332" opacity="0.2" />
+    <circle cx="480" cy="280" r="12" fill="#1b4332" opacity="0.2" />
+  </g>
+
+  <!-- Eyes -->
+  <g id="eyes">
+    <!-- Left Eye -->
+    <ellipse cx="360" cy="280" rx="55" ry="65" fill="#74c69d" />
+    <ellipse cx="360" cy="290" rx="40" ry="40" fill="url(#eyeHighlight)" />
+    <ellipse cx="360" cy="290" rx="18" ry="25" fill="#1b263b" />
+    <circle cx="350" cy="280" r="8" fill="#ffffff" opacity="0.9" />
+    <!-- Left Eyelid -->
+    <path d="M 310 270 Q 360 240 410 270" fill="none" stroke="#1b4332" stroke-width="8" stroke-linecap="round" />
+
+    <!-- Right Eye -->
+    <ellipse cx="540" cy="280" rx="55" ry="65" fill="#74c69d" />
+    <ellipse cx="540" cy="290" rx="40" ry="40" fill="url(#eyeHighlight)" />
+    <ellipse cx="540" cy="290" rx="18" ry="25" fill="#1b263b" />
+    <circle cx="530" cy="280" r="8" fill="#ffffff" opacity="0.9" />
+    <!-- Right Eyelid -->
+    <path d="M 490 270 Q 540 240 590 270" fill="none" stroke="#1b4332" stroke-width="8" stroke-linecap="round" />
+  </g>
+
+  <!-- Heavily Protruding Lower Jaw -->
+  <g id="jaw">
+    <!-- Main Jaw Shape -->
+    <path d="M 300 370 
+             C 180 420, 130 620, 200 770 
+             C 280 870, 620 870, 700 770 
+             C 770 620, 720 420, 600 370 
+             Z" 
+          fill="url(#jawGrad)" />
+    
+    <!-- Jaw Highlight for Swollen/Protruding Effect -->
+    <ellipse cx="450" cy="660" rx="150" ry="80" fill="#ffffff" opacity="0.3" transform="rotate(-5 450 660)" />
+    
+    <!-- Jaw Chin Folds -->
+    <path d="M 230 600 Q 450 700 670 600" fill="none" stroke="#2d6a4f" stroke-width="8" opacity="0.4" stroke-linecap="round" />
+    <path d="M 270 680 Q 450 770 630 680" fill="none" stroke="#2d6a4f" stroke-width="6" opacity="0.3" stroke-linecap="round" />
+    <path d="M 310 760 Q 450 830 590 760" fill="none" stroke="#2d6a4f" stroke-width="5" opacity="0.2" stroke-linecap="round" />
+
+    <!-- Lower Lip Outline -->
+    <path d="M 200 770 Q 450 890 700 770" fill="none" stroke="#1b4332" stroke-width="12" stroke-linecap="round" />
+    
+    <!-- Spots on Jaw -->
+    <circle cx="280" cy="520" r="18" fill="#1b4332" opacity="0.2" />
+    <circle cx="620" cy="540" r="20" fill="#1b4332" opacity="0.2" />
+    <circle cx="340" cy="620" r="15" fill="#1b4332" opacity="0.15" />
+    <circle cx="560" cy="630" r="16" fill="#1b4332" opacity="0.15" />
+    <circle cx="450" cy="750" r="22" fill="#1b4332" opacity="0.1" />
+  </g>
+
+  <!-- Mouth Line (Separating Head and Jaw) -->
+  <g id="mouth">
+    <!-- Main Mouth Curve -->
+    <path d="M 280 370 Q 450 460 620 370" fill="none" stroke="#1b4332" stroke-width="12" stroke-linecap="round" />
+    <!-- Inner Mouth Shadow -->
+    <path d="M 300 390 Q 450 480 600 390" fill="none" stroke="#000000" stroke-width="4" opacity="0.3" stroke-linecap="round" />
+    
+    <!-- Cheek / Mouth Corner Creases -->
+    <path d="M 280 370 Q 260 400 270 430" fill="none" stroke="#1b4332" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+    <path d="M 620 370 Q 640 400 630 430" fill="none" stroke="#1b4332" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+  </g>
+</svg>

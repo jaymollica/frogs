@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="frogGreen" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#8ee85b"/>
+      <stop offset="100%" stop-color="#2f9b3d"/>
+    </radialGradient>
+    <radialGradient id="jawGreen" cx="45%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#b7f06f"/>
+      <stop offset="100%" stop-color="#54b447"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#174f22" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="252" cy="445" rx="175" ry="25" fill="#1e5c2a" opacity="0.22"/>
+
+  <path d="M121 329 C77 346 48 383 46 419 C80 407 111 398 152 403 C177 387 176 348 121 329 Z" fill="#43a843" stroke="#176326" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M321 331 C372 342 419 377 438 417 C392 404 356 399 313 406 C286 386 278 350 321 331 Z" fill="#43a843" stroke="#176326" stroke-width="7" stroke-linejoin="round"/>
+
+  <ellipse cx="219" cy="334" rx="134" ry="112" fill="url(#frogGreen)" stroke="#176326" stroke-width="8" filter="url(#softShadow)"/>
+
+  <path d="M161 351 C139 366 118 390 102 420" fill="none" stroke="#176326" stroke-width="8" stroke-linecap="round"/>
+  <path d="M304 351 C326 366 350 391 369 422" fill="none" stroke="#176326" stroke-width="8" stroke-linecap="round"/>
+
+  <path d="M114 431 C132 414 169 407 198 419 C173 438 133 447 91 442 C96 437 104 434 114 431 Z" fill="#67bd48" stroke="#176326" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="129" cy="431" r="8" fill="#176326"/>
+  <circle cx="155" cy="428" r="8" fill="#176326"/>
+  <circle cx="181" cy="423" r="8" fill="#176326"/>
+
+  <path d="M353 431 C333 414 296 407 268 419 C292 438 333 447 375 442 C370 437 363 434 353 431 Z" fill="#67bd48" stroke="#176326" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="338" cy="431" r="8" fill="#176326"/>
+  <circle cx="312" cy="428" r="8" fill="#176326"/>
+  <circle cx="286" cy="423" r="8" fill="#176326"/>
+
+  <path d="M139 202 C153 138 212 106 286 116 C351 124 392 166 402 214 C414 272 376 315 291 325 C215 333 150 304 139 244 C137 231 136 215 139 202 Z" fill="url(#frogGreen)" stroke="#176326" stroke-width="8" stroke-linejoin="round"/>
+
+  <path d="M148 244 C198 265 279 267 342 250 C375 241 397 237 419 248 C449 263 465 295 458 322 C452 345 425 359 388 358 C341 357 299 341 254 337 C206 333 166 339 135 319 C105 300 104 263 148 244 Z" fill="url(#jawGreen)" stroke="#176326" stroke-width="8" stroke-linejoin="round"/>
+
+  <path d="M155 245 C207 263 288 263 350 246 C381 238 407 240 427 256" fill="none" stroke="#0f4d20" stroke-width="7" stroke-linecap="round"/>
+
+  <path d="M326 253 C358 270 398 278 439 276" fill="none" stroke="#2d8736" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M324 324 C354 335 397 341 429 333" fill="none" stroke="#2d8736" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+
+  <circle cx="203" cy="127" r="38" fill="#67bd48" stroke="#176326" stroke-width="8"/>
+  <circle cx="308" cy="132" r="38" fill="#67bd48" stroke="#176326" stroke-width="8"/>
+  <circle cx="203" cy="127" r="22" fill="#f7ffd8" stroke="#176326" stroke-width="5"/>
+  <circle cx="308" cy="132" r="22" fill="#f7ffd8" stroke="#176326" stroke-width="5"/>
+  <circle cx="211" cy="132" r="10" fill="#111"/>
+  <circle cx="316" cy="137" r="10" fill="#111"/>
+  <circle cx="215" cy="128" r="3" fill="#fff"/>
+  <circle cx="320" cy="133" r="3" fill="#fff"/>
+
+  <circle cx="340" cy="204" r="5" fill="#0f4d20"/>
+  <circle cx="371" cy="211" r="5" fill="#0f4d20"/>
+
+  <path d="M181 203 C202 216 231 218 253 207" fill="none" stroke="#2d8736" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+  <path d="M282 209 C304 222 334 223 357 212" fill="none" stroke="#2d8736" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+
+  <circle cx="177" cy="178" r="6" fill="#2b8f32" opacity="0.7"/>
+  <circle cx="222" cy="167" r="5" fill="#2b8f32" opacity="0.7"/>
+  <circle cx="267" cy="178" r="6" fill="#2b8f32" opacity="0.7"/>
+  <circle cx="316" cy="185" r="5" fill="#2b8f32" opacity="0.7"/>
+  <circle cx="221" cy="297" r="7" fill="#2b8f32" opacity="0.45"/>
+  <circle cx="283" cy="304" r="6" fill="#2b8f32" opacity="0.45"/>
+  <circle cx="361" cy="302" r="7" fill="#2b8f32" opacity="0.45"/>
+</svg>

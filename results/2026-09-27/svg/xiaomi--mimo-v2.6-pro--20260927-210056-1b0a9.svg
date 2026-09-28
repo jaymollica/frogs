@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyGrad" cx="38%" cy="32%" r="78%">
+      <stop offset="0%" stop-color="#93d173"/>
+      <stop offset="55%" stop-color="#5fb04c"/>
+      <stop offset="100%" stop-color="#3b7f36"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#79c25e"/>
+      <stop offset="60%" stop-color="#4f9c42"/>
+      <stop offset="100%" stop-color="#2f6c2c"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#f6f9cf"/>
+      <stop offset="100%" stop-color="#c9de93"/>
+    </radialGradient>
+    <radialGradient id="bumpGrad" cx="35%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#8fcd70"/>
+      <stop offset="100%" stop-color="#478f3c"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="200" cy="374" rx="172" ry="22" fill="#1c3b18" opacity="0.16"/>
+
+  <!-- left foot / arm -->
+  <g>
+    <ellipse cx="84" cy="322" rx="46" ry="32" fill="url(#bodyGrad)"/>
+    <ellipse cx="52" cy="352" rx="24" ry="11" fill="#4f9c42" transform="rotate(-30 52 352)"/>
+    <ellipse cx="80" cy="364" rx="24" ry="11" fill="#4f9c42" transform="rotate(-4 80 364)"/>
+    <ellipse cx="110" cy="358" rx="24" ry="11" fill="#4f9c42" transform="rotate(24 110 358)"/>
+  </g>
+  <!-- right foot / arm -->
+  <g transform="translate(400,0) scale(-1,1)">
+    <ellipse cx="84" cy="322" rx="46" ry="32" fill="url(#bodyGrad)"/>
+    <ellipse cx="52" cy="352" rx="24" ry="11" fill="#4f9c42" transform="rotate(-30 52 352)"/>
+    <ellipse cx="80" cy="364" rx="24" ry="11" fill="#4f9c42" transform="rotate(-4 80 364)"/>
+    <ellipse cx="110" cy="358" rx="24" ry="11" fill="#4f9c42" transform="rotate(24 110 358)"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="200" cy="238" rx="150" ry="132" fill="url(#bodyGrad)"/>
+  <ellipse cx="200" cy="288" rx="98" ry="86" fill="url(#bellyGrad)" opacity="0.9"/>
+
+  <!-- eye bumps -->
+  <circle cx="126" cy="116" r="64" fill="url(#bumpGrad)"/>
+  <circle cx="274" cy="116" r="64" fill="url(#bumpGrad)"/>
+  <circle cx="126" cy="116" r="64" fill="none" stroke="#2b6327" stroke-opacity="0.35" stroke-width="3"/>
+  <circle cx="274" cy="116" r="64" fill="none" stroke="#2b6327" stroke-opacity="0.35" stroke-width="3"/>
+
+  <!-- eyes -->
+  <circle cx="126" cy="112" r="44" fill="#fdfdf5"/>
+  <circle cx="274" cy="112" r="44" fill="#fdfdf5"/>
+  <ellipse cx="134" cy="116" rx="21" ry="26" fill="#181818"/>
+  <ellipse cx="282" cy="116" rx="21" ry="26" fill="#181818"/>
+  <circle cx="126" cy="103" r="9" fill="#ffffff"/>
+  <circle cx="274" cy="103" r="9" fill="#ffffff"/>
+  <circle cx="143" cy="129" r="5" fill="#ffffff" opacity="0.75"/>
+  <circle cx="291" cy="129" r="5" fill="#ffffff" opacity="0.75"/>
+  <path d="M84 96 C 98 66 158 62 172 88" fill="none" stroke="#2b6327" stroke-opacity="0.45" stroke-width="6" stroke-linecap="round"/>
+  <path d="M228 88 C 242 62 302 66 316 96" fill="none" stroke="#2b6327" stroke-opacity="0.45" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- nostrils -->
+  <ellipse cx="170" cy="192" rx="10" ry="7" fill="#2c5f28" transform="rotate(-18 170 192)"/>
+  <ellipse cx="230" cy="192" rx="10" ry="7" fill="#2c5f28" transform="rotate(18 230 192)"/>
+
+  <!-- blush -->
+  <ellipse cx="82" cy="196" rx="28" ry="17" fill="#e8836f" opacity="0.38"/>
+  <ellipse cx="318" cy="196" rx="28" ry="17" fill="#e8836f" opacity="0.38"/>
+
+  <!-- mouth interior -->
+  <path d="M62 216 C 62 302 132 350 200 350 C 268 350 338 302 338 216 C 338 216 258 248 200 248 C 142 248 62 216 62 216 Z" fill="#8c2f2c"/>
+  <path d="M62 216 C 62 302 132 350 200 350 C 268 350 338 302 338 216 C 338 216 258 248 200 248 C 142 248 62 216 62 216 Z" fill="#5f1e1c" opacity="0.55"/>
+
+  <!-- protruding lower jaw (mandibular prognathism) -->
+  <path d="M50 212 C 50 316 128 364 200 364 C 272 364 350 316 350 212 C 332 238 262 264 200 264 C 138 264 68 238 50 212 Z" fill="url(#jawGrad)"/>
+  <path d="M50 212 C 50 316 128 364 200 364 C 272 364 350 316 350 212 C 332 238 262 264 200 264 C 138 264 68 238 50 212 Z" fill="none" stroke="#27571f" stroke-opacity="0.55" stroke-width="4"/>
+  <path d="M70 232 C 110 268 160 282 200 282 C 240 282 290 268 330 232" fill="none" stroke="#2a5c22" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- small lower teeth -->
+  <path d="M94 251 L116 251 L105 231 Z" fill="#f7f3e0"/>
+  <path d="M138 260 L160 260 L149 241 Z" fill="#f7f3e0"/>
+  <path d="M188 265 L212 265 L200 246 Z" fill="#f7f3e0"/>
+  <path d="M240 260 L262 260 L251 241 Z" fill="#f7f3e0"/>
+  <path d="M284 251 L306 251 L295 231 Z" fill="#f7f3e0"/>
+
+  <!-- chin highlight -->
+  <path d="M120 330 C 158 352 242 352 280 330" fill="none" stroke="#a9dd8c" stroke-opacity="0.4" stroke-width="7" stroke-linecap="round"/>
+</svg>

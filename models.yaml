@@ -15,9 +15,11 @@
 models:
   - slug: anthropic/claude-fable-5
     provider: Anthropic
-    status: current
+    status: retired
     added: 2026-09-01
     source: "listener request"
+    retired: 2026-09-27
+    superseded_by: anthropic/claude-fable-5.1
   - slug: anthropic/claude-opus-5
     provider: Anthropic
     status: control
@@ -36,9 +38,11 @@ models:
     added: 2026-08-02
   - slug: openai/gpt-5.6-sol
     provider: OpenAI
-    status: current
+    status: retired
     added: 2026-09-01
     source: "listener request"
+    retired: 2026-09-27
+    superseded_by: openai/gpt-6-sol
   - slug: openai/gpt-5.4-mini
     provider: OpenAI
     status: current
@@ -57,25 +61,31 @@ models:
     added: 2026-08-02
   - slug: x-ai/grok-4.5
     provider: xAI
-    status: current
+    status: retired
     added: 2026-08-02
+    retired: 2026-09-27
+    superseded_by: x-ai/grok-4.7
   - slug: deepseek/deepseek-v4-pro
     provider: DeepSeek
     status: control
     added: 2026-08-02
   - slug: deepseek/deepseek-v4-flash
     provider: DeepSeek
-    status: current
+    status: retired
     added: 2026-09-01
     source: "listener request"
+    retired: 2026-09-27
+    superseded_by: deepseek/deepseek-v4.1-flash
   - slug: moonshotai/kimi-k3
     provider: Moonshot
     status: control
     added: 2026-08-02
   - slug: z-ai/glm-5.1
     provider: Z.ai
-    status: current
+    status: retired
     added: 2026-08-02
+    retired: 2026-09-27
+    superseded_by: z-ai/glm-5.3
   - slug: qwen/qwen3.7-max
     provider: Alibaba
     status: current
@@ -88,3 +98,73 @@ models:
     provider: Mistral
     status: current
     added: 2026-08-02
+  - slug: anthropic/claude-opus-5.5
+    provider: Anthropic
+    status: current
+    added: 2026-09-27
+    source: "auto: score+successor (AA 57.6, usage #29)"
+  - slug: anthropic/claude-fable-5.1
+    provider: Anthropic
+    status: current
+    added: 2026-09-27
+    source: "auto: score+successor (AA 53.4, usage #35)"
+  - slug: openai/gpt-6-astra
+    provider: OpenAI
+    status: current
+    added: 2026-09-27
+    source: "auto: score (AA 52.7, usage #25)"
+  - slug: openai/gpt-6-sol
+    provider: OpenAI
+    status: current
+    added: 2026-09-27
+    source: "auto: score+successor (AA 47.5, usage #34)"
+  - slug: x-ai/grok-4.7
+    provider: xAI
+    status: current
+    added: 2026-09-27
+    source: "auto: score+successor (AA 46.4, usage #52)"
+  - slug: xiaomi/mimo-v2.6-pro
+    provider: Xiaomi
+    status: current
+    added: 2026-09-27
+    source: "auto: score (AA 46.3, usage #28)"
+  - slug: z-ai/glm-5.3
+    provider: Z.ai
+    status: current
+    added: 2026-09-27
+    source: "auto: score+successor (AA 44.8, usage #11)"
+  - slug: z-ai/glm-5.3-flash
+    provider: Z.ai
+    status: current
+    added: 2026-09-27
+    source: "auto: score (AA 41.8, usage #2)"
+  - slug: google/gemini-3.8-flash
+    provider: Google
+    status: current
+    added: 2026-09-27
+    source: "auto: score+successor (AA 40.9, usage #15)"
+  - slug: deepseek/deepseek-v4.1-flash
+    provider: DeepSeek
+    status: current
+    added: 2026-09-27
+    source: "auto: score+successor (AA 39.5, usage #1)"
+  - slug: openai/gpt-6-luna
+    provider: OpenAI
+    status: current
+    added: 2026-09-27
+    source: "auto: score (AA 37.3, usage #14)"
+  - slug: qwen/qwen3.8-27b
+    provider: Alibaba
+    status: current
+    added: 2026-09-27
+    source: "auto: score (AA 33.7, usage #45)"
+  - slug: xiaomi/mimo-v2.6-flash
+    provider: Xiaomi
+    status: current
+    added: 2026-09-27
+    source: "auto: usage (usage #8)"
+  - slug: tencent/hy4-preview
+    provider: Tencent
+    status: current
+    added: 2026-09-27
+    source: "auto: usage (usage #3)"

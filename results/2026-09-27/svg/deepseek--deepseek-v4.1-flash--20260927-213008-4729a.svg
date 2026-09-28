@@ -1,0 +1,80 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#F0F8E8" />
+  
+  <!-- Background Ripples and Lily Pad -->
+  <ellipse cx="250" cy="490" rx="190" ry="45" fill="none" stroke="#C5E1A5" stroke-width="3" />
+  <ellipse cx="250" cy="500" rx="210" ry="55" fill="none" stroke="#C5E1A5" stroke-width="3" />
+  <path d="M 70 480 A 180 40 0 1 1 430 480 A 180 40 0 0 1 280 460 L 250 480 L 220 460 A 180 40 0 0 1 70 480 Z" fill="#81C784" stroke="#2E7D32" stroke-width="4" />
+  <path d="M 230 480 Q 250 490 270 480" stroke="#2E7D32" stroke-width="3" fill="none" opacity="0.4" />
+  
+  <!-- Frog Group -->
+  <g transform="translate(50, -30)">
+    
+    <!-- Hind Leg (Behind Body) -->
+    <ellipse cx="160" cy="360" rx="60" ry="50" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" transform="rotate(20 160 360)" />
+    <path d="M 120 390 C 70 420, 40 480, 80 490 C 110 500, 140 470, 170 430 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="4" />
+    <path d="M 80 490 Q 50 500 40 490 M 110 480 Q 90 510 80 500 M 140 460 Q 120 480 110 480" stroke="#2E7D32" stroke-width="4" fill="none" stroke-linecap="round" />
+    <path d="M 70 480 Q 90 470 110 480 M 100 485 Q 120 470 140 460" stroke="#2E7D32" stroke-width="3" fill="none" opacity="0.6" />
+    
+    <!-- Frog Body -->
+    <ellipse cx="230" cy="330" rx="110" ry="80" fill="#66BB6A" stroke="#2E7D32" stroke-width="4" />
+    <ellipse cx="240" cy="350" rx="80" ry="60" fill="#C5E1A5" />
+    
+    <!-- Head - Upper Jaw (Maxilla) -->
+    <path d="M 330 180 C 330 100, 200 120, 150 180 C 140 200, 150 215, 170 225 C 200 240, 260 240, 320 250 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="4" />
+    
+    <!-- Head - Lower Jaw (Mandible) with Mandibular Prognathism -->
+    <path d="M 310 245 C 240 240, 180 230, 120 240 C 80 250, 80 280, 120 285 C 170 290, 240 280, 290 280 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+    
+    <!-- Chin Highlight -->
+    <path d="M 130 245 C 170 240, 220 240, 260 250" stroke="#A5D6A7" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6" />
+    <path d="M 120 240 C 110 260, 120 275, 140 280" stroke="#2E7D32" stroke-width="3" fill="none" opacity="0.4" />
+    
+    <!-- Teeth (Emphasizing Underbite) -->
+    <polygon points="120,240 125,230 130,240" fill="#FFF" stroke="#2E7D32" stroke-width="2" />
+    <polygon points="140,240 145,230 150,240" fill="#FFF" stroke="#2E7D32" stroke-width="2" />
+    <polygon points="160,240 165,230 170,240" fill="#FFF" stroke="#2E7D32" stroke-width="2" />
+    
+    <!-- Mouth Line (Gap between upper and lower jaw) -->
+    <path d="M 170 225 C 200 240, 260 240, 320 250" stroke="#1B5E20" stroke-width="5" fill="none" stroke-linecap="round" />
+    
+    <!-- Nostril -->
+    <circle cx="170" cy="185" r="3" fill="#2E7D32" />
+    
+    <!-- Blush / Cheek -->
+    <circle cx="220" cy="210" r="15" fill="#FF8A80" opacity="0.5" />
+    
+    <!-- Eye -->
+    <circle cx="240" cy="140" r="45" fill="#66BB6A" stroke="#2E7D32" stroke-width="4" />
+    <circle cx="240" cy="140" r="32" fill="#FFF" stroke="#2E7D32" stroke-width="2" />
+    <ellipse cx="245" cy="140" rx="16" ry="8" fill="#1A1A1A" />
+    <circle cx="250" cy="135" r="4" fill="#FFF" />
+    <path d="M 205 140 Q 240 115 275 140" stroke="#2E7D32" stroke-width="6" fill="none" stroke-linecap="round" />
+    
+    <!-- Front Leg -->
+    <path d="M 250 320 Q 290 360 280 410" stroke="#2E7D32" stroke-width="22" stroke-linecap="round" fill="none" />
+    <path d="M 250 320 Q 290 360 280 410" stroke="#4CAF50" stroke-width="14" stroke-linecap="round" fill="none" />
+    
+    <!-- Front Hand -->
+    <circle cx="280" cy="410" r="15" fill="#4CAF50" stroke="#2E7D32" stroke-width="4" />
+    
+    <!-- Fingers -->
+    <path d="M 280 410 L 305 425" stroke="#2E7D32" stroke-width="12" stroke-linecap="round" />
+    <path d="M 280 410 L 305 425" stroke="#4CAF50" stroke-width="8" stroke-linecap="round" />
+    
+    <path d="M 280 410 L 295 440" stroke="#2E7D32" stroke-width="12" stroke-linecap="round" />
+    <path d="M 280 410 L 295 440" stroke="#4CAF50" stroke-width="8" stroke-linecap="round" />
+    
+    <path d="M 280 410 L 265 435" stroke="#2E7D32" stroke-width="12" stroke-linecap="round" />
+    <path d="M 280 410 L 265 435" stroke="#4CAF50" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Spots on Body -->
+    <circle cx="220" cy="300" r="15" fill="#388E3C" opacity="0.6" />
+    <circle cx="260" cy="320" r="10" fill="#388E3C" opacity="0.6" />
+    <circle cx="180" cy="330" r="12" fill="#388E3C" opacity="0.6" />
+    <circle cx="240" cy="370" r="8" fill="#388E3C" opacity="0.6" />
+    <circle cx="290" cy="280" r="9" fill="#388E3C" opacity="0.6" />
+    <circle cx="200" cy="360" r="6" fill="#388E3C" opacity="0.6" />
+    
+  </g>
+</svg>

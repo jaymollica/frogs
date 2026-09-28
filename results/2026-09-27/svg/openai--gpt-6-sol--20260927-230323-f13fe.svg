@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Green frog with an enormous protruding lower jaw">
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#a7e56c"/>
+      <stop offset="1" stop-color="#4baf62"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#bce987"/>
+      <stop offset="1" stop-color="#74bc70"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f1e9ad"/>
+      <stop offset="1" stop-color="#c8d991"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="258" cy="448" rx="178" ry="22" fill="#244b3c" opacity=".14"/>
+
+  <!-- Legs and webbed feet -->
+  <g fill="#68bb67" stroke="#347d52" stroke-width="6" stroke-linejoin="round">
+    <path d="M154 331Q88 322 68 383Q54 420 94 432L160 422Q132 391 154 331Z"/>
+    <path d="M345 333Q405 324 425 379Q439 414 402 430L337 420Q367 385 345 333Z"/>
+    <path d="M136 405Q112 427 78 426Q67 425 68 437Q71 446 91 445Q66 453 70 464Q76 474 105 455Q94 471 106 476Q119 480 139 451L174 428Z"/>
+    <path d="M369 405Q394 428 428 425Q440 424 441 437Q438 447 417 445Q446 454 441 465Q434 475 405 455Q418 471 405 477Q391 480 371 451L334 427Z"/>
+  </g>
+
+  <!-- Body -->
+  <path d="M153 259Q111 291 120 367Q124 436 247 440Q365 440 382 365Q389 295 343 258Z" fill="url(#green)" stroke="#347d52" stroke-width="7"/>
+  <ellipse cx="250" cy="364" rx="92" ry="70" fill="url(#belly)" opacity=".96"/>
+
+  <!-- Head and raised eyes -->
+  <path d="M127 253Q102 220 126 182Q144 151 187 155Q204 122 232 129Q251 133 263 153Q292 129 318 144Q340 155 343 181Q367 197 370 227Q369 251 341 262Q236 289 143 267Z" fill="url(#green)" stroke="#347d52" stroke-width="7" stroke-linejoin="round"/>
+  <ellipse cx="219" cy="174" rx="27" ry="34" fill="#f6e7a0" stroke="#347d52" stroke-width="6"/>
+  <ellipse cx="307" cy="171" rx="29" ry="35" fill="#f6e7a0" stroke="#347d52" stroke-width="6"/>
+  <ellipse cx="227" cy="177" rx="10" ry="23" fill="#244c40"/>
+  <ellipse cx="315" cy="175" rx="11" ry="24" fill="#244c40"/>
+  <circle cx="231" cy="166" r="5" fill="white"/>
+  <circle cx="319" cy="164" r="5" fill="white"/>
+  <circle cx="354" cy="223" r="5" fill="#347d52"/>
+  <path d="M156 219Q173 206 192 214" fill="none" stroke="#c5ed83" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Mouth, with the lower lip extending far beyond the snout -->
+  <path d="M136 250Q227 268 341 250Q388 239 446 248Q432 279 360 297Q241 319 147 276Z" fill="#345443"/>
+  <path d="M275 289Q333 277 391 268Q363 295 302 304Z" fill="#dd8084"/>
+
+  <!-- Oversized projecting lower jaw -->
+  <path d="M145 273Q227 291 342 278Q407 268 446 247Q462 246 468 273Q478 333 434 374Q384 421 283 421Q174 421 137 367Q110 326 145 273Z" fill="url(#jaw)" stroke="#347d52" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M156 288Q246 306 348 290Q416 280 449 260" fill="none" stroke="#e5f5aa" stroke-width="9" stroke-linecap="round" opacity=".8"/>
+  <path d="M184 368Q253 406 344 390" fill="none" stroke="#cce79a" stroke-width="10" stroke-linecap="round" opacity=".65"/>
+  <path d="M414 323Q421 337 410 348" fill="none" stroke="#5da765" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+  <title>Frog with mandibular prognathism</title>
+  <desc>A green frog in side profile with a prominent lower jaw extending well beyond its upper jaw.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#9bce60"/>
+      <stop offset="1" stop-color="#488b48"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#addb70"/>
+      <stop offset="1" stop-color="#71b151"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4e99a"/>
+      <stop offset="1" stop-color="#a8cd74"/>
+    </linearGradient>
+    <radialGradient id="iris">
+      <stop offset="0" stop-color="#ffe698"/>
+      <stop offset="1" stop-color="#d5a839"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="760" height="600" fill="#edf5e9"/>
+  <circle cx="389" cy="280" r="222" fill="#e0edd9"/>
+  <ellipse cx="380" cy="491" rx="262" ry="31" fill="#c5ded1"/>
+  <path d="M119 490c79-40 231-52 393-23l78 23-119 4 46 28c-163 21-306 8-398-32Z" fill="#91bca0"/>
+  <path d="M160 494c101-9 210-8 318 1" fill="none" stroke="#73a688" stroke-width="3" stroke-linecap="round"/>
+
+  <g stroke="#294d36" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Far limbs -->
+    <path d="M377 348c39 12 43 58 48 91l54 26c12 6 8 17-5 17h-76c-16-1-23-11-18-25l-18-68Z" fill="#548f49"/>
+    <path d="M224 417c-38 10-70 37-77 58l-31 8c-11 4-9 14 3 15l95-2 58-44Z" fill="#619e4e"/>
+
+    <!-- Body -->
+    <path d="M195 437c-40-28-35-91-6-140 24-41 78-70 130-65 62 5 106 55 115 110 10 63-26 113-96 121-54 7-111-4-143-26Z" fill="url(#body)"/>
+    <path d="M332 311c45 4 88 36 91 77 3 33-22 54-62 58-28-38-40-80-29-135Z" fill="#bedb86" stroke="none"/>
+
+    <!-- Far eye -->
+    <path d="M369 219c-17-23-11-58 11-68 22-10 46 6 48 34l-7 40Z" fill="#6dac50"/>
+    <ellipse cx="390" cy="181" rx="16" ry="22" fill="#dfc364" stroke-width="4"/>
+    <ellipse cx="395" cy="181" rx="6" ry="15" fill="#172c25" stroke="none"/>
+
+    <!-- Head and upper jaw -->
+    <path d="M316 301c-2-39 14-75 45-96 18-13 37-17 54-17 8-26 34-37 57-22 17 11 24 34 20 55 16 12 25 28 44 40 15 10 30 15 35 28 5 12-5 22-24 25l-55 8-65 36c-48 2-94-15-111-57Z" fill="url(#head)"/>
+
+    <!-- Mouth opening: the lower dental arch projects past the snout -->
+    <path d="M412 312c45 13 91 10 135 2l-13-9c21 9 47 4 63-7 8 6 11 18 6 28-13 24-63 37-105 34-38-2-69-19-86-48Z" fill="#493c35"/>
+    <path d="M469 337c26-10 64-9 92 2-29 15-64 15-92-2Z" fill="#bb7974" stroke="none"/>
+
+    <!-- Pronounced projecting lower jaw -->
+    <path d="M402 324c38 24 85 31 132 17 26-8 46-22 62-36 8-7 17-1 18 10 4 24-19 50-47 62-38 16-85 13-121-2-24-10-41-28-44-51Z" fill="url(#jaw)"/>
+    <path d="M425 344c38 30 99 36 143 13" fill="none" stroke="#8aac60" stroke-width="3"/>
+
+    <!-- Near eye -->
+    <ellipse cx="449" cy="207" rx="33" ry="40" fill="#c3df7a"/>
+    <ellipse cx="455" cy="207" rx="23" ry="29" fill="url(#iris)" stroke-width="4"/>
+    <ellipse cx="458" cy="209" rx="8" ry="23" fill="#152f27" stroke="none"/>
+    <circle cx="464" cy="196" r="6" fill="#fffdf0" stroke="none"/>
+
+    <path d="M541 284l7 2" fill="none" stroke-width="5"/>
+    <path d="M392 297c-8 0-13 5-14 12" fill="none" stroke="#4b8042" stroke-width="4"/>
+
+    <!-- Near foreleg -->
+    <path d="M379 356c-19 8-25 29-19 49l20 51c-1 9-9 17-17 24-7 6-3 14 6 13l25-10 15 12c8 6 16-1 10-9l-6-9 30 10c10 3 15-6 6-12l-34-22-9-63c-2-18-11-30-27-34Z" fill="url(#head)"/>
+    <path d="M390 391l7 57" fill="none" stroke="#8cb85e" stroke-width="4"/>
+
+    <!-- Large folded hind leg -->
+    <path d="M313 413c16-27 9-66-22-87-35-24-86-13-110 22-23 34-18 76 12 94 25 16 56 11 79-3l41-26Z" fill="url(#body)"/>
+    <path d="M206 379c18-23 46-28 65-12 20 17 16 39-5 55" fill="none" stroke="#589546" stroke-width="5"/>
+    <path d="M268 429c-28 18-51 29-67 38l58 4 36-8c12-3 17 6 7 13l-17 9 20 4c12 3 10 14-2 14l-45-1-77 4c-19 1-30-11-22-24 17-26 48-42 75-59Z" fill="#80b855"/>
+    <path d="M202 483l63 4" fill="none" stroke="#508641" stroke-width="3"/>
+  </g>
+
+  <g fill="#477f42" opacity="0.58">
+    <ellipse cx="245" cy="282" rx="14" ry="8" transform="rotate(-24 245 282)"/>
+    <ellipse cx="280" cy="267" rx="9" ry="6"/>
+    <ellipse cx="208" cy="311" rx="9" ry="13" transform="rotate(31 208 311)"/>
+    <ellipse cx="325" cy="277" rx="11" ry="7"/>
+    <ellipse cx="349" cy="249" rx="7" ry="5"/>
+    <ellipse cx="204" cy="365" rx="9" ry="7"/>
+    <ellipse cx="226" cy="342" rx="11" ry="6" transform="rotate(-17 226 342)"/>
+    <ellipse cx="253" cy="340" rx="6" ry="5"/>
+    <ellipse cx="193" cy="390" rx="6" ry="8"/>
+  </g>
+  <path d="M328 235c17-13 36-19 53-20" fill="none" stroke="#c6e795" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#a9c7b4">
+    <circle cx="610" cy="446" r="5"/>
+    <circle cx="632" cy="426" r="3"/>
+    <circle cx="122" cy="452" r="4"/>
+  </g>
+</svg>

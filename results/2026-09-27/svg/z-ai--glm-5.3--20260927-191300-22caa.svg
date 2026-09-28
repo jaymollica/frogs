@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Frog with a Habsburg jaw</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#eef7e6"/>
+      <stop offset="100%" stop-color="#d5eacb"/>
+    </radialGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4fae46"/>
+      <stop offset="100%" stop-color="#3c8f3a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="205" r="194" fill="url(#bg)"/>
+  <ellipse cx="200" cy="354" rx="100" ry="16" fill="#c4dcba" opacity="0.7"/>
+  <ellipse cx="200" cy="160" rx="140" ry="105" fill="#56b04c"/>
+  <circle cx="120" cy="75" r="42" fill="#56b04c"/>
+  <circle cx="280" cy="75" r="42" fill="#56b04c"/>
+  <circle cx="120" cy="72" r="25" fill="#ffffff"/>
+  <circle cx="280" cy="72" r="25" fill="#ffffff"/>
+  <circle cx="120" cy="76" r="12" fill="#26221f"/>
+  <circle cx="280" cy="76" r="12" fill="#26221f"/>
+  <circle cx="124.5" cy="79.5" r="3.6" fill="#ffffff"/>
+  <circle cx="284.5" cy="79.5" r="3.6" fill="#ffffff"/>
+  <path d="M95,72 A25,25 0 0 1 145,72 Z" fill="#56b04c"/>
+  <path d="M255,72 A25,25 0 0 1 305,72 Z" fill="#56b04c"/>
+  <path d="M162,58 L154,24 L182,40 L200,14 L218,40 L246,24 L238,58 Z" fill="#f2c94c" stroke="#c99a2c" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="157" y="52" width="86" height="10" rx="5" fill="#e6b93f" stroke="#c99a2c" stroke-width="2"/>
+  <circle cx="174" cy="57" r="3" fill="#d0484f"/>
+  <circle cx="200" cy="57" r="3" fill="#d0484f"/>
+  <circle cx="226" cy="57" r="3" fill="#d0484f"/>
+  <ellipse cx="178" cy="174" rx="5" ry="4" fill="#2f6d2f"/>
+  <ellipse cx="222" cy="174" rx="5" ry="4" fill="#2f6d2f"/>
+  <ellipse cx="97" cy="185" rx="17" ry="11" fill="#3f9440" opacity="0.35"/>
+  <ellipse cx="303" cy="185" rx="17" ry="11" fill="#3f9440" opacity="0.35"/>
+  <path d="M90,208 Q200,214 310,208 Q200,222 90,208 Z" fill="#3f9440" opacity="0.7"/>
+  <path d="M90,208 Q200,222 310,208 Q200,252 90,208 Z" fill="#4a2620"/>
+  <path d="M88,205 Q200,246 312,205 C330,212 338,240 336,272 C333,316 292,347 200,347 C108,347 67,316 64,272 C62,240 70,212 88,205 Z" fill="url(#jaw)"/>
+  <path d="M100,212 C90,238 88,262 97,286" fill="none" stroke="#2f6d2f" stroke-width="3.5" stroke-linecap="round" opacity="0.35"/>
+  <path d="M300,212 C310,238 312,262 303,286" fill="none" stroke="#2f6d2f" stroke-width="3.5" stroke-linecap="round" opacity="0.35"/>
+  <ellipse cx="200" cy="300" rx="62" ry="30" fill="#8ed17e" opacity="0.4"/>
+  <path d="M152,258 Q200,271 248,258" fill="none" stroke="#2f6d2f" stroke-width="3.5" stroke-linecap="round" opacity="0.45"/>
+</svg>

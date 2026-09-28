@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#7dc65a"/>
+      <stop offset="100%" stop-color="#4a8a35"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#e8e8a0"/>
+      <stop offset="100%" stop-color="#c8c878"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ffe44d"/>
+      <stop offset="100%" stop-color="#d4a010"/>
+    </radialGradient>
+    <radialGradient id="mouthGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8887a"/>
+      <stop offset="100%" stop-color="#d06a5e"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#87CEEB" rx="20"/>
+
+  <!-- Water/pad shadow -->
+  <ellipse cx="250" cy="440" rx="180" ry="30" fill="#5a7a4a" opacity="0.3"/>
+
+  <!-- Back legs -->
+  <g>
+    <!-- Left back leg -->
+    <path d="M130,350 Q80,400 70,450 Q65,465 85,465 Q110,465 130,440 Q145,420 155,380 Z"
+          fill="#4a8a35" stroke="#3a7028" stroke-width="2"/>
+    <path d="M70,450 Q55,465 45,470 Q40,475 55,475 Q75,475 85,465" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+    <path d="M70,450 Q65,480 60,485 Q55,490 70,488 Q85,485 85,465" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+    <path d="M85,450 Q90,475 95,482 Q100,488 110,482 Q115,475 105,460" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+
+    <!-- Right back leg -->
+    <path d="M370,350 Q420,400 430,450 Q435,465 415,465 Q390,465 370,440 Q355,420 345,380 Z"
+          fill="#4a8a35" stroke="#3a7028" stroke-width="2"/>
+    <path d="M430,450 Q445,465 455,470 Q460,475 445,475 Q425,475 415,465" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+    <path d="M430,450 Q435,480 440,485 Q445,490 430,488 Q415,485 415,465" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+    <path d="M415,450 Q410,475 405,482 Q400,488 390,482 Q385,475 395,460" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+  </g>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="340" rx="155" ry="105" fill="url(#bodyGrad)" stroke="#3a7028" stroke-width="3"/>
+
+  <!-- Belly -->
+  <ellipse cx="250" cy="370" rx="105" ry="75" fill="url(#bellyGrad)" opacity="0.8"/>
+
+  <!-- Body spots -->
+  <circle cx="170" cy="310" r="18" fill="#3a7028" opacity="0.3"/>
+  <circle cx="340" cy="305" r="15" fill="#3a7028" opacity="0.3"/>
+  <circle cx="200" cy="280" r="10" fill="#3a7028" opacity="0.25"/>
+  <circle cx="310" cy="275" r="12" fill="#3a7028" opacity="0.25"/>
+  <circle cx="160" cy="360" r="8" fill="#3a7028" opacity="0.2"/>
+  <circle cx="350" cy="360" r="10" fill="#3a7028" opacity="0.2"/>
+
+  <!-- Front arms/legs -->
+  <g>
+    <!-- Left arm -->
+    <path d="M150,340 Q115,365 105,400 Q100,420 115,420 Q130,420 140,405 Q150,385 155,360 Z"
+          fill="#4a8a35" stroke="#3a7028" stroke-width="2"/>
+    <path d="M105,400 Q90,420 82,428 Q78,432 90,430 Q105,426 115,418" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+    <path d="M105,400 Q95,430 95,440 Q95,445 105,440 Q115,432 115,418" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+    <path d="M115,400 Q120,425 128,435 Q132,440 135,432 Q132,420 125,410" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+
+    <!-- Right arm -->
+    <path d="M350,340 Q385,365 395,400 Q400,420 385,420 Q370,420 360,405 Q350,385 345,360 Z"
+          fill="#4a8a35" stroke="#3a7028" stroke-width="2"/>
+    <path d="M395,400 Q410,420 418,428 Q422,432 410,430 Q395,426 385,418" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+    <path d="M395,400 Q405,430 405,440 Q405,445 395,440 Q385,432 385,418" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+    <path d="M385,400 Q380,425 372,435 Q368,440 365,432 Q368,420 375,410" fill="#5a9a45" stroke="#3a7028" stroke-width="2"/>
+  </g>
+
+  <!-- Neck/upper head area -->
+  <ellipse cx="250" cy="230" rx="135" ry="80" fill="url(#bodyGrad)" stroke="#3a7028" stroke-width="3"/>
+
+  <!-- Lower jaw - PROGNATHISM: protrudes FORWARD (downward/outward) past upper jaw -->
+  <g>
+    <!-- Lower jaw extends forward/outward prominently -->
+    <path d="M130,260 Q115,295 140,320 Q180,345 250,350 Q320,345 360,320 Q385,295 370,260"
+          fill="#5a9a45" stroke="#3a7028" stroke-width="3"/>
+    <!-- Lower jaw inner (chin area) -->
+    <path d="M155,275 Q145,300 170,320 Q210,340 250,342 Q290,340 330,320 Q355,300 345,275"
+          fill="url(#mouthGrad)" opacity="0.6"/>
+    <!-- Chin highlight -->
+    <ellipse cx="250" cy="318" rx="65" ry="25" fill="#e8b8a8" opacity="0.3"/>
+  </g>
+
+  <!-- Upper jaw - receding/receded (behind lower jaw) -->
+  <g>
+    <!-- Upper jaw line -->
+    <path d="M145,245 Q155,265 250,268 Q345,265 355,245"
+          fill="#4a8a35" stroke="#3a7028" stroke-width="3"/>
+    <!-- Upper lip area (behind lower jaw) -->
+    <path d="M145,245 Q155,265 250,268 Q345,265 355,245 Q355,240 350,235 L150,235 Q145,240 145,245 Z"
+          fill="#4a8a35" stroke="#3a7028" stroke-width="2"/>
+  </g>
+
+  <!-- Mouth line showing prognathism gap -->
+  <path d="M148,258 Q250,275 352,258"
+        fill="none" stroke="#2a5518" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Mouth interior showing protruding lower jaw overbite (underbite) -->
+  <path d="M155,255 Q250,278 345,255 Q250,270 155,255 Z"
+        fill="#3a1a10" opacity="0.5"/>
+
+  <!-- Nostrils -->
+  <circle cx="220" cy="218" r="6" fill="#2a5518"/>
+  <circle cx="280" cy="218" r="6" fill="#2a5518"/>
+
+  <!-- Eyes -->
+  <g>
+    <!-- Left eye bump -->
+    <circle cx="185" cy="185" r="50" fill="url(#bodyGrad)" stroke="#3a7028" stroke-width="3"/>
+    <!-- Left eye white -->
+    <ellipse cx="185" cy="183" rx="35" ry="33" fill="white" stroke="#3a7028" stroke-width="2"/>
+    <!-- Left iris -->
+    <ellipse cx="185" cy="183" rx="28" ry="28" fill="url(#eyeGrad)"/>
+    <!-- Left pupil (horizontal slit) -->
+    <ellipse cx="185" cy="183" rx="18" ry="6" fill="#1a1a1a"/>
+    <!-- Left eye highlight -->
+    <ellipse cx="178" cy="177" rx="6" ry="5" fill="white" opacity="0.7"/>
+
+    <!-- Right eye bump -->
+    <circle cx="315" cy="185" r="50" fill="url(#bodyGrad)" stroke="#3a7028" stroke-width="3"/>
+    <!-- Right eye white -->
+    <ellipse cx="315" cy="183" rx="35" ry="33" fill="white" stroke="#3a7028" stroke-width="2"/>
+    <!-- Right iris -->
+    <ellipse cx="315" cy="183" rx="28" ry="28" fill="url(#eyeGrad)"/>
+    <!-- Right pupil (horizontal slit) -->
+    <ellipse cx="315" cy="183" rx="18" ry="6" fill="#1a1a1a"/>
+    <!-- Right eye highlight -->
+    <ellipse cx="308" cy="177" rx="6" ry="5" fill="white" opacity="0.7"/>
+  </g>
+
+  <!-- Top of head -->
+  <path d="M145,195 Q145,130 195,105 Q250,82 305,105 Q355,130 355,195"
+        fill="none" stroke="#3a7028" stroke-width="2" opacity="0.3"/>
+
+  <!-- Throat pouch (expanded - male frog) -->
+  <ellipse cx="250" cy="305" rx="55" ry="30" fill="#e8a090" opacity="0.4" stroke="#3a7028" stroke-width="2"/>
+
+  <!-- Lower jaw tip highlight to emphasize prognathism -->
+  <path d="M145,265 Q140,290 155,310" fill="none" stroke="#3a7028" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M355,265 Q360,290 345,310" fill="none" stroke="#3a7028" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Bottom chin line emphasizing lower jaw protrusion -->
+  <path d="M140,315 Q180,345 250,352 Q320,345 360,315"
+        fill="none" stroke="#3a7028" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Tongue tip visible (sticking out slightly due to underbite) -->
+  <ellipse cx="250" cy="282" rx="25" ry="12" fill="#e86070" stroke="#c84050" stroke-width="2" opacity="0.7"/>
+
+</svg>

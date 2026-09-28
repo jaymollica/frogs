@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-label="Side-view illustration of a frog with a lower jaw protruding beyond its upper jaw">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#a9d96a"/>
+      <stop offset="1" stop-color="#4f9c58"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0.5" y2="1">
+      <stop stop-color="#e6d98a"/>
+      <stop offset="1" stop-color="#b7bb6b"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="318" cy="457" rx="248" ry="28" fill="#b5d9d0" opacity=".42"/>
+  <path d="M76 450c93-29 262-28 472 3-77 25-324 31-472-3Z" fill="#77ae73"/>
+  <path d="M341 454 525 453" fill="none" stroke="#d5e7a2" stroke-width="3"/>
+
+  <!-- Hind leg and webbed foot -->
+  <path d="M203 347c-47 5-83 30-91 72-5 25 8 41 31 40l94-12 27-68Z" fill="#62a85b" stroke="#315d42" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M124 434c-21 2-34 9-48 23 20-5 36-5 49-2-10 6-17 13-22 22 23-9 42-15 59-16 21 1 39-2 55-11l-24-22Z" fill="#83bf69" stroke="#315d42" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M136 451c-13 1-25 6-34 12m51-10c-12 3-23 9-31 17" fill="none" stroke="#568a55" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Rounded body -->
+  <path d="M173 365c-3-62 43-112 107-116 65-4 112 30 128 93 13 49-15 99-76 111-47 9-115-5-142-32-13-13-19-33-17-56Z" fill="url(#body)" stroke="#315d42" stroke-width="5"/>
+  <path d="M229 388c31 29 82 41 128 25" fill="none" stroke="#c9dfa0" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Front leg -->
+  <path d="M345 363c20-6 37 1 43 19l-12 57-27 10-14-10 13-49-17-8Z" fill="#77b765" stroke="#315d42" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M354 437c-17-3-30 3-43 17 17-3 28-3 37 0-11 4-19 11-24 20 18-7 32-12 44-12 12 4 25 3 40-2-12-5-24-10-36-17Z" fill="#87c371" stroke="#315d42" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Protruding lower jaw -->
+  <path d="M352 338c38 10 81 13 119 5 31-7 55-3 79 5 10 4 12 14 5 25-11 19-31 28-61 27-53-2-102-12-130-30-12-8-17-19-12-32Z" fill="url(#jaw)" stroke="#315d42" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M402 359c38 5 65-4 89-10 20-5 37-3 48 1" fill="none" stroke="#4b4737" stroke-width="5" stroke-linecap="round"/>
+  <path d="M455 380c28 7 63 8 84-5" fill="none" stroke="#f4e5a5" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Upper head ends well before the lower jaw -->
+  <path d="M302 329c-2-37 18-66 52-77 15-5 29-5 41-1 6-23 24-38 46-36 28 1 42 22 39 45 16 13 23 34 17 59-2 9-9 15-19 18-31 9-66 14-107 12l-42 2c-18 0-27-8-27-22Z" fill="url(#body)" stroke="#315d42" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M348 339c43 8 90 7 128-3" fill="none" stroke="#466b45" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="476" cy="304" rx="7" ry="4" fill="#386445" transform="rotate(-12 476 304)"/>
+
+  <!-- Raised eyes -->
+  <path d="M339 272c-6-27 6-47 27-50 21-3 37 16 35 41" fill="#90c76c" stroke="#315d42" stroke-width="5"/>
+  <ellipse cx="367" cy="251" rx="15" ry="18" fill="#f8e8a5" stroke="#315d42" stroke-width="3"/>
+  <ellipse cx="373" cy="253" rx="7" ry="11" fill="#263d34"/>
+  <circle cx="376" cy="248" r="3" fill="#fff"/>
+  <ellipse cx="442" cy="245" rx="23" ry="27" fill="#8bc768" stroke="#315d42" stroke-width="4"/>
+  <ellipse cx="446" cy="245" rx="15" ry="19" fill="#f8e8a5" stroke="#315d42" stroke-width="3"/>
+  <ellipse cx="451" cy="247" rx="7" ry="12" fill="#263d34"/>
+  <circle cx="454" cy="241" r="3" fill="#fff"/>
+
+  <!-- Subtle markings -->
+  <g fill="#498d52" opacity=".6">
+    <ellipse cx="234" cy="311" rx="12" ry="7" transform="rotate(-24 234 311)"/>
+    <ellipse cx="260" cy="288" rx="7" ry="5"/>
+    <ellipse cx="216" cy="340" rx="6" ry="4"/>
+    <ellipse cx="293" cy="307" rx="8" ry="5"/>
+    <ellipse cx="394" cy="297" rx="7" ry="4"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Side-view frog with protruding lower jaw, mandibular prognathism">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84cc60"/>
+      <stop offset=".45" stop-color="#58a243"/>
+      <stop offset="1" stop-color="#37732f"/>
+    </linearGradient>
+    <linearGradient id="jawGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#79c456"/>
+      <stop offset="1" stop-color="#4a8a3b"/>
+    </linearGradient>
+    <linearGradient id="legGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#66ad4b"/>
+      <stop offset="1" stop-color="#33692c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="480" fill="#f4fcff"/>
+  <ellipse cx="350" cy="446" rx="198" ry="24" fill="#12321d" opacity=".10"/>
+
+  <g>
+    <path d="M236 226 C246 178 287 145 340 143 C426 139 500 199 509 283 C517 355 473 406 404 416 C335 426 292 401 282 364 C273 332 296 312 328 302 C356 293 372 282 372 267 C372 248 345 237 312 233 C282 229 254 225 236 226 Z" fill="url(#bodyGrad)"/>
+    <ellipse cx="392" cy="345" rx="106" ry="62" transform="rotate(-6 392 345)" fill="#e7f8ca" opacity=".33"/>
+
+    <path d="M407 211 C476 199 535 238 540 302 C544 354 511 393 459 402 C412 410 371 397 360 364 C349 331 371 297 401 284 C386 262 386 235 407 211 Z" fill="url(#legGrad)" stroke="#275126" stroke-width="5" stroke-linejoin="round"/>
+
+    <path d="M296 424 C350 402 431 407 492 424 C510 430 504 446 484 448 C399 456 320 449 292 440 C276 435 278 430 296 424 Z" fill="url(#legGrad)" stroke="#275126" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M337 420 C340 432 340 443 337 452 M382 418 C386 431 386 444 382 454 M427 423 C431 435 431 447 427 456" fill="none" stroke="#275126" stroke-width="5" opacity=".45" stroke-linecap="round"/>
+
+    <path d="M140 256 C188 236 287 231 383 246 C408 250 408 279 384 288 C339 303 249 313 184 304 C154 300 131 285 140 256 Z" fill="url(#jawGrad)" stroke="#275126" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M234 224 C285 228 340 234 382 246" fill="none" stroke="#275126" stroke-width="4" opacity=".75" stroke-linecap="round"/>
+    <ellipse cx="257" cy="202" rx="5" ry="4" transform="rotate(-17 257 202)" fill="#275126"/>
+
+    <path d="M334 310 C312 338 304 370 297 398" fill="none" stroke="#275126" stroke-width="36" stroke-linecap="round"/>
+    <path d="M334 310 C312 338 304 370 297 398" fill="none" stroke="url(#legGrad)" stroke-width="28" stroke-linecap="round"/>
+    <ellipse cx="289" cy="410" rx="31" ry="15" transform="rotate(-18 289 410)" fill="url(#legGrad)" stroke="#275126" stroke-width="5"/>
+    <path d="M270 399 L246 391 M274 410 L245 410 M281 420 L254 429" fill="none" stroke="#275126" stroke-width="7" stroke-linecap="round"/>
+
+    <ellipse cx="347" cy="158" rx="56" ry="50" fill="url(#bodyGrad)"/>
+    <ellipse cx="348" cy="157" rx="35" ry="33" fill="#f7e9a1"/>
+    <circle cx="351" cy="158" r="22" fill="#dda032"/>
+    <ellipse cx="349" cy="159" rx="8" ry="12" fill="#161616"/>
+    <circle cx="337" cy="146" r="7" fill="#ffffff" opacity=".85"/>
+    <circle cx="361" cy="171" r="3.5" fill="#ffffff" opacity=".55"/>
+    <ellipse cx="348" cy="157" rx="35" ry="33" fill="none" stroke="#2f5f2b" stroke-width="4" opacity=".85"/>
+  </g>
+</svg>

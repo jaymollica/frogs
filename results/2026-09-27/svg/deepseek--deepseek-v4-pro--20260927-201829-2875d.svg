@@ -1,0 +1,111 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bodyGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#eab308" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0f172a" />
+
+  <!-- Water Ripples -->
+  <circle cx="300" cy="470" r="240" fill="none" stroke="#1e293b" stroke-width="2" opacity="0.6" />
+  <circle cx="300" cy="470" r="220" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.4" />
+
+  <!-- Lily Pad -->
+  <ellipse cx="300" cy="460" rx="240" ry="60" fill="#14532d" stroke="#052e16" stroke-width="5" />
+  <path d="M 300 460 L 320 510 L 350 480 Z" fill="#0f172a" />
+  
+  <!-- Lily Pad Veins -->
+  <path d="M 300 460 L 100 470 M 300 460 L 120 440 M 300 460 L 480 440 M 300 460 L 500 470 M 300 460 L 450 480" stroke="#052e16" stroke-width="3" opacity="0.5" />
+
+  <!-- Back Leg (Right) -->
+  <ellipse cx="180" cy="390" rx="60" ry="90" transform="rotate(35 180 390)" fill="#15803d" stroke="#052e16" stroke-width="4" />
+  
+  <!-- Back Foot (Webbed) -->
+  <ellipse cx="140" cy="460" rx="35" ry="15" transform="rotate(-20 140 460)" fill="#166534" stroke="#052e16" stroke-width="3" />
+  <line x1="170" y1="430" x2="120" y2="450" stroke="#166534" stroke-width="12" stroke-linecap="round" />
+  <line x1="170" y1="430" x2="110" y2="470" stroke="#166534" stroke-width="12" stroke-linecap="round" />
+  <line x1="170" y1="430" x2="130" y2="490" stroke="#166534" stroke-width="12" stroke-linecap="round" />
+  <circle cx="120" cy="450" r="9" fill="#bbf7d0" />
+  <circle cx="110" cy="470" r="9" fill="#bbf7d0" />
+  <circle cx="130" cy="490" r="9" fill="#bbf7d0" />
+
+  <!-- Body -->
+  <ellipse cx="330" cy="370" rx="140" ry="105" fill="url(#bodyGrad)" stroke="#052e16" stroke-width="5" />
+  
+  <!-- Belly -->
+  <ellipse cx="290" cy="380" rx="80" ry="60" fill="#bbf7d0" opacity="0.8" />
+
+  <!-- Head Base -->
+  <ellipse cx="330" cy="220" rx="120" ry="95" fill="url(#bodyGrad)" stroke="#052e16" stroke-width="5" />
+
+  <!-- Eye Socket -->
+  <ellipse cx="320" cy="150" rx="35" ry="45" fill="#166534" stroke="#052e16" stroke-width="4" />
+  
+  <!-- Eye Ball -->
+  <ellipse cx="320" cy="145" rx="30" ry="40" fill="#bbf7d0" stroke="#052e16" stroke-width="3" />
+  
+  <!-- Iris -->
+  <ellipse cx="330" cy="145" rx="12" ry="28" fill="url(#eyeGrad)" />
+  
+  <!-- Pupil -->
+  <ellipse cx="333" cy="145" rx="5" ry="18" fill="#0f172a" />
+  
+  <!-- Eye Highlight -->
+  <circle cx="315" cy="130" r="6" fill="white" opacity="0.8" />
+  <circle cx="323" cy="125" r="2" fill="white" opacity="0.6" />
+
+  <!-- Nostril -->
+  <ellipse cx="410" cy="200" rx="5" ry="3" fill="#052e16" transform="rotate(-15 410 200)" />
+
+  <!-- Upper Jaw & Snout (Maxilla) -->
+  <path d="M 250 250 Q 360 260 440 240 C 455 230, 440 205, 420 200 Q 350 190, 250 250 Z" fill="#22c55e" stroke="#052e16" stroke-width="4" stroke-linejoin="round" />
+  
+  <!-- Upper Teeth (Recessed) -->
+  <path d="M 280 245 L 290 235 L 300 247 L 310 237 L 320 249 L 330 239 L 340 251 L 350 241 L 360 253 L 370 243 L 380 254 L 390 244 L 400 255 L 410 245 L 420 255" stroke="white" stroke-width="6" fill="none" stroke-linejoin="round" stroke-linecap="round" />
+
+  <!-- Mouth Line (Dark gap behind the protruding lower jaw) -->
+  <path d="M 275 255 Q 380 285 450 250" stroke="#052e16" stroke-width="12" fill="none" stroke-linecap="round" />
+
+  <!-- Lower Jaw (Mandible - Mandibular Prognathism / Underbite) -->
+  <path d="M 230 260 C 250 410, 490 420, 520 280 C 530 250, 510 220, 460 220 C 400 225, 350 260, 280 260 Z" fill="#15803d" stroke="#052e16" stroke-width="6" stroke-linejoin="round" />
+  
+  <!-- Lower Jaw 3D Highlight -->
+  <path d="M 230 260 C 250 410, 490 420, 520 280" fill="none" stroke="#4ade80" stroke-width="8" stroke-linecap="round" opacity="0.6" />
+  
+  <!-- Lower Jaw Drop Shadow (Emphasizes the protrusion) -->
+  <path d="M 230 260 C 250 410, 490 420, 520 280 C 500 430, 260 410, 240 270 Z" fill="#0f172a" opacity="0.4" />
+
+  <!-- Lower Teeth (Protruding forward over the upper lip) -->
+  <path d="M 260 270 L 275 255 L 290 273 L 305 258 L 320 276 L 335 261 L 350 278 L 365 263 L 380 280 L 395 265 L 410 281 L 425 266 L 440 282 L 455 272 L 470 285 L 485 278" stroke="white" stroke-width="7" fill="none" stroke-linejoin="round" stroke-linecap="round" />
+
+  <!-- Front Arm (Left) -->
+  <path d="M 380 340 Q 440 370 490 400" stroke="#22c55e" stroke-width="35" stroke-linecap="round" fill="none" stroke="#052e16" stroke-width="5" />
+  <path d="M 380 340 Q 440 370 490 400" stroke="#4ade80" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- Front Fingers -->
+  <line x1="500" y1="405" x2="530" y2="390" stroke="#166534" stroke-width="14" stroke-linecap="round" />
+  <line x1="500" y1="405" x2="540" y2="410" stroke="#166534" stroke-width="14" stroke-linecap="round" />
+  <line x1="500" y1="405" x2="525" y2="425" stroke="#166534" stroke-width="14" stroke-linecap="round" />
+  
+  <!-- Front Toe Pads -->
+  <circle cx="530" cy="390" r="10" fill="#bbf7d0" />
+  <circle cx="540" cy="410" r="10" fill="#bbf7d0" />
+  <circle cx="525" cy="425" r="10" fill="#bbf7d0" />
+
+  <!-- Warts & Texture (Dark Green Spots) -->
+  <circle cx="280" cy="220" r="12" fill="#166534" opacity="0.5" />
+  <circle cx="250" cy="280" r="8" fill="#166534" opacity="0.5" />
+  <circle cx="370" cy="300" r="15" fill="#166534" opacity="0.5" />
+  <circle cx="450" cy="280" r="10" fill="#166534" opacity="0.5" />
+  <circle cx="430" cy="350" r="18" fill="#166534" opacity="0.5" />
+  <circle cx="490" cy="390" r="12" fill="#166534" opacity="0.5" />
+  <circle cx="300" cy="260" r="6" fill="#166534" opacity="0.5" />
+  <circle cx="340" cy="230" r="8" fill="#166534" opacity="0.5" />
+</svg>

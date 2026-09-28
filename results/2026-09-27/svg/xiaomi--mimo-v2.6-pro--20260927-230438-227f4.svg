@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 540" width="500" height="540">
+  <defs>
+    <radialGradient id="bodyGrad" cx="38%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#7FCF5C"/>
+      <stop offset="55%" stop-color="#4CA33B"/>
+      <stop offset="100%" stop-color="#2C7528"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="20%" r="90%">
+      <stop offset="0%" stop-color="#8FD96B"/>
+      <stop offset="60%" stop-color="#5FB84A"/>
+      <stop offset="100%" stop-color="#3B8C33"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#F3E9B5"/>
+      <stop offset="100%" stop-color="#D6C77C"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="38%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="75%" stop-color="#F2F2E6"/>
+      <stop offset="100%" stop-color="#CFCFC0"/>
+    </radialGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A7D97C"/>
+      <stop offset="100%" stop-color="#6FA84B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ground -->
+  <ellipse cx="250" cy="492" rx="215" ry="34" fill="url(#groundGrad)"/>
+
+  <!-- back feet -->
+  <ellipse cx="118" cy="452" rx="72" ry="34" fill="#2C7528" transform="rotate(-12 118 452)"/>
+  <ellipse cx="382" cy="452" rx="72" ry="34" fill="#2C7528" transform="rotate(12 382 452)"/>
+  <circle cx="62" cy="446" r="12" fill="#3E9136"/>
+  <circle cx="438" cy="446" r="12" fill="#3E9136"/>
+
+  <!-- body -->
+  <ellipse cx="250" cy="392" rx="132" ry="102" fill="url(#bodyGrad)"/>
+  <ellipse cx="250" cy="418" rx="92" ry="72" fill="url(#bellyGrad)"/>
+
+  <!-- front legs -->
+  <path d="M132 322 C104 356 106 410 128 440 C144 462 176 458 180 434 C184 408 176 372 186 340 Z" fill="#45A03A"/>
+  <path d="M368 322 C396 356 394 410 372 440 C356 462 324 458 320 434 C316 408 324 372 314 340 Z" fill="#45A03A"/>
+  <path d="M126 438 C112 452 112 470 126 474 C142 478 156 468 154 452 Z" fill="#3B8C33"/>
+  <path d="M374 438 C388 452 388 470 374 474 C358 478 344 468 346 452 Z" fill="#3B8C33"/>
+
+  <!-- head -->
+  <ellipse cx="250" cy="230" rx="158" ry="122" fill="url(#bodyGrad)"/>
+
+  <!-- head spots -->
+  <ellipse cx="152" cy="196" rx="17" ry="12" fill="#2C7528" opacity="0.55" transform="rotate(-18 152 196)"/>
+  <ellipse cx="352" cy="192" rx="15" ry="11" fill="#2C7528" opacity="0.55" transform="rotate(16 352 192)"/>
+  <ellipse cx="118" cy="252" rx="13" ry="9" fill="#2C7528" opacity="0.45"/>
+  <ellipse cx="388" cy="256" rx="13" ry="9" fill="#2C7528" opacity="0.45"/>
+
+  <!-- eye bulges -->
+  <circle cx="172" cy="138" r="70" fill="#4CA33B"/>
+  <circle cx="328" cy="138" r="70" fill="#4CA33B"/>
+
+  <!-- eyes -->
+  <circle cx="172" cy="136" r="52" fill="url(#eyeGrad)" stroke="#2C7528" stroke-width="4"/>
+  <circle cx="328" cy="136" r="52" fill="url(#eyeGrad)" stroke="#2C7528" stroke-width="4"/>
+  <ellipse cx="172" cy="142" rx="24" ry="29" fill="#1E2A16"/>
+  <ellipse cx="328" cy="142" rx="24" ry="29" fill="#1E2A16"/>
+  <circle cx="160" cy="124" r="11" fill="#FFFFFF" opacity="0.95"/>
+  <circle cx="316" cy="124" r="11" fill="#FFFFFF" opacity="0.95"/>
+  <circle cx="186" cy="162" r="6" fill="#FFFFFF" opacity="0.55"/>
+  <circle cx="342" cy="162" r="6" fill="#FFFFFF" opacity="0.55"/>
+
+  <!-- eyelids -->
+  <path d="M120 128 C132 82 212 82 224 128 C196 108 148 108 120 128 Z" fill="#3E9136"/>
+  <path d="M276 128 C288 82 368 82 380 128 C352 108 304 108 276 128 Z" fill="#3E9136"/>
+
+  <!-- nostrils -->
+  <ellipse cx="212" cy="208" rx="11" ry="8" fill="#2C7528" transform="rotate(-10 212 208)"/>
+  <ellipse cx="288" cy="208" rx="11" ry="8" fill="#2C7528" transform="rotate(10 288 208)"/>
+
+  <!-- mouth opening (dark gap) -->
+  <path d="M92 246 C130 300 190 320 250 320 C310 320 370 300 408 246 C372 288 312 306 250 306 C188 306 128 288 92 246 Z" fill="#4B2A18"/>
+
+  <!-- protruding lower jaw -->
+  <path d="M92 244
+           C128 296 188 318 250 318
+           C312 318 372 296 408 244
+           C436 274 452 316 442 356
+           C430 404 372 438 250 438
+           C128 438 70 404 58 356
+           C48 316 64 274 92 244 Z"
+        fill="url(#jawGrad)" stroke="#276B22" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- jaw shading -->
+  <path d="M112 336 C150 380 190 398 250 398 C310 398 350 380 388 336 C356 386 312 412 250 412 C188 412 144 386 112 336 Z"
+        fill="#2C7528" opacity="0.35"/>
+  <ellipse cx="120" cy="330" rx="26" ry="18" fill="#8FD96B" opacity="0.35" transform="rotate(-25 120 330)"/>
+  <ellipse cx="380" cy="330" rx="26" ry="18" fill="#8FD96B" opacity="0.35" transform="rotate(25 380 330)"/>
+
+  <!-- lower lip line -->
+  <path d="M100 262 C140 306 192 328 250 328 C308 328 360 306 400 262"
+        fill="none" stroke="#276B22" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- small teeth on the protruding jaw -->
+  <path d="M166 300 L180 322 L194 302 Z" fill="#FFFDE8" stroke="#C9C09A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M232 316 L250 342 L268 316 Z" fill="#FFFDE8" stroke="#C9C09A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M306 302 L320 322 L334 300 Z" fill="#FFFDE8" stroke="#C9C09A" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- chin highlight -->
+  <path d="M186 402 C216 416 284 416 314 402" fill="none" stroke="#B7EE93" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+</svg>

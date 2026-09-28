@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0F2F1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Lily Pad -->
+  <ellipse cx="250" cy="470" rx="220" ry="50" fill="#81C784" opacity="0.8"/>
+  <path d="M 250 470 L 180 470" stroke="#81C784" stroke-width="15" opacity="0.8"/>
+  <path d="M 250 470 L 330 470" stroke="#81C784" stroke-width="10" opacity="0.8"/>
+
+  <!-- Back Legs -->
+  <!-- Left Back Foot -->
+  <path d="M 80 400 C 30 420, 10 480, 40 500 C 60 510, 90 490, 100 460" fill="#4CAF50" stroke="#2E7D32" stroke-width="6"/>
+  <path d="M 20 480 C 10 500, 10 520, 20 530 M 40 500 C 40 520, 50 530, 60 530 M 60 490 C 70 510, 80 520, 90 510" fill="none" stroke="#4CAF50" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Right Back Foot -->
+  <path d="M 420 400 C 470 420, 490 480, 460 500 C 440 510, 410 490, 400 460" fill="#4CAF50" stroke="#2E7D32" stroke-width="6"/>
+  <path d="M 480 480 C 490 500, 490 520, 480 530 M 460 500 C 460 520, 450 530, 440 530 M 440 490 C 430 510, 420 520, 410 510" fill="none" stroke="#4CAF50" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Body (Lower Jaw) -->
+  <path d="M 80 230 
+           C 80 350, 100 410, 150 430 
+           C 200 450, 300 450, 350 430 
+           C 400 410, 420 350, 420 230 
+           C 400 310, 320 350, 250 350 
+           C 180 350, 100 310, 80 230 Z" fill="#43A047" stroke="#2E7D32" stroke-width="5"/>
+  
+  <!-- Lower Jaw Highlight -->
+  <path d="M 120 260 
+           C 120 360, 150 410, 200 430 
+           C 250 440, 300 430, 350 410 
+           C 380 390, 400 360, 400 260 
+           C 350 320, 300 340, 250 340 
+           C 200 340, 150 320, 120 260 Z" fill="#66BB6A" opacity="0.6"/>
+
+  <!-- Belly -->
+  <ellipse cx="250" cy="390" rx="70" ry="35" fill="#C8E6C9" opacity="0.8"/>
+
+  <!-- Body Spots -->
+  <circle cx="160" cy="280" r="12" fill="#388E3C" opacity="0.6"/>
+  <circle cx="340" cy="280" r="12" fill="#388E3C" opacity="0.6"/>
+  <circle cx="200" cy="320" r="8" fill="#388E3C" opacity="0.6"/>
+  <circle cx="300" cy="320" r="8" fill="#388E3C" opacity="0.6"/>
+  <circle cx="250" cy="300" r="10" fill="#388E3C" opacity="0.6"/>
+
+  <!-- Front Legs -->
+  <!-- Left Front Leg -->
+  <path d="M 100 300 Q 40 340 50 390" fill="none" stroke="#4CAF50" stroke-width="24" stroke-linecap="round"/>
+  <path d="M 100 300 Q 40 340 50 390" fill="none" stroke="#2E7D32" stroke-width="24" stroke-linecap="round" opacity="0.2"/>
+  <path d="M 50 390 Q 30 420 40 440 M 50 390 Q 50 430 60 440 M 50 390 Q 70 420 80 430" fill="none" stroke="#4CAF50" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Right Front Leg -->
+  <path d="M 400 300 Q 460 340 450 390" fill="none" stroke="#4CAF50" stroke-width="24" stroke-linecap="round"/>
+  <path d="M 400 300 Q 460 340 450 390" fill="none" stroke="#2E7D32" stroke-width="24" stroke-linecap="round" opacity="0.2"/>
+  <path d="M 450 390 Q 470 420 460 440 M 450 390 Q 450 430 440 440 M 450 390 Q 430 420 420 430" fill="none" stroke="#4CAF50" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Upper Jaw (Head) -->
+  <path d="M 140 190 C 140 90, 360 90, 360 190 C 360 250, 140 250, 140 190 Z" fill="#4CAF50" stroke="#2E7D32" stroke-width="5"/>
+
+  <!-- Nostrils -->
+  <circle cx="210" cy="200" r="6" fill="#1B5E20" />
+  <circle cx="290" cy="200" r="6" fill="#1B5E20" />
+  <path d="M 200 190 Q 210 180 220 190 M 280 190 Q 290 180 300 190" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Mouth Line (Underbite) -->
+  <path d="M 80 230 Q 250 310 420 230" fill="none" stroke="#1B5E20" stroke-width="8" stroke-linecap="round"/>
+  <!-- Upper Lip Line -->
+  <path d="M 140 220 Q 250 280 360 220" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <!-- Left Eye -->
+  <circle cx="170" cy="130" r="50" fill="#FFF" stroke="#2E7D32" stroke-width="8"/>
+  <circle cx="180" cy="130" r="22" fill="#1B5E20" />
+  <circle cx="185" cy="125" r="8" fill="#FFF" />
+  <path d="M 130 130 Q 170 90 210 130" fill="none" stroke="#1B5E20" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Right Eye -->
+  <circle cx="330" cy="130" r="50" fill="#FFF" stroke="#2E7D32" stroke-width="8"/>
+  <circle cx="320" cy="130" r="22" fill="#1B5E20" />
+  <circle cx="315" cy="125" r="8" fill="#FFF" />
+  <path d="M 290 130 Q 330 90 370 130" fill="none" stroke="#1B5E20" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Crown -->
+  <path d="M 210 80 L 220 40 L 240 60 L 250 30 L 260 60 L 280 40 L 290 80 Z" fill="#FFC107" stroke="#FF8F00" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="208" y="78" width="84" height="15" rx="5" fill="#FFC107" stroke="#FF8F00" stroke-width="4"/>
+  <circle cx="220" cy="40" r="6" fill="#FFD54F" stroke="#FF8F00" stroke-width="2"/>
+  <circle cx="250" cy="30" r="6" fill="#FFD54F" stroke="#FF8F00" stroke-width="2"/>
+  <circle cx="280" cy="40" r="6" fill="#FFD54F" stroke="#FF8F00" stroke-width="2"/>
+</svg>

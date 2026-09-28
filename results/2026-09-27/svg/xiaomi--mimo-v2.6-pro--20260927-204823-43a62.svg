@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bde4f2"/>
+      <stop offset="1" stop-color="#e6f5da"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fbf5c"/>
+      <stop offset="1" stop-color="#5c9436"/>
+    </linearGradient>
+    <radialGradient id="frogSkin" cx="0.35" cy="0.28" r="0.85">
+      <stop offset="0" stop-color="#93d153"/>
+      <stop offset="0.55" stop-color="#63ac2c"/>
+      <stop offset="1" stop-color="#39781c"/>
+    </radialGradient>
+    <radialGradient id="legSkin" cx="0.35" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#77bd3e"/>
+      <stop offset="1" stop-color="#2f6a18"/>
+    </radialGradient>
+    <radialGradient id="bellyG" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#f2f6c8"/>
+      <stop offset="1" stop-color="#cfe193"/>
+    </radialGradient>
+    <linearGradient id="eyeBall" x1="0.2" y1="0.1" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d6e2cb"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#d8b23c"/>
+      <stop offset="1" stop-color="#8a6a12"/>
+    </radialGradient>
+
+    <path id="silhouette" d="M 150,300
+      C 142,252 186,212 248,204
+      C 252,160 318,142 358,186
+      C 382,172 412,172 436,188
+      C 476,146 540,164 556,212
+      C 620,238 672,308 678,392
+      C 684,472 626,528 534,538
+      C 432,552 330,542 276,508
+      C 232,486 196,468 172,448
+      C 140,438 112,424 104,398
+      C 98,372 122,332 150,300 Z"/>
+    <clipPath id="clipBody">
+      <use href="#silhouette"/>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="660" cy="110" r="58" fill="#fff6c9" opacity="0.85"/>
+  <ellipse cx="180" cy="120" rx="95" ry="38" fill="#ffffff" opacity="0.55"/>
+  <ellipse cx="260" cy="140" rx="70" ry="30" fill="#ffffff" opacity="0.45"/>
+  <path d="M 0,505 C 140,470 300,486 420,500 C 540,514 660,486 800,502 L 800,600 L 0,600 Z" fill="url(#ground)"/>
+  <g stroke="#6ba03c" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M 60,540 C 56,512 64,500 72,490"/>
+    <path d="M 84,546 C 88,518 82,504 76,492"/>
+    <path d="M 700,530 C 696,502 704,490 712,480"/>
+    <path d="M 726,536 C 730,508 724,494 718,482"/>
+    <path d="M 470,548 C 466,522 474,510 482,500"/>
+    <path d="M 494,552 C 498,526 492,512 486,502"/>
+  </g>
+
+  <!-- shadow -->
+  <ellipse cx="420" cy="548" rx="270" ry="34" fill="#2c5c14" opacity="0.28"/>
+
+  <!-- hind leg (behind body) -->
+  <g>
+    <ellipse cx="600" cy="452" rx="118" ry="82" transform="rotate(-14 600 452)" fill="url(#legSkin)"/>
+    <path d="M 636,516 C 668,524 700,530 726,536" stroke="#3f8c22" stroke-width="30" stroke-linecap="round" fill="none"/>
+    <g fill="#4f9c28">
+      <ellipse cx="736" cy="522" rx="26" ry="13" transform="rotate(-18 736 522)"/>
+      <ellipse cx="742" cy="540" rx="26" ry="13" transform="rotate(2 742 540)"/>
+      <ellipse cx="734" cy="556" rx="25" ry="12" transform="rotate(20 734 556)"/>
+    </g>
+    <g fill="#d8e9a2">
+      <circle cx="758" cy="516" r="9"/><circle cx="766" cy="541" r="9"/><circle cx="755" cy="565" r="8"/>
+    </g>
+  </g>
+
+  <!-- body -->
+  <use href="#silhouette" fill="url(#frogSkin)"/>
+
+  <g clip-path="url(#clipBody)">
+    <!-- dorsal spots -->
+    <g fill="#3b7c1c" opacity="0.55">
+      <ellipse cx="392" cy="296" rx="44" ry="28"/>
+      <ellipse cx="512" cy="318" rx="36" ry="23"/>
+      <ellipse cx="452" cy="378" rx="30" ry="19"/>
+      <ellipse cx="586" cy="398" rx="32" ry="21"/>
+      <ellipse cx="336" cy="336" rx="27" ry="17"/>
+      <ellipse cx="620" cy="330" rx="26" ry="18"/>
+      <ellipse cx="270" cy="248" rx="22" ry="15"/>
+      <ellipse cx="430" cy="238" rx="24" ry="15"/>
+      <ellipse cx="560" cy="242" rx="20" ry="14"/>
+    </g>
+    <!-- belly -->
+    <path d="M 176,432 C 246,486 346,512 452,510 C 560,508 646,472 690,410 L 700,600 L 120,600 Z" fill="url(#bellyG)" opacity="0.92"/>
+    <g fill="#b8cf7c" opacity="0.5">
+      <ellipse cx="330" cy="470" rx="34" ry="16"/>
+      <ellipse cx="430" cy="492" rx="42" ry="18"/>
+      <ellipse cx="540" cy="486" rx="38" ry="17"/>
+    </g>
+    <!-- head shading -->
+    <path d="M 150,300 C 138,344 152,386 190,412 C 244,440 312,446 372,436 C 330,462 246,458 194,432 C 150,410 128,358 150,300 Z" fill="#2b5c12" opacity="0.35"/>
+  </g>
+
+  <!-- body outline -->
+  <use href="#silhouette" fill="none" stroke="#2c5c14" stroke-width="5" stroke-opacity="0.55"/>
+
+  <!-- mouth: upper jaw ends far behind the protruding lower jaw -->
+  <path d="M 151,306 C 134,346 150,388 190,412 C 236,438 292,446 344,438"
+        fill="none" stroke="#22460f" stroke-width="9" stroke-linecap="round"/>
+  <!-- lower lip highlight (prognathic mandible) -->
+  <path d="M 116,392 C 112,370 130,340 152,318 C 138,352 138,382 156,404 C 178,430 240,444 300,442"
+        fill="none" stroke="#c8de8c" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+  <!-- protruding mandible contour -->
+  <path d="M 104,398 C 98,372 122,332 150,300" fill="none" stroke="#2c5c14" stroke-width="4" opacity="0.4"/>
+
+  <!-- nostrils -->
+  <ellipse cx="172" cy="278" rx="8" ry="5" transform="rotate(-22 172 278)" fill="#2c5c14"/>
+  <ellipse cx="196" cy="266" rx="7" ry="4.5" transform="rotate(-22 196 266)" fill="#2c5c14" opacity="0.8"/>
+
+  <!-- eyes -->
+  <g>
+    <ellipse cx="305" cy="192" rx="55" ry="53" fill="url(#eyeBall)" stroke="#2c5c14" stroke-width="5"/>
+    <ellipse cx="500" cy="200" rx="57" ry="55" fill="url(#eyeBall)" stroke="#2c5c14" stroke-width="5"/>
+    <circle cx="307" cy="196" r="35" fill="url(#iris)"/>
+    <circle cx="500" cy="204" r="36" fill="url(#iris)"/>
+    <ellipse cx="307" cy="197" rx="25" ry="14" fill="#141408"/>
+    <ellipse cx="500" cy="205" rx="26" ry="14" fill="#141408"/>
+    <circle cx="291" cy="180" r="9" fill="#ffffff" opacity="0.95"/>
+    <circle cx="484" cy="188" r="9" fill="#ffffff" opacity="0.95"/>
+    <circle cx="322" cy="212" r="4" fill="#ffffff" opacity="0.7"/>
+    <circle cx="515" cy="220" r="4" fill="#ffffff" opacity="0.7"/>
+    <!-- eyelid ridges -->
+    <path d="M 254,164 C 274,128 336,126 358,172" fill="none" stroke="#2c5c14" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 452,170 C 474,132 536,132 558,180" fill="none" stroke="#2c5c14" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+  </g>
+
+  <!-- front leg -->
+  <g>
+    <path d="M 322,472 C 300,500 282,522 268,542" stroke="#4f9c28" stroke-width="36" stroke-linecap="round" fill="none"/>
+    <path d="M 322,472 C 300,500 282,522 268,542" stroke="#2c5c14" stroke-width="36" stroke-linecap="round" fill="none" opacity="0.18"/>
+    <g fill="#4f9c28">
+      <ellipse cx="238" cy="552" rx="24" ry="12" transform="rotate(-16 238 552)"/>
+      <ellipse cx="268" cy="558" rx="25" ry="12" transform="rotate(2 268 558)"/>
+      <ellipse cx="298" cy="554" rx="23" ry="11" transform="rotate(18 298 554)"/>
+    </g>
+    <g fill="#d8e9a2">
+      <circle cx="215" cy="546" r="9"/><circle cx="246" cy="560" r="9"/><circle cx="280" cy="562" r="9"/><circle cx="316" cy="552" r="8"/>
+    </g>
+  </g>
+</svg>

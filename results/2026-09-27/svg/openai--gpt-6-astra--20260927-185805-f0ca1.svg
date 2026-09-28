@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with a Habsburg jaw</title>
+  <desc id="desc">A dignified green frog with bulging golden eyes and a comically pronounced, forward-projecting lower jaw and underbite, seated on a lily pad.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#a8d568"/>
+      <stop offset="1" stop-color="#43885a"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#b8da78"/>
+      <stop offset="1" stop-color="#79ad59"/>
+    </linearGradient>
+    <radialGradient id="eye">
+      <stop stop-color="#ffe694"/>
+      <stop offset="1" stop-color="#d7a943"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="640" fill="#f5f0df"/>
+  <circle cx="320" cy="303" r="248" fill="#e2e8ce"/>
+  <path d="M82 425Q139 400 192 419M468 446Q519 430 560 442M100 466Q131 452 160 461" fill="none" stroke="#b9cdb3" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="321" cy="536" rx="243" ry="39" fill="#c2d6bf"/>
+  <path d="M93 514C113 475 235 469 323 480C424 454 527 481 550 518C514 556 410 566 329 550L301 520L288 553C187 560 105 547 93 514Z" fill="#619b73" stroke="#315d4c" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M301 520L138 519M312 516L217 492M324 520L486 512M331 530L467 542" fill="none" stroke="#87b68b" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Folded hind legs -->
+  <path d="M234 380C179 361 139 395 133 438C125 476 156 497 214 497L263 469Z" fill="#58975a" stroke="#284b38" stroke-width="6"/>
+  <path d="M389 383C441 367 483 397 491 444C498 480 466 500 411 496L370 464Z" fill="#58975a" stroke="#284b38" stroke-width="6"/>
+  <path d="M170 451Q181 421 214 427M452 454Q443 425 418 428" fill="none" stroke="#3f784a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Body and belly -->
+  <path d="M242 312C214 347 203 410 224 461C243 507 366 526 407 475C439 436 422 355 388 325Z" fill="url(#body)" stroke="#284b38" stroke-width="6"/>
+  <path d="M281 350C247 385 245 456 281 481C309 501 362 494 383 467C401 436 385 374 362 356Z" fill="#d9dfa0"/>
+  <path d="M288 455Q325 472 364 453" fill="none" stroke="#bdcc87" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Front arms and splayed toes -->
+  <path d="M237 368Q218 420 216 482L192 503L166 499Q155 501 163 510L195 524L231 518L250 495L270 411" fill="url(#body)" stroke="#284b38" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M390 393Q410 439 403 485L423 501L451 496Q463 498 456 508L425 523L390 517L373 496L366 426" fill="url(#body)" stroke="#284b38" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M195 524L200 507M214 521L218 503M409 520L405 504M425 523L423 506" stroke="#284b38" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Head silhouette and raised eyes -->
+  <path d="M194 278C183 246 195 210 221 192C217 157 234 125 267 125C300 124 321 149 321 180L344 179C347 145 370 127 398 135C429 143 440 170 431 203C451 220 459 244 457 263L472 281C478 292 465 309 440 318L244 343C211 330 194 309 194 278Z" fill="url(#body)" stroke="#284b38" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="269" cy="176" rx="34" ry="39" fill="url(#eye)" stroke="#284b38" stroke-width="5"/>
+  <ellipse cx="391" cy="183" rx="31" ry="37" fill="url(#eye)" stroke="#284b38" stroke-width="5"/>
+  <ellipse cx="276" cy="179" rx="11" ry="26" fill="#20382b"/>
+  <ellipse cx="399" cy="184" rx="10" ry="25" fill="#20382b"/>
+  <ellipse cx="281" cy="168" rx="5" ry="8" fill="#fff9df"/>
+  <ellipse cx="403" cy="174" rx="4" ry="7" fill="#fff9df"/>
+  <path d="M236 142Q264 118 291 140M366 148Q392 128 414 151" fill="none" stroke="#284b38" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Speckles and nostrils -->
+  <g fill="#427e4d" opacity=".65">
+    <ellipse cx="216" cy="257" rx="9" ry="6" transform="rotate(-25 216 257)"/>
+    <ellipse cx="231" cy="236" rx="5" ry="4"/>
+    <ellipse cx="246" cy="258" rx="6" ry="4"/>
+    <ellipse cx="214" cy="284" rx="5" ry="7"/>
+    <ellipse cx="313" cy="222" rx="7" ry="4"/>
+    <ellipse cx="181" cy="415" rx="7" ry="5"/>
+    <ellipse cx="166" cy="431" rx="5" ry="4"/>
+    <ellipse cx="456" cy="425" rx="6" ry="5"/>
+  </g>
+  <ellipse cx="407" cy="258" rx="6" ry="4" fill="#284b38" transform="rotate(-12 407 258)"/>
+  <ellipse cx="444" cy="264" rx="5" ry="3.5" fill="#284b38"/>
+  <path d="M359 246Q376 237 388 242" fill="none" stroke="#c9e696" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Recessed upper lip and open bite -->
+  <path d="M244 296C293 316 354 311 407 300Q444 295 459 286C463 309 473 319 492 323L486 362L321 379L259 343Z" fill="#344333" stroke="#284b38" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M260 301Q333 325 411 303Q439 297 456 289" fill="none" stroke="#284b38" stroke-width="7" stroke-linecap="round"/>
+  <path d="M337 347Q392 325 444 342L447 365L346 371Z" fill="#b77f70"/>
+
+  <!-- Long projecting lower jaw: prominent underbite and chin -->
+  <path d="M242 308C264 343 322 351 382 342C426 336 463 326 490 314C507 307 520 318 518 335C517 374 492 405 451 418C402 435 343 420 306 397C271 376 247 344 242 308Z" fill="url(#jaw)" stroke="#284b38" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M263 335C322 374 431 358 502 326" fill="none" stroke="#284b38" stroke-width="6" stroke-linecap="round"/>
+  <path d="M340 387Q410 419 471 386" fill="none" stroke="#5d9452" stroke-width="4" stroke-linecap="round"/>
+  <path d="M378 375Q433 378 471 359" fill="none" stroke="#d4e69a" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Small lower teeth emphasize the forward bite -->
+  <path d="M444 347L445 330Q451 326 457 330L459 342M465 340L468 323Q474 319 479 324L480 334" fill="#fff6d5" stroke="#284b38" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M436 351Q469 342 491 332" fill="none" stroke="#284b38" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Tiny pond flower -->
+  <path d="M115 497Q106 473 117 454" fill="none" stroke="#527e54" stroke-width="4"/>
+  <path d="M116 460C91 457 85 441 93 435Q109 433 117 449C111 429 120 416 128 422Q137 435 122 451C139 438 152 444 148 452Q140 466 116 460Z" fill="#e5aeaa" stroke="#a26f77" stroke-width="3"/>
+  <circle cx="119" cy="452" r="5" fill="#f4d782"/>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with a spectacular underbite</title>
+  <desc id="desc">A cheerful green frog whose enormous lower jaw juts far beyond its upper snout.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#96d95d"/>
+      <stop offset="1" stop-color="#429857"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9ed93"/>
+      <stop offset="1" stop-color="#91c96c"/>
+    </linearGradient>
+    <linearGradient id="eye" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff5b0"/>
+      <stop offset="1" stop-color="#e6c95c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="520" rx="32" fill="#f3f7e9"/>
+  <ellipse cx="321" cy="441" rx="230" ry="32" fill="#dcebd8"/>
+  <path d="M112 440C156 384 410 379 525 434C474 474 223 480 112 440Z" fill="#a6c998"/>
+  <path d="M325 440L456 461L388 423" fill="#f3f7e9"/>
+  <path d="M160 441Q256 419 325 440" fill="none" stroke="#83ae7c" stroke-width="3"/>
+
+  <g stroke="#244c37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Far limbs -->
+    <path d="M341 338Q391 344 405 411L443 423L467 416Q480 418 474 429L445 442L383 433Q359 404 344 379Z" fill="#509d58"/>
+    <path d="M188 346Q129 350 123 403L92 420Q80 432 95 436L156 432L205 391Z" fill="#509d58"/>
+
+    <!-- Rounded body and folded haunch -->
+    <path d="M193 229Q137 271 142 348Q132 411 218 427Q309 451 366 382Q397 329 355 257Q290 208 193 229Z" fill="url(#body)"/>
+    <path d="M208 301Q137 292 139 361Q141 406 207 408L238 389Q199 371 184 363" fill="#76bc59"/>
+    <path d="M204 391Q226 403 241 425L278 433Q290 440 278 447L219 445L187 426L153 431Q140 429 148 418L174 401" fill="#79bf5d"/>
+
+    <!-- Belly -->
+    <path d="M290 291Q245 320 264 382Q281 421 327 395Q364 370 357 320Z" fill="#c0dc83" stroke-width="4"/>
+
+    <!-- Far eye -->
+    <path d="M261 198Q240 171 251 142Q264 110 294 117Q327 124 322 166L308 199Z" fill="#70bd59"/>
+    <ellipse cx="283" cy="153" rx="24" ry="29" fill="url(#eye)" stroke-width="4"/>
+    <ellipse cx="290" cy="154" rx="8" ry="21" fill="#1c3429" stroke="none"/>
+    <circle cx="293" cy="145" r="5" fill="#fff" stroke="none"/>
+
+    <!-- Head and upper snout -->
+    <path d="M227 259Q215 212 263 185Q300 164 348 172Q393 182 418 211Q453 217 467 244Q475 261 454 273L407 284L302 307Q245 302 227 259Z" fill="url(#body)"/>
+
+    <!-- Near eye -->
+    <path d="M325 204Q310 182 317 150Q326 113 361 117Q399 122 400 161Q401 194 377 213" fill="#8bd05c"/>
+    <ellipse cx="359" cy="158" rx="29" ry="34" fill="url(#eye)" stroke-width="4"/>
+    <ellipse cx="368" cy="159" rx="10" ry="24" fill="#1c3429" stroke="none"/>
+    <circle cx="372" cy="148" r="6" fill="#fff" stroke="none"/>
+
+    <!-- Large protruding lower jaw -->
+    <path d="M269 268Q301 286 358 282L448 276Q493 275 525 290Q552 304 535 330Q513 364 450 372Q385 381 326 348Q283 326 269 268Z" fill="url(#jaw)"/>
+    <path d="M281 270Q337 279 390 268Q428 260 457 259Q467 263 461 276Q488 280 518 294Q469 314 414 310Q337 308 281 270Z" fill="#294a34" stroke-width="4"/>
+    <path d="M397 302Q430 285 464 296L481 305Q438 313 397 302Z" fill="#dd9289" stroke="none"/>
+    <path d="M278 268Q341 287 393 271Q431 260 457 259" fill="none"/>
+    <path d="M306 293Q360 322 430 323Q488 325 527 303" fill="none" stroke="#679f53" stroke-width="4"/>
+    <path d="M424 350Q472 353 504 334" fill="none" stroke="#e9f4b9" stroke-width="7"/>
+
+    <!-- Near foreleg and splayed toes -->
+    <path d="M284 330Q277 356 300 386L317 414L352 418L370 410Q382 409 382 419L367 430L388 434Q398 443 385 448L353 443L329 450Q316 453 306 441L270 397Q251 370 256 347" fill="#85c761"/>
+  </g>
+
+  <g fill="#3e884c">
+    <ellipse cx="435" cy="239" rx="5" ry="4" transform="rotate(17 435 239)"/>
+    <ellipse cx="238" cy="234" rx="8" ry="12" transform="rotate(25 238 234)"/>
+    <ellipse cx="221" cy="261" rx="6" ry="8"/>
+    <ellipse cx="180" cy="281" rx="9" ry="6" transform="rotate(-37 180 281)"/>
+    <ellipse cx="178" cy="329" rx="12" ry="8" transform="rotate(-25 178 329)"/>
+    <ellipse cx="159" cy="347" rx="6" ry="5"/>
+    <ellipse cx="203" cy="342" rx="6" ry="4"/>
+  </g>
+  <path d="M252 217Q266 207 281 207" fill="none" stroke="#c3e891" stroke-width="7" stroke-linecap="round"/>
+  <path d="M165 314Q172 304 186 305" fill="none" stroke="#a8dc7b" stroke-width="6" stroke-linecap="round"/>
+</svg>

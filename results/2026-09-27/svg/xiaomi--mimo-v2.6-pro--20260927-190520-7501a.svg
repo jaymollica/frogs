@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#e3f2d4"/>
+      <stop offset="100%" stop-color="#8fc074"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7cc243"/>
+      <stop offset="100%" stop-color="#4a8628"/>
+    </linearGradient>
+    <linearGradient id="jawg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a6dc6e"/>
+      <stop offset="55%" stop-color="#79bd45"/>
+      <stop offset="100%" stop-color="#4c8a2a"/>
+    </linearGradient>
+    <radialGradient id="eyeg" cx="35%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c9c9c9"/>
+    </radialGradient>
+    <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5fa83c"/>
+      <stop offset="100%" stop-color="#33711f"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#bg)"/>
+
+  <!-- lily pad -->
+  <ellipse cx="200" cy="352" rx="182" ry="46" fill="url(#pad)"/>
+  <ellipse cx="200" cy="345" rx="168" ry="36" fill="#63b041" opacity="0.55"/>
+  <path d="M382 352 L200 345 L368 322 Z" fill="#8fc074"/>
+
+  <!-- hind haunches -->
+  <ellipse cx="104" cy="298" rx="58" ry="48" fill="#4f8c2b"/>
+  <ellipse cx="296" cy="298" rx="58" ry="48" fill="#4f8c2b"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="288" rx="108" ry="72" fill="url(#skin)"/>
+  <ellipse cx="200" cy="312" rx="76" ry="46" fill="#dcecab" opacity="0.85"/>
+
+  <!-- arms -->
+  <path d="M122,244 C 94,272 100,306 134,314" stroke="#5b9a30" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <path d="M278,244 C 306,272 300,306 266,314" stroke="#5b9a30" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <ellipse cx="140" cy="318" rx="27" ry="17" fill="#6fb63c"/>
+  <ellipse cx="260" cy="318" rx="27" ry="17" fill="#6fb63c"/>
+  <ellipse cx="118" cy="330" rx="13" ry="9" fill="#6fb63c"/>
+  <ellipse cx="142" cy="335" rx="13" ry="9" fill="#6fb63c"/>
+  <ellipse cx="166" cy="330" rx="13" ry="9" fill="#6fb63c"/>
+  <ellipse cx="282" cy="330" rx="13" ry="9" fill="#6fb63c"/>
+  <ellipse cx="258" cy="335" rx="13" ry="9" fill="#6fb63c"/>
+  <ellipse cx="234" cy="330" rx="13" ry="9" fill="#6fb63c"/>
+
+  <!-- webbed back feet -->
+  <g opacity="0.95">
+    <ellipse cx="66" cy="342" rx="34" ry="15" fill="#4f8c2b" transform="rotate(-12 66 342)"/>
+    <ellipse cx="334" cy="342" rx="34" ry="15" fill="#4f8c2b" transform="rotate(12 334 342)"/>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="200" cy="176" rx="99" ry="77" fill="url(#skin)"/>
+
+  <!-- muzzle -->
+  <ellipse cx="200" cy="196" rx="82" ry="34" fill="#9bd45f" opacity="0.75"/>
+
+  <!-- protruding Habsburg jaw -->
+  <path d="M110,198 C 100,272 143,322 200,322 C 257,322 300,272 290,198 Z" fill="url(#jawg)"/>
+  <ellipse cx="200" cy="238" rx="70" ry="23" fill="#c3e88e" opacity="0.55"/>
+  <ellipse cx="200" cy="286" rx="34" ry="22" fill="#8fce57" opacity="0.35"/>
+  <path d="M200,300 L200,313" stroke="#3d7220" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- mouth -->
+  <path d="M112,201 C 150,236 250,236 288,201" stroke="#2c5a14" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M126,206 C 160,228 240,228 274,206" stroke="#3c7420" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- nostrils -->
+  <ellipse cx="178" cy="174" rx="7" ry="5" fill="#2f5c17"/>
+  <ellipse cx="222" cy="174" rx="7" ry="5" fill="#2f5c17"/>
+
+  <!-- eye bulges -->
+  <circle cx="143" cy="112" r="42" fill="#63ad38"/>
+  <circle cx="257" cy="112" r="42" fill="#63ad38"/>
+  <circle cx="143" cy="112" r="31" fill="url(#eyeg)"/>
+  <circle cx="257" cy="112" r="31" fill="url(#eyeg)"/>
+  <circle cx="150" cy="117" r="13.5" fill="#191919"/>
+  <circle cx="250" cy="117" r="13.5" fill="#191919"/>
+  <circle cx="155" cy="111" r="5" fill="#ffffff"/>
+  <circle cx="255" cy="111" r="5" fill="#ffffff"/>
+  <path d="M112,92 C 128,76 162,74 176,90" stroke="#3f7c22" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M224,90 C 238,74 272,76 288,92" stroke="#3f7c22" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- highlights -->
+  <ellipse cx="152" cy="160" rx="26" ry="14" fill="#c8ed9c" opacity="0.4"/>
+  <ellipse cx="248" cy="160" rx="26" ry="14" fill="#c8ed9c" opacity="0.4"/>
+  <ellipse cx="176" cy="262" rx="42" ry="12" fill="#e2f3bd" opacity="0.35"/>
+</svg>

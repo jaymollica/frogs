@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="400" height="460">
+  <title>Frog with a Habsburg jaw</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#5c4a33"/>
+      <stop offset="100%" stop-color="#241d15"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.35"/>
+    </radialGradient>
+    <clipPath id="frameClip"><ellipse cx="200" cy="230" rx="172" ry="200"/></clipPath>
+  </defs>
+
+  <rect width="400" height="460" fill="url(#bg)"/>
+
+  <g clip-path="url(#frameClip)">
+    <path d="M 64,462 C 68,384 116,340 200,336 C 284,340 332,384 336,462 Z" fill="#57a052" stroke="#2b5320" stroke-width="5"/>
+
+    <ellipse cx="200" cy="340" rx="128" ry="40" fill="#f1e9d4" stroke="#c6b488" stroke-width="4"/>
+    <g fill="#f1e9d4" stroke="#c6b488" stroke-width="3.5">
+      <circle cx="96" cy="317" r="13"/>
+      <circle cx="304" cy="317" r="13"/>
+      <circle cx="84" cy="344" r="14"/>
+      <circle cx="316" cy="344" r="14"/>
+      <circle cx="108" cy="362" r="14"/>
+      <circle cx="292" cy="362" r="14"/>
+      <circle cx="150" cy="370" r="14"/>
+      <circle cx="250" cy="370" r="14"/>
+      <circle cx="200" cy="373" r="14"/>
+    </g>
+
+    <ellipse cx="200" cy="368" rx="104" ry="27" fill="#000000" opacity="0.28"/>
+
+    <ellipse cx="200" cy="200" rx="88" ry="78" fill="#57a052" stroke="#2b5320" stroke-width="5"/>
+
+    <path d="M 192,206 C 189,218 190,227 187,233" stroke="#2b5320" stroke-width="3.5" opacity="0.35" fill="none" stroke-linecap="round"/>
+    <path d="M 208,206 C 211,218 210,227 213,233" stroke="#2b5320" stroke-width="3.5" opacity="0.35" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="184" cy="233" rx="4.5" ry="6.5" fill="#274d20" transform="rotate(14 184 233)"/>
+    <ellipse cx="216" cy="233" rx="4.5" ry="6.5" fill="#274d20" transform="rotate(-14 216 233)"/>
+
+    <path d="M 142,241 C 163,251 182,255 200,255 C 218,255 237,251 258,241" stroke="#a6d97e" stroke-width="3.5" opacity="0.5" fill="none" stroke-linecap="round"/>
+
+    <circle cx="150" cy="148" r="38" fill="#57a052" stroke="#2b5320" stroke-width="5"/>
+    <circle cx="250" cy="148" r="38" fill="#57a052" stroke="#2b5320" stroke-width="5"/>
+    <circle cx="150" cy="152" r="21" fill="#f7f3e4" stroke="#2b5320" stroke-width="2"/>
+    <circle cx="250" cy="152" r="21" fill="#f7f3e4" stroke="#2b5320" stroke-width="2"/>
+    <circle cx="150" cy="157" r="9.5" fill="#191512"/>
+    <circle cx="250" cy="157" r="9.5" fill="#191512"/>
+    <circle cx="146" cy="159" r="3.2" fill="#ffffff" opacity="0.9"/>
+    <circle cx="246" cy="159" r="3.2" fill="#ffffff" opacity="0.9"/>
+    <path d="M 113,154 A 37.5 37.5 0 1 1 187,154 Z" fill="#57a052" stroke="#2b5320" stroke-width="4"/>
+    <path d="M 213,154 A 37.5 37.5 0 1 1 287,154 Z" fill="#57a052" stroke="#2b5320" stroke-width="4"/>
+    <path d="M 132,172 Q 150,180 168,172" stroke="#2b5320" stroke-width="3" opacity="0.45" fill="none" stroke-linecap="round"/>
+    <path d="M 232,172 Q 250,180 268,172" stroke="#2b5320" stroke-width="3" opacity="0.45" fill="none" stroke-linecap="round"/>
+
+    <path d="M 132,256 C 156,282 176,288 200,288 C 224,288 244,282 268,256 C 286,288 290,324 277,351 C 260,378 140,378 123,351 C 110,324 114,288 132,256 Z" fill="#6cb45c" stroke="#2b5320" stroke-width="5" stroke-linejoin="round"/>
+    <ellipse cx="200" cy="354" rx="54" ry="14" fill="#3d7a35" opacity="0.4"/>
+    <path d="M 174,346 Q 200,359 226,346" stroke="#2b5320" stroke-width="4" opacity="0.35" fill="none" stroke-linecap="round"/>
+
+    <path d="M 136,251 C 158,261 178,266 200,266 C 222,266 242,261 264,251 C 252,281 228,289 200,289 C 172,289 148,281 136,251 Z" fill="#38221a"/>
+    <path d="M 142,262 C 162,283 182,289 200,289 C 218,289 238,283 258,262" stroke="#a6d97e" stroke-width="5" opacity="0.85" fill="none" stroke-linecap="round"/>
+
+    <g fill="#f3edda" stroke="#a0937a" stroke-width="1.5">
+      <path d="M 153,290 L 153,268 Q 160,260 167,268 L 167,290 Z"/>
+      <path d="M 173,290 L 173,265 Q 180,257 187,265 L 187,290 Z"/>
+      <path d="M 193,290 L 193,262 Q 200,254 207,262 L 207,290 Z"/>
+      <path d="M 213,290 L 213,265 Q 220,257 227,265 L 227,290 Z"/>
+      <path d="M 233,290 L 233,268 Q 240,260 247,268 L 247,290 Z"/>
+    </g>
+
+    <g transform="rotate(-6 200 106)">
+      <path d="M 178,130 L 174,92 L 188,106 L 200,86 L 212,106 L 226,92 L 222,130 Z" fill="#dfb43c" stroke="#8a6a12" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M 179,119 L 221,119" stroke="#8a6a12" stroke-width="2.5"/>
+      <circle cx="200" cy="103" r="4.5" fill="#b3402f" stroke="#6e2318" stroke-width="1.5"/>
+      <circle cx="188" cy="110" r="3.4" fill="#33589c" stroke="#20386b" stroke-width="1.2"/>
+      <circle cx="212" cy="110" r="3.4" fill="#33589c" stroke="#20386b" stroke-width="1.2"/>
+    </g>
+
+    <rect width="400" height="460" fill="url(#vig)"/>
+  </g>
+
+  <ellipse cx="200" cy="230" rx="180" ry="208" fill="none" stroke="#7c5c10" stroke-width="13"/>
+  <ellipse cx="200" cy="230" rx="172" ry="200" fill="none" stroke="#d9b23c" stroke-width="4"/>
+  <ellipse cx="200" cy="230" rx="163" ry="191" fill="none" stroke="#5a420b" stroke-width="2" opacity="0.6"/>
+
+  <rect x="138" y="437" width="124" height="19" rx="4" fill="#dfb43c" stroke="#8a6a12" stroke-width="2.5"/>
+  <text x="200" y="450.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2" fill="#4a3708">ANNO·MDLVI</text>
+</svg>

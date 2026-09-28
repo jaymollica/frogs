@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a443b"/>
+      <stop offset="60%" stop-color="#13241d"/>
+      <stop offset="100%" stop-color="#08100c"/>
+    </radialGradient>
+
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#527862" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#527862" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Frog Skin Gradients -->
+    <linearGradient id="skinDorsal" x1="30%" y1="10%" x2="70%" y2="90%">
+      <stop offset="0%" stop-color="#80ab43"/>
+      <stop offset="40%" stop-color="#58822d"/>
+      <stop offset="100%" stop-color="#2f4c17"/>
+    </linearGradient>
+
+    <linearGradient id="skinVentral" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#eaf2a7"/>
+      <stop offset="50%" stop-color="#cbe079"/>
+      <stop offset="100%" stop-color="#8ca83b"/>
+    </linearGradient>
+
+    <linearGradient id="jawPrognathic" x1="10%" y1="0%" x2="90%" y2="80%">
+      <stop offset="0%" stop-color="#f5fad2"/>
+      <stop offset="45%" stop-color="#d6ea85"/>
+      <stop offset="85%" stop-color="#739931"/>
+      <stop offset="100%" stop-color="#3e5917"/>
+    </linearGradient>
+
+    <linearGradient id="lipHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Eye Gradients -->
+    <radialGradient id="eyeIris" cx="45%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#ffea75"/>
+      <stop offset="50%" stop-color="#e89623"/>
+      <stop offset="85%" stop-color="#873c07"/>
+      <stop offset="100%" stop-color="#3d1400"/>
+    </radialGradient>
+
+    <!-- Filter for soft skin texture/shadows -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="8" stdDeviation="6" flood-color="#0c1709" flood-opacity="0.6"/>
+    </filter>
+    <filter id="innerGaze" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowDiff"/>
+      <feFlood flood-color="#1b2e0b" flood-opacity="0.5"/>
+      <feComposite in2="shadowDiff" operator="in"/>
+      <feComposite in2="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Environment -->
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+  <ellipse cx="400" cy="300" rx="380" ry="260" fill="url(#spotlight)"/>
+
+  <!-- Lily Pad / Perch -->
+  <g id="perch" transform="translate(0, 100)">
+    <ellipse cx="400" cy="560" rx="340" ry="120" fill="#162919"/>
+    <path d="M 120 540 Q 400 640 680 540 Q 720 590 640 630 Q 400 700 160 630 Z" fill="#1b3d22" opacity="0.7"/>
+    <ellipse cx="400" cy="550" rx="320" ry="105" fill="#295431"/>
+    <!-- Leaf ribs -->
+    <path d="M 400 550 Q 250 540 130 520 M 400 550 Q 240 570 170 610 M 400 550 Q 360 600 320 645 M 400 550 Q 450 600 500 640 M 400 550 Q 560 580 640 600 M 400 550 Q 580 540 670 515 M 400 550 Q 390 470 380 445" 
+          stroke="#3d7547" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Frog Main Group (Mirrored 3/4 side profile focusing on massive lower jaw) -->
+  <g id="frog" filter="url(#dropShadow)" transform="translate(20, -10)">
+    
+    <!-- Back Feet & Limbs -->
+    <g id="hind-limbs">
+      <!-- Left Back Leg -->
+      <path d="M 230 480 C 160 460 110 520 130 590 C 145 640 210 650 250 640 C 260 600 250 540 230 480 Z" 
+            fill="#2c4c16"/>
+      <path d="M 140 610 C 90 615 60 635 70 650 C 90 665 140 650 170 645 E" fill="#233d12"/>
+      
+      <!-- Right Back Leg (Massive folded thigh & big webbed foot) -->
+      <path d="M 460 460 C 560 430 670 480 670 570 C 670 640 590 660 520 660 C 470 660 450 620 460 570 Z" 
+            fill="url(#skinDorsal)"/>
+      <!-- Spots on thigh -->
+      <ellipse cx="580" cy="520" rx="18" ry="12" fill="#20380c" opacity="0.6" transform="rotate(-15, 580, 520)"/>
+      <ellipse cx="625" cy="565" rx="14" ry="22" fill="#20380c" opacity="0.6" transform="rotate(25, 625, 565)"/>
+      <ellipse cx="540" cy="570" rx="22" ry="14" fill="#20380c" opacity="0.6"/>
+
+      <!-- Right Foot/Toes -->
+      <path d="M 540 640 C 580 640 660 655 690 670 C 680 680 640 680 600 670 C 630 685 640 695 620 700 C 590 700 560 680 540 665 C 530 680 520 695 500 690 C 490 685 505 665 515 655 Z" 
+            fill="#3a611c"/>
+    </g>
+
+    <!-- Body / Torso -->
+    <g id="torso">
+      <path d="M 280 430 C 250 350 320 280 400 270 C 490 260 560 330 550 440 C 540 540 480 620 380 620 C 300 620 260 530 280 430 Z" 
+            fill="url(#skinDorsal)"/>
+      
+      <!-- Belly (Pale underside peeking through) -->
+      <path d="M 285 450 C 275 530 330 605 400 610 C 425 610 445 600 460 585 C 410 570 340 500 335 435 C 315 430 295 440 285 450 Z" 
+            fill="url(#skinVentral)"/>
+    </g>
+
+    <!-- Front Left Arm (resting firmly, slightly back) -->
+    <g id="left-arm">
+      <path d="M 290 450 C 270 470 240 530 245 580 C 248 600 265 615 280 615 C 290 615 295 590 290 570 C 285 540 295 490 310 465 Z" 
+            fill="#385e1b"/>
+      <!-- Fingers -->
+      <path d="M 245 600 Q 215 615 210 630 Q 225 635 245 615 Q 240 635 245 645 Q 255 645 265 620 Q 275 640 285 640 Q 290 630 275 610 Z" fill="#2d4d16"/>
+    </g>
+
+    <!-- Head Structure (Snout, Crests, Upper Jaw - Receded) -->
+    <g id="upper-head">
+      <!-- Cranium / Eyebrow ridges -->
+      <path d="M 310 280 C 300 230 350 170 410 185 C 445 195 455 235 440 270 C 475 250 540 250 560 310 C 570 340 550 385 510 400 C 480 410 400 390 340 375 C 315 370 295 340 310 280 Z" 
+            fill="url(#skinDorsal)"/>
+      
+      <!-- Nostril & Flat/Receded Upper Snout (Key anatomical contrast for prognathism) -->
+      <path d="M 270 345 C 285 320 325 315 365 330 C 375 335 385 350 375 365 C 340 365 310 365 285 360 C 275 360 265 355 270 345 Z" 
+            fill="#4c7527"/>
+      <!-- Nostril hole -->
+      <ellipse cx="310" cy="335" rx="4" ry="2.5" fill="#18290a" transform="rotate(-15, 310, 335)"/>
+
+      <!-- Snout shelf (Upper lip - visibly short and retreating) -->
+      <path d="M 283 358 C 300 362 335 365 375 368 C 410 370 455 365 480 380 C 460 390 420 385 380 380 C 335 376 295 372 283 358 Z" 
+            fill="#3a591e"/>
+    </g>
+
+    <!-- Eyes (Bulging, expressive, slightly amused/proud) -->
+    <g id="eyes">
+      <!-- Left Eye (Dominant profile view) -->
+      <ellipse cx="380" cy="220" rx="48" ry="48" fill="#1c300f"/>
+      <ellipse cx="380" cy="220" rx="44" ry="44" fill="url(#eyeIris)"/>
+      <!-- Sclera details / veining -->
+      <path d="M 345 210 Q 370 215 355 235 M 410 205 Q 395 220 415 230" stroke="#702e04" stroke-width="1.5" fill="none" opacity="0.6"/>
+      <!-- Pupil (Horizontal slit, typical for frogs, tilted slightly upward) -->
+      <ellipse cx="380" cy="220" rx="34" ry="11" fill="#080705" transform="rotate(-8, 380, 220)"/>
+      <path d="M 350 220 Q 380 212 410 216 Q 380 226 350 220 Z" fill="#000000"/>
+      <!-- Eye Highlights (Glossy) -->
+      <ellipse cx="365" cy="205" rx="10" ry="6" fill="#ffffff" opacity="0.9" transform="rotate(-20, 365, 205)"/>
+      <circle cx="395" cy="230" r="3.5" fill="#ffffff" opacity="0.7"/>
+      <!-- Upper Eyelid fold -->
+      <path d="M 330 210 C 340 165 425 165 435 215 C 415 180 350 175 330 210 Z" fill="#658f33"/>
+      <path d="M 334 205 C 355 175 415 175 431 210" stroke="#8cb849" stroke-width="3" fill="none"/>
+
+      <!-- Right Eye (Peeking from behind) -->
+      <ellipse cx="510" cy="260" rx="26" ry="32" fill="#1c300f" transform="rotate(15, 510, 260)"/>
+      <ellipse cx="512" cy="260" rx="22" ry="28" fill="url(#eyeIris)" transform="rotate(15, 512, 260)"/>
+      <ellipse cx="514" cy="260" rx="18" ry="8" fill="#0a0803" transform="rotate(10, 514, 260)"/>
+      <ellipse cx="505" cy="250" rx="6" ry="3" fill="#ffffff" opacity="0.8" transform="rotate(-10, 505, 250)"/>
+      <path d="M 488 255 C 495 225 535 235 540 265 C 530 240 500 235 488 255 Z" fill="#4d7324"/>
+    </g>
+
+    <!-- TYMPANUM (Frog Ear Drum) -->
+    <g id="tympanum">
+      <ellipse cx="485" cy="340" rx="26" ry="26" fill="#44260d" stroke="#2f4f18" stroke-width="4"/>
+      <ellipse cx="485" cy="340" rx="20" ry="20" fill="#693b14" opacity="0.8"/>
+      <circle cx="486" cy="339" r="6" fill="#291605"/>
+      <path d="M 470 325 C 485 315 505 325 508 340" stroke="#7ea839" stroke-width="2" fill="none" opacity="0.7"/>
+    </g>
+
+    <!-- THE JAW: SEVERE MANDIBULAR PROGNATHISM (MASSIVE UNDERBITE) -->
+    <!-- Lower jaw extends far beyond upper jaw, jutting up aggressively and proudly -->
+    <g id="prognathic-mandible">
+      
+      <!-- Deep mouth cavity interior visible due to underbite posture -->
+      <path d="M 280 365 C 240 370 200 375 165 405 C 190 415 240 405 285 390 C 365 375 440 380 480 395 C 455 375 360 360 280 365 Z" 
+            fill="#380d0d"/>
+      
+      <!-- Tongue mass nested inside receded upper palate -->
+      <path d="M 230 395 C 200 400 240 415 280 405 C 310 395 330 385 290 385 C 260 385 240 392 230 395 Z" 
+            fill="#8a2d37"/>
+
+      <!-- Lower Jaw Exterior Foundation (Thick, fleshy, jutting forward) -->
+      <!-- Jaw curves out from below ear (490, 410) down deep and juts OUT to (140, 420), then hooks up to (150, 360)! -->
+      <path d="M 495 395 
+               C 510 440 460 485 410 500 
+               C 330 520 250 515 190 475 
+               C 150 450 130 420 125 390 
+               C 120 360 140 340 155 340 
+               C 170 340 175 365 190 380 
+               C 220 405 280 400 350 390 
+               C 420 380 470 385 495 395 Z" 
+            fill="url(#jawPrognathic)"/>
+
+      <!-- Mandible Underbelly / Chin Bulge (Mental protuberance/hypertrophy) -->
+      <path d="M 135 385 C 120 425 150 475 210 510 C 270 540 360 535 415 505 C 350 530 250 525 190 485 C 145 455 130 420 135 385 Z" 
+            fill="#5b7d27" opacity="0.6"/>
+
+      <!-- Prognathic Chin & "Bulldog" Jaw Bone Highlights -->
+      <path d="M 140 360 C 130 380 135 410 155 435 C 180 460 220 485 275 495 C 230 475 185 445 165 425 C 150 400 145 375 155 360 C 160 350 150 345 140 360 Z" 
+            fill="#f7ffe0" opacity="0.7"/>
+
+      <!-- Pouting lower lip rim (Everted lower lip showing classic prognathism) -->
+      <path d="M 140 355 C 145 340 165 345 175 360 C 190 385 240 395 300 390 C 370 382 430 375 480 392 C 450 380 380 372 310 380 C 240 385 180 375 160 355 C 150 345 140 345 140 355 Z" 
+            fill="url(#lipHighlight)"/>
+
+      <!-- Tooth-like Odontoid Processes / Tusks on the jutting lower mandible -->
+      <!-- Typical of bullfrogs/pyxicephalus, highly dramatized here by the prognathism -->
+      <path d="M 170 357 Q 174 340 180 338 Q 185 342 184 362 Z" fill="#fffff0" stroke="#a19d7a" stroke-width="1"/>
+      <polygon points="174,357 179,339 183,361" fill="#ffffff"/>
+      
+      <!-- Second smaller tooth/cusp jutting upwards outside mouth -->
+      <path d="M 205 372 Q 212 358 217 358 Q 220 363 218 376 Z" fill="#fffff0" stroke="#a19d7a" stroke-width="1"/>
+
+      <!-- Drool/saliva string highlighting extreme underbite gap -->
+      <path d="M 280 375 C 282 390 278 405 281 412 C 283 415 286 410 286 395 C 286 385 284 378 280 375 Z" 
+            fill="#ffffff" opacity="0.65"/>
+      <ellipse cx="282" cy="415" rx="2.5" ry="3.5" fill="#ffffff" opacity="0.7"/>
+
+      <!-- Heavy labiomental crease / grumpy pout groove -->
+      <path d="M 175 390 C 185 425 245 440 315 430" 
+            stroke="#47661c" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+      <path d="M 210 435 C 240 455 290 455 335 445" 
+            stroke="#47661c" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+    </g>
+
+    <!-- Front Right Arm & Hand (Supporting heavy front posture) -->
+    <g id="right-arm">
+      <!-- Shoulder / Bicep -->
+      <path d="M 440 430 C 470 440 500 480 480 540 C 475 555 460 580 445 610 C 430 630 405 635 395 620 C 390 600 410 575 420 550 C 435 515 425 460 415 440 Z" 
+            fill="url(#skinDorsal)"/>
+      
+      <!-- Forearm highlight -->
+      <path d="M 450 490 C 465 525 455 570 435 605" stroke="#8bb842" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+      <!-- Front Right Foot (Splayed out webbed toes) -->
+      <g id="front-right-foot" transform="translate(370, 590)">
+        <!-- Toe 1 -->
+        <path d="M 40 25 C 25 35 5 45 -15 40 C -20 37 -15 30 5 25 C 20 20 35 15 40 25 Z" fill="#3c631e"/>
+        <circle cx="-16" cy="39" r="4.5" fill="#58852e"/>
+        <!-- Toe 2 -->
+        <path d="M 45 30 C 40 48 20 65 5 75 C -2 75 0 65 15 50 C 28 38 40 30 45 30 Z" fill="#446e22"/>
+        <circle cx="4" cy="74" r="5" fill="#58852e"/>
+        <!-- Toe 3 (Middle long) -->
+        <path d="M 55 30 C 60 50 55 75 50 90 C 44 93 40 85 43 70 C 48 55 50 35 55 30 Z" fill="#446e22"/>
+        <circle cx="49" cy="91" r="5" fill="#58852e"/>
+        <!-- Toe 4 (Outer) -->
+        <path d="M 65 28 C 75 40 85 60 95 70 C 100 70 98 62 88 50 C 78 40 70 25 65 28 Z" fill="#3c631e"/>
+        <circle cx="96" cy="69" r="4.5" fill="#58852e"/>
+        <!-- Carpal pad -->
+        <ellipse cx="50" cy="28" rx="16" ry="10" fill="#2e4f16"/>
+      </g>
+    </g>
+
+    <!-- Skin Details, Warts, and Distinct Spots (Amphibian texture) -->
+    <g id="skin-texture">
+      <!-- Dorsal Warts (with 3D highlight/shadow) -->
+      <g transform="translate(360, 290)">
+        <ellipse cx="0" cy="0" rx="9" ry="6" fill="#243d12"/>
+        <ellipse cx="-2" cy="-2" rx="6" ry="3" fill="#699632"/>
+        <circle cx="-3" cy="-3" r="1.5" fill="#a4d164"/>
+      </g>
+      <g transform="translate(420, 310)">
+        <ellipse cx="0" cy="0" rx="14" ry="8" fill="#1f360e"/>
+        <ellipse cx="-3" cy="-2" rx="9" ry="4" fill="#5a822b"/>
+        <circle cx="-4" cy="-3" r="2" fill="#8cb849"/>
+      </g>
+      <g transform="translate(470, 420)">
+        <ellipse cx="0" cy="0" rx="10" ry="7" fill="#243d12"/>
+        <ellipse cx="-2" cy="-2" rx="6" ry="4" fill="#5a822b"/>
+      </g>
+      <g transform="translate(350, 470)">
+        <circle cx="0" cy="0" r="7" fill="#274213"/>
+        <circle cx="-2" cy="-2" r="4" fill="#608a2d"/>
+      </g>
+      
+      <!-- Clusters of small glandular bumps on the jutting mandible -->
+      <circle cx="170" cy="415" r="3" fill="#88ad3e" opacity="0.7"/>
+      <circle cx="185" cy="430" r="4" fill="#7da137" opacity="0.7"/>
+      <circle cx="160" cy="400" r="2.5" fill="#a3cc4d" opacity="0.8"/>
+      <circle cx="210" cy="450" r="5" fill="#7da137" opacity="0.6"/>
+      <circle cx="225" cy="460" r="3.5" fill="#9bc447" opacity="0.6"/>
+
+      <!-- Golden Poison/Tree Frog style specular sheen spots (moist skin) -->
+      <path d="M 330 260 C 338 250 348 252 342 265 C 338 272 328 268 330 260 Z" fill="#ffffff" opacity="0.4"/>
+      <path d="M 435 240 C 445 235 452 242 445 250 C 440 255 432 248 435 240 Z" fill="#ffffff" opacity="0.3"/>
+      <ellipse cx="370" cy="340" rx="12" ry="4" fill="#ffffff" opacity="0.25" transform="rotate(-5, 370, 340)"/>
+      <path d="M 148 375 C 142 390 145 405 150 400 C 153 392 154 380 148 375 Z" fill="#ffffff" opacity="0.5"/>
+    </g>
+
+  </g>
+
+  <!-- Foreground Atmosphere / Ambience (Subtle lighting & Vignette) -->
+  <circle cx="400" cy="400" r="390" stroke="#060d08" stroke-width="20" fill="none" opacity="0.4"/>
+  
+  <!-- Tiny Swamp Gnat/Fly for context and scale (Hovering near the prominent chin) -->
+  <g id="swamp-fly" transform="translate(110, 310)">
+    <!-- Wings (motion blur) -->
+    <ellipse cx="-4" cy="-5" rx="7" ry="2.5" fill="#ffffff" opacity="0.6" transform="rotate(-30, -4, -5)"/>
+    <ellipse cx="6" cy="-6" rx="7" ry="2.5" fill="#ffffff" opacity="0.6" transform="rotate(30, 6, -6)"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="3.5" ry="2" fill="#111111"/>
+    <!-- Eyes -->
+    <circle cx="3" cy="-1" r="1" fill="#aa1111"/>
+  </g>
+</svg>

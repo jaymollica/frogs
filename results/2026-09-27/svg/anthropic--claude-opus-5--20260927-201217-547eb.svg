@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyG" cx="45%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#8ed166"/>
+      <stop offset="100%" stop-color="#5a9b3a"/>
+    </radialGradient>
+    <radialGradient id="headG" cx="45%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#97da6d"/>
+      <stop offset="100%" stop-color="#5f a13c"/>
+      <stop offset="100%" stop-color="#5fa13c"/>
+    </radialGradient>
+    <linearGradient id="jawG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a3e277"/>
+      <stop offset="100%" stop-color="#6fb648"/>
+    </linearGradient>
+    <radialGradient id="eyeG" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffe680"/>
+      <stop offset="100%" stop-color="#e0a52a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="378" rx="160" ry="18" fill="#000" opacity="0.12"/>
+
+  <!-- hind legs -->
+  <g fill="#4f8f36" stroke="#3c7028" stroke-width="3">
+    <path d="M100 250 C40 258 14 318 58 352 C84 372 116 344 104 312 Z"/>
+    <path d="M300 250 C360 258 386 318 342 352 C316 372 284 344 296 312 Z"/>
+    <!-- hind feet -->
+    <path d="M72 336 C50 340 18 350 8 364 C3 372 9 379 18 375 C33 369 41 378 53 372 C64 367 78 360 82 348 Z"/>
+    <path d="M328 336 C350 340 382 350 392 364 C397 372 391 379 382 375 C367 369 359 378 347 372 C336 367 322 360 318 348 Z"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="200" cy="268" rx="142" ry="96" fill="url(#bodyG)" stroke="#3c7028" stroke-width="4"/>
+  <ellipse cx="200" cy="300" rx="86" ry="58" fill="#c6e98e" opacity="0.75"/>
+
+  <!-- body spots -->
+  <g fill="#3f7c2b" opacity="0.45">
+    <ellipse cx="108" cy="232" rx="20" ry="13" transform="rotate(-18 108 232)"/>
+    <ellipse cx="292" cy="232" rx="20" ry="13" transform="rotate(18 292 232)"/>
+    <ellipse cx="72" cy="282" rx="14" ry="9"/>
+    <ellipse cx="328" cy="282" rx="14" ry="9"/>
+  </g>
+
+  <!-- front feet -->
+  <g fill="#4f8f36" stroke="#3c7028" stroke-width="3">
+    <path d="M158 340 C136 352 128 372 142 382 C150 388 160 382 162 374 C166 384 178 384 180 374 C186 382 196 378 196 368 C196 354 184 342 172 338 Z"/>
+    <path d="M242 340 C264 352 272 372 258 382 C250 388 240 382 238 374 C234 384 222 384 220 374 C214 382 204 378 204 368 C204 354 216 342 228 338 Z"/>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="200" cy="158" rx="122" ry="96" fill="url(#headG)" stroke="#3c7028" stroke-width="4"/>
+
+  <!-- upper lip / receding maxilla -->
+  <path d="M92 176 C120 214 158 230 200 230 C242 230 280 214 308 176"
+        fill="none" stroke="#3c7028" stroke-width="5" stroke-linecap="round"/>
+  <path d="M92 176 C120 214 158 230 200 230 C242 230 280 214 308 176 C280 200 244 208 200 208 C156 208 120 200 92 176 Z"
+        fill="#4a1f28" opacity="0.55"/>
+
+  <!-- lower teeth jutting up in front of the upper lip (underbite) -->
+  <g fill="#fffdf2" stroke="#d9d3bd" stroke-width="1.5">
+    <path d="M142 214 l9 -20 l10 20 z"/>
+    <path d="M166 210 l10 -24 l11 24 z"/>
+    <path d="M193 208 l10 -26 l11 26 z"/>
+    <path d="M221 210 l10 -24 l11 24 z"/>
+    <path d="M249 214 l9 -21 l10 21 z"/>
+  </g>
+
+  <!-- protruding mandible (mandibular prognathism) -->
+  <path d="M74 172 C66 252 126 302 200 302 C274 302 334 252 326 172
+           C300 204 256 214 200 214 C144 214 100 204 74 172 Z"
+        fill="url(#jawG)" stroke="#3c7028" stroke-width="4"/>
+  <!-- chin crease + jaw highlight -->
+  <path d="M140 276 C168 292 232 292 260 276" fill="none" stroke="#4d8b34" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M96 200 C120 228 160 240 200 240" fill="none" stroke="#d5f3ac" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- nostrils -->
+  <g fill="#3c7028">
+    <ellipse cx="178" cy="152" rx="5" ry="3.5"/>
+    <ellipse cx="222" cy="152" rx="5" ry="3.5"/>
+  </g>
+
+  <!-- bulging eyes -->
+  <g stroke="#3c7028" stroke-width="4">
+    <circle cx="136" cy="92" r="44" fill="url(#headG)"/>
+    <circle cx="264" cy="92" r="44" fill="url(#headG)"/>
+    <circle cx="136" cy="92" r="29" fill="url(#eyeG)" stroke-width="3"/>
+    <circle cx="264" cy="92" r="29" fill="url(#eyeG)" stroke-width="3"/>
+  </g>
+  <g fill="#1a1a1a">
+    <ellipse cx="136" cy="94" rx="11" ry="16"/>
+    <ellipse cx="264" cy="94" rx="11" ry="16"/>
+  </g>
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="127" cy="80" r="6"/>
+    <circle cx="255" cy="80" r="6"/>
+  </g>
+  <!-- upper eyelids -->
+  <path d="M96 74 C112 52 160 52 176 74" fill="none" stroke="#3c7028" stroke-width="5" stroke-linecap="round"/>
+  <path d="M224 74 C240 52 288 52 304 74" fill="none" stroke="#3c7028" stroke-width="5" stroke-linecap="round"/>
+</svg>

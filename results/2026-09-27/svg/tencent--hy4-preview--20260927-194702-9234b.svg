@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Base Head & Torso -->
+  <path d="M 180,230 
+           C 190,150 230,100 300,100
+           C 380,100 440,150 460,230
+           C 490,320 450,400 380,410
+           C 280,430 200,410 180,370
+           C 170,330 180,280 180,230 Z" 
+        fill="#689F38" stroke="#1B5E20" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Hind Leg Calf & Foot -->
+  <path d="M 430,360 Q 380,400 320,390 L 240,415 M 240,415 L 200,420 M 240,415 L 220,430 M 240,415 L 250,430" 
+        stroke="#1B5E20" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 430,360 Q 380,400 320,390 L 240,415 M 240,415 L 200,420 M 240,415 L 220,430 M 240,415 L 250,430" 
+        stroke="#558B2F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Hind Thigh -->
+  <path d="M 380,210 
+           C 460,230 480,330 440,380 
+           C 410,410 360,380 350,340 
+           C 340,300 350,220 380,210 Z" 
+        fill="#558B2F" stroke="#1B5E20" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Front Leg -->
+  <path d="M 220,330 Q 170,370 170,410 M 170,410 L 130,420 M 170,410 L 150,425 M 170,410 L 180,430" 
+        stroke="#1B5E20" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 220,330 Q 170,370 170,410 M 170,410 L 130,420 M 170,410 L 150,425 M 170,410 L 180,430" 
+        stroke="#689F38" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Lower Jaw (Severe Habsburg Prognathism) -->
+  <path d="M 330,240 
+           Q 200,260 130,290 
+           Q 90,300 100,230 
+           Q 200,250 330,240 Z" 
+        fill="#8BC34A" stroke="#1B5E20" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Mouth line extension past jaw corner -->
+  <path d="M 330,240 Q 345,235 350,245" 
+        stroke="#1B5E20" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Nostril -->
+  <ellipse cx="200" cy="200" rx="5" ry="3" fill="#1B5E20" transform="rotate(-20 200 200)"/>
+
+  <!-- Eyeball Base -->
+  <circle cx="270" cy="120" r="35" fill="#FDD835" stroke="#1B5E20" stroke-width="6"/>
+  
+  <!-- Pupil -->
+  <ellipse cx="255" cy="125" rx="10" ry="18" fill="#212121" />
+  
+  <!-- Eye Highlights -->
+  <circle cx="250" cy="115" r="4" fill="#FFFFFF" />
+  <circle cx="258" cy="130" r="2" fill="#FFFFFF" />
+  
+  <!-- Upper Eyelid -->
+  <path d="M 235,120 C 235,60 305,60 305,120 C 290,105 250,105 235,120 Z" 
+        fill="#558B2F" stroke="#1B5E20" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Frog Spots / Patterns -->
+  <circle cx="340" cy="160" r="15" fill="#33691E" opacity="0.6"/>
+  <circle cx="390" cy="150" r="10" fill="#33691E" opacity="0.6"/>
+  <circle cx="320" cy="200" r="12" fill="#33691E" opacity="0.6"/>
+  <circle cx="360" cy="220" r="8" fill="#33691E" opacity="0.6"/>
+  <circle cx="420" cy="280" r="10" fill="#1B5E20" opacity="0.5"/>
+  <circle cx="440" cy="330" r="7" fill="#1B5E20" opacity="0.5"/>
+</svg>

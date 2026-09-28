@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- body -->
+  <ellipse cx="200" cy="255" rx="145" ry="125" fill="#5aa64a" stroke="#2e6b28" stroke-width="4"/>
+  <!-- belly -->
+  <ellipse cx="200" cy="330" rx="90" ry="48" fill="#cfe8c0"/>
+  <!-- eye bulges -->
+  <circle cx="128" cy="128" r="50" fill="#5aa64a" stroke="#2e6b28" stroke-width="4"/>
+  <circle cx="272" cy="128" r="50" fill="#5aa64a" stroke="#2e6b28" stroke-width="4"/>
+  <!-- eyes -->
+  <circle cx="128" cy="124" r="32" fill="#ffffff"/>
+  <circle cx="272" cy="124" r="32" fill="#ffffff"/>
+  <circle cx="122" cy="129" r="15" fill="#222222"/>
+  <circle cx="266" cy="129" r="15" fill="#222222"/>
+  <circle cx="117" cy="123" r="5" fill="#ffffff"/>
+  <circle cx="261" cy="123" r="5" fill="#ffffff"/>
+  <!-- upper lip (mostly hidden by protruding lower jaw) -->
+  <path d="M95 232 Q200 246 305 232" fill="none" stroke="#2e6b28" stroke-width="5" stroke-linecap="round"/>
+  <!-- nostrils -->
+  <ellipse cx="176" cy="182" rx="5.5" ry="3.5" fill="#2e6b28"/>
+  <ellipse cx="224" cy="182" rx="5.5" ry="3.5" fill="#2e6b28"/>
+  <!-- protruding lower jaw (underbite) -->
+  <path d="M75 222 Q200 198 325 222 Q332 262 302 286 Q200 312 98 286 Q68 262 75 222 Z" fill="#cfe8c0" stroke="#2e6b28" stroke-width="5" stroke-linejoin="round"/>
+  <!-- teeth on the jutting jaw -->
+  <rect x="160" y="206" width="17" height="20" rx="7" fill="#ffffff" stroke="#2e6b28" stroke-width="3"/>
+  <rect x="223" y="206" width="17" height="20" rx="7" fill="#ffffff" stroke="#2e6b28" stroke-width="3"/>
+  <!-- front feet -->
+  <ellipse cx="130" cy="372" rx="46" ry="18" fill="#5aa64a" stroke="#2e6b28" stroke-width="4"/>
+  <ellipse cx="270" cy="372" rx="46" ry="18" fill="#5aa64a" stroke="#2e6b28" stroke-width="4"/>
+  <path d="M115 376 L115 366 M132 378 L132 366 M149 376 L149 366" stroke="#2e6b28" stroke-width="3" stroke-linecap="round"/>
+  <path d="M255 376 L255 366 M272 378 L272 366 M289 376 L289 366" stroke="#2e6b28" stroke-width="3" stroke-linecap="round"/>
+</svg>

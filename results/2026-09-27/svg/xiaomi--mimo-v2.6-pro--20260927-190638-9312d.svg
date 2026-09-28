@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfeaf7"/>
+      <stop offset="1" stop-color="#eef7e2"/>
+    </linearGradient>
+    <radialGradient id="skin" cx="0.35" cy="0.28" r="0.85">
+      <stop offset="0" stop-color="#bfe385"/>
+      <stop offset="1" stop-color="#5b9a37"/>
+    </radialGradient>
+    <radialGradient id="jawg" cx="0.5" cy="0.28" r="0.85">
+      <stop offset="0" stop-color="#cdea97"/>
+      <stop offset="1" stop-color="#6aab46"/>
+    </radialGradient>
+    <radialGradient id="eyeg" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#fdfdf4"/>
+      <stop offset="1" stop-color="#d7d8bd"/>
+    </radialGradient>
+    <radialGradient id="iris" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#d18c1c"/>
+    </radialGradient>
+    <radialGradient id="mouth" cx="0.5" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#8d2c34"/>
+      <stop offset="1" stop-color="#541b21"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="500" height="500" fill="url(#sky)"/>
+  <ellipse cx="250" cy="472" rx="232" ry="58" fill="#8fc16b"/>
+  <ellipse cx="250" cy="466" rx="186" ry="34" fill="#5f8f42" opacity="0.35"/>
+
+  <!-- back legs / feet -->
+  <g stroke="#2b4a1b" stroke-width="6" stroke-linejoin="round">
+    <ellipse cx="112" cy="432" rx="58" ry="32" fill="url(#skin)"/>
+    <ellipse cx="62" cy="446" rx="20" ry="15" fill="url(#skin)"/>
+    <ellipse cx="78" cy="470" rx="19" ry="14" fill="url(#skin)"/>
+    <ellipse cx="112" cy="480" rx="19" ry="14" fill="url(#skin)"/>
+    <ellipse cx="388" cy="432" rx="58" ry="32" fill="url(#skin)"/>
+    <ellipse cx="438" cy="446" rx="20" ry="15" fill="url(#skin)"/>
+    <ellipse cx="422" cy="470" rx="19" ry="14" fill="url(#skin)"/>
+    <ellipse cx="388" cy="480" rx="19" ry="14" fill="url(#skin)"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="250" cy="372" rx="178" ry="102" fill="url(#skin)" stroke="#2b4a1b" stroke-width="7"/>
+  <circle cx="152" cy="392" r="15" fill="#4c8330" opacity="0.55"/>
+  <circle cx="196" cy="418" r="10" fill="#4c8330" opacity="0.55"/>
+  <circle cx="342" cy="392" r="15" fill="#4c8330" opacity="0.55"/>
+  <circle cx="306" cy="418" r="10" fill="#4c8330" opacity="0.55"/>
+
+  <!-- eye bulges -->
+  <circle cx="158" cy="170" r="74" fill="url(#skin)" stroke="#2b4a1b" stroke-width="7"/>
+  <circle cx="342" cy="170" r="74" fill="url(#skin)" stroke="#2b4a1b" stroke-width="7"/>
+
+  <!-- head -->
+  <ellipse cx="250" cy="236" rx="154" ry="120" fill="url(#skin)" stroke="#2b4a1b" stroke-width="7"/>
+
+  <!-- protruding lower jaw -->
+  <path d="M96,284 C82,392 140,478 250,478 C360,478 418,392 404,284 Z"
+        fill="url(#jawg)" stroke="#2b4a1b" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M148,428 C200,462 300,462 352,428" fill="none" stroke="#4d8632" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M126,352 C118,412 148,452 190,466" fill="none" stroke="#4d8632" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M374,352 C382,412 352,452 310,466" fill="none" stroke="#4d8632" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- mouth -->
+  <path d="M105,268 C170,332 330,332 395,268 C350,398 150,398 105,268 Z"
+        fill="url(#mouth)" stroke="#2b4a1b" stroke-width="7" stroke-linejoin="round"/>
+
+  <!-- big lower teeth (underbite) -->
+  <g fill="#f7f3e4" stroke="#2b4a1b" stroke-width="5" stroke-linejoin="round">
+    <path d="M152,346 L176,282 L200,358 Z"/>
+    <path d="M196,358 L222,272 L248,364 Z"/>
+    <path d="M244,364 L272,270 L300,358 Z"/>
+    <path d="M296,358 L322,282 L346,342 Z"/>
+    <path d="M112,282 L128,316 L146,292 Z"/>
+    <path d="M388,282 L372,316 L354,292 Z"/>
+  </g>
+
+  <!-- nostrils -->
+  <ellipse cx="212" cy="250" rx="13" ry="8" fill="#2b4a1b" transform="rotate(-12 212 250)"/>
+  <ellipse cx="288" cy="250" rx="13" ry="8" fill="#2b4a1b" transform="rotate(12 288 250)"/>
+
+  <!-- heavy brows -->
+  <path d="M100,132 C118,96 206,96 218,132" fill="none" stroke="#3d6b26" stroke-width="14" stroke-linecap="round"/>
+  <path d="M282,132 C294,96 382,96 400,132" fill="none" stroke="#3d6b26" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- eyes -->
+  <g stroke="#2b4a1b" stroke-width="5">
+    <circle cx="158" cy="172" r="56" fill="url(#eyeg)"/>
+    <circle cx="342" cy="172" r="56" fill="url(#eyeg)"/>
+  </g>
+  <circle cx="158" cy="176" r="34" fill="url(#iris)"/>
+  <circle cx="342" cy="176" r="34" fill="url(#iris)"/>
+  <ellipse cx="158" cy="176" rx="30" ry="13" fill="#151515"/>
+  <ellipse cx="342" cy="176" rx="30" ry="13" fill="#151515"/>
+  <circle cx="146" cy="162" r="11" fill="#ffffff" opacity="0.9"/>
+  <circle cx="330" cy="162" r="11" fill="#ffffff" opacity="0.9"/>
+  <circle cx="176" cy="190" r="6" fill="#ffffff" opacity="0.55"/>
+  <circle cx="360" cy="190" r="6" fill="#ffffff" opacity="0.55"/>
+</svg>
