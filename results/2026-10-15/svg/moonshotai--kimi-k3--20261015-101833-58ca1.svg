@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 420" width="440" height="420">
+  <title>Frog with a Habsburg jaw</title>
+  <defs>
+    <clipPath id="bodyClip">
+      <path d="M328 352 C372 320 384 250 348 202 C322 170 285 153 244 149 C205 145 168 150 143 167 C124 180 108 189 96 195 C92 205 94 214 100 220 C84 224 66 232 62 244 C58 262 66 280 84 288 C120 302 165 306 205 306 C250 330 295 348 328 352 Z"/>
+    </clipPath>
+  </defs>
+
+  <ellipse cx="220" cy="376" rx="165" ry="16" fill="#1a1a1a" opacity="0.12"/>
+
+  <circle cx="176" cy="130" r="33" fill="#7cb442" stroke="#2f5d23" stroke-width="5"/>
+
+  <path d="M328 352 C372 320 384 250 348 202 C322 170 285 153 244 149 C205 145 168 150 143 167 C124 180 108 189 96 195 C92 205 94 214 100 220 C84 224 66 232 62 244 C58 262 66 280 84 288 C120 302 165 306 205 306 C250 330 295 348 328 352 Z" fill="#7cb442" stroke="#2f5d23" stroke-width="5" stroke-linejoin="round"/>
+
+  <g clip-path="url(#bodyClip)">
+    <ellipse cx="200" cy="334" rx="100" ry="30" fill="#dcedc8" opacity="0.9" transform="rotate(-4 200 334)"/>
+    <circle cx="302" cy="196" r="10" fill="#558b2f" opacity="0.55"/>
+    <circle cx="336" cy="232" r="8" fill="#558b2f" opacity="0.55"/>
+    <circle cx="272" cy="178" r="7" fill="#558b2f" opacity="0.55"/>
+  </g>
+
+  <ellipse cx="316" cy="298" rx="50" ry="44" fill="#6aa338" stroke="#2f5d23" stroke-width="5" transform="rotate(-14 316 298)"/>
+  <path d="M338 346 C312 356 278 361 252 361 C242 361 240 370 250 372 L332 372 C348 366 350 354 338 346 Z" fill="#6aa338" stroke="#2f5d23" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M282 361 L278 371 M308 361 L306 371" stroke="#2f5d23" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <path d="M97 197 C150 216 215 227 278 231 C215 256 120 258 70 241 C78 222 88 208 97 197 Z" fill="#689f38"/>
+  <path d="M97 197 C150 216 215 227 278 231" fill="none" stroke="#2f5d23" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M70 241 C120 258 215 256 278 231" fill="none" stroke="#2f5d23" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M70 250 C68 264 76 278 90 284" fill="none" stroke="#9ccc65" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M92 282 C130 294 175 297 210 292" fill="none" stroke="#2f5d23" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+
+  <ellipse cx="106" cy="187" rx="3.2" ry="2.2" fill="#2f5d23" transform="rotate(-20 106 187)"/>
+
+  <circle cx="176" cy="128" r="21" fill="#ffffff" stroke="#2f5d23" stroke-width="4"/>
+  <circle cx="176" cy="129" r="12" fill="#f9b233"/>
+  <ellipse cx="176" cy="129" rx="4.5" ry="11" fill="#1b1b1b"/>
+  <circle cx="171" cy="122" r="3.5" fill="#ffffff" opacity="0.9"/>
+  <path d="M157 117 C167 108 185 108 195 117" fill="none" stroke="#2f5d23" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M220 282 C211 306 207 330 208 354 L230 354 C229 332 234 306 242 290 C235 280 226 277 220 282 Z" fill="#7cb442" stroke="#2f5d23" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M204 352 L192 362 M215 354 L210 367 M228 352 L236 363" fill="none" stroke="#2f5d23" stroke-width="5" stroke-linecap="round"/>
+</svg>

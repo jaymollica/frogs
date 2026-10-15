@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <defs>
+    <radialGradient id="s" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#a5da6d"/>
+      <stop offset="55%" stop-color="#6cb046"/>
+      <stop offset="100%" stop-color="#3d7b2e"/>
+    </radialGradient>
+    <linearGradient id="j" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a9dd72"/>
+      <stop offset="100%" stop-color="#5d9c3c"/>
+    </linearGradient>
+    <radialGradient id="b" cx="42%" cy="62%" r="62%">
+      <stop offset="0%" stop-color="#f3f8d6"/>
+      <stop offset="100%" stop-color="#cfe49d"/>
+    </radialGradient>
+    <radialGradient id="e" cx="35%" cy="30%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#ffe8a4"/>
+      <stop offset="100%" stop-color="#d79f38"/>
+    </radialGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c3e8ec"/>
+      <stop offset="100%" stop-color="#7cbfca"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="#f1f8f5"/>
+  <path d="M0 414C112 388 224 442 376 416 470 400 556 430 640 410L640 480 0 480Z" fill="url(#w)"/>
+  <ellipse cx="310" cy="428" rx="252" ry="26" fill="#2b7a88" opacity=".16"/>
+  <g stroke="#35682a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M92 328C64 360 48 404 66 428 96 436 128 422 140 392 150 366 138 342 130 328Z" fill="#5f9f42"/>
+    <path d="M64 428C34 436 16 450 24 460 44 472 90 462 116 444 128 435 126 424 116 420 100 414 80 418 64 428Z" fill="#6aa746"/>
+    <path d="M78 446 100 462M104 440 126 456M128 432 150 448" fill="none" stroke="#57a03f" stroke-width="5"/>
+    <path d="M74 318C56 248 98 184 174 160 238 139 300 154 340 186 368 209 384 238 392 268 398 304 378 356 328 390 272 428 168 426 122 388 88 360 82 338 74 318Z" fill="url(#s)"/>
+    <path d="M340 338C330 366 344 396 376 408 406 419 444 415 462 394 476 376 466 352 444 342 416 330 384 330 362 334 350 336 342 334 340 338Z" fill="url(#s)"/>
+    <path d="M312 194C338 158 384 136 438 144 484 151 524 176 550 212 560 226 562 242 554 256 544 274 524 286 502 286 474 286 450 276 430 264 404 250 378 238 358 226 342 216 326 208 316 201 311 198 311 196 312 194Z" fill="url(#s)"/>
+    <path d="M348 244C328 274 334 308 364 328 410 356 490 366 548 348 582 337 612 316 620 290 626 268 616 250 600 244 580 236 556 246 534 254 476 270 414 274 380 260 364 253 354 247 348 244Z" fill="url(#j)"/>
+  </g>
+  <path d="M142 352C176 396 268 410 340 374 348 406 312 430 250 434 182 438 136 404 142 352Z" fill="url(#b)" opacity=".9"/>
+  <path d="M404 404C404 424 420 438 440 438 460 438 472 424 470 408 468 392 452 386 440 388 424 390 412 398 404 404Z" fill="#69ab46" stroke="#35682a" stroke-width="5"/>
+  <path d="M428 436 438 452M448 438 460 450M468 432 480 440" fill="none" stroke="#5c9c40" stroke-width="5" stroke-linecap="round"/>
+  <path d="M352 246C420 268 480 268 548 250" fill="none" stroke="#2f6627" stroke-width="4" opacity=".35"/>
+  <path d="M514 258C544 250 576 264 586 292 592 312 580 330 560 338 528 350 492 342 478 324 468 308 484 276 514 258Z" fill="#a6da72" opacity=".3" stroke="none"/>
+  <path d="M364 326C420 350 492 354 574 312" fill="none" stroke="#6da642" stroke-width="4" opacity=".5"/>
+  <ellipse cx="522" cy="206" rx="7" ry="5" transform="rotate(-12 522 206)" fill="#35652b"/>
+  <ellipse cx="424" cy="176" rx="44" ry="40" fill="url(#s)" stroke="#35682a" stroke-width="5"/>
+  <path d="M382 148C404 136 446 136 466 152" fill="none" stroke="#4c8a34" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="424" cy="176" rx="30" ry="27" fill="url(#e)"/>
+  <path d="M397 177C405 162 443 162 451 177 443 192 405 192 397 177Z" fill="#221b12"/>
+  <circle cx="411" cy="167" r="7" fill="#ffffff" opacity=".85"/>
+  <g fill="#4b8a31" opacity=".45">
+    <ellipse cx="168" cy="238" rx="24" ry="18"/>
+    <ellipse cx="126" cy="292" rx="22" ry="17"/>
+    <ellipse cx="242" cy="286" rx="16" ry="12"/>
+    <ellipse cx="318" cy="212" rx="13" ry="10"/>
+  </g>
+  <path d="M0 414C112 388 224 442 376 416 470 400 556 430 640 410L640 480 0 480Z" fill="url(#w)" opacity=".25"/>
+</svg>

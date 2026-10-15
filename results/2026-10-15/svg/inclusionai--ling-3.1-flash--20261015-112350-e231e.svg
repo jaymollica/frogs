@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="400" height="420" role="img">
+<title>Frog with mandibular prognathism</title>
+<ellipse cx="200" cy="400" rx="125" ry="11" fill="#1a3d0c" opacity="0.12"/>
+<ellipse cx="200" cy="310" rx="105" ry="70" fill="#79c14a" stroke="#2e5b1c" stroke-width="4"/>
+<ellipse cx="200" cy="330" rx="68" ry="45" fill="#eef8da"/>
+<ellipse cx="128" cy="322" rx="7" ry="6" fill="#58a02e" opacity="0.8"/>
+<ellipse cx="272" cy="322" rx="7" ry="6" fill="#58a02e" opacity="0.8"/>
+<ellipse cx="148" cy="296" rx="6.5" ry="5.5" fill="#58a02e" opacity="0.8"/>
+<ellipse cx="252" cy="296" rx="6.5" ry="5.5" fill="#58a02e" opacity="0.8"/>
+<ellipse cx="122" cy="384" rx="35" ry="13" fill="#79c14a" stroke="#2e5b1c" stroke-width="4" transform="rotate(-8 122 384)"/>
+<ellipse cx="278" cy="384" rx="35" ry="13" fill="#79c14a" stroke="#2e5b1c" stroke-width="4" transform="rotate(8 278 384)"/>
+<ellipse cx="200" cy="175" rx="100" ry="75" fill="#79c14a" stroke="#2e5b1c" stroke-width="4"/>
+<circle cx="115" cy="172" r="11" fill="#63aa3f" stroke="#2e5b1c" stroke-width="3"/>
+<circle cx="285" cy="172" r="11" fill="#63aa3f" stroke="#2e5b1c" stroke-width="3"/>
+<circle cx="145" cy="108" r="42" fill="#79c14a" stroke="#2e5b1c" stroke-width="4"/>
+<circle cx="255" cy="108" r="42" fill="#79c14a" stroke="#2e5b1c" stroke-width="4"/>
+<ellipse cx="150" cy="196" rx="7" ry="6" fill="#58a02e" opacity="0.8"/>
+<ellipse cx="250" cy="196" rx="7" ry="6" fill="#58a02e" opacity="0.8"/>
+<ellipse cx="200" cy="252" rx="110" ry="38" fill="#79c14a"/>
+<path d="M 112 228 C 145 252, 255 252, 288 228 C 283 245, 268 253, 248 258 C 222 264, 178 264, 152 258 C 132 253, 117 245, 112 228 Z" fill="#4a8a2b" opacity="0.4"/>
+<ellipse cx="200" cy="274" rx="38" ry="13" fill="#eef8da" opacity="0.9"/>
+<path d="M 124.1 224.5 A 110 38 0 1 0 275.9 224.5" fill="none" stroke="#2e5b1c" stroke-width="4" stroke-linecap="round"/>
+<path d="M 112 228 C 145 252, 255 252, 288 228" fill="none" stroke="#2e5b1c" stroke-width="4" stroke-linecap="round"/>
+<rect x="163" y="243" width="15" height="10" rx="3" fill="#ffffff" stroke="#2e5b1c" stroke-width="2"/>
+<rect x="222" y="243" width="15" height="10" rx="3" fill="#ffffff" stroke="#2e5b1c" stroke-width="2"/>
+<circle cx="145" cy="102" r="23" fill="#ffffff" stroke="#2e5b1c" stroke-width="3"/>
+<circle cx="255" cy="102" r="23" fill="#ffffff" stroke="#2e5b1c" stroke-width="3"/>
+<circle cx="145" cy="108" r="10" fill="#1c1c1c"/>
+<circle cx="255" cy="108" r="10" fill="#1c1c1c"/>
+<circle cx="141" cy="104" r="3.5" fill="#ffffff"/>
+<circle cx="251" cy="104" r="3.5" fill="#ffffff"/>
+<ellipse cx="184" cy="164" rx="4.5" ry="3" fill="#2e5b1c"/>
+<ellipse cx="216" cy="164" rx="4.5" ry="3" fill="#2e5b1c"/>
+<path d="M 114 302 C 100 314, 93 328, 99 339" fill="none" stroke="#2e5b1c" stroke-width="20" stroke-linecap="round"/>
+<path d="M 286 302 C 300 314, 307 328, 301 339" fill="none" stroke="#2e5b1c" stroke-width="20" stroke-linecap="round"/>
+<path d="M 114 302 C 100 314, 93 328, 99 339" fill="none" stroke="#79c14a" stroke-width="12" stroke-linecap="round"/>
+<path d="M 286 302 C 300 314, 307 328, 301 339" fill="none" stroke="#79c14a" stroke-width="12" stroke-linecap="round"/>
+<circle cx="100" cy="341" r="9" fill="#79c14a" stroke="#2e5b1c" stroke-width="3.5"/>
+<circle cx="300" cy="341" r="9" fill="#79c14a" stroke="#2e5b1c" stroke-width="3.5"/>
+</svg>

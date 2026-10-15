@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#dff3ff"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="372" rx="150" ry="62" fill="#4e9b36"/>
+  <!-- arms -->
+  <ellipse cx="62" cy="330" rx="34" ry="20" fill="#4e9b36" transform="rotate(-20 62 330)"/>
+  <ellipse cx="338" cy="330" rx="34" ry="20" fill="#4e9b36" transform="rotate(20 338 330)"/>
+
+  <!-- eye bulges -->
+  <circle cx="146" cy="80" r="40" fill="#6abf4b" stroke="#3f8a2c" stroke-width="3"/>
+  <circle cx="254" cy="80" r="40" fill="#6abf4b" stroke="#3f8a2c" stroke-width="3"/>
+
+  <!-- head (upper jaw / cranium, comparatively small) -->
+  <ellipse cx="200" cy="140" rx="104" ry="78" fill="#6abf4b" stroke="#3f8a2c" stroke-width="3"/>
+  <!-- head spots -->
+  <ellipse cx="150" cy="128" rx="14" ry="9" fill="#55a83c" opacity="0.7"/>
+  <ellipse cx="248" cy="122" rx="11" ry="7" fill="#55a83c" opacity="0.7"/>
+  <ellipse cx="200" cy="100" rx="9" ry="6" fill="#55a83c" opacity="0.7"/>
+
+  <!-- nostrils -->
+  <ellipse cx="180" cy="122" rx="5" ry="3.5" fill="#2f6b20"/>
+  <ellipse cx="220" cy="122" rx="5" ry="3.5" fill="#2f6b20"/>
+
+  <!-- THE HABSBURG JAW: massive protruding mandible -->
+  <path d="M 92,146
+           C 78,250 112,330 200,334
+           C 288,330 322,250 308,146
+           C 262,186 138,186 92,146 Z"
+        fill="#79cf59" stroke="#3f8a2c" stroke-width="3"/>
+
+  <!-- chin crease / dimple -->
+  <path d="M 200,268 C 182,288 182,306 200,318" fill="none" stroke="#4e9b36" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="140" cy="245" rx="22" ry="30" fill="#8ad96c" opacity="0.5"/>
+  <ellipse cx="262" cy="245" rx="22" ry="30" fill="#8ad96c" opacity="0.5"/>
+
+  <!-- protruding lower teeth (underbite) -->
+  <rect x="166" y="150" width="20" height="28" rx="5" fill="#fffdf2" stroke="#d9d2bb" stroke-width="2"/>
+  <rect x="214" y="150" width="20" height="28" rx="5" fill="#fffdf2" stroke="#d9d2bb" stroke-width="2"/>
+
+  <!-- mouth line / underbite seam -->
+  <path d="M 92,146 C 138,186 262,186 308,146" fill="none" stroke="#2f6b20" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- eyes -->
+  <circle cx="146" cy="74" r="26" fill="#fffdf2"/>
+  <circle cx="254" cy="74" r="26" fill="#fffdf2"/>
+  <circle cx="146" cy="76" r="13" fill="#17210f"/>
+  <circle cx="254" cy="76" r="13" fill="#17210f"/>
+  <circle cx="151" cy="70" r="4.5" fill="#ffffff"/>
+  <circle cx="259" cy="70" r="4.5" fill="#ffffff"/>
+
+  <!-- droopy noble eyelids -->
+  <path d="M 120,62 C 134,50 160,50 173,61" fill="none" stroke="#3f8a2c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 228,61 C 241,50 267,50 281,62" fill="none" stroke="#3f8a2c" stroke-width="5" stroke-linecap="round"/>
+</svg>

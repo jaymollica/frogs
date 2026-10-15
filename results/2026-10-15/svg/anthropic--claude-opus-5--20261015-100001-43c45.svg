@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="400" height="420">
+  <defs>
+    <radialGradient id="skin" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#8fd36a"/>
+      <stop offset="100%" stop-color="#5a9e36"/>
+    </radialGradient>
+    <radialGradient id="jawg" cx="50%" cy="20%" r="90%">
+      <stop offset="0%" stop-color="#85cb63"/>
+      <stop offset="100%" stop-color="#4e8c30"/>
+    </radialGradient>
+    <radialGradient id="eyeball" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8d8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- shadow -->
+  <ellipse cx="200" cy="396" rx="150" ry="16" fill="#000" opacity="0.15"/>
+
+  <!-- back legs -->
+  <path d="M60 300 q-40 20 -30 60 q5 28 40 26 q30 -2 30 -34 z" fill="#4e8c30"/>
+  <path d="M340 300 q40 20 30 60 q-5 28 -40 26 q-30 -2 -30 -34 z" fill="#4e8c30"/>
+  <!-- feet -->
+  <path d="M30 380 q-18 -6 -16 10 q2 12 22 10 l40 -2 q14 -1 12 -12 q-2 -10 -16 -8 z" fill="#6ab243"/>
+  <path d="M370 380 q18 -6 16 10 q-2 12 -22 10 l-40 -2 q-14 -1 -12 -12 q2 -10 16 -8 z" fill="#6ab243"/>
+
+  <!-- head -->
+  <path d="M200 60
+           C 300 60, 352 110, 352 175
+           C 352 215, 320 240, 270 246
+           L 130 246
+           C 80 240, 48 215, 48 175
+           C 48 110, 100 60, 200 60 Z" fill="url(#skin)"/>
+
+  <!-- HABSBURG JAW: huge protruding lower jaw -->
+  <path d="M78 196
+           C 60 260, 78 330, 140 352
+           C 170 363, 230 363, 260 352
+           C 322 330, 340 260, 322 196
+           C 300 236, 250 250, 200 250
+           C 150 250, 100 236, 78 196 Z" fill="url(#jawg)"/>
+  <!-- jaw shading / jowls -->
+  <path d="M96 240 C 92 300, 130 342, 200 344 C 270 342, 308 300, 304 240
+           C 290 286, 250 306, 200 306 C 150 306, 110 286, 96 240 Z" fill="#79c257" opacity="0.5"/>
+  <!-- chin crease -->
+  <path d="M200 312 q-16 14 0 28" fill="none" stroke="#3f7526" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- mouth opening (underbite) -->
+  <path d="M86 205 C 120 252, 170 262, 200 262 C 230 262, 280 252, 314 205
+           C 280 232, 240 240, 200 240 C 160 240, 120 232, 86 205 Z" fill="#3b2230"/>
+  <!-- protruding lower lip -->
+  <path d="M90 246 C 130 276, 270 276, 310 246 C 270 262, 130 262, 90 246 Z" fill="#c76a7a" opacity="0.85"/>
+
+  <!-- lower teeth sticking up over upper lip -->
+  <g fill="#fdfdf5">
+    <rect x="150" y="226" width="18" height="22" rx="4"/>
+    <rect x="172" y="224" width="20" height="24" rx="4"/>
+    <rect x="196" y="224" width="20" height="24" rx="4"/>
+    <rect x="220" y="226" width="18" height="22" rx="4"/>
+  </g>
+
+  <!-- nostrils -->
+  <ellipse cx="176" cy="156" rx="7" ry="5" fill="#3f7526"/>
+  <ellipse cx="224" cy="156" rx="7" ry="5" fill="#3f7526"/>
+
+  <!-- bulging eyes -->
+  <g>
+    <circle cx="132" cy="80" r="46" fill="url(#skin)"/>
+    <circle cx="268" cy="80" r="46" fill="url(#skin)"/>
+    <circle cx="132" cy="78" r="34" fill="url(#eyeball)"/>
+    <circle cx="268" cy="78" r="34" fill="url(#eyeball)"/>
+    <ellipse cx="134" cy="80" rx="14" ry="20" fill="#1a1a1a"/>
+    <ellipse cx="266" cy="80" rx="14" ry="20" fill="#1a1a1a"/>
+    <circle cx="128" cy="70" r="6" fill="#fff" opacity="0.9"/>
+    <circle cx="260" cy="70" r="6" fill="#fff" opacity="0.9"/>
+    <!-- heavy droopy lids -->
+    <path d="M98 62 a34 34 0 0 1 68 0 a60 60 0 0 0 -68 0 Z" fill="#5a9e36"/>
+    <path d="M234 62 a34 34 0 0 1 68 0 a60 60 0 0 0 -68 0 Z" fill="#5a9e36"/>
+  </g>
+
+  <!-- arms resting on jaw -->
+  <path d="M74 286 q-34 26 -30 62 q2 18 20 16 q16 -2 14 -22 q-2 -26 18 -42 z" fill="#6ab243"/>
+  <path d="M326 286 q34 26 30 62 q-2 18 -20 16 q-16 -2 -14 -22 q2 -26 -18 -42 z" fill="#6ab243"/>
+
+  <!-- spots -->
+  <circle cx="300" cy="150" r="9" fill="#44801f" opacity="0.5"/>
+  <circle cx="92" cy="152" r="7" fill="#44801f" opacity="0.5"/>
+  <circle cx="200" cy="110" r="6" fill="#44801f" opacity="0.4"/>
+</svg>

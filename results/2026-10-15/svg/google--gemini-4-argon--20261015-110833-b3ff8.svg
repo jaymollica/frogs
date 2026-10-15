@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#e0f7fa"/>
+      <stop offset="60%" stop-color="#80deea"/>
+      <stop offset="100%" stop-color="#26c6da"/>
+    </radialGradient>
+
+    <!-- Frog Skin Gradient -->
+    <linearGradient id="skinGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#a5d610"/>
+      <stop offset="50%" stop-color="#7cb342"/>
+      <stop offset="100%" stop-color="#558b2f"/>
+    </linearGradient>
+
+    <!-- Jaw Skin Gradient (Slightly brighter to pop forward) -->
+    <linearGradient id="jawGrad" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#b8e625"/>
+      <stop offset="40%" stop-color="#8bc34a"/>
+      <stop offset="100%" stop-color="#558b2f"/>
+    </linearGradient>
+
+    <!-- Darker Green for Back Legs & Shadows -->
+    <linearGradient id="darkSkinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#689f38"/>
+      <stop offset="100%" stop-color="#33691e"/>
+    </linearGradient>
+
+    <!-- Belly/Throat Yellow Gradient -->
+    <linearGradient id="bellyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="50%" stop-color="#ffee58"/>
+      <stop offset="100%" stop-color="#fbc02d"/>
+    </linearGradient>
+
+    <!-- Eye Gold Gradient -->
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffee58"/>
+      <stop offset="50%" stop-color="#fdd835"/>
+      <stop offset="100%" stop-color="#f57f17"/>
+    </linearGradient>
+
+    <!-- Lilypad Gradient -->
+    <linearGradient id="padGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4caf50"/>
+      <stop offset="70%" stop-color="#2e7d32"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#00332c" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Soft Shadow for layering body parts -->
+    <filter id="partShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="-4" dy="6" stdDeviation="4" flood-color="#1b5e20" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Water Ripples -->
+  <ellipse cx="420" cy="480" rx="340" ry="70" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.4"/>
+  <ellipse cx="420" cy="480" rx="370" ry="85" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="400" cy="470" rx="280" ry="50" fill="#0097a7" opacity="0.2"/>
+
+  <!-- Lilypad -->
+  <g filter="url(#shadow)">
+    <path d="M 420,470 L 720,450 C 740,510 580,550 420,550 C 200,550 120,500 120,460 C 120,410 220,380 420,380 C 560,380 670,400 710,430 Z" fill="url(#padGrad)"/>
+    <!-- Lilypad Veins -->
+    <path d="M 420,470 L 200,460 M 420,470 L 250,410 M 420,470 L 380,390 M 420,470 L 520,400 M 420,470 L 600,490 M 420,470 L 450,540 M 420,470 L 300,520" stroke="#81c784" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- FROG -->
+  <g id="frog">
+    
+    <!-- Back Right Leg (Viewer's Left) -->
+    <g id="back-leg-left">
+      <path d="M 270,340 C 170,320 140,400 200,460 C 230,480 260,450 260,450" fill="url(#darkSkinGrad)" stroke="#1b5e20" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M 200,460 C 160,465 130,480 150,490 C 170,500 210,485 230,480 C 200,495 190,510 210,515 C 230,520 260,490 275,475" fill="url(#darkSkinGrad)" stroke="#1b5e20" stroke-width="5" stroke-linejoin="round"/>
+      <!-- Spots -->
+      <circle cx="190" cy="390" r="12" fill="#1b5e20" opacity="0.4"/>
+      <circle cx="215" cy="365" r="8" fill="#1b5e20" opacity="0.4"/>
+    </g>
+
+    <!-- Front Right Leg (Viewer's Right, Further Back) -->
+    <g id="front-leg-right">
+      <path d="M 430,360 C 460,400 470,450 470,470 C 490,470 520,475 515,485 C 510,495 480,490 470,490 C 480,500 490,515 475,520 C 460,525 455,500 445,490 C 435,500 420,515 410,505 C 400,495 430,480 435,470 C 430,440 400,410 390,380" fill="url(#darkSkinGrad)" stroke="#1b5e20" stroke-width="5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Main Body & Upper Head -->
+    <g id="body-and-upper-head" filter="url(#partShadow)">
+      <!-- Torso -->
+      <path d="M 270,220 C 210,270 190,380 240,450 C 280,500 400,490 430,440 C 460,390 460,300 420,240 Z" fill="url(#skinGrad)" stroke="#1b5e20" stroke-width="5" stroke-linejoin="round"/>
+      
+      <!-- Belly Patch -->
+      <path d="M 330,320 C 280,350 280,440 320,470 C 370,485 415,460 430,420 C 445,380 400,290 330,320 Z" fill="url(#bellyGrad)" opacity="0.9"/>
+      <!-- Belly Texture -->
+      <path d="M 315,380 Q 360,390 400,370" fill="none" stroke="#f57f17" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+      <path d="M 310,420 Q 360,430 410,410" fill="none" stroke="#f57f17" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+      <path d="M 325,455 Q 365,460 395,445" fill="none" stroke="#f57f17" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+
+      <!-- Back Spots -->
+      <ellipse cx="250" cy="320" rx="20" ry="15" transform="rotate(-20 250 320)" fill="#33691e" opacity="0.5"/>
+      <circle cx="280" cy="280" r="10" fill="#33691e" opacity="0.5"/>
+      <ellipse cx="235" cy="370" rx="12" ry="22" transform="rotate(10 235 370)" fill="#33691e" opacity="0.5"/>
+      <circle cx="270" cy="390" r="8" fill="#33691e" opacity="0.5"/>
+
+      <!-- Far Eye Socket (Right Eye) -->
+      <path d="M 370,180 C 370,110 460,110 460,180 Z" fill="url(#skinGrad)" stroke="#1b5e20" stroke-width="5"/>
+      <!-- Far Eye -->
+      <circle cx="420" cy="165" r="32" fill="url(#eyeGrad)" stroke="#1b5e20" stroke-width="4"/>
+      <ellipse cx="428" cy="165" rx="18" ry="10" transform="rotate(-5 428 165)" fill="#1a1a1a"/>
+      <circle cx="415" cy="152" r="8" fill="#ffffff"/>
+      <circle cx="435" cy="172" r="4" fill="#ffffff"/>
+      <!-- Far Eyelid crease -->
+      <path d="M 380,145 Q 420,120 455,150" fill="none" stroke="#33691e" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Upper Head / Maxilla (Recessed to emphasize the underbite) -->
+      <path d="M 270,220 C 290,160 360,160 430,175 C 480,185 520,210 515,240 C 510,275 430,270 380,275 C 330,280 290,260 270,220 Z" fill="url(#skinGrad)"/>
+      <!-- Upper Lip Line & Head Outline -->
+      <path d="M 268,230 C 290,160 360,160 430,175 C 480,185 520,210 515,240 C 512,260 470,265 420,265" fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round"/>
+
+      <!-- Nostrils -->
+      <ellipse cx="485" cy="210" rx="5" ry="3" transform="rotate(25 485 210)" fill="#1b5e20"/>
+      <ellipse cx="455" cy="208" rx="6" ry="3.5" transform="rotate(15 455 208)" fill="#1b5e20"/>
+
+      <!-- Near Eye Socket (Left Eye) -->
+      <path d="M 300,195 C 295,115 405,115 400,195" fill="url(#skinGrad)" stroke="#1b5e20" stroke-width="5" stroke-linecap="round"/>
+      <!-- Near Eye -->
+      <circle cx="355" cy="170" r="36" fill="url(#eyeGrad)" stroke="#1b5e20" stroke-width="4"/>
+      <!-- Frog Pupil -->
+      <ellipse cx="362" cy="170" rx="22" ry="12" transform="rotate(-5 362 170)" fill="#1a1a1a"/>
+      <!-- Eye Highlights -->
+      <circle cx="345" cy="155" r="10" fill="#ffffff"/>
+      <circle cx="372" cy="178" r="5" fill="#ffffff"/>
+      <!-- Lower Eyelid fold -->
+      <path d="M 318,195 Q 355,215 390,195" fill="none" stroke="#558b2f" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- Tympanum (Ear) -->
+      <ellipse cx="295" cy="235" rx="16" ry="22" transform="rotate(-10 295 235)" fill="#558b2f" stroke="#33691e" stroke-width="3"/>
+      <ellipse cx="295" cy="235" rx="10" ry="14" transform="rotate(-10 295 235)" fill="#33691e" opacity="0.4"/>
+    </g>
+
+    <!-- Front Left Leg (Viewer's Left, Foreground) -->
+    <g id="front-leg-left" filter="url(#partShadow)">
+      <path d="M 310,330 C 290,380 300,440 310,480 C 290,485 260,490 265,500 C 270,510 305,500 315,495 C 305,510 295,530 315,535 C 330,540 335,510 340,500 C 350,510 365,525 380,515 C 390,505 360,490 350,485 C 365,485 385,490 390,480 C 395,470 365,465 350,465 C 345,420 365,370 360,340" fill="url(#skinGrad)" stroke="#1b5e20" stroke-width="5" stroke-linejoin="round"/>
+      <!-- Leg Spots -->
+      <ellipse cx="325" cy="390" rx="14" ry="8" transform="rotate(40 325 390)" fill="#33691e" opacity="0.5"/>
+      <circle cx="330" cy="430" r="9" fill="#33691e" opacity="0.5"/>
+    </g>
+
+
+    <!-- ================================================================= -->
+    <!-- MANDIBULAR PROGNATHISM (The Massive Underbite / Lower Jaw)        -->
+    <!-- ================================================================= -->
+    <g id="prognathic-jaw" filter="url(#partShadow)">
+      
+      <!-- Inside of the Mouth (Exposed due to the extreme underbite) -->
+      <path d="M 480,245 C 520,245 570,220 605,215 C 610,235 550,275 450,270 Z" fill="#880e4f" stroke="#1b5e20" stroke-width="4" stroke-linejoin="round"/>
+      
+      <!-- The Tongue (Sitting in the extended lower jaw) -->
+      <path d="M 490,255 C 520,240 565,235 585,245 C 580,260 530,270 480,265 Z" fill="#f06292" stroke="#ad1457" stroke-width="2"/>
+      
+      <!-- The Underbite Teeth (Funny/ monstrous lower teeth poking up in front of the upper lip) -->
+      <!-- Back/Right Tooth -->
+      <path d="M 555,228 L 568,185 L 585,220 Z" fill="#fff9c4" stroke="#5d4037" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M 568,185 L 575,222 L 585,220 Z" fill="#fbc02d" opacity="0.5"/> <!-- Tooth shading -->
+      
+      <!-- Middle Small Tooth -->
+      <path d="M 525,240 L 532,210 L 545,235 Z" fill="#fff9c4" stroke="#5d4037" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- Front/Left Massive Canine/Tusk -->
+      <path d="M 580,225 L 605,170 L 620,220 Z" fill="#ffffff" stroke="#5d4037" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M 605,170 L 600,222 L 620,220 Z" fill="#fff59d"/> <!-- Tooth shading -->
+
+      <!-- Upper lip overlap (Redrawn slightly to tuck BEHIND the lower jaw & teeth) -->
+      <path d="M 450,240 C 480,245 518,235 515,242 C 510,255 470,260 430,255" fill="url(#skinGrad)" stroke="#1b5e20" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- Massive Lower Jaw (Mandible) & Vocal Sac -->
+      <path d="M 320,250 
+               C 360,275 430,270 490,255 
+               C 550,240 590,210 620,210 
+               C 655,210 660,260 630,305 
+               C 590,365 490,400 400,380 
+               C 330,365 310,310 320,250 Z" 
+            fill="url(#jawGrad)" stroke="#1b5e20" stroke-width="5" stroke-linejoin="round"/>
+
+      <!-- Yellow Throat/Gular Patch on the massive jaw -->
+      <path d="M 340,295 
+               C 390,310 490,315 570,285 
+               C 620,265 640,275 620,310 
+               C 580,365 485,395 400,375 
+               C 350,365 330,330 340,295 Z" 
+            fill="url(#bellyGrad)"/>
+
+      <!-- Chin Dimple / Cleft (To emphasize the "Chad" / Lantern Jaw) -->
+      <path d="M 625,245 C 610,255 615,280 625,295" fill="none" stroke="#33691e" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <path d="M 628,250 C 618,260 622,275 628,288" fill="none" stroke="#b8e625" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+      <!-- Heavy Lower Lip Ridge / Highlight -->
+      <path d="M 350,268 C 400,285 460,275 510,260 C 560,245 600,220 625,220" fill="none" stroke="#d4fc5c" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+      
+      <!-- Mouth Corner / Cheek Crease -->
+      <path d="M 335,235 C 315,245 310,265 330,275" fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round"/>
+
+      <!-- Throat Pouch Stretch Lines / Wrinkles -->
+      <path d="M 410,335 Q 500,350 575,305" fill="none" stroke="#f57f17" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+      <path d="M 430,360 Q 510,370 570,335" fill="none" stroke="#f57f17" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+      
+      <!-- Jaw Warts / Texture -->
+      <circle cx="550" cy="270" r="6" fill="#558b2f" opacity="0.6"/>
+      <circle cx="570" cy="260" r="4" fill="#558b2f" opacity="0.6"/>
+      <circle cx="525" cy="275" r="5" fill="#558b2f" opacity="0.6"/>
+      <circle cx="595" cy="255" r="8" fill="#558b2f" opacity="0.5"/>
+      <!-- Highlight on warts -->
+      <circle cx="593" cy="253" r="3" fill="#d4fc5c" opacity="0.8"/>
+      <circle cx="549" cy="269" r="2" fill="#d4fc5c" opacity="0.8"/>
+
+      <!-- Re-outline the jaw to ensure crispness over the throat patch -->
+      <path d="M 320,250 
+               C 360,275 430,270 490,255 
+               C 550,240 590,210 620,210 
+               C 655,210 660,260 630,305 
+               C 590,365 490,400 400,380 
+               C 340,367 315,320 319,265" 
+            fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- ================================================================= -->
+
+  </g>
+
+  <!-- Foreground Details (Lilypad flower / water drops) -->
+  <!-- Water Droplet on Lilypad -->
+  <g transform="translate(580, 460)">
+    <path d="M 0,0 C 10,-15 25,-15 30,0 C 33,10 20,15 15,15 C 5,15 -5,10 0,0 Z" fill="#e0f7fa" stroke="#00acc1" stroke-width="2" opacity="0.8"/>
+    <circle cx="10" cy="-3" r="3" fill="#ffffff"/>
+  </g>
+  
+  <!-- Small Flies / Gnats buzzing around the massive chin -->
+  <g id="flies">
+    <g transform="translate(680, 180) rotate(15)">
+      <ellipse cx="-6" cy="-4" rx="6" ry="3" transform="rotate(-30 -6 -4)" fill="#ffffff" stroke="#90a4ae" stroke-width="1" opacity="0.8"/>
+      <ellipse cx="6" cy="-4" rx="6" ry="3" transform="rotate(30 6 -4)" fill="#ffffff" stroke="#90a4ae" stroke-width="1" opacity="0.8"/>
+      <ellipse cx="0" cy="0" rx="5" ry="3" fill="#263238"/>
+      <path d="M 5,-10 Q 25,-30 10,-40 Q -5,-50 -15,-25" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+    </g>
+    <g transform="translate(620, 120) rotate(-25) scale(0.8)">
+      <ellipse cx="-6" cy="-4" rx="6" ry="3" transform="rotate(-30 -6 -4)" fill="#ffffff" stroke="#90a4ae" stroke-width="1" opacity="0.8"/>
+      <ellipse cx="6" cy="-4" rx="6" ry="3" transform="rotate(30 6 -4)" fill="#ffffff" stroke="#90a4ae" stroke-width="1" opacity="0.8"/>
+      <ellipse cx="0" cy="0" rx="5" ry="3" fill="#263238"/>
+      <path d="M -5,10 Q -25,30 -40,10" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+    </g>
+  </g>
+
+</svg>

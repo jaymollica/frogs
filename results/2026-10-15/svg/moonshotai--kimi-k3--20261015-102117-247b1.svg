@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Frog with a Habsburg jaw</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF6FF"/>
+      <stop offset="1" stop-color="#CDEAF8"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8CC152"/>
+      <stop offset="1" stop-color="#679F36"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <path d="M 30 388 q 30 8 60 0" fill="none" stroke="#A8D8F0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 310 396 q 28 7 56 0" fill="none" stroke="#A8D8F0" stroke-width="3" stroke-linecap="round"/>
+
+  <ellipse cx="200" cy="378" rx="165" ry="22" fill="#3F7A2C" stroke="#2F5E1E" stroke-width="3"/>
+  <path d="M 200 378 L 338 365 L 346 386 Z" fill="#CDEAF8"/>
+  <path d="M 200 378 L 120 366 M 200 378 L 92 378" stroke="#2F5E1E" stroke-width="2" opacity="0.25" fill="none"/>
+  <ellipse cx="185" cy="370" rx="105" ry="11" fill="#2E5A20" opacity="0.3"/>
+
+  <path d="M 85 360
+           C 62 342, 56 302, 72 266
+           C 84 236, 104 208, 128 190
+           C 146 176, 168 164, 190 156
+           C 200 152, 212 151, 224 152
+           C 248 152, 270 160, 284 170
+           C 294 176, 301 182, 303 189
+           C 304 194, 300 199, 292 204
+           C 287 207, 282 209, 278 210
+           C 292 214, 306 220, 315 229
+           C 321 236, 323 246, 321 256
+           C 318 270, 308 282, 294 290
+           C 276 300, 254 305, 234 306
+           C 216 308, 202 314, 196 326
+           C 191 336, 190 348, 194 358
+           C 200 364, 210 367, 222 367
+           C 230 367, 238 365, 244 362
+           C 250 359, 258 361, 261 367
+           C 263 372, 257 376, 248 376
+           C 200 381, 140 380, 104 372
+           C 94 369, 88 365, 85 360 Z"
+        fill="url(#skin)" stroke="#2F5E1E" stroke-width="4" stroke-linejoin="round"/>
+
+  <path d="M 232 307 C 217 313, 207 324, 204 338 C 202 350, 206 359, 214 363 C 224 366, 234 364, 241 359 C 230 353, 224 343, 224 331 C 224 321, 227 313, 232 307 Z"
+        fill="#C9E6A0" opacity="0.55"/>
+
+  <path d="M 278 210 C 290 214, 302 220, 315 229 C 306 233, 293 231, 285 224 C 280 219, 278 214, 278 210 Z"
+        fill="#43251F" stroke="#2F5E1E" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M 294 229 Q 299 216 305 227 Q 299 231 294 229 Z" fill="#FFFDF5" stroke="#2F5E1E" stroke-width="1.5"/>
+  <path d="M 306 231 Q 311 219 317 228 Q 311 232 306 231 Z" fill="#FFFDF5" stroke="#2F5E1E" stroke-width="1.5"/>
+
+  <path d="M 316 241 C 320 253, 314 268, 302 280 C 289 291, 271 298, 252 300 C 267 292, 283 282, 293 268 C 301 257, 309 247, 316 241 Z"
+        fill="#C9E6A0" opacity="0.8"/>
+
+  <path d="M 220 193 C 242 199, 266 210, 285 222" fill="none" stroke="#2F5E1E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 298 237 C 305 241, 312 242, 317 239" fill="none" stroke="#2F5E1E" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+
+  <path d="M 100 262 C 112 296, 130 330, 156 356" fill="none" stroke="#2F5E1E" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+
+  <circle cx="150" cy="216" r="2.6" fill="#55832E"/>
+  <circle cx="165" cy="234" r="2" fill="#55832E"/>
+
+  <path d="M 216 300 C 208 320, 205 342, 209 359" fill="none" stroke="#5E9033" stroke-width="11" stroke-linecap="round"/>
+  <path d="M 209 359 C 203 363, 198 366, 193 368 M 209 359 C 208 364, 207 368, 207 372 M 209 359 C 213 363, 217 366, 222 368"
+        fill="none" stroke="#5E9033" stroke-width="3.5" stroke-linecap="round"/>
+
+  <circle cx="190" cy="122" r="33" fill="#F5FAEC" stroke="#2F5E1E" stroke-width="4"/>
+  <circle cx="196" cy="139" r="11.5" fill="#1E1E1E"/>
+  <path d="M 158.5 115 A 33 33 0 0 1 221.5 115 Q 190 130 158.5 115 Z"
+        fill="#6FA03C" stroke="#2F5E1E" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="200" cy="135" r="3.5" fill="#FFFFFF" opacity="0.9"/>
+
+  <ellipse cx="289" cy="182" rx="3" ry="2.2" fill="#2F5E1E"/>
+</svg>

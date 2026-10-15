@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#e8f4e1"/>
+  <ellipse cx="200" cy="278" rx="150" ry="10" fill="#c8dcb8"/>
+  <!-- back legs -->
+  <ellipse cx="270" cy="200" rx="42" ry="34" fill="#4f9a3c"/>
+  <path d="M290 222 L330 250 L345 244 L318 236 L300 214 Z" fill="#3e8030"/>
+  <path d="M330 250 L360 258 M330 250 L356 268 M330 250 L340 268" stroke="#3e8030" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- body -->
+  <ellipse cx="210" cy="190" rx="100" ry="58" fill="#5cb34a"/>
+  <!-- front legs -->
+  <path d="M160 228 L140 262 L124 260 M160 228 L150 250" stroke="#4f9a3c" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M120 258 L108 262 M124 260 L110 270 M124 260 L132 272" stroke="#3e8030" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M190 232 L184 266 L168 266 M190 232 L196 256" stroke="#4f9a3c" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M168 266 L156 270 M168 266 L162 278 M168 266 L178 276" stroke="#3e8030" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- head -->
+  <path d="M140 148 Q112 128 96 152 Q92 162 100 166 L152 170 Z" fill="#5cb34a"/>
+  <!-- heavily protruding lower jaw -->
+  <path d="M104 168 L66 180 Q58 188 70 192 L148 186 Q156 180 152 170 Z" fill="#4a9a38"/>
+  <path d="M70 180 Q74 186 86 186" stroke="#2f6b25" stroke-width="2" fill="none"/>
+  <!-- mouth line -->
+  <path d="M100 168 Q126 174 152 170" stroke="#2f6b25" stroke-width="3" fill="none"/>
+  <!-- teeth-like bumps on jaw -->
+  <path d="M84 186 L88 180 L92 186" fill="#f4f4e8"/>
+  <path d="M104 184 L108 178 L112 184" fill="#f4f4e8"/>
+  <!-- eye -->
+  <circle cx="142" cy="132" r="16" fill="#f7f7f0" stroke="#2f6b25" stroke-width="2"/>
+  <circle cx="145" cy="131" r="8" fill="#1d1d1d"/>
+  <circle cx="147" cy="129" r="2.5" fill="#ffffff"/>
+  <!-- nostril -->
+  <circle cx="102" cy="150" r="2" fill="#2f6b25"/>
+  <!-- spots -->
+  <circle cx="200" cy="170" r="5" fill="#3e8030"/>
+  <circle cx="230" cy="180" r="4" fill="#3e8030"/>
+  <circle cx="215" cy="205" r="6" fill="#3e8030"/>
+  <circle cx="180" cy="200" r="3.5" fill="#3e8030"/>
+</svg>

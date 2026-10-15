@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+<rect width="500" height="400" rx="24" fill="#E0F2F1"/>
+<!-- back leg and foot -->
+<ellipse cx="145" cy="318" rx="78" ry="58" fill="#43A047" stroke="#2E7D32" stroke-width="5"/>
+<ellipse cx="85" cy="352" rx="48" ry="20" fill="#43A047" stroke="#2E7D32" stroke-width="5"/>
+<circle cx="48" cy="348" r="11" fill="#43A047" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="68" cy="354" r="11" fill="#43A047" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="90" cy="356" r="11" fill="#43A047" stroke="#2E7D32" stroke-width="4"/>
+<!-- body -->
+<ellipse cx="220" cy="290" rx="122" ry="78" fill="#4CAF50" stroke="#2E7D32" stroke-width="5"/>
+<ellipse cx="242" cy="308" rx="78" ry="42" fill="#C5E1A5" opacity="0.7"/>
+<!-- eye stalks -->
+<circle cx="182" cy="112" r="40" fill="#66BB6A" stroke="#2E7D32" stroke-width="5"/>
+<circle cx="287" cy="106" r="44" fill="#66BB6A" stroke="#2E7D32" stroke-width="5"/>
+<!-- upper head / snout -->
+<ellipse cx="255" cy="175" rx="126" ry="76" fill="#66BB6A" stroke="#2E7D32" stroke-width="5"/>
+<!-- heavily protruding lower jaw -->
+<path d="M 132 198 C 220 208 360 204 432 224 C 456 230 464 252 448 275 C 428 302 360 314 270 309 C 190 304 128 271 132 198 Z" fill="#DCE775" stroke="#2E7D32" stroke-width="5" stroke-linejoin="round"/>
+<path d="M 132 198 C 220 208 360 204 432 224" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round"/>
+<path d="M 200 276 Q 300 292 410 270" fill="none" stroke="#9E9D24" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+<!-- nostril -->
+<ellipse cx="348" cy="162" rx="7" ry="10" fill="#1B5E20"/>
+<circle cx="170" cy="168" r="4" fill="#1B5E20" opacity="0.0"/>
+<!-- eyes -->
+<circle cx="182" cy="112" r="27" fill="white" stroke="#2E7D32" stroke-width="3"/>
+<circle cx="287" cy="106" r="30" fill="white" stroke="#2E7D32" stroke-width="3"/>
+<circle cx="188" cy="117" r="13" fill="#212121"/>
+<circle cx="293" cy="111" r="14" fill="#212121"/>
+<circle cx="192" cy="112" r="4.5" fill="white"/>
+<circle cx="298" cy="105" r="5" fill="white"/>
+<!-- front leg -->
+<rect x="304" y="268" width="38" height="88" rx="19" fill="#43A047" stroke="#2E7D32" stroke-width="5"/>
+<ellipse cx="324" cy="360" rx="32" ry="13" fill="#43A047" stroke="#2E7D32" stroke-width="5"/>
+<circle cx="300" cy="360" r="8" fill="#43A047" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="320" cy="365" r="8" fill="#43A047" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="340" cy="363" r="8" fill="#43A047" stroke="#2E7D32" stroke-width="4"/>
+</svg>

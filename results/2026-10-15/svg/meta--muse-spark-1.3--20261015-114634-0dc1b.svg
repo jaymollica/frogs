@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" width="420" height="340">
+<!-- back body -->
+<ellipse cx="135" cy="245" rx="95" ry="75" fill="#43A047" stroke="#2E7D32" stroke-width="6"/>
+<ellipse cx="80" cy="275" rx="48" ry="32" fill="#388E3C" stroke="#1B5E20" stroke-width="5"/>
+<!-- eye stalk -->
+<circle cx="155" cy="85" r="54" fill="#66BB6A" stroke="#2E7D32" stroke-width="6"/>
+<circle cx="155" cy="85" r="33" fill="white" stroke="#2E7D32" stroke-width="4"/>
+<circle cx="163" cy="92" r="15" fill="#212121"/>
+<circle cx="169" cy="85" r="5.5" fill="white"/>
+<!-- upper jaw / head -->
+<ellipse cx="210" cy="165" rx="125" ry="84" fill="#66BB6A" stroke="#2E7D32" stroke-width="6"/>
+<!-- nostril -->
+<ellipse cx="311" cy="149" rx="9" ry="6.5" fill="#1B5E20"/>
+<!-- mouth dark gap -->
+<path d="M 88 200 Q 205 230 324 190 L 334 212 Q 205 252 93 221 Z" fill="#4E342E" stroke="#2E7D32" stroke-width="4" stroke-linejoin="round"/>
+<!-- heavily protruding lower jaw -->
+<ellipse cx="242" cy="257" rx="152" ry="62" fill="#8BC34A" stroke="#2E7D32" stroke-width="7"/>
+<ellipse cx="255" cy="272" rx="110" ry="30" fill="#AED581" opacity="0.9"/>
+<!-- chin crease to emphasize overbite -->
+<path d="M 150 281 Q 240 298 330 270" fill="none" stroke="#558B2F" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+<!-- front leg -->
+<ellipse cx="215" cy="305" rx="22" ry="18" fill="#66BB6A" stroke="#2E7D32" stroke-width="5"/>
+</svg>

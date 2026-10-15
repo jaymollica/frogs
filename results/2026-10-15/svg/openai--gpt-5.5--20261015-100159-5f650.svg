@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Cartoon frog with a pronounced Habsburg jaw">
+  <defs>
+    <radialGradient id="skin" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#8be36c"/>
+      <stop offset="65%" stop-color="#48b84f"/>
+      <stop offset="100%" stop-color="#2f8f3d"/>
+    </radialGradient>
+    <radialGradient id="belly" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#d8f2a1"/>
+      <stop offset="100%" stop-color="#8acb63"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#17451e" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="#d9f6ff"/>
+
+  <ellipse cx="400" cy="705" rx="275" ry="48" fill="#8fcf82" opacity="0.45"/>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="275" cy="575" rx="118" ry="58" fill="#378f3e"/>
+    <ellipse cx="525" cy="575" rx="118" ry="58" fill="#378f3e"/>
+    <ellipse cx="260" cy="570" rx="75" ry="30" fill="#5ec45b"/>
+    <ellipse cx="540" cy="570" rx="75" ry="30" fill="#5ec45b"/>
+
+    <ellipse cx="400" cy="500" rx="185" ry="185" fill="url(#skin)"/>
+    <ellipse cx="400" cy="550" rx="118" ry="112" fill="url(#belly)" opacity="0.9"/>
+
+    <path d="M235 480 C170 500 145 565 180 610 C210 648 285 617 294 548 C301 495 277 468 235 480Z" fill="#3da646"/>
+    <path d="M565 480 C630 500 655 565 620 610 C590 648 515 617 506 548 C499 495 523 468 565 480Z" fill="#3da646"/>
+
+    <path d="M230 245 C170 205 102 242 100 311 C98 379 163 415 222 382 C260 361 271 276 230 245Z" fill="#46b94f"/>
+    <path d="M570 245 C630 205 698 242 700 311 C702 379 637 415 578 382 C540 361 529 276 570 245Z" fill="#46b94f"/>
+
+    <ellipse cx="400" cy="335" rx="245" ry="178" fill="url(#skin)"/>
+
+    <circle cx="245" cy="270" r="78" fill="#58c95b"/>
+    <circle cx="555" cy="270" r="78" fill="#58c95b"/>
+    <circle cx="245" cy="270" r="52" fill="#f7ffe9"/>
+    <circle cx="555" cy="270" r="52" fill="#f7ffe9"/>
+    <circle cx="260" cy="280" r="24" fill="#18321c"/>
+    <circle cx="540" cy="280" r="24" fill="#18321c"/>
+    <circle cx="270" cy="270" r="8" fill="#ffffff"/>
+    <circle cx="550" cy="270" r="8" fill="#ffffff"/>
+
+    <ellipse cx="328" cy="342" rx="14" ry="8" fill="#226f30"/>
+    <ellipse cx="472" cy="342" rx="14" ry="8" fill="#226f30"/>
+
+    <path d="M214 402 C285 444 514 444 586 402" fill="none" stroke="#1f6b2c" stroke-width="14" stroke-linecap="round"/>
+    <path d="M257 423 C323 492 486 492 548 423 C514 548 288 548 257 423Z" fill="#ffeec2" stroke="#1f6b2c" stroke-width="10" stroke-linejoin="round"/>
+
+    <path d="M244 440 C295 508 500 514 574 450 C571 535 543 610 481 647 C431 677 347 673 298 637 C242 596 229 516 244 440Z" fill="#d7ee91" stroke="#1f6b2c" stroke-width="12" stroke-linejoin="round"/>
+
+    <path d="M293 493 C342 532 470 538 530 501 C523 558 495 602 445 620 C397 638 333 626 304 587 C286 562 284 525 293 493Z" fill="#b9df79"/>
+
+    <path d="M282 424 C330 468 478 472 534 431" fill="none" stroke="#6aa146" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+    <path d="M308 505 C360 535 456 539 506 512" fill="none" stroke="#7db956" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+
+    <path d="M328 438 L344 480 L365 439" fill="#f7ffe9" stroke="#1f6b2c" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M437 440 L459 482 L475 438" fill="#f7ffe9" stroke="#1f6b2c" stroke-width="5" stroke-linejoin="round"/>
+
+    <path d="M273 405 C320 382 480 384 529 409" fill="none" stroke="#174d23" stroke-width="8" stroke-linecap="round" opacity="0.65"/>
+    <path d="M297 630 C350 678 458 679 509 634" fill="none" stroke="#1f6b2c" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+
+    <circle cx="184" cy="352" r="12" fill="#2e913a" opacity="0.55"/>
+    <circle cx="615" cy="352" r="12" fill="#2e913a" opacity="0.55"/>
+    <circle cx="198" cy="392" r="8" fill="#2e913a" opacity="0.45"/>
+    <circle cx="600" cy="392" r="8" fill="#2e913a" opacity="0.45"/>
+    <circle cx="342" cy="230" r="9" fill="#2e913a" opacity="0.4"/>
+    <circle cx="458" cy="230" r="9" fill="#2e913a" opacity="0.4"/>
+  </g>
+</svg>

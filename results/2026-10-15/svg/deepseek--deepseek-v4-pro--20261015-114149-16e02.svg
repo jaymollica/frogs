@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#e0f7fa" />
+      <stop offset="100%" stop-color="#b2dfdb" />
+    </radialGradient>
+    
+    <!-- Body Gradient -->
+    <radialGradient id="bodyGrad" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4caf50" />
+      <stop offset="70%" stop-color="#388e3c" />
+      <stop offset="100%" stop-color="#1b5e20" />
+    </radialGradient>
+
+    <!-- Head Gradient -->
+    <radialGradient id="headGrad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#66bb6a" />
+      <stop offset="60%" stop-color="#43a047" />
+      <stop offset="100%" stop-color="#2e7d32" />
+    </radialGradient>
+
+    <!-- Upper Jaw Gradient -->
+    <linearGradient id="upperJawGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81c784" />
+      <stop offset="100%" stop-color="#388e3c" />
+    </linearGradient>
+
+    <!-- Protruding Lower Jaw Gradient -->
+    <linearGradient id="lowerJawGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#aed581" />
+      <stop offset="40%" stop-color="#81c784" />
+      <stop offset="100%" stop-color="#2e7d32" />
+    </linearGradient>
+
+    <!-- Eye Gradient -->
+    <radialGradient id="eyeGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffee58" />
+      <stop offset="60%" stop-color="#f9a825" />
+      <stop offset="100%" stop-color="#f57f17" />
+    </radialGradient>
+
+    <!-- Eye Socket Shadow -->
+    <radialGradient id="socketGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1b5e20" />
+      <stop offset="100%" stop-color="#2e7d32" />
+    </radialGradient>
+
+    <!-- Flipper Gradient -->
+    <linearGradient id="flipperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66bb6a" />
+      <stop offset="100%" stop-color="#1b5e20" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGrad)" />
+  <ellipse cx="250" cy="400" rx="180" ry="60" fill="#004d40" opacity="0.1" />
+  <ellipse cx="250" cy="400" rx="120" ry="40" fill="#004d40" opacity="0.15" />
+
+  <!-- Hind Legs (Thighs) -->
+  <ellipse cx="130" cy="320" rx="60" ry="70" transform="rotate(35 130 320)" fill="url(#bodyGrad)" />
+  <ellipse cx="370" cy="320" rx="60" ry="70" transform="rotate(-35 370 320)" fill="url(#bodyGrad)" />
+
+  <!-- Hind Legs (Flippers/Webbed Feet) -->
+  <path d="M 80 350 L 40 390 Q 40 410 60 420 Q 80 420 90 400 L 110 430 Q 130 430 140 410 Q 160 410 160 390 L 120 350 Z" fill="url(#flipperGrad)" />
+  <path d="M 420 350 L 460 390 Q 460 410 440 420 Q 420 420 410 400 L 390 430 Q 370 430 360 410 Q 340 410 340 390 L 380 350 Z" fill="url(#flipperGrad)" />
+
+  <!-- Front Legs (Forearms) -->
+  <path d="M 160 280 C 130 320, 100 350, 90 380" stroke="url(#bodyGrad)" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 340 280 C 370 320, 400 350, 410 380" stroke="url(#bodyGrad)" stroke-width="25" stroke-linecap="round" fill="none" />
+
+  <!-- Front Legs (Hands/Fingers) -->
+  <!-- Left Hand -->
+  <path d="M 90 380 L 70 395 M 90 380 L 80 405 M 90 380 L 95 410 M 90 380 L 110 405" stroke="#aed581" stroke-width="6" stroke-linecap="round" fill="none" />
+  <circle cx="70" cy="395" r="4" fill="#e8f5e9" />
+  <circle cx="80" cy="405" r="4" fill="#e8f5e9" />
+  <circle cx="95" cy="410" r="4" fill="#e8f5e9" />
+  <circle cx="110" cy="405" r="4" fill="#e8f5e9" />
+  
+  <!-- Right Hand -->
+  <path d="M 410 380 L 430 395 M 410 380 L 420 405 M 410 380 L 405 410 M 410 380 L 390 405" stroke="#aed581" stroke-width="6" stroke-linecap="round" fill="none" />
+  <circle cx="430" cy="395" r="4" fill="#e8f5e9" />
+  <circle cx="420" cy="405" r="4" fill="#e8f5e9" />
+  <circle cx="405" cy="410" r="4" fill="#e8f5e9" />
+  <circle cx="390" cy="405" r="4" fill="#e8f5e9" />
+
+  <!-- Body -->
+  <ellipse cx="250" cy="300" rx="110" ry="100" fill="url(#bodyGrad)" />
+  
+  <!-- Belly -->
+  <ellipse cx="250" cy="310" rx="80" ry="70" fill="#c8e6c9" opacity="0.7" />
+
+  <!-- Dark Belly Pattern (Spots) -->
+  <circle cx="210" cy="280" r="10" fill="#1b5e20" opacity="0.3" />
+  <circle cx="230" cy="300" r="15" fill="#1b5e20" opacity="0.3" />
+  <circle cx="280" cy="270" r="8" fill="#1b5e20" opacity="0.3" />
+  <circle cx="270" cy="300" r="12" fill="#1b5e20" opacity="0.3" />
+
+  <!-- Head Base & Upper Jaw Area -->
+  <path d="M 140 140 Q 250 90 360 140 C 380 170, 380 190, 360 190 Q 250 220 140 190 C 120 190, 120 170, 140 140 Z" fill="url(#upperJawGrad)" />
+  
+  <!-- Nostrils -->
+  <ellipse cx="215" cy="175" rx="5" ry="3" fill="#1b5e20" />
+  <ellipse cx="285" cy="175" rx="5" ry="3" fill="#1b5e20" />
+
+  <!-- Eye Sockets -->
+  <circle cx="180" cy="145" r="40" fill="url(#socketGrad)" />
+  <circle cx="320" cy="145" r="40" fill="url(#socketGrad)" />
+
+  <!-- Eyeballs -->
+  <circle cx="180" cy="145" r="30" fill="url(#eyeGrad)" />
+  <circle cx="320" cy="145" r="30" fill="url(#eyeGrad)" />
+
+  <!-- Pupils (Horizontal Ellipses) -->
+  <ellipse cx="180" cy="145" rx="16" ry="6" fill="#1a1a1a" />
+  <ellipse cx="320" cy="145" rx="16" ry="6" fill="#1a1a1a" />
+
+  <!-- Eye Highlights -->
+  <circle cx="170" cy="138" r="6" fill="#ffffff" />
+  <circle cx="310" cy="138" r="6" fill="#ffffff" />
+  <circle cx="185" cy="148" r="3" fill="#ffffff" opacity="0.6" />
+  <circle cx="325" cy="148" r="3" fill="#ffffff" opacity="0.6" />
+
+  <!-- Heavy Eyelids for Expression -->
+  <path d="M 145 145 Q 180 120 215 145" stroke="#2e7d32" stroke-width="6" fill="none" stroke-linecap="round" />
+  <path d="M 285 145 Q 320 120 355 145" stroke="#2e7d32" stroke-width="6" fill="none" stroke-linecap="round" />
+
+  <!-- Head Spots / Freckles -->
+  <circle cx="200" cy="130" r="6" fill="#1b5e20" opacity="0.6" />
+  <circle cx="230" cy="145" r="4" fill="#1b5e20" opacity="0.6" />
+  <circle cx="300" cy="135" r="7" fill="#1b5e20" opacity="0.6" />
+  <circle cx="270" cy="150" r="5" fill="#1b5e20" opacity="0.6" />
+  <circle cx="160" cy="160" r="4" fill="#1b5e20" opacity="0.6" />
+  <circle cx="340" cy="160" r="4" fill="#1b5e20" opacity="0.6" />
+
+  <!-- Crease / Mouth Line (Separating Upper and Lower Jaw) -->
+  <path d="M 130 190 Q 250 225 370 190" stroke="#1b5e20" stroke-width="8" fill="none" stroke-linecap="round" />
+
+  <!-- Mouth Corners (Dark, stretching from the underbite) -->
+  <path d="M 140 192 Q 180 210 130 205 Z" fill="#111" />
+  <path d="M 360 192 Q 320 210 370 205 Z" fill="#111" />
+
+  <!-- THE HEAVILY PROTRUDING LOWER JAW (UNDERBITE) -->
+  <path d="M 100 200 C 50 340, 150 440, 250 460 C 350 440, 450 340, 400 200 Q 250 260 100 200 Z" fill="url(#lowerJawGrad)" />
+  
+  <!-- 3D Shadow on Lower Jaw (To sell the protrusion) -->
+  <path d="M 100 200 C 50 340, 150 440, 250 460 C 350 440, 450 340, 400 200 Q 250 330 100 200 Z" fill="#000000" opacity="0.25" />
+
+  <!-- Lower Jaw Ridge Highlight (Where teeth would be) -->
+  <path d="M 145 350 Q 250 385 355 350" stroke="#e6ee9c" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Lower Jaw Wrinkles / Skin Folds (Emphasizing the extreme underbite stretch) -->
+  <path d="M 170 380 Q 250 400 330 380" stroke="#1b5e20" stroke-width="4" fill="none" opacity="0.5" />
+  <path d="M 190 410 Q 250 425 310 410" stroke="#1b5e20" stroke-width="3" fill="none" opacity="0.4" />
+
+  <!-- Chin Dimple / Detail -->
+  <circle cx="250" cy="435" r="12" fill="#1b5e20" opacity="0.5" />
+  <circle cx="250" cy="435" r="8" fill="#81c784" opacity="0.6" />
+
+  <!-- Additional Green Highlights for Sliminess -->
+  <ellipse cx="200" cy="260" rx="30" ry="15" fill="#aed581" opacity="0.3" transform="rotate(-15 200 260)" />
+  <ellipse cx="300" cy="260" rx="30" ry="15" fill="#aed581" opacity="0.3" transform="rotate(15 300 260)" />
+</svg>

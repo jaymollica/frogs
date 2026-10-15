@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+<rect width="500" height="400" rx="24" fill="#E0F2F1"/>
+<ellipse cx="250" cy="345" rx="205" ry="32" fill="#81C784" stroke="#2E7D32" stroke-width="4"/>
+<path d="M250 345 L430 335" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="390" cy="325" rx="28" ry="10" fill="#66BB6A" stroke="#2E7D32" stroke-width="3"/>
+<circle cx="105" cy="90" r="4" fill="#B2DFDB"/>
+<circle cx="445" cy="80" r="5" fill="#B2DFDB"/>
+<circle cx="420" cy="130" r="3" fill="#B2DFDB"/>
+<!-- back foot -->
+<ellipse cx="115" cy="333" rx="62" ry="17" fill="#4CAF50" stroke="#1B5E20" stroke-width="4"/>
+<path d="M65 333 L55 345 M95 333 L88 347 M125 332 L122 346" stroke="#1B5E20" stroke-width="3" stroke-linecap="round"/>
+<!-- hind thigh -->
+<ellipse cx="135" cy="270" rx="68" ry="58" fill="#66BB6A" stroke="#1B5E20" stroke-width="5"/>
+<ellipse cx="118" cy="262" rx="32" ry="26" fill="#A5D6A7" opacity="0.7"/>
+<!-- body -->
+<ellipse cx="225" cy="235" rx="122" ry="112" fill="#66BB6A" stroke="#1B5E20" stroke-width="5"/>
+<ellipse cx="250" cy="275" rx="72" ry="62" fill="#C8E6C9" opacity="0.85"/>
+<!-- front leg -->
+<path d="M275 250 Q285 300 255 332 L212 332 Q242 310 238 250 Z" fill="#66BB6A" stroke="#1B5E20" stroke-width="5" stroke-linejoin="round"/>
+<ellipse cx="228" cy="335" rx="46" ry="13" fill="#66BB6A" stroke="#1B5E20" stroke-width="4"/>
+<path d="M188 335 L179 345 M210 336 L203 347 M232 335 L230 347" stroke="#1B5E20" stroke-width="3" stroke-linecap="round"/>
+<!-- head base -->
+<ellipse cx="305" cy="155" rx="108" ry="92" fill="#66BB6A" stroke="#1B5E20" stroke-width="5"/>
+<!-- upper jaw - short, receded -->
+<path d="M215 155 Q315 108 382 156 Q397 179 376 196 Q310 212 220 197 Z" fill="#66BB6A" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="363" cy="168" r="5" fill="#1B5E20"/>
+<circle cx="200" cy="200" r="6" fill="#388E3C" opacity="0.5"/>
+<circle cx="250" cy="135" r="4" fill="#388E3C" opacity="0.5"/>
+<!-- massive prognathic lower jaw - Habsburg jaw -->
+<path d="M225 197 Q310 212 376 196 Q416 196 423 228 Q428 264 385 287 Q315 315 240 288 Q200 255 225 197 Z" fill="#8ED081" stroke="#1B5E20" stroke-width="5" stroke-linejoin="round"/>
+<!-- thick everted Habsburg lower lip -->
+<path d="M376 196 Q416 196 423 228 Q425 248 400 254 Q376 258 367 236 Q363 212 376 196 Z" fill="#E8A090" stroke="#7B2D26" stroke-width="4" stroke-linejoin="round"/>
+<path d="M382 208 Q407 210 410 230" fill="none" stroke="#7B2D26" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+<!-- mouth line - underbite cleft -->
+<path d="M225 197 Q300 214 376 196" fill="none" stroke="#1B5E20" stroke-width="4" stroke-linecap="round"/>
+<!-- chin crease -->
+<path d="M260 285 Q300 295 340 285" fill="none" stroke="#1B5E20" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+<!-- eye mound -->
+<circle cx="262" cy="78" r="44" fill="#66BB6A" stroke="#1B5E20" stroke-width="5"/>
+<circle cx="262" cy="78" r="27" fill="#FFEB3B" stroke="#1B5E20" stroke-width="4"/>
+<ellipse cx="262" cy="78" rx="15" ry="7.5" fill="#212121"/>
+<circle cx="270" cy="70" r="5.5" fill="white"/>
+<path d="M230 62 Q262 40 294 62" fill="none" stroke="#1B5E20" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+<!-- tiny Habsburg crown -->
+<g transform="rotate(-12 195 55)">
+<path d="M150 70 L154 32 L175 52 L198 28 L221 52 L242 32 L246 70 Z" fill="#FFC107" stroke="#5D4037" stroke-width="3" stroke-linejoin="round"/>
+<rect x="150" y="70" width="96" height="14" rx="3" fill="#FFC107" stroke="#5D4037" stroke-width="3"/>
+<circle cx="154" cy="32" r="5" fill="#E53935" stroke="#5D4037" stroke-width="2"/>
+<circle cx="198" cy="28" r="6" fill="#E53935" stroke="#5D4037" stroke-width="2"/>
+<circle cx="242" cy="32" r="5" fill="#E53935" stroke="#5D4037" stroke-width="2"/>
+<circle cx="198" cy="77" r="5" fill="#1E88E5" stroke="#5D4037" stroke-width="2"/>
+</g>
+</svg>

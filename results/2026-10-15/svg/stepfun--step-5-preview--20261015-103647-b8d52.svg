@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="frogSkin" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#A5D66A"/>
+      <stop offset="100%" stop-color="#33691E"/>
+    </radialGradient>
+    <linearGradient id="jawGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9CCC65"/>
+      <stop offset="100%" stop-color="#558B2F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="285" rx="135" ry="95" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5"/>
+
+  <!-- Back legs -->
+  <path d="M75,300 Q40,320 55,355 Q85,360 105,330 Z" fill="#689F38" stroke="#1B5E20" stroke-width="4"/>
+  <path d="M325,300 Q360,320 345,355 Q315,360 295,330 Z" fill="#689F38" stroke="#1B5E20" stroke-width="4"/>
+
+  <!-- Head / upper jaw -->
+  <ellipse cx="200" cy="225" rx="115" ry="80" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5"/>
+
+  <!-- Eye bumps -->
+  <circle cx="135" cy="165" r="48" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5"/>
+  <circle cx="265" cy="165" r="48" fill="url(#frogSkin)" stroke="#1B5E20" stroke-width="5"/>
+
+  <!-- Eyes -->
+  <circle cx="135" cy="165" r="30" fill="#111"/>
+  <circle cx="265" cy="165" r="30" fill="#111"/>
+  <circle cx="126" cy="156" r="10" fill="#fff"/>
+  <circle cx="256" cy="156" r="10" fill="#fff"/>
+
+  <!-- Nostrils -->
+  <ellipse cx="175" cy="205" rx="7" ry="10" fill="#1B5E20"/>
+  <ellipse cx="225" cy="205" rx="7" ry="10" fill="#1B5E20"/>
+
+  <!-- Upper lip -->
+  <path d="M100,255 Q200,285 300,255" fill="none" stroke="#1B5E20" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Habsburg jaw: massive protruding lower jaw -->
+  <path d="M90,265
+           C90,265 95,355 140,375
+           C170,390 230,390 260,375
+           C305,355 310,265 310,265
+           C310,245 260,235 200,235
+           C140,235 90,245 90,265 Z"
+        fill="url(#jawGrad)" stroke="#1B5E20" stroke-width="5"/>
+
+  <!-- Jaw cleft for prognathism -->
+  <path d="M200,360 Q185,375 200,385 Q215,375 200,360" fill="#33691E" opacity="0.35"/>
+
+  <!-- Lower teeth jutting up -->
+  <path d="M130,262 l11,26 l11,-26 Z" fill="#FFF"/>
+  <path d="M165,268 l11,28 l11,-28 Z" fill="#FFF"/>
+  <path d="M200,270 l11,30 l11,-30 Z" fill="#FFF"/>
+  <path d="M235,268 l11,28 l11,-28 Z" fill="#FFF"/>
+  <path d="M270,262 l11,26 l11,-26 Z" fill="#FFF"/>
+
+  <!-- Skin spots -->
+  <circle cx="150" cy="300" r="12" fill="#33691E" opacity="0.4"/>
+  <circle cx="255" cy="305" r="15" fill="#33691E" opacity="0.4"/>
+  <circle cx="205" cy="320" r="9" fill="#33691E" opacity="0.4"/>
+</svg>

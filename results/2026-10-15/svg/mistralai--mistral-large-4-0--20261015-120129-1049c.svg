@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480">
+  <title>Frog with a heavily protruding lower jaw</title>
+  <circle cx="240" cy="240" r="222" fill="#e9f6e3"/>
+  <ellipse cx="112" cy="418" rx="56" ry="40" fill="#58a82e" stroke="#2e6b1c" stroke-width="6"/>
+  <ellipse cx="378" cy="448" rx="52" ry="27" fill="#58a82e" stroke="#2e6b1c" stroke-width="6"/>
+  <path d="M245 285 C310 278 360 285 392 308 C432 336 442 382 408 412 C372 444 292 448 238 430 C185 412 148 378 138 338 C130 308 158 292 200 288 C215 286 230 286 245 285 Z" fill="#58a82e" stroke="#2e6b1c" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="285" cy="392" rx="85" ry="42" fill="#b9e48f"/>
+  <path d="M118 252 C108 176 168 122 246 124 C322 126 360 172 365 224 C368 252 358 272 340 281 C300 296 220 300 170 288 C140 280 124 268 118 252 Z" fill="#6cc23a" stroke="#2e6b1c" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="152" cy="192" r="9" fill="#4d9a27"/>
+  <circle cx="272" cy="152" r="7" fill="#4d9a27"/>
+  <circle cx="205" cy="118" r="52" fill="#6cc23a" stroke="#2e6b1c" stroke-width="6"/>
+  <circle cx="215" cy="110" r="33" fill="#ffffff" stroke="#2e6b1c" stroke-width="5"/>
+  <circle cx="227" cy="106" r="14" fill="#26321f"/>
+  <circle cx="232" cy="100" r="5.5" fill="#ffffff"/>
+  <ellipse cx="334" cy="204" rx="5" ry="8" fill="#2e6b1c" transform="rotate(18 334 204)"/>
+  <ellipse cx="186" cy="248" rx="25" ry="13" fill="#ff9d9d" opacity="0.55" transform="rotate(-12 186 248)"/>
+  <path d="M148 291 C210 301 290 297 350 285" fill="none" stroke="#2e6b1c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M288 290 L298 271 L309 289 Z" fill="#ffffff" stroke="#2e6b1c" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M316 289 L327 267 L338 288 Z" fill="#ffffff" stroke="#2e6b1c" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M344 287 L354 266 L365 285 Z" fill="#ffffff" stroke="#2e6b1c" stroke-width="3" stroke-linejoin="round"/>
+</svg>

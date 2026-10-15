@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#dff0d8"/>
+  <!-- ground -->
+  <ellipse cx="200" cy="360" rx="150" ry="22" fill="#9bc28a"/>
+  <!-- back legs -->
+  <path d="M95 300 Q40 290 45 345 Q80 360 120 345 Z" fill="#4f9a3a" stroke="#2d5e22" stroke-width="3"/>
+  <path d="M305 300 Q360 290 355 345 Q320 360 280 345 Z" fill="#4f9a3a" stroke="#2d5e22" stroke-width="3"/>
+  <!-- body -->
+  <ellipse cx="200" cy="290" rx="105" ry="70" fill="#5fb347" stroke="#2d5e22" stroke-width="3"/>
+  <ellipse cx="200" cy="315" rx="65" ry="40" fill="#cfe8a9"/>
+  <!-- front feet -->
+  <ellipse cx="150" cy="352" rx="28" ry="10" fill="#4f9a3a" stroke="#2d5e22" stroke-width="3"/>
+  <ellipse cx="250" cy="352" rx="28" ry="10" fill="#4f9a3a" stroke="#2d5e22" stroke-width="3"/>
+  <!-- head (long, narrow) -->
+  <path d="M110 190 Q110 120 200 120 Q290 120 290 190 Q290 230 270 240 L130 240 Q110 230 110 190 Z" fill="#5fb347" stroke="#2d5e22" stroke-width="3"/>
+  <!-- eye bumps -->
+  <circle cx="145" cy="125" r="38" fill="#5fb347" stroke="#2d5e22" stroke-width="3"/>
+  <circle cx="255" cy="125" r="38" fill="#5fb347" stroke="#2d5e22" stroke-width="3"/>
+  <circle cx="145" cy="125" r="26" fill="#fffbe6" stroke="#2d5e22" stroke-width="2"/>
+  <circle cx="255" cy="125" r="26" fill="#fffbe6" stroke="#2d5e22" stroke-width="2"/>
+  <!-- heavy lidded -->
+  <path d="M119 125 A26 26 0 0 1 171 125 Z" fill="#4f9a3a" stroke="#2d5e22" stroke-width="2"/>
+  <path d="M229 125 A26 26 0 0 1 281 125 Z" fill="#4f9a3a" stroke="#2d5e22" stroke-width="2"/>
+  <circle cx="152" cy="136" r="9" fill="#222"/>
+  <circle cx="248" cy="136" r="9" fill="#222"/>
+  <circle cx="155" cy="133" r="3" fill="#fff"/>
+  <circle cx="251" cy="133" r="3" fill="#fff"/>
+  <!-- nostrils -->
+  <circle cx="186" cy="175" r="3" fill="#2d5e22"/>
+  <circle cx="214" cy="175" r="3" fill="#2d5e22"/>
+  <!-- Habsburg jaw: long protruding lower jaw, underbite -->
+  <path d="M125 225 Q200 240 275 225 Q285 270 255 310 Q235 345 200 348 Q160 348 140 315 Q115 270 125 225 Z" fill="#6cc152" stroke="#2d5e22" stroke-width="3"/>
+  <!-- chin bulge -->
+  <path d="M150 315 Q200 360 250 315" fill="none" stroke="#2d5e22" stroke-width="2" opacity="0.5"/>
+  <!-- upper lip recessed -->
+  <path d="M130 225 Q200 215 270 225" fill="none" stroke="#2d5e22" stroke-width="3"/>
+  <!-- mouth line with underbite -->
+  <path d="M128 232 Q200 250 272 232" fill="none" stroke="#2d5e22" stroke-width="3"/>
+  <!-- lower teeth sticking up over lip -->
+  <path d="M170 238 L175 226 L182 240 Z M195 241 L200 228 L206 241 Z M220 240 L226 227 L231 238 Z" fill="#fffbe6" stroke="#2d5e22" stroke-width="1.5"/>
+  <!-- cheek blush -->
+  <circle cx="130" cy="205" r="11" fill="#e88a8a" opacity="0.6"/>
+  <circle cx="270" cy="205" r="11" fill="#e88a8a" opacity="0.6"/>
+  <!-- tiny crown -->
+  <path d="M165 92 L170 65 L185 82 L200 58 L215 82 L230 65 L235 92 Z" fill="#f4c430" stroke="#a67c00" stroke-width="2.5"/>
+  <circle cx="200" cy="58" r="4" fill="#c0392b"/>
+</svg>

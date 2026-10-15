@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" width="400" height="350">
+  <rect width="400" height="350" fill="#d9f0ff"/>
+  <ellipse cx="200" cy="320" rx="150" ry="20" fill="#6aa84f" opacity="0.6"/>
+  <!-- back legs -->
+  <ellipse cx="110" cy="270" rx="50" ry="35" fill="#4c9a2a" stroke="#2d5e16" stroke-width="3"/>
+  <ellipse cx="290" cy="270" rx="50" ry="35" fill="#4c9a2a" stroke="#2d5e16" stroke-width="3"/>
+  <path d="M70 295 L40 312 L75 308 L60 322 L95 310 L100 300 Z" fill="#5db53a" stroke="#2d5e16" stroke-width="3"/>
+  <path d="M330 295 L360 312 L325 308 L340 322 L305 310 L300 300 Z" fill="#5db53a" stroke="#2d5e16" stroke-width="3"/>
+  <!-- body -->
+  <ellipse cx="200" cy="245" rx="105" ry="75" fill="#5db53a" stroke="#2d5e16" stroke-width="3"/>
+  <ellipse cx="200" cy="265" rx="65" ry="50" fill="#d8f0a0"/>
+  <!-- front legs -->
+  <path d="M130 280 L125 318 L105 322 L122 328 L135 324 L150 328 L158 315 L160 280 Z" fill="#5db53a" stroke="#2d5e16" stroke-width="3"/>
+  <path d="M270 280 L275 318 L295 322 L278 328 L265 324 L250 328 L242 315 L240 280 Z" fill="#5db53a" stroke="#2d5e16" stroke-width="3"/>
+  <!-- head -->
+  <path d="M95 175 Q100 100 200 100 Q300 100 305 175 Q305 205 270 212 L130 212 Q95 205 95 175 Z" fill="#6cc644" stroke="#2d5e16" stroke-width="3"/>
+  <!-- eyes -->
+  <circle cx="140" cy="100" r="33" fill="#6cc644" stroke="#2d5e16" stroke-width="3"/>
+  <circle cx="260" cy="100" r="33" fill="#6cc644" stroke="#2d5e16" stroke-width="3"/>
+  <circle cx="140" cy="100" r="22" fill="#fff8c0" stroke="#2d5e16" stroke-width="2"/>
+  <circle cx="260" cy="100" r="22" fill="#fff8c0" stroke="#2d5e16" stroke-width="2"/>
+  <ellipse cx="145" cy="103" rx="8" ry="14" fill="#111"/>
+  <ellipse cx="255" cy="103" rx="8" ry="14" fill="#111"/>
+  <circle cx="148" cy="97" r="3" fill="#fff"/>
+  <circle cx="258" cy="97" r="3" fill="#fff"/>
+  <!-- brows -->
+  <path d="M115 85 Q140 65 165 80" stroke="#2d5e16" stroke-width="4" fill="none"/>
+  <path d="M235 80 Q260 65 285 85" stroke="#2d5e16" stroke-width="4" fill="none"/>
+  <!-- nostrils -->
+  <circle cx="188" cy="150" r="3" fill="#2d5e16"/>
+  <circle cx="212" cy="150" r="3" fill="#2d5e16"/>
+  <!-- upper lip (recessed) -->
+  <path d="M120 185 Q200 200 280 185" stroke="#2d5e16" stroke-width="3" fill="none"/>
+  <!-- protruding lower jaw -->
+  <path d="M112 188 Q200 205 288 188 Q310 200 305 222 Q300 252 250 255 L150 255 Q100 252 95 222 Q90 200 112 188 Z" fill="#6cc644" stroke="#2d5e16" stroke-width="3"/>
+  <path d="M125 200 Q200 215 275 200" stroke="#2d5e16" stroke-width="2" fill="none"/>
+  <!-- lower teeth/underbite -->
+  <path d="M140 200 L146 188 L152 202 M170 205 L176 192 L182 206 M218 206 L224 192 L230 205 M248 202 L254 189 L260 200" stroke="#fff" stroke-width="3" fill="#fff"/>
+  <!-- chin -->
+  <path d="M140 240 Q200 258 260 240" stroke="#4c9a2a" stroke-width="3" fill="none"/>
+  <!-- cheeks -->
+  <circle cx="115" cy="190" r="10" fill="#ff9e9e" opacity="0.5"/>
+  <circle cx="285" cy="190" r="10" fill="#ff9e9e" opacity="0.5"/>
+  <!-- spots -->
+  <circle cx="160" cy="230" r="5" fill="#3f8a22" opacity="0.7"/>
+  <circle cx="235" cy="228" r="6" fill="#3f8a22" opacity="0.7"/>
+  <circle cx="130" cy="250" r="7" fill="#3f8a22" opacity="0.7"/>
+  <circle cx="275" cy="250" r="7" fill="#3f8a22" opacity="0.7"/>
+</svg>

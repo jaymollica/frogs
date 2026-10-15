@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Green frog with mandibular prognathism">
+  <defs>
+    <linearGradient id="frogSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84c952"/>
+      <stop offset="1" stop-color="#4a7d28"/>
+    </linearGradient>
+    <linearGradient id="jawSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3ef93"/>
+      <stop offset="1" stop-color="#aac445"/>
+    </linearGradient>
+    <radialGradient id="eyeGold" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#fff8c4"/>
+      <stop offset="0.6" stop-color="#f4cf3f"/>
+      <stop offset="1" stop-color="#b58a25"/>
+    </radialGradient>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M100 350 C100 275 155 215 245 210 C330 205 400 235 418 300 C448 318 480 338 478 375 C476 425 445 455 365 455 C295 455 245 436 215 410 C190 430 150 432 122 414 C106 402 100 378 100 350 Z" fill="url(#frogSkin)" stroke="#2b5b1d" stroke-width="6"/>
+    <ellipse cx="175" cy="292" rx="18" ry="12" fill="#376f22" opacity="0.7"/>
+    <ellipse cx="240" cy="255" rx="14" ry="10" fill="#376f22" opacity="0.6"/>
+    <ellipse cx="312" cy="245" rx="12" ry="9" fill="#376f22" opacity="0.55"/>
+    <ellipse cx="360" cy="264" rx="16" ry="10" fill="#376f22" opacity="0.6"/>
+    <ellipse cx="150" cy="342" rx="14" ry="10" fill="#376f22" opacity="0.55"/>
+    <path d="M215 338 C250 310 320 294 390 301 C435 307 470 325 478 360 C478 412 445 450 365 450 C295 450 245 432 217 408 C203 388 205 358 215 338 Z" fill="url(#jawSkin)" stroke="#3d6920" stroke-width="6"/>
+    <path d="M235 405 C285 433 355 428 415 398" fill="none" stroke="#f2f8bd" stroke-width="7" opacity="0.35"/>
+    <ellipse cx="398" cy="252" rx="8" ry="13" transform="rotate(-25 398 252)" fill="#1f4714" opacity="0.85"/>
+    <ellipse cx="248" cy="198" rx="58" ry="56" fill="url(#frogSkin)" stroke="#2b5b1d" stroke-width="6"/>
+    <ellipse cx="360" cy="190" rx="54" ry="52" fill="url(#frogSkin)" stroke="#2b5b1d" stroke-width="6"/>
+    <circle cx="248" cy="198" r="36" fill="url(#eyeGold)" stroke="#8a6d23" stroke-width="3"/>
+    <circle cx="360" cy="190" r="34" fill="url(#eyeGold)" stroke="#8a6d23" stroke-width="3"/>
+    <ellipse cx="258" cy="188" rx="10" ry="17" fill="#151b10"/>
+    <ellipse cx="371" cy="181" rx="9" ry="16" fill="#151b10"/>
+    <circle cx="241" cy="187" r="7" fill="#ffffff" opacity="0.75"/>
+    <circle cx="353" cy="180" r="6" fill="#ffffff" opacity="0.75"/>
+  </g>
+</svg>

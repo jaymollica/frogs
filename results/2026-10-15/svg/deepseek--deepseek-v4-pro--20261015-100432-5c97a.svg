@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bodyGrad" cx="0.45" cy="0.4" r="0.65">
+      <stop offset="0%" stop-color="#8BC34A"/>
+      <stop offset="70%" stop-color="#7CB342"/>
+      <stop offset="100%" stop-color="#558B2F"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#C5E1A5"/>
+      <stop offset="100%" stop-color="#A5D6A7"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="0.4" cy="0.35" r="0.55">
+      <stop offset="0%" stop-color="#FFCC80"/>
+      <stop offset="60%" stop-color="#FB8C00"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="0.35" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#9CCC65"/>
+      <stop offset="100%" stop-color="#558B2F"/>
+    </radialGradient>
+    <linearGradient id="crownGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#E0F2F1"/>
+
+  <!-- Water pond background -->
+  <ellipse cx="260" cy="440" rx="230" ry="55" fill="#B2DFDB" opacity="0.6"/>
+
+  <!-- Lily pad -->
+  <ellipse cx="255" cy="405" rx="165" ry="40" fill="#388E3C"/>
+  <ellipse cx="255" cy="398" rx="158" ry="36" fill="#43A047"/>
+  <path d="M 130 398 L 255 380 L 380 398" stroke="#2E7D32" stroke-width="2" fill="none" opacity="0.7"/>
+  <!-- Lily pad notch -->
+  <path d="M 255 380 L 230 398" stroke="#2E7D32" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Back leg (behind body) -->
+  <path d="M 165 370
+           C 145 385, 130 405, 120 412
+           C 108 422, 100 418, 98 408
+           C 96 398, 105 385, 120 375"
+        fill="#6B9B37" stroke="#33691E" stroke-width="2"/>
+  <!-- Back foot toes -->
+  <ellipse cx="100" cy="406" rx="9" ry="6" fill="#7CB342" stroke="#33691E" stroke-width="1.5"/>
+  <ellipse cx="108" cy="415" rx="8" ry="6" fill="#7CB342" stroke="#33691E" stroke-width="1.5"/>
+  <ellipse cx="118" cy="420" rx="7" ry="5" fill="#7CB342" stroke="#33691E" stroke-width="1.5"/>
+
+  <!-- Main frog body silhouette with protruding Habsburg jaw -->
+  <path d="
+    M 135 390
+    C 128 358, 132 328, 148 303
+    C 160 283, 178 263, 200 250
+    C 220 238, 242 225, 262 215
+    C 272 210, 282 202, 290 197
+    C 294 173, 298 158, 307 147
+    C 316 136, 328 133, 338 140
+    C 348 147, 352 160, 354 176
+    C 356 192, 356 202, 360 210
+    C 366 222, 370 230, 374 234
+    C 378 238, 380 242, 384 245
+    C 394 250, 407 258, 420 264
+    C 434 271, 444 278, 449 287
+    C 454 296, 450 306, 439 312
+    C 428 319, 413 328, 398 339
+    C 383 351, 366 365, 348 380
+    C 328 397, 296 409, 263 416
+    C 230 423, 186 419, 157 411
+    C 144 407, 137 399, 135 390
+    Z
+  " fill="url(#bodyGrad)" stroke="#33691E" stroke-width="2.5"/>
+
+  <!-- Belly highlight -->
+  <ellipse cx="275" cy="385" rx="60" ry="28" fill="url(#bellyGrad)" opacity="0.5"/>
+
+  <!-- Upper mouth line (from upper lip going back) -->
+  <path d="M 374 234
+           C 365 238, 350 244, 335 248
+           C 315 253, 295 255, 278 254"
+        stroke="#33691E" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Lower mouth line (from lower jaw tip going back) -->
+  <path d="M 445 283
+           C 430 282, 410 278, 385 272
+           C 355 264, 325 258, 295 254
+           C 285 253, 280 253, 278 254"
+        stroke="#33691E" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth interior / gap showing underbite -->
+  <path d="M 374 234
+           C 390 238, 410 248, 430 260
+           C 440 267, 444 273, 445 280
+           C 438 278, 430 274, 420 270
+           C 400 262, 380 250, 374 238
+           Z"
+        fill="#5D4037" opacity="0.7"/>
+
+  <!-- Crease defining the chin / jaw separation -->
+  <path d="M 384 245 C 392 248, 395 250, 396 253"
+        stroke="#33691E" stroke-width="1.5" fill="none" opacity="0.8"/>
+
+  <!-- Chin highlight (emphasizing the protruding jaw) -->
+  <path d="M 420 264 C 432 270, 443 276, 449 285 C 451 289, 450 293, 447 296"
+        stroke="#9CCC65" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Shadow under lower jaw -->
+  <path d="M 439 312 C 428 319, 413 328, 398 339 C 390 345, 382 352, 374 361"
+        stroke="#33691E" stroke-width="3" fill="none" opacity="0.3"/>
+
+  <!-- Eye -->
+  <circle cx="318" cy="160" r="30" fill="#FFCC80" stroke="#BF360C" stroke-width="2"/>
+  <circle cx="318" cy="160" r="24" fill="url(#eyeGrad)" stroke="#E65100" stroke-width="1.5"/>
+  <circle cx="318" cy="160" r="13" fill="#1B0E00" stroke="#000000" stroke-width="0.5"/>
+  <circle cx="312" cy="154" r="5" fill="white" opacity="0.85"/>
+  <circle cx="325" cy="165" r="2.5" fill="white" opacity="0.5"/>
+
+  <!-- Eyebrow ridge (subtle, giving a slightly haughty/regal expression) -->
+  <path d="M 290 150 C 300 142, 315 138, 330 142 C 340 145, 345 150, 348 156"
+        stroke="#558B2F" stroke-width="2.5" fill="none" opacity="0.5"/>
+
+  <!-- Nostril -->
+  <ellipse cx="365" cy="212" rx="3.5" ry="2.5" fill="#33691E"/>
+
+  <!-- Crown (Habsburg reference) -->
+  <path d="M 270 152 L 275 120 L 290 135 L 305 112 L 320 135 L 335 120 L 340 152 Z"
+        fill="url(#crownGrad)" stroke="#F57F17" stroke-width="1.5"/>
+  <circle cx="305" cy="128" r="4" fill="#C62828"/>
+  <circle cx="280" cy="133" r="3" fill="#1565C0"/>
+  <circle cx="330" cy="133" r="3" fill="#C62828"/>
+  <path d="M 270 152 L 340 152" stroke="#F57F17" stroke-width="2"/>
+  <!-- Crown base -->
+  <rect x="268" y="150" width="74" height="6" rx="2" fill="#FF8F00" stroke="#F57F17" stroke-width="1"/>
+
+  <!-- Front leg -->
+  <path d="M 335 375
+           C 340 392, 345 410, 350 425
+           C 353 435, 360 442, 370 440
+           C 380 438, 386 431, 383 420
+           C 380 408, 376 395, 372 382"
+        fill="#6B9B37" stroke="#33691E" stroke-width="2"/>
+  <!-- Front toes -->
+  <ellipse cx="353" cy="432" rx="6" ry="4" fill="#7CB342" stroke="#33691E" stroke-width="1.2"/>
+  <ellipse cx="364" cy="437" rx="6" ry="4" fill="#7CB342" stroke="#33691E" stroke-width="1.2"/>
+  <ellipse cx="375" cy="435" rx="6" ry="4" fill="#7CB342" stroke="#33691E" stroke-width="1.2"/>
+  <ellipse cx="383" cy="428" rx="5" ry="4" fill="#7CB342" stroke="#33691E" stroke-width="1.2"/>
+
+  <!-- Skin spots / texture -->
+  <circle cx="215" cy="300" r="9" fill="#558B2F" opacity="0.45"/>
+  <circle cx="245" cy="332" r="11" fill="#558B2F" opacity="0.4"/>
+  <circle cx="195" cy="350" r="7" fill="#558B2F" opacity="0.5"/>
+  <circle cx="270" cy="310" r="7" fill="#558B2F" opacity="0.35"/>
+  <circle cx="230" cy="270" r="6" fill="#558B2F" opacity="0.4"/>
+  <circle cx="160" cy="320" r="8" fill="#558B2F" opacity="0.35"/>
+  <circle cx="290" cy="270" r="5" fill="#558B2F" opacity="0.3"/>
+  <circle cx="310" cy="300" r="6" fill="#558B2F" opacity="0.3"/>
+
+  <!-- Subtle warts/bumps on jaw area -->
+  <circle cx="410" cy="260" r="3" fill="#558B2F" opacity="0.4"/>
+  <circle cx="425" cy="270" r="2.5" fill="#558B2F" opacity="0.4"/>
+  <circle cx="435" cy="278" r="2" fill="#558B2F" opacity="0.35"/>
+
+  <!-- Back leg thigh visible (part of body) -->
+  <path d="M 140 350 C 155 330, 175 320, 195 325 C 180 340, 165 355, 148 370"
+        fill="#6B9B37" stroke="#33691E" stroke-width="1.5" opacity="0.6"/>
+</svg>

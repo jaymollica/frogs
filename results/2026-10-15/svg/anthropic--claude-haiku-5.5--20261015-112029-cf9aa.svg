@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#e8f5e9"/>
+  <!-- Hind leg -->
+  <path d="M220 200 Q270 260 200 275 Q150 280 135 250" fill="none" stroke="#2e7d32" stroke-width="18" stroke-linecap="round"/>
+  <ellipse cx="130" cy="252" rx="22" ry="8" fill="#2e7d32"/>
+  <!-- Front leg -->
+  <path d="M120 200 Q95 230 80 255" fill="none" stroke="#388e3c" stroke-width="14" stroke-linecap="round"/>
+  <ellipse cx="72" cy="258" rx="14" ry="6" fill="#388e3c"/>
+  <!-- Body -->
+  <ellipse cx="170" cy="185" rx="105" ry="62" fill="#43a047"/>
+  <!-- Spots -->
+  <circle cx="140" cy="170" r="6" fill="#2e7d32"/>
+  <circle cx="180" cy="200" r="5" fill="#2e7d32"/>
+  <circle cx="205" cy="165" r="4" fill="#2e7d32"/>
+  <!-- Upper head -->
+  <path d="M130 150 Q150 90 220 95 Q265 100 270 128 L240 132 Q180 140 130 150 Z" fill="#66bb6a"/>
+  <!-- Eyes -->
+  <circle cx="200" cy="85" r="14" fill="#ffffff" stroke="#1b5e20" stroke-width="2"/>
+  <circle cx="202" cy="86" r="6" fill="#000000"/>
+  <circle cx="250" cy="90" r="12" fill="#ffffff" stroke="#1b5e20" stroke-width="2"/>
+  <circle cx="252" cy="91" r="5" fill="#000000"/>
+  <!-- Lower jaw (prognathic, protruding past upper jaw) -->
+  <path d="M130 150 Q190 152 240 140 L284 144 Q292 150 272 160 Q200 172 140 168 Z" fill="#81c784"/>
+  <!-- Mouth line -->
+  <path d="M135 150 Q190 148 268 132" fill="none" stroke="#1b5e20" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Lower teeth -->
+  <path d="M262 146 L266 156 L270 146 Z" fill="#ffffff"/>
+  <path d="M245 143 L249 153 L253 143 Z" fill="#ffffff"/>
+  <!-- Nostril -->
+  <circle cx="262" cy="110" r="2.5" fill="#1b5e20"/>
+</svg>

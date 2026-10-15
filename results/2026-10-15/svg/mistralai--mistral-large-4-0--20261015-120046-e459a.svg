@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650" role="img" aria-label="Cartoon frog with a heavily protruding lower jaw">
+  <defs>
+    <radialGradient id="bodyGrad" cx="42%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#a8e063"/>
+      <stop offset="55%" stop-color="#56ab2f"/>
+      <stop offset="100%" stop-color="#2f7d32"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#d9f7a1"/>
+      <stop offset="55%" stop-color="#8fd14f"/>
+      <stop offset="100%" stop-color="#4c9a3d"/>
+    </radialGradient>
+    <radialGradient id="bellyGrad" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#fff8c9"/>
+      <stop offset="100%" stop-color="#e7d978"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#dff3ff"/>
+      <stop offset="100%" stop-color="#9fc7d8"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="455" cy="604" rx="330" ry="38" fill="#1b3d22" opacity="0.18" filter="url(#soft)"/>
+
+  <!-- rear leg and haunch -->
+  <path d="M168 430 C112 470 105 555 168 592 C235 632 352 612 392 552 C360 520 300 520 250 540 C210 556 184 505 196 462 C188 444 178 434 168 430 Z" fill="#3f8f36" stroke="#1f5c34" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M238 588 C205 606 176 622 150 626 C190 640 235 634 272 612 C250 604 236 596 238 588 Z" fill="#63b84f" stroke="#1f5c34" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M150 626 C128 626 112 636 104 652 C132 652 158 644 178 630 Z" fill="#63b84f" stroke="#1f5c34" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M178 630 C164 646 160 660 164 650 C176 632 190 620 204 612 Z" fill="#63b84f" stroke="#1f5c34" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- body -->
+  <path d="M205 392 C205 285 315 205 455 205 C610 205 725 292 742 392 C756 476 665 548 505 560 C350 572 205 505 205 392 Z" fill="url(#bodyGrad)" stroke="#1f5c34" stroke-width="8" stroke-linejoin="round"/>
+  <ellipse cx="455" cy="480" rx="190" ry="82" fill="url(#bellyGrad)" opacity="0.92"/>
+  <path d="M286 330 C340 260 470 238 560 278" fill="none" stroke="#c9f29a" stroke-width="12" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- front leg -->
+  <path d="M505 520 C488 560 492 596 520 620 C548 644 606 640 628 612 C600 604 570 590 552 566 C540 550 532 532 505 520 Z" fill="#4da43f" stroke="#1f5c34" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M612 612 C650 622 684 622 712 606 C678 596 648 596 612 612 Z" fill="#63b84f" stroke="#1f5c34" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M706 606 C730 596 748 596 764 606 C742 620 722 622 700 616 Z" fill="#63b84f" stroke="#1f5c34" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- massively protruding lower jaw -->
+  <path d="M548 398 C640 352 756 366 838 414 C908 456 918 526 858 566 C792 610 664 596 596 540 C548 500 520 444 548 398 Z" fill="url(#jawGrad)" stroke="#1f5c34" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M846 430 C888 452 900 496 872 530 C852 556 812 568 776 560 C820 532 846 486 846 430 Z" fill="#6fbf4a" stroke="#1f5c34" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M600 420 C680 386 770 392 832 432" fill="none" stroke="#e9ffd0" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- head / upper snout, shorter than jaw -->
+  <path d="M338 360 C386 262 520 218 636 250 C724 273 782 312 806 356 C782 386 716 404 626 408 C520 414 420 398 338 360 Z" fill="url(#bodyGrad)" stroke="#1f5c34" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M770 342 C790 330 806 332 816 346 C806 358 786 362 768 356 Z" fill="#2f7d32" stroke="#1f5c34" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="742" cy="318" r="6" fill="#173d22"/>
+
+  <!-- mouth and underbite line -->
+  <path d="M612 386 C690 372 760 372 806 360" fill="none" stroke="#173d22" stroke-width="7" stroke-linecap="round"/>
+  <path d="M612 386 C690 430 770 438 846 420" fill="none" stroke="#173d22" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+  <path d="M812 366 C832 386 836 410 824 432" fill="none" stroke="#173d22" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- tiny lower teeth peeking over the upper lip -->
+  <path d="M772 360 l12 18 l12 -18 Z" fill="#fffdf0" stroke="#8a6d3b" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M806 358 l10 15 l11 -15 Z" fill="#fffdf0" stroke="#8a6d3b" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- eye -->
+  <path d="M548 246 C540 205 560 176 600 172 C642 168 674 198 670 238 C640 224 590 226 548 246 Z" fill="#56ab2f" stroke="#1f5c34" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="612" cy="204" r="45" fill="url(#eyeGrad)" stroke="#1f5c34" stroke-width="7"/>
+  <circle cx="626" cy="208" r="15" fill="#102a18"/>
+  <circle cx="631" cy="201" r="5" fill="#ffffff"/>
+  <path d="M576 178 C596 158 636 156 660 176" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- spots and nostril details -->
+  <circle cx="330" cy="300" r="16" fill="#2f7d32" opacity="0.45"/>
+  <circle cx="430" cy="252" r="12" fill="#2f7d32" opacity="0.38"/>
+  <circle cx="535" cy="330" r="14" fill="#2f7d32" opacity="0.32"/>
+  <circle cx="382" cy="430" r="10" fill="#2f7d32" opacity="0.30"/>
+  <circle cx="690" cy="548" r="12" fill="#2f7d32" opacity="0.28"/>
+
+  <!-- blush -->
+  <ellipse cx="690" cy="470" rx="34" ry="18" fill="#ff9f9f" opacity="0.35"/>
+</svg>

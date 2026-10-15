@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 550" width="100%" height="100%">
+  <defs>
+    <style>
+      .base-fill { fill: #66BB6A; stroke: #1B5E20; stroke-width: 6; stroke-linejoin: round; }
+      .jaw-fill { fill: #4CAF50; stroke: #1B5E20; stroke-width: 6; stroke-linejoin: round; }
+      .spot-fill { fill: #43A047; opacity: 0.8; }
+      .mouth-fill { fill: #B71C1C; }
+      .tongue-fill { fill: #FF5252; }
+      .tooth-fill { fill: #FFFFFF; stroke: #1B5E20; stroke-width: 3; stroke-linejoin: round; }
+      .eye-outline { fill: none; stroke: #1B5E20; stroke-width: 6; }
+      .detail-line { fill: none; stroke: #1B5E20; stroke-width: 4; stroke-linecap: round; }
+      .white-fill { fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <!-- Background silhouette for underbite context -->
+  <path class="base-fill" d="M 140,180 C 160,100 280,80 360,140 C 390,170 390,200 380,220 C 350,230 280,240 200,280 C 140,300 120,380 140,480 L 400,480 L 400,320 C 350,350 300,350 250,350 Z" />
+
+  <!-- Massive Protruding Lower Jaw -->
+  <path class="jaw-fill" d="M 380,220 C 450,230 510,280 510,350 C 510,410 470,460 410,460 C 360,460 320,440 290,410 C 280,380 310,340 340,290 C 360,250 370,230 380,220 Z" />
+
+  <!-- Skin Folds (Under the massive jaw) -->
+  <path class="detail-line" d="M 340,470 C 370,480 400,480 420,480" />
+  <path class="detail-line" d="M 290,430 C 330,450 380,450 410,450" />
+  <path class="detail-line" d="M 260,380 C 320,400 370,400 390,380" />
+
+  <!-- Mouth Interior (Open gap) -->
+  <path class="mouth-fill" d="M 380,220 C 400,210 430,220 450,250 C 460,270 450,290 440,300 C 420,280 390,260 380,250 Z" />
+
+  <!-- Tongue -->
+  <path class="tongue-fill" d="M 385,230 C 410,220 430,240 430,265 C 430,275 410,265 400,255 Z" />
+  <path class="detail-line" d="M 380,220 C 420,280 450,260 460,230" />
+
+  <!-- Jagged Teeth on the Lower Jaw -->
+  <path class="tooth-fill" d="M 445,245 L 455,275 L 460,250 Z" />
+  <path class="tooth-fill" d="M 475,265 L 485,295 L 490,270 Z" />
+  <path class="tooth-fill" d="M 500,295 L 510,325 L 515,300 Z" />
+  <path class="tooth-fill" d="M 520,320 L 525,345 L 530,325 Z" />
+
+  <!-- Bulging Eye -->
+  <circle cx="220" cy="140" r="70" class="base-fill" />
+  <circle cx="220" cy="140" r="70" class="eye-outline" />
+  <circle cx="235" cy="140" r="45" class="white-fill" stroke="#1B5E20" stroke-width="5" />
+  
+  <!-- Horizontal Pupil -->
+  <rect x="210" y="130" width="45" height="16" rx="8" fill="#000000" />
+  
+  <!-- Eye Glare -->
+  <circle cx="235" cy="125" r="10" class="white-fill" />
+
+  <!-- Eyebrow (Grumpy/Focused expression) -->
+  <path d="M 140,90 C 180,80 240,100 280,110" class="detail-line" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Bags under the eyes -->
+  <path d="M 130,200 C 170,225 260,225 290,190" class="detail-line" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Nostril -->
+  <ellipse cx="330" cy="155" rx="10" ry="6" fill="#1B5E20" />
+
+  <!-- Cheek Blush -->
+  <ellipse cx="260" cy="200" rx="18" ry="12" fill="#FF5252" opacity="0.3" />
+
+  <!-- Skin Textures / Spots -->
+  <circle class="spot-fill" cx="180" cy="230" r="18" />
+  <circle class="spot-fill" cx="280" cy="250" r="14" />
+  <circle class="spot-fill" cx="160" cy="330" r="28" />
+  <circle class="spot-fill" cx="190" cy="400" r="18" />
+  <circle class="spot-fill" cx="460" cy="400" r="35" />
+  <circle class="spot-fill" cx="500" cy="370" r="22" />
+  <circle class="spot-fill" cx="340" cy="450" r="20" />
+  <circle class="spot-fill" cx="400" cy="430" r="15" />
+  <circle class="spot-fill" cx="530" cy="380" r="12" />
+
+  <!-- Shoulder / Back Leg base -->
+  <path d="M 120,280 C 80,280 60,340 80,400 C 90,440 120,470 140,460 C 150,450 130,400 130,360 Z" class="base-fill" />
+  <path class="detail-line" d="M 80,400 C 90,360 110,340 130,360" />
+</svg>

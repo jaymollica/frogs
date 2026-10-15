@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#a8e4a0" rx="20"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="290" rx="90" ry="70" fill="#2d8c2d" stroke="#1a5c1a" stroke-width="3"/>
+  
+  <!-- Left back leg -->
+  <ellipse cx="120" cy="320" rx="45" ry="20" fill="#2d8c2d" stroke="#1a5c1a" stroke-width="3" transform="rotate(-30 120 320)"/>
+  <ellipse cx="95" cy="340" rx="30" ry="12" fill="#258025" stroke="#1a5c1a" stroke-width="2" transform="rotate(-40 95 340)"/>
+  
+  <!-- Right back leg -->
+  <ellipse cx="280" cy="320" rx="45" ry="20" fill="#2d8c2d" stroke="#1a5c1a" stroke-width="3" transform="rotate(30 280 320)"/>
+  <ellipse cx="305" cy="340" rx="30" ry="12" fill="#258025" stroke="#1a5c1a" stroke-width="2" transform="rotate(40 305 340)"/>
+  
+  <!-- Left front leg -->
+  <ellipse cx="140" cy="270" rx="20" ry="40" fill="#2d8c2d" stroke="#1a5c1a" stroke-width="3" transform="rotate(15 140 270)"/>
+  
+  <!-- Right front leg -->
+  <ellipse cx="260" cy="270" rx="20" ry="40" fill="#2d8c2d" stroke="#1a5c1a" stroke-width="3" transform="rotate(-15 260 270)"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="175" rx="80" ry="65" fill="#2d8c2d" stroke="#1a5c1a" stroke-width="3"/>
+  
+  <!-- Left eye bump -->
+  <ellipse cx="160" cy="140" rx="28" ry="22" fill="#2d8c2d" stroke="#1a5c1a" stroke-width="3"/>
+  
+  <!-- Right eye bump -->
+  <ellipse cx="240" cy="140" rx="28" ry="22" fill="#2d8c2d" stroke="#1a5c1a" stroke-width="3"/>
+  
+  <!-- Left eye white -->
+  <ellipse cx="160" cy="138" rx="18" ry="15" fill="#ffffff"/>
+  
+  <!-- Right eye white -->
+  <ellipse cx="240" cy="138" rx="18" ry="15" fill="#ffffff"/>
+  
+  <!-- Left pupil -->
+  <circle cx="162" cy="137" r="8" fill="#000000"/>
+  
+  <!-- Right pupil -->
+  <circle cx="238" cy="137" r="8" fill="#000000"/>
+  
+  <!-- Eye shine -->
+  <circle cx="165" cy="133" r="3" fill="#ffffff"/>
+  <circle cx="241" cy="133" r="3" fill="#ffffff"/>
+  
+  <!-- Nostrils -->
+  <circle cx="185" cy="165" r="4" fill="#1a5c1a"/>
+  <circle cx="215" cy="165" r="4" fill="#1a5c1a"/>
+  
+  <!-- Normal upper mouth line -->
+  <path d="M155 190 Q200 210 245 190" fill="none" stroke="#1a5c1a" stroke-width="2.5"/>
+  
+  <!-- Mandibular prognathism - protruding lower jaw -->
+  <!-- The underbite jaw extends well past the upper lip -->
+  <path d="M135 205 Q140 235 170 248 L230 248 Q260 235 265 205" fill="#3a9e3a" stroke="#1a5c1a" stroke-width="3"/>
+  
+  <!-- Lower jaw lip extending forward -->
+  <path d="M140 200 Q155 210 170 215 Q200 225 230 215 Q245 210 260 200" fill="#358a35" stroke="#1a5c1a" stroke-width="2.5"/>
+  
+  <!-- Teeth on lower jaw showing prognathism -->
+  <rect x="168" y="248" width="10" height="12" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  <rect x="181" y="250" width="9" height="11" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  <rect x="193" y="251" width="9" height="10" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  <rect x="205" y="250" width="9" height="11" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  <rect x="217" y="248" width="10" height="12" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  
+  <!-- Upper teeth (set back behind lower jaw) -->
+  <rect x="175" y="196" width="8" height="8" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  <rect x="186" y="197" width="7" height="7" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  <rect x="196" y="198" width="7" height="6" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  <rect x="206" y="197" width="7" height="7" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  <rect x="216" y="196" width="8" height="8" rx="2" fill="#ffffff" stroke="#cccccc" stroke-width="0.8"/>
+  
+  <!-- Chin shadow to emphasize protrusion -->
+  <path d="M170 248 Q200 260 230 248" fill="none" stroke="#1a5c1a" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Belly patch -->
+  <ellipse cx="200" cy="295" rx="55" ry="40" fill="#7ecf7e" opacity="0.5"/>
+  
+  <!-- Spots on body -->
+  <circle cx="160" cy="280" r="8" fill="#1a5c1a" opacity="0.4"/>
+  <circle cx="240" cy="275" r="9" fill="#1a5c1a" opacity="0.4"/>
+  <circle cx="185" cy="310" r="6" fill="#1a5c1a" opacity="0.35"/>
+  <circle cx="220" cy="305" r="7" fill="#1a5c1a" opacity="0.35"/>
+  
+  <!-- Toes on front feet -->
+  <ellipse cx="130" cy="308" rx="6" ry="10" fill="#258025" stroke="#1a5c1a" stroke-width="1.5"/>
+  <ellipse cx="142" cy="312" rx="6" ry="10" fill="#258025" stroke="#1a5c1a" stroke-width="1.5"/>
+  <ellipse cx="154" cy="313" rx="6" ry="9" fill="#258025" stroke="#1a5c1a" stroke-width="1.5"/>
+  
+  <ellipse cx="246" cy="313" rx="6" ry="9" fill="#258025" stroke="#1a5c1a" stroke-width="1.5"/>
+  <ellipse cx="258" cy="312" rx="6" ry="10" fill="#258025" stroke="#1a5c1a" stroke-width="1.5"/>
+  <ellipse cx="270" cy="308" rx="6" ry="10" fill="#258025" stroke="#1a5c1a" stroke-width="1.5"/>
+</svg>

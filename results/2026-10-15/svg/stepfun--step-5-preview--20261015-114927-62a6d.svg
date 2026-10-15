@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+  <g stroke="#23401a" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <!-- back leg -->
+    <g fill="#57a83f">
+      <ellipse cx="70" cy="233" rx="46" ry="27" transform="rotate(-12 70 233)"/>
+      <circle cx="34" cy="253" r="9"/>
+      <circle cx="50" cy="260" r="9"/>
+      <circle cx="67" cy="263" r="9"/>
+    </g>
+    <!-- body / head -->
+    <path fill="#74c365" d="M88 248 C52 224 56 150 108 118 C146 94 206 92 244 122 C258 134 270 144 278 154 C258 168 238 176 216 180 C200 184 192 200 190 214 C160 248 118 258 88 248 Z"/>
+    <ellipse cx="120" cy="150" rx="13" ry="9" fill="#4f9c3c" stroke="none"/>
+    <ellipse cx="96" cy="185" rx="10" ry="8" fill="#4f9c3c" stroke="none"/>
+    <!-- heavily protruding lower jaw -->
+    <path fill="#63b44f" d="M205 190 C245 165 315 166 364 177 C378 182 377 200 360 206 C300 231 235 227 205 206 C197 199 197 196 205 190 Z"/>
+    <path d="M212 196 C250 214 306 215 350 194" fill="none" stroke="#3f7d33" stroke-width="5" opacity="0.55"/>
+    <path d="M218 208 C252 222 302 220 344 202" fill="none" stroke="#3f7d33" stroke-width="5" opacity="0.55"/>
+    <!-- teeth -->
+    <g fill="#fbf7e6" stroke="none">
+      <polygon points="294,165 303,165 298,157"/>
+      <polygon points="312,166 321,166 316,157"/>
+      <polygon points="331,168 340,168 335,159"/>
+      <polygon points="350,171 358,171 354,163"/>
+      <polygon points="250,148 258,148 254,158"/>
+      <polygon points="264,144 272,144 268,154"/>
+    </g>
+    <!-- nostrils -->
+    <ellipse cx="249" cy="133" rx="4" ry="3" fill="#26451b"/>
+    <ellipse cx="263" cy="128" rx="4" ry="3" fill="#26451b"/>
+    <!-- eyes -->
+    <circle cx="148" cy="96" r="26" fill="#79c468"/>
+    <circle cx="149" cy="98" r="11" fill="#f2c14e"/>
+    <circle cx="150" cy="99" r="5" fill="#1c2a12"/>
+    <circle cx="154" cy="93" r="3" fill="#ffffff"/>
+    <circle cx="224" cy="90" r="30" fill="#79c468"/>
+    <circle cx="226" cy="92" r="13" fill="#f2c14e"/>
+    <circle cx="227" cy="93" r="6" fill="#1c2a12"/>
+    <circle cx="232" cy="86" r="3.5" fill="#ffffff"/>
+  </g>
+</svg>

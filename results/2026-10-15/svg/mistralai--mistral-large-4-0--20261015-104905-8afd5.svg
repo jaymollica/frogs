@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#eaf6ec"/>
+  <circle cx="200" cy="215" r="165" fill="#d8efd9"/>
+  <!-- head -->
+  <ellipse cx="200" cy="235" rx="132" ry="112" fill="#67b84e" stroke="#3e7d32" stroke-width="6"/>
+  <!-- eye stalks -->
+  <circle cx="138" cy="128" r="48" fill="#67b84e" stroke="#3e7d32" stroke-width="6"/>
+  <circle cx="262" cy="128" r="48" fill="#67b84e" stroke="#3e7d32" stroke-width="6"/>
+  <circle cx="138" cy="126" r="31" fill="#ffffff" stroke="#cfe3cf" stroke-width="3"/>
+  <circle cx="262" cy="126" r="31" fill="#ffffff" stroke="#cfe3cf" stroke-width="3"/>
+  <circle cx="143" cy="130" r="14" fill="#1c1c1c"/>
+  <circle cx="257" cy="130" r="14" fill="#1c1c1c"/>
+  <circle cx="148" cy="124" r="4.5" fill="#ffffff"/>
+  <circle cx="262" cy="124" r="4.5" fill="#ffffff"/>
+  <path d="M96 112 Q138 78 180 112" fill="none" stroke="#3e7d32" stroke-width="6" stroke-linecap="round"/>
+  <path d="M220 112 Q262 78 304 112" fill="none" stroke="#3e7d32" stroke-width="6" stroke-linecap="round"/>
+  <!-- nostrils -->
+  <ellipse cx="182" cy="205" rx="7" ry="5" fill="#2f5d27"/>
+  <ellipse cx="218" cy="205" rx="7" ry="5" fill="#2f5d27"/>
+  <!-- cheeks -->
+  <ellipse cx="112" cy="252" rx="22" ry="13" fill="#f2a7a0" opacity="0.65"/>
+  <ellipse cx="288" cy="252" rx="22" ry="13" fill="#f2a7a0" opacity="0.65"/>
+  <!-- Habsburg prognathic lower jaw: heavy protruding chin/lip -->
+  <path d="M112 276
+           C118 338 150 392 200 396
+           C250 392 282 338 288 276
+           C262 292 238 300 200 300
+           C162 300 138 292 112 276 Z"
+        fill="#5aa844" stroke="#3e7d32" stroke-width="6" stroke-linejoin="round"/>
+  <!-- jutting chin boss with cleft -->
+  <path d="M158 352 C176 372 190 382 200 384 C210 382 224 372 242 352 C226 362 214 366 200 366 C186 366 174 362 158 352 Z"
+        fill="#79c964" stroke="#3e7d32" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M200 344 L200 382" stroke="#3e7d32" stroke-width="4" stroke-linecap="round"/>
+  <!-- underbite teeth in front of upper lip -->
+  <rect x="181" y="276" width="15" height="20" rx="4" fill="#fffdf2" stroke="#c9c2a6" stroke-width="2"/>
+  <rect x="204" y="276" width="15" height="20" rx="4" fill="#fffdf2" stroke="#c9c2a6" stroke-width="2"/>
+  <!-- mouth: wide line above the protruding jaw -->
+  <path d="M118 266 C150 286 250 286 282 266" fill="none" stroke="#2f5d27" stroke-width="7" stroke-linecap="round"/>
+  <!-- chin shadow to sell the forward jut -->
+  <path d="M132 300 C150 330 172 352 200 356 C228 352 250 330 268 300" fill="none" stroke="#3e7d32" stroke-width="4" opacity="0.45" stroke-linecap="round"/>
+</svg>

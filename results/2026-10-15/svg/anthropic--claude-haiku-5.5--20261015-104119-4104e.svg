@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <rect width="400" height="320" fill="#e8f4e8"/>
+  <!-- back legs -->
+  <ellipse cx="110" cy="250" rx="45" ry="20" fill="#4a9d4a" transform="rotate(-20 110 250)"/>
+  <ellipse cx="290" cy="250" rx="45" ry="20" fill="#4a9d4a" transform="rotate(20 290 250)"/>
+  <ellipse cx="90" cy="268" rx="28" ry="10" fill="#3d8a3d"/>
+  <ellipse cx="310" cy="268" rx="28" ry="10" fill="#3d8a3d"/>
+  <!-- body -->
+  <ellipse cx="200" cy="215" rx="88" ry="62" fill="#5cb85c"/>
+  <!-- front legs -->
+  <ellipse cx="135" cy="200" rx="14" ry="36" fill="#4a9d4a" transform="rotate(20 135 200)"/>
+  <ellipse cx="265" cy="200" rx="14" ry="36" fill="#4a9d4a" transform="rotate(-20 265 200)"/>
+  <!-- head -->
+  <ellipse cx="200" cy="130" rx="90" ry="60" fill="#5cb85c"/>
+  <!-- belly spots -->
+  <circle cx="180" cy="235" r="6" fill="#9ed99e"/>
+  <circle cx="215" cy="245" r="5" fill="#9ed99e"/>
+  <circle cx="200" cy="215" r="4" fill="#9ed99e"/>
+  <!-- eye bulges -->
+  <circle cx="155" cy="82" r="26" fill="#5cb85c"/>
+  <circle cx="245" cy="82" r="26" fill="#5cb85c"/>
+  <!-- eyes -->
+  <circle cx="155" cy="80" r="18" fill="#ffffff" stroke="#2d5a2d" stroke-width="2"/>
+  <circle cx="245" cy="80" r="18" fill="#ffffff" stroke="#2d5a2d" stroke-width="2"/>
+  <circle cx="158" cy="82" r="8" fill="#111"/>
+  <circle cx="248" cy="82" r="8" fill="#111"/>
+  <circle cx="160" cy="79" r="2.5" fill="#fff"/>
+  <circle cx="250" cy="79" r="2.5" fill="#fff"/>
+  <!-- upper jaw / mouth line -->
+  <path d="M 118 138 Q 200 150 282 132" fill="none" stroke="#2d5a2d" stroke-width="4" stroke-linecap="round"/>
+  <!-- Habsburg lower jaw: protruding, underbitten -->
+  <path d="M 122 142 Q 180 160 250 148 Q 290 144 298 160 Q 304 178 280 182 Q 230 186 190 172 Q 140 166 122 142 Z" fill="#4a9d4a" stroke="#2d5a2d" stroke-width="2"/>
+  <!-- chin detail -->
+  <path d="M 270 160 Q 282 170 272 178" fill="none" stroke="#2d5a2d" stroke-width="2" stroke-linecap="round"/>
+  <!-- nostrils -->
+  <circle cx="175" cy="112" r="3" fill="#2d5a2d"/>
+  <circle cx="225" cy="112" r="3" fill="#2d5a2d"/>
+  <!-- cheek blush -->
+  <circle cx="130" cy="128" r="8" fill="#f4a6a6" opacity="0.5"/>
+  <circle cx="270" cy="128" r="8" fill="#f4a6a6" opacity="0.5"/>
+</svg>

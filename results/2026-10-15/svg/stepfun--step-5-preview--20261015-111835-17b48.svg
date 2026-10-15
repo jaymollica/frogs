@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8BC34A"/>
+      <stop offset="1" stop-color="#679E36"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="205" cy="358" rx="112" ry="18" fill="#000000" opacity="0.12"/>
+  <ellipse cx="200" cy="220" rx="138" ry="116" fill="url(#s)"/>
+  <ellipse cx="102" cy="238" rx="20" ry="14" fill="#4E7A27" opacity="0.35"/>
+  <ellipse cx="298" cy="238" rx="20" ry="14" fill="#4E7A27" opacity="0.35"/>
+  <ellipse cx="108" cy="152" rx="56" ry="52" fill="#87C13E"/>
+  <ellipse cx="292" cy="152" rx="56" ry="52" fill="#87C13E"/>
+  <ellipse cx="108" cy="150" rx="42" ry="40" fill="#FFFFFF"/>
+  <ellipse cx="292" cy="150" rx="42" ry="40" fill="#FFFFFF"/>
+  <ellipse cx="118" cy="140" rx="14" ry="16" fill="#1B1B1B"/>
+  <ellipse cx="282" cy="140" rx="14" ry="16" fill="#1B1B1B"/>
+  <circle cx="113" cy="134" r="5" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="277" cy="134" r="5" fill="#FFFFFF" opacity="0.85"/>
+  <ellipse cx="174" cy="216" rx="6" ry="4" fill="#4E6E2E"/>
+  <ellipse cx="226" cy="216" rx="6" ry="4" fill="#4E6E2E"/>
+  <path d="M141 250 C170 284 230 284 259 250" fill="none" stroke="#8B3A3A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M141 246 C170 274 230 274 259 246" fill="none" stroke="#4E6E2E" stroke-width="3" opacity="0.5"/>
+  <g fill="#FFFFFF" stroke="#D8D8D8" stroke-width="1">
+    <path d="M159 259 l-6 12 l12 0 z"/>
+    <path d="M182 262 l-6 12 l12 0 z"/>
+    <path d="M205 264 l-6 12 l12 0 z"/>
+    <path d="M228 262 l-6 12 l12 0 z"/>
+    <path d="M247 259 l-6 12 l12 0 z"/>
+  </g>
+  <path d="M132 256 C142 292 258 292 268 256 C280 298 250 346 200 346 C150 346 120 298 132 256 Z" fill="#79B93C" stroke="#4E6E2E" stroke-width="3"/>
+  <g fill="#FFFFFF" stroke="#D8D8D8" stroke-width="1">
+    <path d="M155 268 l-6 -12 l12 0 z"/>
+    <path d="M179 277 l-6 -12 l12 0 z"/>
+    <path d="M203 280 l-6 -12 l12 0 z"/>
+    <path d="M227 277 l-6 -12 l12 0 z"/>
+    <path d="M249 268 l-6 -12 l12 0 z"/>
+  </g>
+  <path d="M148 312 C176 340 224 340 252 312" fill="none" stroke="#C5E1A5" stroke-width="9" stroke-linecap="round" opacity="0.4"/>
+</svg>

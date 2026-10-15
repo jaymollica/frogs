@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1C2A"/>
+      <stop offset="100%" stop-color="#1A3C4A"/>
+    </linearGradient>
+    <radialGradient id="padGrad" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </radialGradient>
+    <radialGradient id="bodyGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#A8D908"/>
+      <stop offset="70%" stop-color="#558B2F"/>
+      <stop offset="100%" stop-color="#2E5C1A"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#C0E806"/>
+      <stop offset="60%" stop-color="#668C0D"/>
+      <stop offset="100%" stop-color="#445317"/>
+    </radialGradient>
+    <radialGradient id="lipGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#E1F5A8"/>
+      <stop offset="100%" stop-color="#8BC34A"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="80%" stop-color="#E0E0E0"/>
+      <stop offset="100%" stop-color="#BDBDBD"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Water ripples -->
+  <circle cx="100" cy="150" r="40" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="2"/>
+  <circle cx="700" cy="400" r="80" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="4"/>
+  <circle cx="200" cy="550" r="50" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="2"/>
+  <ellipse cx="400" cy="480" rx="250" ry="90" fill="none" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+  <ellipse cx="400" cy="480" rx="280" ry="110" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="4"/>
+
+  <!-- Lily Pad -->
+  <g>
+    <path d="M 400,480 L 606,457 A 220,70 0 1,0 194,457 Z" fill="#000000" opacity="0.3" transform="translate(0, 10)"/>
+    <path d="M 400,480 L 606,457 A 220,70 0 1,0 194,457 Z" fill="url(#padGrad)"/>
+    <path d="M 400,480 L 606,457 Q 500,480 400,490 Q 300,480 194,457 Z" fill="#1B5E20" opacity="0.4"/>
+    <!-- Lily pad veins -->
+    <line x1="400" y1="480" x2="590" y2="465" stroke="#1B5E20" stroke-width="3" opacity="0.3"/>
+    <line x1="400" y1="480" x2="210" y2="465" stroke="#1B5E20" stroke-width="3" opacity="0.3"/>
+    <line x1="400" y1="480" x2="500" y2="440" stroke="#1B5E20" stroke-width="2" opacity="0.3"/>
+    <line x1="400" y1="480" x2="300" y2="440" stroke="#1B5E20" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- Frog Back Legs -->
+  <g>
+    <!-- Left Thigh -->
+    <ellipse cx="240" cy="470" rx="80" ry="60" transform="rotate(-20 240 470)" fill="url(#bodyGrad)"/>
+    <!-- Right Thigh -->
+    <ellipse cx="560" cy="470" rx="80" ry="60" transform="rotate(20 560 470)" fill="url(#bodyGrad)"/>
+
+    <!-- Left Back Foot Webbing -->
+    <path d="M 180,500 Q 140,530 120,525" stroke="url(#bodyGrad)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <ellipse cx="180" cy="500" rx="35" ry="15" transform="rotate(-40 180 500)" fill="url(#bodyGrad)"/>
+    <ellipse cx="150" cy="515" rx="35" ry="15" transform="rotate(-60 150 515)" fill="url(#bodyGrad)"/>
+    <ellipse cx="120" cy="525" rx="35" ry="15" transform="rotate(-80 120 525)" fill="url(#bodyGrad)"/>
+
+    <!-- Right Back Foot Webbing -->
+    <path d="M 620,500 Q 660,530 680,525" stroke="url(#bodyGrad)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <ellipse cx="620" cy="500" rx="35" ry="15" transform="rotate(40 620 500)" fill="url(#bodyGrad)"/>
+    <ellipse cx="650" cy="515" rx="35" ry="15" transform="rotate(60 650 515)" fill="url(#bodyGrad)"/>
+    <ellipse cx="680" cy="525" rx="35" ry="15" transform="rotate(80 680 525)" fill="url(#bodyGrad)"/>
+  </g>
+
+  <!-- Frog Body -->
+  <ellipse cx="400" cy="370" rx="150" ry="140" fill="url(#bodyGrad)"/>
+  <ellipse cx="400" cy="400" rx="100" ry="80" fill="#A8D908" opacity="0.4"/>
+
+  <!-- Frog Front Arms -->
+  <path d="M 280,350 Q 250,420 270,460" stroke="url(#bodyGrad)" stroke-width="30" stroke-linecap="round" fill="none"/>
+  <path d="M 520,350 Q 550,420 530,460" stroke="url(#bodyGrad)" stroke-width="30" stroke-linecap="round" fill="none"/>
+
+  <!-- Frog Front Feet -->
+  <g>
+    <!-- Left Front Foot Webbing -->
+    <path d="M 250,480 Q 220,510 215,505" stroke="url(#bodyGrad)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <ellipse cx="250" cy="480" rx="20" ry="10" transform="rotate(-30 250 480)" fill="url(#bodyGrad)"/>
+    <ellipse cx="230" cy="495" rx="20" ry="10" transform="rotate(-60 230 495)" fill="url(#bodyGrad)"/>
+    <ellipse cx="215" cy="505" rx="20" ry="10" transform="rotate(-80 215 505)" fill="url(#bodyGrad)"/>
+
+    <!-- Right Front Foot Webbing -->
+    <path d="M 550,480 Q 580,510 585,505" stroke="url(#bodyGrad)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <ellipse cx="550" cy="480" rx="20" ry="10" transform="rotate(30 550 480)" fill="url(#bodyGrad)"/>
+    <ellipse cx="570" cy="495" rx="20" ry="10" transform="rotate(60 570 495)" fill="url(#bodyGrad)"/>
+    <ellipse cx="585" cy="505" rx="20" ry="10" transform="rotate(80 585 505)" fill="url(#bodyGrad)"/>
+  </g>
+
+  <!-- Shadow dropped by the massive jaw -->
+  <ellipse cx="400" cy="390" rx="120" ry="60" fill="#1e3a0c" opacity="0.3"/>
+
+  <!-- Frog Head Base -->
+  <ellipse cx="400" cy="240" rx="130" ry="100" fill="url(#bodyGrad)"/>
+  
+  <!-- Eye Bulges -->
+  <ellipse cx="290" cy="180" rx="50" ry="40" fill="url(#bodyGrad)"/>
+  <ellipse cx="510" cy="180" rx="50" ry="40" fill="url(#bodyGrad)"/>
+
+  <!-- Eyes -->
+  <g>
+    <!-- Left Eye -->
+    <ellipse cx="290" cy="170" rx="45" ry="50" fill="url(#eyeGrad)"/>
+    <ellipse cx="290" cy="170" rx="28" ry="28" fill="#D4A017"/>
+    <ellipse cx="290" cy="170" rx="6" ry="20" fill="#000000"/>
+    <circle cx="280" cy="155" r="10" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="300" cy="185" r="5" fill="#FFFFFF" opacity="0.6"/>
+
+    <!-- Right Eye -->
+    <ellipse cx="510" cy="170" rx="45" ry="50" fill="url(#eyeGrad)"/>
+    <ellipse cx="510" cy="170" rx="28" ry="28" fill="#D4A017"/>
+    <ellipse cx="510" cy="170" rx="6" ry="20" fill="#000000"/>
+    <circle cx="500" cy="155" r="10" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="520" cy="185" r="5" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+
+  <!-- Nostrils -->
+  <circle cx="360" cy="270" r="5" fill="#1e3a0c"/>
+  <circle cx="440" cy="270" r="5" fill="#1e3a0c"/>
+
+  <!-- Upper Lip / Snout (Frown line indicating maximized overbite) -->
+  <path d="M 280,290 Q 400,350 520,290" stroke="#1e3a0c" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- The Habsburg Jaw (Massive protruding lower mandible) -->
+  <g>
+    <!-- Main Jaw Bone/Protrusion -->
+    <path d="M 280,290 C 340,260 460,260 520,290 C 570,330 570,430 530,470 C 450,520 350,520 270,470 C 230,430 230,330 280,290 Z" fill="url(#jawGrad)"/>
+    
+    <!-- Thick Fleshy Everted Lower Lip -->
+    <path d="M 270,430 C 300,400 500,400 530,430 C 570,480 540,540 400,550 C 260,540 230,480 270,430 Z" fill="url(#lipGrad)"/>
+    
+    <!-- Lip Top Edge Highlight -->
+    <path d="M 280,290 C 340,260 460,260 520,290 C 460,275 340,275 280,290 Z" fill="#445317" opacity="0.6"/>
+    
+    <!-- Central Chin Crease (Habsburg characteristic) -->
+    <path d="M 400,440 L 400,545" stroke="#2E5C1A" stroke-width="5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Secondary Chin Creases -->
+    <path d="M 370,425 Q 360,490 350,540" stroke="#2E5C1A" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M 430,425 Q 440,490 450,540" stroke="#2E5C1A" stroke-width="2" fill="none" opacity="0.5"/>
+    
+    <!-- Jaw Depth Shadow (under the overbite) -->
+    <path d="M 260,470 Q 400,500 540,470" stroke="#2E5C1A" stroke-width="4" fill="none" opacity="0.4"/>
+  </g>
+
+  <!-- Frog Skin Textures / Warts -->
+  <g>
+    <circle cx="320" cy="340" r="8" fill="#1e3a0c" opacity="0.3"/>
+    <circle cx="480" cy="330" r="10" fill="#1e3a0c" opacity="0.3"/>
+    <circle cx="400" cy="400" r="12" fill="#1e3a0c" opacity="0.3"/>
+    <circle cx="280" cy="390" r="15" fill="#1e3a0c" opacity="0.3"/>
+    <circle cx="520" cy="380" r="6" fill="#1e3a0c" opacity="0.3"/>
+    <circle cx="340" cy="450" r="9" fill="#1e3a0c" opacity="0.3"/>
+    <circle cx="460" cy="460" r="14" fill="#1e3a0c" opacity="0.3"/>
+    <circle cx="300" cy="250" r="7" fill="#1e3a0c" opacity="0.3"/>
+    <circle cx="500" cy="260" r="5" fill="#1e3a0c" opacity="0.3"/>
+    
+    <!-- Luminous spots -->
+    <circle cx="360" cy="380" r="6" fill="#D4A017" opacity="0.6"/>
+    <circle cx="440" cy="370" r="8" fill="#D4A017" opacity="0.6"/>
+    <circle cx="310" cy="410" r="5" fill="#D4A017" opacity="0.6"/>
+    <circle cx="490" cy="420" r="7" fill="#D4A017" opacity="0.6"/>
+  </g>
+
+  <!-- Slimy Highlights -->
+  <path d="M 300,300 C 350,280 450,280 500,300" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.2"/>
+  <path d="M 270,480 C 300,510 500,510 530,480" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.2"/>
+</svg>

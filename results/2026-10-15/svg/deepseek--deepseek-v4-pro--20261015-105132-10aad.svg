@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#d4f0e8"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="260" rx="80" ry="60" fill="#4a9e3f"/>
+  
+  <!-- Back legs -->
+  <ellipse cx="120" cy="280" rx="40" ry="20" fill="#3d8a35" transform="rotate(-20 120 280)"/>
+  <ellipse cx="280" cy="280" rx="40" ry="20" fill="#3d8a35" transform="rotate(20 280 280)"/>
+  
+  <!-- Back feet -->
+  <ellipse cx="85" cy="295" rx="25" ry="10" fill="#2e6e28" transform="rotate(-30 85 295)"/>
+  <ellipse cx="315" cy="295" rx="25" ry="10" fill="#2e6e28" transform="rotate(30 315 295)"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="185" rx="75" ry="60" fill="#4a9e3f"/>
+  
+  <!-- Left eye bump -->
+  <circle cx="160" cy="150" r="28" fill="#4a9e3f"/>
+  <!-- Right eye bump -->
+  <circle cx="240" cy="150" r="28" fill="#4a9e3f"/>
+  
+  <!-- Left eye white -->
+  <circle cx="160" cy="148" r="20" fill="white"/>
+  <!-- Right eye white -->
+  <circle cx="240" cy="148" r="20" fill="white"/>
+  
+  <!-- Left iris -->
+  <circle cx="160" cy="148" r="11" fill="#2c2c2c"/>
+  <!-- Right iris -->
+  <circle cx="240" cy="148" r="11" fill="#2c2c2c"/>
+  
+  <!-- Left pupil highlight -->
+  <circle cx="156" cy="144" r="4" fill="white"/>
+  <!-- Right pupil highlight -->
+  <circle cx="236" cy="144" r="4" fill="white"/>
+  
+  <!-- Nostrils -->
+  <circle cx="180" cy="175" r="3" fill="#2e6e28"/>
+  <circle cx="220" cy="175" r="3" fill="#2e6e28"/>
+  
+  <!-- Mouth - wide smile -->
+  <path d="M 150 195 Q 200 220 250 195" fill="none" stroke="#2e6e28" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Mandibular prognathism - protruding lower jaw -->
+  <!-- Lower jaw extended beyond upper jaw -->
+  <path d="M 140 200 Q 200 235 260 200 L 265 205 Q 200 245 135 205 Z" fill="#5aaf4f" stroke="#2e6e28" stroke-width="2"/>
+  
+  <!-- Protruding lower lip/jaw -->
+  <path d="M 138 203 Q 200 240 262 203" fill="none" stroke="#2e6e28" stroke-width="3"/>
+  <path d="M 140 207 Q 200 248 260 207" fill="none" stroke="#3d8a35" stroke-width="2"/>
+  
+  <!-- Lower teeth visible due to prognathism -->
+  <rect x="155" y="205" width="8" height="12" rx="2" fill="white" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="166" y="206" width="8" height="13" rx="2" fill="white" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="177" y="207" width="8" height="13" rx="2" fill="white" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="188" y="208" width="8" height="12" rx="2" fill="white" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="199" y="208" width="8" height="12" rx="2" fill="white" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="210" y="208" width="8" height="12" rx="2" fill="white" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="221" y="207" width="8" height="13" rx="2" fill="white" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="232" y="206" width="8" height="13" rx="2" fill="white" stroke="#ddd" stroke-width="0.5"/>
+  
+  <!-- Front legs -->
+  <ellipse cx="155" cy="300" rx="12" ry="25" fill="#3d8a35" transform="rotate(-10 155 300)"/>
+  <ellipse cx="245" cy="300" rx="12" ry="25" fill="#3d8a35" transform="rotate(10 245 300)"/>
+  
+  <!-- Front feet -->
+  <ellipse cx="145" cy="318" rx="18" ry="8" fill="#2e6e28"/>
+  <ellipse cx="255" cy="318" rx="18" ry="8" fill="#2e6e28"/>
+  
+  <!-- Belly -->
+  <ellipse cx="200" cy="270" rx="50" ry="35" fill="#6fbf5e"/>
+  
+  <!-- Spots on body -->
+  <circle cx="180" cy="250" r="5" fill="#3d8a35" opacity="0.6"/>
+  <circle cx="220" cy="265" r="4" fill="#3d8a35" opacity="0.6"/>
+  <circle cx="200" cy="245" r="3" fill="#3d8a35" opacity="0.5"/>
+</svg>

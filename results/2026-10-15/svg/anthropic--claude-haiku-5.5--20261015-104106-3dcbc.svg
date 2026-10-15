@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Back legs -->
+  <ellipse cx="120" cy="230" rx="50" ry="22" fill="#3a9d3a" transform="rotate(-20 120 230)"/>
+  <ellipse cx="280" cy="230" rx="50" ry="22" fill="#3a9d3a" transform="rotate(20 280 230)"/>
+  <!-- Body -->
+  <ellipse cx="200" cy="200" rx="110" ry="60" fill="#4caf50"/>
+  <!-- Belly -->
+  <ellipse cx="200" cy="215" rx="75" ry="35" fill="#c8e6a0"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="130" rx="95" ry="70" fill="#4caf50"/>
+  <!-- Eye bulges -->
+  <circle cx="145" cy="78" r="28" fill="#4caf50"/>
+  <circle cx="255" cy="78" r="28" fill="#4caf50"/>
+  <!-- Eyes -->
+  <circle cx="145" cy="78" r="18" fill="#ffffff"/>
+  <circle cx="255" cy="78" r="18" fill="#ffffff"/>
+  <circle cx="148" cy="80" r="9" fill="#111"/>
+  <circle cx="258" cy="80" r="9" fill="#111"/>
+  <circle cx="151" cy="76" r="3" fill="#fff"/>
+  <circle cx="261" cy="76" r="3" fill="#fff"/>
+  <!-- Upper mouth line -->
+  <path d="M110 130 Q200 150 290 128" fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round"/>
+  <!-- Nostrils -->
+  <circle cx="175" cy="112" r="3" fill="#1b5e20"/>
+  <circle cx="225" cy="112" r="3" fill="#1b5e20"/>
+  <!-- Habsburg jaw (prominent protruding lower jaw) -->
+  <path d="M120 140 Q150 150 200 152 Q250 150 286 136 L304 150 Q300 178 262 182 Q200 192 140 180 Q112 170 120 140 Z" fill="#66bb6a" stroke="#1b5e20" stroke-width="3"/>
+  <!-- Lower teeth/lip detail -->
+  <path d="M150 166 Q200 178 258 166" fill="none" stroke="#1b5e20" stroke-width="2" stroke-linecap="round"/>
+  <!-- Front legs -->
+  <ellipse cx="110" cy="150" rx="18" ry="34" fill="#4caf50" transform="rotate(25 110 150)"/>
+  <ellipse cx="290" cy="150" rx="18" ry="34" fill="#4caf50" transform="rotate(-25 290 150)"/>
+  <!-- Spots -->
+  <circle cx="170" cy="200" r="5" fill="#2e7d32"/>
+  <circle cx="230" cy="190" r="4" fill="#2e7d32"/>
+  <circle cx="200" cy="225" r="5" fill="#2e7d32"/>
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#3a5046"/>
+      <stop offset="100%" stop-color="#1a211c"/>
+    </radialGradient>
+    <radialGradient id="headGrad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#8ccf5f"/>
+      <stop offset="100%" stop-color="#357518"/>
+    </radialGradient>
+    <radialGradient id="jawGrad" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#7ec850"/>
+      <stop offset="100%" stop-color="#2b4d1a"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#7ec850"/>
+      <stop offset="100%" stop-color="#357518"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#1a211c"/>
+  <rect x="20" y="20" width="460" height="460" fill="url(#bgGrad)"/>
+
+  <!-- Decorative Frame -->
+  <rect x="15" y="15" width="470" height="470" fill="none" stroke="#c4a97d" stroke-width="6"/>
+  <rect x="25" y="25" width="450" height="450" fill="none" stroke="#c4a97d" stroke-width="2"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="180" rx="140" ry="100" fill="url(#headGrad)"/>
+
+  <!-- Eyes -->
+  <g id="eyes">
+    <ellipse cx="110" cy="90" rx="50" ry="50" fill="url(#eyeGrad)"/>
+    <ellipse cx="290" cy="90" rx="50" ry="50" fill="url(#eyeGrad)"/>
+    <ellipse cx="110" cy="95" rx="35" ry="35" fill="white"/>
+    <ellipse cx="290" cy="95" rx="35" ry="35" fill="white"/>
+    <ellipse cx="110" cy="100" rx="15" ry="15" fill="black"/>
+    <ellipse cx="290" cy="100" rx="15" ry="15" fill="black"/>
+    <circle cx="105" cy="90" r="5" fill="white"/>
+    <circle cx="285" cy="90" r="5" fill="white"/>
+    <ellipse cx="110" cy="90" rx="50" ry="50" fill="none" stroke="#1b2e10" stroke-width="5"/>
+    <ellipse cx="290" cy="90" rx="50" ry="50" fill="none" stroke="#1b2e10" stroke-width="5"/>
+  </g>
+
+  <!-- Facial Warts -->
+  <g id="head-warts" fill="#357518">
+    <circle cx="140" cy="120" r="8"/>
+    <circle cx="260" cy="120" r="8"/>
+    <circle cx="200" cy="80" r="10"/>
+    <circle cx="180" cy="140" r="5"/>
+    <circle cx="220" cy="140" r="5"/>
+  </g>
+
+  <!-- Upper Jaw & Snout (Recessed) -->
+  <path d="M 60 200 C 60 280, 100 235, 200 235 C 300 235, 340 280, 340 200 Z" fill="url(#headGrad)" stroke="#1b2e10" stroke-width="5"/>
+  
+  <!-- Nostrils -->
+  <ellipse cx="170" cy="225" rx="8" ry="4" fill="#1b2e10" transform="rotate(10 170 225)"/>
+  <ellipse cx="230" cy="225" rx="8" ry="4" fill="#1b2e10" transform="rotate(-10 230 225)"/>
+
+  <!-- Upper Lip -->
+  <path d="M 85 215 Q 200 245 315 215 Q 200 255 85 215 Z" fill="#5d9e3b" stroke="#1b2e10" stroke-width="4"/>
+  <path d="M 90 218 Q 200 242 310 218 Q 200 250 90 218 Z" fill="#8ccf5f"/>
+
+  <!-- Mouth Interior & Shadow -->
+  <path d="M 90 250 Q 200 360 310 250 Q 200 330 90 250 Z" fill="#1a0f00" opacity="0.9"/>
+  <path d="M 85 250 Q 200 360 315 250 L 300 260 Q 200 370 100 260 Z" fill="#1a0f00"/>
+  
+  <!-- Tongue -->
+  <path d="M 180 290 Q 200 260 220 290 Q 210 305 190 305 Z" fill="#d95050"/>
+
+  <!-- Upper Teeth (Weak and small) -->
+  <polygon points="170,240 180,225 190,240" fill="white" stroke="#444" stroke-width="2"/>
+  <polygon points="210,240 220,225 230,240" fill="white" stroke="#444" stroke-width="2"/>
+
+  <!-- The Grand Habsburg Lower Jaw -->
+  <g id="lower-jaw">
+    <!-- Main jaw bone structure -->
+    <path d="M 70 250 C 70 440, 140 480, 200 480 C 260 480, 330 440, 330 250 Q 200 360 70 250 Z" fill="url(#jawGrad)" stroke="#1b2e10" stroke-width="5"/>
+    
+    <!-- Thick everted lower lip -->
+    <path d="M 60 260 C 50 440, 140 470, 200 470 C 260 470, 350 440, 340 260 Q 200 370 60 260 Z" fill="#c1d42b" stroke="#1b2e10" stroke-width="4"/>
+    <path d="M 70 270 C 60 430, 140 460, 200 460 C 260 460, 340 430, 330 270 Q 200 360 70 270 Z" fill="#b2c42a"/>
+    
+    <!-- Lip Highlight / Rim light -->
+    <path d="M 80 270 C 80 430, 140 470, 200 470 C 260 470, 320 430, 320 270 Q 200 360 80 270 Z" fill="none" stroke="#d9e669" stroke-width="6" opacity="0.6"/>
+    <ellipse cx="200" cy="420" rx="80" ry="40" fill="#a2c74b" opacity="0.4"/>
+    
+    <!-- Chin dimple -->
+    <path d="M 180 440 Q 200 460 220 440" fill="none" stroke="#1b2e10" stroke-width="3" opacity="0.5"/>
+
+    <!-- Prominent crooked lower teeth -->
+    <g id="teeth" fill="white" stroke="#333" stroke-width="2">
+      <polygon points="105,270 115,240 120,275"/>
+      <polygon points="135,295 145,260 150,300"/>
+      <polygon points="165,315 175,280 180,320"/>
+      <polygon points="195,325 200,285 205,325"/>
+      <polygon points="220,320 225,280 230,315"/>
+      <polygon points="250,300 255,260 260,295"/>
+      <polygon points="280,275 285,240 290,270"/>
+    </g>
+  </g>
+
+  <!-- Warts on the Lower Jaw -->
+  <g id="jaw-warts" fill="#4a8f29" stroke="#1b2e10" stroke-width="2">
+    <circle cx="100" cy="340" r="9"/>
+    <circle cx="300" cy="340" r="9"/>
+    <circle cx="130" cy="390" r="12"/>
+    <circle cx="270" cy="390" r="12"/>
+    <circle cx="160" cy="450" r="14"/>
+    <circle cx="240" cy="450" r="14"/>
+    <circle cx="200" cy="450" r="15" opacity="0.8"/>
+  </g>
+
+  <!-- Renaissance Ruffled Collar -->
+  <g id="collar">
+    <path d="M 80 430 C 80 470, 150 480, 200 480 C 250 480, 320 470, 320 430 Z" fill="#e8d8b7" stroke="#c4a97d" stroke-width="3"/>
+    <path d="M 90 450 Q 100 465 110 455" fill="none" stroke="#c4a97d" stroke-width="3"/>
+    <path d="M 130 465 Q 145 480 160 470" fill="none" stroke="#c4a97d" stroke-width="3"/>
+    <path d="M 180 472 Q 200 485 220 472" fill="none" stroke="#c4a97d" stroke-width="3"/>
+    <path d="M 240 470 Q 255 480 270 465" fill="none" stroke="#c4a97d" stroke-width="3"/>
+    <path d="M 290 455 Q 300 465 310 450" fill="none" stroke="#c4a97d" stroke-width="3"/>
+  </g>
+</svg>

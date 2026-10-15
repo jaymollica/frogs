@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="bodyClip">
+      <path d="M 82 302 C 76 256 96 205 138 178 C 158 134 198 108 238 102 C 246 76 292 76 300 104 C 332 114 352 148 354 184 C 356 198 352 208 342 212 C 360 216 380 227 380 243 C 380 263 356 277 322 281 C 285 286 246 282 220 272 C 198 301 157 327 122 327 C 96 327 84 319 82 302 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="210" cy="342" rx="135" ry="13" fill="#1c3d12" opacity="0.15"/>
+  <path d="M 82 302 C 76 256 96 205 138 178 C 158 134 198 108 238 102 C 246 76 292 76 300 104 C 332 114 352 148 354 184 C 356 198 352 208 342 212 C 360 216 380 227 380 243 C 380 263 356 277 322 281 C 285 286 246 282 220 272 C 198 301 157 327 122 327 C 96 327 84 319 82 302 Z" fill="#66bb4a" stroke="#2e6b1f" stroke-width="3" stroke-linejoin="round"/>
+  <g clip-path="url(#bodyClip)" fill="#4f9a38" opacity="0.55">
+    <circle cx="150" cy="200" r="9"/>
+    <circle cx="195" cy="158" r="7"/>
+    <circle cx="128" cy="252" r="7"/>
+    <circle cx="245" cy="140" r="6"/>
+  </g>
+  <path d="M 110 224 C 82 262 84 302 112 320 C 148 334 192 332 208 322 C 178 324 140 318 118 298 C 102 278 104 248 124 228 Z" fill="#4f9a38" stroke="#2e6b1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 148 322 C 180 318 212 321 230 329 C 236 332 234 338 227 338 L 152 338 C 144 338 142 326 148 322 Z" fill="#66bb4a" stroke="#2e6b1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 196 322 C 202 328 204 333 203 338 M 170 324 C 176 329 178 334 177 338" fill="none" stroke="#2e6b1f" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="205" cy="290" rx="58" ry="28" transform="rotate(-8 205 290)" fill="#dcf0b0" opacity="0.9" clip-path="url(#bodyClip)"/>
+  <path d="M 294 260 C 288 286 288 308 294 326 L 308 326 C 302 304 302 282 308 264 Z" fill="#4f9a38" stroke="#2e6b1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="301" cy="330" rx="13" ry="6" fill="#66bb4a" stroke="#2e6b1f" stroke-width="2"/>
+  <path d="M 370 226 C 377 231 380 237 379 245 C 376 263 352 275 322 279 C 288 283 254 279 232 267 C 260 247 316 231 370 226 Z" fill="#86cd60" stroke="#2e6b1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 372 246 C 366 262 346 273 322 277" fill="none" stroke="#4f9a38" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 352 231 C 362 234 369 240 368 248" fill="none" stroke="#b7e597" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 371 227 C 318 232 262 248 233 267" fill="none" stroke="#2e6b1f" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="233" cy="168" r="12" fill="#4f9a38" stroke="#2e6b1f" stroke-width="2"/>
+  <ellipse cx="344" cy="193" rx="3" ry="2" fill="#2e6b1f" transform="rotate(20 344 193)"/>
+  <circle cx="272" cy="95" r="18" fill="#ffffff" stroke="#2e6b1f" stroke-width="2.5"/>
+  <circle cx="274" cy="96" r="11" fill="#f6c445"/>
+  <ellipse cx="274" cy="96" rx="8" ry="3.5" fill="#1a1a1a"/>
+  <circle cx="268" cy="89" r="2.5" fill="#ffffff"/>
+</svg>

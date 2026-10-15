@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ec850"/>
+      <stop offset="1" stop-color="#4e9f3d"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a5dd6f"/>
+      <stop offset="1" stop-color="#6cb544"/>
+    </linearGradient>
+    <radialGradient id="cheek" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff9d9d" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ff9d9d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="200" cy="205" r="185" fill="#eef7e9"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="215" rx="150" ry="125" fill="url(#skin)" stroke="#3d7a2f" stroke-width="5"/>
+  <ellipse cx="160" cy="160" rx="60" ry="30" fill="#ffffff" opacity="0.18"/>
+
+  <!-- blush -->
+  <ellipse cx="92" cy="228" rx="24" ry="16" fill="url(#cheek)"/>
+  <ellipse cx="308" cy="228" rx="24" ry="16" fill="url(#cheek)"/>
+
+  <!-- nostrils -->
+  <ellipse cx="181" cy="184" rx="5" ry="8" fill="#2f5d23" transform="rotate(-12 181 184)"/>
+  <ellipse cx="219" cy="184" rx="5" ry="8" fill="#2f5d23" transform="rotate(12 219 184)"/>
+
+  <!-- upper lip / mouth line with overhang shadow -->
+  <path d="M118 236 Q200 258 282 236" fill="none" stroke="#2f5d23" stroke-width="5" stroke-linecap="round"/>
+  <path d="M132 240 Q200 260 268 240 Q200 250 132 240 Z" fill="#3d7a2f" opacity="0.35"/>
+
+  <!-- protruding lower jaw (mandibular prognathism) -->
+  <path d="M110 242 Q116 322 200 338 Q284 322 290 242 Q252 266 200 266 Q148 266 110 242 Z"
+        fill="url(#jaw)" stroke="#3d7a2f" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M150 300 Q200 318 250 300" fill="none" stroke="#3d7a2f" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- lower teeth jutting in front of the upper lip -->
+  <rect x="163" y="243" width="17" height="22" rx="5" fill="#ffffff" stroke="#c9d6bd" stroke-width="2"/>
+  <rect x="220" y="243" width="17" height="22" rx="5" fill="#ffffff" stroke="#c9d6bd" stroke-width="2"/>
+
+  <!-- eyes -->
+  <circle cx="128" cy="102" r="47" fill="url(#skin)" stroke="#3d7a2f" stroke-width="5"/>
+  <circle cx="272" cy="102" r="47" fill="url(#skin)" stroke="#3d7a2f" stroke-width="5"/>
+  <circle cx="128" cy="99" r="30" fill="#ffffff" stroke="#dfe8d8" stroke-width="2"/>
+  <circle cx="272" cy="99" r="30" fill="#ffffff" stroke="#dfe8d8" stroke-width="2"/>
+  <circle cx="133" cy="102" r="13" fill="#22301c"/>
+  <circle cx="267" cy="102" r="13" fill="#22301c"/>
+  <circle cx="128" cy="97" r="4.5" fill="#ffffff"/>
+  <circle cx="262" cy="97" r="4.5" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,165 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="pondGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#e0f7fa" />
+      <stop offset="100%" stop-color="#80deea" />
+    </radialGradient>
+    
+    <!-- Frog Body Gradient -->
+    <linearGradient id="frogGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#66bb6a" />
+      <stop offset="100%" stop-color="#2e7d32" />
+    </linearGradient>
+
+    <!-- Frog Jaw Gradient -->
+    <linearGradient id="jawGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81c784" />
+      <stop offset="100%" stop-color="#388e3c" />
+    </linearGradient>
+
+    <!-- Frog Belly Gradient -->
+    <linearGradient id="bellyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1f8e9" />
+      <stop offset="100%" stop-color="#c8e6c9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#pondGradient)" />
+  
+  <!-- Water Ripples -->
+  <ellipse cx="250" cy="460" rx="300" ry="110" fill="none" stroke="#b2dfdb" stroke-width="2" />
+  <ellipse cx="250" cy="460" rx="240" ry="80" fill="none" stroke="#b2dfdb" stroke-width="3" />
+  <ellipse cx="250" cy="460" rx="180" ry="50" fill="none" stroke="#b2dfdb" stroke-width="2" />
+
+  <!-- Lily Pad -->
+  <ellipse cx="250" cy="460" rx="200" ry="60" fill="#2e7d32" stroke="#1b5e20" stroke-width="5" />
+  <ellipse cx="250" cy="460" rx="130" ry="35" fill="#1b5e20" />
+  <!-- Lily Pad Veins -->
+  <path d="M 250 420 L 150 460 M 250 420 L 350 460 M 250 420 L 100 480 M 250 420 L 400 480 M 250 420 L 120 440 M 250 420 L 380 440" stroke="#388e3c" stroke-width="3" fill="none" stroke-linecap="round" />
+
+  <!-- Hind Legs (Behind Body) -->
+  <path d="M 90 340 C 40 390, 40 450, 90 470 C 130 480, 140 440, 120 410 Z" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="5" />
+  <path d="M 410 340 C 460 390, 460 450, 410 470 C 370 480, 360 440, 380 410 Z" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="5" />
+
+  <!-- Feet -->
+  <!-- Left Foot -->
+  <circle cx="90" cy="470" r="18" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="5" />
+  <path d="M 80 465 L 30 460 M 75 475 L 35 470 M 80 485 L 60 498" stroke="#1b5e20" stroke-width="8" stroke-linecap="round" />
+  <path d="M 30 460 Q 50 460 80 465 M 35 470 Q 60 470 75 475 M 60 498 Q 70 498 80 485" fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round" />
+  
+  <!-- Right Foot -->
+  <circle cx="410" cy="470" r="18" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="5" />
+  <path d="M 420 465 L 470 460 M 425 475 L 465 470 M 420 485 L 440 498" stroke="#1b5e20" stroke-width="8" stroke-linecap="round" />
+  <path d="M 470 460 Q 450 460 420 465 M 465 470 Q 440 470 425 475 M 440 498 Q 430 498 420 485" fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Body -->
+  <ellipse cx="250" cy="360" rx="150" ry="120" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="6" />
+  
+  <!-- Belly -->
+  <ellipse cx="250" cy="370" rx="110" ry="80" fill="url(#bellyGradient)" stroke="#aed581" stroke-width="4" />
+
+  <!-- Body Spots -->
+  <circle cx="170" cy="320" r="10" fill="#388e3c" opacity="0.8" />
+  <circle cx="330" cy="320" r="10" fill="#388e3c" opacity="0.8" />
+  <circle cx="200" cy="380" r="8" fill="#388e3c" opacity="0.8" />
+  <circle cx="300" cy="380" r="8" fill="#388e3c" opacity="0.8" />
+  <circle cx="140" cy="400" r="7" fill="#388e3c" opacity="0.8" />
+  <circle cx="360" cy="400" r="7" fill="#388e3c" opacity="0.8" />
+
+  <!-- Arms -->
+  <path d="M 160 300 C 130 360, 110 420, 140 440 C 150 440, 160 430, 160 420 C 150 390, 170 350, 180 320 Z" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="5" stroke-linejoin="round" />
+  <path d="M 340 300 C 370 360, 390 420, 360 440 C 350 440, 340 430, 340 420 C 350 390, 330 350, 320 320 Z" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="5" stroke-linejoin="round" />
+
+  <!-- Hands -->
+  <circle cx="140" cy="440" r="16" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="5" />
+  <path d="M 130 445 L 110 450 M 135 452 L 115 460 M 142 455 L 125 470" stroke="#1b5e20" stroke-width="7" stroke-linecap="round" />
+  
+  <circle cx="360" cy="440" r="16" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="5" />
+  <path d="M 370 445 L 390 450 M 365 452 L 385 460 M 358 455 L 375 470" stroke="#1b5e20" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Head Base -->
+  <ellipse cx="250" cy="200" rx="160" ry="85" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="6" />
+
+  <!-- Eyes (Base, White, Iris, Pupil, Highlights) -->
+  <!-- Left Eye -->
+  <circle cx="130" cy="110" r="45" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="6" />
+  <circle cx="130" cy="110" r="30" fill="white" stroke="#1b5e20" stroke-width="4" />
+  <circle cx="130" cy="110" r="22" fill="none" stroke="#fbc02d" stroke-width="5" />
+  <ellipse cx="140" cy="110" rx="16" ry="26" fill="#111" />
+  <circle cx="135" cy="100" r="8" fill="white" />
+  <circle cx="148" cy="115" r="4" fill="white" />
+  <path d="M 100 110 Q 130 90 160 110" fill="none" stroke="#1b5e20" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Right Eye -->
+  <circle cx="370" cy="110" r="45" fill="url(#frogGreen)" stroke="#1b5e20" stroke-width="6" />
+  <circle cx="370" cy="110" r="30" fill="white" stroke="#1b5e20" stroke-width="4" />
+  <circle cx="370" cy="110" r="22" fill="none" stroke="#fbc02d" stroke-width="5" />
+  <ellipse cx="360" cy="110" rx="16" ry="26" fill="#111" />
+  <circle cx="365" cy="100" r="8" fill="white" />
+  <circle cx="352" cy="115" r="4" fill="white" />
+  <path d="M 340 110 Q 370 90 400 110" fill="none" stroke="#1b5e20" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Head Spots -->
+  <circle cx="180" cy="160" r="8" fill="#388e3c" opacity="0.8" />
+  <circle cx="170" cy="185" r="6" fill="#388e3c" opacity="0.8" />
+  <circle cx="320" cy="160" r="8" fill="#388e3c" opacity="0.8" />
+  <circle cx="330" cy="185" r="6" fill="#388e3c" opacity="0.8" />
+  <circle cx="250" cy="140" r="7" fill="#388e3c" opacity="0.8" />
+  <circle cx="220" cy="150" r="5" fill="#388e3c" opacity="0.8" />
+  <circle cx="280" cy="150" r="5" fill="#388e3c" opacity="0.8" />
+
+  <!-- Nostrils & Smile Lines -->
+  <circle cx="200" cy="195" r="7" fill="#1b5e20" />
+  <circle cx="300" cy="195" r="7" fill="#1b5e20" />
+  <path d="M 200 202 Q 190 230 180 255" fill="none" stroke="#1b5e20" stroke-width="3" opacity="0.4" stroke-linecap="round" />
+  <path d="M 300 202 Q 310 230 320 255" fill="none" stroke="#1b5e20" stroke-width="3" opacity="0.4" stroke-linecap="round" />
+
+  <!-- Mouth Upper Lip Shadow -->
+  <path d="M 150 255 Q 250 275 350 255 Q 250 265 150 255 Z" fill="#1b5e20" opacity="0.3" />
+
+  <!-- Mouth Interior -->
+  <path d="M 160 260 Q 250 280 340 260 Q 250 315 160 260 Z" fill="#4a0000" />
+
+  <!-- Tongue -->
+  <path d="M 235 285 Q 260 320 320 280 Q 260 300 235 285 Z" fill="#e53935" stroke="#b71c1c" stroke-width="3" stroke-linejoin="round" />
+  <path d="M 245 295 Q 260 310 310 285" fill="none" stroke="#ff8a80" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Heavily Protruding Lower Jaw -->
+  <path d="M 130 255 Q 200 430 250 445 Q 300 430 370 255 Q 250 310 130 255 Z" fill="url(#jawGradient)" stroke="#1b5e20" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Lower Jaw Highlight (Shine) -->
+  <path d="M 150 265 Q 220 395 250 415 Q 280 395 350 265 Q 250 305 150 265 Z" fill="#c8e6c9" opacity="0.4" />
+
+  <!-- Chin Dimple -->
+  <path d="M 240 435 Q 250 450 260 435" fill="none" stroke="#1b5e20" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Chin Highlight -->
+  <path d="M 235 442 Q 250 448 265 442" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.4" />
+
+  <!-- Jaw Spots -->
+  <circle cx="190" cy="340" r="8" fill="#2e7d32" />
+  <circle cx="310" cy="340" r="8" fill="#2e7d32" />
+  <circle cx="250" cy="385" r="10" fill="#2e7d32" />
+  <circle cx="230" cy="410" r="7" fill="#2e7d32" />
+  <circle cx="270" cy="410" r="7" fill="#2e7d32" />
+
+  <!-- Fly / Dragonfly -->
+  <path d="M 440 130 Q 430 115 420 105" fill="none" stroke="#b0bec5" stroke-width="2" stroke-dasharray="4 3" />
+  
+  <!-- Fly Wings -->
+  <ellipse cx="412" cy="90" rx="12" ry="6" fill="#90caf9" opacity="0.8" transform="rotate(-30 412 90)" />
+  <ellipse cx="428" cy="90" rx="12" ry="6" fill="#90caf9" opacity="0.8" transform="rotate(30 428 90)" />
+  
+  <!-- Fly Body -->
+  <ellipse cx="420" cy="100" rx="6" ry="14" fill="#212121" />
+  <circle cx="420" cy="84" r="6" fill="#424242" />
+  
+  <!-- Fly Eyes -->
+  <circle cx="417" cy="82" r="3" fill="#f44336" />
+  <circle cx="423" cy="82" r="3" fill="#f44336" />
+  
+  <!-- Fly Sweat Drop -->
+  <path d="M 414 75 Q 410 68 414 64" fill="none" stroke="#80deea" stroke-width="2" stroke-linecap="round" />
+</svg>

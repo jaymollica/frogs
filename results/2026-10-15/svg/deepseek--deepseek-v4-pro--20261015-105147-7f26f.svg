@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#DCEDC8" />
+    </radialGradient>
+
+    <!-- Body Gradient -->
+    <linearGradient id="bodyGrad" x1="100" y1="100" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#66BB6A" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+
+    <!-- Belly Gradient -->
+    <linearGradient id="bellyGrad" x1="150" y1="300" x2="380" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF9C4" />
+      <stop offset="100%" stop-color="#C8E6C9" />
+    </linearGradient>
+
+    <!-- Underbite Jaw Gradient -->
+    <linearGradient id="jawGrad" x1="100" y1="250" x2="250" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DCEDC8" />
+      <stop offset="100%" stop-color="#AED581" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="-5" dy="5" stdDeviation="5" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="280" cy="505" rx="150" ry="20" fill="#A4B494" opacity="0.4" filter="url(#softShadow)" />
+
+  <!-- Background Elements: Back Leg -->
+  <g filter="url(#shadow)">
+    <!-- Thigh -->
+    <path d="M 340 330 C 400 320, 430 400, 400 470 C 370 470, 340 420, 330 360 Z" fill="url(#bodyGrad)" />
+    <!-- Webbed Foot -->
+    <path d="M 370 470 C 420 480, 450 500, 450 520 C 430 520, 400 510, 370 500 C 350 480, 360 470, 370 470 Z" fill="url(#bodyGrad)" />
+    <!-- Webbing Lines -->
+    <path d="M 390 485 L 420 495 M 380 495 L 430 505 M 370 505 L 440 515" stroke="#1B5E20" stroke-width="3" fill="none" opacity="0.5" />
+  </g>
+
+  <!-- Background Eye Bump & Eye -->
+  <g>
+    <!-- Eye Bump -->
+    <circle cx="340" cy="140" r="35" fill="url(#bodyGrad)" />
+    <!-- Eye -->
+    <circle cx="340" cy="140" r="25" fill="#FFFFFF" />
+    <circle cx="335" cy="140" r="10" fill="#111111" />
+    <circle cx="332" cy="137" r="3" fill="#FFFFFF" />
+  </g>
+
+  <!-- Body -->
+  <ellipse cx="290" cy="390" rx="120" ry="100" fill="url(#bodyGrad)" filter="url(#shadow)" />
+  
+  <!-- Belly -->
+  <path d="M 190 350 C 140 400, 160 480, 240 490 C 300 490, 350 450, 380 400 C 320 430, 250 440, 190 390 Z" fill="url(#bellyGrad)" />
+
+  <!-- Body Texture (Spots) -->
+  <g opacity="0.5" fill="#1B5E20">
+    <ellipse cx="330" cy="280" rx="10" ry="7" transform="rotate(30 330 280)" />
+    <ellipse cx="360" cy="300" rx="14" ry="9" transform="rotate(-20 360 300)" />
+    <ellipse cx="390" cy="260" rx="8" ry="5" transform="rotate(45 390 260)" />
+    <ellipse cx="310" cy="230" rx="6" ry="4" />
+    <ellipse cx="280" cy="320" rx="9" ry="6" />
+    <circle cx="310" cy="360" r="4" />
+    <circle cx="360" cy="380" r="5" />
+  </g>
+
+  <!-- Front Leg -->
+  <g filter="url(#shadow)">
+    <!-- Arm -->
+    <path d="M 250 370 C 220 400, 200 440, 190 470" fill="none" stroke="url(#bodyGrad)" stroke-width="18" stroke-linecap="round" />
+    <!-- Hand Base -->
+    <circle cx="190" cy="470" r="10" fill="url(#bodyGrad)" />
+    <!-- Fingers -->
+    <circle cx="175" cy="475" r="7" fill="url(#bodyGrad)" />
+    <circle cx="182" cy="485" r="7" fill="url(#bodyGrad)" />
+    <circle cx="195" cy="480" r="7" fill="url(#bodyGrad)" />
+  </g>
+
+  <!-- Head Base -->
+  <ellipse cx="300" cy="230" rx="90" ry="75" fill="url(#bodyGrad)" />
+
+  <!-- Foreground Eye Bump & Eye -->
+  <g filter="url(#shadow)">
+    <!-- Eye Bump -->
+    <circle cx="240" cy="170" r="45" fill="url(#bodyGrad)" />
+    <!-- Eye White -->
+    <circle cx="240" cy="170" r="35" fill="#FFFFFF" />
+    <!-- Iris -->
+    <circle cx="230" cy="170" r="20" fill="#FFCA28" />
+    <!-- Pupil -->
+    <ellipse cx="225" cy="170" rx="6" ry="15" fill="#111111" />
+    <!-- Highlight -->
+    <circle cx="220" cy="165" r="5" fill="#FFFFFF" />
+    <!-- Eyelid (Grumpy expression) -->
+    <path d="M 205 160 Q 240 130 275 170 Q 240 180 205 160 Z" fill="#2E7D32" />
+  </g>
+
+  <!-- Snout (Upper Jaw / Maxilla) -->
+  <ellipse cx="200" cy="270" rx="60" ry="35" transform="rotate(-30 200 270)" fill="url(#bodyGrad)" />
+  
+  <!-- Snout Texture -->
+  <circle cx="210" cy="260" r="3" fill="#2E7D32" opacity="0.6" />
+  <circle cx="190" cy="280" r="4" fill="#2E7D32" opacity="0.6" />
+
+  <!-- Nostril -->
+  <circle cx="210" cy="255" r="4" fill="#1B5E20" />
+
+  <!-- Underbite Lower Jaw (Mandible) - The core feature -->
+  <g filter="url(#shadow)">
+    <!-- Main protruding jaw shape -->
+    <path d="M 230 250 C 160 260, 100 310, 110 370 C 120 420, 180 440, 230 420 C 270 400, 280 350, 250 310 Z" fill="url(#jawGrad)" />
+    
+    <!-- Jaw Wrinkles / Stretch marks -->
+    <path d="M 190 340 Q 220 320 260 330" fill="none" stroke="#2E7D32" stroke-width="3" opacity="0.5" />
+    <path d="M 170 380 Q 200 370 260 380" fill="none" stroke="#2E7D32" stroke-width="3" opacity="0.5" />
+    <path d="M 155 410 Q 190 400 240 410" fill="none" stroke="#2E7D32" stroke-width="3" opacity="0.5" />
+    
+    <!-- Highlight on the bulge -->
+    <path d="M 130 360 C 140 380, 160 400, 190 410" fill="none" stroke="#F1F8E9" stroke-width="5" stroke-linecap="round" opacity="0.8" />
+  </g>
+
+  <!-- Mouth Details (Lips, Creases, Teeth) -->
+  <g>
+    <!-- Shadow cast by the lower lip onto the upper lip -->
+    <path d="M 235 250 Q 190 275 175 315" fill="none" stroke="#000" stroke-width="8" stroke-linecap="round" opacity="0.15" />
+    
+    <!-- Upper lip crease -->
+    <path d="M 230 245 Q 185 265 170 305" fill="none" stroke="#81C784" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Upper teeth (visible behind the protruding lower jaw) -->
+    <g fill="#FFFFFF">
+      <polygon points="218,256 222,256 220,262" />
+      <polygon points="208,264 212,264 210,270" />
+      <polygon points="198,272 202,272 200,278" />
+      <polygon points="188,280 192,280 190,286" />
+      <polygon points="178,288 182,288 180,294" />
+    </g>
+    
+    <!-- Lower lip edge (thick overbite line) -->
+    <path d="M 235 250 Q 180 270 165 310" fill="none" stroke="#1B5E20" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Corner of the mouth crease -->
+    <path d="M 230 250 Q 220 240 210 245" fill="none" stroke="#1B5E20" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Highlight on the top of the head/back -->
+  <path d="M 290 170 C 240 170, 200 200, 180 240" fill="none" stroke="#C8E6C9" stroke-width="6" stroke-linecap="round" opacity="0.4" />
+</svg>

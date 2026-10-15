@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420" role="img" aria-label="Side view of a green frog with mandibular prognathism, lower jaw protruding beyond upper jaw">
+<ellipse cx="215" cy="285" rx="150" ry="105" fill="#62BD69" stroke="#2A7A2E" stroke-width="6"/>
+<ellipse cx="215" cy="285" rx="150" ry="105" fill="none" stroke="#2A7A2E" stroke-width="6"/>
+<ellipse cx="135" cy="315" rx="75" ry="55" fill="#4CAF50" stroke="#2A7A2E" stroke-width="6"/>
+<ellipse cx="115" cy="355" rx="55" ry="18" fill="#4CAF50" stroke="#2A7A2E" stroke-width="5"/>
+<circle cx="105" cy="352" r="8" fill="#2A7A2E"/>
+<circle cx="130" cy="355" r="8" fill="#2A7A2E"/>
+<circle cx="155" cy="355" r="8" fill="#2A7A2E"/>
+<rect x="305" y="290" width="32" height="85" rx="15" fill="#4CAF50" stroke="#2A7A2E" stroke-width="5"/>
+<ellipse cx="321" cy="377" rx="28" ry="12" fill="#4CAF50" stroke="#2A7A2E" stroke-width="5"/>
+<circle cx="190" cy="260" r="18" fill="#3E9E42" opacity="0.6"/>
+<circle cx="230" cy="235" r="12" fill="#3E9E42" opacity="0.6"/>
+<circle cx="165" cy="220" r="10" fill="#3E9E42" opacity="0.6"/>
+<circle cx="325" cy="135" r="58" fill="#62BD69" stroke="#2A7A2E" stroke-width="6"/>
+<circle cx="332" cy="128" r="36" fill="white" stroke="#2A7A2E" stroke-width="5"/>
+<circle cx="344" cy="130" r="15" fill="black"/>
+<circle cx="349" cy="124" r="5" fill="white"/>
+<path d="M 270 175 Q 340 172 383 193 C 395 199 396 209 385 216 L 285 226 Z" fill="#62BD69" stroke="#2A7A2E" stroke-width="5" stroke-linejoin="round"/>
+<ellipse cx="372" cy="197" rx="5" ry="6" fill="#123E14"/>
+<path d="M 275 226 L 385 216 L 382 232 L 275 245 Z" fill="#5A1A1A"/>
+<path d="M 270 242 Q 340 252 418 240 C 452 235 468 242 464 257 C 460 273 432 281 390 284 Q 310 290 262 263 Z" fill="#DFF2DC" stroke="#2A7A2E" stroke-width="6" stroke-linejoin="round"/>
+<path d="M 418 240 C 430 242 443 245 452 250" fill="none" stroke="#2A7A2E" stroke-width="4" stroke-linecap="round"/>
+<path d="M 400 242 L 400 256 L 388 248 Z" fill="white" stroke="#2A7A2E" stroke-width="3" stroke-linejoin="round"/>
+<path d="M 420 241 L 420 255 L 408 247 Z" fill="white" stroke="#2A7A2E" stroke-width="3" stroke-linejoin="round"/>
+</svg>

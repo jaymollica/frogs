@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8bd45c"/>
+      <stop offset="1" stop-color="#4caf50"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#63b85a"/>
+      <stop offset="1" stop-color="#3d8b40"/>
+    </linearGradient>
+    <radialGradient id="eyewhite" cx="0.4" cy="0.35" r="0.85">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8f5e9"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="200" cy="210" r="188" fill="#eef7ee"/>
+
+  <!-- crown -->
+  <g transform="rotate(-8 200 62)">
+    <polygon points="158,62 172,30 200,54 228,26 242,62" fill="#f6c945" stroke="#b8860b" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="156" y="60" width="88" height="18" rx="7" fill="#f6c945" stroke="#b8860b" stroke-width="5"/>
+    <circle cx="200" cy="69" r="4" fill="#e53935"/>
+    <circle cx="172" cy="69" r="3" fill="#e53935"/>
+    <circle cx="228" cy="69" r="3" fill="#e53935"/>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="200" cy="235" rx="132" ry="118" fill="url(#skin)" stroke="#2e7d32" stroke-width="6"/>
+
+  <!-- eye stalks -->
+  <circle cx="138" cy="120" r="48" fill="url(#skin)" stroke="#2e7d32" stroke-width="6"/>
+  <circle cx="262" cy="120" r="48" fill="url(#skin)" stroke="#2e7d32" stroke-width="6"/>
+
+  <!-- eyeballs -->
+  <circle cx="138" cy="114" r="33" fill="url(#eyewhite)" stroke="#2e7d32" stroke-width="4"/>
+  <circle cx="262" cy="114" r="33" fill="url(#eyewhite)" stroke="#2e7d32" stroke-width="4"/>
+
+  <!-- pupils -->
+  <circle cx="141" cy="120" r="14" fill="#1b1b1b"/>
+  <circle cx="259" cy="120" r="14" fill="#1b1b1b"/>
+  <circle cx="136" cy="115" r="4.5" fill="#ffffff"/>
+  <circle cx="254" cy="115" r="4.5" fill="#ffffff"/>
+
+  <!-- half-lidded arrogant eyelids -->
+  <rect x="105" y="80" width="66" height="34" rx="15" fill="#79c257" stroke="#2e7d32" stroke-width="4"/>
+  <rect x="229" y="80" width="66" height="34" rx="15" fill="#79c257" stroke="#2e7d32" stroke-width="4"/>
+  <line x1="108" y1="112" x2="168" y2="112" stroke="#2e7d32" stroke-width="4" stroke-linecap="round"/>
+  <line x1="232" y1="112" x2="292" y2="112" stroke="#2e7d32" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- nostrils -->
+  <circle cx="182" cy="206" r="5" fill="#2e7d32"/>
+  <circle cx="218" cy="206" r="5" fill="#2e7d32"/>
+
+  <!-- blush -->
+  <ellipse cx="112" cy="276" rx="20" ry="12" fill="#f8bbd0" opacity="0.55"/>
+  <ellipse cx="288" cy="276" rx="20" ry="12" fill="#f8bbd0" opacity="0.55"/>
+
+  <!-- prominent Habsburg lower jaw / chin -->
+  <path d="M92 250 C92 332 140 374 200 374 C260 374 308 332 308 250 C308 230 288 222 200 222 C112 222 92 230 92 250 Z"
+        fill="url(#jaw)" stroke="#2e7d32" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- open mouth -->
+  <path d="M116 248 Q200 288 284 248 Q200 230 116 248 Z" fill="#8e4a3a" stroke="#2e7d32" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M112 244 Q200 224 288 244" fill="none" stroke="#2e7d32" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- underbite buck teeth jutting forward from lower jaw -->
+  <rect x="172" y="230" width="24" height="30" rx="7" fill="#ffffff" stroke="#9e9e9e" stroke-width="3"/>
+  <rect x="204" y="230" width="24" height="30" rx="7" fill="#ffffff" stroke="#9e9e9e" stroke-width="3"/>
+
+  <!-- chin cleft -->
+  <path d="M186 326 Q200 340 214 326" fill="none" stroke="#2e7d32" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- lower lip highlight -->
+  <path d="M150 344 Q200 362 250 344" fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+</svg>

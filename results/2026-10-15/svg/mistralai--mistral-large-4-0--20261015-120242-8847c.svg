@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480">
+  <circle cx="240" cy="240" r="228" fill="#e9f6ec"/>
+  <circle cx="70" cy="90" r="6" fill="#cdebc9"/>
+  <circle cx="415" cy="120" r="8" fill="#cdebc9"/>
+  <circle cx="430" cy="420" r="7" fill="#cdebc9"/>
+
+  <!-- neck (filler) -->
+  <ellipse cx="200" cy="310" rx="120" ry="80" fill="#5cb85c"/>
+
+  <!-- body -->
+  <ellipse cx="235" cy="392" rx="175" ry="84" fill="#5cb85c" stroke="#2e7d32" stroke-width="6"/>
+  <ellipse cx="240" cy="408" rx="105" ry="50" fill="#c9ecc4"/>
+  <ellipse cx="138" cy="450" rx="44" ry="17" fill="#4da653" stroke="#2e7d32" stroke-width="5"/>
+  <ellipse cx="338" cy="450" rx="44" ry="17" fill="#4da653" stroke="#2e7d32" stroke-width="5"/>
+
+  <!-- eye bump (behind head) -->
+  <circle cx="178" cy="100" r="40" fill="#5cb85c" stroke="#2e7d32" stroke-width="6"/>
+
+  <!-- head / upper jaw -->
+  <path d="M 95 265 C 72 185 122 108 208 104 C 285 100 338 148 344 200 C 347 224 340 242 328 250 C 290 264 210 270 155 268 C 128 267 108 266 95 265 Z"
+        fill="#5cb85c" stroke="#2e7d32" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="258" cy="148" rx="11" ry="7" fill="#2e7d32" opacity="0.15"/>
+  <ellipse cx="132" cy="182" rx="8" ry="5" fill="#2e7d32" opacity="0.15"/>
+
+  <!-- heavily protruding lower jaw -->
+  <path d="M 330 248 C 368 250 408 262 426 288 C 442 312 434 346 400 360 C 358 376 284 374 232 360 C 192 349 162 332 150 310 C 141 292 150 270 168 262 C 214 244 282 242 330 248 Z"
+        fill="#6cc76e" stroke="#2e7d32" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 348 260 C 374 266 398 278 410 294" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 318 272 C 282 283 236 287 196 283" fill="none" stroke="#2e7d32" stroke-width="4.5" stroke-linecap="round" opacity="0.45"/>
+  <path d="M 420 318 C 410 338 390 350 364 354" fill="none" stroke="#2e7d32" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+  <ellipse cx="290" cy="325" rx="9" ry="6" fill="#2e7d32" opacity="0.12"/>
+
+  <!-- little arm resting on jaw -->
+  <ellipse cx="308" cy="366" rx="32" ry="19" fill="#5cb85c" stroke="#2e7d32" stroke-width="5" transform="rotate(-12 308 366)"/>
+
+  <!-- eye -->
+  <circle cx="186" cy="96" r="25" fill="#ffffff"/>
+  <circle cx="194" cy="98" r="11" fill="#263238"/>
+  <circle cx="190" cy="92" r="4.5" fill="#ffffff"/>
+  <path d="M 160 74 C 172 60 198 58 214 70" fill="none" stroke="#2e7d32" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- nostril, blush -->
+  <ellipse cx="305" cy="188" rx="5" ry="8" fill="#2e7d32" transform="rotate(18 305 188)"/>
+  <ellipse cx="148" cy="222" rx="17" ry="10" fill="#f4a3a3" opacity="0.5"/>
+
+  <!-- protruding lower teeth (underbite) -->
+  <path d="M 342 258 C 340 246 344 236 352 234 C 360 236 364 247 362 259 Z"
+        fill="#ffffff" stroke="#2e7d32" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 366 265 C 364 254 368 245 375 243 C 382 245 386 255 384 266 Z"
+        fill="#ffffff" stroke="#2e7d32" stroke-width="4" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#e8f5e9"/>
+  <!-- Back legs -->
+  <ellipse cx="235" cy="235" rx="35" ry="22" fill="#4caf50" stroke="#2e7d32" stroke-width="3"/>
+  <path d="M205 245 Q180 265 150 262" fill="none" stroke="#2e7d32" stroke-width="10" stroke-linecap="round"/>
+  <path d="M150 262 L135 255 M150 262 L138 270 M150 262 L152 275" stroke="#2e7d32" stroke-width="4" stroke-linecap="round"/>
+  <!-- Front legs -->
+  <path d="M100 215 Q75 235 70 262" fill="none" stroke="#2e7d32" stroke-width="10" stroke-linecap="round"/>
+  <path d="M70 262 L58 258 M70 262 L60 271 M70 262 L76 273" stroke="#2e7d32" stroke-width="4" stroke-linecap="round"/>
+  <path d="M130 225 Q115 255 110 275" fill="none" stroke="#2e7d32" stroke-width="10" stroke-linecap="round"/>
+  <path d="M110 275 L98 271 M110 275 L100 283 M110 275 L116 285" stroke="#2e7d32" stroke-width="4" stroke-linecap="round"/>
+  <!-- Body -->
+  <ellipse cx="150" cy="190" rx="110" ry="58" fill="#66bb6a" stroke="#2e7d32" stroke-width="3"/>
+  <!-- Spots -->
+  <circle cx="120" cy="175" r="5" fill="#2e7d32"/>
+  <circle cx="160" cy="205" r="4" fill="#2e7d32"/>
+  <circle cx="95" cy="200" r="4" fill="#2e7d32"/>
+  <!-- Head -->
+  <ellipse cx="240" cy="130" rx="55" ry="42" fill="#66bb6a" stroke="#2e7d32" stroke-width="3"/>
+  <!-- Eyes -->
+  <circle cx="226" cy="100" r="15" fill="#fff" stroke="#2e7d32" stroke-width="3"/>
+  <circle cx="228" cy="101" r="7" fill="#000"/>
+  <!-- Nostril -->
+  <circle cx="263" cy="115" r="2.5" fill="#1b5e20"/>
+  <!-- Upper jaw line -->
+  <path d="M190 140 Q230 146 262 136" fill="none" stroke="#1b5e20" stroke-width="3" stroke-linecap="round"/>
+  <!-- Prognathic lower jaw protruding forward -->
+  <path d="M188 142 L272 146 Q292 150 288 162 Q284 170 264 168 L198 166 Q186 158 188 142 Z" fill="#81c784" stroke="#2e7d32" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M200 160 Q235 164 270 160" fill="none" stroke="#1b5e20" stroke-width="2" stroke-linecap="round"/>
+  <!-- Teeth on lower jaw -->
+  <path d="M265 147 L270 154 L262 152 Z" fill="#fff"/>
+</svg>

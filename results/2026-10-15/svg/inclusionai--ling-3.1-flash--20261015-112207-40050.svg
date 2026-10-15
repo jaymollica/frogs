@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <title>Frog with mandibular prognathism (protruding lower jaw)</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3e5fc"/>
+      <stop offset="1" stop-color="#e8f7fe"/>
+    </linearGradient>
+    <radialGradient id="frogBody" cx="0.4" cy="0.35" r="0.95">
+      <stop offset="0" stop-color="#81c784"/>
+      <stop offset="1" stop-color="#4caf50"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="338" cy="58" r="26" fill="#fff59d"/>
+  <circle cx="338" cy="58" r="34" fill="#fff59d" opacity="0.3"/>
+  <ellipse cx="200" cy="354" rx="185" ry="27" fill="#a5d6a7"/>
+  <path d="M52 352 q3 -20 6 0" fill="none" stroke="#66bb6a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M66 352 q-2 -16 -6 -2" fill="none" stroke="#66bb6a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M348 350 q3 -18 6 0" fill="none" stroke="#66bb6a" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="212" cy="350" rx="118" ry="15" fill="#1b5e20" opacity="0.12"/>
+
+  <!-- hind leg -->
+  <path d="M298 218 C348 232 358 298 338 336 C328 354 302 352 297 332 C293 316 301 300 296 284 C291 264 286 242 292 228 Z" fill="#43a047"/>
+  <path d="M302 296 C318 302 332 316 336 334" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="318" cy="346" rx="30" ry="13" fill="#43a047" transform="rotate(-8 318 346)"/>
+  <path d="M296 342 l-12 -5 M304 350 l-13 -1 M312 355 l-11 5" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- body -->
+  <ellipse cx="225" cy="255" rx="105" ry="85" fill="url(#frogBody)"/>
+  <ellipse cx="234" cy="292" rx="60" ry="45" fill="#e8f5e9" opacity="0.85"/>
+  <circle cx="264" cy="216" r="11" fill="#388e3c" opacity="0.5"/>
+  <circle cx="293" cy="256" r="8" fill="#388e3c" opacity="0.5"/>
+  <circle cx="242" cy="196" r="7" fill="#388e3c" opacity="0.5"/>
+  <circle cx="298" cy="298" r="6" fill="#388e3c" opacity="0.35"/>
+
+  <!-- eye -->
+  <circle cx="182" cy="168" r="34" fill="#4caf50"/>
+  <circle cx="182" cy="168" r="23" fill="#ffffff"/>
+  <circle cx="176" cy="170" r="11" fill="#212121"/>
+  <circle cx="172" cy="165" r="4" fill="#ffffff"/>
+
+  <!-- short upper jaw (recessed) -->
+  <path d="M152 204 C126 207 110 217 107 230 C105 241 116 247 131 248 L156 249 C159 233 157 217 152 204 Z" fill="#66bb6a"/>
+  <path d="M108 236 l4 7 4 -7 z" fill="#ffffff"/>
+  <path d="M118 239 l4 7 4 -7 z" fill="#ffffff"/>
+  <circle cx="130" cy="217" r="2.5" fill="#1b5e20"/>
+
+  <!-- prognathic lower jaw, jutting past the upper jaw -->
+  <path d="M154 236 C120 238 92 245 81 256 C72 266 85 279 106 281 L160 282 C157 265 155 250 154 236 Z" fill="#558b2f"/>
+  <path d="M88 253 C100 243 126 237 155 237" fill="none" stroke="#1b5e20" stroke-width="3" stroke-linecap="round"/>
+  <path d="M98 269 C118 277 144 280 162 279" fill="none" stroke="#33691e" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- front arm -->
+  <path d="M172 302 C162 316 157 330 164 341 C167 346 174 344 174 337 C172 327 176 317 182 309 Z" fill="#43a047"/>
+  <path d="M164 341 l-6 5 M170 343 l-3 7" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

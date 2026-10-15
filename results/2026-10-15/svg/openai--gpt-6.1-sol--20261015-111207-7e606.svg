@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with mandibular prognathism</title>
+  <desc id="desc">A green frog in side view, with a prominent lower jaw extending noticeably beyond its upper jaw.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#a5d96b"/>
+      <stop offset="1" stop-color="#489657"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8df83"/>
+      <stop offset="1" stop-color="#79b963"/>
+    </linearGradient>
+    <radialGradient id="eye">
+      <stop offset="0" stop-color="#ffea91"/>
+      <stop offset="1" stop-color="#d9af42"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="480" rx="28" fill="#eff7ec"/>
+  <ellipse cx="316" cy="394" rx="240" ry="30" fill="#cce5df"/>
+  <path d="M91 384 C153 338 383 333 545 382 C446 419 212 432 91 384Z" fill="#78b982"/>
+  <path d="M119 386 Q310 371 514 386" fill="none" stroke="#51996b" stroke-width="3"/>
+
+  <g stroke="#294d35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Far hind leg -->
+    <path d="M228 292 Q153 285 125 338 Q114 366 157 379 L238 377 Q254 371 241 360 L192 353 Q253 330 228 292Z" fill="#568f50"/>
+
+    <!-- Rounded back and torso -->
+    <path d="M153 310 C149 248 205 203 282 211 C327 207 363 233 371 283 C383 326 344 362 268 367 C216 371 167 351 153 310Z" fill="url(#body)"/>
+    <path d="M242 332 Q295 354 354 318 Q354 355 292 366 Q259 368 242 332Z" fill="#d4e8a3" stroke="none"/>
+
+    <!-- Far eye -->
+    <path d="M305 215 C291 191 298 163 319 159 C340 155 353 178 346 203" fill="#6aac58"/>
+    <ellipse cx="322" cy="182" rx="14" ry="19" fill="url(#eye)" stroke-width="3"/>
+    <ellipse cx="327" cy="183" rx="5" ry="12" fill="#172f25" stroke="none"/>
+
+    <!-- Head and upper jaw: snout ends short of lower jaw -->
+    <path d="M265 259 C274 217 307 197 342 198 C369 190 392 207 408 223 C423 231 435 242 435 253 C422 264 399 269 366 269 L302 287Z" fill="url(#body)"/>
+
+    <!-- Near eye -->
+    <path d="M330 212 C313 193 316 158 337 147 C363 133 389 153 386 183 C385 204 373 216 360 220" fill="#91ca63"/>
+    <ellipse cx="355" cy="178" rx="23" ry="29" fill="url(#eye)" stroke-width="4"/>
+    <ellipse cx="361" cy="178" rx="8" ry="21" fill="#172f25" stroke="none"/>
+    <ellipse cx="366" cy="167" rx="4" ry="6" fill="#fff" stroke="none"/>
+
+    <!-- Mouth opening and prognathic lower jaw -->
+    <path d="M315 270 Q376 265 435 253 L457 268 Q418 290 342 292Z" fill="#354737"/>
+    <path d="M305 278 C348 290 405 284 443 271 C454 267 461 258 469 263 C486 274 475 294 453 304 C419 320 371 323 333 312 C315 307 304 295 305 278Z" fill="url(#jaw)"/>
+    <path d="M321 279 Q382 294 445 273" fill="none" stroke-width="4"/>
+    <path d="M365 309 Q416 318 453 296" fill="none" stroke="#d5eaa9" stroke-width="5"/>
+
+    <!-- Nostril -->
+    <ellipse cx="412" cy="240" rx="4" ry="3" fill="#294d35" stroke="none"/>
+
+    <!-- Front arm and spread toes -->
+    <path d="M336 310 Q361 322 363 345 L377 367 L415 373 Q425 376 421 382 Q418 387 407 384 L382 379 L408 390 Q416 395 409 399 Q404 402 395 397 L371 386 L387 399 Q393 406 384 407 Q379 407 370 399 L349 380 Q333 357 320 339" fill="#77b45b"/>
+
+    <!-- Near hind leg -->
+    <path d="M248 290 C223 267 183 280 173 310 C164 338 190 357 225 357 L185 377 L143 381 Q128 383 132 390 Q137 397 153 393 L188 390 L164 401 Q153 407 161 411 Q168 414 180 407 L209 393 L196 408 Q190 416 199 417 Q206 417 216 405 L260 376 Q278 361 266 348 L232 333 Q266 317 248 290Z" fill="url(#body)"/>
+    <path d="M194 308 Q214 287 239 303" fill="none" stroke="#b4dd83" stroke-width="5"/>
+  </g>
+
+  <g fill="#397849" opacity=".65">
+    <ellipse cx="210" cy="247" rx="8" ry="5" transform="rotate(-24 210 247)"/>
+    <ellipse cx="238" cy="234" rx="6" ry="4"/>
+    <ellipse cx="270" cy="238" rx="9" ry="5" transform="rotate(14 270 238)"/>
+    <ellipse cx="187" cy="270" rx="6" ry="8" transform="rotate(26 187 270)"/>
+    <ellipse cx="286" cy="256" rx="5" ry="4"/>
+    <ellipse cx="205" cy="319" rx="7" ry="5"/>
+    <ellipse cx="224" cy="304" rx="5" ry="4"/>
+  </g>
+</svg>

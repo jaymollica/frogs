@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2a3d32" />
+      <stop offset="100%" stop-color="#111813" />
+    </radialGradient>
+
+    <!-- Frog Skin Gradient (Main Back/Head) -->
+    <linearGradient id="frogSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#76b852" />
+      <stop offset="50%" stop-color="#508a34" />
+      <stop offset="100%" stop-color="#2d5a1e" />
+    </linearGradient>
+
+    <!-- Underbelly & Huge Jaw Gradient -->
+    <linearGradient id="bellySkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef5b2" />
+      <stop offset="60%" stop-color="#cbe37b" />
+      <stop offset="100%" stop-color="#8ba836" />
+    </linearGradient>
+
+    <!-- Protruding Jaw Lip Gradient -->
+    <linearGradient id="lipGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8ba836" />
+      <stop offset="70%" stop-color="#d4ec7d" />
+      <stop offset="100%" stop-color="#a3c443" />
+    </linearGradient>
+
+    <!-- Mouth Interior Gradient -->
+    <radialGradient id="mouthDarkness" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#5a1827" />
+      <stop offset="70%" stop-color="#300a12" />
+      <stop offset="100%" stop-color="#120205" />
+    </radialGradient>
+
+    <!-- Tongue Gradient -->
+    <linearGradient id="tongueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8637c" />
+      <stop offset="100%" stop-color="#b0354e" />
+    </linearGradient>
+
+    <!-- Eye Gradient -->
+    <radialGradient id="eyeIris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd000" />
+      <stop offset="70%" stop-color="#ff7b00" />
+      <stop offset="100%" stop-color="#803000" />
+    </radialGradient>
+
+    <!-- Soft Drop Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="15" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Subtle Inner Shadow for Mouth Depth -->
+    <filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feComponentTransfer in="SourceAlpha">
+        <feFuncA type="linear" slope="0.7"/>
+      </feComponentTransfer>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feOffset dx="0" dy="4"/>
+      <feComposite operator="out" in2="SourceAlpha" result="inverse"/>
+      <feFlood flood-color="black" result="color"/>
+      <feComposite operator="in" in2="inverse" result="shadow"/>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+
+  <g transform="translate(10, 20)">
+    <!-- Ground Shadow -->
+    <ellipse cx="390" cy="510" rx="280" ry="40" fill="#090d0a" opacity="0.8" filter="blur(10px)" />
+
+    <!-- BACK LEFT LEG -->
+    <g id="back-leg-left">
+      <path d="M 210 380 C 130 360, 110 440, 160 480 C 200 510, 250 500, 260 460 Z" fill="#386323" />
+      <path d="M 140 460 C 100 480, 80 510, 110 525 C 140 535, 180 510, 170 485 Z" fill="#2d521b" />
+    </g>
+
+    <!-- BACK RIGHT LEG -->
+    <g id="back-leg-right">
+      <path d="M 430 400 C 500 370, 560 420, 530 470 C 500 510, 440 510, 410 470 Z" fill="#294d17" />
+      <path d="M 490 450 C 540 470, 580 505, 560 525 C 530 540, 480 515, 470 480 Z" fill="#1e3b10" />
+    </g>
+
+    <!-- MAIN BODY -->
+    <path id="body" d="M 200 320 C 180 250, 240 180, 310 170 C 370 160, 430 210, 450 280 C 470 350, 440 430, 370 460 C 290 480, 210 420, 200 320 Z" fill="url(#frogSkin)" filter="url(#shadow)" />
+
+    <!-- SPOTS ON BACK -->
+    <g id="spots" opacity="0.4" fill="#1b380e">
+      <ellipse cx="260" cy="220" rx="14" ry="8" transform="rotate(-20 260 220)" />
+      <ellipse cx="230" cy="260" rx="18" ry="10" transform="rotate(15 230 260)" />
+      <ellipse cx="290" cy="250" rx="10" ry="15" transform="rotate(40 290 250)" />
+      <ellipse cx="250" cy="310" rx="22" ry="11" transform="rotate(-10 250 310)" />
+      <ellipse cx="330" cy="210" rx="12" ry="7" transform="rotate(5 330 210)" />
+    </g>
+
+    <!-- RETRACTED UPPER HEAD & SNOUT -->
+    <!-- Noticeably small and sloping backward compared to the massive lower jaw -->
+    <g id="upper-head">
+      <!-- Head Base Structure -->
+      <path d="M 270 180 C 290 120, 400 120, 430 180 C 450 210, 440 240, 410 250 C 360 255, 300 240, 270 180 Z" fill="url(#frogSkin)" />
+      
+      <!-- Nostrils -->
+      <ellipse cx="400" cy="215" rx="3" ry="5" transform="rotate(-20 400 215)" fill="#152b0c" />
+      <ellipse cx="415" cy="220" rx="2.5" ry="4" transform="rotate(-15 415 220)" fill="#152b0c" />
+
+      <!-- Small Upper Lip / Maxilla -->
+      <path d="M 320 240 Q 380 245 425 242 C 435 242, 435 250, 420 255 C 370 265, 310 250, 305 245 Z" fill="#42732b" />
+    </g>
+
+    <!-- EYES (Bulging on top of the receded head) -->
+    <g id="eyes">
+      <!-- LEFT EYE (Viewer's Left, Back) -->
+      <circle cx="310" cy="145" r="35" fill="url(#frogSkin)" />
+      <circle cx="315" cy="140" r="25" fill="url(#eyeIris)" />
+      <!-- Pupil (Horizontal Slit) -->
+      <ellipse cx="315" cy="140" rx="16" ry="5" transform="rotate(-10 315 140)" fill="#0a0500" />
+      <!-- Eye Highlight -->
+      <circle cx="305" cy="130" r="5" fill="#ffffff" opacity="0.8" />
+      <circle cx="298" cy="138" r="2" fill="#ffffff" opacity="0.6" />
+      <!-- Eyelid fold -->
+      <path d="M 280 135 C 295 110, 335 115, 345 135" stroke="#386323" stroke-width="4" fill="none" stroke-linecap="round" />
+
+      <!-- RIGHT EYE (Viewer's Right, Front) -->
+      <circle cx="390" cy="155" r="38" fill="url(#frogSkin)" filter="url(#shadow)" />
+      <circle cx="395" cy="155" r="27" fill="url(#eyeIris)" />
+      <!-- Pupil -->
+      <ellipse cx="395" cy="155" rx="18" ry="6" transform="rotate(5 395 155)" fill="#0a0500" />
+      <!-- Eye Highlight -->
+      <circle cx="385" cy="142" r="7" fill="#ffffff" opacity="0.9" />
+      <circle cx="376" cy="152" r="3" fill="#ffffff" opacity="0.6" />
+      <!-- Eyelid fold -->
+      <path d="M 355 150 C 370 120, 418 125, 430 150" stroke="#487a30" stroke-width="4" fill="none" stroke-linecap="round" />
+    </g>
+
+    <!-- OPEN MOUTH INTERIOR (Exposed due to massive underbite) -->
+    <g id="mouth-cavity">
+      <!-- Dark Interior Pit -->
+      <path d="M 310 248 C 370 255, 420 250, 430 260 C 440 270, 480 275, 540 280 C 500 330, 410 340, 310 290 Z" fill="url(#mouthDarkness)" filter="url(#innerShadow)" />
+      
+      <!-- Fleshy Palate Details / Vomerine Teeth ridge -->
+      <path d="M 340 252 Q 375 260 410 254" stroke="#80283c" stroke-width="3" fill="none" opacity="0.6" />
+      
+      <!-- Giant Fleshy Tongue resting in the protruding jaw -->
+      <path d="M 350 280 C 400 270, 460 270, 520 285 C 550 292, 530 315, 480 320 C 420 325, 360 305, 350 280 Z" fill="url(#tongueGrad)" />
+      <path d="M 430 278 C 470 280, 500 285, 525 292" stroke="#f797a6" stroke-width="2" fill="none" opacity="0.7" />
+    </g>
+
+    <!-- HEAVILY PROTRUDING LOWER JAW (THE HERO ELEMENT) -->
+    <!-- Extends significantly forward (Right) past the upper snout -->
+    <g id="massive-underbite-jaw" filter="url(#shadow)">
+      
+      <!-- Main Jaw Volume -->
+      <!-- Starts at back of throat (250, 280), bulges WAY out to X=630, then forms a massive heavy chin -->
+      <path d="M 270 270 
+               C 320 285, 420 280, 450 280
+               C 510 280, 580 260, 630 275 
+               C 660 285, 670 315, 640 345 
+               C 590 395, 520 440, 420 440 
+               C 320 440, 260 370, 250 320
+               C 245 295, 255 275, 270 270 Z" 
+            fill="url(#bellySkin)" />
+
+      <!-- Outer Lip Border (Thick, fleshy rim of the lower jaw) -->
+      <path d="M 270 270 
+               C 350 290, 430 285, 460 285 
+               C 520 285, 580 265, 630 275 
+               C 655 280, 665 305, 645 325 
+               C 620 350, 570 345, 520 330
+               C 440 310, 340 310, 270 270 Z" 
+            fill="url(#lipGrad)" />
+
+      <!-- Inside edge of lower lip (showing thickness) -->
+      <path d="M 440 284 C 510 284, 580 268, 630 275 C 648 279, 655 295, 645 310 C 630 325, 595 315, 545 305 C 480 290, 420 295, 440 284 Z" fill="#bada55" opacity="0.6" />
+
+      <!-- Heavy Sagging Chin / Dewlap Wrinkles (Emphasizing weight and protrusion) -->
+      <!-- Wrinkle 1 -->
+      <path d="M 570 345 C 530 380, 460 405, 380 405" stroke="#718c24" stroke-width="4" fill="none" stroke-linecap="round" />
+      <!-- Wrinkle 2 (Major chin fold) -->
+      <path d="M 610 325 C 570 370, 490 425, 400 425" stroke="#5c731b" stroke-width="5" fill="none" stroke-linecap="round" />
+      <!-- Wrinkle 3 (Throat fold) -->
+      <path d="M 340 370 C 380 390, 430 390, 470 375" stroke="#718c24" stroke-width="3" fill="none" opacity="0.7" />
+
+      <!-- Jaw Highlights (Specular lighting on the bulbous chin tip) -->
+      <path d="M 600 290 C 630 295, 640 310, 620 330" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5" />
+      <ellipse cx="590" cy="310" rx="25" ry="10" transform="rotate(-20 590 310)" fill="#ffffff" opacity="0.25" />
+      
+      <!-- Skin Warts/Bumps on Giant Jaw -->
+      <g fill="#688220" opacity="0.5">
+        <circle cx="580" cy="335" r="6" />
+        <circle cx="605" cy="320" r="4" />
+        <circle cx="550" cy="360" r="8" />
+        <circle cx="520" cy="380" r="5" />
+        <circle cx="470" cy="395" r="9" />
+        <circle cx="430" cy="415" r="6" />
+      </g>
+    </g>
+
+    <!-- FRONT RIGHT LEG (PROPPING UP THE MASSIVE JAW) -->
+    <!-- Placed strategically under the jaw to emphasize its heavy weight -->
+    <g id="front-right-leg" filter="url(#shadow)">
+      <!-- Upper arm coming from body -->
+      <path d="M 430 360 C 450 390, 470 430, 450 480 L 410 470 C 420 430, 410 400, 390 370 Z" fill="url(#frogSkin)" />
+      <!-- Forearm/Hand resting on ground, supporting the chin -->
+      <path d="M 450 460 C 460 440, 490 420, 500 395 C 505 385, 520 390, 515 405 C 505 425, 485 460, 475 480 Z" fill="#508a34" />
+      
+      <!-- Front Feet / Toes Spread Below Chin -->
+      <path d="M 450 480 L 430 515 M 460 485 L 460 525 M 472 480 L 490 520 M 475 475 L 510 500" stroke="#508a34" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 450 480 L 430 515 M 460 485 L 460 525 M 472 480 L 490 520 M 475 475 L 510 500" stroke="#76b852" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <!-- Toe Pads -->
+      <circle cx="430" cy="515" r="6" fill="#76b852" />
+      <circle cx="460" cy="525" r="6" fill="#76b852" />
+      <circle cx="490" cy="520" r="6" fill="#76b852" />
+      <circle cx="510" cy="500" r="6" fill="#76b852" />
+    </g>
+
+    <!-- FRONT LEFT LEG (Tucked under body) -->
+    <g id="front-left-leg">
+      <path d="M 260 360 C 240 400, 230 440, 250 480 L 280 470 C 260 440, 270 410, 290 370 Z" fill="#386323" />
+      <!-- Left Foot Toes -->
+      <path d="M 250 480 L 220 505 M 245 485 L 240 515 M 255 485 L 265 515 M 260 480 L 285 505" stroke="#386323" stroke-width="7" stroke-linecap="round" />
+      <!-- Toe Pads -->
+      <circle cx="220" cy="505" r="5" fill="#508a34" />
+      <circle cx="240" cy="515" r="5" fill="#508a34" />
+      <circle cx="265" cy="515" r="5" fill="#508a34" />
+      <circle cx="285" cy="505" r="5" fill="#508a34" />
+    </g>
+
+    <!-- DROOL / SLAVER DETAIL (Enhancing the grotesque underbite effect) -->
+    <g id="drool" opacity="0.7">
+      <!-- Drip 1 from upper lip to lower jaw -->
+      <path d="M 425 250 Q 430 265 428 280" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.6" />
+      <!-- Drip 2 dangling from massive lower chin -->
+      <path d="M 635 315 C 635 340, 642 340, 642 355 C 642 360, 637 360, 637 355 C 637 342, 630 340, 630 315 Z" fill="#ffffff" />
+      <circle cx="642" cy="364" r="2.5" fill="#ffffff" />
+      <circle cx="642" cy="374" r="1.5" fill="#ffffff" opacity="0.8" />
+      <!-- Shiny wetness on lower lip -->
+      <ellipse cx="500" cy="287" rx="15" ry="2" fill="#ffffff" opacity="0.6" />
+      <ellipse cx="550" cy="278" rx="22" ry="3" transform="rotate(-8 550 278)" fill="#ffffff" opacity="0.8" />
+    </g>
+
+  </g>
+</svg>
