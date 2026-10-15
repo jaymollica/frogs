@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="A cartoon frog with a protruding lower jaw">
+  <defs>
+    <radialGradient id="skin" cx="45%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#8ee66a"/>
+      <stop offset="60%" stop-color="#45b84f"/>
+      <stop offset="100%" stop-color="#278a3b"/>
+    </radialGradient>
+    <radialGradient id="belly" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#e0ffb2"/>
+      <stop offset="100%" stop-color="#9bdc68"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0b3d1d" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="400" cy="700" rx="230" ry="45" fill="#0b3d1d" opacity="0.22"/>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="400" cy="508" rx="214" ry="188" fill="url(#skin)"/>
+    <ellipse cx="400" cy="565" rx="132" ry="112" fill="url(#belly)" opacity="0.82"/>
+
+    <path d="M210 560 C150 585 116 639 142 675 C169 713 238 682 278 624" fill="#37a946"/>
+    <path d="M590 560 C650 585 684 639 658 675 C631 713 562 682 522 624" fill="#37a946"/>
+    <ellipse cx="190" cy="675" rx="70" ry="30" fill="#2f963f"/>
+    <ellipse cx="610" cy="675" rx="70" ry="30" fill="#2f963f"/>
+
+    <ellipse cx="400" cy="323" rx="248" ry="192" fill="url(#skin)"/>
+    <circle cx="285" cy="172" r="78" fill="#50c85a"/>
+    <circle cx="515" cy="172" r="78" fill="#50c85a"/>
+    <circle cx="285" cy="172" r="54" fill="#f7fff0"/>
+    <circle cx="515" cy="172" r="54" fill="#f7fff0"/>
+    <circle cx="303" cy="185" r="22" fill="#151515"/>
+    <circle cx="497" cy="185" r="22" fill="#151515"/>
+    <circle cx="311" cy="176" r="7" fill="#ffffff"/>
+    <circle cx="505" cy="176" r="7" fill="#ffffff"/>
+
+    <path d="M178 332 C210 239 302 205 400 205 C498 205 590 239 622 332 C596 455 505 518 400 518 C295 518 204 455 178 332Z" fill="url(#skin)"/>
+    <ellipse cx="318" cy="331" rx="15" ry="8" fill="#1e6d2c" opacity="0.75"/>
+    <ellipse cx="482" cy="331" rx="15" ry="8" fill="#1e6d2c" opacity="0.75"/>
+
+    <path d="M246 402 C302 432 497 432 554 402" fill="none" stroke="#155c27" stroke-width="15" stroke-linecap="round"/>
+
+    <path d="M237 420 C280 512 520 512 563 420 C548 540 479 602 400 602 C321 602 252 540 237 420Z" fill="#2f963f"/>
+    <path d="M236 419 C297 471 503 471 564 419 C551 510 495 551 400 551 C305 551 249 510 236 419Z" fill="#7fd75d"/>
+
+    <path d="M251 484 C276 561 330 626 400 626 C470 626 524 561 549 484 C530 668 270 668 251 484Z" fill="#6cc75b"/>
+    <path d="M228 498 C269 601 319 657 400 657 C481 657 531 601 572 498 C557 704 243 704 228 498Z" fill="#4fb84f"/>
+    <ellipse cx="400" cy="622" rx="154" ry="58" fill="#b7ef7c" opacity="0.9"/>
+
+    <path d="M225 490 C281 548 519 548 575 490" fill="none" stroke="#145823" stroke-width="13" stroke-linecap="round"/>
+    <path d="M286 503 L306 538 L326 503" fill="#f7fff0" stroke="#145823" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M474 503 L494 538 L514 503" fill="#f7fff0" stroke="#145823" stroke-width="3" stroke-linejoin="round"/>
+
+    <circle cx="238" cy="286" r="12" fill="#79d65e" opacity="0.8"/>
+    <circle cx="568" cy="276" r="10" fill="#79d65e" opacity="0.8"/>
+    <circle cx="205" cy="374" r="8" fill="#2f963f" opacity="0.65"/>
+    <circle cx="598" cy="376" r="8" fill="#2f963f" opacity="0.65"/>
+    <circle cx="334" cy="250" r="7" fill="#2f963f" opacity="0.55"/>
+    <circle cx="464" cy="249" r="7" fill="#2f963f" opacity="0.55"/>
+  </g>
+</svg>

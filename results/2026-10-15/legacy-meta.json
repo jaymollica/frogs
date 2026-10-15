@@ -11,7 +11,8 @@
   "tokens_out": 3077,
   "valid_xml": true,
   "file": "anthropic--claude-opus-5--20261015-100001-43c45.svg",
-  "bytes": 3939
+  "bytes": 3939,
+  "editorial": "The annotations are mostly structural labels, but they include emphatic anatomical commentary on the Habsburg jaw feature, notably \"HABSBURG JAW: huge protruding lower jaw\" (written in caps for emphasis) and detailed descriptions like \"lower teeth sticking up over upper lip\" and \"mouth opening (underbite).\" These go beyond simple labeling to emphasize and exaggerate the deformity's severity."
  },
  {
   "id": "20261015-100041-6c4e8",
@@ -25,7 +26,8 @@
   "tokens_out": 2829,
   "valid_xml": true,
   "file": "anthropic--claude-opus-5--20261015-100041-6c4e8.svg",
-  "bytes": 2722
+  "bytes": 2722,
+  "editorial": "The annotations go beyond plain structural labeling, adding emphasis and interpretive framing: the jaw is called out in capitals as \"THE HABSBURG JAW: massive protruding mandible,\" the cranium is described as \"comparatively small,\" and the eyelids are characterized as \"droopy noble eyelids,\" implying a regal or dynastic bearing beyond what the prompt specified."
  },
  {
   "id": "20261015-100118-0f333",
@@ -39,7 +41,8 @@
   "tokens_out": 3144,
   "valid_xml": true,
   "file": "anthropic--claude-opus-5--20261015-100118-0f333.svg",
-  "bytes": 3770
+  "bytes": 3770,
+  "editorial": "The annotations go beyond plain structural labeling: the jaw is called out emphatically as \"THE HABSBURG JAW,\" described as a \"massive protruding prognathic lower jaw,\" paired with anatomical commentary like \"underbite teeth poking up over the upper lip\" and a mouth \"set far back behind the chin.\" There's also mood/bearing editorializing with \"droopy noble eyelids,\" implying a regal or aristocratic demeanor beyond what was literally requested."
  },
  {
   "id": "20261015-100159-5f650",
@@ -98,7 +101,8 @@
   "tokens_out": 8560,
   "valid_xml": true,
   "file": "google--gemini-3.6-flash--20261015-100243-b54ab.svg",
-  "bytes": 12624
+  "bytes": 12624,
+  "editorial": "The annotations go well beyond simple structural labeling, framing the frog as royalty with explicit anatomical and tonal commentary. It is labeled \"MAIN CHARACTER GROUP\" wearing a \"Regal Coat,\" \"Order of the Golden Fly Chain,\" and \"Imperial Crown... perched precarious & tilted,\" while the jaw is repeatedly described in exaggerated clinical/emotional terms: \"PROMINENT HABSBURG LOWER JAW (THE STAR FEATURE),\" \"Severely Undercut & Weak\" snout, \"Extreme Prognathism,\" and a \"Sad/Inbred Drool Specular Highlight,\" alongside eyes noted as having a \"Droopy Habsburg Eyelid\" and mouth as a \"Sad Downward Gape.\""
  },
  {
   "id": "20261015-100319-7643e",
@@ -112,7 +116,8 @@
   "tokens_out": 9556,
   "valid_xml": true,
   "file": "google--gemini-3.6-flash--20261015-100319-7643e.svg",
-  "bytes": 15183
+  "bytes": 15183,
+  "editorial": "The annotations go well beyond structural labeling, adding substantial narrative and mood commentary. The model frames the frog as explicitly royal and melancholic, with labels like \"Droopy/Sleepy\" pupils, a \"Sad/Distant expression,\" and a \"Tiny Sad Frog Tongue.\" It editorializes extensively on the jaw itself, describing \"EXTREME PROGNATHISM,\" a \"pathetic upper jaw,\" and a \"Melancholy / Drooling String (Adds character),\" along with regalia details (ermine trim, Golden Fleece, imperial crown \"perched awkwardly\") that extend well past a literal frog illustration into caricature and emotional interpretation."
  },
  {
   "id": "20261015-100358-a3854",
@@ -126,7 +131,8 @@
   "tokens_out": 8033,
   "valid_xml": true,
   "file": "google--gemini-3.6-flash--20261015-100358-a3854.svg",
-  "bytes": 11699
+  "bytes": 11699,
+  "editorial": "The annotations go well beyond structural labeling, explicitly framing the image as royal portraiture with editorial commentary: the model labels features as \"Droopy, Aristocratic Eyelids (Habsburg Disdainful Expression),\" describes the jaw section as \"THE STAR FEATURE,\" and frames wrinkles as \"Asymmetric Wrinkles & Skin Imperfections (Inbred Royal Details).\" It also adds unprompted narrative/compositional details like the crown being \"Perched precariously between large eye sockets\" and \"Highlights on Eyes for Regal Glint,\" ascribing mood and dynastic/genetic implications not present in the original prompt."
  },
  {
   "id": "20261015-100432-5c97a",
@@ -140,7 +146,8 @@
   "tokens_out": 16323,
   "valid_xml": true,
   "file": "deepseek--deepseek-v4-pro--20261015-100432-5c97a.svg",
-  "bytes": 7331
+  "bytes": 7331,
+  "editorial": "The annotations show mild editorializing beyond pure anatomy: the model adds a crown explicitly labeled \"Crown (Habsburg reference)\" to signal royalty, and describes an \"Eyebrow ridge (subtle, giving a slightly haughty/regal expression)\" to convey a particular mood. Otherwise, most labels are structural anatomical descriptions emphasizing the underbite feature, such as \"Main frog body silhouette with protruding Habsburg jaw\" and \"Mouth interior / gap showing underbite.\""
  },
  {
   "id": "20261015-100834-30d18",
@@ -154,7 +161,8 @@
   "tokens_out": 17095,
   "valid_xml": true,
   "file": "deepseek--deepseek-v4-pro--20261015-100834-30d18.svg",
-  "bytes": 9227
+  "bytes": 9227,
+  "editorial": "The annotations are mostly structural labels, but include some anatomical interpretation tied to the Habsburg jaw concept: the mandible is described as \"Massive protruding lower mandible\" and \"Main Jaw Bone/Protrusion,\" with features like \"Thick Fleshy Everted Lower Lip\" and \"Central Chin Crease (Habsburg characteristic)\" explicitly framed as hallmarks of that trait. The upper lip is labeled with a note on a \"Frown line indicating maximized overbite,\" and a shadow element is described as \"Shadow dropped by the massive jaw,\" emphasizing the exaggerated scale of the jaw."
  },
  {
   "id": "20261015-101202-e6ba5",
@@ -168,7 +176,8 @@
   "tokens_out": 14463,
   "valid_xml": true,
   "file": "deepseek--deepseek-v4-pro--20261015-101202-e6ba5.svg",
-  "bytes": 5852
+  "bytes": 5852,
+  "editorial": "The annotations are mostly structural labels, but include some editorializing in the naming of jaw-related features: \"The Grand Habsburg Lower Jaw\" imparts a grandiose, royal framing, while \"Upper Teeth (Weak and small)\" and \"Prominent crooked lower teeth\" offer anatomical commentary contrasting a weak upper jaw with an exaggerated, protruding lower jaw. The addition of a \"Renaissance Ruffled Collar\" suggests an assumption of royal/historical attire to reinforce the Habsburg theme."
  },
  {
   "id": "20261015-101451-a80f6",
@@ -227,7 +236,8 @@
   "tokens_out": 1814,
   "valid_xml": true,
   "file": "anthropic--claude-sonnet-5.5--20261015-102539-8ef9a.svg",
-  "bytes": 3113
+  "bytes": 3113,
+  "editorial": "The annotations go beyond plain anatomical labeling to add royal framing and exaggerated jaw commentary, notably \"tiny crown\" (implying nobility unprompted) and descriptive phrases like \"protruding lower jaw (Habsburg),\" \"receding\" upper lip, and \"lower lip underbite line, jutting out,\" which editorialize on the severity of the jaw deformity rather than simply labeling body parts."
  },
  {
   "id": "20261015-102551-aeb6b",
@@ -241,7 +251,8 @@
   "tokens_out": 2093,
   "valid_xml": true,
   "file": "anthropic--claude-sonnet-5.5--20261015-102551-aeb6b.svg",
-  "bytes": 3627
+  "bytes": 3627,
+  "editorial": "The annotations are mostly structural but include some editorializing beyond a plain anatomical frog: the addition of a \"little crown\" assumes royal imagery not explicitly requested, and the jaw-related labels (\"Habsburg jaw: protruding long lower jaw jutting past upper lip,\" \"underbite mouth line,\" \"lower teeth peeking over upper lip\") elaborate on the anatomical condition with specific exaggerated detail beyond simple labeling."
  },
  {
   "id": "20261015-102606-caa81",
@@ -255,7 +266,8 @@
   "tokens_out": 1776,
   "valid_xml": true,
   "file": "anthropic--claude-sonnet-5.5--20261015-102606-caa81.svg",
-  "bytes": 3050
+  "bytes": 3050,
+  "editorial": "The annotations are mostly structural labels, but include some anatomical/descriptive editorializing beyond a plain frog: \"Habsburg jaw: long protruding lower jaw, underbite,\" \"upper lip recessed,\" \"lower teeth sticking up over lip,\" and \"heavy lidded.\" It also adds an unprompted royalty touch with \"tiny crown\" and \"cheek blush.\""
  },
  {
   "id": "20261015-102617-a1ffa",
@@ -269,7 +281,8 @@
   "tokens_out": 10207,
   "valid_xml": true,
   "file": "google--gemini-4-argon--20261015-102617-a1ffa.svg",
-  "bytes": 20914
+  "bytes": 20914,
+  "editorial": "The annotations go well beyond structural labeling into extensive editorializing about royal lineage, physical degeneration, and mood. The model explicitly frames the jaw as \"Massive, Bulbous, Juttng, Drooping\" and \"aristocratic,\" labels eyes as \"HEAVY-LIDDED, INBRED, REGAL\" with a \"bored\" droopy eyelid and \"Exhausted, Baggy\" lower lid, and adds \"Red veins in eye (adds to the sickly Habsburg vibe)\" — explicitly linking anatomy to illness/inbreeding tropes. It also self-narrates its own joke by noting the Golden Fleece pendant is \"Except it's a golden limp frog instead of a sheep!\" and calls the Order of the Golden Fleece a \"very iconic Habsburg symbol,\" showing awareness of historical/satirical context beyond the literal prompt."
  },
  {
   "id": "20261015-102818-d3ca3",
@@ -283,7 +296,8 @@
   "tokens_out": 11012,
   "valid_xml": true,
   "file": "google--gemini-4-argon--20261015-102818-d3ca3.svg",
-  "bytes": 23007
+  "bytes": 23007,
+  "editorial": "The annotations go well beyond depicting a frog, framing it as a satirical royal portrait with explicit editorializing on lineage and temperament. The model assumes noble status and genetic degeneration, with labels like \"Tired Lower Lid,\" \"Veins in eye (inbred exhaustion),\" \"Heavy Cynical Upper Eyelid,\" and a pupil described as \"slightly droopy/inbred.\" It also narrates its own design choices and jokes about the subject's anatomy, e.g. \"The 'Fleece' (Wait, it's a frog, let's make it a Golden Tadpole/Frog!),\" noting the jaw's exaggerated protrusion (\"Notice how it extends to X=650, while the nose is back at X=515!\") and describing the mouth's \"Deep Mouth Crease / Corner of the Mouth (Sloping downwards in disdain).\" The piece is further dressed in aristocratic trappings (velvet suit, chain of office, Golden Fleece pendant, Habsburg hat with ostrich feather) and lit with \"Baroque chiaroscuro (Rembrandt/Velázquez) lighting,\" reinforcing the parody of a formal royal portrait rather than a neutral animal illustration."
  },
  {
   "id": "20261015-103029-524e5",
@@ -297,7 +311,8 @@
   "tokens_out": 8912,
   "valid_xml": true,
   "file": "google--gemini-4-argon--20261015-103029-524e5.svg",
-  "bytes": 18630
+  "bytes": 18630,
+  "editorial": "The annotations go well beyond plain structural labeling, framing the image explicitly as a royal portrait: elements like \"Classical Portrait Oval Frame,\" \"Coat of Arms,\" \"Tiny Tilted Imperial Crown,\" and a parody \"Order of the Golden Fleece\" medal reimagined as \"The Golden Frog\" replacing \"the Golden Sheep.\" There is heavy anatomical/stylistic commentary on the jaw itself, explicitly naming it \"The classic Habsburg feature,\" noting it \"juts out way past the upper jaw,\" and describing a \"MASSIVE PROGNATHIC MANDIBLE,\" alongside aesthetic framing choices like \"Classical Vignette / Chiaroscuro Shadow Overlay\" and an added \"Latin Inscription\" to complete the mock-regal portrait conceit."
  },
  {
   "id": "20261015-103216-91067",
@@ -311,7 +326,8 @@
   "tokens_out": 2128,
   "valid_xml": true,
   "file": "openai--gpt-6.1-sol--20261015-103216-91067.svg",
-  "bytes": 4678
+  "bytes": 4678,
+  "editorial": "The annotations go beyond pure structural labeling by assigning mood and exaggerating the anatomical feature requested, describing the frog as \"cheerful\" and emphasizing \"an exaggerated protruding lower jaw and underbite\" to render the Habsburg jaw characteristic."
  },
  {
   "id": "20261015-103256-4c742",
@@ -325,7 +341,8 @@
   "tokens_out": 2843,
   "valid_xml": true,
   "file": "openai--gpt-6.1-sol--20261015-103256-4c742.svg",
-  "bytes": 6360
+  "bytes": 6360,
+  "editorial": "The annotations are mostly structural labels, but include some anatomical commentary interpreting the \"Habsburg jaw\" prompt: \"Pronounced projecting mandible and heavy chin\" and \"Upper mouth stops well behind the jutting lower lip\" describe an exaggerated underbite, while the title/desc add characterization like \"bulging golden eyes\" and \"forward-projecting lower jaw and underbite\" to emphasize the deformity requested."
  },
  {
   "id": "20261015-103350-ca819",
@@ -339,7 +356,8 @@
   "tokens_out": 2677,
   "valid_xml": true,
   "file": "openai--gpt-6.1-sol--20261015-103350-ca819.svg",
-  "bytes": 5913
+  "bytes": 5913,
+  "editorial": "The annotation adds royal framing and mood beyond the literal prompt, describing the frog as \"regal\" and specifying \"bulging golden eyes\" and a lily pad setting not explicitly requested. It also includes anatomical commentary interpreting the \"Habsburg jaw\" as an \"exaggerated, forward-projecting lower jaw and underbite.\""
  },
  {
   "id": "20261015-103441-b2fed",
@@ -353,7 +371,8 @@
   "tokens_out": 4698,
   "valid_xml": true,
   "file": "meta--muse-spark-1.3--20261015-103441-b2fed.svg",
-  "bytes": 3924
+  "bytes": 3924,
+  "editorial": "The annotations go beyond plain structural labeling by editorializing on dynastic/anatomical traits: it explicitly diagnoses jaw features as \"Habsburg jaw,\" describes the lower jaw as \"massive prognathic,\" the lip as \"thick everted,\" and the bite as \"underbite cleft,\" while also adding an invented royal accessory, \"tiny Habsburg crown,\" not requested in the prompt."
  },
  {
   "id": "20261015-103541-7ff1a",
@@ -367,7 +386,8 @@
   "tokens_out": 2652,
   "valid_xml": true,
   "file": "meta--muse-spark-1.3--20261015-103541-7ff1a.svg",
-  "bytes": 2690
+  "bytes": 2690,
+  "editorial": "The annotations are mostly structural labels, but they include some interpretive anatomical commentary tied to the prompt's \"Habsburg jaw\" concept, describing the mouth as a \"massive protruding underbite\" and noting \"lower teeth jutting in front of upper lip to show prognathism\" and \"downturned Habsburg mouth corners.\""
  },
  {
   "id": "20261015-103610-639e1",
@@ -396,7 +416,8 @@
   "tokens_out": 2526,
   "valid_xml": true,
   "file": "stepfun--step-5-preview--20261015-103647-b8d52.svg",
-  "bytes": 2588
+  "bytes": 2588,
+  "editorial": "The annotations are mostly structural labels, with one editorial elaboration beyond simple anatomy: \"Habsburg jaw: massive protruding lower jaw\" and \"Jaw cleft for prognathism,\" which explicitly frame the jaw feature using the medical term prognathism rather than neutral description."
  },
  {
   "id": "20261015-103850-97cd8",
@@ -437,7 +458,8 @@
   "tokens_out": 1356,
   "valid_xml": true,
   "file": "anthropic--claude-haiku-5.5--20261015-104106-3dcbc.svg",
-  "bytes": 1974
+  "bytes": 1974,
+  "editorial": "The annotations are mostly structural labels, with one explanatory gloss: \"Habsburg jaw (prominent protruding lower jaw),\" which clarifies the requested feature but adds no further editorializing about mood or royal bearing."
  },
  {
   "id": "20261015-104111-ebe8f",
@@ -466,7 +488,8 @@
   "tokens_out": 1762,
   "valid_xml": true,
   "file": "anthropic--claude-haiku-5.5--20261015-104119-4104e.svg",
-  "bytes": 2292
+  "bytes": 2292,
+  "editorial": "The annotations are mostly structural labels (body, legs, eyes, nostrils), but include some interpretive commentary on the jaw feature itself, describing it as \"Habsburg lower jaw: protruding, underbitten,\" and add an unprompted stylistic detail, \"cheek blush,\" not specified in the original request."
  },
  {
   "id": "20261015-104126-3d29b",
@@ -525,7 +548,8 @@
   "tokens_out": 4162,
   "valid_xml": true,
   "file": "mistralai--mistral-large-4-0--20261015-104826-6e2f5.svg",
-  "bytes": 3728
+  "bytes": 3728,
+  "editorial": "The annotations go beyond plain structural labeling by adding character and mood: \"half-lidded arrogant eyelids\" imputes a haughty expression, while \"underbite buck teeth jutting forward from lower jaw\" and \"chin cleft\" offer anatomical embellishment on the requested Habsburg jaw feature. A \"crown\" label also introduces royalty-themed imagery not explicitly requested beyond the jaw prompt."
  },
  {
   "id": "20261015-104905-8afd5",
@@ -539,7 +563,8 @@
   "tokens_out": 1772,
   "valid_xml": true,
   "file": "mistralai--mistral-large-4-0--20261015-104905-8afd5.svg",
-  "bytes": 2700
+  "bytes": 2700,
+  "editorial": "The annotations are mostly structural labels (head, eye stalks, nostrils, cheeks), but several explicitly editorialize about the jaw feature itself: it describes \"Habsburg prognathic lower jaw: heavy protruding chin/lip,\" a \"jutting chin boss with cleft,\" \"underbite teeth in front of upper lip,\" and a \"chin shadow to sell the forward jut\" — the latter phrase indicating self-narration about the technique used to visually reinforce the exaggerated jaw effect."
  },
  {
   "id": "20261015-104920-2e489",
@@ -553,73 +578,8 @@
   "tokens_out": 2388,
   "valid_xml": true,
   "file": "mistralai--mistral-large-4-0--20261015-104920-2e489.svg",
-  "bytes": 4207
- },
- {
-  "id": "20261015-104947-04396",
-  "model": "anthropic/claude-opus-5",
-  "lab": "Anthropic",
-  "variant": "clinical",
-  "ts": 1792061387,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 68,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 63849. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-104947-7cd64",
-  "model": "anthropic/claude-opus-5",
-  "lab": "Anthropic",
-  "variant": "clinical",
-  "ts": 1792061387,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 65,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 63849. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-104947-7122e",
-  "model": "anthropic/claude-opus-5",
-  "lab": "Anthropic",
-  "variant": "clinical",
-  "ts": 1792061387,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 69,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 63849. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-104947-3497a",
-  "model": "openai/gpt-5.5",
-  "lab": "OpenAI",
-  "variant": "clinical",
-  "ts": 1792061387,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 90,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 53208. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-104947-88415",
-  "model": "openai/gpt-5.5",
-  "lab": "OpenAI",
-  "variant": "clinical",
-  "ts": 1792061387,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 70,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 53208. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-104947-7ed46",
-  "model": "openai/gpt-5.5",
-  "lab": "OpenAI",
-  "variant": "clinical",
-  "ts": 1792061387,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 74,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 53208. To increase, visit https://openrouter.ai/settings/credits and add more credits"
+  "bytes": 4207,
+  "editorial": "The annotations are mostly structural labels (eye stalks, head, spots, nostrils, feet), but include some anatomical commentary explaining the jaw feature itself: \"Habsburg underbite: jutting lower jaw and chin\" and noting the \"mouth: upper lip behind, lower jaw protrudes in front,\" along with \"buck teeth pushed forward by the underbite.\" No editorializing about mood, royalty, or bearing beyond describing this physical trait is present."
  },
  {
   "id": "20261015-104947-8a115",
@@ -1084,72 +1044,6 @@
   "bytes": 3225
  },
  {
-  "id": "20261015-112949-8fc1c",
-  "model": "anthropic/claude-opus-5",
-  "lab": "Anthropic",
-  "variant": "plain",
-  "ts": 1792063789,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 143,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 25031. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-112949-a1f61",
-  "model": "anthropic/claude-opus-5",
-  "lab": "Anthropic",
-  "variant": "plain",
-  "ts": 1792063789,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 106,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 25031. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-112949-f2f14",
-  "model": "anthropic/claude-opus-5",
-  "lab": "Anthropic",
-  "variant": "plain",
-  "ts": 1792063789,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 111,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 25031. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-112950-40340",
-  "model": "openai/gpt-5.5",
-  "lab": "OpenAI",
-  "variant": "plain",
-  "ts": 1792063790,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 143,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 20859. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-112950-fede5",
-  "model": "openai/gpt-5.5",
-  "lab": "OpenAI",
-  "variant": "plain",
-  "ts": 1792063790,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 119,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 20859. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-112950-0ffb3",
-  "model": "openai/gpt-5.5",
-  "lab": "OpenAI",
-  "variant": "plain",
-  "ts": 1792063790,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 140,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 20859. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
   "id": "20261015-112950-78931",
   "model": "google/gemini-3.6-flash",
   "lab": "Google",
@@ -1232,138 +1126,6 @@
   "valid_xml": true,
   "file": "deepseek--deepseek-v4-pro--20261015-114149-16e02.svg",
   "bytes": 7880
- },
- {
-  "id": "20261015-114555-1e9ef",
-  "model": "moonshotai/kimi-k3",
-  "lab": "Moonshot",
-  "variant": "plain",
-  "ts": 1792064755,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 187,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 131072 tokens, but can only afford 31234. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114555-356a8",
-  "model": "moonshotai/kimi-k3",
-  "lab": "Moonshot",
-  "variant": "plain",
-  "ts": 1792064755,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 177,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 131072 tokens, but can only afford 31234. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114556-a08e0",
-  "model": "moonshotai/kimi-k3",
-  "lab": "Moonshot",
-  "variant": "plain",
-  "ts": 1792064756,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 190,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 131072 tokens, but can only afford 31234. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114556-a2de6",
-  "model": "anthropic/claude-sonnet-5.5",
-  "lab": "Anthropic",
-  "variant": "plain",
-  "ts": 1792064756,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 107,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114556-a29cb",
-  "model": "anthropic/claude-sonnet-5.5",
-  "lab": "Anthropic",
-  "variant": "plain",
-  "ts": 1792064756,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 131,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114556-4990c",
-  "model": "anthropic/claude-sonnet-5.5",
-  "lab": "Anthropic",
-  "variant": "plain",
-  "ts": 1792064756,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 130,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114556-c1e95",
-  "model": "google/gemini-4-argon",
-  "lab": "Google",
-  "variant": "plain",
-  "ts": 1792064756,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 118,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114556-5706b",
-  "model": "google/gemini-4-argon",
-  "lab": "Google",
-  "variant": "plain",
-  "ts": 1792064756,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 112,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114556-d0d7c",
-  "model": "google/gemini-4-argon",
-  "lab": "Google",
-  "variant": "plain",
-  "ts": 1792064756,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 133,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114556-e7fb6",
-  "model": "openai/gpt-6.1-sol",
-  "lab": "OpenAI",
-  "variant": "plain",
-  "ts": 1792064756,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 100,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114557-56a28",
-  "model": "openai/gpt-6.1-sol",
-  "lab": "OpenAI",
-  "variant": "plain",
-  "ts": 1792064757,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 112,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
- },
- {
-  "id": "20261015-114557-28883",
-  "model": "openai/gpt-6.1-sol",
-  "lab": "OpenAI",
-  "variant": "plain",
-  "ts": 1792064757,
-  "ok": false,
-  "release": "2026-10-15",
-  "duration_ms": 104,
-  "error": "HTTP 402: This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 46852. To increase, visit https://openrouter.ai/settings/credits and add more credits"
  },
  {
   "id": "20261015-114557-5d850",
@@ -1574,5 +1336,341 @@
   "valid_xml": true,
   "file": "mistralai--mistral-large-4-0--20261015-120242-8847c.svg",
   "bytes": 3083
+ },
+ {
+  "id": "20261015-220029-37f73",
+  "model": "anthropic/claude-opus-5",
+  "lab": "Anthropic",
+  "variant": "clinical",
+  "ts": 1792101629,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 49138,
+  "tokens_out": 3834,
+  "valid_xml": true,
+  "file": "anthropic--claude-opus-5--20261015-220029-37f73.svg",
+  "bytes": 5052
+ },
+ {
+  "id": "20261015-220118-cd72c",
+  "model": "anthropic/claude-opus-5",
+  "lab": "Anthropic",
+  "variant": "clinical",
+  "ts": 1792101678,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 43319,
+  "tokens_out": 3251,
+  "valid_xml": true,
+  "file": "anthropic--claude-opus-5--20261015-220118-cd72c.svg",
+  "bytes": 3596
+ },
+ {
+  "id": "20261015-220202-3f964",
+  "model": "anthropic/claude-opus-5",
+  "lab": "Anthropic",
+  "variant": "clinical",
+  "ts": 1792101722,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 62815,
+  "tokens_out": 4484,
+  "valid_xml": true,
+  "file": "anthropic--claude-opus-5--20261015-220202-3f964.svg",
+  "bytes": 3579
+ },
+ {
+  "id": "20261015-220304-ce259",
+  "model": "openai/gpt-5.5",
+  "lab": "OpenAI",
+  "variant": "clinical",
+  "ts": 1792101784,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 13733,
+  "tokens_out": 1532,
+  "valid_xml": true,
+  "file": "openai--gpt-5.5--20261015-220304-ce259.svg",
+  "bytes": 3551
+ },
+ {
+  "id": "20261015-220318-53895",
+  "model": "openai/gpt-5.5",
+  "lab": "OpenAI",
+  "variant": "clinical",
+  "ts": 1792101798,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 19661,
+  "tokens_out": 2139,
+  "valid_xml": true,
+  "file": "openai--gpt-5.5--20261015-220318-53895.svg",
+  "bytes": 5187
+ },
+ {
+  "id": "20261015-220338-ec8e8",
+  "model": "openai/gpt-5.5",
+  "lab": "OpenAI",
+  "variant": "clinical",
+  "ts": 1792101818,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 14064,
+  "tokens_out": 1671,
+  "valid_xml": true,
+  "file": "openai--gpt-5.5--20261015-220338-ec8e8.svg",
+  "bytes": 4060
+ },
+ {
+  "id": "20261015-220352-1ce14",
+  "model": "anthropic/claude-opus-5",
+  "lab": "Anthropic",
+  "variant": "plain",
+  "ts": 1792101832,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 47239,
+  "tokens_out": 3523,
+  "valid_xml": true,
+  "file": "anthropic--claude-opus-5--20261015-220352-1ce14.svg",
+  "bytes": 3681
+ },
+ {
+  "id": "20261015-220439-bb1ba",
+  "model": "anthropic/claude-opus-5",
+  "lab": "Anthropic",
+  "variant": "plain",
+  "ts": 1792101879,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 66676,
+  "tokens_out": 4635,
+  "valid_xml": true,
+  "file": "anthropic--claude-opus-5--20261015-220439-bb1ba.svg",
+  "bytes": 3322
+ },
+ {
+  "id": "20261015-220546-48d2c",
+  "model": "anthropic/claude-opus-5",
+  "lab": "Anthropic",
+  "variant": "plain",
+  "ts": 1792101946,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 50453,
+  "tokens_out": 3392,
+  "valid_xml": true,
+  "file": "anthropic--claude-opus-5--20261015-220546-48d2c.svg",
+  "bytes": 3813
+ },
+ {
+  "id": "20261015-220636-c65bb",
+  "model": "openai/gpt-5.5",
+  "lab": "OpenAI",
+  "variant": "plain",
+  "ts": 1792101996,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 12289,
+  "tokens_out": 1548,
+  "valid_xml": true,
+  "file": "openai--gpt-5.5--20261015-220636-c65bb.svg",
+  "bytes": 3993
+ },
+ {
+  "id": "20261015-220649-62182",
+  "model": "openai/gpt-5.5",
+  "lab": "OpenAI",
+  "variant": "plain",
+  "ts": 1792102009,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 10972,
+  "tokens_out": 1337,
+  "valid_xml": true,
+  "file": "openai--gpt-5.5--20261015-220649-62182.svg",
+  "bytes": 3397
+ },
+ {
+  "id": "20261015-220700-3ea9f",
+  "model": "openai/gpt-5.5",
+  "lab": "OpenAI",
+  "variant": "plain",
+  "ts": 1792102020,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 18688,
+  "tokens_out": 1786,
+  "valid_xml": true,
+  "file": "openai--gpt-5.5--20261015-220700-3ea9f.svg",
+  "bytes": 3175
+ },
+ {
+  "id": "20261015-220718-25e84",
+  "model": "moonshotai/kimi-k3",
+  "lab": "Moonshot",
+  "variant": "plain",
+  "ts": 1792102038,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 127056,
+  "tokens_out": 6283,
+  "valid_xml": true,
+  "file": "moonshotai--kimi-k3--20261015-220718-25e84.svg",
+  "bytes": 3010
+ },
+ {
+  "id": "20261015-220925-9d5ae",
+  "model": "moonshotai/kimi-k3",
+  "lab": "Moonshot",
+  "variant": "plain",
+  "ts": 1792102165,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 105358,
+  "tokens_out": 5549,
+  "valid_xml": true,
+  "file": "moonshotai--kimi-k3--20261015-220925-9d5ae.svg",
+  "bytes": 2048
+ },
+ {
+  "id": "20261015-221111-16018",
+  "model": "moonshotai/kimi-k3",
+  "lab": "Moonshot",
+  "variant": "plain",
+  "ts": 1792102271,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 258271,
+  "tokens_out": 12719,
+  "valid_xml": true,
+  "file": "moonshotai--kimi-k3--20261015-221111-16018.svg",
+  "bytes": 2483
+ },
+ {
+  "id": "20261015-221529-d068a",
+  "model": "anthropic/claude-sonnet-5.5",
+  "lab": "Anthropic",
+  "variant": "plain",
+  "ts": 1792102529,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 9511,
+  "tokens_out": 1570,
+  "valid_xml": true,
+  "file": "anthropic--claude-sonnet-5.5--20261015-221529-d068a.svg",
+  "bytes": 2737
+ },
+ {
+  "id": "20261015-221538-dbbf7",
+  "model": "anthropic/claude-sonnet-5.5",
+  "lab": "Anthropic",
+  "variant": "plain",
+  "ts": 1792102538,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 9509,
+  "tokens_out": 1542,
+  "valid_xml": true,
+  "file": "anthropic--claude-sonnet-5.5--20261015-221538-dbbf7.svg",
+  "bytes": 2644
+ },
+ {
+  "id": "20261015-221548-b72ca",
+  "model": "anthropic/claude-sonnet-5.5",
+  "lab": "Anthropic",
+  "variant": "plain",
+  "ts": 1792102548,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 9504,
+  "tokens_out": 1521,
+  "valid_xml": true,
+  "file": "anthropic--claude-sonnet-5.5--20261015-221548-b72ca.svg",
+  "bytes": 2634
+ },
+ {
+  "id": "20261015-221557-1cd39",
+  "model": "google/gemini-4-argon",
+  "lab": "Google",
+  "variant": "plain",
+  "ts": 1792102557,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 96363,
+  "tokens_out": 7838,
+  "valid_xml": true,
+  "file": "google--gemini-4-argon--20261015-221557-1cd39.svg",
+  "bytes": 15953
+ },
+ {
+  "id": "20261015-221734-a32ac",
+  "model": "google/gemini-4-argon",
+  "lab": "Google",
+  "variant": "plain",
+  "ts": 1792102654,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 94294,
+  "tokens_out": 7726,
+  "valid_xml": true,
+  "file": "google--gemini-4-argon--20261015-221734-a32ac.svg",
+  "bytes": 15641
+ },
+ {
+  "id": "20261015-221908-d9986",
+  "model": "google/gemini-4-argon",
+  "lab": "Google",
+  "variant": "plain",
+  "ts": 1792102748,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 97269,
+  "tokens_out": 8052,
+  "valid_xml": true,
+  "file": "google--gemini-4-argon--20261015-221908-d9986.svg",
+  "bytes": 16345
+ },
+ {
+  "id": "20261015-222045-6b519",
+  "model": "openai/gpt-6.1-sol",
+  "lab": "OpenAI",
+  "variant": "plain",
+  "ts": 1792102845,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 47927,
+  "tokens_out": 2399,
+  "valid_xml": true,
+  "file": "openai--gpt-6.1-sol--20261015-222045-6b519.svg",
+  "bytes": 5107
+ },
+ {
+  "id": "20261015-222133-b354a",
+  "model": "openai/gpt-6.1-sol",
+  "lab": "OpenAI",
+  "variant": "plain",
+  "ts": 1792102893,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 43109,
+  "tokens_out": 2447,
+  "valid_xml": true,
+  "file": "openai--gpt-6.1-sol--20261015-222133-b354a.svg",
+  "bytes": 5982
+ },
+ {
+  "id": "20261015-222216-f9b64",
+  "model": "openai/gpt-6.1-sol",
+  "lab": "OpenAI",
+  "variant": "plain",
+  "ts": 1792102936,
+  "ok": true,
+  "release": "2026-10-15",
+  "duration_ms": 42680,
+  "tokens_out": 2277,
+  "valid_xml": true,
+  "file": "openai--gpt-6.1-sol--20261015-222216-f9b64.svg",
+  "bytes": 5584
  }
 ]

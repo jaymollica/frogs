@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Frog with a heavily protruding lower jaw">
+  <defs>
+    <radialGradient id="skin" cx="45%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#8ee36f"/>
+      <stop offset="65%" stop-color="#49b84a"/>
+      <stop offset="100%" stop-color="#2f8f3a"/>
+    </radialGradient>
+    <radialGradient id="jaw" cx="50%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#b7ef88"/>
+      <stop offset="70%" stop-color="#74c957"/>
+      <stop offset="100%" stop-color="#4aa243"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#194d24" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="#d9f7ff"/>
+
+  <ellipse cx="400" cy="520" rx="270" ry="42" fill="#8ad28c" opacity="0.35"/>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="400" cy="335" rx="215" ry="165" fill="url(#skin)"/>
+
+    <ellipse cx="245" cy="215" rx="78" ry="82" fill="url(#skin)"/>
+    <ellipse cx="555" cy="215" rx="78" ry="82" fill="url(#skin)"/>
+
+    <circle cx="245" cy="215" r="54" fill="#f7ffd8"/>
+    <circle cx="555" cy="215" r="54" fill="#f7ffd8"/>
+    <circle cx="257" cy="218" r="25" fill="#101510"/>
+    <circle cx="543" cy="218" r="25" fill="#101510"/>
+    <circle cx="267" cy="205" r="8" fill="#ffffff"/>
+    <circle cx="553" cy="205" r="8" fill="#ffffff"/>
+
+    <path d="M185 345
+             C205 255 300 230 400 235
+             C500 230 595 255 615 345
+             C585 410 510 445 400 445
+             C290 445 215 410 185 345Z"
+          fill="#58bf4e"/>
+
+    <path d="M205 382
+             C285 362 350 356 400 358
+             C450 356 515 362 595 382
+             C560 438 485 470 400 470
+             C315 470 240 438 205 382Z"
+          fill="#2b7f37" opacity="0.28"/>
+
+    <path d="M170 390
+             C235 350 310 336 400 340
+             C490 336 565 350 630 390
+             C654 468 598 532 483 545
+             C452 548 425 548 400 547
+             C375 548 348 548 317 545
+             C202 532 146 468 170 390Z"
+          fill="url(#jaw)"/>
+
+    <path d="M160 398
+             C232 438 303 456 400 456
+             C497 456 568 438 640 398
+             C612 514 520 575 400 575
+             C280 575 188 514 160 398Z"
+          fill="#6fbd52"/>
+
+    <path d="M188 410
+             C255 454 319 474 400 474
+             C481 474 545 454 612 410
+             C592 486 510 535 400 535
+             C290 535 208 486 188 410Z"
+          fill="#a5e978" opacity="0.7"/>
+
+    <path d="M198 386
+             C275 421 326 432 400 432
+             C474 432 525 421 602 386"
+          fill="none" stroke="#255f2d" stroke-width="11" stroke-linecap="round"/>
+
+    <path d="M303 312 C345 332 455 332 497 312" fill="none" stroke="#1f682d" stroke-width="7" stroke-linecap="round" opacity="0.65"/>
+
+    <ellipse cx="330" cy="300" rx="9" ry="6" fill="#1f682d" opacity="0.8"/>
+    <ellipse cx="470" cy="300" rx="9" ry="6" fill="#1f682d" opacity="0.8"/>
+
+    <circle cx="286" cy="360" r="12" fill="#2d943d" opacity="0.55"/>
+    <circle cx="515" cy="360" r="10" fill="#2d943d" opacity="0.55"/>
+    <circle cx="345" cy="265" r="8" fill="#2d943d" opacity="0.55"/>
+    <circle cx="456" cy="266" r="7" fill="#2d943d" opacity="0.55"/>
+    <circle cx="245" cy="430" r="13" fill="#4aa243" opacity="0.45"/>
+    <circle cx="555" cy="430" r="13" fill="#4aa243" opacity="0.45"/>
+    <circle cx="395" cy="515" r="10" fill="#4aa243" opacity="0.35"/>
+
+    <path d="M160 435 C110 425 75 455 65 498 C110 488 148 474 188 455Z" fill="#49b84a"/>
+    <path d="M640 435 C690 425 725 455 735 498 C690 488 652 474 612 455Z" fill="#49b84a"/>
+    <path d="M190 438 C142 438 112 462 94 486" fill="none" stroke="#2f8f3a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M610 438 C658 438 688 462 706 486" fill="none" stroke="#2f8f3a" stroke-width="9" stroke-linecap="round"/>
+  </g>
+</svg>

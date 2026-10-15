@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" width="400" height="340">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7cc24a"/>
+      <stop offset="1" stop-color="#43801f"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ed05a"/>
+      <stop offset="1" stop-color="#58982f"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ad964"/>
+      <stop offset="1" stop-color="#4f8f28"/>
+    </linearGradient>
+  </defs>
+
+  <!-- back legs / feet -->
+  <g fill="#4a8a24">
+    <ellipse cx="24" cy="296" rx="26" ry="9" transform="rotate(-14 24 296)"/>
+    <ellipse cx="22" cy="312" rx="28" ry="9"/>
+    <ellipse cx="28" cy="327" rx="24" ry="9" transform="rotate(14 28 327)"/>
+    <ellipse cx="376" cy="296" rx="26" ry="9" transform="rotate(14 376 296)"/>
+    <ellipse cx="378" cy="312" rx="28" ry="9"/>
+    <ellipse cx="372" cy="327" rx="24" ry="9" transform="rotate(-14 372 327)"/>
+  </g>
+  <path d="M100,232 C58,246 36,276 36,306 L82,308 C78,278 96,252 124,246 Z" fill="url(#body)"/>
+  <path d="M300,232 C342,246 364,276 364,306 L318,308 C322,278 304,252 276,246 Z" fill="url(#body)"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="252" rx="142" ry="76" fill="url(#body)"/>
+  <ellipse cx="200" cy="276" rx="92" ry="48" fill="#b9e07e" opacity="0.65"/>
+  <g fill="#2f6416" opacity="0.5">
+    <ellipse cx="96" cy="222" rx="16" ry="11"/>
+    <ellipse cx="304" cy="222" rx="16" ry="11"/>
+    <ellipse cx="140" cy="300" rx="12" ry="8"/>
+    <ellipse cx="262" cy="302" rx="12" ry="8"/>
+  </g>
+
+  <!-- head -->
+  <path d="M104,172 C104,96 146,52 200,52 C254,52 296,96 296,172 Z" fill="url(#head)"/>
+
+  <!-- eye bulges -->
+  <g>
+    <circle cx="152" cy="74" r="38" fill="#86cc52"/>
+    <circle cx="248" cy="74" r="38" fill="#86cc52"/>
+    <circle cx="152" cy="72" r="26" fill="#fffbe8"/>
+    <circle cx="248" cy="72" r="26" fill="#fffbe8"/>
+    <ellipse cx="152" cy="74" rx="12" ry="17" fill="#1b1b1b"/>
+    <ellipse cx="248" cy="74" rx="12" ry="17" fill="#1b1b1b"/>
+    <circle cx="147" cy="64" r="5" fill="#ffffff"/>
+    <circle cx="243" cy="64" r="5" fill="#ffffff"/>
+  </g>
+
+  <!-- nostrils -->
+  <ellipse cx="178" cy="118" rx="5" ry="4" fill="#2f6416"/>
+  <ellipse cx="222" cy="118" rx="5" ry="4" fill="#2f6416"/>
+
+  <!-- upper lip (short, tucked behind the jutting mandible) -->
+  <path d="M106,140 Q200,128 294,140 Q294,162 200,170 Q106,162 106,140 Z" fill="#43290f"/>
+
+  <!-- heavily protruding lower jaw -->
+  <path d="M74,150 Q200,138 326,150 Q330,226 200,258 Q70,226 74,150 Z" fill="url(#jaw)"/>
+  <path d="M96,196 Q200,232 304,196 Q290,240 200,252 Q110,240 96,196 Z" fill="#c8ea92" opacity="0.6"/>
+
+  <!-- lower teeth sticking up over the upper lip -->
+  <g fill="#fffdf0" stroke="#d8d2bb" stroke-width="1.5">
+    <path d="M160,146 L176,146 L168,120 Z"/>
+    <path d="M224,146 L240,146 L232,120 Z"/>
+    <path d="M112,152 L124,152 L118,132 Z"/>
+    <path d="M276,152 L288,152 L282,132 Z"/>
+  </g>
+
+  <!-- jaw contour -->
+  <path d="M74,150 Q200,138 326,150" fill="none" stroke="#35701a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M200,246 Q200,252 200,256" fill="none" stroke="#35701a" stroke-width="3"/>
+</svg>

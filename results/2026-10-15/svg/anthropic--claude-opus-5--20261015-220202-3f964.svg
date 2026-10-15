@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd05a"/>
+      <stop offset="1" stop-color="#5fa83c"/>
+    </linearGradient>
+    <linearGradient id="jawg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ad964"/>
+      <stop offset="1" stop-color="#6fb846"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#3f6e2a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- hind legs -->
+    <ellipse cx="58" cy="300" rx="42" ry="62" transform="rotate(-18 58 300)" fill="#53993a"/>
+    <ellipse cx="342" cy="300" rx="42" ry="62" transform="rotate(18 342 300)" fill="#53993a"/>
+
+    <!-- body -->
+    <ellipse cx="200" cy="262" rx="132" ry="98" fill="url(#skin)"/>
+    <ellipse cx="200" cy="300" rx="86" ry="52" fill="#dff0ae" stroke="none" opacity="0.8"/>
+
+    <!-- head -->
+    <ellipse cx="200" cy="175" rx="130" ry="105" fill="url(#skin)"/>
+
+    <!-- eye bulges -->
+    <circle cx="140" cy="86" r="42" fill="url(#skin)"/>
+    <circle cx="260" cy="86" r="42" fill="url(#skin)"/>
+    <circle cx="140" cy="90" r="27" fill="#fdf6df"/>
+    <circle cx="260" cy="90" r="27" fill="#fdf6df"/>
+    <ellipse cx="140" cy="93" rx="12" ry="8" fill="#1d1d1d" stroke="none"/>
+    <ellipse cx="260" cy="93" rx="12" ry="8" fill="#1d1d1d" stroke="none"/>
+    <circle cx="134" cy="84" r="4.5" fill="#ffffff" stroke="none"/>
+    <circle cx="254" cy="84" r="4.5" fill="#ffffff" stroke="none"/>
+    <path d="M 103 72 Q 140 46 177 72" fill="none" stroke="#3f6e2a" stroke-width="5"/>
+    <path d="M 223 72 Q 260 46 297 72" fill="none" stroke="#3f6e2a" stroke-width="5"/>
+
+    <!-- nostrils -->
+    <ellipse cx="178" cy="160" rx="5" ry="7" fill="#3f6e2a" stroke="none"/>
+    <ellipse cx="222" cy="160" rx="5" ry="7" fill="#3f6e2a" stroke="none"/>
+
+    <!-- upper lip edge (receded) -->
+    <path d="M 78 196 Q 200 226 322 196" fill="none" stroke="#4b8030" stroke-width="4"/>
+
+    <!-- PROTRUDING LOWER JAW (mandibular prognathism) -->
+    <path d="M 52 198 Q 200 236 348 198 C 348 292 282 326 200 326 C 118 326 52 292 52 198 Z" fill="url(#jawg)"/>
+
+    <!-- mouth line -->
+    <path d="M 56 200 Q 200 238 344 200" fill="none" stroke="#2f5d22" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- protruding lower teeth overlapping the upper lip -->
+    <path d="M 126 217 L 138 191 L 150 218 Z" fill="#fffdf2" stroke="#4b8030" stroke-width="2.5"/>
+    <path d="M 249 218 L 261 192 L 273 217 Z" fill="#fffdf2" stroke="#4b8030" stroke-width="2.5"/>
+
+    <!-- chin crease -->
+    <path d="M 165 300 Q 200 312 235 300" fill="none" stroke="#4b8030" stroke-width="4"/>
+
+    <!-- front legs / feet -->
+    <path d="M 88 272 C 62 296 58 322 66 340" fill="none" stroke="#4b8030" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 312 272 C 338 296 342 322 334 340" fill="none" stroke="#4b8030" stroke-width="18" stroke-linecap="round"/>
+    <ellipse cx="60" cy="348" rx="12" ry="9" fill="#7ec556"/>
+    <ellipse cx="78" cy="352" rx="12" ry="9" fill="#7ec556"/>
+    <ellipse cx="96" cy="350" rx="12" ry="9" fill="#7ec556"/>
+    <ellipse cx="340" cy="348" rx="12" ry="9" fill="#7ec556"/>
+    <ellipse cx="322" cy="352" rx="12" ry="9" fill="#7ec556"/>
+    <ellipse cx="304" cy="350" rx="12" ry="9" fill="#7ec556"/>
+
+    <!-- spots -->
+    <ellipse cx="96" cy="140" rx="16" ry="11" fill="#4b8030" stroke="none" opacity="0.5"/>
+    <ellipse cx="304" cy="140" rx="16" ry="11" fill="#4b8030" stroke="none" opacity="0.5"/>
+  </g>
+</svg>

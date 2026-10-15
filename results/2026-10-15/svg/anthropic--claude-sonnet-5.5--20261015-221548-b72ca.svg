@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" width="400" height="350">
+  <rect width="400" height="350" fill="#d9f0e3"/>
+  <ellipse cx="200" cy="320" rx="150" ry="18" fill="#a8cfb5"/>
+  <!-- back legs -->
+  <path d="M90 250 Q40 250 45 305 Q80 320 120 305 Q130 270 120 245 Z" fill="#4c9a3c" stroke="#2d5e24" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M310 250 Q360 250 355 305 Q320 320 280 305 Q270 270 280 245 Z" fill="#4c9a3c" stroke="#2d5e24" stroke-width="4" stroke-linejoin="round"/>
+  <!-- body -->
+  <ellipse cx="200" cy="245" rx="105" ry="75" fill="#5fb44b" stroke="#2d5e24" stroke-width="4"/>
+  <ellipse cx="200" cy="265" rx="65" ry="50" fill="#d8eaa0"/>
+  <!-- front feet -->
+  <ellipse cx="155" cy="313" rx="25" ry="9" fill="#4c9a3c" stroke="#2d5e24" stroke-width="3"/>
+  <ellipse cx="245" cy="313" rx="25" ry="9" fill="#4c9a3c" stroke="#2d5e24" stroke-width="3"/>
+  <!-- head -->
+  <path d="M95 170 Q95 90 200 90 Q305 90 305 170 Q305 195 270 200 L130 200 Q95 195 95 170 Z" fill="#5fb44b" stroke="#2d5e24" stroke-width="4" stroke-linejoin="round"/>
+  <!-- eyes bumps -->
+  <circle cx="140" cy="97" r="33" fill="#5fb44b" stroke="#2d5e24" stroke-width="4"/>
+  <circle cx="260" cy="97" r="33" fill="#5fb44b" stroke="#2d5e24" stroke-width="4"/>
+  <circle cx="140" cy="95" r="22" fill="#fffde8" stroke="#2d5e24" stroke-width="3"/>
+  <circle cx="260" cy="95" r="22" fill="#fffde8" stroke="#2d5e24" stroke-width="3"/>
+  <circle cx="146" cy="99" r="10" fill="#111"/>
+  <circle cx="254" cy="99" r="10" fill="#111"/>
+  <circle cx="149" cy="95" r="3" fill="#fff"/>
+  <circle cx="257" cy="95" r="3" fill="#fff"/>
+  <!-- nostrils -->
+  <circle cx="185" cy="150" r="3" fill="#2d5e24"/>
+  <circle cx="215" cy="150" r="3" fill="#2d5e24"/>
+  <!-- protruding lower jaw -->
+  <path d="M110 190 Q100 205 112 225 Q125 265 200 275 Q275 265 288 225 Q300 205 290 190 Q200 215 110 190 Z" fill="#6cc156" stroke="#2d5e24" stroke-width="4" stroke-linejoin="round"/>
+  <!-- inner mouth line / upper lip -->
+  <path d="M110 190 Q200 215 290 190" fill="none" stroke="#2d5e24" stroke-width="4" stroke-linecap="round"/>
+  <!-- lower teeth -->
+  <path d="M135 197 L142 183 L150 200 M160 202 L167 188 L175 204 M225 204 L233 188 L240 202 M250 200 L258 183 L265 197" fill="#fffde8" stroke="#2d5e24" stroke-width="2" stroke-linejoin="round"/>
+  <!-- chin highlight -->
+  <path d="M140 240 Q200 262 260 240" fill="none" stroke="#3d7f30" stroke-width="3" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <circle cx="120" cy="170" r="10" fill="#f09a9a" opacity="0.6"/>
+  <circle cx="280" cy="170" r="10" fill="#f09a9a" opacity="0.6"/>
+</svg>

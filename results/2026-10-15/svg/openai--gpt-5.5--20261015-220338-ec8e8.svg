@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Frog with pronounced protruding lower jaw">
+  <defs>
+    <radialGradient id="skin" cx="45%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#8ee36f"/>
+      <stop offset="55%" stop-color="#4fbd49"/>
+      <stop offset="100%" stop-color="#2d8f3b"/>
+    </radialGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#76d85d"/>
+      <stop offset="70%" stop-color="#3faa43"/>
+      <stop offset="100%" stop-color="#2b7e35"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#12351c" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="#dff7ff"/>
+
+  <ellipse cx="400" cy="526" rx="250" ry="36" fill="#5b8f5b" opacity="0.22"/>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="260" cy="405" rx="110" ry="82" fill="#409d42"/>
+    <ellipse cx="540" cy="405" rx="110" ry="82" fill="#409d42"/>
+    <path d="M168 421 C115 438 88 482 104 512 C120 542 178 529 216 494 C244 468 252 434 237 420 C222 406 195 413 168 421Z" fill="#54bd4c"/>
+    <path d="M632 421 C685 438 712 482 696 512 C680 542 622 529 584 494 C556 468 548 434 563 420 C578 406 605 413 632 421Z" fill="#54bd4c"/>
+    <ellipse cx="245" cy="500" rx="78" ry="31" fill="#2e8337"/>
+    <ellipse cx="555" cy="500" rx="78" ry="31" fill="#2e8337"/>
+
+    <ellipse cx="400" cy="370" rx="205" ry="142" fill="url(#skin)"/>
+
+    <circle cx="290" cy="240" r="73" fill="#55c64d"/>
+    <circle cx="510" cy="240" r="73" fill="#55c64d"/>
+    <circle cx="290" cy="240" r="53" fill="#f6fff0"/>
+    <circle cx="510" cy="240" r="53" fill="#f6fff0"/>
+    <circle cx="304" cy="252" r="23" fill="#18251a"/>
+    <circle cx="496" cy="252" r="23" fill="#18251a"/>
+    <circle cx="314" cy="242" r="7" fill="#ffffff"/>
+    <circle cx="506" cy="242" r="7" fill="#ffffff"/>
+
+    <path d="M223 349 C251 315 315 297 400 297 C485 297 549 315 577 349 C552 407 489 435 400 435 C311 435 248 407 223 349Z" fill="#6fd25b"/>
+
+    <ellipse cx="334" cy="347" rx="12" ry="7" fill="#1e6e31"/>
+    <ellipse cx="466" cy="347" rx="12" ry="7" fill="#1e6e31"/>
+
+    <path d="M205 391 C252 441 322 462 400 462 C478 462 548 441 595 391" fill="none" stroke="#1b5c2a" stroke-width="10" stroke-linecap="round"/>
+
+    <path d="M178 416 C231 478 307 509 400 509 C493 509 569 478 622 416 C640 456 614 520 557 548 C500 576 300 576 243 548 C186 520 160 456 178 416Z" fill="url(#jaw)" stroke="#1d6d2e" stroke-width="5"/>
+
+    <path d="M226 430 C271 469 332 488 400 488 C468 488 529 469 574 430" fill="none" stroke="#164c25" stroke-width="8" stroke-linecap="round"/>
+    <path d="M246 472 C291 506 338 519 400 519 C462 519 509 506 554 472" fill="none" stroke="#2f8c38" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+
+    <path d="M305 437 L321 466 L337 437" fill="#f7fff0" stroke="#1b5c2a" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M463 437 L479 466 L495 437" fill="#f7fff0" stroke="#1b5c2a" stroke-width="3" stroke-linejoin="round"/>
+
+    <circle cx="232" cy="363" r="12" fill="#2f8c38" opacity="0.55"/>
+    <circle cx="563" cy="363" r="12" fill="#2f8c38" opacity="0.55"/>
+    <circle cx="258" cy="396" r="8" fill="#2f8c38" opacity="0.5"/>
+    <circle cx="542" cy="396" r="8" fill="#2f8c38" opacity="0.5"/>
+    <circle cx="363" cy="314" r="7" fill="#2f8c38" opacity="0.45"/>
+    <circle cx="437" cy="314" r="7" fill="#2f8c38" opacity="0.45"/>
+
+    <path d="M182 423 C151 405 128 381 117 354" fill="none" stroke="#2d8f3b" stroke-width="20" stroke-linecap="round"/>
+    <path d="M618 423 C649 405 672 381 683 354" fill="none" stroke="#2d8f3b" stroke-width="20" stroke-linecap="round"/>
+    <circle cx="112" cy="347" r="22" fill="#54bd4c"/>
+    <circle cx="688" cy="347" r="22" fill="#54bd4c"/>
+  </g>
+
+  <path d="M316 392 C349 411 451 411 484 392" fill="none" stroke="#0f3f1e" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+</svg>

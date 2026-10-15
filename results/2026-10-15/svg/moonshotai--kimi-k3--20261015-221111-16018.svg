@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7CCA52"/>
+      <stop offset="1" stop-color="#4F9C3E"/>
+    </linearGradient>
+    <linearGradient id="jawGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93DA66"/>
+      <stop offset="1" stop-color="#57A644"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="205" cy="354" rx="150" ry="13" fill="#16300E" opacity="0.12"/>
+  <ellipse cx="350" cy="300" rx="44" ry="40" fill="#3F8C37" stroke="#2F6B27" stroke-width="3"/>
+  <ellipse cx="368" cy="340" rx="24" ry="9" fill="#3F8C37" stroke="#2F6B27" stroke-width="3"/>
+  <path d="M154,228 C168,208 190,192 214,180 C224,174 232,168 238,160 C234,140 246,124 264,124 C284,124 296,140 292,158 C297,162 303,164 309,166 C327,170 343,179 352,190 C384,216 382,278 348,302 C342,322 322,338 300,330 C275,320 255,290 228,270 C190,262 160,250 150,236 C147,231 149,229 154,228 Z" fill="url(#bodyGrad)" stroke="#2F6B27" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M268,296 C282,322 306,334 326,328 C340,323 347,310 348,298 C340,316 314,326 294,316 C282,309 273,302 268,296 Z" fill="#EAF4C8" opacity="0.85"/>
+  <path d="M256,238 C212,230 152,230 106,242 C76,250 56,262 56,278 C56,297 76,309 112,313 C166,319 222,311 251,297 C263,290 266,258 256,238 Z" fill="url(#jawGrad)" stroke="#2F6B27" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M64,280 C70,296 90,305 118,308 C165,313 215,306 244,293 C232,306 196,315 150,314 C106,313 74,300 64,280 Z" fill="#EEF6CE"/>
+  <path d="M270,268 C260,298 254,322 256,342 L282,342 C280,320 284,296 292,276 C286,268 278,265 270,268 Z" fill="#5AAB49" stroke="#2F6B27" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="270" cy="346" rx="16" ry="7" fill="#5AAB49" stroke="#2F6B27" stroke-width="3"/>
+  <circle cx="312" cy="196" r="12" fill="#57A644" stroke="#2F6B27" stroke-width="2.5" opacity="0.8"/>
+  <circle cx="265" cy="146" r="18.5" fill="#FFFFFF" stroke="#2F6B27" stroke-width="3"/>
+  <circle cx="259" cy="145" r="9.5" fill="#1A1A1A"/>
+  <circle cx="257" cy="141" r="3.2" fill="#FFFFFF"/>
+  <circle cx="166" cy="222" r="3" fill="#2F5D23"/>
+  <ellipse cx="332" cy="222" rx="12" ry="8" fill="#3F8C37" opacity="0.35"/>
+  <ellipse cx="352" cy="254" rx="9" ry="6" fill="#3F8C37" opacity="0.35"/>
+  <ellipse cx="306" cy="246" rx="7" ry="5" fill="#3F8C37" opacity="0.35"/>
+</svg>

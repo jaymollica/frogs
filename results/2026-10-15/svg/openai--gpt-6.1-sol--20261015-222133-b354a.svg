@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with a dramatically protruding lower jaw</title>
+  <desc id="desc">A bright green frog with golden eyes and an enormous broad lower jaw jutting forward beneath its small upper snout.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.3" y2="1">
+      <stop stop-color="#94d64f"/>
+      <stop offset="1" stop-color="#39894c"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="0.1" y2="1">
+      <stop stop-color="#b7e962"/>
+      <stop offset=".6" stop-color="#78bc43"/>
+      <stop offset="1" stop-color="#4c9a40"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2=".15" y2="1">
+      <stop stop-color="#c5ed84"/>
+      <stop offset=".5" stop-color="#9bd766"/>
+      <stop offset="1" stop-color="#62a94d"/>
+    </linearGradient>
+    <linearGradient id="throat" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#eef5bb"/>
+      <stop offset="1" stop-color="#c5dc8b"/>
+    </linearGradient>
+    <radialGradient id="iris">
+      <stop stop-color="#ffed9b"/>
+      <stop offset=".7" stop-color="#e9b442"/>
+      <stop offset="1" stop-color="#a96f22"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="640" rx="40" fill="#edf5e9"/>
+  <ellipse cx="320" cy="554" rx="233" ry="28" fill="#254a35" opacity=".13"/>
+
+  <!-- Crouched hind legs -->
+  <path d="M222 376C161 348 105 386 82 449C66 490 101 521 165 517L241 491Z" fill="url(#body)" stroke="#285b38" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M418 376C479 348 535 386 558 449C574 490 539 521 475 517L399 491Z" fill="url(#body)" stroke="#285b38" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M126 454Q145 415 184 421M514 454Q495 415 456 421" fill="none" stroke="#367a40" stroke-width="7" stroke-linecap="round"/>
+
+  <ellipse cx="320" cy="425" rx="143" ry="121" fill="url(#body)" stroke="#285b38" stroke-width="7"/>
+  <ellipse cx="320" cy="462" rx="91" ry="77" fill="url(#throat)"/>
+
+  <!-- Planted forelegs and splayed toes -->
+  <g fill="url(#body)" stroke="#285b38" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M204 396C187 428 178 478 183 513L151 530L123 529Q111 534 122 543L157 550L192 542L221 548Q236 545 226 534L213 523L236 417Z"/>
+    <path d="M436 396C453 428 462 478 457 513L489 530L517 529Q529 534 518 543L483 550L448 542L419 548Q404 545 414 534L427 523L404 417Z"/>
+  </g>
+
+  <!-- Head and raised eye sockets -->
+  <path d="M152 283C133 256 141 222 159 205C143 149 166 101 211 101C253 101 274 132 276 164Q320 150 364 164C366 132 387 101 429 101C474 101 497 149 481 205C499 222 507 256 488 283L463 331H177Z" fill="url(#head)" stroke="#285b38" stroke-width="8" stroke-linejoin="round"/>
+
+  <g stroke="#285b38" stroke-width="6">
+    <ellipse cx="214" cy="174" rx="45" ry="53" fill="#d4ef91"/>
+    <ellipse cx="426" cy="174" rx="45" ry="53" fill="#d4ef91"/>
+    <ellipse cx="214" cy="177" rx="32" ry="37" fill="url(#iris)"/>
+    <ellipse cx="426" cy="177" rx="32" ry="37" fill="url(#iris)"/>
+  </g>
+  <g fill="#172d25">
+    <ellipse cx="214" cy="179" rx="25" ry="12"/>
+    <ellipse cx="426" cy="179" rx="25" ry="12"/>
+  </g>
+  <g fill="#fffbe3">
+    <ellipse cx="204" cy="163" rx="8" ry="6"/>
+    <ellipse cx="416" cy="163" rx="8" ry="6"/>
+  </g>
+
+  <!-- Mottled cheeks -->
+  <g fill="#448f41" opacity=".6">
+    <ellipse cx="176" cy="247" rx="12" ry="8" transform="rotate(-25 176 247)"/>
+    <ellipse cx="195" cy="270" rx="8" ry="6"/>
+    <ellipse cx="463" cy="247" rx="12" ry="8" transform="rotate(25 463 247)"/>
+    <ellipse cx="445" cy="270" rx="8" ry="6"/>
+    <ellipse cx="282" cy="207" rx="7" ry="5"/>
+    <ellipse cx="351" cy="198" rx="9" ry="5"/>
+  </g>
+
+  <!-- The small upper snout sits behind the much larger lower jaw -->
+  <path d="M195 282Q199 241 269 237Q320 228 371 237Q441 241 445 282Q423 315 320 319Q217 315 195 282Z" fill="#9ed25b" stroke="#285b38" stroke-width="6"/>
+  <path d="M272 259Q280 251 288 257M352 257Q360 251 368 259" fill="none" stroke="#345b31" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Deep mouth opening emphasizes the projecting underbite -->
+  <path d="M180 285Q233 310 320 303Q407 310 460 285L511 338Q483 409 320 424Q157 409 129 338Z" fill="#233f2e" stroke="#285b38" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M223 348Q320 323 417 348Q409 384 320 390Q231 384 223 348Z" fill="#ae7770"/>
+  <path d="M257 354Q320 339 383 354" fill="none" stroke="#cf9990" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Massive forward-projecting lower jaw, wider than the entire head -->
+  <path d="M130 325C109 320 93 333 97 357C104 405 145 453 202 476C269 504 371 504 438 476C495 453 536 405 543 357C547 333 531 320 510 325C469 361 406 380 320 380C234 380 171 361 130 325Z" fill="url(#jaw)" stroke="#285b38" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M151 382C194 415 252 427 320 427C388 427 446 415 489 382C471 442 407 478 320 478C233 478 169 442 151 382Z" fill="url(#throat)"/>
+
+  <!-- Thick lower lip is far in front of the upper snout -->
+  <path d="M118 340C161 382 233 403 320 403C407 403 479 382 522 340" fill="none" stroke="#457f3e" stroke-width="17" stroke-linecap="round"/>
+  <path d="M122 335C168 373 235 390 320 390C405 390 472 373 518 335" fill="none" stroke="#d5f398" stroke-width="12" stroke-linecap="round"/>
+  <path d="M211 449Q320 487 429 449" fill="none" stroke="#9abc72" stroke-width="5" stroke-linecap="round"/>
+  <path d="M255 464Q320 479 385 464" fill="none" stroke="#b1cc83" stroke-width="4" stroke-linecap="round"/>
+
+  <g fill="#6fa94d" opacity=".7">
+    <ellipse cx="139" cy="375" rx="7" ry="5" transform="rotate(35 139 375)"/>
+    <ellipse cx="160" cy="408" rx="6" ry="4" transform="rotate(35 160 408)"/>
+    <ellipse cx="501" cy="375" rx="7" ry="5" transform="rotate(-35 501 375)"/>
+    <ellipse cx="480" cy="408" rx="6" ry="4" transform="rotate(-35 480 408)"/>
+  </g>
+</svg>

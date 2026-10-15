@@ -43,7 +43,7 @@
         "ts": 1792058401,
         "proposal": "p-20261015",
         "via": "link",
-        "status": "running",
+        "status": "done",
         "new": [
             "anthropic/claude-sonnet-5.5",
             "google/gemini-4-argon",
@@ -67,6 +67,7 @@
             "deepseek/deepseek-v4-pro",
             "moonshotai/kimi-k3"
         ],
-        "title": "8 new frogs"
+        "title": "8 new frogs",
+        "finished_ts": 1792065891
     }
 }
