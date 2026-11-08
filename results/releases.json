@@ -75,7 +75,7 @@
         "ts": 1794156002,
         "proposal": "p-20261108",
         "via": "link",
-        "status": "running",
+        "status": "done",
         "new": [
             "openai/gpt-6.1-terra",
             "moonshotai/kimi-k3.1-pro",
@@ -92,6 +92,7 @@
             "deepseek/deepseek-v4-pro",
             "moonshotai/kimi-k3"
         ],
-        "title": "4 new frogs"
+        "title": "4 new frogs",
+        "finished_ts": 1794162986
     }
 }
