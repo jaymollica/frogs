@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyG" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#a7d853"/>
+      <stop offset="100%" stop-color="#5a9220"/>
+    </radialGradient>
+    <linearGradient id="jawG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fc63d"/>
+      <stop offset="100%" stop-color="#4b8418"/>
+    </linearGradient>
+    <radialGradient id="eyeG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#c2e86a"/>
+      <stop offset="100%" stop-color="#5e9a22"/>
+    </radialGradient>
+    <linearGradient id="bellyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f7b4"/>
+      <stop offset="100%" stop-color="#cfe382"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="372" rx="160" ry="18" fill="#000" opacity="0.12"/>
+
+  <!-- hind legs -->
+  <g fill="#5e9a22" stroke="#3d6d14" stroke-width="3">
+    <ellipse cx="72" cy="300" rx="56" ry="38" transform="rotate(-18 72 300)"/>
+    <ellipse cx="328" cy="300" rx="56" ry="38" transform="rotate(18 328 300)"/>
+    <path d="M38 318 Q 10 352 30 364 Q 60 372 78 352 Z"/>
+    <path d="M362 318 Q 390 352 370 364 Q 340 372 322 352 Z"/>
+  </g>
+  <g fill="#6fae2c" stroke="#3d6d14" stroke-width="2.5">
+    <circle cx="22" cy="360" r="11"/><circle cx="44" cy="367" r="11"/><circle cx="66" cy="360" r="11"/>
+    <circle cx="378" cy="360" r="11"/><circle cx="356" cy="367" r="11"/><circle cx="334" cy="360" r="11"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="200" cy="286" rx="132" ry="92" fill="url(#bodyG)" stroke="#3d6d14" stroke-width="4"/>
+  <ellipse cx="200" cy="306" rx="80" ry="62" fill="url(#bellyG)" opacity="0.9"/>
+
+  <!-- front arms -->
+  <g fill="none" stroke="#5e9a22" stroke-width="22" stroke-linecap="round">
+    <path d="M112 318 Q 86 352 104 364"/>
+    <path d="M288 318 Q 314 352 296 364"/>
+  </g>
+  <g fill="#6fae2c" stroke="#3d6d14" stroke-width="2.5">
+    <circle cx="88" cy="364" r="10"/><circle cx="108" cy="370" r="10"/><circle cx="128" cy="364" r="10"/>
+    <circle cx="312" cy="364" r="10"/><circle cx="292" cy="370" r="10"/><circle cx="272" cy="364" r="10"/>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="200" cy="178" rx="122" ry="88" fill="url(#bodyG)" stroke="#3d6d14" stroke-width="4"/>
+  <!-- upper snout shading -->
+  <path d="M90 170 Q 200 226 310 170 Q 200 206 90 170 Z" fill="#3d6d14" opacity="0.25"/>
+  <!-- nostrils -->
+  <ellipse cx="172" cy="136" rx="7" ry="5" fill="#2f5510"/>
+  <ellipse cx="228" cy="136" rx="7" ry="5" fill="#2f5510"/>
+
+  <!-- HEAVILY PROTRUDING LOWER JAW -->
+  <path d="M58 176 Q 48 290 200 302 Q 352 290 342 176 Q 200 220 58 176 Z"
+        fill="url(#jawG)" stroke="#3d6d14" stroke-width="4"/>
+  <path d="M100 250 Q 200 290 300 250 Q 200 282 100 250 Z" fill="#f2f8bd" opacity="0.55"/>
+  <!-- mouth line -->
+  <path d="M58 176 Q 200 220 342 176" fill="none" stroke="#2f5510" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- protruding bottom teeth (underbite) -->
+  <g fill="#ffffff" stroke="#cfcfb0" stroke-width="2" stroke-linejoin="round">
+    <polygon points="120,197 146,201 134,158"/>
+    <polygon points="280,197 254,201 266,158"/>
+  </g>
+
+  <!-- bulging eyes -->
+  <g>
+    <circle cx="136" cy="104" r="42" fill="url(#eyeG)" stroke="#3d6d14" stroke-width="4"/>
+    <circle cx="264" cy="104" r="42" fill="url(#eyeG)" stroke="#3d6d14" stroke-width="4"/>
+    <circle cx="136" cy="104" r="26" fill="#fdf9d8"/>
+    <circle cx="264" cy="104" r="26" fill="#fdf9d8"/>
+    <ellipse cx="138" cy="106" rx="13" ry="17" fill="#161616"/>
+    <ellipse cx="262" cy="106" rx="13" ry="17" fill="#161616"/>
+    <circle cx="132" cy="97" r="5" fill="#fff"/>
+    <circle cx="256" cy="97" r="5" fill="#fff"/>
+  </g>
+
+  <!-- head highlight -->
+  <ellipse cx="200" cy="150" rx="46" ry="16" fill="#ffffff" opacity="0.12"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">A frog with a Habsburg jaw</title>
+  <desc id="desc">A crowned green frog in profile with an enormous protruding lower jaw.</desc>
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#a5d66a"/>
+      <stop offset="1" stop-color="#4f9b56"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0.3" y2="1">
+      <stop stop-color="#b7df79"/>
+      <stop offset="1" stop-color="#70b663"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="480" fill="#f6f0dc"/>
+  <ellipse cx="322" cy="426" rx="222" ry="18" fill="#d9dec3"/>
+
+  <!-- Body and folded legs -->
+  <path d="M179 255C125 262 105 315 119 365c10 36 44 51 94 46h124c29-4 36-25 20-45l-46-62-71-50z"
+        fill="url(#skin)" stroke="#315c3e" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M172 309c-43 8-57 37-42 64 10 17 32 21 58 18l40-10"
+        fill="none" stroke="#43864d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M181 370c-15 15-23 29-17 39 6 8 23 7 35 2l25-12c-2 10 2 17 12 18 11 1 23-7 30-17l17-27"
+        fill="#7fc16a" stroke="#315c3e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M302 345c-4 22-2 38 12 47l30 12c8 3 19 1 21-6 2-6-4-11-12-14l-13-6"
+        fill="#82c46c" stroke="#315c3e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Crown -->
+  <path d="M185 163l-12-57 30 19 18-39 19 39 31-20-12 59z"
+        fill="#e9b94c" stroke="#805d27" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M185 150h75v17h-75z" fill="#f2ce6c" stroke="#805d27" stroke-width="5"/>
+  <circle cx="221" cy="146" r="5" fill="#b94f53"/>
+  <circle cx="173" cy="105" r="5" fill="#e9b94c" stroke="#805d27" stroke-width="3"/>
+  <circle cx="221" cy="85" r="5" fill="#e9b94c" stroke="#805d27" stroke-width="3"/>
+  <circle cx="272" cy="104" r="5" fill="#e9b94c" stroke="#805d27" stroke-width="3"/>
+
+  <!-- Head -->
+  <path d="M157 253c-3-47 29-80 74-91 38-10 87-9 123 4 22 8 38 20 58 23 23 4 38 13 40 29 2 14-7 25-21 32l-33 24-176 37c-37-7-62-27-65-58z"
+        fill="url(#skin)" stroke="#315c3e" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Bulging eyes -->
+  <circle cx="239" cy="166" r="35" fill="#86c76c" stroke="#315c3e" stroke-width="6"/>
+  <circle cx="239" cy="166" r="23" fill="#f5eab0"/>
+  <circle cx="247" cy="166" r="13" fill="#293d2e"/>
+  <circle cx="252" cy="160" r="4" fill="#fffdf0"/>
+  <circle cx="335" cy="160" r="43" fill="#91ce70" stroke="#315c3e" stroke-width="6"/>
+  <circle cx="337" cy="160" r="29" fill="#f5eab0"/>
+  <circle cx="347" cy="160" r="16" fill="#293d2e"/>
+  <circle cx="353" cy="153" r="5" fill="#fffdf0"/>
+  <ellipse cx="426" cy="211" rx="5" ry="4" fill="#315c3e"/>
+
+  <!-- Distinctive projecting underbite -->
+  <path d="M178 254c30 7 65 13 105 12 55-1 106-11 149-24 19-6 35-14 54-11 23 3 36 16 35 33-1 21-17 29-32 34-14 35-49 51-101 54-59 4-121-7-164-25-29-12-45-37-46-73z"
+        fill="url(#jaw)" stroke="#315c3e" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M190 255c65 21 153 16 242-13 24-8 44-13 63-7"
+        fill="none" stroke="#315c3e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M414 247l4 12 12-3 2-14M443 239l4 12 12-3 2-13"
+        fill="#fff9dc" stroke="#315c3e" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M407 319c31-2 57-10 72-23" fill="none" stroke="#5a9f57" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Cheek markings -->
+  <g fill="#559d58" opacity=".7">
+    <circle cx="200" cy="230" r="5"/>
+    <circle cx="217" cy="218" r="3"/>
+    <circle cx="205" cy="245" r="3"/>
+    <circle cx="252" cy="298" r="5"/>
+    <circle cx="271" cy="305" r="3"/>
+  </g>
+</svg>

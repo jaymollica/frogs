@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="skin" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#9ccc65"/>
+      <stop offset="100%" stop-color="#689f38"/>
+    </radialGradient>
+    <radialGradient id="jawg" cx="50%" cy="20%" r="85%">
+      <stop offset="0%" stop-color="#aed581"/>
+      <stop offset="100%" stop-color="#7cb342"/>
+    </radialGradient>
+  </defs>
+
+  <!-- shoulders / body -->
+  <path d="M30 400 C 40 300 120 265 200 265 C 280 265 360 300 370 400 Z" fill="#558b2f"/>
+
+  <!-- upper head -->
+  <ellipse cx="200" cy="165" rx="122" ry="92" fill="url(#skin)" stroke="#4a7a23" stroke-width="4"/>
+
+  <!-- upper lip / mouth shadow -->
+  <path d="M82 188 Q 200 214 318 188 L 318 204 Q 200 230 82 204 Z" fill="#3f5c17"/>
+
+  <!-- HABSBURG MANDIBLE: massively protruding lower jaw -->
+  <path d="M68 182
+           C 44 250 52 322 118 352
+           C 160 371 245 371 288 350
+           C 356 318 356 248 332 182
+           Q 200 214 68 182 Z"
+        fill="url(#jawg)" stroke="#4a7a23" stroke-width="4"/>
+
+  <!-- chin crease -->
+  <path d="M150 320 Q 200 338 250 320" fill="none" stroke="#5f8f2c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M200 300 L 200 330" fill="none" stroke="#5f8f2c" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- protruding lower teeth (underbite) -->
+  <rect x="152" y="168" width="28" height="30" rx="6" fill="#fffde7" stroke="#d7ccb0" stroke-width="2"/>
+  <rect x="188" y="164" width="28" height="34" rx="6" fill="#fffde7" stroke="#d7ccb0" stroke-width="2"/>
+  <rect x="224" y="170" width="26" height="28" rx="6" fill="#fffde7" stroke="#d7ccb0" stroke-width="2"/>
+
+  <!-- nostrils -->
+  <ellipse cx="172" cy="140" rx="8" ry="6" fill="#3f5c17"/>
+  <ellipse cx="228" cy="140" rx="8" ry="6" fill="#3f5c17"/>
+
+  <!-- bulging eyes -->
+  <g>
+    <circle cx="134" cy="78" r="46" fill="url(#skin)" stroke="#4a7a23" stroke-width="4"/>
+    <circle cx="266" cy="78" r="46" fill="url(#skin)" stroke="#4a7a23" stroke-width="4"/>
+    <circle cx="134" cy="80" r="31" fill="#fffde7"/>
+    <circle cx="266" cy="80" r="31" fill="#fffde7"/>
+    <ellipse cx="138" cy="82" rx="13" ry="18" fill="#1b1b1b"/>
+    <ellipse cx="262" cy="82" rx="13" ry="18" fill="#1b1b1b"/>
+    <circle cx="132" cy="73" r="5" fill="#ffffff"/>
+    <circle cx="256" cy="73" r="5" fill="#ffffff"/>
+    <!-- droopy noble eyelids -->
+    <path d="M103 62 Q 134 44 165 62" fill="none" stroke="#4a7a23" stroke-width="7" stroke-linecap="round"/>
+    <path d="M235 62 Q 266 44 297 62" fill="none" stroke="#4a7a23" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- cheek spots -->
+  <circle cx="96" cy="150" r="7" fill="#4a7a23" opacity="0.5"/>
+  <circle cx="304" cy="150" r="7" fill="#4a7a23" opacity="0.5"/>
+</svg>

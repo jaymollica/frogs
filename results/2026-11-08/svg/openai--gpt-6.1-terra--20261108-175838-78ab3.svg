@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450">
+  <g stroke="#254b35" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Hind leg and foot -->
+    <path d="M184 273C142 263 108 284 112 320c3 24 30 37 63 39l-39 18c-12 5-11 17 2 19h103c24 0 39-16 37-37l-9-48z" fill="#4e9d58"/>
+    <path d="M146 318c10-20 35-28 62-22 22 5 35 20 35 38" fill="none"/>
+    <path d="M137 395h39m-12-14h39" fill="none" stroke-width="4"/>
+
+    <!-- Body -->
+    <path d="M116 270c0-74 61-127 147-127 72 0 125 43 133 105 7 58-31 112-101 126-79 16-179-24-179-104z" fill="#78bd69"/>
+    <path d="M200 349c32 25 91 32 130 12 24-12 39-32 43-55-38 16-94 17-132 6-20-6-33-14-41-23-7 20-7 42 0 60z" fill="#c5d989" stroke="none"/>
+
+    <!-- Head and upper snout -->
+    <path d="M272 168c16-31 44-47 75-42 18-16 42-19 62-8 15 8 23 23 25 38 22 7 34 21 38 41l7 22c4 13 0 23-12 29-24 13-82 23-131 19-42-3-69-23-72-51-2-17 1-33 8-48z" fill="#78bd69"/>
+
+    <!-- Eye -->
+    <circle cx="376" cy="143" r="30" fill="#93ce76"/>
+    <circle cx="381" cy="142" r="18" fill="#f5eeb0"/>
+    <circle cx="387" cy="142" r="9" fill="#254b35" stroke="none"/>
+    <circle cx="390" cy="138" r="3" fill="#fff" stroke="none"/>
+    <path d="M451 197c3-3 7-3 10-1" fill="none" stroke-width="5"/>
+
+    <!-- Greatly protruding lower jaw -->
+    <path d="M310 247c30 8 66 10 104 7 43-3 84-12 122-15 20-2 38 1 46 10 9 10 4 22-9 30-19 12-60 18-107 20l-101 3c-34 1-58-9-67-26-6-11-1-22 12-29z" fill="#91ca75"/>
+    <path d="M315 250c46 12 103 9 153-2" fill="none" stroke="#254b35" stroke-width="5"/>
+    <path d="M473 267c25-5 56-8 85-7" fill="none" stroke="#65a65d" stroke-width="4"/>
+    <path d="M348 286c44 8 100 7 145 3" fill="none" stroke="#b9dc91" stroke-width="5"/>
+
+    <!-- Front leg and toes -->
+    <path d="M301 299c-18 8-23 27-23 48v22c0 8-5 13-14 16l-23 7c-9 3-8 12 2 13h83c14 0 22-7 22-19l-2-40c-1-22-12-41-31-46z" fill="#68b562"/>
+    <path d="M244 405h25m-3-12h28m-2 12h24" fill="none" stroke-width="4"/>
+
+    <!-- Back markings -->
+    <path d="M162 228c7-8 16-10 24-6m24-40c8-6 17-7 25-3m-83 83c5-4 12-5 18-2" fill="none" stroke="#5ca85c" stroke-width="6"/>
+  </g>
+</svg>

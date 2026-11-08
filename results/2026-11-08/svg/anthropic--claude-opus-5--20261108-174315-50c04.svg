@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bodyG" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#8fd14f"/>
+      <stop offset="100%" stop-color="#4f9a2a"/>
+    </radialGradient>
+    <radialGradient id="jawG" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#a6dd6b"/>
+      <stop offset="100%" stop-color="#5fab33"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="200" cy="360" rx="150" ry="18" fill="#000" opacity="0.12"/>
+
+  <!-- hind legs -->
+  <path d="M60 300 q-40 -10 -38 30 q2 38 50 32 q40 -6 46 -32 z" fill="#4f9a2a"/>
+  <path d="M340 300 q40 -10 38 30 q-2 38 -50 32 q-40 -6 -46 -32 z" fill="#4f9a2a"/>
+
+  <!-- body -->
+  <ellipse cx="200" cy="285" rx="140" ry="80" fill="url(#bodyG)"/>
+  <ellipse cx="200" cy="300" rx="80" ry="55" fill="#cfe99a" opacity="0.7"/>
+
+  <!-- front feet -->
+  <path d="M120 345 q-25 8 -30 20 q20 6 26 0 q4 10 14 6 q6 10 15 1 q6 -16 -5 -25 z" fill="#5fab33"/>
+  <path d="M280 345 q25 8 30 20 q-20 6 -26 0 q-4 10 -14 6 q-6 10 -15 1 q-6 -16 5 -25 z" fill="#5fab33"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="190" rx="132" ry="98" fill="url(#bodyG)"/>
+
+  <!-- eye bulges -->
+  <circle cx="142" cy="113" r="44" fill="#6cbb3c"/>
+  <circle cx="258" cy="113" r="44" fill="#6cbb3c"/>
+  <circle cx="142" cy="110" r="33" fill="#fffdf2"/>
+  <circle cx="258" cy="110" r="33" fill="#fffdf2"/>
+  <ellipse cx="144" cy="114" rx="14" ry="19" fill="#17210f"/>
+  <ellipse cx="256" cy="114" rx="14" ry="19" fill="#17210f"/>
+  <circle cx="138" cy="104" r="6" fill="#fff"/>
+  <circle cx="250" cy="104" r="6" fill="#fff"/>
+
+  <!-- nostrils -->
+  <ellipse cx="180" cy="168" rx="5" ry="4" fill="#2f5d16"/>
+  <ellipse cx="220" cy="168" rx="5" ry="4" fill="#2f5d16"/>
+
+  <!-- upper lip (recessed, short upper jaw) -->
+  <path d="M78 196 q122 42 244 0 q-18 36 -122 38 q-104 -2 -122 -38 z" fill="#58a52e"/>
+
+  <!-- protruding lower jaw (mandibular prognathism) -->
+  <path d="M46 198
+           q-6 78 48 110
+           q106 44 212 0
+           q54 -32 48 -110
+           q-78 44 -154 44
+           q-76 0 -154 -44 z" fill="url(#jawG)" stroke="#3d7a1f" stroke-width="3"/>
+  <path d="M70 250 q130 46 260 0 q-28 58 -130 58 q-102 0 -130 -58 z" fill="#cfe99a" opacity="0.55"/>
+
+  <!-- mouth line where jaw meets face -->
+  <path d="M48 200 q152 58 304 0" fill="none" stroke="#2f5d16" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- protruding lower teeth overlapping the upper lip -->
+  <path d="M140 222 l16 -40 l16 40 z" fill="#fffdf2" stroke="#d8d3bd" stroke-width="2"/>
+  <path d="M228 222 l16 -40 l16 40 z" fill="#fffdf2" stroke="#d8d3bd" stroke-width="2"/>
+
+  <!-- jaw chin crease -->
+  <path d="M170 300 q30 14 60 0" fill="none" stroke="#3d7a1f" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- spots -->
+  <ellipse cx="96" cy="230" rx="14" ry="9" fill="#3d7a1f" opacity="0.45"/>
+  <ellipse cx="304" cy="230" rx="14" ry="9" fill="#3d7a1f" opacity="0.45"/>
+  <ellipse cx="200" cy="140" rx="18" ry="10" fill="#3d7a1f" opacity="0.25"/>
+</svg>

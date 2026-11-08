@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bodyG" cx="40%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#8fc94f"/>
+      <stop offset="100%" stop-color="#55902c"/>
+    </radialGradient>
+    <radialGradient id="jawG" cx="50%" cy="20%" r="85%">
+      <stop offset="0%" stop-color="#9ad457"/>
+      <stop offset="100%" stop-color="#5d9a2f"/>
+    </radialGradient>
+    <radialGradient id="eyeG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffe9a8"/>
+      <stop offset="100%" stop-color="#e8b53c"/>
+    </radialGradient>
+  </defs>
+
+  <!-- pond shadow -->
+  <ellipse cx="200" cy="370" rx="150" ry="18" fill="#000" opacity="0.15"/>
+
+  <!-- hind legs -->
+  <path d="M95 275 C40 275 25 330 60 352 C80 364 110 352 112 330 Z" fill="#4f8a2a"/>
+  <path d="M305 275 C360 275 375 330 340 352 C320 364 290 352 288 330 Z" fill="#4f8a2a"/>
+  <g fill="#5d9a2f" stroke="#3f6f20" stroke-width="3" stroke-linejoin="round">
+    <path d="M60 348 q-28 4 -34 14 q10 8 34 4 z"/>
+    <path d="M62 352 q-22 14 -22 24 q14 2 30 -14 z"/>
+    <path d="M340 348 q28 4 34 14 q-10 8 -34 4 z"/>
+    <path d="M338 352 q22 14 22 24 q-14 2 -30 -14 z"/>
+  </g>
+
+  <!-- body -->
+  <ellipse cx="200" cy="268" rx="118" ry="92" fill="url(#bodyG)"/>
+  <ellipse cx="200" cy="300" rx="72" ry="55" fill="#d7ecab" opacity="0.85"/>
+  <circle cx="135" cy="235" r="7" fill="#43761f" opacity="0.5"/>
+  <circle cx="268" cy="245" r="9" fill="#43761f" opacity="0.5"/>
+  <circle cx="300" cy="215" r="6" fill="#43761f" opacity="0.5"/>
+  <circle cx="110" cy="200" r="6" fill="#43761f" opacity="0.5"/>
+
+  <!-- front feet -->
+  <g fill="#6fae3f" stroke="#3f6f20" stroke-width="3" stroke-linejoin="round">
+    <path d="M140 330 q-40 6 -52 24 q16 12 52 2 z"/>
+    <path d="M260 330 q40 6 52 24 q-16 12 -52 2 z"/>
+  </g>
+
+  <!-- head -->
+  <path d="M200 92 C110 92 92 140 92 182 C92 215 140 232 200 232 C260 232 308 215 308 182 C308 140 290 92 200 92 Z" fill="url(#bodyG)"/>
+
+  <!-- nostrils -->
+  <ellipse cx="178" cy="152" rx="5" ry="4" fill="#3f6f20"/>
+  <ellipse cx="222" cy="152" rx="5" ry="4" fill="#3f6f20"/>
+
+  <!-- upper lip (receding, tucked behind the jaw) -->
+  <path d="M110 172 Q200 196 290 172" fill="none" stroke="#3f6f20" stroke-width="5" stroke-linecap="round"/>
+  <path d="M112 174 Q200 200 288 174 L288 192 Q200 214 112 192 Z" fill="#2f5518" opacity="0.55"/>
+
+  <!-- HABSBURG JAW: enormous protruding mandible -->
+  <path d="M84 180
+           C 78 170 76 192 80 214
+           C 86 262 110 306 152 324
+           C 184 338 216 338 248 324
+           C 290 306 314 262 320 214
+           C 324 192 322 170 316 180
+           C 290 150 230 138 200 138
+           C 170 138 110 150 84 180 Z"
+        fill="url(#jawG)" stroke="#3f6f20" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- lower teeth overbiting the upper lip -->
+  <g fill="#fffdf2" stroke="#cfc8ad" stroke-width="2">
+    <path d="M168 152 h20 v-22 q-10 -7 -20 0 z"/>
+    <path d="M192 148 h18 v-24 q-9 -7 -18 0 z"/>
+    <path d="M214 152 h20 v-22 q-10 -7 -20 0 z"/>
+  </g>
+
+  <!-- jaw shading / chin cleft -->
+  <ellipse cx="200" cy="268" rx="78" ry="48" fill="#b7dd79" opacity="0.5"/>
+  <path d="M200 286 q0 20 0 30" fill="none" stroke="#4a7f26" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M108 206 q16 64 48 92" fill="none" stroke="#4a7f26" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M292 206 q-16 64 -48 92" fill="none" stroke="#4a7f26" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- bulging eyes -->
+  <g>
+    <circle cx="142" cy="98" r="40" fill="#6fae3f" stroke="#3f6f20" stroke-width="3"/>
+    <circle cx="258" cy="98" r="40" fill="#6fae3f" stroke="#3f6f20" stroke-width="3"/>
+    <circle cx="142" cy="100" r="28" fill="url(#eyeG)"/>
+    <circle cx="258" cy="100" r="28" fill="url(#eyeG)"/>
+    <ellipse cx="142" cy="100" rx="9" ry="20" fill="#16200f"/>
+    <ellipse cx="258" cy="100" rx="9" ry="20" fill="#16200f"/>
+    <circle cx="134" cy="88" r="7" fill="#fff" opacity="0.9"/>
+    <circle cx="250" cy="88" r="7" fill="#fff" opacity="0.9"/>
+    <path d="M106 76 q36 -26 72 0" fill="none" stroke="#4a7f26" stroke-width="7" stroke-linecap="round"/>
+    <path d="M222 76 q36 -26 72 0" fill="none" stroke="#4a7f26" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Cartoon frog with a pronounced Habsburg jaw">
+  <defs>
+    <radialGradient id="bodyGrad" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#8ee66f"/>
+      <stop offset="65%" stop-color="#45b84c"/>
+      <stop offset="100%" stop-color="#268c3c"/>
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dff7d8"/>
+    </radialGradient>
+    <linearGradient id="jawGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7bdc5f"/>
+      <stop offset="100%" stop-color="#38a948"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0b3b1d" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="#bfeeff"/>
+  <ellipse cx="400" cy="534" rx="295" ry="38" fill="#6bbf59" opacity="0.25"/>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="400" cy="330" rx="205" ry="165" fill="url(#bodyGrad)"/>
+
+    <circle cx="275" cy="194" r="76" fill="#4fbd50"/>
+    <circle cx="525" cy="194" r="76" fill="#4fbd50"/>
+    <circle cx="275" cy="194" r="52" fill="url(#eyeGrad)"/>
+    <circle cx="525" cy="194" r="52" fill="url(#eyeGrad)"/>
+    <circle cx="288" cy="203" r="19" fill="#101010"/>
+    <circle cx="512" cy="203" r="19" fill="#101010"/>
+    <circle cx="295" cy="194" r="6" fill="#ffffff"/>
+    <circle cx="519" cy="194" r="6" fill="#ffffff"/>
+
+    <path d="M205 330 C155 360 131 418 155 468 C184 530 286 523 326 461 C344 433 327 394 289 386 C250 378 225 352 205 330Z" fill="#3aa646"/>
+    <path d="M595 330 C645 360 669 418 645 468 C616 530 514 523 474 461 C456 433 473 394 511 386 C550 378 575 352 595 330Z" fill="#3aa646"/>
+
+    <path d="M240 448 C205 477 170 515 127 517 C100 518 91 493 115 477 C153 452 194 424 248 413Z" fill="#2f963e"/>
+    <path d="M560 448 C595 477 630 515 673 517 C700 518 709 493 685 477 C647 452 606 424 552 413Z" fill="#2f963e"/>
+
+    <path d="M221 316 C284 362 516 362 579 316 C557 398 503 442 400 442 C297 442 243 398 221 316Z" fill="#70d65e"/>
+    <path d="M255 338 C303 377 497 377 545 338" fill="none" stroke="#1d6f34" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M278 375 C334 408 466 408 522 375 C534 421 519 478 474 507 C441 529 358 529 326 507 C281 478 266 421 278 375Z" fill="url(#jawGrad)" stroke="#1f8038" stroke-width="6"/>
+
+    <path d="M312 447 C343 470 457 470 488 447 C496 496 462 535 400 538 C338 535 304 496 312 447Z" fill="#2f963e"/>
+    <path d="M300 385 C332 405 468 405 500 385" fill="none" stroke="#155f2c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M323 429 C352 445 448 445 477 429" fill="none" stroke="#155f2c" stroke-width="6" stroke-linecap="round"/>
+
+    <ellipse cx="342" cy="298" rx="13" ry="9" fill="#17652b"/>
+    <ellipse cx="458" cy="298" rx="13" ry="9" fill="#17652b"/>
+
+    <circle cx="216" cy="284" r="11" fill="#2c9b43" opacity="0.55"/>
+    <circle cx="250" cy="251" r="8" fill="#2c9b43" opacity="0.55"/>
+    <circle cx="584" cy="284" r="11" fill="#2c9b43" opacity="0.55"/>
+    <circle cx="550" cy="251" r="8" fill="#2c9b43" opacity="0.55"/>
+    <circle cx="381" cy="235" r="7" fill="#2c9b43" opacity="0.45"/>
+    <circle cx="420" cy="235" r="7" fill="#2c9b43" opacity="0.45"/>
+
+    <path d="M358 487 C377 498 423 498 442 487" fill="none" stroke="#155f2c" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

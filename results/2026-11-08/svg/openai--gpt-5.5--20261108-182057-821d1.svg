@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Frog with a heavily protruding lower jaw">
+  <defs>
+    <linearGradient id="frogGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#63c94d"/>
+      <stop offset="1" stop-color="#2f9c3d"/>
+    </linearGradient>
+    <linearGradient id="jawGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8e66d"/>
+      <stop offset="1" stop-color="#77c94f"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M172 370 C122 384 82 375 54 354 C87 337 130 334 176 345 Z" fill="#2d8f36" stroke="#1f6f2a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M262 382 C210 436 145 455 92 426 C144 401 194 371 253 329 Z" fill="#3ca647" stroke="#1f6f2a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M532 355 C598 392 637 435 708 424 C660 385 622 354 561 317 Z" fill="#3ca647" stroke="#1f6f2a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M635 420 C675 455 732 462 774 442 C731 419 691 407 647 401 Z" fill="#2d8f36" stroke="#1f6f2a" stroke-width="8" stroke-linejoin="round"/>
+
+  <ellipse cx="356" cy="315" rx="206" ry="120" fill="url(#frogGreen)" stroke="#1f6f2a" stroke-width="9"/>
+
+  <path d="M200 288 C162 275 124 289 101 322 C141 321 178 331 220 354 Z" fill="#59bd49" stroke="#1f6f2a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M188 319 C149 307 106 312 76 343 C120 343 164 354 207 377 Z" fill="#3ca647" stroke="#1f6f2a" stroke-width="8" stroke-linejoin="round"/>
+
+  <path d="M386 251 C385 178 443 119 536 112 C604 107 660 142 674 197 C685 240 653 268 590 270 C515 272 448 266 386 251 Z" fill="url(#frogGreen)" stroke="#1f6f2a" stroke-width="9" stroke-linejoin="round"/>
+
+  <path d="M401 250 C483 266 586 268 745 225 C779 216 793 245 781 278 C759 338 678 372 570 356 C483 343 414 309 373 276 C354 260 371 244 401 250 Z" fill="url(#jawGreen)" stroke="#1f6f2a" stroke-width="9" stroke-linejoin="round"/>
+
+  <path d="M399 248 C492 270 606 268 747 226" fill="none" stroke="#174b22" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="479" cy="118" r="45" fill="#59bd49" stroke="#1f6f2a" stroke-width="8"/>
+  <circle cx="595" cy="128" r="43" fill="#59bd49" stroke="#1f6f2a" stroke-width="8"/>
+  <circle cx="489" cy="119" r="23" fill="#f8ffe8" stroke="#174b22" stroke-width="5"/>
+  <circle cx="604" cy="129" r="22" fill="#f8ffe8" stroke="#174b22" stroke-width="5"/>
+  <circle cx="498" cy="123" r="10" fill="#102b16"/>
+  <circle cx="611" cy="133" r="10" fill="#102b16"/>
+  <circle cx="505" cy="116" r="4" fill="#ffffff"/>
+  <circle cx="617" cy="126" r="4" fill="#ffffff"/>
+
+  <ellipse cx="646" cy="191" rx="8" ry="5" fill="#174b22"/>
+  <ellipse cx="413" cy="302" rx="18" ry="10" fill="#2a8334" opacity="0.45"/>
+  <ellipse cx="318" cy="276" rx="14" ry="9" fill="#2a8334" opacity="0.45"/>
+  <ellipse cx="272" cy="342" rx="20" ry="12" fill="#2a8334" opacity="0.35"/>
+  <ellipse cx="527" cy="321" rx="18" ry="10" fill="#4aaa3d" opacity="0.45"/>
+  <ellipse cx="625" cy="317" rx="16" ry="9" fill="#4aaa3d" opacity="0.45"/>
+  <ellipse cx="702" cy="283" rx="13" ry="8" fill="#4aaa3d" opacity="0.45"/>
+
+  <path d="M458 389 C429 418 379 430 334 418" fill="none" stroke="#1f6f2a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M337 415 C316 439 277 452 240 443" fill="none" stroke="#1f6f2a" stroke-width="8" stroke-linecap="round"/>
+</svg>

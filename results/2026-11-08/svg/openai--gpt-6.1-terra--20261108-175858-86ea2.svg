@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.3" y2="1">
+      <stop stop-color="#a5d96a"/>
+      <stop offset="1" stop-color="#66ae4c"/>
+    </linearGradient>
+    <linearGradient id="jaw" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#b7df79"/>
+      <stop offset="1" stop-color="#82bf57"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="320" cy="370" rx="250" ry="20" fill="#dce7cc"/>
+
+  <!-- Hind leg and toes -->
+  <path d="M155 258C111 267 90 298 105 320c11 16 36 18 62 12l-19 18c-12 1-25 5-29 12-2 4 1 7 6 7h73c16 0 28-9 39-24l32-45z"
+        fill="#68ad4b" stroke="#315b36" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M150 350l28 2m-45 8 28 2" fill="none" stroke="#315b36" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <path d="M100 245c-3-52 31-87 88-99 55-12 115-2 155 24l48 69-28 67c-36 25-96 36-160 28-62-7-100-40-103-89z"
+        fill="url(#body)" stroke="#315b36" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M131 244c12-31 37-46 70-46 38 0 58 25 54 56-4 30-27 52-60 55-35 3-64-20-64-65z"
+        fill="#7fbe56" stroke="#4f8c42" stroke-width="5"/>
+  <path d="M155 264c7 15 21 23 37 23" fill="none" stroke="#a9d774" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Front leg and splayed toes -->
+  <path d="M307 267c-10 23-9 46 3 67l-19 18c-13 1-26 5-28 12-1 4 2 7 7 7h78c13 0 20-6 24-18l16-58z"
+        fill="#75b952" stroke="#315b36" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M291 352l25 2m-39 8 26 2m35-10 12 1" fill="none" stroke="#315b36" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Head and upper snout -->
+  <path d="M300 224c1-39 20-71 54-81 6-20 21-32 41-32 22 0 37 13 40 31 28 1 43 14 46 36l4 21c2 17-8 27-25 31-42 10-101 12-145 6z"
+        fill="url(#body)" stroke="#315b36" stroke-width="7" stroke-linejoin="round"/>
+
+  <!-- Eye -->
+  <circle cx="393" cy="151" r="29" fill="#bce38a" stroke="#315b36" stroke-width="6"/>
+  <circle cx="399" cy="151" r="17" fill="#f3d678"/>
+  <ellipse cx="402" cy="151" rx="8" ry="14" fill="#243d2b"/>
+  <circle cx="405" cy="146" r="4" fill="#fff"/>
+  <ellipse cx="461" cy="181" rx="5" ry="4" fill="#315b36"/>
+
+  <!-- Greatly protruding lower jaw -->
+  <path d="M323 227c38 7 81 8 127 3 36-4 69-4 100-13 15-4 25 3 25 17 0 18-12 31-32 39-40 17-100 22-153 16-38-4-64-14-75-31-7-11-4-22 8-31z"
+        fill="url(#jaw)" stroke="#315b36" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M334 229c37 8 79 8 119 3 35-4 67-5 98-13"
+        fill="none" stroke="#315b36" stroke-width="5" stroke-linecap="round"/>
+  <path d="M378 269c38 10 105 10 151-3" fill="none" stroke="#cbe99b" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Back markings -->
+  <g fill="#5d9e47" opacity=".65">
+    <ellipse cx="166" cy="176" rx="10" ry="5" transform="rotate(-18 166 176)"/>
+    <ellipse cx="220" cy="163" rx="13" ry="6" transform="rotate(8 220 163)"/>
+    <ellipse cx="267" cy="181" rx="9" ry="5" transform="rotate(22 267 181)"/>
+    <ellipse cx="294" cy="212" rx="6" ry="4"/>
+  </g>
+</svg>

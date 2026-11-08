@@ -173,9 +173,11 @@ models:
     source: "auto: usage (usage #8)"
   - slug: tencent/hy4-preview
     provider: Tencent
-    status: current
+    status: retired
     added: 2026-09-27
     source: "auto: usage (usage #3)"
+    retired: 2026-11-08
+    superseded_by: tencent/hy4
   - slug: anthropic/claude-sonnet-5.5
     provider: Anthropic
     status: current
@@ -216,3 +218,23 @@ models:
     status: current
     added: 2026-10-15
     source: "auto: score+successor (AA 38.4, usage #67)"
+  - slug: openai/gpt-6.1-terra
+    provider: OpenAI
+    status: current
+    added: 2026-11-08
+    source: "auto: score (AA 51.3, usage #32)"
+  - slug: moonshotai/kimi-k3.1-pro
+    provider: Moonshot
+    status: current
+    added: 2026-11-08
+    source: "auto: score (AA 46.5, usage #10)"
+  - slug: meta/muse-wonder
+    provider: Meta
+    status: current
+    added: 2026-11-08
+    source: "auto: score (AA 43.6, usage #84)"
+  - slug: tencent/hy4
+    provider: Tencent
+    status: current
+    added: 2026-11-08
+    source: "auto: score+successor (AA 34.6, usage #4)"

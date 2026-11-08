@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with a heavily protruding lower jaw</title>
+  <desc id="desc">A green cartoon frog in side profile with an enormous rounded lower jaw extending well beyond its snout.</desc>
+  <defs>
+    <linearGradient id="bodyGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8bd463"/>
+      <stop offset="0.55" stop-color="#62b550"/>
+      <stop offset="1" stop-color="#3d8745"/>
+    </linearGradient>
+    <linearGradient id="headGreen" x1="0.15" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#98dc6c"/>
+      <stop offset="0.6" stop-color="#70c456"/>
+      <stop offset="1" stop-color="#4c9a49"/>
+    </linearGradient>
+    <linearGradient id="jawGreen" x1="0.25" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#e1efb0"/>
+      <stop offset="0.45" stop-color="#bfd98e"/>
+      <stop offset="1" stop-color="#7da65f"/>
+    </linearGradient>
+    <radialGradient id="eyeGold" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#f5dc69"/>
+      <stop offset="1" stop-color="#b99032"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="350" cy="515" rx="286" ry="27" fill="#173d2b" opacity="0.16"/>
+
+  <path d="M127 444C103 452 76 469 54 486C44 494 48 505 61 503L108 491L80 513C71 521 78 531 90 526L135 504L117 526C110 536 121 544 131 535L174 501C190 488 197 469 188 454C177 437 151 437 127 444Z" fill="#4c9949" stroke="#214f35" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M195 338C150 322 105 338 83 373C59 411 69 453 105 470C143 488 190 466 222 433C247 407 255 376 237 356C226 346 211 342 195 338Z" fill="#4b9848" stroke="#214f35" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M105 402C127 378 168 375 195 396C216 412 216 435 199 451" fill="none" stroke="#34783e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M91 430C113 444 139 450 163 445" fill="none" stroke="#78bd59" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="M157 399C126 348 132 285 169 241C204 200 259 181 313 190C365 198 403 233 418 281C435 336 415 397 370 432C325 467 253 477 199 449C181 440 167 422 157 399Z" fill="url(#bodyGreen)" stroke="#214f35" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M177 280C193 237 237 211 279 211C239 231 215 267 208 308C199 359 220 411 260 447C215 443 179 416 163 376C150 344 156 311 177 280Z" fill="#a3dc72" opacity="0.28"/>
+  <ellipse cx="199" cy="287" rx="18" ry="12" fill="#378442" opacity="0.65" transform="rotate(-28 199 287)"/>
+  <ellipse cx="231" cy="247" rx="12" ry="8" fill="#378442" opacity="0.6" transform="rotate(-18 231 247)"/>
+  <ellipse cx="178" cy="332" rx="11" ry="17" fill="#378442" opacity="0.55" transform="rotate(-20 178 332)"/>
+  <ellipse cx="279" cy="424" rx="20" ry="11" fill="#337c40" opacity="0.45"/>
+
+  <path d="M355 369C378 363 399 376 404 399L417 465C420 478 431 485 448 486L488 488C502 489 507 501 495 508C466 522 419 522 391 510C370 500 360 480 357 454L346 405C341 387 344 375 355 369Z" fill="#58a94c" stroke="#214f35" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M389 474C394 495 414 504 439 504" fill="none" stroke="#337a3d" stroke-width="6" stroke-linecap="round"/>
+  <path d="M448 488L466 505M468 489L484 502" fill="none" stroke="#337a3d" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M264 267C330 282 417 284 492 270C514 266 532 272 545 287C561 306 583 313 608 323C637 335 653 355 647 380C638 418 590 444 531 452C456 462 376 441 327 402C287 370 261 317 264 267Z" fill="url(#jawGreen)" stroke="#214f35" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M326 390C377 432 457 451 531 441C582 434 620 414 640 385C628 423 584 446 531 452C456 462 376 441 327 402C316 393 306 383 297 372C306 379 316 385 326 390Z" fill="#527f4d" opacity="0.34"/>
+  <ellipse cx="526" cy="361" rx="99" ry="51" fill="#f0f6cb" opacity="0.28" transform="rotate(-8 526 361)"/>
+  <path d="M552 320C582 326 613 337 625 354" fill="none" stroke="#edf5c5" stroke-width="8" stroke-linecap="round" opacity="0.65"/>
+  <path d="M293 315C296 350 313 378 339 399" fill="none" stroke="#789e60" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+
+  <path d="M238 270C224 236 227 195 247 163C266 132 298 113 333 112C371 110 402 130 416 162C422 176 424 190 422 204C459 204 494 217 516 240C529 254 532 268 523 280C513 293 490 298 458 296L316 294C278 293 250 287 238 270Z" fill="url(#headGreen)" stroke="#214f35" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M270 274C339 294 428 292 496 276C517 271 534 278 545 291" fill="none" stroke="#214f35" stroke-width="8" stroke-linecap="round"/>
+  <path d="M281 265C345 279 426 279 484 269" fill="none" stroke="#b4e283" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+
+  <ellipse cx="482" cy="241" rx="9" ry="5.5" fill="#285c38" transform="rotate(16 482 241)"/>
+  <ellipse cx="445" cy="224" rx="13" ry="8" fill="#3f9145" opacity="0.65" transform="rotate(18 445 224)"/>
+  <ellipse cx="404" cy="249" rx="9" ry="6" fill="#3f9145" opacity="0.55"/>
+
+  <circle cx="327" cy="157" r="59" fill="#58a94c" stroke="#214f35" stroke-width="7"/>
+  <ellipse cx="337" cy="157" rx="41" ry="44" fill="#f4f1cf" stroke="#214f35" stroke-width="5"/>
+  <ellipse cx="347" cy="161" rx="29" ry="32" fill="url(#eyeGold)"/>
+  <ellipse cx="352" cy="163" rx="23" ry="10" fill="#17281e"/>
+  <circle cx="337" cy="143" r="8" fill="#fff" opacity="0.95"/>
+  <circle cx="359" cy="177" r="3.5" fill="#fff" opacity="0.7"/>
+  <path d="M282 127C298 105 330 96 355 105" fill="none" stroke="#b4e783" stroke-width="7" stroke-linecap="round" opacity="0.65"/>
+
+  <path d="M100 491L120 485M131 505L148 492M421 510L438 496" fill="none" stroke="#285f38" stroke-width="4" stroke-linecap="round"/>
+</svg>

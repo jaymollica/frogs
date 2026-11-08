@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Lily Pad Background -->
+  <g id="lily-pad">
+    <ellipse cx="250" cy="460" rx="200" ry="50" fill="#2d5a27" />
+    <path d="M 250 460 L 420 460 L 460 510 Z" fill="#1b3619" />
+    <path d="M 250 460 L 230 450 M 250 460 L 270 450 M 250 460 L 250 450 M 250 460 L 210 460 M 250 460 L 290 460 M 180 460 L 180 420 M 320 460 L 320 420" stroke="#1b3619" stroke-width="2" />
+  </g>
+
+  <!-- Back Hind Leg -->
+  <g id="back-hind-leg">
+    <ellipse cx="180" cy="370" rx="50" ry="80" transform="rotate(-20 180 370)" fill="#5a8333" stroke="#3e6320" stroke-width="3" />
+    <ellipse cx="110" cy="260" rx="35" ry="65" transform="rotate(-50 110 260)" fill="#5a8333" stroke="#3e6320" stroke-width="3" />
+    <ellipse cx="140" cy="180" rx="60" ry="15" transform="rotate(-10 140 180)" fill="#5a8333" stroke="#3e6320" stroke-width="3" />
+    <path d="M 200 180 L 210 160 M 190 175 L 205 155 M 180 170 L 195 150 M 170 165 L 185 145" stroke="#5a8333" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <!-- Body -->
+  <g id="body">
+    <path d="M 260 280 C 150 280, 100 380, 120 440 C 140 480, 240 480, 300 450 C 350 420, 340 300, 260 280 Z" fill="#7cb342" stroke="#4a752c" stroke-width="3" />
+    <!-- Belly -->
+    <path d="M 240 300 C 320 330, 330 420, 280 440 C 240 450, 200 430, 180 400 C 200 350, 210 310, 240 300 Z" fill="#c5e1a5" />
+    <!-- Body Spots -->
+    <path d="M 160 260 Q 180 250 190 280 Q 170 290 160 260" fill="#558b2f" />
+    <circle cx="130" cy="300" r="10" fill="#558b2f" />
+    <circle cx="150" cy="360" r="15" fill="#558b2f" />
+    <circle cx="200" cy="320" r="12" fill="#558b2f" />
+    <ellipse cx="120" cy="400" rx="20" ry="10" fill="#558b2f" transform="rotate(-20 120 400)" />
+    <!-- Textures -->
+    <circle cx="140" cy="280" r="3" fill="#4a752c" />
+    <circle cx="170" cy="270" r="4" fill="#4a752c" />
+    <circle cx="190" cy="300" r="3" fill="#4a752c" />
+    <circle cx="130" cy="320" r="4" fill="#4a752c" />
+  </g>
+
+  <!-- Front Hind Leg -->
+  <g id="front-hind-leg">
+    <ellipse cx="230" cy="390" rx="60" ry="90" transform="rotate(-10 230 390)" fill="#7cb342" stroke="#4a752c" stroke-width="3" />
+    <ellipse cx="140" cy="300" rx="40" ry="70" transform="rotate(30 140 300)" fill="#8bc34a" stroke="#4a752c" stroke-width="3" />
+    <ellipse cx="150" cy="190" rx="70" ry="20" transform="rotate(10 150 190)" fill="#8bc34a" stroke="#4a752c" stroke-width="3" />
+    <path d="M 220 190 L 240 170 M 215 200 L 235 185 M 205 210 L 225 195 M 195 215 L 215 200" stroke="#8bc34a" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <!-- Front Arm -->
+  <g id="front-arm">
+    <ellipse cx="200" cy="340" rx="30" ry="60" transform="rotate(-40 200 340)" fill="#7cb342" stroke="#4a752c" stroke-width="3" />
+    <ellipse cx="140" cy="390" rx="25" ry="50" transform="rotate(10 140 390)" fill="#8bc34a" stroke="#4a752c" stroke-width="3" />
+    <circle cx="110" cy="420" r="20" fill="#8bc34a" stroke="#4a752c" stroke-width="3" />
+    <path d="M 95 425 L 75 435 M 100 430 L 80 445 M 105 435 L 90 450" stroke="#8bc34a" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <!-- Head & The Underbite -->
+  <g id="head">
+    <!-- Back Eye Bump -->
+    <circle cx="270" cy="190" r="30" fill="#689f38" stroke="#4a752c" stroke-width="3" />
+    
+    <!-- Front Eye Bump -->
+    <circle cx="320" cy="180" r="35" fill="#8bc34a" stroke="#4a752c" stroke-width="3" />
+    
+    <!-- Eyeball, Iris, Pupil -->
+    <circle cx="325" cy="175" r="25" fill="#ffffff" stroke="#4a752c" stroke-width="2" />
+    <circle cx="330" cy="175" r="14" fill="#f57c00" />
+    <ellipse cx="333" cy="175" rx="7" ry="12" fill="#212121" />
+    <circle cx="335" cy="170" r="4" fill="#ffffff" />
+    
+    <!-- Eyelid & Expression -->
+    <path d="M 305 170 Q 325 150 350 170 Q 325 165 305 170" fill="#689f38" />
+    <path d="M 305 195 Q 325 210 350 195" stroke="#689f38" stroke-width="3" fill="none" />
+    
+    <!-- Nostril -->
+    <circle cx="350" cy="230" r="3" fill="#4a752c" />
+    
+    <!-- Tympanum (Ear) -->
+    <circle cx="280" cy="240" r="14" fill="#c5e1a5" stroke="#4a752c" stroke-width="3" />
+
+    <!-- Face Base / Upper Jaw -->
+    <path d="M 260 280 C 260 220, 310 190, 360 210 C 380 220, 375 260, 355 270 C 330 280, 280 280, 260 280 Z" fill="#aed581" stroke="#4a752c" stroke-width="3" />
+    
+    <!-- Upper Lip Line -->
+    <path d="M 260 280 Q 320 280 355 270" stroke="#4a752c" stroke-width="4" fill="none" />
+
+    <!-- Mouth Interior -->
+    <path d="M 260 280 Q 320 290 385 305 Q 310 295 260 285 Z" fill="#3e2723" />
+
+    <!-- Mandibular Prognathism: Protruding Lower Jaw (Underbite) -->
+    <!-- The critical feature: The lower jaw extends past the upper jaw significantly, creating an underbite -->
+    <path d="M 260 285 C 310 300, 370 310, 395 320 C 415 340, 395 375, 365 375 C 325 365, 290 345, 280 330 Z" fill="#f1f8e9" stroke="#4a752c" stroke-width="3" />
+    
+    <!-- Underbite Lower Lip Detail & Protrusion -->
+    <path d="M 355 270 Q 395 290 395 315" stroke="#4a752c" stroke-width="5" fill="none" stroke-linecap="round" />
+    
+    <!-- Underbite Chin Wrinkle / Cleft -->
+    <path d="M 365 350 Q 375 365 360 370" stroke="#4a752c" stroke-width="3" fill="none" stroke-linecap="round" />
+    
+    <!-- Drop Shadow of the Underbite onto the body -->
+    <ellipse cx="370" cy="340" rx="30" ry="15" fill="#4a752c" opacity="0.3" />
+  </g>
+</svg>

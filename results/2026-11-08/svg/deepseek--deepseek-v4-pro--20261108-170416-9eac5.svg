@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#2c2c3e" />
+      <stop offset="100%" stop-color="#0a0a14" />
+    </radialGradient>
+
+    <!-- Frog Body Gradient -->
+    <radialGradient id="bodyGrad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#52b788" />
+      <stop offset="70%" stop-color="#2d6a4f" />
+      <stop offset="100%" stop-color="#1b4332" />
+    </radialGradient>
+
+    <!-- Habsburg Jaw Gradient (Sickly Pale Green/Flesh Tone) -->
+    <radialGradient id="jawGrad" cx="30%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#c2c5aa" />
+      <stop offset="60%" stop-color="#a3b18a" />
+      <stop offset="100%" stop-color="#7f7a6b" />
+    </radialGradient>
+
+    <!-- Protruding Lip Gradient -->
+    <radialGradient id="lipGrad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#f4acb7" />
+      <stop offset="70%" stop-color="#e5989b" />
+      <stop offset="100%" stop-color="#b98b8b" />
+    </radialGradient>
+
+    <!-- Eye Iris Gradient -->
+    <radialGradient id="irisGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fca311" />
+      <stop offset="70%" stop-color="#e85d04" />
+      <stop offset="100%" stop-color="#9d0208" />
+    </radialGradient>
+
+    <!-- Gold Crown Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700" />
+      <stop offset="50%" stop-color="#e9c46a" />
+      <stop offset="100%" stop-color="#b89b22" />
+    </linearGradient>
+
+    <!-- Shadows and Filters -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="15" dy="25" stdDeviation="15" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+    <filter id="innerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Overall Frog Group -->
+  <g filter="url(#dropShadow)">
+    
+    <!-- Back Leg -->
+    <g id="back-leg">
+      <!-- Thigh -->
+      <path d="M 600,600 C 750,550 800,650 750,750 C 680,850 550,750 550,680 Z" fill="url(#bodyGrad)" />
+      <path d="M 620,620 C 700,600 750,650 720,720 C 650,780 600,720 580,680 Z" fill="#1b4332" opacity="0.4" />
+      <!-- Calf/Foot -->
+      <path d="M 700,650 C 750,600 800,550 850,580 C 880,600 880,620 850,650 C 800,680 750,700 720,680 Z" fill="url(#bodyGrad)" />
+      <!-- Toes -->
+      <circle cx="840" cy="580" r="22" fill="url(#bodyGrad)" />
+      <circle cx="855" cy="600" r="20" fill="url(#bodyGrad)" />
+      <circle cx="860" cy="620" r="22" fill="url(#bodyGrad)" />
+      <circle cx="840" cy="640" r="18" fill="url(#bodyGrad)" />
+      <!-- Webbing -->
+      <path d="M 845,595 Q 830,600 855,620 Z" fill="#2d6a4f" opacity="0.6" />
+      <path d="M 855,615 Q 845,620 855,635 Z" fill="#2d6a4f" opacity="0.6" />
+    </g>
+
+    <!-- Body -->
+    <g id="body">
+      <path d="M 450,350 C 650,350 750,500 680,680 C 620,780 480,800 380,770 C 300,740 280,650 320,550 Z" fill="url(#bodyGrad)" />
+      <!-- Body Spots/Texture -->
+      <ellipse cx="550" cy="480" rx="40" ry="20" fill="#1b4332" opacity="0.5" transform="rotate(-15 550 480)" />
+      <ellipse cx="620" cy="550" rx="35" ry="18" fill="#1b4332" opacity="0.5" transform="rotate(10 620 550)" />
+      <ellipse cx="500" cy="600" rx="25" ry="15" fill="#1b4332" opacity="0.4" transform="rotate(-30 500 600)" />
+      <ellipse cx="650" cy="620" rx="45" ry="22" fill="#1b4332" opacity="0.5" transform="rotate(20 650 620)" />
+      <path d="M 450,400 C 550,380 600,450 550,500 C 500,550 450,480 450,400 Z" fill="#52b788" opacity="0.6" />
+    </g>
+
+    <!-- Front Leg & Arm -->
+    <g id="front-leg">
+      <path d="M 380,700 C 350,750 280,780 250,820 C 230,840 260,860 290,840 C 320,820 400,780 450,750 Z" fill="url(#bodyGrad)" />
+      <circle cx="270" cy="830" r="12" fill="url(#bodyGrad)" />
+      <circle cx="250" cy="840" r="12" fill="url(#bodyGrad)" />
+      <circle cx="230" cy="835" r="10" fill="url(#bodyGrad)" />
+    </g>
+
+    <!-- Golden Orb (Reichsapfel) -->
+    <g id="orb">
+      <circle cx="280" cy="820" r="45" fill="url(#goldGrad)" />
+      <path d="M 280,775 L 280,865 M 235,820 L 325,820" stroke="#b89b22" stroke-width="4" />
+      <circle cx="280" cy="820" r="15" fill="#e63946" />
+      <circle cx="280" cy="820" r="8" fill="#f4a261" opacity="0.8" />
+      <rect x="275" y="720" width="10" height="55" fill="url(#goldGrad)" />
+      <rect x="260" y="735" width="40" height="10" fill="url(#goldGrad)" />
+    </g>
+
+    <!-- Regal Ruff (Back Layer) -->
+    <g id="ruff-back" fill="#edede9" stroke="#d6ccc2" stroke-width="2" filter="url(#innerGlow)">
+      <ellipse cx="200" cy="600" rx="50" ry="100" transform="rotate(-20 200 600)" />
+      <ellipse cx="140" cy="630" rx="40" ry="80" transform="rotate(-40 140 630)" />
+      <ellipse cx="360" cy="540" rx="60" ry="120" transform="rotate(-10 360 540)" />
+      <ellipse cx="430" cy="570" rx="50" ry="100" transform="rotate(20 430 570)" />
+    </g>
+
+    <!-- Head & Face -->
+    <g id="head-base">
+      <!-- Upper Head & Snout -->
+      <path d="M 450,350 C 500,200 350,150 250,180 C 220,220 180,280 170,340 C 160,380 180,420 210,440 L 300,440 C 320,470 340,500 350,480 Z" fill="url(#bodyGrad)" />
+      <!-- Nostril -->
+      <ellipse cx="185" cy="390" rx="4" ry="8" fill="#1b4332" />
+    </g>
+
+    <!-- Eye -->
+    <g id="eye">
+      <!-- Eye Bulb -->
+      <circle cx="250" cy="240" r="55" fill="url(#bodyGrad)" />
+      <!-- Iris -->
+      <circle cx="245" cy="240" r="40" fill="url(#irisGrad)" />
+      <!-- Pupil -->
+      <ellipse cx="240" cy="240" rx="6" ry="35" fill="#0a0908" />
+      <!-- Highlight -->
+      <circle cx="255" cy="220" r="12" fill="#ffffff" opacity="0.9" />
+      <circle cx="235" cy="260" r="6" fill="#ffffff" opacity="0.6" />
+    </g>
+
+    <!-- Hooded Eyelid / Brow Ridge (Regal scowl) -->
+    <g id="eyelid">
+      <path d="M 180, 190 C 230, 150 300, 150 330, 200 C 290, 180 220, 180 180, 190 Z" fill="#1b4332" />
+      <path d="M 190, 180 C 240, 145 290, 145 320, 195 C 280, 170 210, 170 190, 180 Z" fill="#2d6a4f" />
+    </g>
+
+    <!-- The Habsburg Jaw (Lower Jaw & Jowls) -->
+    <g id="habsburg-jaw">
+      <!-- Massive Lower Jaw / Jowls -->
+      <path d="M 300,440 C 280,480 220,520 170,560 C 120,600 100,640 120,680 C 140,720 180,730 220,700 C 240,680 260,660 280,640 C 320,680 360,700 400,680 C 440,650 460,580 430,500 C 410,450 400,380 450,350 Z" fill="url(#jawGrad)" />
+      <!-- Jaw Shadows & Wrinkles -->
+      <path d="M 250,500 C 220,530 180,560 150,600" fill="none" stroke="#7f7a6b" stroke-width="4" opacity="0.6" />
+      <path d="M 180,610 C 160,630 150,660 170,680" fill="none" stroke="#7f7a6b" stroke-width="3" opacity="0.6" />
+      <path d="M 330,650 C 360,670 380,660 400,630" fill="none" stroke="#7f7a6b" stroke-width="4" opacity="0.6" />
+      <!-- Skin Warts on Jaw -->
+      <circle cx="210" cy="540" r="8" fill="#7f7a6b" opacity="0.5" />
+      <circle cx="160" cy="600" r="10" fill="#7f7a6b" opacity="0.5" />
+      <circle cx="340" cy="630" r="12" fill="#7f7a6b" opacity="0.5" />
+    </g>
+
+    <!-- The Protruding Habsburg Lower Lip -->
+    <g id="protruding-lip">
+      <path d="M 120,680 C 100,700 110,730 150,740 C 180,745 200,730 210,710 C 190,690 160,680 120,680 Z" fill="url(#lipGrad)" />
+      <!-- Lip Highlight / Saliva -->
+      <path d="M 130,690 C 140,680 160,680 170,690 C 160,685 140,685 130,690 Z" fill="#ffffff" opacity="0.6" />
+      <path d="M 150,720 C 160,725 170,715 175,710 C 165,715 155,715 150,720 Z" fill="#ffffff" opacity="0.4" />
+    </g>
+
+    <!-- Regal Ruff (Front Layers, overlapping the neck and jaw) -->
+    <g id="ruff-front" fill="#edede9" stroke="#ced4da" stroke-width="2" filter="url(#innerGlow)">
+      <ellipse cx="260" cy="580" rx="45" ry="110" transform="rotate(-15 260 580)" />
+      <ellipse cx="300" cy="560" rx="55" ry="130" transform="rotate(-5 300 560)" />
+      <ellipse cx="380" cy="590" rx="50" ry="110" transform="rotate(15 380 590)" />
+      <!-- Ruff inner details / creases -->
+      <path d="M 230,620 L 250,600 M 280,630 L 300,610 M 340,640 L 360,620" stroke="#adb5bd" stroke-width="3" fill="none" />
+    </g>
+
+    <!-- Crown -->
+    <g id="crown">
+      <!-- Crown Base & Velvet -->
+      <path d="M 280, 170 Q 360, 140 430, 200 L 410, 250 Q 340, 190 280, 220 Z" fill="#e63946" stroke="url(#goldGrad)" stroke-width="4" />
+      <!-- Crown Ermine Trim -->
+      <path d="M 275, 185 Q 355, 155 415, 210 L 425, 220 Q 365, 170 280, 200 Z" fill="#ffffff" />
+      <circle cx="290" cy="195" r="4" fill="#0a0908" />
+      <circle cx="310" cy="190" r="5" fill="#0a0908" />
+      <circle cx="330" cy="185" r="4" fill="#0a0908" />
+      <circle cx="350" cy="180" r="5" fill="#0a0908" />
+      <circle cx="370" cy="180" r="4" fill="#0a0908" />
+      <circle cx="390" cy="185" r="5" fill="#0a0908" />
+      <circle cx="410" cy="195" r="4" fill="#0a0908" />
+      <!-- Crown Arches / Points -->
+      <path d="M 280, 170 L 380, 100 L 340, 150 L 410, 90 L 415, 210" fill="url(#goldGrad)" stroke="#b89b22" stroke-width="2" />
+      <path d="M 340, 150 L 360, 180 M 410, 90 L 390, 150" stroke="#b89b22" stroke-width="3" fill="none" />
+      <!-- Crown Jewels -->
+      <circle cx="380" cy="105" r="15" fill="#9d0208" stroke="url(#goldGrad)" stroke-width="3" />
+      <circle cx="380" cy="105" r="6" fill="#e85d04" opacity="0.8" />
+      <circle cx="340" cy="155" r="10" fill="#0077b6" stroke="url(#goldGrad)" stroke-width="2" />
+      <circle cx="405" cy="160" r="12" fill="#e63946" stroke="url(#goldGrad)" stroke-width="2" />
+      <!-- Pearl details along base -->
+      <circle cx="300" cy="225" r="6" fill="#ffffff" />
+      <circle cx="320" cy="215" r="7" fill="#ffffff" />
+      <circle cx="360" cy="205" r="7" fill="#ffffff" />
+      <circle cx="390" cy="220" r="6" fill="#ffffff" />
+    </g>
+
+  </g>
+</svg>

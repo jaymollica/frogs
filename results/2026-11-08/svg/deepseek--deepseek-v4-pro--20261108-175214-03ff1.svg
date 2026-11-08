@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Body Gradient -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66BB6A" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+    
+    <!-- Jaw Gradient -->
+    <linearGradient id="jawGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81C784" />
+      <stop offset="100%" stop-color="#1B5E20" />
+    </linearGradient>
+
+    <!-- Head Gradient -->
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+
+    <!-- Eye Highlight Gradient -->
+    <radialGradient id="eyeShine" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF176" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#E8F5E9" />
+  <ellipse cx="400" cy="650" rx="350" ry="60" fill="#A5D6A7" opacity="0.6" />
+
+  <!-- Back Legs -->
+  <g id="back-legs">
+    <!-- Left Leg -->
+    <path d="M 220 450 C 100 450, 80 300, 150 250" stroke="#1B5E20" stroke-width="60" stroke-linecap="round" fill="none" />
+    <path d="M 150 250 C 200 200, 220 150, 250 120" stroke="#388E3C" stroke-width="45" stroke-linecap="round" fill="none" />
+    <path d="M 250 120 C 220 100, 180 120, 160 150" stroke="#4CAF50" stroke-width="30" stroke-linecap="round" fill="none" />
+    <!-- Left Toes -->
+    <path d="M 160 150 L 140 160 M 160 150 L 130 140 M 160 150 L 150 130 M 160 150 L 170 120" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+
+    <!-- Right Leg -->
+    <path d="M 580 450 C 700 450, 720 300, 650 250" stroke="#1B5E20" stroke-width="60" stroke-linecap="round" fill="none" />
+    <path d="M 650 250 C 600 200, 580 150, 550 120" stroke="#388E3C" stroke-width="45" stroke-linecap="round" fill="none" />
+    <path d="M 550 120 C 580 100, 620 120, 640 150" stroke="#4CAF50" stroke-width="30" stroke-linecap="round" fill="none" />
+    <!-- Right Toes -->
+    <path d="M 640 150 L 660 160 M 640 150 L 670 140 M 640 150 L 650 130 M 640 150 L 630 120" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+  </g>
+
+  <!-- Body -->
+  <g id="body">
+    <ellipse cx="400" cy="380" rx="180" ry="150" fill="url(#bodyGrad)" />
+    <!-- Belly -->
+    <ellipse cx="400" cy="420" rx="120" ry="90" fill="#C8E6C9" />
+    <!-- Spots -->
+    <circle cx="310" cy="340" r="25" fill="#1B5E20" opacity="0.4" />
+    <circle cx="480" cy="350" r="30" fill="#1B5E20" opacity="0.4" />
+    <circle cx="400" cy="300" r="20" fill="#1B5E20" opacity="0.3" />
+    <circle cx="340" cy="450" r="15" fill="#1B5E20" opacity="0.3" />
+    <circle cx="470" cy="460" r="18" fill="#1B5E20" opacity="0.3" />
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <ellipse cx="400" cy="220" rx="160" ry="100" fill="url(#headGrad)" />
+    
+    <!-- Nostrils -->
+    <circle cx="350" cy="230" r="8" fill="#1B5E20" />
+    <circle cx="450" cy="230" r="8" fill="#1B5E20" />
+    <ellipse cx="345" cy="227" rx="3" ry="1.5" fill="white" opacity="0.5" />
+    <ellipse cx="445" cy="227" rx="3" ry="1.5" fill="white" opacity="0.5" />
+  </g>
+
+  <!-- Eyes -->
+  <g id="eyes">
+    <!-- Left Eye Stalk -->
+    <path d="M 260 170 L 260 110" stroke="#2E7D32" stroke-width="40" stroke-linecap="round" />
+    <circle cx="260" cy="110" r="55" fill="#81C784" />
+    <circle cx="260" cy="110" r="45" fill="url(#eyeShine)" />
+    <ellipse cx="265" cy="110" rx="15" ry="30" fill="#1A237E" />
+    <circle cx="255" cy="100" r="8" fill="white" />
+    <circle cx="272" cy="115" r="4" fill="white" />
+
+    <!-- Right Eye Stalk -->
+    <path d="M 540 170 L 540 110" stroke="#2E7D32" stroke-width="40" stroke-linecap="round" />
+    <circle cx="540" cy="110" r="55" fill="#81C784" />
+    <circle cx="540" cy="110" r="45" fill="url(#eyeShine)" />
+    <ellipse cx="545" cy="110" rx="15" ry="30" fill="#1A237E" />
+    <circle cx="535" cy="100" r="8" fill="white" />
+    <circle cx="552" cy="115" r="4" fill="white" />
+  </g>
+
+  <!-- Mandibular Prognathism (Underbite Jaw) -->
+  <g id="prognathism">
+    <!-- Mouth Interior -->
+    <path d="M 240 250 Q 400 290 560 250 C 580 330, 500 400, 400 420 C 300 400, 220 330, 240 250 Z" fill="#4E342E" />
+    
+    <!-- Tongue -->
+    <ellipse cx="400" cy="380" rx="60" ry="30" fill="#F48FB1" />
+    <path d="M 380 380 C 380 390, 420 390, 420 380" stroke="#C2185B" stroke-width="4" fill="none" stroke-linecap="round" />
+
+    <!-- Protruding Lower Jaw (The massive underbite bone) -->
+    <path d="M 220 260 C 160 480, 280 620, 400 640 C 520 620, 640 480, 580 260 Z" fill="url(#jawGrad)" />
+    
+    <!-- 3D Ridge of the Lower Jaw (Lip/Chin) -->
+    <path d="M 220 260 Q 400 340 580 260" stroke="#A5D6A7" stroke-width="18" fill="none" stroke-linecap="round" />
+    
+    <!-- Space between Upper and Lower Jaw (emphasizing the underbite overlap) -->
+    <path d="M 230 265 Q 400 345 570 265" stroke="#1B5E20" stroke-width="4" fill="none" opacity="0.8" />
+
+    <!-- Lower Teeth (Jutting upwards due to underbite) -->
+    <!-- The teeth sit on the lower jaw ridge and protrude upwards overlapping the upper lip -->
+    <path d="M 245 280 L 255 300 L 270 283 L 285 305 L 300 286 L 315 310 L 330 289 L 345 315 L 360 292 L 375 318 L 390 294 L 405 318 L 420 294 L 435 318 L 450 292 L 465 315 L 480 289 L 495 310 L 510 286 L 525 305 L 540 283 L 550 300 L 565 280" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round" />
+    
+    <!-- Teeth Root/Shadows -->
+    <path d="M 245 280 L 255 300 L 270 283 L 285 305 L 300 286 L 315 310 L 330 289 L 345 315 L 360 292 L 375 318 L 390 294 L 405 318 L 420 294 L 435 318 L 450 292 L 465 315 L 480 289 L 495 310 L 510 286 L 525 305 L 540 283 L 550 300 L 565 280" stroke="#1B5E20" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" opacity="0.6" transform="translate(0, 4)" />
+
+    <!-- Upper Lip Overlap (The upper jaw sits behind the lower teeth) -->
+    <path d="M 240 250 Q 400 290 560 250" stroke="#1B5E20" stroke-width="12" fill="none" stroke-linecap="round" />
+    <path d="M 250 255 Q 400 295 550 255" stroke="#2E7D32" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.7" />
+
+    <!-- Chin Dimple / Cleft (Caricature detail for extreme prognathism) -->
+    <path d="M 380 600 Q 400 620 420 600" stroke="#1B5E20" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8" />
+    
+    <!-- Jaw Highlight (for 3D volume) -->
+    <path d="M 230 290 Q 400 380 570 290" stroke="#C8E6C9" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.4" />
+  </g>
+
+  <!-- Front Legs -->
+  <g id="front-legs">
+    <!-- Left Arm -->
+    <path d="M 240 380 C 160 380, 100 480, 120 560" stroke="#388E3C" stroke-width="45" stroke-linecap="round" fill="none" />
+    <!-- Left Hand / Fingers -->
+    <path d="M 120 560 L 90 550 M 120 570 L 80 570 M 120 580 L 90 590 M 120 590 L 120 610" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+    <ellipse cx="120" cy="575" rx="25" ry="20" fill="#4CAF50" />
+
+    <!-- Right Arm -->
+    <path d="M 560 380 C 640 380, 700 480, 680 560" stroke="#388E3C" stroke-width="45" stroke-linecap="round" fill="none" />
+    <!-- Right Hand / Fingers -->
+    <path d="M 680 560 L 710 550 M 680 570 L 720 570 M 680 580 L 710 590 M 680 590 L 680 610" stroke="#4CAF50" stroke-width="15" stroke-linecap="round" />
+    <ellipse cx="680" cy="575" rx="25" ry="20" fill="#4CAF50" />
+  </g>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="jawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AED581"/>
+      <stop offset="100%" stop-color="#33691E"/>
+    </linearGradient>
+    <linearGradient id="bellyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F1F8E9"/>
+      <stop offset="100%" stop-color="#C5E1A5"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F171E"/>
+      <stop offset="100%" stop-color="#1A2A3A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bgGrad)"/>
+
+  <!-- Background Environment (Lily pads, ripples) -->
+  <ellipse cx="600" cy="720" rx="200" ry="80" fill="#1B5E20" opacity="0.3"/>
+  <ellipse cx="600" cy="720" rx="150" ry="60" fill="#2E7D32" opacity="0.4"/>
+  <path d="M 450 720 L 600 660 M 600 720 L 750 680 M 500 750 L 600 720" stroke="#1B5E20" stroke-width="6" fill="none" opacity="0.5"/>
+
+  <ellipse cx="200" cy="680" rx="80" ry="30" fill="#2E7D32" opacity="0.2"/>
+
+  <!-- Water Ripples -->
+  <ellipse cx="400" cy="780" rx="300" ry="20" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="400" cy="790" rx="400" ry="30" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.1"/>
+
+  <!-- FROG ELEMENTS (Back to Front) -->
+
+  <!-- Back Right Leg (Hidden mostly) -->
+  <path d="M 650 500 C 750 480, 800 600, 800 680 C 800 720, 750 730, 720 710 C 700 690, 700 650, 680 620" fill="url(#bodyGrad)" stroke="#1B5E20" stroke-width="6"/>
+
+  <!-- Body -->
+  <path d="M 450 280
+           C 600 250, 750 350, 750 550
+           C 750 700, 600 750, 450 700
+           C 350 650, 250 550, 280 450
+           C 300 380, 350 320, 450 280 Z" fill="url(#bodyGrad)" stroke="#1B5E20" stroke-width="6"/>
+
+  <!-- Belly -->
+  <path d="M 480 400
+           C 580 450, 600 600, 500 650
+           C 400 680, 320 660, 320 580
+           C 320 500, 380 400, 480 400 Z" fill="url(#bellyGrad)" stroke="#558B2F" stroke-width="4"/>
+
+  <!-- Back Left Leg (Foreground) -->
+  <path d="M 550 500 C 650 450, 700 550, 680 650 C 660 700, 600 680, 580 600 Z" fill="url(#bodyGrad)" stroke="#1B5E20" stroke-width="6"/>
+  <path d="M 680 650 C 750 700, 700 750, 650 730 C 600 710, 600 680, 650 650 Z" fill="url(#bodyGrad)" stroke="#1B5E20" stroke-width="6"/>
+  <!-- Webbed Toes -->
+  <path d="M 720 710 L 780 730 M 725 720 L 790 750 M 715 730 L 770 770" stroke="#1B5E20" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M 730 720 Q 760 740 780 730 M 730 730 Q 750 760 780 760" fill="none" stroke="#558B2F" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Head Upper and Snout -->
+  <path d="M 350 280
+           C 300 260, 220 270, 190 330
+           C 180 350, 190 380, 220 390
+           C 260 400, 320 360, 380 380 Z" fill="url(#bodyGrad)" stroke="#1B5E20" stroke-width="6"/>
+
+  <!-- Nostril -->
+  <circle cx="230" cy="360" r="6" fill="#1B5E20"/>
+
+  <!-- Inner Mouth (Shadow of the underbite) -->
+  <path d="M 230 390 Q 300 420 370 410 Q 320 450 160 380 Z" fill="#1A0A0C"/>
+
+  <!-- MASSIVE PROTRUDING LOWER JAW -->
+  <path d="M 370 410
+           C 450 440, 430 580, 320 620
+           C 230 650, 90 640, 60 560
+           C 40 480, 60 380, 120 380
+           C 160 380, 220 410, 370 410 Z" fill="url(#jawGrad)" stroke="#1B5E20" stroke-width="6"/>
+
+  <!-- Fleshy Lower Lip (Emphasizing the underbite) -->
+  <path d="M 370 410
+           C 260 420, 200 380, 160 380
+           C 130 380, 100 400, 90 440
+           C 100 430, 130 420, 160 420
+           C 200 420, 260 440, 370 430 Z" fill="#DCEDC8" stroke="#558B2F" stroke-width="4"/>
+
+  <!-- Jaw Structural Details / Dimples -->
+  <path d="M 300 440 C 350 480, 380 550, 320 600" stroke="#33691E" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 200 420 C 150 450, 110 490, 120 560" stroke="#33691E" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 250 430 L 250 580" stroke="#558B2F" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Warts on Lower Jaw -->
+  <circle cx="180" cy="440" r="12" fill="#558B2F" opacity="0.6"/>
+  <circle cx="130" cy="480" r="15" fill="#558B2F" opacity="0.6"/>
+  <circle cx="110" cy="530" r="10" fill="#558B2F" opacity="0.6"/>
+  <circle cx="160" cy="580" r="14" fill="#558B2F" opacity="0.6"/>
+  <circle cx="250" cy="610" r="12" fill="#558B2F" opacity="0.6"/>
+
+  <!-- Eye Bulge & Facial Details -->
+  <circle cx="320" cy="240" r="50" fill="url(#bodyGrad)" stroke="#1B5E20" stroke-width="6"/>
+  <circle cx="310" cy="240" r="35" fill="#FFF" stroke="#1B5E20" stroke-width="4"/>
+
+  <!-- Pupil (Looking down and left) -->
+  <ellipse cx="290" cy="255" rx="12" ry="25" fill="#111"/>
+  <!-- Eye Highlight -->
+  <circle cx="285" cy="245" r="6" fill="#FFF"/>
+
+  <!-- Prominent Grumpy Brow -->
+  <path d="M 240 220 Q 280 170 360 240" fill="#1B5E20" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Front Right Leg (Resting on ground) -->
+  <path d="M 430 550
+           C 380 580, 320 600, 280 580
+           C 260 570, 240 550, 220 560" fill="none" stroke="url(#bodyGrad)" stroke-width="24" stroke-linecap="round"/>
+
+  <!-- Front Fingers -->
+  <path d="M 220 560 C 180 550, 150 560, 130 580" stroke="#81C784" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M 220 560 C 180 570, 160 590, 140 610" stroke="#81C784" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M 220 560 C 190 585, 170 610, 160 630" stroke="#81C784" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+  <!-- Body Spots / Texture -->
+  <circle cx="650" cy="500" r="15" fill="#1B5E20" opacity="0.6"/>
+  <circle cx="680" cy="480" r="10" fill="#1B5E20" opacity="0.6"/>
+  <circle cx="600" cy="550" r="12" fill="#1B5E20" opacity="0.6"/>
+  <circle cx="580" cy="650" r="18" fill="#1B5E20" opacity="0.6"/>
+  <circle cx="650" cy="620" r="14" fill="#1B5E20" opacity="0.6"/>
+  <circle cx="360" cy="320" r="8" fill="#1B5E20" opacity="0.6"/>
+  <circle cx="280" cy="310" r="6" fill="#1B5E20" opacity="0.6"/>
+  <circle cx="400" cy="600" r="12" fill="#1B5E20" opacity="0.6"/>
+  <circle cx="450" cy="520" r="10" fill="#1B5E20" opacity="0.6"/>
+</svg>

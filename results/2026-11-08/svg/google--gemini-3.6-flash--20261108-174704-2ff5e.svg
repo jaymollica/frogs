@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#2a4735"/>
+      <stop offset="100%" stop-color="#0d1912"/>
+    </radialGradient>
+
+    <!-- Frog Skin Primary Gradient -->
+    <linearGradient id="frogSkin" x1="30%" y1="10%" x2="70%" y2="90%">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="50%" stop-color="#43a047"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+
+    <!-- Frog Skin Highlight/Bright Gradient -->
+    <linearGradient id="frogHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#aed581"/>
+      <stop offset="100%" stop-color="#66bb6a"/>
+    </linearGradient>
+
+    <!-- Frog Belly Gradient -->
+    <linearGradient id="frogBelly" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#f0f4c3"/>
+      <stop offset="70%" stop-color="#dce775"/>
+      <stop offset="100%" stop-color="#9e9d24"/>
+    </linearGradient>
+
+    <!-- Jaw/Chin Highlight Gradient to emphasize prognathism -->
+    <linearGradient id="chinHighlight" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#dce775"/>
+      <stop offset="50%" stop-color="#81c784"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+
+    <!-- Eye Iris Gradient -->
+    <radialGradient id="eyeIris" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffe082"/>
+      <stop offset="40%" stop-color="#ffb300"/>
+      <stop offset="85%" stop-color="#ff6f00"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </radialGradient>
+
+    <!-- Mouth Cavity Gradient -->
+    <linearGradient id="mouthBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b0712"/>
+      <stop offset="100%" stop-color="#7b1fa2"/>
+    </linearGradient>
+
+    <!-- Shadow Gradient -->
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.7)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Ambient Ground Shadow -->
+  <ellipse cx="400" cy="510" rx="280" ry="45" fill="url(#dropShadow)"/>
+
+  <!-- Water Lily Pad Base -->
+  <path d="M 160 510 C 160 470, 250 440, 410 440 C 570 440, 670 470, 670 510 C 670 550, 570 570, 410 570 C 250 570, 160 550, 160 510 Z" fill="#1b4d2e" stroke="#2e7d32" stroke-width="4"/>
+  <path d="M 410 490 L 665 495" stroke="#10331d" stroke-width="3" fill="none"/>
+  <path d="M 410 490 L 530 562" stroke="#10331d" stroke-width="3" fill="none"/>
+  <path d="M 410 490 L 260 555" stroke="#10331d" stroke-width="3" fill="none"/>
+  <path d="M 410 490 L 180 490" stroke="#10331d" stroke-width="3" fill="none"/>
+  <path d="M 410 490 L 270 450" stroke="#10331d" stroke-width="3" fill="none"/>
+
+  <!-- BACK LEFT LEG -->
+  <g id="back-leg-left">
+    <path d="M 490 360 C 560 330, 620 370, 600 440 C 590 470, 540 490, 490 480" fill="url(#frogSkin)" stroke="#1b5e20" stroke-width="3"/>
+    <path d="M 570 440 C 610 460, 630 500, 610 520 C 590 530, 550 510, 530 480" fill="#2e7d32" stroke="#1b5e20" stroke-width="3"/>
+  </g>
+
+  <!-- BACK RIGHT LEG (Background Position) -->
+  <g id="back-leg-right">
+    <path d="M 280 380 C 230 350, 170 390, 200 450 C 220 480, 260 490, 300 480" fill="#2e7d32" stroke="#1b5e20" stroke-width="3"/>
+  </g>
+
+  <!-- MAIN BODY -->
+  <path id="body" d="M 330 300 C 350 260, 480 270, 520 330 C 550 380, 530 460, 470 480 C 400 500, 330 470, 310 420 C 300 390, 310 340, 330 300 Z" fill="url(#frogSkin)" stroke="#1b5e20" stroke-width="4"/>
+
+  <!-- BELLY -->
+  <path id="belly" d="M 325 340 C 360 320, 430 330, 460 370 C 480 400, 470 460, 420 480 C 370 495, 320 450, 315 410 C 310 380, 315 355, 325 340 Z" fill="url(#frogBelly)"/>
+
+  <!-- FROG SPOTS (Texture) -->
+  <g fill="#1b5e20" opacity="0.6">
+    <ellipse cx="460" cy="320" rx="12" ry="7" transform="rotate(-20 460 320)"/>
+    <ellipse cx="495" cy="350" rx="16" ry="9" transform="rotate(15 495 350)"/>
+    <ellipse cx="440" cy="300" rx="8" ry="5" transform="rotate(5 440 300)"/>
+    <ellipse cx="525" cy="400" rx="14" ry="18" transform="rotate(30 525 400)"/>
+    <ellipse cx="365" cy="310" rx="10" ry="6" transform="rotate(-40 365 310)"/>
+  </g>
+
+  <!-- UPPER HEAD & SNOUT (Intentionally short / recessed to emphasize prognathism) -->
+  <g id="upper-head">
+    <!-- Upper Head Base -->
+    <path d="M 280 240 C 280 210, 320 190, 370 200 C 420 190, 470 220, 470 250 C 470 280, 440 295, 380 290 C 320 295, 280 270, 280 240 Z" fill="url(#frogSkin)" stroke="#1b5e20" stroke-width="3"/>
+
+    <!-- Small/Retracted Upper Maxilla (Upper Lip) -->
+    <!-- Note how this terminates far back (around x=240) compared to the lower jaw (x=140) -->
+    <path d="M 340 270 C 300 270, 255 260, 245 245 C 240 235, 255 220, 285 220 C 330 220, 360 250, 360 270 Z" fill="url(#frogHighlight)" stroke="#1b5e20" stroke-width="3"/>
+    
+    <!-- Nostril -->
+    <ellipse cx="265" cy="235" rx="3" ry="5" transform="rotate(-20 265 235)" fill="#0a240d"/>
+  </g>
+
+  <!-- EYES (Bulging on top of head) -->
+  <!-- LEFT EYE (Viewer's Left, Main) -->
+  <g id="left-eye">
+    <circle cx="315" cy="175" r="43" fill="url(#frogSkin)" stroke="#1b5e20" stroke-width="3"/>
+    <circle cx="315" cy="175" r="35" fill="url(#eyeIris)"/>
+    <!-- Pupil (Horizontal Frog Slit) -->
+    <path d="M 283 175 C 283 165, 347 165, 347 175 C 347 185, 283 185, 283 175 Z" fill="#0d0400"/>
+    <!-- Eye Highlights -->
+    <circle cx="300" cy="160" r="8" fill="#ffffff" opacity="0.8"/>
+    <circle cx="335" cy="185" r="4" fill="#ffffff" opacity="0.6"/>
+    <!-- Eyelid fold -->
+    <path d="M 275 165 C 290 135, 340 135, 355 165 C 340 148, 290 148, 275 165 Z" fill="#81c784" stroke="#1b5e20" stroke-width="2"/>
+  </g>
+
+  <!-- RIGHT EYE (Viewer's Right, Background) -->
+  <g id="right-eye">
+    <circle cx="435" cy="195" r="35" fill="url(#frogSkin)" stroke="#1b5e20" stroke-width="3"/>
+    <circle cx="435" cy="195" r="27" fill="url(#eyeIris)"/>
+    <!-- Pupil -->
+    <path d="M 410 195 C 410 187, 460 187, 460 195 C 460 203, 410 203, 410 195 Z" fill="#0d0400"/>
+    <!-- Highlight -->
+    <circle cx="423" cy="183" r="6" fill="#ffffff" opacity="0.8"/>
+    <!-- Eyelid fold -->
+    <path d="M 403 187 C 415 162, 455 162, 467 187 C 455 173, 415 173, 403 187 Z" fill="#66bb6a" stroke="#1b5e20" stroke-width="2"/>
+  </g>
+
+  <!-- MOUTH CAVITY (Exposed due to massive underbite) -->
+  <g id="mouth-interior">
+    <!-- Dark interior of jutting lower lip -->
+    <path d="M 248 248 C 210 250, 160 265, 150 275 C 160 290, 220 305, 270 300 C 310 295, 330 280, 330 280 Z" fill="url(#mouthBg)"/>
+    <!-- Pink Tongue sitting in the protruding mandible -->
+    <path d="M 220 270 C 180 273, 165 280, 175 285 C 200 295, 240 290, 260 280 Z" fill="#e91e63" opacity="0.85"/>
+    <!-- Tooth/Ridge detail on upper maxilla sitting inside -->
+    <path d="M 248 248 C 255 252, 265 254, 275 252" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- PROMINENT MANDIBULAR PROGNATHISM (MASSIVE UNDERBITE JAW) -->
+  <!-- This element defines the subject: a dramatically jutting, heavy lower jaw extending FAR past the snout -->
+  <g id="prognathic-mandible" filter="url(#glow)">
+    <!-- Main Underbite Jaw Structure -->
+    <!-- Starts from deep jowl (360,280), extends WAY OUT to the left (120, 290), forming a massive chin, then sweeps back to neck (330, 370) -->
+    <path d="M 350 275 
+             C 300 275, 210 265, 140 270 
+             C 110 272, 115 295, 135 310 
+             C 165 330, 210 365, 270 375 
+             C 320 383, 360 360, 375 330 
+             C 385 310, 375 285, 350 275 Z" 
+          fill="url(#frogSkin)" stroke="#103d14" stroke-width="4"/>
+
+    <!-- Protruding Chin Outer Rim / Lower Lip (Highlighting the forward extension) -->
+    <path d="M 330 280 
+             C 270 280, 180 270, 130 278 
+             C 118 280, 120 295, 138 305 
+             C 175 325, 230 355, 285 355 
+             C 330 355, 360 325, 365 300 
+             C 365 288, 350 280, 330 280 Z" 
+          fill="url(#chinHighlight)" stroke="#2e7d32" stroke-width="2"/>
+
+    <!-- The Point of Maximum Prognathism (Bulging Chin Tip) -->
+    <path d="M 130 278 C 110 283, 115 300, 140 310 C 160 318, 185 300, 175 288 C 160 278, 140 275, 130 278 Z" fill="#dce775" opacity="0.8"/>
+
+    <!-- Heavy Jaw / Jowl Shadow underneath to give weight and depth to the underbite -->
+    <path d="M 145 312 C 180 335, 230 365, 285 368 C 330 370, 365 345, 370 330 C 350 360, 310 385, 260 380 C 200 375, 160 335, 145 312 Z" fill="#0a240d" opacity="0.6"/>
+
+    <!-- Subtle Asymmetrical "Bulldog" Wrinkle/Fold on the protruding chin -->
+    <path d="M 170 295 C 165 310, 185 325, 195 330" stroke="#1b5e20" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 210 310 C 205 325, 225 340, 240 345" stroke="#1b5e20" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- FRONT RIGHT LEG (Foreground) -->
+  <g id="front-leg-right">
+    <!-- Shoulder / Arm -->
+    <path d="M 340 360 C 320 390, 310 430, 325 480 C 330 490, 345 490, 350 475 C 360 440, 370 400, 365 365 Z" fill="url(#frogSkin)" stroke="#1b5e20" stroke-width="3"/>
+    <!-- Foot / Toes -->
+    <path d="M 325 475 C 310 475, 280 485, 270 495 C 265 500, 275 505, 285 500 C 300 495, 320 485, 325 485 C 320 495, 305 510, 300 520 C 295 525, 305 528, 315 520 C 325 510, 332 490, 335 485 C 340 495, 340 515, 340 525 C 342 530, 350 530, 350 520 C 350 505, 345 490, 345 480 Z" fill="#43a047" stroke="#1b5e20" stroke-width="2"/>
+  </g>
+
+  <!-- FRONT LEFT LEG (Background Position) -->
+  <g id="front-leg-left">
+    <path d="M 450 370 C 460 410, 475 440, 490 480 C 470 485, 440 505, 430 515" stroke="#1b5e20" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M 450 370 C 460 410, 475 440, 490 480 C 470 485, 440 505, 430 515" stroke="#2e7d32" stroke-width="12" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- BACK LEFT FOOT TOES -->
+  <g id="back-foot-left">
+    <path d="M 590 510 C 620 515, 645 510, 660 505 C 665 503, 665 510, 655 515 C 635 525, 605 525, 580 520 Z" fill="#2e7d32" stroke="#1b5e20" stroke-width="2"/>
+    <path d="M 585 520 C 610 528, 635 530, 650 530 C 655 530, 653 536, 642 536 C 620 536, 595 530, 575 522 Z" fill="#2e7d32" stroke="#1b5e20" stroke-width="2"/>
+  </g>
+
+  <!-- HIGHLIGHTS & FINISHING DETAILS -->
+  <!-- Specular highlights on head & jutting chin -->
+  <path d="M 300 205 C 330 205, 350 215, 355 220" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M 145 282 C 180 282, 230 295, 260 300" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <ellipse cx="345" cy="315" rx="4" ry="12" transform="rotate(30 345 315)" fill="#ffffff" opacity="0.3"/>
+
+</svg>

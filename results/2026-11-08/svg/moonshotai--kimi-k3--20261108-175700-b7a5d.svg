@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Cartoon frog with mandibular prognathism">
+  <title>Frog with mandibular prognathism</title>
+  <ellipse cx="195" cy="336" rx="140" ry="14" fill="#2f5f24" opacity="0.2"/>
+  <path d="M 80 280 C 60 230, 78 178, 122 150 C 146 135, 172 122, 202 117 C 232 112, 256 126, 268 148 C 274 158, 277 166, 277 172 C 277 176, 276 179, 280 181 C 290 181, 302 186, 307 194 C 312 203, 308 214, 296 220 C 282 228, 262 236, 247 245 C 237 257, 231 272, 229 288 C 227 302, 225 314, 221 322 L 125 322 C 98 320, 84 303, 80 280 Z" fill="#69b34c" stroke="#3a6b28" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 160 322 C 166 296, 184 276, 208 270 C 218 268, 224 272, 225 280 C 226 294, 225 308, 222 322 Z" fill="#d9f0c0"/>
+  <path d="M 118 322 C 100 296, 102 262, 128 244 C 152 228, 186 234, 198 258 C 208 280, 200 306, 182 322 Z" fill="#58a047" stroke="#3a6b28" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 148 317 C 170 312, 200 312, 216 316 C 224 318, 225 325, 217 327 C 195 330, 168 330, 150 328 C 141 326, 140 319, 148 317 Z" fill="#69b34c" stroke="#3a6b28" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 192 316 L 194 325 M 206 317 L 209 325" fill="none" stroke="#3a6b28" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 233 254 C 226 272, 222 296, 224 320 L 246 320 C 243 298, 243 278, 249 262 C 245 255, 238 252, 233 254 Z" fill="#69b34c" stroke="#3a6b28" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 226 320 L 222 329 M 235 320 L 234 330 M 244 320 L 247 329" fill="none" stroke="#3a6b28" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="118" cy="205" r="9" fill="#4c8f3a" opacity="0.55"/>
+  <circle cx="152" cy="180" r="6" fill="#4c8f3a" opacity="0.55"/>
+  <circle cx="100" cy="248" r="7" fill="#4c8f3a" opacity="0.55"/>
+  <circle cx="170" cy="214" r="5" fill="#4c8f3a" opacity="0.55"/>
+  <circle cx="196" cy="162" r="13" fill="#58a047" stroke="#3a6b28" stroke-width="3"/>
+  <circle cx="216" cy="98" r="34" fill="#69b34c" stroke="#3a6b28" stroke-width="4"/>
+  <circle cx="216" cy="98" r="24" fill="#f7c948"/>
+  <ellipse cx="216" cy="98" rx="14" ry="9" fill="#202020"/>
+  <circle cx="208" cy="91" r="4.5" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="262" cy="156" rx="3.5" ry="2.5" fill="#3a6b28"/>
+  <path d="M 252 191 C 260 184, 268 178, 276 174" fill="none" stroke="#3a6b28" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 243 205 C 262 199, 285 195, 302 194" fill="none" stroke="#3a6b28" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 286 196 L 290 185 L 295 195 Z" fill="#ffffff" stroke="#3a6b28" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 297 195 L 301 187 L 306 196 Z" fill="#ffffff" stroke="#3a6b28" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

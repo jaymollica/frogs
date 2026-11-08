@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <!-- Frog Body Gradient -->
+    <radialGradient id="bodyGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#66BB6A" />
+      <stop offset="70%" stop-color="#43A047" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </radialGradient>
+    
+    <!-- Frog Eye Gradient -->
+    <radialGradient id="eyeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#F5F5F5" />
+      <stop offset="100%" stop-color="#BDBDBD" />
+    </radialGradient>
+
+    <!-- Habsburg Jaw Gradient -->
+    <linearGradient id="jawGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C8E6C9" />
+      <stop offset="40%" stop-color="#A5D6A7" />
+      <stop offset="100%" stop-color="#81C784" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Shadow -->
+  <ellipse cx="250" cy="520" rx="150" ry="25" fill="#1B5E20" opacity="0.3" />
+
+  <!-- Back Legs (Left & Right) -->
+  <!-- Left Leg -->
+  <ellipse cx="110" cy="400" rx="35" ry="65" transform="rotate(-35 110 400)" fill="#388E3C" />
+  <ellipse cx="70" cy="460" rx="25" ry="45" transform="rotate(-20 70 460)" fill="#2E7D32" />
+  <path d="M 50 480 Q 30 490 40 510 Q 50 490 60 510 Q 65 480 60 470" fill="#2E7D32" />
+  
+  <!-- Right Leg -->
+  <ellipse cx="390" cy="400" rx="35" ry="65" transform="rotate(35 390 400)" fill="#388E3C" />
+  <ellipse cx="430" cy="460" rx="25" ry="45" transform="rotate(20 430 460)" fill="#2E7D32" />
+  <path d="M 450 480 Q 470 490 460 510 Q 450 490 440 510 Q 435 480 440 470" fill="#2E7D32" />
+
+  <!-- Front Legs (Left & Right) -->
+  <!-- Left Front Leg -->
+  <path d="M 160 440 Q 100 480 90 470" stroke="#2E7D32" stroke-width="20" stroke-linecap="round" fill="none" />
+  <path d="M 90 470 Q 70 480 60 500" stroke="#2E7D32" stroke-width="16" stroke-linecap="round" fill="none" />
+  <circle cx="50" cy="495" r="7" fill="#2E7D32" />
+  <circle cx="60" cy="505" r="7" fill="#2E7D32" />
+  <circle cx="42" cy="505" r="7" fill="#2E7D32" />
+  
+  <!-- Right Front Leg -->
+  <path d="M 340 440 Q 400 480 410 470" stroke="#2E7D32" stroke-width="20" stroke-linecap="round" fill="none" />
+  <path d="M 410 470 Q 430 480 440 500" stroke="#2E7D32" stroke-width="16" stroke-linecap="round" fill="none" />
+  <circle cx="450" cy="495" r="7" fill="#2E7D32" />
+  <circle cx="440" cy="505" r="7" fill="#2E7D32" />
+  <circle cx="458" cy="505" r="7" fill="#2E7D32" />
+
+  <!-- Main Body & Head -->
+  <path d="M 150 260 C 150 170, 350 170, 350 260 C 380 320, 380 460, 320 500 C 260 520, 240 520, 180 500 C 120 460, 120 320, 150 260 Z" fill="url(#bodyGrad)" />
+
+  <!-- Body Texture / Spots -->
+  <circle cx="200" cy="320" r="15" fill="#1B5E20" opacity="0.3" />
+  <circle cx="250" cy="340" r="20" fill="#1B5E20" opacity="0.3" />
+  <circle cx="300" cy="320" r="15" fill="#1B5E20" opacity="0.3" />
+  <circle cx="220" cy="380" r="12" fill="#1B5E20" opacity="0.3" />
+  <circle cx="280" cy="380" r="12" fill="#1B5E20" opacity="0.3" />
+  <circle cx="170" cy="400" r="8" fill="#1B5E20" opacity="0.3" />
+  <circle cx="330" cy="400" r="8" fill="#1B5E20" opacity="0.3" />
+
+  <!-- Eyes (Protruding) -->
+  <!-- Left Eye Socket -->
+  <ellipse cx="190" cy="170" rx="35" ry="45" fill="url(#eyeGrad)" />
+  <path d="M 155 170 Q 190 135 225 170 Q 190 155 155 170" fill="#43A047" />
+  <!-- Right Eye Socket -->
+  <ellipse cx="310" cy="170" rx="35" ry="45" fill="url(#eyeGrad)" />
+  <path d="M 275 170 Q 310 135 345 170 Q 310 155 275 170" fill="#43A047" />
+
+  <!-- Left Pupil & Highlight -->
+  <circle cx="205" cy="165" r="16" fill="#000000" />
+  <circle cx="210" cy="160" r="6" fill="#FFFFFF" />
+  <circle cx="200" cy="170" r="3" fill="#FFFFFF" />
+  
+  <!-- Right Pupil & Highlight -->
+  <circle cx="315" cy="165" r="16" fill="#000000" />
+  <circle cx="320" cy="160" r="6" fill="#FFFFFF" />
+  <circle cx="310" cy="170" r="3" fill="#FFFFFF" />
+
+  <!-- Nostrils -->
+  <circle cx="210" cy="245" r="5" fill="#1B5E20" />
+  <circle cx="290" cy="245" r="5" fill="#1B5E20" />
+  <circle cx="215" cy="243" r="2" fill="#000000" />
+  <circle cx="295" cy="243" r="2" fill="#000000" />
+
+  <!-- Upper Lip / Mouth Line -->
+  <path d="M 165 265 Q 250 305 335 265 Q 250 280 165 265" fill="none" stroke="#1B5E20" stroke-width="4" />
+
+  <!-- Upper Teeth (Receding) -->
+  <path d="M 180 275 L 185 267 L 190 275 L 195 267 L 200 275 L 205 267 L 210 275 L 215 267 L 220 275 L 225 267 L 230 275 L 235 267 L 240 275 L 245 267 L 250 275 L 255 267 L 260 275 L 265 267 L 270 275 L 275 267 L 280 275 L 285 267 L 290 275 L 295 267 L 300 275 L 305 267 L 310 275 L 315 267 L 320 275" fill="none" stroke="#FFF" stroke-width="3" />
+
+  <!-- The Habsburg Jaw (Massive, Prognathous) -->
+  <path d="M 170 265 C 110 380, 90 490, 110 530 C 130 580, 370 580, 390 530 C 410 490, 390 380, 330 265 Z" fill="url(#jawGrad)" />
+  
+  <!-- Jaw Under-Chin / Wattle -->
+  <path d="M 100 530 C 130 585, 370 585, 400 530 C 370 565, 130 565, 100 530 Z" fill="#66BB6A" opacity="0.9" />
+
+  <!-- Jaw Details / Warts (Papillae) -->
+  <circle cx="180" cy="400" r="9" fill="#A5D6A7" stroke="#81C784" stroke-width="2" />
+  <circle cx="320" cy="400" r="9" fill="#A5D6A7" stroke="#81C784" stroke-width="2" />
+  <circle cx="150" cy="470" r="11" fill="#A5D6A7" stroke="#81C784" stroke-width="2" />
+  <circle cx="350" cy="470" r="11" fill="#A5D6A7" stroke="#81C784" stroke-width="2" />
+  <circle cx="250" cy="510" r="13" fill="#A5D6A7" stroke="#81C784" stroke-width="2" />
+  <circle cx="130" cy="510" r="8" fill="#A5D6A7" stroke="#81C784" stroke-width="1.5" />
+  <circle cx="370" cy="510" r="8" fill="#A5D6A7" stroke="#81C784" stroke-width="1.5" />
+
+  <!-- Thick Lower Lip -->
+  <path d="M 110 530 C 130 565, 370 565, 390 530 C 370 545, 130 545, 110 530 Z" fill="#E8F5E9" />
+  <line x1="250" y1="530" x2="250" y2="550" stroke="#2E7D32" stroke-width="2" opacity="0.6" />
+
+  <!-- Lower Teeth (Prominent, Protruding Habsburg Buck Teeth) -->
+  <polygon points="148,470 158,525 168,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="166,470 176,525 184,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="182,470 192,525 200,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="198,470 208,525 216,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="214,470 224,525 232,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="230,470 240,525 248,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="246,470 256,525 264,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="262,470 272,525 280,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="278,470 288,525 296,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="294,470 304,525 312,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="310,470 320,525 328,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="326,470 336,525 344,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+  <polygon points="342,470 352,525 360,470" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" />
+
+  <!-- Slime / Drip Details -->
+  <path d="M 170 270 Q 165 290 170 300 Q 175 290 175 270" fill="#66BB6A" />
+  <path d="M 320 265 Q 315 285 320 295 Q 325 285 325 265" fill="#66BB6A" />
+  <path d="M 240 550 Q 235 575 240 585 Q 245 575 240 550" fill="#A5D6A7" />
+</svg>

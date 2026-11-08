@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">A frog with a magnificent Habsburg jaw</title>
+  <rect width="512" height="512" rx="36" fill="#f4ecd5"/>
+  <ellipse cx="256" cy="473" rx="169" ry="18" fill="#d9d0b5"/>
+
+  <!-- Body and royal collar -->
+  <path d="M119 469c8-63 55-96 137-96s129 33 137 96z" fill="#568a45" stroke="#294d32" stroke-width="7"/>
+  <path d="M130 406l25-29 31 30 24-34 24 34 22-35 22 35 24-34 24 34 31-30 25 29-25 31-31-18-24 27-24-25-22 27-22-27-24 25-24-27-31 18z" fill="#fff9e9" stroke="#786e55" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M231 443l25-15 25 15-9 26h-32z" fill="#a83f37" stroke="#703029" stroke-width="4"/>
+  <circle cx="256" cy="447" r="6" fill="#efc461"/>
+
+  <!-- Eyes and head -->
+  <circle cx="151" cy="169" r="65" fill="#76aa50" stroke="#294d32" stroke-width="7"/>
+  <circle cx="361" cy="169" r="65" fill="#76aa50" stroke="#294d32" stroke-width="7"/>
+  <path d="M76 251c0-83 78-132 180-132s180 49 180 132c0 70-67 113-180 113S76 321 76 251z" fill="#79ad52" stroke="#294d32" stroke-width="7"/>
+  <ellipse cx="151" cy="168" rx="43" ry="42" fill="#f4d772" stroke="#294d32" stroke-width="6"/>
+  <ellipse cx="361" cy="168" rx="43" ry="42" fill="#f4d772" stroke="#294d32" stroke-width="6"/>
+  <ellipse cx="157" cy="170" rx="14" ry="25" fill="#293b2d"/>
+  <ellipse cx="355" cy="170" rx="14" ry="25" fill="#293b2d"/>
+  <circle cx="162" cy="161" r="5" fill="#fffdf2"/>
+  <circle cx="360" cy="161" r="5" fill="#fffdf2"/>
+  <path d="M120 135q29-15 60 0M332 135q29-15 60 0" fill="none" stroke="#466b38" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="218" cy="235" rx="7" ry="5" fill="#416c38"/>
+  <ellipse cx="294" cy="235" rx="7" ry="5" fill="#416c38"/>
+  <circle cx="120" cy="257" r="10" fill="#e2a17a" opacity=".55"/>
+  <circle cx="392" cy="257" r="10" fill="#e2a17a" opacity=".55"/>
+
+  <!-- The famously protruding lower jaw -->
+  <path d="M99 281c31 21 87 31 157 31s126-10 157-31c15 14 18 39 8 62-18 45-77 70-165 70s-147-25-165-70c-10-23-7-48 8-62z" fill="#619943" stroke="#294d32" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M104 284c34 15 86 23 152 23s118-8 152-23" fill="none" stroke="#294d32" stroke-width="8" stroke-linecap="round"/>
+  <path d="M188 304v10c0 7 6 11 13 11h11c7 0 12-4 12-10v-9M288 306v9c0 6 5 10 12 10h11c7 0 13-4 13-11v-10" fill="#fff9df" stroke="#294d32" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M103 322c31 20 84 31 153 31s122-11 153-31" fill="none" stroke="#3d7136" stroke-width="8" stroke-linecap="round"/>
+  <path d="M158 375c24 12 57 18 98 18s74-6 98-18" fill="none" stroke="#8abe65" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Small imperial crown -->
+  <path d="M208 112l-7-38 23 15 12-28 20 23 20-23 12 28 23-15-7 38z" fill="#e4b743" stroke="#7b5926" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M208 112h96v13h-96z" fill="#d5a539" stroke="#7b5926" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="256" cy="103" r="6" fill="#b94039"/>
+  <circle cx="225" cy="105" r="4" fill="#4f8f83"/>
+  <circle cx="287" cy="105" r="4" fill="#4f8f83"/>
+  <circle cx="201" cy="73" r="5" fill="#e4b743" stroke="#7b5926" stroke-width="3"/>
+  <circle cx="236" cy="60" r="5" fill="#e4b743" stroke="#7b5926" stroke-width="3"/>
+  <circle cx="276" cy="60" r="5" fill="#e4b743" stroke="#7b5926" stroke-width="3"/>
+  <circle cx="311" cy="73" r="5" fill="#e4b743" stroke="#7b5926" stroke-width="3"/>
+</svg>

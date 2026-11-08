@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" width="1000" height="760" role="img" aria-labelledby="title desc">
+<title id="title">Frog with a heavily protruding lower jaw</title>
+<desc id="desc">A side-profile green frog with an exaggerated underbite, its massive lower jaw jutting far forward beyond its upper snout.</desc>
+<ellipse cx="500" cy="655" rx="430" ry="62" fill="#2e9e6b"/>
+<ellipse cx="500" cy="645" rx="430" ry="62" fill="#3fbf7f"/>
+<path d="M500 583 L545 640 L500 702 Z" fill="#2e9e6b"/>
+<ellipse cx="180" cy="625" rx="55" ry="14" fill="#57d68f"/>
+<ellipse cx="835" cy="610" rx="70" ry="16" fill="#57d68f"/>
+<circle cx="165" cy="600" r="10" fill="#ff8fb3"/>
+<circle cx="150" cy="608" r="7" fill="#ffb3c9"/>
+<circle cx="180" cy="608" r="7" fill="#ffb3c9"/>
+<ellipse cx="390" cy="475" rx="235" ry="168" fill="#5cb934" stroke="#2d7a1c" stroke-width="7"/>
+<ellipse cx="425" cy="535" rx="155" ry="102" fill="#e9f6ae"/>
+<path d="M255 480 C190 480 155 545 185 590 C210 628 290 635 340 605 C385 578 380 520 340 495 C315 482 285 480 255 480 Z" fill="#4da92c" stroke="#2d7a1c" stroke-width="6"/>
+<path d="M185 600 C150 615 115 620 95 610 C130 595 135 585 120 570 C150 575 165 580 175 590 C180 570 195 560 215 562 C200 578 205 590 225 600 C205 618 210 630 235 635 C205 640 185 620 185 600 Z" fill="#5cb934" stroke="#2d7a1c" stroke-width="5" stroke-linejoin="round"/>
+<path d="M330 215 C340 150 410 115 455 135 C495 152 500 205 470 240 C440 275 320 275 330 215 Z" fill="#5cb934" stroke="#2d7a1c" stroke-width="6"/>
+<path d="M545 190 C560 120 640 95 685 125 C725 152 720 215 680 245 C640 273 530 260 545 190 Z" fill="#5cb934" stroke="#2d7a1c" stroke-width="6"/>
+<circle cx="405" cy="185" r="52" fill="#ffffff"/>
+<circle cx="618" cy="175" r="58" fill="#ffffff"/>
+<circle cx="418" cy="190" r="27" fill="#17240f"/>
+<circle cx="635" cy="180" r="30" fill="#17240f"/>
+<circle cx="428" cy="180" r="9" fill="#ffffff"/>
+<circle cx="646" cy="169" r="10" fill="#ffffff"/>
+<path d="M315 365 C315 225 450 145 605 148 C715 150 792 215 790 295 C788 350 745 382 650 388 C520 396 390 400 345 392 C325 388 315 380 315 365 Z" fill="#69cc3d" stroke="#2d7a1c" stroke-width="7"/>
+<ellipse cx="730" cy="275" rx="10" ry="6" fill="#2d7a1c" transform="rotate(-15 730 275)"/>
+<circle cx="365" cy="300" r="16" fill="#4da92c" opacity="0.7"/>
+<circle cx="330" cy="345" r="10" fill="#4da92c" opacity="0.7"/>
+<circle cx="455" cy="225" r="13" fill="#4da92c" opacity="0.6"/>
+<path d="M390 408 C395 485 480 532 650 530 L850 512 C918 505 952 478 946 438 C940 398 890 382 805 386 L475 392 C420 393 388 396 390 408 Z" fill="#82dc4e" stroke="#2d7a1c" stroke-width="7" stroke-linejoin="round"/>
+<path d="M430 460 C500 505 650 515 830 495" fill="none" stroke="#4da92c" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+<ellipse cx="885" cy="450" rx="48" ry="34" fill="#8fe35c"/>
+<path d="M395 395 C540 385 700 378 795 376" fill="none" stroke="#2d7a1c" stroke-width="7" stroke-linecap="round"/>
+<polygon points="792,388 808,358 824,386" fill="#ffffff" stroke="#2d7a1c" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="838,390 854,360 870,388" fill="#ffffff" stroke="#2d7a1c" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="882,392 898,364 914,390" fill="#ffffff" stroke="#2d7a1c" stroke-width="4" stroke-linejoin="round"/>
+<path d="M650 385 C680 365 740 365 765 382 C745 395 685 398 650 385 Z" fill="#4da92c"/>
+<path d="M620 520 C600 570 605 620 630 645 L705 645 C680 630 675 615 700 600 C670 600 660 585 675 565 C650 575 635 565 640 540 C635 525 628 518 620 520 Z" fill="#5cb934" stroke="#2d7a1c" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="285" cy="405" r="20" fill="#4da92c" opacity="0.65"/>
+<circle cx="245" cy="450" r="13" fill="#4da92c" opacity="0.65"/>
+<circle cx="510" cy="320" r="11" fill="#4da92c" opacity="0.5"/>
+<circle cx="555" cy="285" r="8" fill="#4da92c" opacity="0.5"/>
+</svg>

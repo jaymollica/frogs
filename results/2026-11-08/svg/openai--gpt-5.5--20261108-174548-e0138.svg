@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-labelledby="title desc">
+  <title id="title">Frog with mandibular prognathism</title>
+  <desc id="desc">A stylized green frog in side profile with a noticeably protruding lower jaw extending beyond the upper jaw.</desc>
+  <defs>
+    <radialGradient id="skin" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#8ee66c"/>
+      <stop offset="65%" stop-color="#45b84a"/>
+      <stop offset="100%" stop-color="#2f8f3a"/>
+    </radialGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8f6a6"/>
+      <stop offset="100%" stop-color="#9bd96d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#1b4a24" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="520" fill="#d9f7ff"/>
+  <ellipse cx="380" cy="455" rx="285" ry="34" fill="#8ccf7e" opacity="0.35"/>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="345" cy="315" rx="185" ry="125" fill="url(#skin)" stroke="#226d30" stroke-width="6"/>
+    <ellipse cx="345" cy="342" rx="105" ry="70" fill="url(#belly)" opacity="0.8"/>
+
+    <path d="M230 370 C170 402, 118 402, 85 380 C116 362, 163 349, 221 344 Z" fill="#3dad45" stroke="#226d30" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="85" cy="380" r="11" fill="#2f8f3a" stroke="#226d30" stroke-width="4"/>
+    <circle cx="115" cy="381" r="10" fill="#2f8f3a" stroke="#226d30" stroke-width="4"/>
+
+    <path d="M416 382 C475 430, 538 444, 592 418 C552 395, 497 381, 435 357 Z" fill="#3dad45" stroke="#226d30" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="596" cy="417" r="11" fill="#2f8f3a" stroke="#226d30" stroke-width="4"/>
+    <circle cx="565" cy="424" r="10" fill="#2f8f3a" stroke="#226d30" stroke-width="4"/>
+    <circle cx="535" cy="423" r="9" fill="#2f8f3a" stroke="#226d30" stroke-width="4"/>
+
+    <path d="M240 250 C250 155, 340 105, 460 128 C548 145, 613 196, 625 255 C637 310, 586 345, 502 346 L350 346 C275 346, 228 308, 240 250 Z" fill="url(#skin)" stroke="#226d30" stroke-width="7" stroke-linejoin="round"/>
+
+    <path d="M476 128 C477 82, 517 53, 558 68 C593 81, 608 119, 589 153 C561 144, 521 135, 476 128 Z" fill="#54c957" stroke="#226d30" stroke-width="7"/>
+    <circle cx="548" cy="109" r="36" fill="#f5ffd7" stroke="#226d30" stroke-width="5"/>
+    <circle cx="559" cy="111" r="14" fill="#111"/>
+    <circle cx="564" cy="105" r="4" fill="#fff"/>
+
+    <path d="M337 141 C332 94, 363 62, 405 65 C444 68, 469 101, 461 132 C419 127, 377 130, 337 141 Z" fill="#54c957" stroke="#226d30" stroke-width="7"/>
+    <circle cx="398" cy="106" r="35" fill="#f5ffd7" stroke="#226d30" stroke-width="5"/>
+    <circle cx="409" cy="108" r="14" fill="#111"/>
+    <circle cx="414" cy="102" r="4" fill="#fff"/>
+
+    <path d="M580 248 C623 255, 654 272, 670 295 C642 303, 609 307, 570 305 C532 303, 498 296, 468 285 C507 260, 546 249, 580 248 Z" fill="#61cc56" stroke="#226d30" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M463 286 C514 312, 583 323, 704 313 C716 335, 697 359, 650 370 C583 386, 505 372, 448 335 C435 323, 436 302, 463 286 Z" fill="#76d95c" stroke="#226d30" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M515 318 C574 335, 638 336, 696 320" fill="none" stroke="#164d25" stroke-width="5" stroke-linecap="round"/>
+    <path d="M662 296 C656 303, 644 309, 630 310" fill="none" stroke="#164d25" stroke-width="4" stroke-linecap="round"/>
+
+    <circle cx="545" cy="244" r="7" fill="#164d25"/>
+    <path d="M350 267 C386 295, 425 301, 461 286" fill="none" stroke="#164d25" stroke-width="5" stroke-linecap="round"/>
+
+    <circle cx="300" cy="205" r="7" fill="#2f8f3a" opacity="0.7"/>
+    <circle cx="332" cy="232" r="5" fill="#2f8f3a" opacity="0.7"/>
+    <circle cx="388" cy="196" r="6" fill="#2f8f3a" opacity="0.7"/>
+    <circle cx="468" cy="216" r="5" fill="#2f8f3a" opacity="0.7"/>
+    <circle cx="276" cy="292" r="6" fill="#2f8f3a" opacity="0.7"/>
+  </g>
+</svg>

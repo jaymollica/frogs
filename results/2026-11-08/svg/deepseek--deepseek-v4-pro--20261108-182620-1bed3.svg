@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -50 750 600" width="100%" height="100%">
+  <defs>
+    <!-- Body Gradient -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66BB6A" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+    
+    <!-- Jaw Gradient -->
+    <linearGradient id="jawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#81C784" />
+      <stop offset="100%" stop-color="#388E3C" />
+    </linearGradient>
+    
+    <!-- Belly Gradient -->
+    <lineargradient id="bellyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="0%" stop-color="#C8E6C9" />
+      <stop offset="100%" stop-color="#81C784" />
+    </linearGradient>
+    
+    <!-- Mouth Interior Gradient -->
+    <linearGradient id="mouthGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D32F2F" />
+      <stop offset="50%" stop-color="#B71C1C" />
+      <stop offset="100%" stop-color="#4A0000" />
+    </linearGradient>
+    
+    <!-- Vocal Sac Gradient -->
+    <radialGradient id="sacGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#E8F5E9" />
+      <stop offset="100%" stop-color="#A5D6A7" />
+    </radialGradient>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="180" cy="500" rx="240" ry="25" fill="rgba(0,0,0,0.15)" />
+
+  <!-- Hind Leg (Back) -->
+  <g id="hind-leg">
+    <!-- Thigh -->
+    <ellipse cx="380" cy="420" rx="70" ry="85" fill="url(#bodyGrad)" transform="rotate(-20 380 420)" />
+    <!-- Calf -->
+    <ellipse cx="470" cy="450" rx="60" ry="25" fill="url(#bodyGrad)" transform="rotate(15 470 450)" />
+    <!-- Foot -->
+    <path d="M 480,420 C 510,410 540,430 550,440 C 540,450 510,460 480,450 Z" fill="url(#bodyGrad)" />
+    <!-- Toes -->
+    <path d="M 500,420 L 520,390 C 525,385 530,390 525,395 L 510,425 Z" fill="url(#bodyGrad)" />
+    <path d="M 520,430 L 550,410 C 555,410 558,415 555,420 L 530,440 Z" fill="url(#bodyGrad)" />
+    <path d="M 540,445 L 580,440 C 585,440 588,445 585,450 L 550,455 Z" fill="url(#bodyGrad)" />
+    <!-- Toe Suction Pads -->
+    <circle cx="522" cy="387" r="6" fill="#E8F5E9" />
+    <circle cx="555" cy="407" r="6" fill="#E8F5E9" />
+    <circle cx="585" cy="440" r="6" fill="#E8F5E9" />
+  </g>
+
+  <!-- Body -->
+  <g id="body">
+    <path d="M 180,120 C 180,80 280,80 320,160 C 420,220 440,420 360,470 C 260,530 140,470 120,390 C 100,310 160,200 180,120 Z" fill="url(#bodyGrad)" />
+    <!-- Body Highlight -->
+    <path d="M 180,120 C 180,80 280,80 320,160 C 380,220 400,300 380,350" fill="none" stroke="#A5D6A7" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+    <!-- Spots -->
+    <g fill="#1B5E20" opacity="0.3">
+      <circle cx="280" cy="220" r="18" />
+      <circle cx="320" cy="260" r="14" />
+      <circle cx="360" cy="310" r="22" />
+      <circle cx="300" cy="360" r="16" />
+      <circle cx="380" cy="370" r="12" />
+      <circle cx="240" cy="300" r="10" />
+      <circle cx="170" cy="280" r="8" />
+    </g>
+  </g>
+
+  <!-- Belly -->
+  <g id="belly">
+   <path d="M 120,390 C 140,470 260,530 360,470 C 400,440 400,370 380,320 C 320,420 220,440 120,390 Z" fill="url(#bellyGrad)" />
+  </g>
+
+  <!-- Head and Eyes -->
+  <g id="head">
+    <!-- Head Dome -->
+    <path d="M 240,95 C 280,95 300,120 300,160 C 300,200 250,240 200,260 C 150,280 100,280 50,260 C 30,250 20,240 30,230 C 40,220 60,210 80,210 C 100,210 120,200 160,180 C 200,160 220,140 240,95 Z" fill="url(#bodyGrad)" />
+    
+    <!-- Eye Bump -->
+    <circle cx="240" cy="140" r="45" fill="url(#bodyGrad)" />
+    <!-- Eye Highlight -->
+    <path d="M 210,110 C 230,100 250,110 260,125" fill="none" stroke="#A5D6A7" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+    
+    <!-- Eye Rim -->
+    <circle cx="240" cy="140" r="40" fill="#81C784" />
+    <!-- Eyeball -->
+    <circle cx="240" cy="140" r="35" fill="#FFFFFF" />
+    <!-- Pupil -->
+    <ellipse cx="240" cy="140" rx="18" ry="8" fill="#000000" />
+    <!-- Pupil Highlight -->
+    <circle cx="235" cy="137" r="5" fill="#FFFFFF" />
+    <!-- Eyelid -->
+    <path d="M 200,140 C 200,110 280,110 280,140 C 280,120 200,120 200,140 Z" fill="url(#bodyGrad)" />
+    
+    <!-- Nostril -->
+    <ellipse cx="100" cy="215" rx="5" ry="3" fill="#1B5E20" />
+  </g>
+
+  <!-- Upper Jaw / Snout -->
+  <g id="upper-jaw">
+    <path d="M 160,180 C 120,200 80,220 40,240 C 80,240 120,230 160,210 Z" fill="url(#bodyGrad)" />
+  </g>
+
+  <!-- Mouth Interior -->
+  <g id="mouth-interior">
+    <!-- Main Mouth Cavity -->
+    <path d="M 160,240 C 120,255 80,270 40,280 L 40,350 C 80,320 120,280 160,260 Z" fill="url(#mouthGrad)" />
+  </g>
+
+  <!-- Tongue -->
+  <g id="tongue">
+    <path d="M 40,280 C 20,270 -10,300 -10,340 C -10,370 10,380 30,360 C 50,340 40,280 40,280 Z" fill="#F48FB1" stroke="#880E4F" stroke-width="2" />
+    <!-- Saliva -->
+    <path d="M -10,340 Q -20,350 -15,360" fill="none" stroke="#F48FB1" stroke-width="2.5" opacity="0.8" />
+  </g>
+
+  <!-- Heavily Protruding Lower Jaw -->
+  <g id="lower-jaw">
+    <!-- Jaw Skin -->
+    <path d="M 40,280 C 80,270 120,280 160,240 C 160,320 120,380 80,420 C 40,460 -10,430 -20,380 C -30,330 -10,310 40,280 Z" fill="url(#jawGrad)" />
+    <!-- Lower Lip Edge -->
+    <path d="M 160,240 C 120,280 80,320 40,340 C 0,360 -20,360 -30,350 C -30,380 -10,400 20,410 C 80,430 140,390 160,340 Z" fill="url(#jawGrad)" />
+    
+    <!-- Jaw Highlight to show bulging protrusion -->
+    <path d="M 120,380 C 100,390 60,390 40,370" fill="none" stroke="#A5D6A7" stroke-width="3" stroke-linecap="round" opacity="0.5" />
+    
+    <!-- Wrinkles / Folds on the huge jaw -->
+    <path d="M 120,370 C 100,360 80,370 60,380" fill="none" stroke="#1B5E20" stroke-width="3" opacity="0.4" />
+    <path d="M 140,340 C 120,330 100,340 80,350" fill="none" stroke="#1B5E20" stroke-width="3" opacity="0.4" />
+    <path d="M 40,340 C 20,350 0,380 10,400" fill="none" stroke="#1B5E20" stroke-width="2" opacity="0.3" />
+  </g>
+
+  <!-- Vocal Sac -->
+  <g id="vocal-sac">
+    <path d="M 160,340 C 140,390 80,430 20,410 C 0,430 20,470 60,480 C 120,490 200,460 240,410 C 260,380 200,360 160,340 Z" fill="url(#sacGrad)" />
+    <!-- Vocal Sac Stress Lines -->
+    <path d="M 80,430 C 100,450 140,450 160,420" fill="none" stroke="#81C784" stroke-width="2" opacity="0.6" />
+    <path d="M 60,440 C 80,460 120,460 140,440" fill="none" stroke="#81C784" stroke-width="2" opacity="0.6" />
+  </g>
+
+  <!-- Front Arm -->
+  <g id="front-arm">
+   <!-- Arm -->    <path d="M 200,380 C 170,390 140,420 110,450" fill="none" stroke="url(#bodyGrad)" stroke-width="16" stroke-linecap="round" />
+    <!-- Fingers -->
+    <path d="M 110,450 L 80,460 M 110,450 L 75,450 M 110,450 L 85,440" fill="none" stroke="url(#bodyGrad)" stroke-width="8" stroke-linecap="round" />
+    <!-- Finger Suction Pads -->
+    <circle cx="80" cy="460" r="5" fill="#E8F5E9" />
+    <circle cx="75" cy="450" r="5" fill="#E8F5E9" />
+    <circle cx="85" cy="440" r="5" fill="#E8F5E9" />
+  </g>
+</svg>
